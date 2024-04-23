@@ -13,7 +13,7 @@ torch.manual_seed(42)
 np.random.seed(42)
 
 # Number of nodes
-num_nodes = 50
+num_nodes = 5
 
 # Node features: [daily passengers, number of lines, accessibility score, services, delay index]
 # All features are initialized using a normal distribution for simplicity
@@ -96,13 +96,14 @@ with torch.no_grad():
     predictions = model(graph_data.x, graph_data.edge_index, graph_data.edge_attr)
     print("Predictions:", predictions)
 
-# Plot the graph
+'''
 # Plot loss curve
 plt.plot(losses)
 plt.xlabel('Epoch')
 plt.ylabel('Loss')
 plt.title('Training Loss Curve')
 plt.show()
+'''
 
 number_of_actions = 50
 
@@ -147,11 +148,31 @@ for epoch in range(1000):
     loss.backward()
     optimizer.step()
 
-
+'''
 # Plot the loss
-import matplotlib.pyplot as plt
 plt.plot(losses)
 plt.xlabel('Epoch')
 plt.ylabel('Loss')
 plt.title('Training Loss Curve')
+plt.show()
+'''
+# Show the graph
+import networkx as nx
+
+G = nx.Graph()
+for i in range(num_nodes):
+    G.add_node(i, features=nodes_features[i].numpy())
+
+for i in range(edges.size(1)):
+    src, dst = edges[:, i]
+    G.add_edge(src.item(), dst.item(), weight=edges_attr[i, 0].item())
+
+pos = nx.spring_layout(G)
+
+nx.draw(G, pos, with_labels=True, node_size=2000, node_color='skyblue', font_size=10, font_color='black')
+
+edge_labels = {(src, dst): attr['weight'] for src, dst, attr in G.edges(data=True)}
+
+nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels)
+
 plt.show()

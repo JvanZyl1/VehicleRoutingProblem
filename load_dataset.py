@@ -22,10 +22,16 @@ class Dataset():
         pos = nx.get_node_attributes(self.graph, 'pos')
         demand_labels = nx.get_node_attributes(self.graph, 'demand')
 
+        #plot depot node in red, customers in blue
+        node_colors = ['red' if node == 'D0' else 'lightblue' for node in self.graph.nodes()]
         if scale_nodes:
-            node_sizes = [v * 20 for v in demand_labels.values()]  #comment out line if dont want to scale nodes based on demand
-        nx.draw(self.graph, pos, with_labels=False, node_size=node_sizes)#change with_labels to True if want to show node ID's
-        
+            #scale_nodes by demand size, ensure depot node is visible as it has demand = 0
+            node_sizes = [v * 20 if v > 0 else 400 for v in demand_labels.values()]
+        else:
+            node_sizes = [400 for v in self.graph.nodes()]  # default size if not scaling
+
+        nx.draw(self.graph, pos, with_labels=False, node_size=node_sizes, node_color=node_colors)  #change with_labels to True if want to show node ID's
+
         if show_demand:
             nx.draw_networkx_labels(self.graph, pos, labels=demand_labels)
         plt.show()
@@ -33,5 +39,6 @@ class Dataset():
 
 dataset_path = 'dataset/0.3/40_20_0.3.txt'
 dataset = Dataset(dataset_path)
-print(dataset.graph.nodes(data=True))
+print(dataset.data)
+#print(dataset.graph.nodes)
 dataset.plot_data(show_demand=True, scale_nodes=True)

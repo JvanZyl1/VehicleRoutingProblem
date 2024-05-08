@@ -14,7 +14,10 @@ class Dataset():
     methods:
         - load_data: loads the data from the file and stores it in a dictionary
         - create_graph: creates a networkx graph object from the data
-        - plot_data: plots the data using networkx
+        - plot_data: plots the data using networkx (red for depot, light blue for customers only accesible by truck, light green for customers accesible by both, black for other nodes)
+                    if show_demand is True, the demand of each node is shown on the plot
+                    if scale_nodes is True, the size of the nodes is scaled according to the demand (default is True)
+                    if show_labels is True, the labels of the nodes are shown on the plot
     """
     def __init__(self, data_path):
         self.load_data(data_path)
@@ -28,31 +31,32 @@ class Dataset():
     def create_graph(self):
         self.graph = nx.Graph()
         for node, attributes in self.data.items():
-            self.graph.add_node(node, x=attributes['X'], y=attributes['Y'], pos=[attributes['X'], attributes['Y']], demand=attributes['Demand'])
+            self.graph.add_node(node, x=attributes['X'], y=attributes['Y'], pos=[attributes['X'], attributes['Y']], demand=attributes['Demand'], ServiceBy=attributes['ServiceBy'])
 
-    def plot_data(self, show_demand=False, scale_nodes=True):
+    def plot_data(self, show_demand=False, scale_nodes=True, show_labels=False):
         plt.figure(figsize=(10, 10))
         pos = nx.get_node_attributes(self.graph, 'pos')
         demand_labels = nx.get_node_attributes(self.graph, 'demand')
+        service_by_labels = nx.get_node_attributes(self.graph, 'ServiceBy')
 
         standard_node_size = 400
-        #plot depot node in red, customers in blue
-        node_colors = ['red' if node == 'D0' else 'lightblue' for node in self.graph.nodes()]
+        #plot depot node in red, customers only accesible by truck in light blue and customers accesible by both in light green
+        node_colors = ['red' if node == 'D0' else 'lightblue' if service_by_labels.get(node) == 'T' else 'lightgreen' if service_by_labels.get(node) == 'D/T' else '-' for node in self.graph.nodes()]
         if scale_nodes:
             #scale_nodes by demand size, ensure depot node is visible as it has demand = 0
             node_sizes = [v * 20 if v > 0 else standard_node_size for v in demand_labels.values()]
         else:
             node_sizes = standard_node_size  # default size if not scaling
 
-        nx.draw(self.graph, pos, with_labels=False, node_size=node_sizes, node_color=node_colors)  #change with_labels to True if want to show node ID's
+        nx.draw(self.graph, pos, with_labels=show_labels, node_size=node_sizes, node_color=node_colors) 
 
         if show_demand:
             nx.draw_networkx_labels(self.graph, pos, labels=demand_labels)
         plt.show()
     
 
-dataset_path = 'dataset/0.3/40_20_0.3.txt'
+dataset_path = 'dataset/0.3/80_20_0.3.txt'
 dataset = Dataset(dataset_path)
-print(dataset.data['C1'])
-#print(dataset.graph.nodes)
-dataset.plot_data(show_demand=True, scale_nodes=False)
+#print(dataset.data)
+print(dataset.graph.nodes)
+dataset.plot_data(show_demand=False, scale_nodes=True, show_labels=True)

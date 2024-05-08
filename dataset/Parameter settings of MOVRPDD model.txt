@@ -1,0 +1,10 @@
+WT	 Tare weight of trucks /1500/
+QT	 Maximum load capacity of trucks /1000/
+WD	 Tare weight of drones /25/
+QD	 Maximum load capacity of drones /5/
+CT	 Travel cost of trucks per unit distance /25/
+CD	 Travel cost of drones per unit distance /1/
+CB	 Basis cost of using a truck equipped with a drone /500/
+E	 Maximum endurance of  empty drones /0.5/
+ST	 Average travel speed of the trucks /60/
+SD	 Average travel speed of the drones /65/

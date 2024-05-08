@@ -1,4 +1,4 @@
-Tags: `Vehicle Routing Problem', 'Genetic Algorithm'
+Tags: `Vehicle Routing Problem`, `Genetic Algorithm`
 
 - Ugo Coveilers-Munzi (MSc Aerospace Engineering, Control and Simulation, TU Delft)
 - Antonio Minafra (MSc Aerospace Engineering, Control and Simulation, TU Delft)

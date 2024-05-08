@@ -1,7 +1,5 @@
-# OperationsOptimisationProject
+- Ugo Coveilers-Munzi (MSc Aerospace Engineering, Control and Simulation, TU Delft)
+- Antonio Minafra (MSc Aerospace Engineering, Control and Simulation, TU Delft)
+- Jonathan van Zyl (MSc Aerospace Engineering, Control and Simulation, TU Delft)
 
-##TODO##
-[] Make nodes class
-[] Connect different nodes to create graph, assign weights (need info on specific assignment for this)
-[] Make constraints (need info on specific assignment for this)
-[] Choose which method to optimize graph (reinforcment learning or simplex)
+Inspired from the paper :"A novel multi-objective optimization model for the vehicle routing problem with drone delivery and dynamic flight endurance" by S.Zhang, S.Liu, W.Xu & W.Wang.

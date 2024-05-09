@@ -1,6 +1,7 @@
 import pandas as pd
 import networkx as nx
 import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
 
 class Dataset():
 
@@ -19,9 +20,10 @@ class Dataset():
                     if scale_nodes is True, the size of the nodes is scaled according to the demand (default is True)
                     if show_labels is True, the labels of the nodes are shown on the plot
     """
-    def __init__(self, data_path):
+    def __init__(self, data_path, create_graph=True):
         self.load_data(data_path)
-        self.create_graph()
+        if create_graph:
+            self.create_graph()
         
     def load_data(self, data_path):
         data = pd.read_csv(data_path, sep='\t\t', engine='python')
@@ -50,13 +52,18 @@ class Dataset():
 
         nx.draw(self.graph, pos, with_labels=show_labels, node_size=node_sizes, node_color=node_colors) 
 
+        red_patch = mpatches.Patch(color='red', label='Depot')
+        blue_patch = mpatches.Patch(color='lightblue', label='Truck only')
+        green_patch = mpatches.Patch(color='lightgreen', label='Drone/Truck')
+        plt.legend(handles=[red_patch, blue_patch, green_patch])
+
         if show_demand:
             nx.draw_networkx_labels(self.graph, pos, labels=demand_labels)
         plt.show()
     
-
-dataset_path = 'dataset/0.3/80_20_0.3.txt'
-dataset = Dataset(dataset_path)
-#print(dataset.data)
-print(dataset.graph.nodes)
-dataset.plot_data(show_demand=False, scale_nodes=True, show_labels=True)
+if __name__ == '__main__':
+    dataset_path = 'dataset/0.3/80_20_0.3.txt'
+    dataset = Dataset(dataset_path)
+    #print(dataset.data)
+    print(dataset.graph.nodes)
+    dataset.plot_data(show_demand=False, scale_nodes=True, show_labels=True)

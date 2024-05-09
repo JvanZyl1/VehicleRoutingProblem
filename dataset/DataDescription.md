@@ -1,7 +1,7 @@
 # Description of data folder
 
 The data folder structure is as follows:
-* The 3 subfolders named '0.3', '0.5' and '0.7' represent the percentage of customers that can be served by drones (i.e. '0.3' means that only 30% of customers can be solved by drones). This is linked to the maximum payload capacity?
+* The 3 subfolders named '0.3', '0.5' and '0.7' represent the percentage of customers that can be served by drones (i.e. '0.3' means that only 30% of customers can be served by drones). This is linked to the maximum payload capacity?
 * The file naming inside each subfolder is as follows:
   * for example: '40_20_0.3' means that the dataset contains 40 customers, the vertical distance from the edge of the area to its center is 20km, and only 30% of customers can be served by the drone
 

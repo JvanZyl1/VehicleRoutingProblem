@@ -3,6 +3,7 @@
 get-pip.py
 gurobi.lic
 Pipfile
+Pipfile.lock
 
 # pychaches
 __pycache__/

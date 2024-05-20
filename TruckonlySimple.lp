@@ -142,6 +142,108 @@ Subject To
  Truck_leaves_depot_V2: x[V2,C1,D0] + x[V2,C2,D0] + x[V2,C3,D0]
    + x[V2,C4,D0] + x[V2,C5,D0] + x[V2,C6,D0] + x[V2,C7,D0] + x[V2,C8,D0]
    + x[V2,C9,D0] + x[V2,C10,D0] = 1
+ Flow_balance_V1_C1: - x[V1,D0,C1] + x[V1,C1,D0] + x[V1,C1,C2]
+   + x[V1,C1,C3] + x[V1,C1,C4] + x[V1,C1,C5] + x[V1,C1,C6] + x[V1,C1,C7]
+   + x[V1,C1,C8] + x[V1,C1,C9] + x[V1,C1,C10] - x[V1,C2,C1] - x[V1,C3,C1]
+   - x[V1,C4,C1] - x[V1,C5,C1] - x[V1,C6,C1] - x[V1,C7,C1] - x[V1,C8,C1]
+   - x[V1,C9,C1] - x[V1,C10,C1] = 0
+ Flow_balance_V1_C2: - x[V1,D0,C2] - x[V1,C1,C2] + x[V1,C2,D0]
+   + x[V1,C2,C1] + x[V1,C2,C3] + x[V1,C2,C4] + x[V1,C2,C5] + x[V1,C2,C6]
+   + x[V1,C2,C7] + x[V1,C2,C8] + x[V1,C2,C9] + x[V1,C2,C10] - x[V1,C3,C2]
+   - x[V1,C4,C2] - x[V1,C5,C2] - x[V1,C6,C2] - x[V1,C7,C2] - x[V1,C8,C2]
+   - x[V1,C9,C2] - x[V1,C10,C2] = 0
+ Flow_balance_V1_C3: - x[V1,D0,C3] - x[V1,C1,C3] - x[V1,C2,C3]
+   + x[V1,C3,D0] + x[V1,C3,C1] + x[V1,C3,C2] + x[V1,C3,C4] + x[V1,C3,C5]
+   + x[V1,C3,C6] + x[V1,C3,C7] + x[V1,C3,C8] + x[V1,C3,C9] + x[V1,C3,C10]
+   - x[V1,C4,C3] - x[V1,C5,C3] - x[V1,C6,C3] - x[V1,C7,C3] - x[V1,C8,C3]
+   - x[V1,C9,C3] - x[V1,C10,C3] = 0
+ Flow_balance_V1_C4: - x[V1,D0,C4] - x[V1,C1,C4] - x[V1,C2,C4]
+   - x[V1,C3,C4] + x[V1,C4,D0] + x[V1,C4,C1] + x[V1,C4,C2] + x[V1,C4,C3]
+   + x[V1,C4,C5] + x[V1,C4,C6] + x[V1,C4,C7] + x[V1,C4,C8] + x[V1,C4,C9]
+   + x[V1,C4,C10] - x[V1,C5,C4] - x[V1,C6,C4] - x[V1,C7,C4] - x[V1,C8,C4]
+   - x[V1,C9,C4] - x[V1,C10,C4] = 0
+ Flow_balance_V1_C5: - x[V1,D0,C5] - x[V1,C1,C5] - x[V1,C2,C5]
+   - x[V1,C3,C5] - x[V1,C4,C5] + x[V1,C5,D0] + x[V1,C5,C1] + x[V1,C5,C2]
+   + x[V1,C5,C3] + x[V1,C5,C4] + x[V1,C5,C6] + x[V1,C5,C7] + x[V1,C5,C8]
+   + x[V1,C5,C9] + x[V1,C5,C10] - x[V1,C6,C5] - x[V1,C7,C5] - x[V1,C8,C5]
+   - x[V1,C9,C5] - x[V1,C10,C5] = 0
+ Flow_balance_V1_C6: - x[V1,D0,C6] - x[V1,C1,C6] - x[V1,C2,C6]
+   - x[V1,C3,C6] - x[V1,C4,C6] - x[V1,C5,C6] + x[V1,C6,D0] + x[V1,C6,C1]
+   + x[V1,C6,C2] + x[V1,C6,C3] + x[V1,C6,C4] + x[V1,C6,C5] + x[V1,C6,C7]
+   + x[V1,C6,C8] + x[V1,C6,C9] + x[V1,C6,C10] - x[V1,C7,C6] - x[V1,C8,C6]
+   - x[V1,C9,C6] - x[V1,C10,C6] = 0
+ Flow_balance_V1_C7: - x[V1,D0,C7] - x[V1,C1,C7] - x[V1,C2,C7]
+   - x[V1,C3,C7] - x[V1,C4,C7] - x[V1,C5,C7] - x[V1,C6,C7] + x[V1,C7,D0]
+   + x[V1,C7,C1] + x[V1,C7,C2] + x[V1,C7,C3] + x[V1,C7,C4] + x[V1,C7,C5]
+   + x[V1,C7,C6] + x[V1,C7,C8] + x[V1,C7,C9] + x[V1,C7,C10] - x[V1,C8,C7]
+   - x[V1,C9,C7] - x[V1,C10,C7] = 0
+ Flow_balance_V1_C8: - x[V1,D0,C8] - x[V1,C1,C8] - x[V1,C2,C8]
+   - x[V1,C3,C8] - x[V1,C4,C8] - x[V1,C5,C8] - x[V1,C6,C8] - x[V1,C7,C8]
+   + x[V1,C8,D0] + x[V1,C8,C1] + x[V1,C8,C2] + x[V1,C8,C3] + x[V1,C8,C4]
+   + x[V1,C8,C5] + x[V1,C8,C6] + x[V1,C8,C7] + x[V1,C8,C9] + x[V1,C8,C10]
+   - x[V1,C9,C8] - x[V1,C10,C8] = 0
+ Flow_balance_V1_C9: - x[V1,D0,C9] - x[V1,C1,C9] - x[V1,C2,C9]
+   - x[V1,C3,C9] - x[V1,C4,C9] - x[V1,C5,C9] - x[V1,C6,C9] - x[V1,C7,C9]
+   - x[V1,C8,C9] + x[V1,C9,D0] + x[V1,C9,C1] + x[V1,C9,C2] + x[V1,C9,C3]
+   + x[V1,C9,C4] + x[V1,C9,C5] + x[V1,C9,C6] + x[V1,C9,C7] + x[V1,C9,C8]
+   + x[V1,C9,C10] - x[V1,C10,C9] = 0
+ Flow_balance_V1_C10: - x[V1,D0,C10] - x[V1,C1,C10] - x[V1,C2,C10]
+   - x[V1,C3,C10] - x[V1,C4,C10] - x[V1,C5,C10] - x[V1,C6,C10]
+   - x[V1,C7,C10] - x[V1,C8,C10] - x[V1,C9,C10] + x[V1,C10,D0]
+   + x[V1,C10,C1] + x[V1,C10,C2] + x[V1,C10,C3] + x[V1,C10,C4]
+   + x[V1,C10,C5] + x[V1,C10,C6] + x[V1,C10,C7] + x[V1,C10,C8]
+   + x[V1,C10,C9] = 0
+ Flow_balance_V2_C1: - x[V2,D0,C1] + x[V2,C1,D0] + x[V2,C1,C2]
+   + x[V2,C1,C3] + x[V2,C1,C4] + x[V2,C1,C5] + x[V2,C1,C6] + x[V2,C1,C7]
+   + x[V2,C1,C8] + x[V2,C1,C9] + x[V2,C1,C10] - x[V2,C2,C1] - x[V2,C3,C1]
+   - x[V2,C4,C1] - x[V2,C5,C1] - x[V2,C6,C1] - x[V2,C7,C1] - x[V2,C8,C1]
+   - x[V2,C9,C1] - x[V2,C10,C1] = 0
+ Flow_balance_V2_C2: - x[V2,D0,C2] - x[V2,C1,C2] + x[V2,C2,D0]
+   + x[V2,C2,C1] + x[V2,C2,C3] + x[V2,C2,C4] + x[V2,C2,C5] + x[V2,C2,C6]
+   + x[V2,C2,C7] + x[V2,C2,C8] + x[V2,C2,C9] + x[V2,C2,C10] - x[V2,C3,C2]
+   - x[V2,C4,C2] - x[V2,C5,C2] - x[V2,C6,C2] - x[V2,C7,C2] - x[V2,C8,C2]
+   - x[V2,C9,C2] - x[V2,C10,C2] = 0
+ Flow_balance_V2_C3: - x[V2,D0,C3] - x[V2,C1,C3] - x[V2,C2,C3]
+   + x[V2,C3,D0] + x[V2,C3,C1] + x[V2,C3,C2] + x[V2,C3,C4] + x[V2,C3,C5]
+   + x[V2,C3,C6] + x[V2,C3,C7] + x[V2,C3,C8] + x[V2,C3,C9] + x[V2,C3,C10]
+   - x[V2,C4,C3] - x[V2,C5,C3] - x[V2,C6,C3] - x[V2,C7,C3] - x[V2,C8,C3]
+   - x[V2,C9,C3] - x[V2,C10,C3] = 0
+ Flow_balance_V2_C4: - x[V2,D0,C4] - x[V2,C1,C4] - x[V2,C2,C4]
+   - x[V2,C3,C4] + x[V2,C4,D0] + x[V2,C4,C1] + x[V2,C4,C2] + x[V2,C4,C3]
+   + x[V2,C4,C5] + x[V2,C4,C6] + x[V2,C4,C7] + x[V2,C4,C8] + x[V2,C4,C9]
+   + x[V2,C4,C10] - x[V2,C5,C4] - x[V2,C6,C4] - x[V2,C7,C4] - x[V2,C8,C4]
+   - x[V2,C9,C4] - x[V2,C10,C4] = 0
+ Flow_balance_V2_C5: - x[V2,D0,C5] - x[V2,C1,C5] - x[V2,C2,C5]
+   - x[V2,C3,C5] - x[V2,C4,C5] + x[V2,C5,D0] + x[V2,C5,C1] + x[V2,C5,C2]
+   + x[V2,C5,C3] + x[V2,C5,C4] + x[V2,C5,C6] + x[V2,C5,C7] + x[V2,C5,C8]
+   + x[V2,C5,C9] + x[V2,C5,C10] - x[V2,C6,C5] - x[V2,C7,C5] - x[V2,C8,C5]
+   - x[V2,C9,C5] - x[V2,C10,C5] = 0
+ Flow_balance_V2_C6: - x[V2,D0,C6] - x[V2,C1,C6] - x[V2,C2,C6]
+   - x[V2,C3,C6] - x[V2,C4,C6] - x[V2,C5,C6] + x[V2,C6,D0] + x[V2,C6,C1]
+   + x[V2,C6,C2] + x[V2,C6,C3] + x[V2,C6,C4] + x[V2,C6,C5] + x[V2,C6,C7]
+   + x[V2,C6,C8] + x[V2,C6,C9] + x[V2,C6,C10] - x[V2,C7,C6] - x[V2,C8,C6]
+   - x[V2,C9,C6] - x[V2,C10,C6] = 0
+ Flow_balance_V2_C7: - x[V2,D0,C7] - x[V2,C1,C7] - x[V2,C2,C7]
+   - x[V2,C3,C7] - x[V2,C4,C7] - x[V2,C5,C7] - x[V2,C6,C7] + x[V2,C7,D0]
+   + x[V2,C7,C1] + x[V2,C7,C2] + x[V2,C7,C3] + x[V2,C7,C4] + x[V2,C7,C5]
+   + x[V2,C7,C6] + x[V2,C7,C8] + x[V2,C7,C9] + x[V2,C7,C10] - x[V2,C8,C7]
+   - x[V2,C9,C7] - x[V2,C10,C7] = 0
+ Flow_balance_V2_C8: - x[V2,D0,C8] - x[V2,C1,C8] - x[V2,C2,C8]
+   - x[V2,C3,C8] - x[V2,C4,C8] - x[V2,C5,C8] - x[V2,C6,C8] - x[V2,C7,C8]
+   + x[V2,C8,D0] + x[V2,C8,C1] + x[V2,C8,C2] + x[V2,C8,C3] + x[V2,C8,C4]
+   + x[V2,C8,C5] + x[V2,C8,C6] + x[V2,C8,C7] + x[V2,C8,C9] + x[V2,C8,C10]
+   - x[V2,C9,C8] - x[V2,C10,C8] = 0
+ Flow_balance_V2_C9: - x[V2,D0,C9] - x[V2,C1,C9] - x[V2,C2,C9]
+   - x[V2,C3,C9] - x[V2,C4,C9] - x[V2,C5,C9] - x[V2,C6,C9] - x[V2,C7,C9]
+   - x[V2,C8,C9] + x[V2,C9,D0] + x[V2,C9,C1] + x[V2,C9,C2] + x[V2,C9,C3]
+   + x[V2,C9,C4] + x[V2,C9,C5] + x[V2,C9,C6] + x[V2,C9,C7] + x[V2,C9,C8]
+   + x[V2,C9,C10] - x[V2,C10,C9] = 0
+ Flow_balance_V2_C10: - x[V2,D0,C10] - x[V2,C1,C10] - x[V2,C2,C10]
+   - x[V2,C3,C10] - x[V2,C4,C10] - x[V2,C5,C10] - x[V2,C6,C10]
+   - x[V2,C7,C10] - x[V2,C8,C10] - x[V2,C9,C10] + x[V2,C10,D0]
+   + x[V2,C10,C1] + x[V2,C10,C2] + x[V2,C10,C3] + x[V2,C10,C4]
+   + x[V2,C10,C5] + x[V2,C10,C6] + x[V2,C10,C7] + x[V2,C10,C8]
+   + x[V2,C10,C9] = 0
 Bounds
 Binaries
  x[V1,D0,C1] x[V1,D0,C2] x[V1,D0,C3] x[V1,D0,C4] x[V1,D0,C5] x[V1,D0,C6]

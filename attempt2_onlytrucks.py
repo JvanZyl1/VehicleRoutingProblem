@@ -16,7 +16,7 @@ In this script, we will implement the model for the truck-only case.
 
 """
 #define gurboi license file location
-os.environ['GRB_LICENSE_FILE'] = '/Users/ugomunzi/gurobi/licenses/gurobi.lic'
+
 ## FUNCTIONS ##
 def get_manhattan_distance(data):
     """

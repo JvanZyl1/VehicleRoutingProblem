@@ -130,6 +130,12 @@ Subject To
    + x[V2,C1,C10] + x[V2,C2,C10] + x[V2,C3,C10] + x[V2,C4,C10]
    + x[V2,C5,C10] + x[V2,C6,C10] + x[V2,C7,C10] + x[V2,C8,C10]
    + x[V2,C9,C10] = 1
+ Truck_leaves_depot: x[V1,D0,C1] + x[V1,D0,C2] + x[V1,D0,C3] + x[V1,D0,C4]
+   + x[V1,D0,C5] + x[V1,D0,C6] + x[V1,D0,C7] + x[V1,D0,C8] + x[V1,D0,C9]
+   + x[V1,D0,C10] - y[V1] = 0
+ Truck_leaves_depot: x[V2,D0,C1] + x[V2,D0,C2] + x[V2,D0,C3] + x[V2,D0,C4]
+   + x[V2,D0,C5] + x[V2,D0,C6] + x[V2,D0,C7] + x[V2,D0,C8] + x[V2,D0,C9]
+   + x[V2,D0,C10] - y[V2] = 0
 Bounds
 Binaries
  x[V1,D0,C1] x[V1,D0,C2] x[V1,D0,C3] x[V1,D0,C4] x[V1,D0,C5] x[V1,D0,C6]

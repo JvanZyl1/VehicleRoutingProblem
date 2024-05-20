@@ -1,0 +1,5 @@
+# Jonny's Gurobi Environment stuff
+/gurobi_env
+get-pip.py
+gurobi.lic
+Pipfile

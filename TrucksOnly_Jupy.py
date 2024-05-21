@@ -206,7 +206,7 @@ for vehicle in V:
 M_subtour = 60000000  # Make sure M is larger than the maximum possible travel time
 
 # Add time constraints for all vehicles, nodes, and customers
-for truck in V:
+for truck in Tr:
     for node in N:
         for customer in N:
             if node != customer:

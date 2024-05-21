@@ -12123,2405 +12123,7205 @@ Subject To
  Drone_retrieval_time_Dr10_C5_C4_C3: - t[Tr10,C3] + t[Dr10,C3]
    - 500 d_Dr10_C5_C4_C3 >= -500
  Drone_arrival_time_Dr1_D0_C1_C2: - t[Dr1,D0] + t[Dr1,C1]
-   - 500 d_Dr1_D0_C1_C2 >= -499.6178540815885
+   - 500 d_Dr1_D0_C1_C2 >= -499.6827746027463
  Drone_arrival_time_Dr1_D0_C1_C3: - t[Dr1,D0] + t[Dr1,C1]
-   - 500 d_Dr1_D0_C1_C3 >= -499.6003759162863
+   - 500 d_Dr1_D0_C1_C3 >= -499.6827746027463
  Drone_arrival_time_Dr1_D0_C1_C4: - t[Dr1,D0] + t[Dr1,C1]
-   - 500 d_Dr1_D0_C1_C4 >= -499.8100140148426
+   - 500 d_Dr1_D0_C1_C4 >= -499.6827746027463
  Drone_arrival_time_Dr1_D0_C1_C5: - t[Dr1,D0] + t[Dr1,C1]
-   - 500 d_Dr1_D0_C1_C5 >= -499.7005962532795
+   - 500 d_Dr1_D0_C1_C5 >= -499.6827746027463
  Drone_arrival_time_Dr1_D0_C2_C1: - t[Dr1,D0] + t[Dr1,C2]
-   - 500 d_Dr1_D0_C2_C1 >= -499.6827746027463
+   - 500 d_Dr1_D0_C2_C1 >= -499.6178540815885
  Drone_arrival_time_Dr1_D0_C2_C3: - t[Dr1,D0] + t[Dr1,C2]
-   - 500 d_Dr1_D0_C2_C3 >= -499.6003759162863
+   - 500 d_Dr1_D0_C2_C3 >= -499.6178540815885
  Drone_arrival_time_Dr1_D0_C2_C4: - t[Dr1,D0] + t[Dr1,C2]
-   - 500 d_Dr1_D0_C2_C4 >= -499.8100140148426
+   - 500 d_Dr1_D0_C2_C4 >= -499.6178540815885
  Drone_arrival_time_Dr1_D0_C2_C5: - t[Dr1,D0] + t[Dr1,C2]
-   - 500 d_Dr1_D0_C2_C5 >= -499.7005962532795
+   - 500 d_Dr1_D0_C2_C5 >= -499.6178540815885
  Drone_arrival_time_Dr1_D0_C3_C1: - t[Dr1,D0] + t[Dr1,C3]
-   - 500 d_Dr1_D0_C3_C1 >= -499.6827746027463
+   - 500 d_Dr1_D0_C3_C1 >= -499.6003759162863
  Drone_arrival_time_Dr1_D0_C3_C2: - t[Dr1,D0] + t[Dr1,C3]
-   - 500 d_Dr1_D0_C3_C2 >= -499.6178540815885
+   - 500 d_Dr1_D0_C3_C2 >= -499.6003759162863
  Drone_arrival_time_Dr1_D0_C3_C4: - t[Dr1,D0] + t[Dr1,C3]
-   - 500 d_Dr1_D0_C3_C4 >= -499.8100140148426
+   - 500 d_Dr1_D0_C3_C4 >= -499.6003759162863
  Drone_arrival_time_Dr1_D0_C3_C5: - t[Dr1,D0] + t[Dr1,C3]
-   - 500 d_Dr1_D0_C3_C5 >= -499.7005962532795
+   - 500 d_Dr1_D0_C3_C5 >= -499.6003759162863
  Drone_arrival_time_Dr1_D0_C4_C1: - t[Dr1,D0] + t[Dr1,C4]
-   - 500 d_Dr1_D0_C4_C1 >= -499.6827746027463
+   - 500 d_Dr1_D0_C4_C1 >= -499.8100140148426
  Drone_arrival_time_Dr1_D0_C4_C2: - t[Dr1,D0] + t[Dr1,C4]
-   - 500 d_Dr1_D0_C4_C2 >= -499.6178540815885
+   - 500 d_Dr1_D0_C4_C2 >= -499.8100140148426
  Drone_arrival_time_Dr1_D0_C4_C3: - t[Dr1,D0] + t[Dr1,C4]
-   - 500 d_Dr1_D0_C4_C3 >= -499.6003759162863
+   - 500 d_Dr1_D0_C4_C3 >= -499.8100140148426
  Drone_arrival_time_Dr1_D0_C4_C5: - t[Dr1,D0] + t[Dr1,C4]
-   - 500 d_Dr1_D0_C4_C5 >= -499.7005962532795
+   - 500 d_Dr1_D0_C4_C5 >= -499.8100140148426
  Drone_arrival_time_Dr1_D0_C5_C1: - t[Dr1,D0] + t[Dr1,C5]
-   - 500 d_Dr1_D0_C5_C1 >= -499.6827746027463
+   - 500 d_Dr1_D0_C5_C1 >= -499.7005962532795
  Drone_arrival_time_Dr1_D0_C5_C2: - t[Dr1,D0] + t[Dr1,C5]
-   - 500 d_Dr1_D0_C5_C2 >= -499.6178540815885
+   - 500 d_Dr1_D0_C5_C2 >= -499.7005962532795
  Drone_arrival_time_Dr1_D0_C5_C3: - t[Dr1,D0] + t[Dr1,C5]
-   - 500 d_Dr1_D0_C5_C3 >= -499.6003759162863
+   - 500 d_Dr1_D0_C5_C3 >= -499.7005962532795
  Drone_arrival_time_Dr1_D0_C5_C4: - t[Dr1,D0] + t[Dr1,C5]
-   - 500 d_Dr1_D0_C5_C4 >= -499.8100140148426
+   - 500 d_Dr1_D0_C5_C4 >= -499.7005962532795
  Drone_arrival_time_Dr1_C1_D0_C2: t[Dr1,D0] - t[Dr1,C1]
-   - 500 d_Dr1_C1_D0_C2 >= -499.926330339115
+   - 500 d_Dr1_C1_D0_C2 >= -499.6827746027463
  Drone_arrival_time_Dr1_C1_D0_C3: t[Dr1,D0] - t[Dr1,C1]
-   - 500 d_Dr1_C1_D0_C3 >= -499.8685537885336
+   - 500 d_Dr1_C1_D0_C3 >= -499.6827746027463
  Drone_arrival_time_Dr1_C1_D0_C4: t[Dr1,D0] - t[Dr1,C1]
-   - 500 d_Dr1_C1_D0_C4 >= -499.6689160709921
+   - 500 d_Dr1_C1_D0_C4 >= -499.6827746027463
  Drone_arrival_time_Dr1_C1_D0_C5: t[Dr1,D0] - t[Dr1,C1]
-   - 500 d_Dr1_C1_D0_C5 >= -499.9682838028799
+   - 500 d_Dr1_C1_D0_C5 >= -499.6827746027463
  Drone_arrival_time_Dr1_C1_C2_D0: - t[Dr1,C1] + t[Dr1,C2]
-   - 500 d_Dr1_C1_C2_D0 >= -499.6827746027463
+   - 500 d_Dr1_C1_C2_D0 >= -499.926330339115
  Drone_arrival_time_Dr1_C1_C2_C3: - t[Dr1,C1] + t[Dr1,C2]
-   - 500 d_Dr1_C1_C2_C3 >= -499.8685537885336
+   - 500 d_Dr1_C1_C2_C3 >= -499.926330339115
  Drone_arrival_time_Dr1_C1_C2_C4: - t[Dr1,C1] + t[Dr1,C2]
-   - 500 d_Dr1_C1_C2_C4 >= -499.6689160709921
+   - 500 d_Dr1_C1_C2_C4 >= -499.926330339115
  Drone_arrival_time_Dr1_C1_C2_C5: - t[Dr1,C1] + t[Dr1,C2]
-   - 500 d_Dr1_C1_C2_C5 >= -499.9682838028799
+   - 500 d_Dr1_C1_C2_C5 >= -499.926330339115
  Drone_arrival_time_Dr1_C1_C3_D0: - t[Dr1,C1] + t[Dr1,C3]
-   - 500 d_Dr1_C1_C3_D0 >= -499.6827746027463
+   - 500 d_Dr1_C1_C3_D0 >= -499.8685537885336
  Drone_arrival_time_Dr1_C1_C3_C2: - t[Dr1,C1] + t[Dr1,C3]
-   - 500 d_Dr1_C1_C3_C2 >= -499.926330339115
+   - 500 d_Dr1_C1_C3_C2 >= -499.8685537885336
  Drone_arrival_time_Dr1_C1_C3_C4: - t[Dr1,C1] + t[Dr1,C3]
-   - 500 d_Dr1_C1_C3_C4 >= -499.6689160709921
+   - 500 d_Dr1_C1_C3_C4 >= -499.8685537885336
  Drone_arrival_time_Dr1_C1_C3_C5: - t[Dr1,C1] + t[Dr1,C3]
-   - 500 d_Dr1_C1_C3_C5 >= -499.9682838028799
+   - 500 d_Dr1_C1_C3_C5 >= -499.8685537885336
  Drone_arrival_time_Dr1_C1_C4_D0: - t[Dr1,C1] + t[Dr1,C4]
-   - 500 d_Dr1_C1_C4_D0 >= -499.6827746027463
+   - 500 d_Dr1_C1_C4_D0 >= -499.6689160709921
  Drone_arrival_time_Dr1_C1_C4_C2: - t[Dr1,C1] + t[Dr1,C4]
-   - 500 d_Dr1_C1_C4_C2 >= -499.926330339115
+   - 500 d_Dr1_C1_C4_C2 >= -499.6689160709921
  Drone_arrival_time_Dr1_C1_C4_C3: - t[Dr1,C1] + t[Dr1,C4]
-   - 500 d_Dr1_C1_C4_C3 >= -499.8685537885336
+   - 500 d_Dr1_C1_C4_C3 >= -499.6689160709921
  Drone_arrival_time_Dr1_C1_C4_C5: - t[Dr1,C1] + t[Dr1,C4]
-   - 500 d_Dr1_C1_C4_C5 >= -499.9682838028799
+   - 500 d_Dr1_C1_C4_C5 >= -499.6689160709921
  Drone_arrival_time_Dr1_C1_C5_D0: - t[Dr1,C1] + t[Dr1,C5]
-   - 500 d_Dr1_C1_C5_D0 >= -499.6827746027463
+   - 500 d_Dr1_C1_C5_D0 >= -499.9682838028799
  Drone_arrival_time_Dr1_C1_C5_C2: - t[Dr1,C1] + t[Dr1,C5]
-   - 500 d_Dr1_C1_C5_C2 >= -499.926330339115
+   - 500 d_Dr1_C1_C5_C2 >= -499.9682838028799
  Drone_arrival_time_Dr1_C1_C5_C3: - t[Dr1,C1] + t[Dr1,C5]
-   - 500 d_Dr1_C1_C5_C3 >= -499.8685537885336
+   - 500 d_Dr1_C1_C5_C3 >= -499.9682838028799
  Drone_arrival_time_Dr1_C1_C5_C4: - t[Dr1,C1] + t[Dr1,C5]
-   - 500 d_Dr1_C1_C5_C4 >= -499.6689160709921
+   - 500 d_Dr1_C1_C5_C4 >= -499.9682838028799
  Drone_arrival_time_Dr1_C2_D0_C1: t[Dr1,D0] - t[Dr1,C2]
-   - 500 d_Dr1_C2_D0_C1 >= -499.926330339115
+   - 500 d_Dr1_C2_D0_C1 >= -499.6178540815885
  Drone_arrival_time_Dr1_C2_D0_C3: t[Dr1,D0] - t[Dr1,C2]
-   - 500 d_Dr1_C2_D0_C3 >= -499.9243646242875
+   - 500 d_Dr1_C2_D0_C3 >= -499.6178540815885
  Drone_arrival_time_Dr1_C2_D0_C4: t[Dr1,D0] - t[Dr1,C2]
-   - 500 d_Dr1_C2_D0_C4 >= -499.6318927349537
+   - 500 d_Dr1_C2_D0_C4 >= -499.6178540815885
  Drone_arrival_time_Dr1_C2_D0_C5: t[Dr1,D0] - t[Dr1,C2]
-   - 500 d_Dr1_C2_D0_C5 >= -499.8962707210397
+   - 500 d_Dr1_C2_D0_C5 >= -499.6178540815885
  Drone_arrival_time_Dr1_C2_C1_D0: t[Dr1,C1] - t[Dr1,C2]
-   - 500 d_Dr1_C2_C1_D0 >= -499.6178540815885
+   - 500 d_Dr1_C2_C1_D0 >= -499.926330339115
  Drone_arrival_time_Dr1_C2_C1_C3: t[Dr1,C1] - t[Dr1,C2]
-   - 500 d_Dr1_C2_C1_C3 >= -499.9243646242875
+   - 500 d_Dr1_C2_C1_C3 >= -499.926330339115
  Drone_arrival_time_Dr1_C2_C1_C4: t[Dr1,C1] - t[Dr1,C2]
-   - 500 d_Dr1_C2_C1_C4 >= -499.6318927349537
+   - 500 d_Dr1_C2_C1_C4 >= -499.926330339115
  Drone_arrival_time_Dr1_C2_C1_C5: t[Dr1,C1] - t[Dr1,C2]
-   - 500 d_Dr1_C2_C1_C5 >= -499.8962707210397
+   - 500 d_Dr1_C2_C1_C5 >= -499.926330339115
  Drone_arrival_time_Dr1_C2_C3_D0: - t[Dr1,C2] + t[Dr1,C3]
-   - 500 d_Dr1_C2_C3_D0 >= -499.6178540815885
+   - 500 d_Dr1_C2_C3_D0 >= -499.9243646242875
  Drone_arrival_time_Dr1_C2_C3_C1: - t[Dr1,C2] + t[Dr1,C3]
-   - 500 d_Dr1_C2_C3_C1 >= -499.926330339115
+   - 500 d_Dr1_C2_C3_C1 >= -499.9243646242875
  Drone_arrival_time_Dr1_C2_C3_C4: - t[Dr1,C2] + t[Dr1,C3]
-   - 500 d_Dr1_C2_C3_C4 >= -499.6318927349537
+   - 500 d_Dr1_C2_C3_C4 >= -499.9243646242875
  Drone_arrival_time_Dr1_C2_C3_C5: - t[Dr1,C2] + t[Dr1,C3]
-   - 500 d_Dr1_C2_C3_C5 >= -499.8962707210397
+   - 500 d_Dr1_C2_C3_C5 >= -499.9243646242875
  Drone_arrival_time_Dr1_C2_C4_D0: - t[Dr1,C2] + t[Dr1,C4]
-   - 500 d_Dr1_C2_C4_D0 >= -499.6178540815885
+   - 500 d_Dr1_C2_C4_D0 >= -499.6318927349537
  Drone_arrival_time_Dr1_C2_C4_C1: - t[Dr1,C2] + t[Dr1,C4]
-   - 500 d_Dr1_C2_C4_C1 >= -499.926330339115
+   - 500 d_Dr1_C2_C4_C1 >= -499.6318927349537
  Drone_arrival_time_Dr1_C2_C4_C3: - t[Dr1,C2] + t[Dr1,C4]
-   - 500 d_Dr1_C2_C4_C3 >= -499.9243646242875
+   - 500 d_Dr1_C2_C4_C3 >= -499.6318927349537
  Drone_arrival_time_Dr1_C2_C4_C5: - t[Dr1,C2] + t[Dr1,C4]
-   - 500 d_Dr1_C2_C4_C5 >= -499.8962707210397
+   - 500 d_Dr1_C2_C4_C5 >= -499.6318927349537
  Drone_arrival_time_Dr1_C2_C5_D0: - t[Dr1,C2] + t[Dr1,C5]
-   - 500 d_Dr1_C2_C5_D0 >= -499.6178540815885
+   - 500 d_Dr1_C2_C5_D0 >= -499.8962707210397
  Drone_arrival_time_Dr1_C2_C5_C1: - t[Dr1,C2] + t[Dr1,C5]
-   - 500 d_Dr1_C2_C5_C1 >= -499.926330339115
+   - 500 d_Dr1_C2_C5_C1 >= -499.8962707210397
  Drone_arrival_time_Dr1_C2_C5_C3: - t[Dr1,C2] + t[Dr1,C5]
-   - 500 d_Dr1_C2_C5_C3 >= -499.9243646242875
+   - 500 d_Dr1_C2_C5_C3 >= -499.8962707210397
  Drone_arrival_time_Dr1_C2_C5_C4: - t[Dr1,C2] + t[Dr1,C5]
-   - 500 d_Dr1_C2_C5_C4 >= -499.6318927349537
+   - 500 d_Dr1_C2_C5_C4 >= -499.8962707210397
  Drone_arrival_time_Dr1_C3_D0_C1: t[Dr1,D0] - t[Dr1,C3]
-   - 500 d_Dr1_C3_D0_C1 >= -499.8685537885336
+   - 500 d_Dr1_C3_D0_C1 >= -499.6003759162863
  Drone_arrival_time_Dr1_C3_D0_C2: t[Dr1,D0] - t[Dr1,C3]
-   - 500 d_Dr1_C3_D0_C2 >= -499.9243646242875
+   - 500 d_Dr1_C3_D0_C2 >= -499.6003759162863
  Drone_arrival_time_Dr1_C3_D0_C4: t[Dr1,D0] - t[Dr1,C3]
-   - 500 d_Dr1_C3_D0_C4 >= -499.6522362224578
+   - 500 d_Dr1_C3_D0_C4 >= -499.6003759162863
  Drone_arrival_time_Dr1_C3_D0_C5: t[Dr1,D0] - t[Dr1,C3]
-   - 500 d_Dr1_C3_D0_C5 >= -499.8370029223045
+   - 500 d_Dr1_C3_D0_C5 >= -499.6003759162863
  Drone_arrival_time_Dr1_C3_C1_D0: t[Dr1,C1] - t[Dr1,C3]
-   - 500 d_Dr1_C3_C1_D0 >= -499.6003759162863
+   - 500 d_Dr1_C3_C1_D0 >= -499.8685537885336
  Drone_arrival_time_Dr1_C3_C1_C2: t[Dr1,C1] - t[Dr1,C3]
-   - 500 d_Dr1_C3_C1_C2 >= -499.9243646242875
+   - 500 d_Dr1_C3_C1_C2 >= -499.8685537885336
  Drone_arrival_time_Dr1_C3_C1_C4: t[Dr1,C1] - t[Dr1,C3]
-   - 500 d_Dr1_C3_C1_C4 >= -499.6522362224578
+   - 500 d_Dr1_C3_C1_C4 >= -499.8685537885336
  Drone_arrival_time_Dr1_C3_C1_C5: t[Dr1,C1] - t[Dr1,C3]
-   - 500 d_Dr1_C3_C1_C5 >= -499.8370029223045
+   - 500 d_Dr1_C3_C1_C5 >= -499.8685537885336
  Drone_arrival_time_Dr1_C3_C2_D0: t[Dr1,C2] - t[Dr1,C3]
-   - 500 d_Dr1_C3_C2_D0 >= -499.6003759162863
+   - 500 d_Dr1_C3_C2_D0 >= -499.9243646242875
  Drone_arrival_time_Dr1_C3_C2_C1: t[Dr1,C2] - t[Dr1,C3]
-   - 500 d_Dr1_C3_C2_C1 >= -499.8685537885336
+   - 500 d_Dr1_C3_C2_C1 >= -499.9243646242875
  Drone_arrival_time_Dr1_C3_C2_C4: t[Dr1,C2] - t[Dr1,C3]
-   - 500 d_Dr1_C3_C2_C4 >= -499.6522362224578
+   - 500 d_Dr1_C3_C2_C4 >= -499.9243646242875
  Drone_arrival_time_Dr1_C3_C2_C5: t[Dr1,C2] - t[Dr1,C3]
-   - 500 d_Dr1_C3_C2_C5 >= -499.8370029223045
+   - 500 d_Dr1_C3_C2_C5 >= -499.9243646242875
  Drone_arrival_time_Dr1_C3_C4_D0: - t[Dr1,C3] + t[Dr1,C4]
-   - 500 d_Dr1_C3_C4_D0 >= -499.6003759162863
+   - 500 d_Dr1_C3_C4_D0 >= -499.6522362224578
  Drone_arrival_time_Dr1_C3_C4_C1: - t[Dr1,C3] + t[Dr1,C4]
-   - 500 d_Dr1_C3_C4_C1 >= -499.8685537885336
+   - 500 d_Dr1_C3_C4_C1 >= -499.6522362224578
  Drone_arrival_time_Dr1_C3_C4_C2: - t[Dr1,C3] + t[Dr1,C4]
-   - 500 d_Dr1_C3_C4_C2 >= -499.9243646242875
+   - 500 d_Dr1_C3_C4_C2 >= -499.6522362224578
  Drone_arrival_time_Dr1_C3_C4_C5: - t[Dr1,C3] + t[Dr1,C4]
-   - 500 d_Dr1_C3_C4_C5 >= -499.8370029223045
+   - 500 d_Dr1_C3_C4_C5 >= -499.6522362224578
  Drone_arrival_time_Dr1_C3_C5_D0: - t[Dr1,C3] + t[Dr1,C5]
-   - 500 d_Dr1_C3_C5_D0 >= -499.6003759162863
+   - 500 d_Dr1_C3_C5_D0 >= -499.8370029223045
  Drone_arrival_time_Dr1_C3_C5_C1: - t[Dr1,C3] + t[Dr1,C5]
-   - 500 d_Dr1_C3_C5_C1 >= -499.8685537885336
+   - 500 d_Dr1_C3_C5_C1 >= -499.8370029223045
  Drone_arrival_time_Dr1_C3_C5_C2: - t[Dr1,C3] + t[Dr1,C5]
-   - 500 d_Dr1_C3_C5_C2 >= -499.9243646242875
+   - 500 d_Dr1_C3_C5_C2 >= -499.8370029223045
  Drone_arrival_time_Dr1_C3_C5_C4: - t[Dr1,C3] + t[Dr1,C5]
-   - 500 d_Dr1_C3_C5_C4 >= -499.6522362224578
+   - 500 d_Dr1_C3_C5_C4 >= -499.8370029223045
  Drone_arrival_time_Dr1_C4_D0_C1: t[Dr1,D0] - t[Dr1,C4]
-   - 500 d_Dr1_C4_D0_C1 >= -499.6689160709921
+   - 500 d_Dr1_C4_D0_C1 >= -499.8100140148426
  Drone_arrival_time_Dr1_C4_D0_C2: t[Dr1,D0] - t[Dr1,C4]
-   - 500 d_Dr1_C4_D0_C2 >= -499.6318927349537
+   - 500 d_Dr1_C4_D0_C2 >= -499.8100140148426
  Drone_arrival_time_Dr1_C4_D0_C3: t[Dr1,D0] - t[Dr1,C4]
-   - 500 d_Dr1_C4_D0_C3 >= -499.6522362224578
+   - 500 d_Dr1_C4_D0_C3 >= -499.8100140148426
  Drone_arrival_time_Dr1_C4_D0_C5: t[Dr1,D0] - t[Dr1,C4]
-   - 500 d_Dr1_C4_D0_C5 >= -499.6688338696105
+   - 500 d_Dr1_C4_D0_C5 >= -499.8100140148426
  Drone_arrival_time_Dr1_C4_C1_D0: t[Dr1,C1] - t[Dr1,C4]
-   - 500 d_Dr1_C4_C1_D0 >= -499.8100140148426
+   - 500 d_Dr1_C4_C1_D0 >= -499.6689160709921
  Drone_arrival_time_Dr1_C4_C1_C2: t[Dr1,C1] - t[Dr1,C4]
-   - 500 d_Dr1_C4_C1_C2 >= -499.6318927349537
+   - 500 d_Dr1_C4_C1_C2 >= -499.6689160709921
  Drone_arrival_time_Dr1_C4_C1_C3: t[Dr1,C1] - t[Dr1,C4]
-   - 500 d_Dr1_C4_C1_C3 >= -499.6522362224578
+   - 500 d_Dr1_C4_C1_C3 >= -499.6689160709921
  Drone_arrival_time_Dr1_C4_C1_C5: t[Dr1,C1] - t[Dr1,C4]
-   - 500 d_Dr1_C4_C1_C5 >= -499.6688338696105
+   - 500 d_Dr1_C4_C1_C5 >= -499.6689160709921
  Drone_arrival_time_Dr1_C4_C2_D0: t[Dr1,C2] - t[Dr1,C4]
-   - 500 d_Dr1_C4_C2_D0 >= -499.8100140148426
+   - 500 d_Dr1_C4_C2_D0 >= -499.6318927349537
  Drone_arrival_time_Dr1_C4_C2_C1: t[Dr1,C2] - t[Dr1,C4]
-   - 500 d_Dr1_C4_C2_C1 >= -499.6689160709921
+   - 500 d_Dr1_C4_C2_C1 >= -499.6318927349537
  Drone_arrival_time_Dr1_C4_C2_C3: t[Dr1,C2] - t[Dr1,C4]
-   - 500 d_Dr1_C4_C2_C3 >= -499.6522362224578
+   - 500 d_Dr1_C4_C2_C3 >= -499.6318927349537
  Drone_arrival_time_Dr1_C4_C2_C5: t[Dr1,C2] - t[Dr1,C4]
-   - 500 d_Dr1_C4_C2_C5 >= -499.6688338696105
+   - 500 d_Dr1_C4_C2_C5 >= -499.6318927349537
  Drone_arrival_time_Dr1_C4_C3_D0: t[Dr1,C3] - t[Dr1,C4]
-   - 500 d_Dr1_C4_C3_D0 >= -499.8100140148426
+   - 500 d_Dr1_C4_C3_D0 >= -499.6522362224578
  Drone_arrival_time_Dr1_C4_C3_C1: t[Dr1,C3] - t[Dr1,C4]
-   - 500 d_Dr1_C4_C3_C1 >= -499.6689160709921
+   - 500 d_Dr1_C4_C3_C1 >= -499.6522362224578
  Drone_arrival_time_Dr1_C4_C3_C2: t[Dr1,C3] - t[Dr1,C4]
-   - 500 d_Dr1_C4_C3_C2 >= -499.6318927349537
+   - 500 d_Dr1_C4_C3_C2 >= -499.6522362224578
  Drone_arrival_time_Dr1_C4_C3_C5: t[Dr1,C3] - t[Dr1,C4]
-   - 500 d_Dr1_C4_C3_C5 >= -499.6688338696105
+   - 500 d_Dr1_C4_C3_C5 >= -499.6522362224578
  Drone_arrival_time_Dr1_C4_C5_D0: - t[Dr1,C4] + t[Dr1,C5]
-   - 500 d_Dr1_C4_C5_D0 >= -499.8100140148426
+   - 500 d_Dr1_C4_C5_D0 >= -499.6688338696105
  Drone_arrival_time_Dr1_C4_C5_C1: - t[Dr1,C4] + t[Dr1,C5]
-   - 500 d_Dr1_C4_C5_C1 >= -499.6689160709921
+   - 500 d_Dr1_C4_C5_C1 >= -499.6688338696105
  Drone_arrival_time_Dr1_C4_C5_C2: - t[Dr1,C4] + t[Dr1,C5]
-   - 500 d_Dr1_C4_C5_C2 >= -499.6318927349537
+   - 500 d_Dr1_C4_C5_C2 >= -499.6688338696105
  Drone_arrival_time_Dr1_C4_C5_C3: - t[Dr1,C4] + t[Dr1,C5]
-   - 500 d_Dr1_C4_C5_C3 >= -499.6522362224578
+   - 500 d_Dr1_C4_C5_C3 >= -499.6688338696105
  Drone_arrival_time_Dr1_C5_D0_C1: t[Dr1,D0] - t[Dr1,C5]
-   - 500 d_Dr1_C5_D0_C1 >= -499.9682838028799
+   - 500 d_Dr1_C5_D0_C1 >= -499.7005962532795
  Drone_arrival_time_Dr1_C5_D0_C2: t[Dr1,D0] - t[Dr1,C5]
-   - 500 d_Dr1_C5_D0_C2 >= -499.8962707210397
+   - 500 d_Dr1_C5_D0_C2 >= -499.7005962532795
  Drone_arrival_time_Dr1_C5_D0_C3: t[Dr1,D0] - t[Dr1,C5]
-   - 500 d_Dr1_C5_D0_C3 >= -499.8370029223045
+   - 500 d_Dr1_C5_D0_C3 >= -499.7005962532795
  Drone_arrival_time_Dr1_C5_D0_C4: t[Dr1,D0] - t[Dr1,C5]
-   - 500 d_Dr1_C5_D0_C4 >= -499.6688338696105
+   - 500 d_Dr1_C5_D0_C4 >= -499.7005962532795
  Drone_arrival_time_Dr1_C5_C1_D0: t[Dr1,C1] - t[Dr1,C5]
-   - 500 d_Dr1_C5_C1_D0 >= -499.7005962532795
+   - 500 d_Dr1_C5_C1_D0 >= -499.9682838028799
  Drone_arrival_time_Dr1_C5_C1_C2: t[Dr1,C1] - t[Dr1,C5]
-   - 500 d_Dr1_C5_C1_C2 >= -499.8962707210397
+   - 500 d_Dr1_C5_C1_C2 >= -499.9682838028799
  Drone_arrival_time_Dr1_C5_C1_C3: t[Dr1,C1] - t[Dr1,C5]
-   - 500 d_Dr1_C5_C1_C3 >= -499.8370029223045
+   - 500 d_Dr1_C5_C1_C3 >= -499.9682838028799
  Drone_arrival_time_Dr1_C5_C1_C4: t[Dr1,C1] - t[Dr1,C5]
-   - 500 d_Dr1_C5_C1_C4 >= -499.6688338696105
+   - 500 d_Dr1_C5_C1_C4 >= -499.9682838028799
  Drone_arrival_time_Dr1_C5_C2_D0: t[Dr1,C2] - t[Dr1,C5]
-   - 500 d_Dr1_C5_C2_D0 >= -499.7005962532795
+   - 500 d_Dr1_C5_C2_D0 >= -499.8962707210397
  Drone_arrival_time_Dr1_C5_C2_C1: t[Dr1,C2] - t[Dr1,C5]
-   - 500 d_Dr1_C5_C2_C1 >= -499.9682838028799
+   - 500 d_Dr1_C5_C2_C1 >= -499.8962707210397
  Drone_arrival_time_Dr1_C5_C2_C3: t[Dr1,C2] - t[Dr1,C5]
-   - 500 d_Dr1_C5_C2_C3 >= -499.8370029223045
+   - 500 d_Dr1_C5_C2_C3 >= -499.8962707210397
  Drone_arrival_time_Dr1_C5_C2_C4: t[Dr1,C2] - t[Dr1,C5]
-   - 500 d_Dr1_C5_C2_C4 >= -499.6688338696105
+   - 500 d_Dr1_C5_C2_C4 >= -499.8962707210397
  Drone_arrival_time_Dr1_C5_C3_D0: t[Dr1,C3] - t[Dr1,C5]
-   - 500 d_Dr1_C5_C3_D0 >= -499.7005962532795
+   - 500 d_Dr1_C5_C3_D0 >= -499.8370029223045
  Drone_arrival_time_Dr1_C5_C3_C1: t[Dr1,C3] - t[Dr1,C5]
-   - 500 d_Dr1_C5_C3_C1 >= -499.9682838028799
+   - 500 d_Dr1_C5_C3_C1 >= -499.8370029223045
  Drone_arrival_time_Dr1_C5_C3_C2: t[Dr1,C3] - t[Dr1,C5]
-   - 500 d_Dr1_C5_C3_C2 >= -499.8962707210397
+   - 500 d_Dr1_C5_C3_C2 >= -499.8370029223045
  Drone_arrival_time_Dr1_C5_C3_C4: t[Dr1,C3] - t[Dr1,C5]
-   - 500 d_Dr1_C5_C3_C4 >= -499.6688338696105
+   - 500 d_Dr1_C5_C3_C4 >= -499.8370029223045
  Drone_arrival_time_Dr1_C5_C4_D0: t[Dr1,C4] - t[Dr1,C5]
-   - 500 d_Dr1_C5_C4_D0 >= -499.7005962532795
+   - 500 d_Dr1_C5_C4_D0 >= -499.6688338696105
  Drone_arrival_time_Dr1_C5_C4_C1: t[Dr1,C4] - t[Dr1,C5]
-   - 500 d_Dr1_C5_C4_C1 >= -499.9682838028799
+   - 500 d_Dr1_C5_C4_C1 >= -499.6688338696105
  Drone_arrival_time_Dr1_C5_C4_C2: t[Dr1,C4] - t[Dr1,C5]
-   - 500 d_Dr1_C5_C4_C2 >= -499.8962707210397
+   - 500 d_Dr1_C5_C4_C2 >= -499.6688338696105
  Drone_arrival_time_Dr1_C5_C4_C3: t[Dr1,C4] - t[Dr1,C5]
-   - 500 d_Dr1_C5_C4_C3 >= -499.8370029223045
+   - 500 d_Dr1_C5_C4_C3 >= -499.6688338696105
  Drone_arrival_time_Dr2_D0_C1_C2: - t[Dr2,D0] + t[Dr2,C1]
-   - 500 d_Dr2_D0_C1_C2 >= -499.6178540815885
+   - 500 d_Dr2_D0_C1_C2 >= -499.6827746027463
  Drone_arrival_time_Dr2_D0_C1_C3: - t[Dr2,D0] + t[Dr2,C1]
-   - 500 d_Dr2_D0_C1_C3 >= -499.6003759162863
+   - 500 d_Dr2_D0_C1_C3 >= -499.6827746027463
  Drone_arrival_time_Dr2_D0_C1_C4: - t[Dr2,D0] + t[Dr2,C1]
-   - 500 d_Dr2_D0_C1_C4 >= -499.8100140148426
+   - 500 d_Dr2_D0_C1_C4 >= -499.6827746027463
  Drone_arrival_time_Dr2_D0_C1_C5: - t[Dr2,D0] + t[Dr2,C1]
-   - 500 d_Dr2_D0_C1_C5 >= -499.7005962532795
+   - 500 d_Dr2_D0_C1_C5 >= -499.6827746027463
  Drone_arrival_time_Dr2_D0_C2_C1: - t[Dr2,D0] + t[Dr2,C2]
-   - 500 d_Dr2_D0_C2_C1 >= -499.6827746027463
+   - 500 d_Dr2_D0_C2_C1 >= -499.6178540815885
  Drone_arrival_time_Dr2_D0_C2_C3: - t[Dr2,D0] + t[Dr2,C2]
-   - 500 d_Dr2_D0_C2_C3 >= -499.6003759162863
+   - 500 d_Dr2_D0_C2_C3 >= -499.6178540815885
  Drone_arrival_time_Dr2_D0_C2_C4: - t[Dr2,D0] + t[Dr2,C2]
-   - 500 d_Dr2_D0_C2_C4 >= -499.8100140148426
+   - 500 d_Dr2_D0_C2_C4 >= -499.6178540815885
  Drone_arrival_time_Dr2_D0_C2_C5: - t[Dr2,D0] + t[Dr2,C2]
-   - 500 d_Dr2_D0_C2_C5 >= -499.7005962532795
+   - 500 d_Dr2_D0_C2_C5 >= -499.6178540815885
  Drone_arrival_time_Dr2_D0_C3_C1: - t[Dr2,D0] + t[Dr2,C3]
-   - 500 d_Dr2_D0_C3_C1 >= -499.6827746027463
+   - 500 d_Dr2_D0_C3_C1 >= -499.6003759162863
  Drone_arrival_time_Dr2_D0_C3_C2: - t[Dr2,D0] + t[Dr2,C3]
-   - 500 d_Dr2_D0_C3_C2 >= -499.6178540815885
+   - 500 d_Dr2_D0_C3_C2 >= -499.6003759162863
  Drone_arrival_time_Dr2_D0_C3_C4: - t[Dr2,D0] + t[Dr2,C3]
-   - 500 d_Dr2_D0_C3_C4 >= -499.8100140148426
+   - 500 d_Dr2_D0_C3_C4 >= -499.6003759162863
  Drone_arrival_time_Dr2_D0_C3_C5: - t[Dr2,D0] + t[Dr2,C3]
-   - 500 d_Dr2_D0_C3_C5 >= -499.7005962532795
+   - 500 d_Dr2_D0_C3_C5 >= -499.6003759162863
  Drone_arrival_time_Dr2_D0_C4_C1: - t[Dr2,D0] + t[Dr2,C4]
-   - 500 d_Dr2_D0_C4_C1 >= -499.6827746027463
+   - 500 d_Dr2_D0_C4_C1 >= -499.8100140148426
  Drone_arrival_time_Dr2_D0_C4_C2: - t[Dr2,D0] + t[Dr2,C4]
-   - 500 d_Dr2_D0_C4_C2 >= -499.6178540815885
+   - 500 d_Dr2_D0_C4_C2 >= -499.8100140148426
  Drone_arrival_time_Dr2_D0_C4_C3: - t[Dr2,D0] + t[Dr2,C4]
-   - 500 d_Dr2_D0_C4_C3 >= -499.6003759162863
+   - 500 d_Dr2_D0_C4_C3 >= -499.8100140148426
  Drone_arrival_time_Dr2_D0_C4_C5: - t[Dr2,D0] + t[Dr2,C4]
-   - 500 d_Dr2_D0_C4_C5 >= -499.7005962532795
+   - 500 d_Dr2_D0_C4_C5 >= -499.8100140148426
  Drone_arrival_time_Dr2_D0_C5_C1: - t[Dr2,D0] + t[Dr2,C5]
-   - 500 d_Dr2_D0_C5_C1 >= -499.6827746027463
+   - 500 d_Dr2_D0_C5_C1 >= -499.7005962532795
  Drone_arrival_time_Dr2_D0_C5_C2: - t[Dr2,D0] + t[Dr2,C5]
-   - 500 d_Dr2_D0_C5_C2 >= -499.6178540815885
+   - 500 d_Dr2_D0_C5_C2 >= -499.7005962532795
  Drone_arrival_time_Dr2_D0_C5_C3: - t[Dr2,D0] + t[Dr2,C5]
-   - 500 d_Dr2_D0_C5_C3 >= -499.6003759162863
+   - 500 d_Dr2_D0_C5_C3 >= -499.7005962532795
  Drone_arrival_time_Dr2_D0_C5_C4: - t[Dr2,D0] + t[Dr2,C5]
-   - 500 d_Dr2_D0_C5_C4 >= -499.8100140148426
+   - 500 d_Dr2_D0_C5_C4 >= -499.7005962532795
  Drone_arrival_time_Dr2_C1_D0_C2: t[Dr2,D0] - t[Dr2,C1]
-   - 500 d_Dr2_C1_D0_C2 >= -499.926330339115
+   - 500 d_Dr2_C1_D0_C2 >= -499.6827746027463
  Drone_arrival_time_Dr2_C1_D0_C3: t[Dr2,D0] - t[Dr2,C1]
-   - 500 d_Dr2_C1_D0_C3 >= -499.8685537885336
+   - 500 d_Dr2_C1_D0_C3 >= -499.6827746027463
  Drone_arrival_time_Dr2_C1_D0_C4: t[Dr2,D0] - t[Dr2,C1]
-   - 500 d_Dr2_C1_D0_C4 >= -499.6689160709921
+   - 500 d_Dr2_C1_D0_C4 >= -499.6827746027463
  Drone_arrival_time_Dr2_C1_D0_C5: t[Dr2,D0] - t[Dr2,C1]
-   - 500 d_Dr2_C1_D0_C5 >= -499.9682838028799
+   - 500 d_Dr2_C1_D0_C5 >= -499.6827746027463
  Drone_arrival_time_Dr2_C1_C2_D0: - t[Dr2,C1] + t[Dr2,C2]
-   - 500 d_Dr2_C1_C2_D0 >= -499.6827746027463
+   - 500 d_Dr2_C1_C2_D0 >= -499.926330339115
  Drone_arrival_time_Dr2_C1_C2_C3: - t[Dr2,C1] + t[Dr2,C2]
-   - 500 d_Dr2_C1_C2_C3 >= -499.8685537885336
+   - 500 d_Dr2_C1_C2_C3 >= -499.926330339115
  Drone_arrival_time_Dr2_C1_C2_C4: - t[Dr2,C1] + t[Dr2,C2]
-   - 500 d_Dr2_C1_C2_C4 >= -499.6689160709921
+   - 500 d_Dr2_C1_C2_C4 >= -499.926330339115
  Drone_arrival_time_Dr2_C1_C2_C5: - t[Dr2,C1] + t[Dr2,C2]
-   - 500 d_Dr2_C1_C2_C5 >= -499.9682838028799
+   - 500 d_Dr2_C1_C2_C5 >= -499.926330339115
  Drone_arrival_time_Dr2_C1_C3_D0: - t[Dr2,C1] + t[Dr2,C3]
-   - 500 d_Dr2_C1_C3_D0 >= -499.6827746027463
+   - 500 d_Dr2_C1_C3_D0 >= -499.8685537885336
  Drone_arrival_time_Dr2_C1_C3_C2: - t[Dr2,C1] + t[Dr2,C3]
-   - 500 d_Dr2_C1_C3_C2 >= -499.926330339115
+   - 500 d_Dr2_C1_C3_C2 >= -499.8685537885336
  Drone_arrival_time_Dr2_C1_C3_C4: - t[Dr2,C1] + t[Dr2,C3]
-   - 500 d_Dr2_C1_C3_C4 >= -499.6689160709921
+   - 500 d_Dr2_C1_C3_C4 >= -499.8685537885336
  Drone_arrival_time_Dr2_C1_C3_C5: - t[Dr2,C1] + t[Dr2,C3]
-   - 500 d_Dr2_C1_C3_C5 >= -499.9682838028799
+   - 500 d_Dr2_C1_C3_C5 >= -499.8685537885336
  Drone_arrival_time_Dr2_C1_C4_D0: - t[Dr2,C1] + t[Dr2,C4]
-   - 500 d_Dr2_C1_C4_D0 >= -499.6827746027463
+   - 500 d_Dr2_C1_C4_D0 >= -499.6689160709921
  Drone_arrival_time_Dr2_C1_C4_C2: - t[Dr2,C1] + t[Dr2,C4]
-   - 500 d_Dr2_C1_C4_C2 >= -499.926330339115
+   - 500 d_Dr2_C1_C4_C2 >= -499.6689160709921
  Drone_arrival_time_Dr2_C1_C4_C3: - t[Dr2,C1] + t[Dr2,C4]
-   - 500 d_Dr2_C1_C4_C3 >= -499.8685537885336
+   - 500 d_Dr2_C1_C4_C3 >= -499.6689160709921
  Drone_arrival_time_Dr2_C1_C4_C5: - t[Dr2,C1] + t[Dr2,C4]
-   - 500 d_Dr2_C1_C4_C5 >= -499.9682838028799
+   - 500 d_Dr2_C1_C4_C5 >= -499.6689160709921
  Drone_arrival_time_Dr2_C1_C5_D0: - t[Dr2,C1] + t[Dr2,C5]
-   - 500 d_Dr2_C1_C5_D0 >= -499.6827746027463
+   - 500 d_Dr2_C1_C5_D0 >= -499.9682838028799
  Drone_arrival_time_Dr2_C1_C5_C2: - t[Dr2,C1] + t[Dr2,C5]
-   - 500 d_Dr2_C1_C5_C2 >= -499.926330339115
+   - 500 d_Dr2_C1_C5_C2 >= -499.9682838028799
  Drone_arrival_time_Dr2_C1_C5_C3: - t[Dr2,C1] + t[Dr2,C5]
-   - 500 d_Dr2_C1_C5_C3 >= -499.8685537885336
+   - 500 d_Dr2_C1_C5_C3 >= -499.9682838028799
  Drone_arrival_time_Dr2_C1_C5_C4: - t[Dr2,C1] + t[Dr2,C5]
-   - 500 d_Dr2_C1_C5_C4 >= -499.6689160709921
+   - 500 d_Dr2_C1_C5_C4 >= -499.9682838028799
  Drone_arrival_time_Dr2_C2_D0_C1: t[Dr2,D0] - t[Dr2,C2]
-   - 500 d_Dr2_C2_D0_C1 >= -499.926330339115
+   - 500 d_Dr2_C2_D0_C1 >= -499.6178540815885
  Drone_arrival_time_Dr2_C2_D0_C3: t[Dr2,D0] - t[Dr2,C2]
-   - 500 d_Dr2_C2_D0_C3 >= -499.9243646242875
+   - 500 d_Dr2_C2_D0_C3 >= -499.6178540815885
  Drone_arrival_time_Dr2_C2_D0_C4: t[Dr2,D0] - t[Dr2,C2]
-   - 500 d_Dr2_C2_D0_C4 >= -499.6318927349537
+   - 500 d_Dr2_C2_D0_C4 >= -499.6178540815885
  Drone_arrival_time_Dr2_C2_D0_C5: t[Dr2,D0] - t[Dr2,C2]
-   - 500 d_Dr2_C2_D0_C5 >= -499.8962707210397
+   - 500 d_Dr2_C2_D0_C5 >= -499.6178540815885
  Drone_arrival_time_Dr2_C2_C1_D0: t[Dr2,C1] - t[Dr2,C2]
-   - 500 d_Dr2_C2_C1_D0 >= -499.6178540815885
+   - 500 d_Dr2_C2_C1_D0 >= -499.926330339115
  Drone_arrival_time_Dr2_C2_C1_C3: t[Dr2,C1] - t[Dr2,C2]
-   - 500 d_Dr2_C2_C1_C3 >= -499.9243646242875
+   - 500 d_Dr2_C2_C1_C3 >= -499.926330339115
  Drone_arrival_time_Dr2_C2_C1_C4: t[Dr2,C1] - t[Dr2,C2]
-   - 500 d_Dr2_C2_C1_C4 >= -499.6318927349537
+   - 500 d_Dr2_C2_C1_C4 >= -499.926330339115
  Drone_arrival_time_Dr2_C2_C1_C5: t[Dr2,C1] - t[Dr2,C2]
-   - 500 d_Dr2_C2_C1_C5 >= -499.8962707210397
+   - 500 d_Dr2_C2_C1_C5 >= -499.926330339115
  Drone_arrival_time_Dr2_C2_C3_D0: - t[Dr2,C2] + t[Dr2,C3]
-   - 500 d_Dr2_C2_C3_D0 >= -499.6178540815885
+   - 500 d_Dr2_C2_C3_D0 >= -499.9243646242875
  Drone_arrival_time_Dr2_C2_C3_C1: - t[Dr2,C2] + t[Dr2,C3]
-   - 500 d_Dr2_C2_C3_C1 >= -499.926330339115
+   - 500 d_Dr2_C2_C3_C1 >= -499.9243646242875
  Drone_arrival_time_Dr2_C2_C3_C4: - t[Dr2,C2] + t[Dr2,C3]
-   - 500 d_Dr2_C2_C3_C4 >= -499.6318927349537
+   - 500 d_Dr2_C2_C3_C4 >= -499.9243646242875
  Drone_arrival_time_Dr2_C2_C3_C5: - t[Dr2,C2] + t[Dr2,C3]
-   - 500 d_Dr2_C2_C3_C5 >= -499.8962707210397
+   - 500 d_Dr2_C2_C3_C5 >= -499.9243646242875
  Drone_arrival_time_Dr2_C2_C4_D0: - t[Dr2,C2] + t[Dr2,C4]
-   - 500 d_Dr2_C2_C4_D0 >= -499.6178540815885
+   - 500 d_Dr2_C2_C4_D0 >= -499.6318927349537
  Drone_arrival_time_Dr2_C2_C4_C1: - t[Dr2,C2] + t[Dr2,C4]
-   - 500 d_Dr2_C2_C4_C1 >= -499.926330339115
+   - 500 d_Dr2_C2_C4_C1 >= -499.6318927349537
  Drone_arrival_time_Dr2_C2_C4_C3: - t[Dr2,C2] + t[Dr2,C4]
-   - 500 d_Dr2_C2_C4_C3 >= -499.9243646242875
+   - 500 d_Dr2_C2_C4_C3 >= -499.6318927349537
  Drone_arrival_time_Dr2_C2_C4_C5: - t[Dr2,C2] + t[Dr2,C4]
-   - 500 d_Dr2_C2_C4_C5 >= -499.8962707210397
+   - 500 d_Dr2_C2_C4_C5 >= -499.6318927349537
  Drone_arrival_time_Dr2_C2_C5_D0: - t[Dr2,C2] + t[Dr2,C5]
-   - 500 d_Dr2_C2_C5_D0 >= -499.6178540815885
+   - 500 d_Dr2_C2_C5_D0 >= -499.8962707210397
  Drone_arrival_time_Dr2_C2_C5_C1: - t[Dr2,C2] + t[Dr2,C5]
-   - 500 d_Dr2_C2_C5_C1 >= -499.926330339115
+   - 500 d_Dr2_C2_C5_C1 >= -499.8962707210397
  Drone_arrival_time_Dr2_C2_C5_C3: - t[Dr2,C2] + t[Dr2,C5]
-   - 500 d_Dr2_C2_C5_C3 >= -499.9243646242875
+   - 500 d_Dr2_C2_C5_C3 >= -499.8962707210397
  Drone_arrival_time_Dr2_C2_C5_C4: - t[Dr2,C2] + t[Dr2,C5]
-   - 500 d_Dr2_C2_C5_C4 >= -499.6318927349537
+   - 500 d_Dr2_C2_C5_C4 >= -499.8962707210397
  Drone_arrival_time_Dr2_C3_D0_C1: t[Dr2,D0] - t[Dr2,C3]
-   - 500 d_Dr2_C3_D0_C1 >= -499.8685537885336
+   - 500 d_Dr2_C3_D0_C1 >= -499.6003759162863
  Drone_arrival_time_Dr2_C3_D0_C2: t[Dr2,D0] - t[Dr2,C3]
-   - 500 d_Dr2_C3_D0_C2 >= -499.9243646242875
+   - 500 d_Dr2_C3_D0_C2 >= -499.6003759162863
  Drone_arrival_time_Dr2_C3_D0_C4: t[Dr2,D0] - t[Dr2,C3]
-   - 500 d_Dr2_C3_D0_C4 >= -499.6522362224578
+   - 500 d_Dr2_C3_D0_C4 >= -499.6003759162863
  Drone_arrival_time_Dr2_C3_D0_C5: t[Dr2,D0] - t[Dr2,C3]
-   - 500 d_Dr2_C3_D0_C5 >= -499.8370029223045
+   - 500 d_Dr2_C3_D0_C5 >= -499.6003759162863
  Drone_arrival_time_Dr2_C3_C1_D0: t[Dr2,C1] - t[Dr2,C3]
-   - 500 d_Dr2_C3_C1_D0 >= -499.6003759162863
+   - 500 d_Dr2_C3_C1_D0 >= -499.8685537885336
  Drone_arrival_time_Dr2_C3_C1_C2: t[Dr2,C1] - t[Dr2,C3]
-   - 500 d_Dr2_C3_C1_C2 >= -499.9243646242875
+   - 500 d_Dr2_C3_C1_C2 >= -499.8685537885336
  Drone_arrival_time_Dr2_C3_C1_C4: t[Dr2,C1] - t[Dr2,C3]
-   - 500 d_Dr2_C3_C1_C4 >= -499.6522362224578
+   - 500 d_Dr2_C3_C1_C4 >= -499.8685537885336
  Drone_arrival_time_Dr2_C3_C1_C5: t[Dr2,C1] - t[Dr2,C3]
-   - 500 d_Dr2_C3_C1_C5 >= -499.8370029223045
+   - 500 d_Dr2_C3_C1_C5 >= -499.8685537885336
  Drone_arrival_time_Dr2_C3_C2_D0: t[Dr2,C2] - t[Dr2,C3]
-   - 500 d_Dr2_C3_C2_D0 >= -499.6003759162863
+   - 500 d_Dr2_C3_C2_D0 >= -499.9243646242875
  Drone_arrival_time_Dr2_C3_C2_C1: t[Dr2,C2] - t[Dr2,C3]
-   - 500 d_Dr2_C3_C2_C1 >= -499.8685537885336
+   - 500 d_Dr2_C3_C2_C1 >= -499.9243646242875
  Drone_arrival_time_Dr2_C3_C2_C4: t[Dr2,C2] - t[Dr2,C3]
-   - 500 d_Dr2_C3_C2_C4 >= -499.6522362224578
+   - 500 d_Dr2_C3_C2_C4 >= -499.9243646242875
  Drone_arrival_time_Dr2_C3_C2_C5: t[Dr2,C2] - t[Dr2,C3]
-   - 500 d_Dr2_C3_C2_C5 >= -499.8370029223045
+   - 500 d_Dr2_C3_C2_C5 >= -499.9243646242875
  Drone_arrival_time_Dr2_C3_C4_D0: - t[Dr2,C3] + t[Dr2,C4]
-   - 500 d_Dr2_C3_C4_D0 >= -499.6003759162863
+   - 500 d_Dr2_C3_C4_D0 >= -499.6522362224578
  Drone_arrival_time_Dr2_C3_C4_C1: - t[Dr2,C3] + t[Dr2,C4]
-   - 500 d_Dr2_C3_C4_C1 >= -499.8685537885336
+   - 500 d_Dr2_C3_C4_C1 >= -499.6522362224578
  Drone_arrival_time_Dr2_C3_C4_C2: - t[Dr2,C3] + t[Dr2,C4]
-   - 500 d_Dr2_C3_C4_C2 >= -499.9243646242875
+   - 500 d_Dr2_C3_C4_C2 >= -499.6522362224578
  Drone_arrival_time_Dr2_C3_C4_C5: - t[Dr2,C3] + t[Dr2,C4]
-   - 500 d_Dr2_C3_C4_C5 >= -499.8370029223045
+   - 500 d_Dr2_C3_C4_C5 >= -499.6522362224578
  Drone_arrival_time_Dr2_C3_C5_D0: - t[Dr2,C3] + t[Dr2,C5]
-   - 500 d_Dr2_C3_C5_D0 >= -499.6003759162863
+   - 500 d_Dr2_C3_C5_D0 >= -499.8370029223045
  Drone_arrival_time_Dr2_C3_C5_C1: - t[Dr2,C3] + t[Dr2,C5]
-   - 500 d_Dr2_C3_C5_C1 >= -499.8685537885336
+   - 500 d_Dr2_C3_C5_C1 >= -499.8370029223045
  Drone_arrival_time_Dr2_C3_C5_C2: - t[Dr2,C3] + t[Dr2,C5]
-   - 500 d_Dr2_C3_C5_C2 >= -499.9243646242875
+   - 500 d_Dr2_C3_C5_C2 >= -499.8370029223045
  Drone_arrival_time_Dr2_C3_C5_C4: - t[Dr2,C3] + t[Dr2,C5]
-   - 500 d_Dr2_C3_C5_C4 >= -499.6522362224578
+   - 500 d_Dr2_C3_C5_C4 >= -499.8370029223045
  Drone_arrival_time_Dr2_C4_D0_C1: t[Dr2,D0] - t[Dr2,C4]
-   - 500 d_Dr2_C4_D0_C1 >= -499.6689160709921
+   - 500 d_Dr2_C4_D0_C1 >= -499.8100140148426
  Drone_arrival_time_Dr2_C4_D0_C2: t[Dr2,D0] - t[Dr2,C4]
-   - 500 d_Dr2_C4_D0_C2 >= -499.6318927349537
+   - 500 d_Dr2_C4_D0_C2 >= -499.8100140148426
  Drone_arrival_time_Dr2_C4_D0_C3: t[Dr2,D0] - t[Dr2,C4]
-   - 500 d_Dr2_C4_D0_C3 >= -499.6522362224578
+   - 500 d_Dr2_C4_D0_C3 >= -499.8100140148426
  Drone_arrival_time_Dr2_C4_D0_C5: t[Dr2,D0] - t[Dr2,C4]
-   - 500 d_Dr2_C4_D0_C5 >= -499.6688338696105
+   - 500 d_Dr2_C4_D0_C5 >= -499.8100140148426
  Drone_arrival_time_Dr2_C4_C1_D0: t[Dr2,C1] - t[Dr2,C4]
-   - 500 d_Dr2_C4_C1_D0 >= -499.8100140148426
+   - 500 d_Dr2_C4_C1_D0 >= -499.6689160709921
  Drone_arrival_time_Dr2_C4_C1_C2: t[Dr2,C1] - t[Dr2,C4]
-   - 500 d_Dr2_C4_C1_C2 >= -499.6318927349537
+   - 500 d_Dr2_C4_C1_C2 >= -499.6689160709921
  Drone_arrival_time_Dr2_C4_C1_C3: t[Dr2,C1] - t[Dr2,C4]
-   - 500 d_Dr2_C4_C1_C3 >= -499.6522362224578
+   - 500 d_Dr2_C4_C1_C3 >= -499.6689160709921
  Drone_arrival_time_Dr2_C4_C1_C5: t[Dr2,C1] - t[Dr2,C4]
-   - 500 d_Dr2_C4_C1_C5 >= -499.6688338696105
+   - 500 d_Dr2_C4_C1_C5 >= -499.6689160709921
  Drone_arrival_time_Dr2_C4_C2_D0: t[Dr2,C2] - t[Dr2,C4]
-   - 500 d_Dr2_C4_C2_D0 >= -499.8100140148426
+   - 500 d_Dr2_C4_C2_D0 >= -499.6318927349537
  Drone_arrival_time_Dr2_C4_C2_C1: t[Dr2,C2] - t[Dr2,C4]
-   - 500 d_Dr2_C4_C2_C1 >= -499.6689160709921
+   - 500 d_Dr2_C4_C2_C1 >= -499.6318927349537
  Drone_arrival_time_Dr2_C4_C2_C3: t[Dr2,C2] - t[Dr2,C4]
-   - 500 d_Dr2_C4_C2_C3 >= -499.6522362224578
+   - 500 d_Dr2_C4_C2_C3 >= -499.6318927349537
  Drone_arrival_time_Dr2_C4_C2_C5: t[Dr2,C2] - t[Dr2,C4]
-   - 500 d_Dr2_C4_C2_C5 >= -499.6688338696105
+   - 500 d_Dr2_C4_C2_C5 >= -499.6318927349537
  Drone_arrival_time_Dr2_C4_C3_D0: t[Dr2,C3] - t[Dr2,C4]
-   - 500 d_Dr2_C4_C3_D0 >= -499.8100140148426
+   - 500 d_Dr2_C4_C3_D0 >= -499.6522362224578
  Drone_arrival_time_Dr2_C4_C3_C1: t[Dr2,C3] - t[Dr2,C4]
-   - 500 d_Dr2_C4_C3_C1 >= -499.6689160709921
+   - 500 d_Dr2_C4_C3_C1 >= -499.6522362224578
  Drone_arrival_time_Dr2_C4_C3_C2: t[Dr2,C3] - t[Dr2,C4]
-   - 500 d_Dr2_C4_C3_C2 >= -499.6318927349537
+   - 500 d_Dr2_C4_C3_C2 >= -499.6522362224578
  Drone_arrival_time_Dr2_C4_C3_C5: t[Dr2,C3] - t[Dr2,C4]
-   - 500 d_Dr2_C4_C3_C5 >= -499.6688338696105
+   - 500 d_Dr2_C4_C3_C5 >= -499.6522362224578
  Drone_arrival_time_Dr2_C4_C5_D0: - t[Dr2,C4] + t[Dr2,C5]
-   - 500 d_Dr2_C4_C5_D0 >= -499.8100140148426
+   - 500 d_Dr2_C4_C5_D0 >= -499.6688338696105
  Drone_arrival_time_Dr2_C4_C5_C1: - t[Dr2,C4] + t[Dr2,C5]
-   - 500 d_Dr2_C4_C5_C1 >= -499.6689160709921
+   - 500 d_Dr2_C4_C5_C1 >= -499.6688338696105
  Drone_arrival_time_Dr2_C4_C5_C2: - t[Dr2,C4] + t[Dr2,C5]
-   - 500 d_Dr2_C4_C5_C2 >= -499.6318927349537
+   - 500 d_Dr2_C4_C5_C2 >= -499.6688338696105
  Drone_arrival_time_Dr2_C4_C5_C3: - t[Dr2,C4] + t[Dr2,C5]
-   - 500 d_Dr2_C4_C5_C3 >= -499.6522362224578
+   - 500 d_Dr2_C4_C5_C3 >= -499.6688338696105
  Drone_arrival_time_Dr2_C5_D0_C1: t[Dr2,D0] - t[Dr2,C5]
-   - 500 d_Dr2_C5_D0_C1 >= -499.9682838028799
+   - 500 d_Dr2_C5_D0_C1 >= -499.7005962532795
  Drone_arrival_time_Dr2_C5_D0_C2: t[Dr2,D0] - t[Dr2,C5]
-   - 500 d_Dr2_C5_D0_C2 >= -499.8962707210397
+   - 500 d_Dr2_C5_D0_C2 >= -499.7005962532795
  Drone_arrival_time_Dr2_C5_D0_C3: t[Dr2,D0] - t[Dr2,C5]
-   - 500 d_Dr2_C5_D0_C3 >= -499.8370029223045
+   - 500 d_Dr2_C5_D0_C3 >= -499.7005962532795
  Drone_arrival_time_Dr2_C5_D0_C4: t[Dr2,D0] - t[Dr2,C5]
-   - 500 d_Dr2_C5_D0_C4 >= -499.6688338696105
+   - 500 d_Dr2_C5_D0_C4 >= -499.7005962532795
  Drone_arrival_time_Dr2_C5_C1_D0: t[Dr2,C1] - t[Dr2,C5]
-   - 500 d_Dr2_C5_C1_D0 >= -499.7005962532795
+   - 500 d_Dr2_C5_C1_D0 >= -499.9682838028799
  Drone_arrival_time_Dr2_C5_C1_C2: t[Dr2,C1] - t[Dr2,C5]
-   - 500 d_Dr2_C5_C1_C2 >= -499.8962707210397
+   - 500 d_Dr2_C5_C1_C2 >= -499.9682838028799
  Drone_arrival_time_Dr2_C5_C1_C3: t[Dr2,C1] - t[Dr2,C5]
-   - 500 d_Dr2_C5_C1_C3 >= -499.8370029223045
+   - 500 d_Dr2_C5_C1_C3 >= -499.9682838028799
  Drone_arrival_time_Dr2_C5_C1_C4: t[Dr2,C1] - t[Dr2,C5]
-   - 500 d_Dr2_C5_C1_C4 >= -499.6688338696105
+   - 500 d_Dr2_C5_C1_C4 >= -499.9682838028799
  Drone_arrival_time_Dr2_C5_C2_D0: t[Dr2,C2] - t[Dr2,C5]
-   - 500 d_Dr2_C5_C2_D0 >= -499.7005962532795
+   - 500 d_Dr2_C5_C2_D0 >= -499.8962707210397
  Drone_arrival_time_Dr2_C5_C2_C1: t[Dr2,C2] - t[Dr2,C5]
-   - 500 d_Dr2_C5_C2_C1 >= -499.9682838028799
+   - 500 d_Dr2_C5_C2_C1 >= -499.8962707210397
  Drone_arrival_time_Dr2_C5_C2_C3: t[Dr2,C2] - t[Dr2,C5]
-   - 500 d_Dr2_C5_C2_C3 >= -499.8370029223045
+   - 500 d_Dr2_C5_C2_C3 >= -499.8962707210397
  Drone_arrival_time_Dr2_C5_C2_C4: t[Dr2,C2] - t[Dr2,C5]
-   - 500 d_Dr2_C5_C2_C4 >= -499.6688338696105
+   - 500 d_Dr2_C5_C2_C4 >= -499.8962707210397
  Drone_arrival_time_Dr2_C5_C3_D0: t[Dr2,C3] - t[Dr2,C5]
-   - 500 d_Dr2_C5_C3_D0 >= -499.7005962532795
+   - 500 d_Dr2_C5_C3_D0 >= -499.8370029223045
  Drone_arrival_time_Dr2_C5_C3_C1: t[Dr2,C3] - t[Dr2,C5]
-   - 500 d_Dr2_C5_C3_C1 >= -499.9682838028799
+   - 500 d_Dr2_C5_C3_C1 >= -499.8370029223045
  Drone_arrival_time_Dr2_C5_C3_C2: t[Dr2,C3] - t[Dr2,C5]
-   - 500 d_Dr2_C5_C3_C2 >= -499.8962707210397
+   - 500 d_Dr2_C5_C3_C2 >= -499.8370029223045
  Drone_arrival_time_Dr2_C5_C3_C4: t[Dr2,C3] - t[Dr2,C5]
-   - 500 d_Dr2_C5_C3_C4 >= -499.6688338696105
+   - 500 d_Dr2_C5_C3_C4 >= -499.8370029223045
  Drone_arrival_time_Dr2_C5_C4_D0: t[Dr2,C4] - t[Dr2,C5]
-   - 500 d_Dr2_C5_C4_D0 >= -499.7005962532795
+   - 500 d_Dr2_C5_C4_D0 >= -499.6688338696105
  Drone_arrival_time_Dr2_C5_C4_C1: t[Dr2,C4] - t[Dr2,C5]
-   - 500 d_Dr2_C5_C4_C1 >= -499.9682838028799
+   - 500 d_Dr2_C5_C4_C1 >= -499.6688338696105
  Drone_arrival_time_Dr2_C5_C4_C2: t[Dr2,C4] - t[Dr2,C5]
-   - 500 d_Dr2_C5_C4_C2 >= -499.8962707210397
+   - 500 d_Dr2_C5_C4_C2 >= -499.6688338696105
  Drone_arrival_time_Dr2_C5_C4_C3: t[Dr2,C4] - t[Dr2,C5]
-   - 500 d_Dr2_C5_C4_C3 >= -499.8370029223045
+   - 500 d_Dr2_C5_C4_C3 >= -499.6688338696105
  Drone_arrival_time_Dr3_D0_C1_C2: - t[Dr3,D0] + t[Dr3,C1]
-   - 500 d_Dr3_D0_C1_C2 >= -499.6178540815885
+   - 500 d_Dr3_D0_C1_C2 >= -499.6827746027463
  Drone_arrival_time_Dr3_D0_C1_C3: - t[Dr3,D0] + t[Dr3,C1]
-   - 500 d_Dr3_D0_C1_C3 >= -499.6003759162863
+   - 500 d_Dr3_D0_C1_C3 >= -499.6827746027463
  Drone_arrival_time_Dr3_D0_C1_C4: - t[Dr3,D0] + t[Dr3,C1]
-   - 500 d_Dr3_D0_C1_C4 >= -499.8100140148426
+   - 500 d_Dr3_D0_C1_C4 >= -499.6827746027463
  Drone_arrival_time_Dr3_D0_C1_C5: - t[Dr3,D0] + t[Dr3,C1]
-   - 500 d_Dr3_D0_C1_C5 >= -499.7005962532795
+   - 500 d_Dr3_D0_C1_C5 >= -499.6827746027463
  Drone_arrival_time_Dr3_D0_C2_C1: - t[Dr3,D0] + t[Dr3,C2]
-   - 500 d_Dr3_D0_C2_C1 >= -499.6827746027463
+   - 500 d_Dr3_D0_C2_C1 >= -499.6178540815885
  Drone_arrival_time_Dr3_D0_C2_C3: - t[Dr3,D0] + t[Dr3,C2]
-   - 500 d_Dr3_D0_C2_C3 >= -499.6003759162863
+   - 500 d_Dr3_D0_C2_C3 >= -499.6178540815885
  Drone_arrival_time_Dr3_D0_C2_C4: - t[Dr3,D0] + t[Dr3,C2]
-   - 500 d_Dr3_D0_C2_C4 >= -499.8100140148426
+   - 500 d_Dr3_D0_C2_C4 >= -499.6178540815885
  Drone_arrival_time_Dr3_D0_C2_C5: - t[Dr3,D0] + t[Dr3,C2]
-   - 500 d_Dr3_D0_C2_C5 >= -499.7005962532795
+   - 500 d_Dr3_D0_C2_C5 >= -499.6178540815885
  Drone_arrival_time_Dr3_D0_C3_C1: - t[Dr3,D0] + t[Dr3,C3]
-   - 500 d_Dr3_D0_C3_C1 >= -499.6827746027463
+   - 500 d_Dr3_D0_C3_C1 >= -499.6003759162863
  Drone_arrival_time_Dr3_D0_C3_C2: - t[Dr3,D0] + t[Dr3,C3]
-   - 500 d_Dr3_D0_C3_C2 >= -499.6178540815885
+   - 500 d_Dr3_D0_C3_C2 >= -499.6003759162863
  Drone_arrival_time_Dr3_D0_C3_C4: - t[Dr3,D0] + t[Dr3,C3]
-   - 500 d_Dr3_D0_C3_C4 >= -499.8100140148426
+   - 500 d_Dr3_D0_C3_C4 >= -499.6003759162863
  Drone_arrival_time_Dr3_D0_C3_C5: - t[Dr3,D0] + t[Dr3,C3]
-   - 500 d_Dr3_D0_C3_C5 >= -499.7005962532795
+   - 500 d_Dr3_D0_C3_C5 >= -499.6003759162863
  Drone_arrival_time_Dr3_D0_C4_C1: - t[Dr3,D0] + t[Dr3,C4]
-   - 500 d_Dr3_D0_C4_C1 >= -499.6827746027463
+   - 500 d_Dr3_D0_C4_C1 >= -499.8100140148426
  Drone_arrival_time_Dr3_D0_C4_C2: - t[Dr3,D0] + t[Dr3,C4]
-   - 500 d_Dr3_D0_C4_C2 >= -499.6178540815885
+   - 500 d_Dr3_D0_C4_C2 >= -499.8100140148426
  Drone_arrival_time_Dr3_D0_C4_C3: - t[Dr3,D0] + t[Dr3,C4]
-   - 500 d_Dr3_D0_C4_C3 >= -499.6003759162863
+   - 500 d_Dr3_D0_C4_C3 >= -499.8100140148426
  Drone_arrival_time_Dr3_D0_C4_C5: - t[Dr3,D0] + t[Dr3,C4]
-   - 500 d_Dr3_D0_C4_C5 >= -499.7005962532795
+   - 500 d_Dr3_D0_C4_C5 >= -499.8100140148426
  Drone_arrival_time_Dr3_D0_C5_C1: - t[Dr3,D0] + t[Dr3,C5]
-   - 500 d_Dr3_D0_C5_C1 >= -499.6827746027463
+   - 500 d_Dr3_D0_C5_C1 >= -499.7005962532795
  Drone_arrival_time_Dr3_D0_C5_C2: - t[Dr3,D0] + t[Dr3,C5]
-   - 500 d_Dr3_D0_C5_C2 >= -499.6178540815885
+   - 500 d_Dr3_D0_C5_C2 >= -499.7005962532795
  Drone_arrival_time_Dr3_D0_C5_C3: - t[Dr3,D0] + t[Dr3,C5]
-   - 500 d_Dr3_D0_C5_C3 >= -499.6003759162863
+   - 500 d_Dr3_D0_C5_C3 >= -499.7005962532795
  Drone_arrival_time_Dr3_D0_C5_C4: - t[Dr3,D0] + t[Dr3,C5]
-   - 500 d_Dr3_D0_C5_C4 >= -499.8100140148426
+   - 500 d_Dr3_D0_C5_C4 >= -499.7005962532795
  Drone_arrival_time_Dr3_C1_D0_C2: t[Dr3,D0] - t[Dr3,C1]
-   - 500 d_Dr3_C1_D0_C2 >= -499.926330339115
+   - 500 d_Dr3_C1_D0_C2 >= -499.6827746027463
  Drone_arrival_time_Dr3_C1_D0_C3: t[Dr3,D0] - t[Dr3,C1]
-   - 500 d_Dr3_C1_D0_C3 >= -499.8685537885336
+   - 500 d_Dr3_C1_D0_C3 >= -499.6827746027463
  Drone_arrival_time_Dr3_C1_D0_C4: t[Dr3,D0] - t[Dr3,C1]
-   - 500 d_Dr3_C1_D0_C4 >= -499.6689160709921
+   - 500 d_Dr3_C1_D0_C4 >= -499.6827746027463
  Drone_arrival_time_Dr3_C1_D0_C5: t[Dr3,D0] - t[Dr3,C1]
-   - 500 d_Dr3_C1_D0_C5 >= -499.9682838028799
+   - 500 d_Dr3_C1_D0_C5 >= -499.6827746027463
  Drone_arrival_time_Dr3_C1_C2_D0: - t[Dr3,C1] + t[Dr3,C2]
-   - 500 d_Dr3_C1_C2_D0 >= -499.6827746027463
+   - 500 d_Dr3_C1_C2_D0 >= -499.926330339115
  Drone_arrival_time_Dr3_C1_C2_C3: - t[Dr3,C1] + t[Dr3,C2]
-   - 500 d_Dr3_C1_C2_C3 >= -499.8685537885336
+   - 500 d_Dr3_C1_C2_C3 >= -499.926330339115
  Drone_arrival_time_Dr3_C1_C2_C4: - t[Dr3,C1] + t[Dr3,C2]
-   - 500 d_Dr3_C1_C2_C4 >= -499.6689160709921
+   - 500 d_Dr3_C1_C2_C4 >= -499.926330339115
  Drone_arrival_time_Dr3_C1_C2_C5: - t[Dr3,C1] + t[Dr3,C2]
-   - 500 d_Dr3_C1_C2_C5 >= -499.9682838028799
+   - 500 d_Dr3_C1_C2_C5 >= -499.926330339115
  Drone_arrival_time_Dr3_C1_C3_D0: - t[Dr3,C1] + t[Dr3,C3]
-   - 500 d_Dr3_C1_C3_D0 >= -499.6827746027463
+   - 500 d_Dr3_C1_C3_D0 >= -499.8685537885336
  Drone_arrival_time_Dr3_C1_C3_C2: - t[Dr3,C1] + t[Dr3,C3]
-   - 500 d_Dr3_C1_C3_C2 >= -499.926330339115
+   - 500 d_Dr3_C1_C3_C2 >= -499.8685537885336
  Drone_arrival_time_Dr3_C1_C3_C4: - t[Dr3,C1] + t[Dr3,C3]
-   - 500 d_Dr3_C1_C3_C4 >= -499.6689160709921
+   - 500 d_Dr3_C1_C3_C4 >= -499.8685537885336
  Drone_arrival_time_Dr3_C1_C3_C5: - t[Dr3,C1] + t[Dr3,C3]
-   - 500 d_Dr3_C1_C3_C5 >= -499.9682838028799
+   - 500 d_Dr3_C1_C3_C5 >= -499.8685537885336
  Drone_arrival_time_Dr3_C1_C4_D0: - t[Dr3,C1] + t[Dr3,C4]
-   - 500 d_Dr3_C1_C4_D0 >= -499.6827746027463
+   - 500 d_Dr3_C1_C4_D0 >= -499.6689160709921
  Drone_arrival_time_Dr3_C1_C4_C2: - t[Dr3,C1] + t[Dr3,C4]
-   - 500 d_Dr3_C1_C4_C2 >= -499.926330339115
+   - 500 d_Dr3_C1_C4_C2 >= -499.6689160709921
  Drone_arrival_time_Dr3_C1_C4_C3: - t[Dr3,C1] + t[Dr3,C4]
-   - 500 d_Dr3_C1_C4_C3 >= -499.8685537885336
+   - 500 d_Dr3_C1_C4_C3 >= -499.6689160709921
  Drone_arrival_time_Dr3_C1_C4_C5: - t[Dr3,C1] + t[Dr3,C4]
-   - 500 d_Dr3_C1_C4_C5 >= -499.9682838028799
+   - 500 d_Dr3_C1_C4_C5 >= -499.6689160709921
  Drone_arrival_time_Dr3_C1_C5_D0: - t[Dr3,C1] + t[Dr3,C5]
-   - 500 d_Dr3_C1_C5_D0 >= -499.6827746027463
+   - 500 d_Dr3_C1_C5_D0 >= -499.9682838028799
  Drone_arrival_time_Dr3_C1_C5_C2: - t[Dr3,C1] + t[Dr3,C5]
-   - 500 d_Dr3_C1_C5_C2 >= -499.926330339115
+   - 500 d_Dr3_C1_C5_C2 >= -499.9682838028799
  Drone_arrival_time_Dr3_C1_C5_C3: - t[Dr3,C1] + t[Dr3,C5]
-   - 500 d_Dr3_C1_C5_C3 >= -499.8685537885336
+   - 500 d_Dr3_C1_C5_C3 >= -499.9682838028799
  Drone_arrival_time_Dr3_C1_C5_C4: - t[Dr3,C1] + t[Dr3,C5]
-   - 500 d_Dr3_C1_C5_C4 >= -499.6689160709921
+   - 500 d_Dr3_C1_C5_C4 >= -499.9682838028799
  Drone_arrival_time_Dr3_C2_D0_C1: t[Dr3,D0] - t[Dr3,C2]
-   - 500 d_Dr3_C2_D0_C1 >= -499.926330339115
+   - 500 d_Dr3_C2_D0_C1 >= -499.6178540815885
  Drone_arrival_time_Dr3_C2_D0_C3: t[Dr3,D0] - t[Dr3,C2]
-   - 500 d_Dr3_C2_D0_C3 >= -499.9243646242875
+   - 500 d_Dr3_C2_D0_C3 >= -499.6178540815885
  Drone_arrival_time_Dr3_C2_D0_C4: t[Dr3,D0] - t[Dr3,C2]
-   - 500 d_Dr3_C2_D0_C4 >= -499.6318927349537
+   - 500 d_Dr3_C2_D0_C4 >= -499.6178540815885
  Drone_arrival_time_Dr3_C2_D0_C5: t[Dr3,D0] - t[Dr3,C2]
-   - 500 d_Dr3_C2_D0_C5 >= -499.8962707210397
+   - 500 d_Dr3_C2_D0_C5 >= -499.6178540815885
  Drone_arrival_time_Dr3_C2_C1_D0: t[Dr3,C1] - t[Dr3,C2]
-   - 500 d_Dr3_C2_C1_D0 >= -499.6178540815885
+   - 500 d_Dr3_C2_C1_D0 >= -499.926330339115
  Drone_arrival_time_Dr3_C2_C1_C3: t[Dr3,C1] - t[Dr3,C2]
-   - 500 d_Dr3_C2_C1_C3 >= -499.9243646242875
+   - 500 d_Dr3_C2_C1_C3 >= -499.926330339115
  Drone_arrival_time_Dr3_C2_C1_C4: t[Dr3,C1] - t[Dr3,C2]
-   - 500 d_Dr3_C2_C1_C4 >= -499.6318927349537
+   - 500 d_Dr3_C2_C1_C4 >= -499.926330339115
  Drone_arrival_time_Dr3_C2_C1_C5: t[Dr3,C1] - t[Dr3,C2]
-   - 500 d_Dr3_C2_C1_C5 >= -499.8962707210397
+   - 500 d_Dr3_C2_C1_C5 >= -499.926330339115
  Drone_arrival_time_Dr3_C2_C3_D0: - t[Dr3,C2] + t[Dr3,C3]
-   - 500 d_Dr3_C2_C3_D0 >= -499.6178540815885
+   - 500 d_Dr3_C2_C3_D0 >= -499.9243646242875
  Drone_arrival_time_Dr3_C2_C3_C1: - t[Dr3,C2] + t[Dr3,C3]
-   - 500 d_Dr3_C2_C3_C1 >= -499.926330339115
+   - 500 d_Dr3_C2_C3_C1 >= -499.9243646242875
  Drone_arrival_time_Dr3_C2_C3_C4: - t[Dr3,C2] + t[Dr3,C3]
-   - 500 d_Dr3_C2_C3_C4 >= -499.6318927349537
+   - 500 d_Dr3_C2_C3_C4 >= -499.9243646242875
  Drone_arrival_time_Dr3_C2_C3_C5: - t[Dr3,C2] + t[Dr3,C3]
-   - 500 d_Dr3_C2_C3_C5 >= -499.8962707210397
+   - 500 d_Dr3_C2_C3_C5 >= -499.9243646242875
  Drone_arrival_time_Dr3_C2_C4_D0: - t[Dr3,C2] + t[Dr3,C4]
-   - 500 d_Dr3_C2_C4_D0 >= -499.6178540815885
+   - 500 d_Dr3_C2_C4_D0 >= -499.6318927349537
  Drone_arrival_time_Dr3_C2_C4_C1: - t[Dr3,C2] + t[Dr3,C4]
-   - 500 d_Dr3_C2_C4_C1 >= -499.926330339115
+   - 500 d_Dr3_C2_C4_C1 >= -499.6318927349537
  Drone_arrival_time_Dr3_C2_C4_C3: - t[Dr3,C2] + t[Dr3,C4]
-   - 500 d_Dr3_C2_C4_C3 >= -499.9243646242875
+   - 500 d_Dr3_C2_C4_C3 >= -499.6318927349537
  Drone_arrival_time_Dr3_C2_C4_C5: - t[Dr3,C2] + t[Dr3,C4]
-   - 500 d_Dr3_C2_C4_C5 >= -499.8962707210397
+   - 500 d_Dr3_C2_C4_C5 >= -499.6318927349537
  Drone_arrival_time_Dr3_C2_C5_D0: - t[Dr3,C2] + t[Dr3,C5]
-   - 500 d_Dr3_C2_C5_D0 >= -499.6178540815885
+   - 500 d_Dr3_C2_C5_D0 >= -499.8962707210397
  Drone_arrival_time_Dr3_C2_C5_C1: - t[Dr3,C2] + t[Dr3,C5]
-   - 500 d_Dr3_C2_C5_C1 >= -499.926330339115
+   - 500 d_Dr3_C2_C5_C1 >= -499.8962707210397
  Drone_arrival_time_Dr3_C2_C5_C3: - t[Dr3,C2] + t[Dr3,C5]
-   - 500 d_Dr3_C2_C5_C3 >= -499.9243646242875
+   - 500 d_Dr3_C2_C5_C3 >= -499.8962707210397
  Drone_arrival_time_Dr3_C2_C5_C4: - t[Dr3,C2] + t[Dr3,C5]
-   - 500 d_Dr3_C2_C5_C4 >= -499.6318927349537
+   - 500 d_Dr3_C2_C5_C4 >= -499.8962707210397
  Drone_arrival_time_Dr3_C3_D0_C1: t[Dr3,D0] - t[Dr3,C3]
-   - 500 d_Dr3_C3_D0_C1 >= -499.8685537885336
+   - 500 d_Dr3_C3_D0_C1 >= -499.6003759162863
  Drone_arrival_time_Dr3_C3_D0_C2: t[Dr3,D0] - t[Dr3,C3]
-   - 500 d_Dr3_C3_D0_C2 >= -499.9243646242875
+   - 500 d_Dr3_C3_D0_C2 >= -499.6003759162863
  Drone_arrival_time_Dr3_C3_D0_C4: t[Dr3,D0] - t[Dr3,C3]
-   - 500 d_Dr3_C3_D0_C4 >= -499.6522362224578
+   - 500 d_Dr3_C3_D0_C4 >= -499.6003759162863
  Drone_arrival_time_Dr3_C3_D0_C5: t[Dr3,D0] - t[Dr3,C3]
-   - 500 d_Dr3_C3_D0_C5 >= -499.8370029223045
+   - 500 d_Dr3_C3_D0_C5 >= -499.6003759162863
  Drone_arrival_time_Dr3_C3_C1_D0: t[Dr3,C1] - t[Dr3,C3]
-   - 500 d_Dr3_C3_C1_D0 >= -499.6003759162863
+   - 500 d_Dr3_C3_C1_D0 >= -499.8685537885336
  Drone_arrival_time_Dr3_C3_C1_C2: t[Dr3,C1] - t[Dr3,C3]
-   - 500 d_Dr3_C3_C1_C2 >= -499.9243646242875
+   - 500 d_Dr3_C3_C1_C2 >= -499.8685537885336
  Drone_arrival_time_Dr3_C3_C1_C4: t[Dr3,C1] - t[Dr3,C3]
-   - 500 d_Dr3_C3_C1_C4 >= -499.6522362224578
+   - 500 d_Dr3_C3_C1_C4 >= -499.8685537885336
  Drone_arrival_time_Dr3_C3_C1_C5: t[Dr3,C1] - t[Dr3,C3]
-   - 500 d_Dr3_C3_C1_C5 >= -499.8370029223045
+   - 500 d_Dr3_C3_C1_C5 >= -499.8685537885336
  Drone_arrival_time_Dr3_C3_C2_D0: t[Dr3,C2] - t[Dr3,C3]
-   - 500 d_Dr3_C3_C2_D0 >= -499.6003759162863
+   - 500 d_Dr3_C3_C2_D0 >= -499.9243646242875
  Drone_arrival_time_Dr3_C3_C2_C1: t[Dr3,C2] - t[Dr3,C3]
-   - 500 d_Dr3_C3_C2_C1 >= -499.8685537885336
+   - 500 d_Dr3_C3_C2_C1 >= -499.9243646242875
  Drone_arrival_time_Dr3_C3_C2_C4: t[Dr3,C2] - t[Dr3,C3]
-   - 500 d_Dr3_C3_C2_C4 >= -499.6522362224578
+   - 500 d_Dr3_C3_C2_C4 >= -499.9243646242875
  Drone_arrival_time_Dr3_C3_C2_C5: t[Dr3,C2] - t[Dr3,C3]
-   - 500 d_Dr3_C3_C2_C5 >= -499.8370029223045
+   - 500 d_Dr3_C3_C2_C5 >= -499.9243646242875
  Drone_arrival_time_Dr3_C3_C4_D0: - t[Dr3,C3] + t[Dr3,C4]
-   - 500 d_Dr3_C3_C4_D0 >= -499.6003759162863
+   - 500 d_Dr3_C3_C4_D0 >= -499.6522362224578
  Drone_arrival_time_Dr3_C3_C4_C1: - t[Dr3,C3] + t[Dr3,C4]
-   - 500 d_Dr3_C3_C4_C1 >= -499.8685537885336
+   - 500 d_Dr3_C3_C4_C1 >= -499.6522362224578
  Drone_arrival_time_Dr3_C3_C4_C2: - t[Dr3,C3] + t[Dr3,C4]
-   - 500 d_Dr3_C3_C4_C2 >= -499.9243646242875
+   - 500 d_Dr3_C3_C4_C2 >= -499.6522362224578
  Drone_arrival_time_Dr3_C3_C4_C5: - t[Dr3,C3] + t[Dr3,C4]
-   - 500 d_Dr3_C3_C4_C5 >= -499.8370029223045
+   - 500 d_Dr3_C3_C4_C5 >= -499.6522362224578
  Drone_arrival_time_Dr3_C3_C5_D0: - t[Dr3,C3] + t[Dr3,C5]
-   - 500 d_Dr3_C3_C5_D0 >= -499.6003759162863
+   - 500 d_Dr3_C3_C5_D0 >= -499.8370029223045
  Drone_arrival_time_Dr3_C3_C5_C1: - t[Dr3,C3] + t[Dr3,C5]
-   - 500 d_Dr3_C3_C5_C1 >= -499.8685537885336
+   - 500 d_Dr3_C3_C5_C1 >= -499.8370029223045
  Drone_arrival_time_Dr3_C3_C5_C2: - t[Dr3,C3] + t[Dr3,C5]
-   - 500 d_Dr3_C3_C5_C2 >= -499.9243646242875
+   - 500 d_Dr3_C3_C5_C2 >= -499.8370029223045
  Drone_arrival_time_Dr3_C3_C5_C4: - t[Dr3,C3] + t[Dr3,C5]
-   - 500 d_Dr3_C3_C5_C4 >= -499.6522362224578
+   - 500 d_Dr3_C3_C5_C4 >= -499.8370029223045
  Drone_arrival_time_Dr3_C4_D0_C1: t[Dr3,D0] - t[Dr3,C4]
-   - 500 d_Dr3_C4_D0_C1 >= -499.6689160709921
+   - 500 d_Dr3_C4_D0_C1 >= -499.8100140148426
  Drone_arrival_time_Dr3_C4_D0_C2: t[Dr3,D0] - t[Dr3,C4]
-   - 500 d_Dr3_C4_D0_C2 >= -499.6318927349537
+   - 500 d_Dr3_C4_D0_C2 >= -499.8100140148426
  Drone_arrival_time_Dr3_C4_D0_C3: t[Dr3,D0] - t[Dr3,C4]
-   - 500 d_Dr3_C4_D0_C3 >= -499.6522362224578
+   - 500 d_Dr3_C4_D0_C3 >= -499.8100140148426
  Drone_arrival_time_Dr3_C4_D0_C5: t[Dr3,D0] - t[Dr3,C4]
-   - 500 d_Dr3_C4_D0_C5 >= -499.6688338696105
+   - 500 d_Dr3_C4_D0_C5 >= -499.8100140148426
  Drone_arrival_time_Dr3_C4_C1_D0: t[Dr3,C1] - t[Dr3,C4]
-   - 500 d_Dr3_C4_C1_D0 >= -499.8100140148426
+   - 500 d_Dr3_C4_C1_D0 >= -499.6689160709921
  Drone_arrival_time_Dr3_C4_C1_C2: t[Dr3,C1] - t[Dr3,C4]
-   - 500 d_Dr3_C4_C1_C2 >= -499.6318927349537
+   - 500 d_Dr3_C4_C1_C2 >= -499.6689160709921
  Drone_arrival_time_Dr3_C4_C1_C3: t[Dr3,C1] - t[Dr3,C4]
-   - 500 d_Dr3_C4_C1_C3 >= -499.6522362224578
+   - 500 d_Dr3_C4_C1_C3 >= -499.6689160709921
  Drone_arrival_time_Dr3_C4_C1_C5: t[Dr3,C1] - t[Dr3,C4]
-   - 500 d_Dr3_C4_C1_C5 >= -499.6688338696105
+   - 500 d_Dr3_C4_C1_C5 >= -499.6689160709921
  Drone_arrival_time_Dr3_C4_C2_D0: t[Dr3,C2] - t[Dr3,C4]
-   - 500 d_Dr3_C4_C2_D0 >= -499.8100140148426
+   - 500 d_Dr3_C4_C2_D0 >= -499.6318927349537
  Drone_arrival_time_Dr3_C4_C2_C1: t[Dr3,C2] - t[Dr3,C4]
-   - 500 d_Dr3_C4_C2_C1 >= -499.6689160709921
+   - 500 d_Dr3_C4_C2_C1 >= -499.6318927349537
  Drone_arrival_time_Dr3_C4_C2_C3: t[Dr3,C2] - t[Dr3,C4]
-   - 500 d_Dr3_C4_C2_C3 >= -499.6522362224578
+   - 500 d_Dr3_C4_C2_C3 >= -499.6318927349537
  Drone_arrival_time_Dr3_C4_C2_C5: t[Dr3,C2] - t[Dr3,C4]
-   - 500 d_Dr3_C4_C2_C5 >= -499.6688338696105
+   - 500 d_Dr3_C4_C2_C5 >= -499.6318927349537
  Drone_arrival_time_Dr3_C4_C3_D0: t[Dr3,C3] - t[Dr3,C4]
-   - 500 d_Dr3_C4_C3_D0 >= -499.8100140148426
+   - 500 d_Dr3_C4_C3_D0 >= -499.6522362224578
  Drone_arrival_time_Dr3_C4_C3_C1: t[Dr3,C3] - t[Dr3,C4]
-   - 500 d_Dr3_C4_C3_C1 >= -499.6689160709921
+   - 500 d_Dr3_C4_C3_C1 >= -499.6522362224578
  Drone_arrival_time_Dr3_C4_C3_C2: t[Dr3,C3] - t[Dr3,C4]
-   - 500 d_Dr3_C4_C3_C2 >= -499.6318927349537
+   - 500 d_Dr3_C4_C3_C2 >= -499.6522362224578
  Drone_arrival_time_Dr3_C4_C3_C5: t[Dr3,C3] - t[Dr3,C4]
-   - 500 d_Dr3_C4_C3_C5 >= -499.6688338696105
+   - 500 d_Dr3_C4_C3_C5 >= -499.6522362224578
  Drone_arrival_time_Dr3_C4_C5_D0: - t[Dr3,C4] + t[Dr3,C5]
-   - 500 d_Dr3_C4_C5_D0 >= -499.8100140148426
+   - 500 d_Dr3_C4_C5_D0 >= -499.6688338696105
  Drone_arrival_time_Dr3_C4_C5_C1: - t[Dr3,C4] + t[Dr3,C5]
-   - 500 d_Dr3_C4_C5_C1 >= -499.6689160709921
+   - 500 d_Dr3_C4_C5_C1 >= -499.6688338696105
  Drone_arrival_time_Dr3_C4_C5_C2: - t[Dr3,C4] + t[Dr3,C5]
-   - 500 d_Dr3_C4_C5_C2 >= -499.6318927349537
+   - 500 d_Dr3_C4_C5_C2 >= -499.6688338696105
  Drone_arrival_time_Dr3_C4_C5_C3: - t[Dr3,C4] + t[Dr3,C5]
-   - 500 d_Dr3_C4_C5_C3 >= -499.6522362224578
+   - 500 d_Dr3_C4_C5_C3 >= -499.6688338696105
  Drone_arrival_time_Dr3_C5_D0_C1: t[Dr3,D0] - t[Dr3,C5]
-   - 500 d_Dr3_C5_D0_C1 >= -499.9682838028799
+   - 500 d_Dr3_C5_D0_C1 >= -499.7005962532795
  Drone_arrival_time_Dr3_C5_D0_C2: t[Dr3,D0] - t[Dr3,C5]
-   - 500 d_Dr3_C5_D0_C2 >= -499.8962707210397
+   - 500 d_Dr3_C5_D0_C2 >= -499.7005962532795
  Drone_arrival_time_Dr3_C5_D0_C3: t[Dr3,D0] - t[Dr3,C5]
-   - 500 d_Dr3_C5_D0_C3 >= -499.8370029223045
+   - 500 d_Dr3_C5_D0_C3 >= -499.7005962532795
  Drone_arrival_time_Dr3_C5_D0_C4: t[Dr3,D0] - t[Dr3,C5]
-   - 500 d_Dr3_C5_D0_C4 >= -499.6688338696105
+   - 500 d_Dr3_C5_D0_C4 >= -499.7005962532795
  Drone_arrival_time_Dr3_C5_C1_D0: t[Dr3,C1] - t[Dr3,C5]
-   - 500 d_Dr3_C5_C1_D0 >= -499.7005962532795
+   - 500 d_Dr3_C5_C1_D0 >= -499.9682838028799
  Drone_arrival_time_Dr3_C5_C1_C2: t[Dr3,C1] - t[Dr3,C5]
-   - 500 d_Dr3_C5_C1_C2 >= -499.8962707210397
+   - 500 d_Dr3_C5_C1_C2 >= -499.9682838028799
  Drone_arrival_time_Dr3_C5_C1_C3: t[Dr3,C1] - t[Dr3,C5]
-   - 500 d_Dr3_C5_C1_C3 >= -499.8370029223045
+   - 500 d_Dr3_C5_C1_C3 >= -499.9682838028799
  Drone_arrival_time_Dr3_C5_C1_C4: t[Dr3,C1] - t[Dr3,C5]
-   - 500 d_Dr3_C5_C1_C4 >= -499.6688338696105
+   - 500 d_Dr3_C5_C1_C4 >= -499.9682838028799
  Drone_arrival_time_Dr3_C5_C2_D0: t[Dr3,C2] - t[Dr3,C5]
-   - 500 d_Dr3_C5_C2_D0 >= -499.7005962532795
+   - 500 d_Dr3_C5_C2_D0 >= -499.8962707210397
  Drone_arrival_time_Dr3_C5_C2_C1: t[Dr3,C2] - t[Dr3,C5]
-   - 500 d_Dr3_C5_C2_C1 >= -499.9682838028799
+   - 500 d_Dr3_C5_C2_C1 >= -499.8962707210397
  Drone_arrival_time_Dr3_C5_C2_C3: t[Dr3,C2] - t[Dr3,C5]
-   - 500 d_Dr3_C5_C2_C3 >= -499.8370029223045
+   - 500 d_Dr3_C5_C2_C3 >= -499.8962707210397
  Drone_arrival_time_Dr3_C5_C2_C4: t[Dr3,C2] - t[Dr3,C5]
-   - 500 d_Dr3_C5_C2_C4 >= -499.6688338696105
+   - 500 d_Dr3_C5_C2_C4 >= -499.8962707210397
  Drone_arrival_time_Dr3_C5_C3_D0: t[Dr3,C3] - t[Dr3,C5]
-   - 500 d_Dr3_C5_C3_D0 >= -499.7005962532795
+   - 500 d_Dr3_C5_C3_D0 >= -499.8370029223045
  Drone_arrival_time_Dr3_C5_C3_C1: t[Dr3,C3] - t[Dr3,C5]
-   - 500 d_Dr3_C5_C3_C1 >= -499.9682838028799
+   - 500 d_Dr3_C5_C3_C1 >= -499.8370029223045
  Drone_arrival_time_Dr3_C5_C3_C2: t[Dr3,C3] - t[Dr3,C5]
-   - 500 d_Dr3_C5_C3_C2 >= -499.8962707210397
+   - 500 d_Dr3_C5_C3_C2 >= -499.8370029223045
  Drone_arrival_time_Dr3_C5_C3_C4: t[Dr3,C3] - t[Dr3,C5]
-   - 500 d_Dr3_C5_C3_C4 >= -499.6688338696105
+   - 500 d_Dr3_C5_C3_C4 >= -499.8370029223045
  Drone_arrival_time_Dr3_C5_C4_D0: t[Dr3,C4] - t[Dr3,C5]
-   - 500 d_Dr3_C5_C4_D0 >= -499.7005962532795
+   - 500 d_Dr3_C5_C4_D0 >= -499.6688338696105
  Drone_arrival_time_Dr3_C5_C4_C1: t[Dr3,C4] - t[Dr3,C5]
-   - 500 d_Dr3_C5_C4_C1 >= -499.9682838028799
+   - 500 d_Dr3_C5_C4_C1 >= -499.6688338696105
  Drone_arrival_time_Dr3_C5_C4_C2: t[Dr3,C4] - t[Dr3,C5]
-   - 500 d_Dr3_C5_C4_C2 >= -499.8962707210397
+   - 500 d_Dr3_C5_C4_C2 >= -499.6688338696105
  Drone_arrival_time_Dr3_C5_C4_C3: t[Dr3,C4] - t[Dr3,C5]
-   - 500 d_Dr3_C5_C4_C3 >= -499.8370029223045
+   - 500 d_Dr3_C5_C4_C3 >= -499.6688338696105
  Drone_arrival_time_Dr4_D0_C1_C2: - t[Dr4,D0] + t[Dr4,C1]
-   - 500 d_Dr4_D0_C1_C2 >= -499.6178540815885
+   - 500 d_Dr4_D0_C1_C2 >= -499.6827746027463
  Drone_arrival_time_Dr4_D0_C1_C3: - t[Dr4,D0] + t[Dr4,C1]
-   - 500 d_Dr4_D0_C1_C3 >= -499.6003759162863
+   - 500 d_Dr4_D0_C1_C3 >= -499.6827746027463
  Drone_arrival_time_Dr4_D0_C1_C4: - t[Dr4,D0] + t[Dr4,C1]
-   - 500 d_Dr4_D0_C1_C4 >= -499.8100140148426
+   - 500 d_Dr4_D0_C1_C4 >= -499.6827746027463
  Drone_arrival_time_Dr4_D0_C1_C5: - t[Dr4,D0] + t[Dr4,C1]
-   - 500 d_Dr4_D0_C1_C5 >= -499.7005962532795
+   - 500 d_Dr4_D0_C1_C5 >= -499.6827746027463
  Drone_arrival_time_Dr4_D0_C2_C1: - t[Dr4,D0] + t[Dr4,C2]
-   - 500 d_Dr4_D0_C2_C1 >= -499.6827746027463
+   - 500 d_Dr4_D0_C2_C1 >= -499.6178540815885
  Drone_arrival_time_Dr4_D0_C2_C3: - t[Dr4,D0] + t[Dr4,C2]
-   - 500 d_Dr4_D0_C2_C3 >= -499.6003759162863
+   - 500 d_Dr4_D0_C2_C3 >= -499.6178540815885
  Drone_arrival_time_Dr4_D0_C2_C4: - t[Dr4,D0] + t[Dr4,C2]
-   - 500 d_Dr4_D0_C2_C4 >= -499.8100140148426
+   - 500 d_Dr4_D0_C2_C4 >= -499.6178540815885
  Drone_arrival_time_Dr4_D0_C2_C5: - t[Dr4,D0] + t[Dr4,C2]
-   - 500 d_Dr4_D0_C2_C5 >= -499.7005962532795
+   - 500 d_Dr4_D0_C2_C5 >= -499.6178540815885
  Drone_arrival_time_Dr4_D0_C3_C1: - t[Dr4,D0] + t[Dr4,C3]
-   - 500 d_Dr4_D0_C3_C1 >= -499.6827746027463
+   - 500 d_Dr4_D0_C3_C1 >= -499.6003759162863
  Drone_arrival_time_Dr4_D0_C3_C2: - t[Dr4,D0] + t[Dr4,C3]
-   - 500 d_Dr4_D0_C3_C2 >= -499.6178540815885
+   - 500 d_Dr4_D0_C3_C2 >= -499.6003759162863
  Drone_arrival_time_Dr4_D0_C3_C4: - t[Dr4,D0] + t[Dr4,C3]
-   - 500 d_Dr4_D0_C3_C4 >= -499.8100140148426
+   - 500 d_Dr4_D0_C3_C4 >= -499.6003759162863
  Drone_arrival_time_Dr4_D0_C3_C5: - t[Dr4,D0] + t[Dr4,C3]
-   - 500 d_Dr4_D0_C3_C5 >= -499.7005962532795
+   - 500 d_Dr4_D0_C3_C5 >= -499.6003759162863
  Drone_arrival_time_Dr4_D0_C4_C1: - t[Dr4,D0] + t[Dr4,C4]
-   - 500 d_Dr4_D0_C4_C1 >= -499.6827746027463
+   - 500 d_Dr4_D0_C4_C1 >= -499.8100140148426
  Drone_arrival_time_Dr4_D0_C4_C2: - t[Dr4,D0] + t[Dr4,C4]
-   - 500 d_Dr4_D0_C4_C2 >= -499.6178540815885
+   - 500 d_Dr4_D0_C4_C2 >= -499.8100140148426
  Drone_arrival_time_Dr4_D0_C4_C3: - t[Dr4,D0] + t[Dr4,C4]
-   - 500 d_Dr4_D0_C4_C3 >= -499.6003759162863
+   - 500 d_Dr4_D0_C4_C3 >= -499.8100140148426
  Drone_arrival_time_Dr4_D0_C4_C5: - t[Dr4,D0] + t[Dr4,C4]
-   - 500 d_Dr4_D0_C4_C5 >= -499.7005962532795
+   - 500 d_Dr4_D0_C4_C5 >= -499.8100140148426
  Drone_arrival_time_Dr4_D0_C5_C1: - t[Dr4,D0] + t[Dr4,C5]
-   - 500 d_Dr4_D0_C5_C1 >= -499.6827746027463
+   - 500 d_Dr4_D0_C5_C1 >= -499.7005962532795
  Drone_arrival_time_Dr4_D0_C5_C2: - t[Dr4,D0] + t[Dr4,C5]
-   - 500 d_Dr4_D0_C5_C2 >= -499.6178540815885
+   - 500 d_Dr4_D0_C5_C2 >= -499.7005962532795
  Drone_arrival_time_Dr4_D0_C5_C3: - t[Dr4,D0] + t[Dr4,C5]
-   - 500 d_Dr4_D0_C5_C3 >= -499.6003759162863
+   - 500 d_Dr4_D0_C5_C3 >= -499.7005962532795
  Drone_arrival_time_Dr4_D0_C5_C4: - t[Dr4,D0] + t[Dr4,C5]
-   - 500 d_Dr4_D0_C5_C4 >= -499.8100140148426
+   - 500 d_Dr4_D0_C5_C4 >= -499.7005962532795
  Drone_arrival_time_Dr4_C1_D0_C2: t[Dr4,D0] - t[Dr4,C1]
-   - 500 d_Dr4_C1_D0_C2 >= -499.926330339115
+   - 500 d_Dr4_C1_D0_C2 >= -499.6827746027463
  Drone_arrival_time_Dr4_C1_D0_C3: t[Dr4,D0] - t[Dr4,C1]
-   - 500 d_Dr4_C1_D0_C3 >= -499.8685537885336
+   - 500 d_Dr4_C1_D0_C3 >= -499.6827746027463
  Drone_arrival_time_Dr4_C1_D0_C4: t[Dr4,D0] - t[Dr4,C1]
-   - 500 d_Dr4_C1_D0_C4 >= -499.6689160709921
+   - 500 d_Dr4_C1_D0_C4 >= -499.6827746027463
  Drone_arrival_time_Dr4_C1_D0_C5: t[Dr4,D0] - t[Dr4,C1]
-   - 500 d_Dr4_C1_D0_C5 >= -499.9682838028799
+   - 500 d_Dr4_C1_D0_C5 >= -499.6827746027463
  Drone_arrival_time_Dr4_C1_C2_D0: - t[Dr4,C1] + t[Dr4,C2]
-   - 500 d_Dr4_C1_C2_D0 >= -499.6827746027463
+   - 500 d_Dr4_C1_C2_D0 >= -499.926330339115
  Drone_arrival_time_Dr4_C1_C2_C3: - t[Dr4,C1] + t[Dr4,C2]
-   - 500 d_Dr4_C1_C2_C3 >= -499.8685537885336
+   - 500 d_Dr4_C1_C2_C3 >= -499.926330339115
  Drone_arrival_time_Dr4_C1_C2_C4: - t[Dr4,C1] + t[Dr4,C2]
-   - 500 d_Dr4_C1_C2_C4 >= -499.6689160709921
+   - 500 d_Dr4_C1_C2_C4 >= -499.926330339115
  Drone_arrival_time_Dr4_C1_C2_C5: - t[Dr4,C1] + t[Dr4,C2]
-   - 500 d_Dr4_C1_C2_C5 >= -499.9682838028799
+   - 500 d_Dr4_C1_C2_C5 >= -499.926330339115
  Drone_arrival_time_Dr4_C1_C3_D0: - t[Dr4,C1] + t[Dr4,C3]
-   - 500 d_Dr4_C1_C3_D0 >= -499.6827746027463
+   - 500 d_Dr4_C1_C3_D0 >= -499.8685537885336
  Drone_arrival_time_Dr4_C1_C3_C2: - t[Dr4,C1] + t[Dr4,C3]
-   - 500 d_Dr4_C1_C3_C2 >= -499.926330339115
+   - 500 d_Dr4_C1_C3_C2 >= -499.8685537885336
  Drone_arrival_time_Dr4_C1_C3_C4: - t[Dr4,C1] + t[Dr4,C3]
-   - 500 d_Dr4_C1_C3_C4 >= -499.6689160709921
+   - 500 d_Dr4_C1_C3_C4 >= -499.8685537885336
  Drone_arrival_time_Dr4_C1_C3_C5: - t[Dr4,C1] + t[Dr4,C3]
-   - 500 d_Dr4_C1_C3_C5 >= -499.9682838028799
+   - 500 d_Dr4_C1_C3_C5 >= -499.8685537885336
  Drone_arrival_time_Dr4_C1_C4_D0: - t[Dr4,C1] + t[Dr4,C4]
-   - 500 d_Dr4_C1_C4_D0 >= -499.6827746027463
+   - 500 d_Dr4_C1_C4_D0 >= -499.6689160709921
  Drone_arrival_time_Dr4_C1_C4_C2: - t[Dr4,C1] + t[Dr4,C4]
-   - 500 d_Dr4_C1_C4_C2 >= -499.926330339115
+   - 500 d_Dr4_C1_C4_C2 >= -499.6689160709921
  Drone_arrival_time_Dr4_C1_C4_C3: - t[Dr4,C1] + t[Dr4,C4]
-   - 500 d_Dr4_C1_C4_C3 >= -499.8685537885336
+   - 500 d_Dr4_C1_C4_C3 >= -499.6689160709921
  Drone_arrival_time_Dr4_C1_C4_C5: - t[Dr4,C1] + t[Dr4,C4]
-   - 500 d_Dr4_C1_C4_C5 >= -499.9682838028799
+   - 500 d_Dr4_C1_C4_C5 >= -499.6689160709921
  Drone_arrival_time_Dr4_C1_C5_D0: - t[Dr4,C1] + t[Dr4,C5]
-   - 500 d_Dr4_C1_C5_D0 >= -499.6827746027463
+   - 500 d_Dr4_C1_C5_D0 >= -499.9682838028799
  Drone_arrival_time_Dr4_C1_C5_C2: - t[Dr4,C1] + t[Dr4,C5]
-   - 500 d_Dr4_C1_C5_C2 >= -499.926330339115
+   - 500 d_Dr4_C1_C5_C2 >= -499.9682838028799
  Drone_arrival_time_Dr4_C1_C5_C3: - t[Dr4,C1] + t[Dr4,C5]
-   - 500 d_Dr4_C1_C5_C3 >= -499.8685537885336
+   - 500 d_Dr4_C1_C5_C3 >= -499.9682838028799
  Drone_arrival_time_Dr4_C1_C5_C4: - t[Dr4,C1] + t[Dr4,C5]
-   - 500 d_Dr4_C1_C5_C4 >= -499.6689160709921
+   - 500 d_Dr4_C1_C5_C4 >= -499.9682838028799
  Drone_arrival_time_Dr4_C2_D0_C1: t[Dr4,D0] - t[Dr4,C2]
-   - 500 d_Dr4_C2_D0_C1 >= -499.926330339115
+   - 500 d_Dr4_C2_D0_C1 >= -499.6178540815885
  Drone_arrival_time_Dr4_C2_D0_C3: t[Dr4,D0] - t[Dr4,C2]
-   - 500 d_Dr4_C2_D0_C3 >= -499.9243646242875
+   - 500 d_Dr4_C2_D0_C3 >= -499.6178540815885
  Drone_arrival_time_Dr4_C2_D0_C4: t[Dr4,D0] - t[Dr4,C2]
-   - 500 d_Dr4_C2_D0_C4 >= -499.6318927349537
+   - 500 d_Dr4_C2_D0_C4 >= -499.6178540815885
  Drone_arrival_time_Dr4_C2_D0_C5: t[Dr4,D0] - t[Dr4,C2]
-   - 500 d_Dr4_C2_D0_C5 >= -499.8962707210397
+   - 500 d_Dr4_C2_D0_C5 >= -499.6178540815885
  Drone_arrival_time_Dr4_C2_C1_D0: t[Dr4,C1] - t[Dr4,C2]
-   - 500 d_Dr4_C2_C1_D0 >= -499.6178540815885
+   - 500 d_Dr4_C2_C1_D0 >= -499.926330339115
  Drone_arrival_time_Dr4_C2_C1_C3: t[Dr4,C1] - t[Dr4,C2]
-   - 500 d_Dr4_C2_C1_C3 >= -499.9243646242875
+   - 500 d_Dr4_C2_C1_C3 >= -499.926330339115
  Drone_arrival_time_Dr4_C2_C1_C4: t[Dr4,C1] - t[Dr4,C2]
-   - 500 d_Dr4_C2_C1_C4 >= -499.6318927349537
+   - 500 d_Dr4_C2_C1_C4 >= -499.926330339115
  Drone_arrival_time_Dr4_C2_C1_C5: t[Dr4,C1] - t[Dr4,C2]
-   - 500 d_Dr4_C2_C1_C5 >= -499.8962707210397
+   - 500 d_Dr4_C2_C1_C5 >= -499.926330339115
  Drone_arrival_time_Dr4_C2_C3_D0: - t[Dr4,C2] + t[Dr4,C3]
-   - 500 d_Dr4_C2_C3_D0 >= -499.6178540815885
+   - 500 d_Dr4_C2_C3_D0 >= -499.9243646242875
  Drone_arrival_time_Dr4_C2_C3_C1: - t[Dr4,C2] + t[Dr4,C3]
-   - 500 d_Dr4_C2_C3_C1 >= -499.926330339115
+   - 500 d_Dr4_C2_C3_C1 >= -499.9243646242875
  Drone_arrival_time_Dr4_C2_C3_C4: - t[Dr4,C2] + t[Dr4,C3]
-   - 500 d_Dr4_C2_C3_C4 >= -499.6318927349537
+   - 500 d_Dr4_C2_C3_C4 >= -499.9243646242875
  Drone_arrival_time_Dr4_C2_C3_C5: - t[Dr4,C2] + t[Dr4,C3]
-   - 500 d_Dr4_C2_C3_C5 >= -499.8962707210397
+   - 500 d_Dr4_C2_C3_C5 >= -499.9243646242875
  Drone_arrival_time_Dr4_C2_C4_D0: - t[Dr4,C2] + t[Dr4,C4]
-   - 500 d_Dr4_C2_C4_D0 >= -499.6178540815885
+   - 500 d_Dr4_C2_C4_D0 >= -499.6318927349537
  Drone_arrival_time_Dr4_C2_C4_C1: - t[Dr4,C2] + t[Dr4,C4]
-   - 500 d_Dr4_C2_C4_C1 >= -499.926330339115
+   - 500 d_Dr4_C2_C4_C1 >= -499.6318927349537
  Drone_arrival_time_Dr4_C2_C4_C3: - t[Dr4,C2] + t[Dr4,C4]
-   - 500 d_Dr4_C2_C4_C3 >= -499.9243646242875
+   - 500 d_Dr4_C2_C4_C3 >= -499.6318927349537
  Drone_arrival_time_Dr4_C2_C4_C5: - t[Dr4,C2] + t[Dr4,C4]
-   - 500 d_Dr4_C2_C4_C5 >= -499.8962707210397
+   - 500 d_Dr4_C2_C4_C5 >= -499.6318927349537
  Drone_arrival_time_Dr4_C2_C5_D0: - t[Dr4,C2] + t[Dr4,C5]
-   - 500 d_Dr4_C2_C5_D0 >= -499.6178540815885
+   - 500 d_Dr4_C2_C5_D0 >= -499.8962707210397
  Drone_arrival_time_Dr4_C2_C5_C1: - t[Dr4,C2] + t[Dr4,C5]
-   - 500 d_Dr4_C2_C5_C1 >= -499.926330339115
+   - 500 d_Dr4_C2_C5_C1 >= -499.8962707210397
  Drone_arrival_time_Dr4_C2_C5_C3: - t[Dr4,C2] + t[Dr4,C5]
-   - 500 d_Dr4_C2_C5_C3 >= -499.9243646242875
+   - 500 d_Dr4_C2_C5_C3 >= -499.8962707210397
  Drone_arrival_time_Dr4_C2_C5_C4: - t[Dr4,C2] + t[Dr4,C5]
-   - 500 d_Dr4_C2_C5_C4 >= -499.6318927349537
+   - 500 d_Dr4_C2_C5_C4 >= -499.8962707210397
  Drone_arrival_time_Dr4_C3_D0_C1: t[Dr4,D0] - t[Dr4,C3]
-   - 500 d_Dr4_C3_D0_C1 >= -499.8685537885336
+   - 500 d_Dr4_C3_D0_C1 >= -499.6003759162863
  Drone_arrival_time_Dr4_C3_D0_C2: t[Dr4,D0] - t[Dr4,C3]
-   - 500 d_Dr4_C3_D0_C2 >= -499.9243646242875
+   - 500 d_Dr4_C3_D0_C2 >= -499.6003759162863
  Drone_arrival_time_Dr4_C3_D0_C4: t[Dr4,D0] - t[Dr4,C3]
-   - 500 d_Dr4_C3_D0_C4 >= -499.6522362224578
+   - 500 d_Dr4_C3_D0_C4 >= -499.6003759162863
  Drone_arrival_time_Dr4_C3_D0_C5: t[Dr4,D0] - t[Dr4,C3]
-   - 500 d_Dr4_C3_D0_C5 >= -499.8370029223045
+   - 500 d_Dr4_C3_D0_C5 >= -499.6003759162863
  Drone_arrival_time_Dr4_C3_C1_D0: t[Dr4,C1] - t[Dr4,C3]
-   - 500 d_Dr4_C3_C1_D0 >= -499.6003759162863
+   - 500 d_Dr4_C3_C1_D0 >= -499.8685537885336
  Drone_arrival_time_Dr4_C3_C1_C2: t[Dr4,C1] - t[Dr4,C3]
-   - 500 d_Dr4_C3_C1_C2 >= -499.9243646242875
+   - 500 d_Dr4_C3_C1_C2 >= -499.8685537885336
  Drone_arrival_time_Dr4_C3_C1_C4: t[Dr4,C1] - t[Dr4,C3]
-   - 500 d_Dr4_C3_C1_C4 >= -499.6522362224578
+   - 500 d_Dr4_C3_C1_C4 >= -499.8685537885336
  Drone_arrival_time_Dr4_C3_C1_C5: t[Dr4,C1] - t[Dr4,C3]
-   - 500 d_Dr4_C3_C1_C5 >= -499.8370029223045
+   - 500 d_Dr4_C3_C1_C5 >= -499.8685537885336
  Drone_arrival_time_Dr4_C3_C2_D0: t[Dr4,C2] - t[Dr4,C3]
-   - 500 d_Dr4_C3_C2_D0 >= -499.6003759162863
+   - 500 d_Dr4_C3_C2_D0 >= -499.9243646242875
  Drone_arrival_time_Dr4_C3_C2_C1: t[Dr4,C2] - t[Dr4,C3]
-   - 500 d_Dr4_C3_C2_C1 >= -499.8685537885336
+   - 500 d_Dr4_C3_C2_C1 >= -499.9243646242875
  Drone_arrival_time_Dr4_C3_C2_C4: t[Dr4,C2] - t[Dr4,C3]
-   - 500 d_Dr4_C3_C2_C4 >= -499.6522362224578
+   - 500 d_Dr4_C3_C2_C4 >= -499.9243646242875
  Drone_arrival_time_Dr4_C3_C2_C5: t[Dr4,C2] - t[Dr4,C3]
-   - 500 d_Dr4_C3_C2_C5 >= -499.8370029223045
+   - 500 d_Dr4_C3_C2_C5 >= -499.9243646242875
  Drone_arrival_time_Dr4_C3_C4_D0: - t[Dr4,C3] + t[Dr4,C4]
-   - 500 d_Dr4_C3_C4_D0 >= -499.6003759162863
+   - 500 d_Dr4_C3_C4_D0 >= -499.6522362224578
  Drone_arrival_time_Dr4_C3_C4_C1: - t[Dr4,C3] + t[Dr4,C4]
-   - 500 d_Dr4_C3_C4_C1 >= -499.8685537885336
+   - 500 d_Dr4_C3_C4_C1 >= -499.6522362224578
  Drone_arrival_time_Dr4_C3_C4_C2: - t[Dr4,C3] + t[Dr4,C4]
-   - 500 d_Dr4_C3_C4_C2 >= -499.9243646242875
+   - 500 d_Dr4_C3_C4_C2 >= -499.6522362224578
  Drone_arrival_time_Dr4_C3_C4_C5: - t[Dr4,C3] + t[Dr4,C4]
-   - 500 d_Dr4_C3_C4_C5 >= -499.8370029223045
+   - 500 d_Dr4_C3_C4_C5 >= -499.6522362224578
  Drone_arrival_time_Dr4_C3_C5_D0: - t[Dr4,C3] + t[Dr4,C5]
-   - 500 d_Dr4_C3_C5_D0 >= -499.6003759162863
+   - 500 d_Dr4_C3_C5_D0 >= -499.8370029223045
  Drone_arrival_time_Dr4_C3_C5_C1: - t[Dr4,C3] + t[Dr4,C5]
-   - 500 d_Dr4_C3_C5_C1 >= -499.8685537885336
+   - 500 d_Dr4_C3_C5_C1 >= -499.8370029223045
  Drone_arrival_time_Dr4_C3_C5_C2: - t[Dr4,C3] + t[Dr4,C5]
-   - 500 d_Dr4_C3_C5_C2 >= -499.9243646242875
+   - 500 d_Dr4_C3_C5_C2 >= -499.8370029223045
  Drone_arrival_time_Dr4_C3_C5_C4: - t[Dr4,C3] + t[Dr4,C5]
-   - 500 d_Dr4_C3_C5_C4 >= -499.6522362224578
+   - 500 d_Dr4_C3_C5_C4 >= -499.8370029223045
  Drone_arrival_time_Dr4_C4_D0_C1: t[Dr4,D0] - t[Dr4,C4]
-   - 500 d_Dr4_C4_D0_C1 >= -499.6689160709921
+   - 500 d_Dr4_C4_D0_C1 >= -499.8100140148426
  Drone_arrival_time_Dr4_C4_D0_C2: t[Dr4,D0] - t[Dr4,C4]
-   - 500 d_Dr4_C4_D0_C2 >= -499.6318927349537
+   - 500 d_Dr4_C4_D0_C2 >= -499.8100140148426
  Drone_arrival_time_Dr4_C4_D0_C3: t[Dr4,D0] - t[Dr4,C4]
-   - 500 d_Dr4_C4_D0_C3 >= -499.6522362224578
+   - 500 d_Dr4_C4_D0_C3 >= -499.8100140148426
  Drone_arrival_time_Dr4_C4_D0_C5: t[Dr4,D0] - t[Dr4,C4]
-   - 500 d_Dr4_C4_D0_C5 >= -499.6688338696105
+   - 500 d_Dr4_C4_D0_C5 >= -499.8100140148426
  Drone_arrival_time_Dr4_C4_C1_D0: t[Dr4,C1] - t[Dr4,C4]
-   - 500 d_Dr4_C4_C1_D0 >= -499.8100140148426
+   - 500 d_Dr4_C4_C1_D0 >= -499.6689160709921
  Drone_arrival_time_Dr4_C4_C1_C2: t[Dr4,C1] - t[Dr4,C4]
-   - 500 d_Dr4_C4_C1_C2 >= -499.6318927349537
+   - 500 d_Dr4_C4_C1_C2 >= -499.6689160709921
  Drone_arrival_time_Dr4_C4_C1_C3: t[Dr4,C1] - t[Dr4,C4]
-   - 500 d_Dr4_C4_C1_C3 >= -499.6522362224578
+   - 500 d_Dr4_C4_C1_C3 >= -499.6689160709921
  Drone_arrival_time_Dr4_C4_C1_C5: t[Dr4,C1] - t[Dr4,C4]
-   - 500 d_Dr4_C4_C1_C5 >= -499.6688338696105
+   - 500 d_Dr4_C4_C1_C5 >= -499.6689160709921
  Drone_arrival_time_Dr4_C4_C2_D0: t[Dr4,C2] - t[Dr4,C4]
-   - 500 d_Dr4_C4_C2_D0 >= -499.8100140148426
+   - 500 d_Dr4_C4_C2_D0 >= -499.6318927349537
  Drone_arrival_time_Dr4_C4_C2_C1: t[Dr4,C2] - t[Dr4,C4]
-   - 500 d_Dr4_C4_C2_C1 >= -499.6689160709921
+   - 500 d_Dr4_C4_C2_C1 >= -499.6318927349537
  Drone_arrival_time_Dr4_C4_C2_C3: t[Dr4,C2] - t[Dr4,C4]
-   - 500 d_Dr4_C4_C2_C3 >= -499.6522362224578
+   - 500 d_Dr4_C4_C2_C3 >= -499.6318927349537
  Drone_arrival_time_Dr4_C4_C2_C5: t[Dr4,C2] - t[Dr4,C4]
-   - 500 d_Dr4_C4_C2_C5 >= -499.6688338696105
+   - 500 d_Dr4_C4_C2_C5 >= -499.6318927349537
  Drone_arrival_time_Dr4_C4_C3_D0: t[Dr4,C3] - t[Dr4,C4]
-   - 500 d_Dr4_C4_C3_D0 >= -499.8100140148426
+   - 500 d_Dr4_C4_C3_D0 >= -499.6522362224578
  Drone_arrival_time_Dr4_C4_C3_C1: t[Dr4,C3] - t[Dr4,C4]
-   - 500 d_Dr4_C4_C3_C1 >= -499.6689160709921
+   - 500 d_Dr4_C4_C3_C1 >= -499.6522362224578
  Drone_arrival_time_Dr4_C4_C3_C2: t[Dr4,C3] - t[Dr4,C4]
-   - 500 d_Dr4_C4_C3_C2 >= -499.6318927349537
+   - 500 d_Dr4_C4_C3_C2 >= -499.6522362224578
  Drone_arrival_time_Dr4_C4_C3_C5: t[Dr4,C3] - t[Dr4,C4]
-   - 500 d_Dr4_C4_C3_C5 >= -499.6688338696105
+   - 500 d_Dr4_C4_C3_C5 >= -499.6522362224578
  Drone_arrival_time_Dr4_C4_C5_D0: - t[Dr4,C4] + t[Dr4,C5]
-   - 500 d_Dr4_C4_C5_D0 >= -499.8100140148426
+   - 500 d_Dr4_C4_C5_D0 >= -499.6688338696105
  Drone_arrival_time_Dr4_C4_C5_C1: - t[Dr4,C4] + t[Dr4,C5]
-   - 500 d_Dr4_C4_C5_C1 >= -499.6689160709921
+   - 500 d_Dr4_C4_C5_C1 >= -499.6688338696105
  Drone_arrival_time_Dr4_C4_C5_C2: - t[Dr4,C4] + t[Dr4,C5]
-   - 500 d_Dr4_C4_C5_C2 >= -499.6318927349537
+   - 500 d_Dr4_C4_C5_C2 >= -499.6688338696105
  Drone_arrival_time_Dr4_C4_C5_C3: - t[Dr4,C4] + t[Dr4,C5]
-   - 500 d_Dr4_C4_C5_C3 >= -499.6522362224578
+   - 500 d_Dr4_C4_C5_C3 >= -499.6688338696105
  Drone_arrival_time_Dr4_C5_D0_C1: t[Dr4,D0] - t[Dr4,C5]
-   - 500 d_Dr4_C5_D0_C1 >= -499.9682838028799
+   - 500 d_Dr4_C5_D0_C1 >= -499.7005962532795
  Drone_arrival_time_Dr4_C5_D0_C2: t[Dr4,D0] - t[Dr4,C5]
-   - 500 d_Dr4_C5_D0_C2 >= -499.8962707210397
+   - 500 d_Dr4_C5_D0_C2 >= -499.7005962532795
  Drone_arrival_time_Dr4_C5_D0_C3: t[Dr4,D0] - t[Dr4,C5]
-   - 500 d_Dr4_C5_D0_C3 >= -499.8370029223045
+   - 500 d_Dr4_C5_D0_C3 >= -499.7005962532795
  Drone_arrival_time_Dr4_C5_D0_C4: t[Dr4,D0] - t[Dr4,C5]
-   - 500 d_Dr4_C5_D0_C4 >= -499.6688338696105
+   - 500 d_Dr4_C5_D0_C4 >= -499.7005962532795
  Drone_arrival_time_Dr4_C5_C1_D0: t[Dr4,C1] - t[Dr4,C5]
-   - 500 d_Dr4_C5_C1_D0 >= -499.7005962532795
+   - 500 d_Dr4_C5_C1_D0 >= -499.9682838028799
  Drone_arrival_time_Dr4_C5_C1_C2: t[Dr4,C1] - t[Dr4,C5]
-   - 500 d_Dr4_C5_C1_C2 >= -499.8962707210397
+   - 500 d_Dr4_C5_C1_C2 >= -499.9682838028799
  Drone_arrival_time_Dr4_C5_C1_C3: t[Dr4,C1] - t[Dr4,C5]
-   - 500 d_Dr4_C5_C1_C3 >= -499.8370029223045
+   - 500 d_Dr4_C5_C1_C3 >= -499.9682838028799
  Drone_arrival_time_Dr4_C5_C1_C4: t[Dr4,C1] - t[Dr4,C5]
-   - 500 d_Dr4_C5_C1_C4 >= -499.6688338696105
+   - 500 d_Dr4_C5_C1_C4 >= -499.9682838028799
  Drone_arrival_time_Dr4_C5_C2_D0: t[Dr4,C2] - t[Dr4,C5]
-   - 500 d_Dr4_C5_C2_D0 >= -499.7005962532795
+   - 500 d_Dr4_C5_C2_D0 >= -499.8962707210397
  Drone_arrival_time_Dr4_C5_C2_C1: t[Dr4,C2] - t[Dr4,C5]
-   - 500 d_Dr4_C5_C2_C1 >= -499.9682838028799
+   - 500 d_Dr4_C5_C2_C1 >= -499.8962707210397
  Drone_arrival_time_Dr4_C5_C2_C3: t[Dr4,C2] - t[Dr4,C5]
-   - 500 d_Dr4_C5_C2_C3 >= -499.8370029223045
+   - 500 d_Dr4_C5_C2_C3 >= -499.8962707210397
  Drone_arrival_time_Dr4_C5_C2_C4: t[Dr4,C2] - t[Dr4,C5]
-   - 500 d_Dr4_C5_C2_C4 >= -499.6688338696105
+   - 500 d_Dr4_C5_C2_C4 >= -499.8962707210397
  Drone_arrival_time_Dr4_C5_C3_D0: t[Dr4,C3] - t[Dr4,C5]
-   - 500 d_Dr4_C5_C3_D0 >= -499.7005962532795
+   - 500 d_Dr4_C5_C3_D0 >= -499.8370029223045
  Drone_arrival_time_Dr4_C5_C3_C1: t[Dr4,C3] - t[Dr4,C5]
-   - 500 d_Dr4_C5_C3_C1 >= -499.9682838028799
+   - 500 d_Dr4_C5_C3_C1 >= -499.8370029223045
  Drone_arrival_time_Dr4_C5_C3_C2: t[Dr4,C3] - t[Dr4,C5]
-   - 500 d_Dr4_C5_C3_C2 >= -499.8962707210397
+   - 500 d_Dr4_C5_C3_C2 >= -499.8370029223045
  Drone_arrival_time_Dr4_C5_C3_C4: t[Dr4,C3] - t[Dr4,C5]
-   - 500 d_Dr4_C5_C3_C4 >= -499.6688338696105
+   - 500 d_Dr4_C5_C3_C4 >= -499.8370029223045
  Drone_arrival_time_Dr4_C5_C4_D0: t[Dr4,C4] - t[Dr4,C5]
-   - 500 d_Dr4_C5_C4_D0 >= -499.7005962532795
+   - 500 d_Dr4_C5_C4_D0 >= -499.6688338696105
  Drone_arrival_time_Dr4_C5_C4_C1: t[Dr4,C4] - t[Dr4,C5]
-   - 500 d_Dr4_C5_C4_C1 >= -499.9682838028799
+   - 500 d_Dr4_C5_C4_C1 >= -499.6688338696105
  Drone_arrival_time_Dr4_C5_C4_C2: t[Dr4,C4] - t[Dr4,C5]
-   - 500 d_Dr4_C5_C4_C2 >= -499.8962707210397
+   - 500 d_Dr4_C5_C4_C2 >= -499.6688338696105
  Drone_arrival_time_Dr4_C5_C4_C3: t[Dr4,C4] - t[Dr4,C5]
-   - 500 d_Dr4_C5_C4_C3 >= -499.8370029223045
+   - 500 d_Dr4_C5_C4_C3 >= -499.6688338696105
  Drone_arrival_time_Dr5_D0_C1_C2: - t[Dr5,D0] + t[Dr5,C1]
-   - 500 d_Dr5_D0_C1_C2 >= -499.6178540815885
+   - 500 d_Dr5_D0_C1_C2 >= -499.6827746027463
  Drone_arrival_time_Dr5_D0_C1_C3: - t[Dr5,D0] + t[Dr5,C1]
-   - 500 d_Dr5_D0_C1_C3 >= -499.6003759162863
+   - 500 d_Dr5_D0_C1_C3 >= -499.6827746027463
  Drone_arrival_time_Dr5_D0_C1_C4: - t[Dr5,D0] + t[Dr5,C1]
-   - 500 d_Dr5_D0_C1_C4 >= -499.8100140148426
+   - 500 d_Dr5_D0_C1_C4 >= -499.6827746027463
  Drone_arrival_time_Dr5_D0_C1_C5: - t[Dr5,D0] + t[Dr5,C1]
-   - 500 d_Dr5_D0_C1_C5 >= -499.7005962532795
+   - 500 d_Dr5_D0_C1_C5 >= -499.6827746027463
  Drone_arrival_time_Dr5_D0_C2_C1: - t[Dr5,D0] + t[Dr5,C2]
-   - 500 d_Dr5_D0_C2_C1 >= -499.6827746027463
+   - 500 d_Dr5_D0_C2_C1 >= -499.6178540815885
  Drone_arrival_time_Dr5_D0_C2_C3: - t[Dr5,D0] + t[Dr5,C2]
-   - 500 d_Dr5_D0_C2_C3 >= -499.6003759162863
+   - 500 d_Dr5_D0_C2_C3 >= -499.6178540815885
  Drone_arrival_time_Dr5_D0_C2_C4: - t[Dr5,D0] + t[Dr5,C2]
-   - 500 d_Dr5_D0_C2_C4 >= -499.8100140148426
+   - 500 d_Dr5_D0_C2_C4 >= -499.6178540815885
  Drone_arrival_time_Dr5_D0_C2_C5: - t[Dr5,D0] + t[Dr5,C2]
-   - 500 d_Dr5_D0_C2_C5 >= -499.7005962532795
+   - 500 d_Dr5_D0_C2_C5 >= -499.6178540815885
  Drone_arrival_time_Dr5_D0_C3_C1: - t[Dr5,D0] + t[Dr5,C3]
-   - 500 d_Dr5_D0_C3_C1 >= -499.6827746027463
+   - 500 d_Dr5_D0_C3_C1 >= -499.6003759162863
  Drone_arrival_time_Dr5_D0_C3_C2: - t[Dr5,D0] + t[Dr5,C3]
-   - 500 d_Dr5_D0_C3_C2 >= -499.6178540815885
+   - 500 d_Dr5_D0_C3_C2 >= -499.6003759162863
  Drone_arrival_time_Dr5_D0_C3_C4: - t[Dr5,D0] + t[Dr5,C3]
-   - 500 d_Dr5_D0_C3_C4 >= -499.8100140148426
+   - 500 d_Dr5_D0_C3_C4 >= -499.6003759162863
  Drone_arrival_time_Dr5_D0_C3_C5: - t[Dr5,D0] + t[Dr5,C3]
-   - 500 d_Dr5_D0_C3_C5 >= -499.7005962532795
+   - 500 d_Dr5_D0_C3_C5 >= -499.6003759162863
  Drone_arrival_time_Dr5_D0_C4_C1: - t[Dr5,D0] + t[Dr5,C4]
-   - 500 d_Dr5_D0_C4_C1 >= -499.6827746027463
+   - 500 d_Dr5_D0_C4_C1 >= -499.8100140148426
  Drone_arrival_time_Dr5_D0_C4_C2: - t[Dr5,D0] + t[Dr5,C4]
-   - 500 d_Dr5_D0_C4_C2 >= -499.6178540815885
+   - 500 d_Dr5_D0_C4_C2 >= -499.8100140148426
  Drone_arrival_time_Dr5_D0_C4_C3: - t[Dr5,D0] + t[Dr5,C4]
-   - 500 d_Dr5_D0_C4_C3 >= -499.6003759162863
+   - 500 d_Dr5_D0_C4_C3 >= -499.8100140148426
  Drone_arrival_time_Dr5_D0_C4_C5: - t[Dr5,D0] + t[Dr5,C4]
-   - 500 d_Dr5_D0_C4_C5 >= -499.7005962532795
+   - 500 d_Dr5_D0_C4_C5 >= -499.8100140148426
  Drone_arrival_time_Dr5_D0_C5_C1: - t[Dr5,D0] + t[Dr5,C5]
-   - 500 d_Dr5_D0_C5_C1 >= -499.6827746027463
+   - 500 d_Dr5_D0_C5_C1 >= -499.7005962532795
  Drone_arrival_time_Dr5_D0_C5_C2: - t[Dr5,D0] + t[Dr5,C5]
-   - 500 d_Dr5_D0_C5_C2 >= -499.6178540815885
+   - 500 d_Dr5_D0_C5_C2 >= -499.7005962532795
  Drone_arrival_time_Dr5_D0_C5_C3: - t[Dr5,D0] + t[Dr5,C5]
-   - 500 d_Dr5_D0_C5_C3 >= -499.6003759162863
+   - 500 d_Dr5_D0_C5_C3 >= -499.7005962532795
  Drone_arrival_time_Dr5_D0_C5_C4: - t[Dr5,D0] + t[Dr5,C5]
-   - 500 d_Dr5_D0_C5_C4 >= -499.8100140148426
+   - 500 d_Dr5_D0_C5_C4 >= -499.7005962532795
  Drone_arrival_time_Dr5_C1_D0_C2: t[Dr5,D0] - t[Dr5,C1]
-   - 500 d_Dr5_C1_D0_C2 >= -499.926330339115
+   - 500 d_Dr5_C1_D0_C2 >= -499.6827746027463
  Drone_arrival_time_Dr5_C1_D0_C3: t[Dr5,D0] - t[Dr5,C1]
-   - 500 d_Dr5_C1_D0_C3 >= -499.8685537885336
+   - 500 d_Dr5_C1_D0_C3 >= -499.6827746027463
  Drone_arrival_time_Dr5_C1_D0_C4: t[Dr5,D0] - t[Dr5,C1]
-   - 500 d_Dr5_C1_D0_C4 >= -499.6689160709921
+   - 500 d_Dr5_C1_D0_C4 >= -499.6827746027463
  Drone_arrival_time_Dr5_C1_D0_C5: t[Dr5,D0] - t[Dr5,C1]
-   - 500 d_Dr5_C1_D0_C5 >= -499.9682838028799
+   - 500 d_Dr5_C1_D0_C5 >= -499.6827746027463
  Drone_arrival_time_Dr5_C1_C2_D0: - t[Dr5,C1] + t[Dr5,C2]
-   - 500 d_Dr5_C1_C2_D0 >= -499.6827746027463
+   - 500 d_Dr5_C1_C2_D0 >= -499.926330339115
  Drone_arrival_time_Dr5_C1_C2_C3: - t[Dr5,C1] + t[Dr5,C2]
-   - 500 d_Dr5_C1_C2_C3 >= -499.8685537885336
+   - 500 d_Dr5_C1_C2_C3 >= -499.926330339115
  Drone_arrival_time_Dr5_C1_C2_C4: - t[Dr5,C1] + t[Dr5,C2]
-   - 500 d_Dr5_C1_C2_C4 >= -499.6689160709921
+   - 500 d_Dr5_C1_C2_C4 >= -499.926330339115
  Drone_arrival_time_Dr5_C1_C2_C5: - t[Dr5,C1] + t[Dr5,C2]
-   - 500 d_Dr5_C1_C2_C5 >= -499.9682838028799
+   - 500 d_Dr5_C1_C2_C5 >= -499.926330339115
  Drone_arrival_time_Dr5_C1_C3_D0: - t[Dr5,C1] + t[Dr5,C3]
-   - 500 d_Dr5_C1_C3_D0 >= -499.6827746027463
+   - 500 d_Dr5_C1_C3_D0 >= -499.8685537885336
  Drone_arrival_time_Dr5_C1_C3_C2: - t[Dr5,C1] + t[Dr5,C3]
-   - 500 d_Dr5_C1_C3_C2 >= -499.926330339115
+   - 500 d_Dr5_C1_C3_C2 >= -499.8685537885336
  Drone_arrival_time_Dr5_C1_C3_C4: - t[Dr5,C1] + t[Dr5,C3]
-   - 500 d_Dr5_C1_C3_C4 >= -499.6689160709921
+   - 500 d_Dr5_C1_C3_C4 >= -499.8685537885336
  Drone_arrival_time_Dr5_C1_C3_C5: - t[Dr5,C1] + t[Dr5,C3]
-   - 500 d_Dr5_C1_C3_C5 >= -499.9682838028799
+   - 500 d_Dr5_C1_C3_C5 >= -499.8685537885336
  Drone_arrival_time_Dr5_C1_C4_D0: - t[Dr5,C1] + t[Dr5,C4]
-   - 500 d_Dr5_C1_C4_D0 >= -499.6827746027463
+   - 500 d_Dr5_C1_C4_D0 >= -499.6689160709921
  Drone_arrival_time_Dr5_C1_C4_C2: - t[Dr5,C1] + t[Dr5,C4]
-   - 500 d_Dr5_C1_C4_C2 >= -499.926330339115
+   - 500 d_Dr5_C1_C4_C2 >= -499.6689160709921
  Drone_arrival_time_Dr5_C1_C4_C3: - t[Dr5,C1] + t[Dr5,C4]
-   - 500 d_Dr5_C1_C4_C3 >= -499.8685537885336
+   - 500 d_Dr5_C1_C4_C3 >= -499.6689160709921
  Drone_arrival_time_Dr5_C1_C4_C5: - t[Dr5,C1] + t[Dr5,C4]
-   - 500 d_Dr5_C1_C4_C5 >= -499.9682838028799
+   - 500 d_Dr5_C1_C4_C5 >= -499.6689160709921
  Drone_arrival_time_Dr5_C1_C5_D0: - t[Dr5,C1] + t[Dr5,C5]
-   - 500 d_Dr5_C1_C5_D0 >= -499.6827746027463
+   - 500 d_Dr5_C1_C5_D0 >= -499.9682838028799
  Drone_arrival_time_Dr5_C1_C5_C2: - t[Dr5,C1] + t[Dr5,C5]
-   - 500 d_Dr5_C1_C5_C2 >= -499.926330339115
+   - 500 d_Dr5_C1_C5_C2 >= -499.9682838028799
  Drone_arrival_time_Dr5_C1_C5_C3: - t[Dr5,C1] + t[Dr5,C5]
-   - 500 d_Dr5_C1_C5_C3 >= -499.8685537885336
+   - 500 d_Dr5_C1_C5_C3 >= -499.9682838028799
  Drone_arrival_time_Dr5_C1_C5_C4: - t[Dr5,C1] + t[Dr5,C5]
-   - 500 d_Dr5_C1_C5_C4 >= -499.6689160709921
+   - 500 d_Dr5_C1_C5_C4 >= -499.9682838028799
  Drone_arrival_time_Dr5_C2_D0_C1: t[Dr5,D0] - t[Dr5,C2]
-   - 500 d_Dr5_C2_D0_C1 >= -499.926330339115
+   - 500 d_Dr5_C2_D0_C1 >= -499.6178540815885
  Drone_arrival_time_Dr5_C2_D0_C3: t[Dr5,D0] - t[Dr5,C2]
-   - 500 d_Dr5_C2_D0_C3 >= -499.9243646242875
+   - 500 d_Dr5_C2_D0_C3 >= -499.6178540815885
  Drone_arrival_time_Dr5_C2_D0_C4: t[Dr5,D0] - t[Dr5,C2]
-   - 500 d_Dr5_C2_D0_C4 >= -499.6318927349537
+   - 500 d_Dr5_C2_D0_C4 >= -499.6178540815885
  Drone_arrival_time_Dr5_C2_D0_C5: t[Dr5,D0] - t[Dr5,C2]
-   - 500 d_Dr5_C2_D0_C5 >= -499.8962707210397
+   - 500 d_Dr5_C2_D0_C5 >= -499.6178540815885
  Drone_arrival_time_Dr5_C2_C1_D0: t[Dr5,C1] - t[Dr5,C2]
-   - 500 d_Dr5_C2_C1_D0 >= -499.6178540815885
+   - 500 d_Dr5_C2_C1_D0 >= -499.926330339115
  Drone_arrival_time_Dr5_C2_C1_C3: t[Dr5,C1] - t[Dr5,C2]
-   - 500 d_Dr5_C2_C1_C3 >= -499.9243646242875
+   - 500 d_Dr5_C2_C1_C3 >= -499.926330339115
  Drone_arrival_time_Dr5_C2_C1_C4: t[Dr5,C1] - t[Dr5,C2]
-   - 500 d_Dr5_C2_C1_C4 >= -499.6318927349537
+   - 500 d_Dr5_C2_C1_C4 >= -499.926330339115
  Drone_arrival_time_Dr5_C2_C1_C5: t[Dr5,C1] - t[Dr5,C2]
-   - 500 d_Dr5_C2_C1_C5 >= -499.8962707210397
+   - 500 d_Dr5_C2_C1_C5 >= -499.926330339115
  Drone_arrival_time_Dr5_C2_C3_D0: - t[Dr5,C2] + t[Dr5,C3]
-   - 500 d_Dr5_C2_C3_D0 >= -499.6178540815885
+   - 500 d_Dr5_C2_C3_D0 >= -499.9243646242875
  Drone_arrival_time_Dr5_C2_C3_C1: - t[Dr5,C2] + t[Dr5,C3]
-   - 500 d_Dr5_C2_C3_C1 >= -499.926330339115
+   - 500 d_Dr5_C2_C3_C1 >= -499.9243646242875
  Drone_arrival_time_Dr5_C2_C3_C4: - t[Dr5,C2] + t[Dr5,C3]
-   - 500 d_Dr5_C2_C3_C4 >= -499.6318927349537
+   - 500 d_Dr5_C2_C3_C4 >= -499.9243646242875
  Drone_arrival_time_Dr5_C2_C3_C5: - t[Dr5,C2] + t[Dr5,C3]
-   - 500 d_Dr5_C2_C3_C5 >= -499.8962707210397
+   - 500 d_Dr5_C2_C3_C5 >= -499.9243646242875
  Drone_arrival_time_Dr5_C2_C4_D0: - t[Dr5,C2] + t[Dr5,C4]
-   - 500 d_Dr5_C2_C4_D0 >= -499.6178540815885
+   - 500 d_Dr5_C2_C4_D0 >= -499.6318927349537
  Drone_arrival_time_Dr5_C2_C4_C1: - t[Dr5,C2] + t[Dr5,C4]
-   - 500 d_Dr5_C2_C4_C1 >= -499.926330339115
+   - 500 d_Dr5_C2_C4_C1 >= -499.6318927349537
  Drone_arrival_time_Dr5_C2_C4_C3: - t[Dr5,C2] + t[Dr5,C4]
-   - 500 d_Dr5_C2_C4_C3 >= -499.9243646242875
+   - 500 d_Dr5_C2_C4_C3 >= -499.6318927349537
  Drone_arrival_time_Dr5_C2_C4_C5: - t[Dr5,C2] + t[Dr5,C4]
-   - 500 d_Dr5_C2_C4_C5 >= -499.8962707210397
+   - 500 d_Dr5_C2_C4_C5 >= -499.6318927349537
  Drone_arrival_time_Dr5_C2_C5_D0: - t[Dr5,C2] + t[Dr5,C5]
-   - 500 d_Dr5_C2_C5_D0 >= -499.6178540815885
+   - 500 d_Dr5_C2_C5_D0 >= -499.8962707210397
  Drone_arrival_time_Dr5_C2_C5_C1: - t[Dr5,C2] + t[Dr5,C5]
-   - 500 d_Dr5_C2_C5_C1 >= -499.926330339115
+   - 500 d_Dr5_C2_C5_C1 >= -499.8962707210397
  Drone_arrival_time_Dr5_C2_C5_C3: - t[Dr5,C2] + t[Dr5,C5]
-   - 500 d_Dr5_C2_C5_C3 >= -499.9243646242875
+   - 500 d_Dr5_C2_C5_C3 >= -499.8962707210397
  Drone_arrival_time_Dr5_C2_C5_C4: - t[Dr5,C2] + t[Dr5,C5]
-   - 500 d_Dr5_C2_C5_C4 >= -499.6318927349537
+   - 500 d_Dr5_C2_C5_C4 >= -499.8962707210397
  Drone_arrival_time_Dr5_C3_D0_C1: t[Dr5,D0] - t[Dr5,C3]
-   - 500 d_Dr5_C3_D0_C1 >= -499.8685537885336
+   - 500 d_Dr5_C3_D0_C1 >= -499.6003759162863
  Drone_arrival_time_Dr5_C3_D0_C2: t[Dr5,D0] - t[Dr5,C3]
-   - 500 d_Dr5_C3_D0_C2 >= -499.9243646242875
+   - 500 d_Dr5_C3_D0_C2 >= -499.6003759162863
  Drone_arrival_time_Dr5_C3_D0_C4: t[Dr5,D0] - t[Dr5,C3]
-   - 500 d_Dr5_C3_D0_C4 >= -499.6522362224578
+   - 500 d_Dr5_C3_D0_C4 >= -499.6003759162863
  Drone_arrival_time_Dr5_C3_D0_C5: t[Dr5,D0] - t[Dr5,C3]
-   - 500 d_Dr5_C3_D0_C5 >= -499.8370029223045
+   - 500 d_Dr5_C3_D0_C5 >= -499.6003759162863
  Drone_arrival_time_Dr5_C3_C1_D0: t[Dr5,C1] - t[Dr5,C3]
-   - 500 d_Dr5_C3_C1_D0 >= -499.6003759162863
+   - 500 d_Dr5_C3_C1_D0 >= -499.8685537885336
  Drone_arrival_time_Dr5_C3_C1_C2: t[Dr5,C1] - t[Dr5,C3]
-   - 500 d_Dr5_C3_C1_C2 >= -499.9243646242875
+   - 500 d_Dr5_C3_C1_C2 >= -499.8685537885336
  Drone_arrival_time_Dr5_C3_C1_C4: t[Dr5,C1] - t[Dr5,C3]
-   - 500 d_Dr5_C3_C1_C4 >= -499.6522362224578
+   - 500 d_Dr5_C3_C1_C4 >= -499.8685537885336
  Drone_arrival_time_Dr5_C3_C1_C5: t[Dr5,C1] - t[Dr5,C3]
-   - 500 d_Dr5_C3_C1_C5 >= -499.8370029223045
+   - 500 d_Dr5_C3_C1_C5 >= -499.8685537885336
  Drone_arrival_time_Dr5_C3_C2_D0: t[Dr5,C2] - t[Dr5,C3]
-   - 500 d_Dr5_C3_C2_D0 >= -499.6003759162863
+   - 500 d_Dr5_C3_C2_D0 >= -499.9243646242875
  Drone_arrival_time_Dr5_C3_C2_C1: t[Dr5,C2] - t[Dr5,C3]
-   - 500 d_Dr5_C3_C2_C1 >= -499.8685537885336
+   - 500 d_Dr5_C3_C2_C1 >= -499.9243646242875
  Drone_arrival_time_Dr5_C3_C2_C4: t[Dr5,C2] - t[Dr5,C3]
-   - 500 d_Dr5_C3_C2_C4 >= -499.6522362224578
+   - 500 d_Dr5_C3_C2_C4 >= -499.9243646242875
  Drone_arrival_time_Dr5_C3_C2_C5: t[Dr5,C2] - t[Dr5,C3]
-   - 500 d_Dr5_C3_C2_C5 >= -499.8370029223045
+   - 500 d_Dr5_C3_C2_C5 >= -499.9243646242875
  Drone_arrival_time_Dr5_C3_C4_D0: - t[Dr5,C3] + t[Dr5,C4]
-   - 500 d_Dr5_C3_C4_D0 >= -499.6003759162863
+   - 500 d_Dr5_C3_C4_D0 >= -499.6522362224578
  Drone_arrival_time_Dr5_C3_C4_C1: - t[Dr5,C3] + t[Dr5,C4]
-   - 500 d_Dr5_C3_C4_C1 >= -499.8685537885336
+   - 500 d_Dr5_C3_C4_C1 >= -499.6522362224578
  Drone_arrival_time_Dr5_C3_C4_C2: - t[Dr5,C3] + t[Dr5,C4]
-   - 500 d_Dr5_C3_C4_C2 >= -499.9243646242875
+   - 500 d_Dr5_C3_C4_C2 >= -499.6522362224578
  Drone_arrival_time_Dr5_C3_C4_C5: - t[Dr5,C3] + t[Dr5,C4]
-   - 500 d_Dr5_C3_C4_C5 >= -499.8370029223045
+   - 500 d_Dr5_C3_C4_C5 >= -499.6522362224578
  Drone_arrival_time_Dr5_C3_C5_D0: - t[Dr5,C3] + t[Dr5,C5]
-   - 500 d_Dr5_C3_C5_D0 >= -499.6003759162863
+   - 500 d_Dr5_C3_C5_D0 >= -499.8370029223045
  Drone_arrival_time_Dr5_C3_C5_C1: - t[Dr5,C3] + t[Dr5,C5]
-   - 500 d_Dr5_C3_C5_C1 >= -499.8685537885336
+   - 500 d_Dr5_C3_C5_C1 >= -499.8370029223045
  Drone_arrival_time_Dr5_C3_C5_C2: - t[Dr5,C3] + t[Dr5,C5]
-   - 500 d_Dr5_C3_C5_C2 >= -499.9243646242875
+   - 500 d_Dr5_C3_C5_C2 >= -499.8370029223045
  Drone_arrival_time_Dr5_C3_C5_C4: - t[Dr5,C3] + t[Dr5,C5]
-   - 500 d_Dr5_C3_C5_C4 >= -499.6522362224578
+   - 500 d_Dr5_C3_C5_C4 >= -499.8370029223045
  Drone_arrival_time_Dr5_C4_D0_C1: t[Dr5,D0] - t[Dr5,C4]
-   - 500 d_Dr5_C4_D0_C1 >= -499.6689160709921
+   - 500 d_Dr5_C4_D0_C1 >= -499.8100140148426
  Drone_arrival_time_Dr5_C4_D0_C2: t[Dr5,D0] - t[Dr5,C4]
-   - 500 d_Dr5_C4_D0_C2 >= -499.6318927349537
+   - 500 d_Dr5_C4_D0_C2 >= -499.8100140148426
  Drone_arrival_time_Dr5_C4_D0_C3: t[Dr5,D0] - t[Dr5,C4]
-   - 500 d_Dr5_C4_D0_C3 >= -499.6522362224578
+   - 500 d_Dr5_C4_D0_C3 >= -499.8100140148426
  Drone_arrival_time_Dr5_C4_D0_C5: t[Dr5,D0] - t[Dr5,C4]
-   - 500 d_Dr5_C4_D0_C5 >= -499.6688338696105
+   - 500 d_Dr5_C4_D0_C5 >= -499.8100140148426
  Drone_arrival_time_Dr5_C4_C1_D0: t[Dr5,C1] - t[Dr5,C4]
-   - 500 d_Dr5_C4_C1_D0 >= -499.8100140148426
+   - 500 d_Dr5_C4_C1_D0 >= -499.6689160709921
  Drone_arrival_time_Dr5_C4_C1_C2: t[Dr5,C1] - t[Dr5,C4]
-   - 500 d_Dr5_C4_C1_C2 >= -499.6318927349537
+   - 500 d_Dr5_C4_C1_C2 >= -499.6689160709921
  Drone_arrival_time_Dr5_C4_C1_C3: t[Dr5,C1] - t[Dr5,C4]
-   - 500 d_Dr5_C4_C1_C3 >= -499.6522362224578
+   - 500 d_Dr5_C4_C1_C3 >= -499.6689160709921
  Drone_arrival_time_Dr5_C4_C1_C5: t[Dr5,C1] - t[Dr5,C4]
-   - 500 d_Dr5_C4_C1_C5 >= -499.6688338696105
+   - 500 d_Dr5_C4_C1_C5 >= -499.6689160709921
  Drone_arrival_time_Dr5_C4_C2_D0: t[Dr5,C2] - t[Dr5,C4]
-   - 500 d_Dr5_C4_C2_D0 >= -499.8100140148426
+   - 500 d_Dr5_C4_C2_D0 >= -499.6318927349537
  Drone_arrival_time_Dr5_C4_C2_C1: t[Dr5,C2] - t[Dr5,C4]
-   - 500 d_Dr5_C4_C2_C1 >= -499.6689160709921
+   - 500 d_Dr5_C4_C2_C1 >= -499.6318927349537
  Drone_arrival_time_Dr5_C4_C2_C3: t[Dr5,C2] - t[Dr5,C4]
-   - 500 d_Dr5_C4_C2_C3 >= -499.6522362224578
+   - 500 d_Dr5_C4_C2_C3 >= -499.6318927349537
  Drone_arrival_time_Dr5_C4_C2_C5: t[Dr5,C2] - t[Dr5,C4]
-   - 500 d_Dr5_C4_C2_C5 >= -499.6688338696105
+   - 500 d_Dr5_C4_C2_C5 >= -499.6318927349537
  Drone_arrival_time_Dr5_C4_C3_D0: t[Dr5,C3] - t[Dr5,C4]
-   - 500 d_Dr5_C4_C3_D0 >= -499.8100140148426
+   - 500 d_Dr5_C4_C3_D0 >= -499.6522362224578
  Drone_arrival_time_Dr5_C4_C3_C1: t[Dr5,C3] - t[Dr5,C4]
-   - 500 d_Dr5_C4_C3_C1 >= -499.6689160709921
+   - 500 d_Dr5_C4_C3_C1 >= -499.6522362224578
  Drone_arrival_time_Dr5_C4_C3_C2: t[Dr5,C3] - t[Dr5,C4]
-   - 500 d_Dr5_C4_C3_C2 >= -499.6318927349537
+   - 500 d_Dr5_C4_C3_C2 >= -499.6522362224578
  Drone_arrival_time_Dr5_C4_C3_C5: t[Dr5,C3] - t[Dr5,C4]
-   - 500 d_Dr5_C4_C3_C5 >= -499.6688338696105
+   - 500 d_Dr5_C4_C3_C5 >= -499.6522362224578
  Drone_arrival_time_Dr5_C4_C5_D0: - t[Dr5,C4] + t[Dr5,C5]
-   - 500 d_Dr5_C4_C5_D0 >= -499.8100140148426
+   - 500 d_Dr5_C4_C5_D0 >= -499.6688338696105
  Drone_arrival_time_Dr5_C4_C5_C1: - t[Dr5,C4] + t[Dr5,C5]
-   - 500 d_Dr5_C4_C5_C1 >= -499.6689160709921
+   - 500 d_Dr5_C4_C5_C1 >= -499.6688338696105
  Drone_arrival_time_Dr5_C4_C5_C2: - t[Dr5,C4] + t[Dr5,C5]
-   - 500 d_Dr5_C4_C5_C2 >= -499.6318927349537
+   - 500 d_Dr5_C4_C5_C2 >= -499.6688338696105
  Drone_arrival_time_Dr5_C4_C5_C3: - t[Dr5,C4] + t[Dr5,C5]
-   - 500 d_Dr5_C4_C5_C3 >= -499.6522362224578
+   - 500 d_Dr5_C4_C5_C3 >= -499.6688338696105
  Drone_arrival_time_Dr5_C5_D0_C1: t[Dr5,D0] - t[Dr5,C5]
-   - 500 d_Dr5_C5_D0_C1 >= -499.9682838028799
+   - 500 d_Dr5_C5_D0_C1 >= -499.7005962532795
  Drone_arrival_time_Dr5_C5_D0_C2: t[Dr5,D0] - t[Dr5,C5]
-   - 500 d_Dr5_C5_D0_C2 >= -499.8962707210397
+   - 500 d_Dr5_C5_D0_C2 >= -499.7005962532795
  Drone_arrival_time_Dr5_C5_D0_C3: t[Dr5,D0] - t[Dr5,C5]
-   - 500 d_Dr5_C5_D0_C3 >= -499.8370029223045
+   - 500 d_Dr5_C5_D0_C3 >= -499.7005962532795
  Drone_arrival_time_Dr5_C5_D0_C4: t[Dr5,D0] - t[Dr5,C5]
-   - 500 d_Dr5_C5_D0_C4 >= -499.6688338696105
+   - 500 d_Dr5_C5_D0_C4 >= -499.7005962532795
  Drone_arrival_time_Dr5_C5_C1_D0: t[Dr5,C1] - t[Dr5,C5]
-   - 500 d_Dr5_C5_C1_D0 >= -499.7005962532795
+   - 500 d_Dr5_C5_C1_D0 >= -499.9682838028799
  Drone_arrival_time_Dr5_C5_C1_C2: t[Dr5,C1] - t[Dr5,C5]
-   - 500 d_Dr5_C5_C1_C2 >= -499.8962707210397
+   - 500 d_Dr5_C5_C1_C2 >= -499.9682838028799
  Drone_arrival_time_Dr5_C5_C1_C3: t[Dr5,C1] - t[Dr5,C5]
-   - 500 d_Dr5_C5_C1_C3 >= -499.8370029223045
+   - 500 d_Dr5_C5_C1_C3 >= -499.9682838028799
  Drone_arrival_time_Dr5_C5_C1_C4: t[Dr5,C1] - t[Dr5,C5]
-   - 500 d_Dr5_C5_C1_C4 >= -499.6688338696105
+   - 500 d_Dr5_C5_C1_C4 >= -499.9682838028799
  Drone_arrival_time_Dr5_C5_C2_D0: t[Dr5,C2] - t[Dr5,C5]
-   - 500 d_Dr5_C5_C2_D0 >= -499.7005962532795
+   - 500 d_Dr5_C5_C2_D0 >= -499.8962707210397
  Drone_arrival_time_Dr5_C5_C2_C1: t[Dr5,C2] - t[Dr5,C5]
-   - 500 d_Dr5_C5_C2_C1 >= -499.9682838028799
+   - 500 d_Dr5_C5_C2_C1 >= -499.8962707210397
  Drone_arrival_time_Dr5_C5_C2_C3: t[Dr5,C2] - t[Dr5,C5]
-   - 500 d_Dr5_C5_C2_C3 >= -499.8370029223045
+   - 500 d_Dr5_C5_C2_C3 >= -499.8962707210397
  Drone_arrival_time_Dr5_C5_C2_C4: t[Dr5,C2] - t[Dr5,C5]
-   - 500 d_Dr5_C5_C2_C4 >= -499.6688338696105
+   - 500 d_Dr5_C5_C2_C4 >= -499.8962707210397
  Drone_arrival_time_Dr5_C5_C3_D0: t[Dr5,C3] - t[Dr5,C5]
-   - 500 d_Dr5_C5_C3_D0 >= -499.7005962532795
+   - 500 d_Dr5_C5_C3_D0 >= -499.8370029223045
  Drone_arrival_time_Dr5_C5_C3_C1: t[Dr5,C3] - t[Dr5,C5]
-   - 500 d_Dr5_C5_C3_C1 >= -499.9682838028799
+   - 500 d_Dr5_C5_C3_C1 >= -499.8370029223045
  Drone_arrival_time_Dr5_C5_C3_C2: t[Dr5,C3] - t[Dr5,C5]
-   - 500 d_Dr5_C5_C3_C2 >= -499.8962707210397
+   - 500 d_Dr5_C5_C3_C2 >= -499.8370029223045
  Drone_arrival_time_Dr5_C5_C3_C4: t[Dr5,C3] - t[Dr5,C5]
-   - 500 d_Dr5_C5_C3_C4 >= -499.6688338696105
+   - 500 d_Dr5_C5_C3_C4 >= -499.8370029223045
  Drone_arrival_time_Dr5_C5_C4_D0: t[Dr5,C4] - t[Dr5,C5]
-   - 500 d_Dr5_C5_C4_D0 >= -499.7005962532795
+   - 500 d_Dr5_C5_C4_D0 >= -499.6688338696105
  Drone_arrival_time_Dr5_C5_C4_C1: t[Dr5,C4] - t[Dr5,C5]
-   - 500 d_Dr5_C5_C4_C1 >= -499.9682838028799
+   - 500 d_Dr5_C5_C4_C1 >= -499.6688338696105
  Drone_arrival_time_Dr5_C5_C4_C2: t[Dr5,C4] - t[Dr5,C5]
-   - 500 d_Dr5_C5_C4_C2 >= -499.8962707210397
+   - 500 d_Dr5_C5_C4_C2 >= -499.6688338696105
  Drone_arrival_time_Dr5_C5_C4_C3: t[Dr5,C4] - t[Dr5,C5]
-   - 500 d_Dr5_C5_C4_C3 >= -499.8370029223045
+   - 500 d_Dr5_C5_C4_C3 >= -499.6688338696105
  Drone_arrival_time_Dr6_D0_C1_C2: - t[Dr6,D0] + t[Dr6,C1]
-   - 500 d_Dr6_D0_C1_C2 >= -499.6178540815885
+   - 500 d_Dr6_D0_C1_C2 >= -499.6827746027463
  Drone_arrival_time_Dr6_D0_C1_C3: - t[Dr6,D0] + t[Dr6,C1]
-   - 500 d_Dr6_D0_C1_C3 >= -499.6003759162863
+   - 500 d_Dr6_D0_C1_C3 >= -499.6827746027463
  Drone_arrival_time_Dr6_D0_C1_C4: - t[Dr6,D0] + t[Dr6,C1]
-   - 500 d_Dr6_D0_C1_C4 >= -499.8100140148426
+   - 500 d_Dr6_D0_C1_C4 >= -499.6827746027463
  Drone_arrival_time_Dr6_D0_C1_C5: - t[Dr6,D0] + t[Dr6,C1]
-   - 500 d_Dr6_D0_C1_C5 >= -499.7005962532795
+   - 500 d_Dr6_D0_C1_C5 >= -499.6827746027463
  Drone_arrival_time_Dr6_D0_C2_C1: - t[Dr6,D0] + t[Dr6,C2]
-   - 500 d_Dr6_D0_C2_C1 >= -499.6827746027463
+   - 500 d_Dr6_D0_C2_C1 >= -499.6178540815885
  Drone_arrival_time_Dr6_D0_C2_C3: - t[Dr6,D0] + t[Dr6,C2]
-   - 500 d_Dr6_D0_C2_C3 >= -499.6003759162863
+   - 500 d_Dr6_D0_C2_C3 >= -499.6178540815885
  Drone_arrival_time_Dr6_D0_C2_C4: - t[Dr6,D0] + t[Dr6,C2]
-   - 500 d_Dr6_D0_C2_C4 >= -499.8100140148426
+   - 500 d_Dr6_D0_C2_C4 >= -499.6178540815885
  Drone_arrival_time_Dr6_D0_C2_C5: - t[Dr6,D0] + t[Dr6,C2]
-   - 500 d_Dr6_D0_C2_C5 >= -499.7005962532795
+   - 500 d_Dr6_D0_C2_C5 >= -499.6178540815885
  Drone_arrival_time_Dr6_D0_C3_C1: - t[Dr6,D0] + t[Dr6,C3]
-   - 500 d_Dr6_D0_C3_C1 >= -499.6827746027463
+   - 500 d_Dr6_D0_C3_C1 >= -499.6003759162863
  Drone_arrival_time_Dr6_D0_C3_C2: - t[Dr6,D0] + t[Dr6,C3]
-   - 500 d_Dr6_D0_C3_C2 >= -499.6178540815885
+   - 500 d_Dr6_D0_C3_C2 >= -499.6003759162863
  Drone_arrival_time_Dr6_D0_C3_C4: - t[Dr6,D0] + t[Dr6,C3]
-   - 500 d_Dr6_D0_C3_C4 >= -499.8100140148426
+   - 500 d_Dr6_D0_C3_C4 >= -499.6003759162863
  Drone_arrival_time_Dr6_D0_C3_C5: - t[Dr6,D0] + t[Dr6,C3]
-   - 500 d_Dr6_D0_C3_C5 >= -499.7005962532795
+   - 500 d_Dr6_D0_C3_C5 >= -499.6003759162863
  Drone_arrival_time_Dr6_D0_C4_C1: - t[Dr6,D0] + t[Dr6,C4]
-   - 500 d_Dr6_D0_C4_C1 >= -499.6827746027463
+   - 500 d_Dr6_D0_C4_C1 >= -499.8100140148426
  Drone_arrival_time_Dr6_D0_C4_C2: - t[Dr6,D0] + t[Dr6,C4]
-   - 500 d_Dr6_D0_C4_C2 >= -499.6178540815885
+   - 500 d_Dr6_D0_C4_C2 >= -499.8100140148426
  Drone_arrival_time_Dr6_D0_C4_C3: - t[Dr6,D0] + t[Dr6,C4]
-   - 500 d_Dr6_D0_C4_C3 >= -499.6003759162863
+   - 500 d_Dr6_D0_C4_C3 >= -499.8100140148426
  Drone_arrival_time_Dr6_D0_C4_C5: - t[Dr6,D0] + t[Dr6,C4]
-   - 500 d_Dr6_D0_C4_C5 >= -499.7005962532795
+   - 500 d_Dr6_D0_C4_C5 >= -499.8100140148426
  Drone_arrival_time_Dr6_D0_C5_C1: - t[Dr6,D0] + t[Dr6,C5]
-   - 500 d_Dr6_D0_C5_C1 >= -499.6827746027463
+   - 500 d_Dr6_D0_C5_C1 >= -499.7005962532795
  Drone_arrival_time_Dr6_D0_C5_C2: - t[Dr6,D0] + t[Dr6,C5]
-   - 500 d_Dr6_D0_C5_C2 >= -499.6178540815885
+   - 500 d_Dr6_D0_C5_C2 >= -499.7005962532795
  Drone_arrival_time_Dr6_D0_C5_C3: - t[Dr6,D0] + t[Dr6,C5]
-   - 500 d_Dr6_D0_C5_C3 >= -499.6003759162863
+   - 500 d_Dr6_D0_C5_C3 >= -499.7005962532795
  Drone_arrival_time_Dr6_D0_C5_C4: - t[Dr6,D0] + t[Dr6,C5]
-   - 500 d_Dr6_D0_C5_C4 >= -499.8100140148426
+   - 500 d_Dr6_D0_C5_C4 >= -499.7005962532795
  Drone_arrival_time_Dr6_C1_D0_C2: t[Dr6,D0] - t[Dr6,C1]
-   - 500 d_Dr6_C1_D0_C2 >= -499.926330339115
+   - 500 d_Dr6_C1_D0_C2 >= -499.6827746027463
  Drone_arrival_time_Dr6_C1_D0_C3: t[Dr6,D0] - t[Dr6,C1]
-   - 500 d_Dr6_C1_D0_C3 >= -499.8685537885336
+   - 500 d_Dr6_C1_D0_C3 >= -499.6827746027463
  Drone_arrival_time_Dr6_C1_D0_C4: t[Dr6,D0] - t[Dr6,C1]
-   - 500 d_Dr6_C1_D0_C4 >= -499.6689160709921
+   - 500 d_Dr6_C1_D0_C4 >= -499.6827746027463
  Drone_arrival_time_Dr6_C1_D0_C5: t[Dr6,D0] - t[Dr6,C1]
-   - 500 d_Dr6_C1_D0_C5 >= -499.9682838028799
+   - 500 d_Dr6_C1_D0_C5 >= -499.6827746027463
  Drone_arrival_time_Dr6_C1_C2_D0: - t[Dr6,C1] + t[Dr6,C2]
-   - 500 d_Dr6_C1_C2_D0 >= -499.6827746027463
+   - 500 d_Dr6_C1_C2_D0 >= -499.926330339115
  Drone_arrival_time_Dr6_C1_C2_C3: - t[Dr6,C1] + t[Dr6,C2]
-   - 500 d_Dr6_C1_C2_C3 >= -499.8685537885336
+   - 500 d_Dr6_C1_C2_C3 >= -499.926330339115
  Drone_arrival_time_Dr6_C1_C2_C4: - t[Dr6,C1] + t[Dr6,C2]
-   - 500 d_Dr6_C1_C2_C4 >= -499.6689160709921
+   - 500 d_Dr6_C1_C2_C4 >= -499.926330339115
  Drone_arrival_time_Dr6_C1_C2_C5: - t[Dr6,C1] + t[Dr6,C2]
-   - 500 d_Dr6_C1_C2_C5 >= -499.9682838028799
+   - 500 d_Dr6_C1_C2_C5 >= -499.926330339115
  Drone_arrival_time_Dr6_C1_C3_D0: - t[Dr6,C1] + t[Dr6,C3]
-   - 500 d_Dr6_C1_C3_D0 >= -499.6827746027463
+   - 500 d_Dr6_C1_C3_D0 >= -499.8685537885336
  Drone_arrival_time_Dr6_C1_C3_C2: - t[Dr6,C1] + t[Dr6,C3]
-   - 500 d_Dr6_C1_C3_C2 >= -499.926330339115
+   - 500 d_Dr6_C1_C3_C2 >= -499.8685537885336
  Drone_arrival_time_Dr6_C1_C3_C4: - t[Dr6,C1] + t[Dr6,C3]
-   - 500 d_Dr6_C1_C3_C4 >= -499.6689160709921
+   - 500 d_Dr6_C1_C3_C4 >= -499.8685537885336
  Drone_arrival_time_Dr6_C1_C3_C5: - t[Dr6,C1] + t[Dr6,C3]
-   - 500 d_Dr6_C1_C3_C5 >= -499.9682838028799
+   - 500 d_Dr6_C1_C3_C5 >= -499.8685537885336
  Drone_arrival_time_Dr6_C1_C4_D0: - t[Dr6,C1] + t[Dr6,C4]
-   - 500 d_Dr6_C1_C4_D0 >= -499.6827746027463
+   - 500 d_Dr6_C1_C4_D0 >= -499.6689160709921
  Drone_arrival_time_Dr6_C1_C4_C2: - t[Dr6,C1] + t[Dr6,C4]
-   - 500 d_Dr6_C1_C4_C2 >= -499.926330339115
+   - 500 d_Dr6_C1_C4_C2 >= -499.6689160709921
  Drone_arrival_time_Dr6_C1_C4_C3: - t[Dr6,C1] + t[Dr6,C4]
-   - 500 d_Dr6_C1_C4_C3 >= -499.8685537885336
+   - 500 d_Dr6_C1_C4_C3 >= -499.6689160709921
  Drone_arrival_time_Dr6_C1_C4_C5: - t[Dr6,C1] + t[Dr6,C4]
-   - 500 d_Dr6_C1_C4_C5 >= -499.9682838028799
+   - 500 d_Dr6_C1_C4_C5 >= -499.6689160709921
  Drone_arrival_time_Dr6_C1_C5_D0: - t[Dr6,C1] + t[Dr6,C5]
-   - 500 d_Dr6_C1_C5_D0 >= -499.6827746027463
+   - 500 d_Dr6_C1_C5_D0 >= -499.9682838028799
  Drone_arrival_time_Dr6_C1_C5_C2: - t[Dr6,C1] + t[Dr6,C5]
-   - 500 d_Dr6_C1_C5_C2 >= -499.926330339115
+   - 500 d_Dr6_C1_C5_C2 >= -499.9682838028799
  Drone_arrival_time_Dr6_C1_C5_C3: - t[Dr6,C1] + t[Dr6,C5]
-   - 500 d_Dr6_C1_C5_C3 >= -499.8685537885336
+   - 500 d_Dr6_C1_C5_C3 >= -499.9682838028799
  Drone_arrival_time_Dr6_C1_C5_C4: - t[Dr6,C1] + t[Dr6,C5]
-   - 500 d_Dr6_C1_C5_C4 >= -499.6689160709921
+   - 500 d_Dr6_C1_C5_C4 >= -499.9682838028799
  Drone_arrival_time_Dr6_C2_D0_C1: t[Dr6,D0] - t[Dr6,C2]
-   - 500 d_Dr6_C2_D0_C1 >= -499.926330339115
+   - 500 d_Dr6_C2_D0_C1 >= -499.6178540815885
  Drone_arrival_time_Dr6_C2_D0_C3: t[Dr6,D0] - t[Dr6,C2]
-   - 500 d_Dr6_C2_D0_C3 >= -499.9243646242875
+   - 500 d_Dr6_C2_D0_C3 >= -499.6178540815885
  Drone_arrival_time_Dr6_C2_D0_C4: t[Dr6,D0] - t[Dr6,C2]
-   - 500 d_Dr6_C2_D0_C4 >= -499.6318927349537
+   - 500 d_Dr6_C2_D0_C4 >= -499.6178540815885
  Drone_arrival_time_Dr6_C2_D0_C5: t[Dr6,D0] - t[Dr6,C2]
-   - 500 d_Dr6_C2_D0_C5 >= -499.8962707210397
+   - 500 d_Dr6_C2_D0_C5 >= -499.6178540815885
  Drone_arrival_time_Dr6_C2_C1_D0: t[Dr6,C1] - t[Dr6,C2]
-   - 500 d_Dr6_C2_C1_D0 >= -499.6178540815885
+   - 500 d_Dr6_C2_C1_D0 >= -499.926330339115
  Drone_arrival_time_Dr6_C2_C1_C3: t[Dr6,C1] - t[Dr6,C2]
-   - 500 d_Dr6_C2_C1_C3 >= -499.9243646242875
+   - 500 d_Dr6_C2_C1_C3 >= -499.926330339115
  Drone_arrival_time_Dr6_C2_C1_C4: t[Dr6,C1] - t[Dr6,C2]
-   - 500 d_Dr6_C2_C1_C4 >= -499.6318927349537
+   - 500 d_Dr6_C2_C1_C4 >= -499.926330339115
  Drone_arrival_time_Dr6_C2_C1_C5: t[Dr6,C1] - t[Dr6,C2]
-   - 500 d_Dr6_C2_C1_C5 >= -499.8962707210397
+   - 500 d_Dr6_C2_C1_C5 >= -499.926330339115
  Drone_arrival_time_Dr6_C2_C3_D0: - t[Dr6,C2] + t[Dr6,C3]
-   - 500 d_Dr6_C2_C3_D0 >= -499.6178540815885
+   - 500 d_Dr6_C2_C3_D0 >= -499.9243646242875
  Drone_arrival_time_Dr6_C2_C3_C1: - t[Dr6,C2] + t[Dr6,C3]
-   - 500 d_Dr6_C2_C3_C1 >= -499.926330339115
+   - 500 d_Dr6_C2_C3_C1 >= -499.9243646242875
  Drone_arrival_time_Dr6_C2_C3_C4: - t[Dr6,C2] + t[Dr6,C3]
-   - 500 d_Dr6_C2_C3_C4 >= -499.6318927349537
+   - 500 d_Dr6_C2_C3_C4 >= -499.9243646242875
  Drone_arrival_time_Dr6_C2_C3_C5: - t[Dr6,C2] + t[Dr6,C3]
-   - 500 d_Dr6_C2_C3_C5 >= -499.8962707210397
+   - 500 d_Dr6_C2_C3_C5 >= -499.9243646242875
  Drone_arrival_time_Dr6_C2_C4_D0: - t[Dr6,C2] + t[Dr6,C4]
-   - 500 d_Dr6_C2_C4_D0 >= -499.6178540815885
+   - 500 d_Dr6_C2_C4_D0 >= -499.6318927349537
  Drone_arrival_time_Dr6_C2_C4_C1: - t[Dr6,C2] + t[Dr6,C4]
-   - 500 d_Dr6_C2_C4_C1 >= -499.926330339115
+   - 500 d_Dr6_C2_C4_C1 >= -499.6318927349537
  Drone_arrival_time_Dr6_C2_C4_C3: - t[Dr6,C2] + t[Dr6,C4]
-   - 500 d_Dr6_C2_C4_C3 >= -499.9243646242875
+   - 500 d_Dr6_C2_C4_C3 >= -499.6318927349537
  Drone_arrival_time_Dr6_C2_C4_C5: - t[Dr6,C2] + t[Dr6,C4]
-   - 500 d_Dr6_C2_C4_C5 >= -499.8962707210397
+   - 500 d_Dr6_C2_C4_C5 >= -499.6318927349537
  Drone_arrival_time_Dr6_C2_C5_D0: - t[Dr6,C2] + t[Dr6,C5]
-   - 500 d_Dr6_C2_C5_D0 >= -499.6178540815885
+   - 500 d_Dr6_C2_C5_D0 >= -499.8962707210397
  Drone_arrival_time_Dr6_C2_C5_C1: - t[Dr6,C2] + t[Dr6,C5]
-   - 500 d_Dr6_C2_C5_C1 >= -499.926330339115
+   - 500 d_Dr6_C2_C5_C1 >= -499.8962707210397
  Drone_arrival_time_Dr6_C2_C5_C3: - t[Dr6,C2] + t[Dr6,C5]
-   - 500 d_Dr6_C2_C5_C3 >= -499.9243646242875
+   - 500 d_Dr6_C2_C5_C3 >= -499.8962707210397
  Drone_arrival_time_Dr6_C2_C5_C4: - t[Dr6,C2] + t[Dr6,C5]
-   - 500 d_Dr6_C2_C5_C4 >= -499.6318927349537
+   - 500 d_Dr6_C2_C5_C4 >= -499.8962707210397
  Drone_arrival_time_Dr6_C3_D0_C1: t[Dr6,D0] - t[Dr6,C3]
-   - 500 d_Dr6_C3_D0_C1 >= -499.8685537885336
+   - 500 d_Dr6_C3_D0_C1 >= -499.6003759162863
  Drone_arrival_time_Dr6_C3_D0_C2: t[Dr6,D0] - t[Dr6,C3]
-   - 500 d_Dr6_C3_D0_C2 >= -499.9243646242875
+   - 500 d_Dr6_C3_D0_C2 >= -499.6003759162863
  Drone_arrival_time_Dr6_C3_D0_C4: t[Dr6,D0] - t[Dr6,C3]
-   - 500 d_Dr6_C3_D0_C4 >= -499.6522362224578
+   - 500 d_Dr6_C3_D0_C4 >= -499.6003759162863
  Drone_arrival_time_Dr6_C3_D0_C5: t[Dr6,D0] - t[Dr6,C3]
-   - 500 d_Dr6_C3_D0_C5 >= -499.8370029223045
+   - 500 d_Dr6_C3_D0_C5 >= -499.6003759162863
  Drone_arrival_time_Dr6_C3_C1_D0: t[Dr6,C1] - t[Dr6,C3]
-   - 500 d_Dr6_C3_C1_D0 >= -499.6003759162863
+   - 500 d_Dr6_C3_C1_D0 >= -499.8685537885336
  Drone_arrival_time_Dr6_C3_C1_C2: t[Dr6,C1] - t[Dr6,C3]
-   - 500 d_Dr6_C3_C1_C2 >= -499.9243646242875
+   - 500 d_Dr6_C3_C1_C2 >= -499.8685537885336
  Drone_arrival_time_Dr6_C3_C1_C4: t[Dr6,C1] - t[Dr6,C3]
-   - 500 d_Dr6_C3_C1_C4 >= -499.6522362224578
+   - 500 d_Dr6_C3_C1_C4 >= -499.8685537885336
  Drone_arrival_time_Dr6_C3_C1_C5: t[Dr6,C1] - t[Dr6,C3]
-   - 500 d_Dr6_C3_C1_C5 >= -499.8370029223045
+   - 500 d_Dr6_C3_C1_C5 >= -499.8685537885336
  Drone_arrival_time_Dr6_C3_C2_D0: t[Dr6,C2] - t[Dr6,C3]
-   - 500 d_Dr6_C3_C2_D0 >= -499.6003759162863
+   - 500 d_Dr6_C3_C2_D0 >= -499.9243646242875
  Drone_arrival_time_Dr6_C3_C2_C1: t[Dr6,C2] - t[Dr6,C3]
-   - 500 d_Dr6_C3_C2_C1 >= -499.8685537885336
+   - 500 d_Dr6_C3_C2_C1 >= -499.9243646242875
  Drone_arrival_time_Dr6_C3_C2_C4: t[Dr6,C2] - t[Dr6,C3]
-   - 500 d_Dr6_C3_C2_C4 >= -499.6522362224578
+   - 500 d_Dr6_C3_C2_C4 >= -499.9243646242875
  Drone_arrival_time_Dr6_C3_C2_C5: t[Dr6,C2] - t[Dr6,C3]
-   - 500 d_Dr6_C3_C2_C5 >= -499.8370029223045
+   - 500 d_Dr6_C3_C2_C5 >= -499.9243646242875
  Drone_arrival_time_Dr6_C3_C4_D0: - t[Dr6,C3] + t[Dr6,C4]
-   - 500 d_Dr6_C3_C4_D0 >= -499.6003759162863
+   - 500 d_Dr6_C3_C4_D0 >= -499.6522362224578
  Drone_arrival_time_Dr6_C3_C4_C1: - t[Dr6,C3] + t[Dr6,C4]
-   - 500 d_Dr6_C3_C4_C1 >= -499.8685537885336
+   - 500 d_Dr6_C3_C4_C1 >= -499.6522362224578
  Drone_arrival_time_Dr6_C3_C4_C2: - t[Dr6,C3] + t[Dr6,C4]
-   - 500 d_Dr6_C3_C4_C2 >= -499.9243646242875
+   - 500 d_Dr6_C3_C4_C2 >= -499.6522362224578
  Drone_arrival_time_Dr6_C3_C4_C5: - t[Dr6,C3] + t[Dr6,C4]
-   - 500 d_Dr6_C3_C4_C5 >= -499.8370029223045
+   - 500 d_Dr6_C3_C4_C5 >= -499.6522362224578
  Drone_arrival_time_Dr6_C3_C5_D0: - t[Dr6,C3] + t[Dr6,C5]
-   - 500 d_Dr6_C3_C5_D0 >= -499.6003759162863
+   - 500 d_Dr6_C3_C5_D0 >= -499.8370029223045
  Drone_arrival_time_Dr6_C3_C5_C1: - t[Dr6,C3] + t[Dr6,C5]
-   - 500 d_Dr6_C3_C5_C1 >= -499.8685537885336
+   - 500 d_Dr6_C3_C5_C1 >= -499.8370029223045
  Drone_arrival_time_Dr6_C3_C5_C2: - t[Dr6,C3] + t[Dr6,C5]
-   - 500 d_Dr6_C3_C5_C2 >= -499.9243646242875
+   - 500 d_Dr6_C3_C5_C2 >= -499.8370029223045
  Drone_arrival_time_Dr6_C3_C5_C4: - t[Dr6,C3] + t[Dr6,C5]
-   - 500 d_Dr6_C3_C5_C4 >= -499.6522362224578
+   - 500 d_Dr6_C3_C5_C4 >= -499.8370029223045
  Drone_arrival_time_Dr6_C4_D0_C1: t[Dr6,D0] - t[Dr6,C4]
-   - 500 d_Dr6_C4_D0_C1 >= -499.6689160709921
+   - 500 d_Dr6_C4_D0_C1 >= -499.8100140148426
  Drone_arrival_time_Dr6_C4_D0_C2: t[Dr6,D0] - t[Dr6,C4]
-   - 500 d_Dr6_C4_D0_C2 >= -499.6318927349537
+   - 500 d_Dr6_C4_D0_C2 >= -499.8100140148426
  Drone_arrival_time_Dr6_C4_D0_C3: t[Dr6,D0] - t[Dr6,C4]
-   - 500 d_Dr6_C4_D0_C3 >= -499.6522362224578
+   - 500 d_Dr6_C4_D0_C3 >= -499.8100140148426
  Drone_arrival_time_Dr6_C4_D0_C5: t[Dr6,D0] - t[Dr6,C4]
-   - 500 d_Dr6_C4_D0_C5 >= -499.6688338696105
+   - 500 d_Dr6_C4_D0_C5 >= -499.8100140148426
  Drone_arrival_time_Dr6_C4_C1_D0: t[Dr6,C1] - t[Dr6,C4]
-   - 500 d_Dr6_C4_C1_D0 >= -499.8100140148426
+   - 500 d_Dr6_C4_C1_D0 >= -499.6689160709921
  Drone_arrival_time_Dr6_C4_C1_C2: t[Dr6,C1] - t[Dr6,C4]
-   - 500 d_Dr6_C4_C1_C2 >= -499.6318927349537
+   - 500 d_Dr6_C4_C1_C2 >= -499.6689160709921
  Drone_arrival_time_Dr6_C4_C1_C3: t[Dr6,C1] - t[Dr6,C4]
-   - 500 d_Dr6_C4_C1_C3 >= -499.6522362224578
+   - 500 d_Dr6_C4_C1_C3 >= -499.6689160709921
  Drone_arrival_time_Dr6_C4_C1_C5: t[Dr6,C1] - t[Dr6,C4]
-   - 500 d_Dr6_C4_C1_C5 >= -499.6688338696105
+   - 500 d_Dr6_C4_C1_C5 >= -499.6689160709921
  Drone_arrival_time_Dr6_C4_C2_D0: t[Dr6,C2] - t[Dr6,C4]
-   - 500 d_Dr6_C4_C2_D0 >= -499.8100140148426
+   - 500 d_Dr6_C4_C2_D0 >= -499.6318927349537
  Drone_arrival_time_Dr6_C4_C2_C1: t[Dr6,C2] - t[Dr6,C4]
-   - 500 d_Dr6_C4_C2_C1 >= -499.6689160709921
+   - 500 d_Dr6_C4_C2_C1 >= -499.6318927349537
  Drone_arrival_time_Dr6_C4_C2_C3: t[Dr6,C2] - t[Dr6,C4]
-   - 500 d_Dr6_C4_C2_C3 >= -499.6522362224578
+   - 500 d_Dr6_C4_C2_C3 >= -499.6318927349537
  Drone_arrival_time_Dr6_C4_C2_C5: t[Dr6,C2] - t[Dr6,C4]
-   - 500 d_Dr6_C4_C2_C5 >= -499.6688338696105
+   - 500 d_Dr6_C4_C2_C5 >= -499.6318927349537
  Drone_arrival_time_Dr6_C4_C3_D0: t[Dr6,C3] - t[Dr6,C4]
-   - 500 d_Dr6_C4_C3_D0 >= -499.8100140148426
+   - 500 d_Dr6_C4_C3_D0 >= -499.6522362224578
  Drone_arrival_time_Dr6_C4_C3_C1: t[Dr6,C3] - t[Dr6,C4]
-   - 500 d_Dr6_C4_C3_C1 >= -499.6689160709921
+   - 500 d_Dr6_C4_C3_C1 >= -499.6522362224578
  Drone_arrival_time_Dr6_C4_C3_C2: t[Dr6,C3] - t[Dr6,C4]
-   - 500 d_Dr6_C4_C3_C2 >= -499.6318927349537
+   - 500 d_Dr6_C4_C3_C2 >= -499.6522362224578
  Drone_arrival_time_Dr6_C4_C3_C5: t[Dr6,C3] - t[Dr6,C4]
-   - 500 d_Dr6_C4_C3_C5 >= -499.6688338696105
+   - 500 d_Dr6_C4_C3_C5 >= -499.6522362224578
  Drone_arrival_time_Dr6_C4_C5_D0: - t[Dr6,C4] + t[Dr6,C5]
-   - 500 d_Dr6_C4_C5_D0 >= -499.8100140148426
+   - 500 d_Dr6_C4_C5_D0 >= -499.6688338696105
  Drone_arrival_time_Dr6_C4_C5_C1: - t[Dr6,C4] + t[Dr6,C5]
-   - 500 d_Dr6_C4_C5_C1 >= -499.6689160709921
+   - 500 d_Dr6_C4_C5_C1 >= -499.6688338696105
  Drone_arrival_time_Dr6_C4_C5_C2: - t[Dr6,C4] + t[Dr6,C5]
-   - 500 d_Dr6_C4_C5_C2 >= -499.6318927349537
+   - 500 d_Dr6_C4_C5_C2 >= -499.6688338696105
  Drone_arrival_time_Dr6_C4_C5_C3: - t[Dr6,C4] + t[Dr6,C5]
-   - 500 d_Dr6_C4_C5_C3 >= -499.6522362224578
+   - 500 d_Dr6_C4_C5_C3 >= -499.6688338696105
  Drone_arrival_time_Dr6_C5_D0_C1: t[Dr6,D0] - t[Dr6,C5]
-   - 500 d_Dr6_C5_D0_C1 >= -499.9682838028799
+   - 500 d_Dr6_C5_D0_C1 >= -499.7005962532795
  Drone_arrival_time_Dr6_C5_D0_C2: t[Dr6,D0] - t[Dr6,C5]
-   - 500 d_Dr6_C5_D0_C2 >= -499.8962707210397
+   - 500 d_Dr6_C5_D0_C2 >= -499.7005962532795
  Drone_arrival_time_Dr6_C5_D0_C3: t[Dr6,D0] - t[Dr6,C5]
-   - 500 d_Dr6_C5_D0_C3 >= -499.8370029223045
+   - 500 d_Dr6_C5_D0_C3 >= -499.7005962532795
  Drone_arrival_time_Dr6_C5_D0_C4: t[Dr6,D0] - t[Dr6,C5]
-   - 500 d_Dr6_C5_D0_C4 >= -499.6688338696105
+   - 500 d_Dr6_C5_D0_C4 >= -499.7005962532795
  Drone_arrival_time_Dr6_C5_C1_D0: t[Dr6,C1] - t[Dr6,C5]
-   - 500 d_Dr6_C5_C1_D0 >= -499.7005962532795
+   - 500 d_Dr6_C5_C1_D0 >= -499.9682838028799
  Drone_arrival_time_Dr6_C5_C1_C2: t[Dr6,C1] - t[Dr6,C5]
-   - 500 d_Dr6_C5_C1_C2 >= -499.8962707210397
+   - 500 d_Dr6_C5_C1_C2 >= -499.9682838028799
  Drone_arrival_time_Dr6_C5_C1_C3: t[Dr6,C1] - t[Dr6,C5]
-   - 500 d_Dr6_C5_C1_C3 >= -499.8370029223045
+   - 500 d_Dr6_C5_C1_C3 >= -499.9682838028799
  Drone_arrival_time_Dr6_C5_C1_C4: t[Dr6,C1] - t[Dr6,C5]
-   - 500 d_Dr6_C5_C1_C4 >= -499.6688338696105
+   - 500 d_Dr6_C5_C1_C4 >= -499.9682838028799
  Drone_arrival_time_Dr6_C5_C2_D0: t[Dr6,C2] - t[Dr6,C5]
-   - 500 d_Dr6_C5_C2_D0 >= -499.7005962532795
+   - 500 d_Dr6_C5_C2_D0 >= -499.8962707210397
  Drone_arrival_time_Dr6_C5_C2_C1: t[Dr6,C2] - t[Dr6,C5]
-   - 500 d_Dr6_C5_C2_C1 >= -499.9682838028799
+   - 500 d_Dr6_C5_C2_C1 >= -499.8962707210397
  Drone_arrival_time_Dr6_C5_C2_C3: t[Dr6,C2] - t[Dr6,C5]
-   - 500 d_Dr6_C5_C2_C3 >= -499.8370029223045
+   - 500 d_Dr6_C5_C2_C3 >= -499.8962707210397
  Drone_arrival_time_Dr6_C5_C2_C4: t[Dr6,C2] - t[Dr6,C5]
-   - 500 d_Dr6_C5_C2_C4 >= -499.6688338696105
+   - 500 d_Dr6_C5_C2_C4 >= -499.8962707210397
  Drone_arrival_time_Dr6_C5_C3_D0: t[Dr6,C3] - t[Dr6,C5]
-   - 500 d_Dr6_C5_C3_D0 >= -499.7005962532795
+   - 500 d_Dr6_C5_C3_D0 >= -499.8370029223045
  Drone_arrival_time_Dr6_C5_C3_C1: t[Dr6,C3] - t[Dr6,C5]
-   - 500 d_Dr6_C5_C3_C1 >= -499.9682838028799
+   - 500 d_Dr6_C5_C3_C1 >= -499.8370029223045
  Drone_arrival_time_Dr6_C5_C3_C2: t[Dr6,C3] - t[Dr6,C5]
-   - 500 d_Dr6_C5_C3_C2 >= -499.8962707210397
+   - 500 d_Dr6_C5_C3_C2 >= -499.8370029223045
  Drone_arrival_time_Dr6_C5_C3_C4: t[Dr6,C3] - t[Dr6,C5]
-   - 500 d_Dr6_C5_C3_C4 >= -499.6688338696105
+   - 500 d_Dr6_C5_C3_C4 >= -499.8370029223045
  Drone_arrival_time_Dr6_C5_C4_D0: t[Dr6,C4] - t[Dr6,C5]
-   - 500 d_Dr6_C5_C4_D0 >= -499.7005962532795
+   - 500 d_Dr6_C5_C4_D0 >= -499.6688338696105
  Drone_arrival_time_Dr6_C5_C4_C1: t[Dr6,C4] - t[Dr6,C5]
-   - 500 d_Dr6_C5_C4_C1 >= -499.9682838028799
+   - 500 d_Dr6_C5_C4_C1 >= -499.6688338696105
  Drone_arrival_time_Dr6_C5_C4_C2: t[Dr6,C4] - t[Dr6,C5]
-   - 500 d_Dr6_C5_C4_C2 >= -499.8962707210397
+   - 500 d_Dr6_C5_C4_C2 >= -499.6688338696105
  Drone_arrival_time_Dr6_C5_C4_C3: t[Dr6,C4] - t[Dr6,C5]
-   - 500 d_Dr6_C5_C4_C3 >= -499.8370029223045
+   - 500 d_Dr6_C5_C4_C3 >= -499.6688338696105
  Drone_arrival_time_Dr7_D0_C1_C2: - t[Dr7,D0] + t[Dr7,C1]
-   - 500 d_Dr7_D0_C1_C2 >= -499.6178540815885
+   - 500 d_Dr7_D0_C1_C2 >= -499.6827746027463
  Drone_arrival_time_Dr7_D0_C1_C3: - t[Dr7,D0] + t[Dr7,C1]
-   - 500 d_Dr7_D0_C1_C3 >= -499.6003759162863
+   - 500 d_Dr7_D0_C1_C3 >= -499.6827746027463
  Drone_arrival_time_Dr7_D0_C1_C4: - t[Dr7,D0] + t[Dr7,C1]
-   - 500 d_Dr7_D0_C1_C4 >= -499.8100140148426
+   - 500 d_Dr7_D0_C1_C4 >= -499.6827746027463
  Drone_arrival_time_Dr7_D0_C1_C5: - t[Dr7,D0] + t[Dr7,C1]
-   - 500 d_Dr7_D0_C1_C5 >= -499.7005962532795
+   - 500 d_Dr7_D0_C1_C5 >= -499.6827746027463
  Drone_arrival_time_Dr7_D0_C2_C1: - t[Dr7,D0] + t[Dr7,C2]
-   - 500 d_Dr7_D0_C2_C1 >= -499.6827746027463
+   - 500 d_Dr7_D0_C2_C1 >= -499.6178540815885
  Drone_arrival_time_Dr7_D0_C2_C3: - t[Dr7,D0] + t[Dr7,C2]
-   - 500 d_Dr7_D0_C2_C3 >= -499.6003759162863
+   - 500 d_Dr7_D0_C2_C3 >= -499.6178540815885
  Drone_arrival_time_Dr7_D0_C2_C4: - t[Dr7,D0] + t[Dr7,C2]
-   - 500 d_Dr7_D0_C2_C4 >= -499.8100140148426
+   - 500 d_Dr7_D0_C2_C4 >= -499.6178540815885
  Drone_arrival_time_Dr7_D0_C2_C5: - t[Dr7,D0] + t[Dr7,C2]
-   - 500 d_Dr7_D0_C2_C5 >= -499.7005962532795
+   - 500 d_Dr7_D0_C2_C5 >= -499.6178540815885
  Drone_arrival_time_Dr7_D0_C3_C1: - t[Dr7,D0] + t[Dr7,C3]
-   - 500 d_Dr7_D0_C3_C1 >= -499.6827746027463
+   - 500 d_Dr7_D0_C3_C1 >= -499.6003759162863
  Drone_arrival_time_Dr7_D0_C3_C2: - t[Dr7,D0] + t[Dr7,C3]
-   - 500 d_Dr7_D0_C3_C2 >= -499.6178540815885
+   - 500 d_Dr7_D0_C3_C2 >= -499.6003759162863
  Drone_arrival_time_Dr7_D0_C3_C4: - t[Dr7,D0] + t[Dr7,C3]
-   - 500 d_Dr7_D0_C3_C4 >= -499.8100140148426
+   - 500 d_Dr7_D0_C3_C4 >= -499.6003759162863
  Drone_arrival_time_Dr7_D0_C3_C5: - t[Dr7,D0] + t[Dr7,C3]
-   - 500 d_Dr7_D0_C3_C5 >= -499.7005962532795
+   - 500 d_Dr7_D0_C3_C5 >= -499.6003759162863
  Drone_arrival_time_Dr7_D0_C4_C1: - t[Dr7,D0] + t[Dr7,C4]
-   - 500 d_Dr7_D0_C4_C1 >= -499.6827746027463
+   - 500 d_Dr7_D0_C4_C1 >= -499.8100140148426
  Drone_arrival_time_Dr7_D0_C4_C2: - t[Dr7,D0] + t[Dr7,C4]
-   - 500 d_Dr7_D0_C4_C2 >= -499.6178540815885
+   - 500 d_Dr7_D0_C4_C2 >= -499.8100140148426
  Drone_arrival_time_Dr7_D0_C4_C3: - t[Dr7,D0] + t[Dr7,C4]
-   - 500 d_Dr7_D0_C4_C3 >= -499.6003759162863
+   - 500 d_Dr7_D0_C4_C3 >= -499.8100140148426
  Drone_arrival_time_Dr7_D0_C4_C5: - t[Dr7,D0] + t[Dr7,C4]
-   - 500 d_Dr7_D0_C4_C5 >= -499.7005962532795
+   - 500 d_Dr7_D0_C4_C5 >= -499.8100140148426
  Drone_arrival_time_Dr7_D0_C5_C1: - t[Dr7,D0] + t[Dr7,C5]
-   - 500 d_Dr7_D0_C5_C1 >= -499.6827746027463
+   - 500 d_Dr7_D0_C5_C1 >= -499.7005962532795
  Drone_arrival_time_Dr7_D0_C5_C2: - t[Dr7,D0] + t[Dr7,C5]
-   - 500 d_Dr7_D0_C5_C2 >= -499.6178540815885
+   - 500 d_Dr7_D0_C5_C2 >= -499.7005962532795
  Drone_arrival_time_Dr7_D0_C5_C3: - t[Dr7,D0] + t[Dr7,C5]
-   - 500 d_Dr7_D0_C5_C3 >= -499.6003759162863
+   - 500 d_Dr7_D0_C5_C3 >= -499.7005962532795
  Drone_arrival_time_Dr7_D0_C5_C4: - t[Dr7,D0] + t[Dr7,C5]
-   - 500 d_Dr7_D0_C5_C4 >= -499.8100140148426
+   - 500 d_Dr7_D0_C5_C4 >= -499.7005962532795
  Drone_arrival_time_Dr7_C1_D0_C2: t[Dr7,D0] - t[Dr7,C1]
-   - 500 d_Dr7_C1_D0_C2 >= -499.926330339115
+   - 500 d_Dr7_C1_D0_C2 >= -499.6827746027463
  Drone_arrival_time_Dr7_C1_D0_C3: t[Dr7,D0] - t[Dr7,C1]
-   - 500 d_Dr7_C1_D0_C3 >= -499.8685537885336
+   - 500 d_Dr7_C1_D0_C3 >= -499.6827746027463
  Drone_arrival_time_Dr7_C1_D0_C4: t[Dr7,D0] - t[Dr7,C1]
-   - 500 d_Dr7_C1_D0_C4 >= -499.6689160709921
+   - 500 d_Dr7_C1_D0_C4 >= -499.6827746027463
  Drone_arrival_time_Dr7_C1_D0_C5: t[Dr7,D0] - t[Dr7,C1]
-   - 500 d_Dr7_C1_D0_C5 >= -499.9682838028799
+   - 500 d_Dr7_C1_D0_C5 >= -499.6827746027463
  Drone_arrival_time_Dr7_C1_C2_D0: - t[Dr7,C1] + t[Dr7,C2]
-   - 500 d_Dr7_C1_C2_D0 >= -499.6827746027463
+   - 500 d_Dr7_C1_C2_D0 >= -499.926330339115
  Drone_arrival_time_Dr7_C1_C2_C3: - t[Dr7,C1] + t[Dr7,C2]
-   - 500 d_Dr7_C1_C2_C3 >= -499.8685537885336
+   - 500 d_Dr7_C1_C2_C3 >= -499.926330339115
  Drone_arrival_time_Dr7_C1_C2_C4: - t[Dr7,C1] + t[Dr7,C2]
-   - 500 d_Dr7_C1_C2_C4 >= -499.6689160709921
+   - 500 d_Dr7_C1_C2_C4 >= -499.926330339115
  Drone_arrival_time_Dr7_C1_C2_C5: - t[Dr7,C1] + t[Dr7,C2]
-   - 500 d_Dr7_C1_C2_C5 >= -499.9682838028799
+   - 500 d_Dr7_C1_C2_C5 >= -499.926330339115
  Drone_arrival_time_Dr7_C1_C3_D0: - t[Dr7,C1] + t[Dr7,C3]
-   - 500 d_Dr7_C1_C3_D0 >= -499.6827746027463
+   - 500 d_Dr7_C1_C3_D0 >= -499.8685537885336
  Drone_arrival_time_Dr7_C1_C3_C2: - t[Dr7,C1] + t[Dr7,C3]
-   - 500 d_Dr7_C1_C3_C2 >= -499.926330339115
+   - 500 d_Dr7_C1_C3_C2 >= -499.8685537885336
  Drone_arrival_time_Dr7_C1_C3_C4: - t[Dr7,C1] + t[Dr7,C3]
-   - 500 d_Dr7_C1_C3_C4 >= -499.6689160709921
+   - 500 d_Dr7_C1_C3_C4 >= -499.8685537885336
  Drone_arrival_time_Dr7_C1_C3_C5: - t[Dr7,C1] + t[Dr7,C3]
-   - 500 d_Dr7_C1_C3_C5 >= -499.9682838028799
+   - 500 d_Dr7_C1_C3_C5 >= -499.8685537885336
  Drone_arrival_time_Dr7_C1_C4_D0: - t[Dr7,C1] + t[Dr7,C4]
-   - 500 d_Dr7_C1_C4_D0 >= -499.6827746027463
+   - 500 d_Dr7_C1_C4_D0 >= -499.6689160709921
  Drone_arrival_time_Dr7_C1_C4_C2: - t[Dr7,C1] + t[Dr7,C4]
-   - 500 d_Dr7_C1_C4_C2 >= -499.926330339115
+   - 500 d_Dr7_C1_C4_C2 >= -499.6689160709921
  Drone_arrival_time_Dr7_C1_C4_C3: - t[Dr7,C1] + t[Dr7,C4]
-   - 500 d_Dr7_C1_C4_C3 >= -499.8685537885336
+   - 500 d_Dr7_C1_C4_C3 >= -499.6689160709921
  Drone_arrival_time_Dr7_C1_C4_C5: - t[Dr7,C1] + t[Dr7,C4]
-   - 500 d_Dr7_C1_C4_C5 >= -499.9682838028799
+   - 500 d_Dr7_C1_C4_C5 >= -499.6689160709921
  Drone_arrival_time_Dr7_C1_C5_D0: - t[Dr7,C1] + t[Dr7,C5]
-   - 500 d_Dr7_C1_C5_D0 >= -499.6827746027463
+   - 500 d_Dr7_C1_C5_D0 >= -499.9682838028799
  Drone_arrival_time_Dr7_C1_C5_C2: - t[Dr7,C1] + t[Dr7,C5]
-   - 500 d_Dr7_C1_C5_C2 >= -499.926330339115
+   - 500 d_Dr7_C1_C5_C2 >= -499.9682838028799
  Drone_arrival_time_Dr7_C1_C5_C3: - t[Dr7,C1] + t[Dr7,C5]
-   - 500 d_Dr7_C1_C5_C3 >= -499.8685537885336
+   - 500 d_Dr7_C1_C5_C3 >= -499.9682838028799
  Drone_arrival_time_Dr7_C1_C5_C4: - t[Dr7,C1] + t[Dr7,C5]
-   - 500 d_Dr7_C1_C5_C4 >= -499.6689160709921
+   - 500 d_Dr7_C1_C5_C4 >= -499.9682838028799
  Drone_arrival_time_Dr7_C2_D0_C1: t[Dr7,D0] - t[Dr7,C2]
-   - 500 d_Dr7_C2_D0_C1 >= -499.926330339115
+   - 500 d_Dr7_C2_D0_C1 >= -499.6178540815885
  Drone_arrival_time_Dr7_C2_D0_C3: t[Dr7,D0] - t[Dr7,C2]
-   - 500 d_Dr7_C2_D0_C3 >= -499.9243646242875
+   - 500 d_Dr7_C2_D0_C3 >= -499.6178540815885
  Drone_arrival_time_Dr7_C2_D0_C4: t[Dr7,D0] - t[Dr7,C2]
-   - 500 d_Dr7_C2_D0_C4 >= -499.6318927349537
+   - 500 d_Dr7_C2_D0_C4 >= -499.6178540815885
  Drone_arrival_time_Dr7_C2_D0_C5: t[Dr7,D0] - t[Dr7,C2]
-   - 500 d_Dr7_C2_D0_C5 >= -499.8962707210397
+   - 500 d_Dr7_C2_D0_C5 >= -499.6178540815885
  Drone_arrival_time_Dr7_C2_C1_D0: t[Dr7,C1] - t[Dr7,C2]
-   - 500 d_Dr7_C2_C1_D0 >= -499.6178540815885
+   - 500 d_Dr7_C2_C1_D0 >= -499.926330339115
  Drone_arrival_time_Dr7_C2_C1_C3: t[Dr7,C1] - t[Dr7,C2]
-   - 500 d_Dr7_C2_C1_C3 >= -499.9243646242875
+   - 500 d_Dr7_C2_C1_C3 >= -499.926330339115
  Drone_arrival_time_Dr7_C2_C1_C4: t[Dr7,C1] - t[Dr7,C2]
-   - 500 d_Dr7_C2_C1_C4 >= -499.6318927349537
+   - 500 d_Dr7_C2_C1_C4 >= -499.926330339115
  Drone_arrival_time_Dr7_C2_C1_C5: t[Dr7,C1] - t[Dr7,C2]
-   - 500 d_Dr7_C2_C1_C5 >= -499.8962707210397
+   - 500 d_Dr7_C2_C1_C5 >= -499.926330339115
  Drone_arrival_time_Dr7_C2_C3_D0: - t[Dr7,C2] + t[Dr7,C3]
-   - 500 d_Dr7_C2_C3_D0 >= -499.6178540815885
+   - 500 d_Dr7_C2_C3_D0 >= -499.9243646242875
  Drone_arrival_time_Dr7_C2_C3_C1: - t[Dr7,C2] + t[Dr7,C3]
-   - 500 d_Dr7_C2_C3_C1 >= -499.926330339115
+   - 500 d_Dr7_C2_C3_C1 >= -499.9243646242875
  Drone_arrival_time_Dr7_C2_C3_C4: - t[Dr7,C2] + t[Dr7,C3]
-   - 500 d_Dr7_C2_C3_C4 >= -499.6318927349537
+   - 500 d_Dr7_C2_C3_C4 >= -499.9243646242875
  Drone_arrival_time_Dr7_C2_C3_C5: - t[Dr7,C2] + t[Dr7,C3]
-   - 500 d_Dr7_C2_C3_C5 >= -499.8962707210397
+   - 500 d_Dr7_C2_C3_C5 >= -499.9243646242875
  Drone_arrival_time_Dr7_C2_C4_D0: - t[Dr7,C2] + t[Dr7,C4]
-   - 500 d_Dr7_C2_C4_D0 >= -499.6178540815885
+   - 500 d_Dr7_C2_C4_D0 >= -499.6318927349537
  Drone_arrival_time_Dr7_C2_C4_C1: - t[Dr7,C2] + t[Dr7,C4]
-   - 500 d_Dr7_C2_C4_C1 >= -499.926330339115
+   - 500 d_Dr7_C2_C4_C1 >= -499.6318927349537
  Drone_arrival_time_Dr7_C2_C4_C3: - t[Dr7,C2] + t[Dr7,C4]
-   - 500 d_Dr7_C2_C4_C3 >= -499.9243646242875
+   - 500 d_Dr7_C2_C4_C3 >= -499.6318927349537
  Drone_arrival_time_Dr7_C2_C4_C5: - t[Dr7,C2] + t[Dr7,C4]
-   - 500 d_Dr7_C2_C4_C5 >= -499.8962707210397
+   - 500 d_Dr7_C2_C4_C5 >= -499.6318927349537
  Drone_arrival_time_Dr7_C2_C5_D0: - t[Dr7,C2] + t[Dr7,C5]
-   - 500 d_Dr7_C2_C5_D0 >= -499.6178540815885
+   - 500 d_Dr7_C2_C5_D0 >= -499.8962707210397
  Drone_arrival_time_Dr7_C2_C5_C1: - t[Dr7,C2] + t[Dr7,C5]
-   - 500 d_Dr7_C2_C5_C1 >= -499.926330339115
+   - 500 d_Dr7_C2_C5_C1 >= -499.8962707210397
  Drone_arrival_time_Dr7_C2_C5_C3: - t[Dr7,C2] + t[Dr7,C5]
-   - 500 d_Dr7_C2_C5_C3 >= -499.9243646242875
+   - 500 d_Dr7_C2_C5_C3 >= -499.8962707210397
  Drone_arrival_time_Dr7_C2_C5_C4: - t[Dr7,C2] + t[Dr7,C5]
-   - 500 d_Dr7_C2_C5_C4 >= -499.6318927349537
+   - 500 d_Dr7_C2_C5_C4 >= -499.8962707210397
  Drone_arrival_time_Dr7_C3_D0_C1: t[Dr7,D0] - t[Dr7,C3]
-   - 500 d_Dr7_C3_D0_C1 >= -499.8685537885336
+   - 500 d_Dr7_C3_D0_C1 >= -499.6003759162863
  Drone_arrival_time_Dr7_C3_D0_C2: t[Dr7,D0] - t[Dr7,C3]
-   - 500 d_Dr7_C3_D0_C2 >= -499.9243646242875
+   - 500 d_Dr7_C3_D0_C2 >= -499.6003759162863
  Drone_arrival_time_Dr7_C3_D0_C4: t[Dr7,D0] - t[Dr7,C3]
-   - 500 d_Dr7_C3_D0_C4 >= -499.6522362224578
+   - 500 d_Dr7_C3_D0_C4 >= -499.6003759162863
  Drone_arrival_time_Dr7_C3_D0_C5: t[Dr7,D0] - t[Dr7,C3]
-   - 500 d_Dr7_C3_D0_C5 >= -499.8370029223045
+   - 500 d_Dr7_C3_D0_C5 >= -499.6003759162863
  Drone_arrival_time_Dr7_C3_C1_D0: t[Dr7,C1] - t[Dr7,C3]
-   - 500 d_Dr7_C3_C1_D0 >= -499.6003759162863
+   - 500 d_Dr7_C3_C1_D0 >= -499.8685537885336
  Drone_arrival_time_Dr7_C3_C1_C2: t[Dr7,C1] - t[Dr7,C3]
-   - 500 d_Dr7_C3_C1_C2 >= -499.9243646242875
+   - 500 d_Dr7_C3_C1_C2 >= -499.8685537885336
  Drone_arrival_time_Dr7_C3_C1_C4: t[Dr7,C1] - t[Dr7,C3]
-   - 500 d_Dr7_C3_C1_C4 >= -499.6522362224578
+   - 500 d_Dr7_C3_C1_C4 >= -499.8685537885336
  Drone_arrival_time_Dr7_C3_C1_C5: t[Dr7,C1] - t[Dr7,C3]
-   - 500 d_Dr7_C3_C1_C5 >= -499.8370029223045
+   - 500 d_Dr7_C3_C1_C5 >= -499.8685537885336
  Drone_arrival_time_Dr7_C3_C2_D0: t[Dr7,C2] - t[Dr7,C3]
-   - 500 d_Dr7_C3_C2_D0 >= -499.6003759162863
+   - 500 d_Dr7_C3_C2_D0 >= -499.9243646242875
  Drone_arrival_time_Dr7_C3_C2_C1: t[Dr7,C2] - t[Dr7,C3]
-   - 500 d_Dr7_C3_C2_C1 >= -499.8685537885336
+   - 500 d_Dr7_C3_C2_C1 >= -499.9243646242875
  Drone_arrival_time_Dr7_C3_C2_C4: t[Dr7,C2] - t[Dr7,C3]
-   - 500 d_Dr7_C3_C2_C4 >= -499.6522362224578
+   - 500 d_Dr7_C3_C2_C4 >= -499.9243646242875
  Drone_arrival_time_Dr7_C3_C2_C5: t[Dr7,C2] - t[Dr7,C3]
-   - 500 d_Dr7_C3_C2_C5 >= -499.8370029223045
+   - 500 d_Dr7_C3_C2_C5 >= -499.9243646242875
  Drone_arrival_time_Dr7_C3_C4_D0: - t[Dr7,C3] + t[Dr7,C4]
-   - 500 d_Dr7_C3_C4_D0 >= -499.6003759162863
+   - 500 d_Dr7_C3_C4_D0 >= -499.6522362224578
  Drone_arrival_time_Dr7_C3_C4_C1: - t[Dr7,C3] + t[Dr7,C4]
-   - 500 d_Dr7_C3_C4_C1 >= -499.8685537885336
+   - 500 d_Dr7_C3_C4_C1 >= -499.6522362224578
  Drone_arrival_time_Dr7_C3_C4_C2: - t[Dr7,C3] + t[Dr7,C4]
-   - 500 d_Dr7_C3_C4_C2 >= -499.9243646242875
+   - 500 d_Dr7_C3_C4_C2 >= -499.6522362224578
  Drone_arrival_time_Dr7_C3_C4_C5: - t[Dr7,C3] + t[Dr7,C4]
-   - 500 d_Dr7_C3_C4_C5 >= -499.8370029223045
+   - 500 d_Dr7_C3_C4_C5 >= -499.6522362224578
  Drone_arrival_time_Dr7_C3_C5_D0: - t[Dr7,C3] + t[Dr7,C5]
-   - 500 d_Dr7_C3_C5_D0 >= -499.6003759162863
+   - 500 d_Dr7_C3_C5_D0 >= -499.8370029223045
  Drone_arrival_time_Dr7_C3_C5_C1: - t[Dr7,C3] + t[Dr7,C5]
-   - 500 d_Dr7_C3_C5_C1 >= -499.8685537885336
+   - 500 d_Dr7_C3_C5_C1 >= -499.8370029223045
  Drone_arrival_time_Dr7_C3_C5_C2: - t[Dr7,C3] + t[Dr7,C5]
-   - 500 d_Dr7_C3_C5_C2 >= -499.9243646242875
+   - 500 d_Dr7_C3_C5_C2 >= -499.8370029223045
  Drone_arrival_time_Dr7_C3_C5_C4: - t[Dr7,C3] + t[Dr7,C5]
-   - 500 d_Dr7_C3_C5_C4 >= -499.6522362224578
+   - 500 d_Dr7_C3_C5_C4 >= -499.8370029223045
  Drone_arrival_time_Dr7_C4_D0_C1: t[Dr7,D0] - t[Dr7,C4]
-   - 500 d_Dr7_C4_D0_C1 >= -499.6689160709921
+   - 500 d_Dr7_C4_D0_C1 >= -499.8100140148426
  Drone_arrival_time_Dr7_C4_D0_C2: t[Dr7,D0] - t[Dr7,C4]
-   - 500 d_Dr7_C4_D0_C2 >= -499.6318927349537
+   - 500 d_Dr7_C4_D0_C2 >= -499.8100140148426
  Drone_arrival_time_Dr7_C4_D0_C3: t[Dr7,D0] - t[Dr7,C4]
-   - 500 d_Dr7_C4_D0_C3 >= -499.6522362224578
+   - 500 d_Dr7_C4_D0_C3 >= -499.8100140148426
  Drone_arrival_time_Dr7_C4_D0_C5: t[Dr7,D0] - t[Dr7,C4]
-   - 500 d_Dr7_C4_D0_C5 >= -499.6688338696105
+   - 500 d_Dr7_C4_D0_C5 >= -499.8100140148426
  Drone_arrival_time_Dr7_C4_C1_D0: t[Dr7,C1] - t[Dr7,C4]
-   - 500 d_Dr7_C4_C1_D0 >= -499.8100140148426
+   - 500 d_Dr7_C4_C1_D0 >= -499.6689160709921
  Drone_arrival_time_Dr7_C4_C1_C2: t[Dr7,C1] - t[Dr7,C4]
-   - 500 d_Dr7_C4_C1_C2 >= -499.6318927349537
+   - 500 d_Dr7_C4_C1_C2 >= -499.6689160709921
  Drone_arrival_time_Dr7_C4_C1_C3: t[Dr7,C1] - t[Dr7,C4]
-   - 500 d_Dr7_C4_C1_C3 >= -499.6522362224578
+   - 500 d_Dr7_C4_C1_C3 >= -499.6689160709921
  Drone_arrival_time_Dr7_C4_C1_C5: t[Dr7,C1] - t[Dr7,C4]
-   - 500 d_Dr7_C4_C1_C5 >= -499.6688338696105
+   - 500 d_Dr7_C4_C1_C5 >= -499.6689160709921
  Drone_arrival_time_Dr7_C4_C2_D0: t[Dr7,C2] - t[Dr7,C4]
-   - 500 d_Dr7_C4_C2_D0 >= -499.8100140148426
+   - 500 d_Dr7_C4_C2_D0 >= -499.6318927349537
  Drone_arrival_time_Dr7_C4_C2_C1: t[Dr7,C2] - t[Dr7,C4]
-   - 500 d_Dr7_C4_C2_C1 >= -499.6689160709921
+   - 500 d_Dr7_C4_C2_C1 >= -499.6318927349537
  Drone_arrival_time_Dr7_C4_C2_C3: t[Dr7,C2] - t[Dr7,C4]
-   - 500 d_Dr7_C4_C2_C3 >= -499.6522362224578
+   - 500 d_Dr7_C4_C2_C3 >= -499.6318927349537
  Drone_arrival_time_Dr7_C4_C2_C5: t[Dr7,C2] - t[Dr7,C4]
-   - 500 d_Dr7_C4_C2_C5 >= -499.6688338696105
+   - 500 d_Dr7_C4_C2_C5 >= -499.6318927349537
  Drone_arrival_time_Dr7_C4_C3_D0: t[Dr7,C3] - t[Dr7,C4]
-   - 500 d_Dr7_C4_C3_D0 >= -499.8100140148426
+   - 500 d_Dr7_C4_C3_D0 >= -499.6522362224578
  Drone_arrival_time_Dr7_C4_C3_C1: t[Dr7,C3] - t[Dr7,C4]
-   - 500 d_Dr7_C4_C3_C1 >= -499.6689160709921
+   - 500 d_Dr7_C4_C3_C1 >= -499.6522362224578
  Drone_arrival_time_Dr7_C4_C3_C2: t[Dr7,C3] - t[Dr7,C4]
-   - 500 d_Dr7_C4_C3_C2 >= -499.6318927349537
+   - 500 d_Dr7_C4_C3_C2 >= -499.6522362224578
  Drone_arrival_time_Dr7_C4_C3_C5: t[Dr7,C3] - t[Dr7,C4]
-   - 500 d_Dr7_C4_C3_C5 >= -499.6688338696105
+   - 500 d_Dr7_C4_C3_C5 >= -499.6522362224578
  Drone_arrival_time_Dr7_C4_C5_D0: - t[Dr7,C4] + t[Dr7,C5]
-   - 500 d_Dr7_C4_C5_D0 >= -499.8100140148426
+   - 500 d_Dr7_C4_C5_D0 >= -499.6688338696105
  Drone_arrival_time_Dr7_C4_C5_C1: - t[Dr7,C4] + t[Dr7,C5]
-   - 500 d_Dr7_C4_C5_C1 >= -499.6689160709921
+   - 500 d_Dr7_C4_C5_C1 >= -499.6688338696105
  Drone_arrival_time_Dr7_C4_C5_C2: - t[Dr7,C4] + t[Dr7,C5]
-   - 500 d_Dr7_C4_C5_C2 >= -499.6318927349537
+   - 500 d_Dr7_C4_C5_C2 >= -499.6688338696105
  Drone_arrival_time_Dr7_C4_C5_C3: - t[Dr7,C4] + t[Dr7,C5]
-   - 500 d_Dr7_C4_C5_C3 >= -499.6522362224578
+   - 500 d_Dr7_C4_C5_C3 >= -499.6688338696105
  Drone_arrival_time_Dr7_C5_D0_C1: t[Dr7,D0] - t[Dr7,C5]
-   - 500 d_Dr7_C5_D0_C1 >= -499.9682838028799
+   - 500 d_Dr7_C5_D0_C1 >= -499.7005962532795
  Drone_arrival_time_Dr7_C5_D0_C2: t[Dr7,D0] - t[Dr7,C5]
-   - 500 d_Dr7_C5_D0_C2 >= -499.8962707210397
+   - 500 d_Dr7_C5_D0_C2 >= -499.7005962532795
  Drone_arrival_time_Dr7_C5_D0_C3: t[Dr7,D0] - t[Dr7,C5]
-   - 500 d_Dr7_C5_D0_C3 >= -499.8370029223045
+   - 500 d_Dr7_C5_D0_C3 >= -499.7005962532795
  Drone_arrival_time_Dr7_C5_D0_C4: t[Dr7,D0] - t[Dr7,C5]
-   - 500 d_Dr7_C5_D0_C4 >= -499.6688338696105
+   - 500 d_Dr7_C5_D0_C4 >= -499.7005962532795
  Drone_arrival_time_Dr7_C5_C1_D0: t[Dr7,C1] - t[Dr7,C5]
-   - 500 d_Dr7_C5_C1_D0 >= -499.7005962532795
+   - 500 d_Dr7_C5_C1_D0 >= -499.9682838028799
  Drone_arrival_time_Dr7_C5_C1_C2: t[Dr7,C1] - t[Dr7,C5]
-   - 500 d_Dr7_C5_C1_C2 >= -499.8962707210397
+   - 500 d_Dr7_C5_C1_C2 >= -499.9682838028799
  Drone_arrival_time_Dr7_C5_C1_C3: t[Dr7,C1] - t[Dr7,C5]
-   - 500 d_Dr7_C5_C1_C3 >= -499.8370029223045
+   - 500 d_Dr7_C5_C1_C3 >= -499.9682838028799
  Drone_arrival_time_Dr7_C5_C1_C4: t[Dr7,C1] - t[Dr7,C5]
-   - 500 d_Dr7_C5_C1_C4 >= -499.6688338696105
+   - 500 d_Dr7_C5_C1_C4 >= -499.9682838028799
  Drone_arrival_time_Dr7_C5_C2_D0: t[Dr7,C2] - t[Dr7,C5]
-   - 500 d_Dr7_C5_C2_D0 >= -499.7005962532795
+   - 500 d_Dr7_C5_C2_D0 >= -499.8962707210397
  Drone_arrival_time_Dr7_C5_C2_C1: t[Dr7,C2] - t[Dr7,C5]
-   - 500 d_Dr7_C5_C2_C1 >= -499.9682838028799
+   - 500 d_Dr7_C5_C2_C1 >= -499.8962707210397
  Drone_arrival_time_Dr7_C5_C2_C3: t[Dr7,C2] - t[Dr7,C5]
-   - 500 d_Dr7_C5_C2_C3 >= -499.8370029223045
+   - 500 d_Dr7_C5_C2_C3 >= -499.8962707210397
  Drone_arrival_time_Dr7_C5_C2_C4: t[Dr7,C2] - t[Dr7,C5]
-   - 500 d_Dr7_C5_C2_C4 >= -499.6688338696105
+   - 500 d_Dr7_C5_C2_C4 >= -499.8962707210397
  Drone_arrival_time_Dr7_C5_C3_D0: t[Dr7,C3] - t[Dr7,C5]
-   - 500 d_Dr7_C5_C3_D0 >= -499.7005962532795
+   - 500 d_Dr7_C5_C3_D0 >= -499.8370029223045
  Drone_arrival_time_Dr7_C5_C3_C1: t[Dr7,C3] - t[Dr7,C5]
-   - 500 d_Dr7_C5_C3_C1 >= -499.9682838028799
+   - 500 d_Dr7_C5_C3_C1 >= -499.8370029223045
  Drone_arrival_time_Dr7_C5_C3_C2: t[Dr7,C3] - t[Dr7,C5]
-   - 500 d_Dr7_C5_C3_C2 >= -499.8962707210397
+   - 500 d_Dr7_C5_C3_C2 >= -499.8370029223045
  Drone_arrival_time_Dr7_C5_C3_C4: t[Dr7,C3] - t[Dr7,C5]
-   - 500 d_Dr7_C5_C3_C4 >= -499.6688338696105
+   - 500 d_Dr7_C5_C3_C4 >= -499.8370029223045
  Drone_arrival_time_Dr7_C5_C4_D0: t[Dr7,C4] - t[Dr7,C5]
-   - 500 d_Dr7_C5_C4_D0 >= -499.7005962532795
+   - 500 d_Dr7_C5_C4_D0 >= -499.6688338696105
  Drone_arrival_time_Dr7_C5_C4_C1: t[Dr7,C4] - t[Dr7,C5]
-   - 500 d_Dr7_C5_C4_C1 >= -499.9682838028799
+   - 500 d_Dr7_C5_C4_C1 >= -499.6688338696105
  Drone_arrival_time_Dr7_C5_C4_C2: t[Dr7,C4] - t[Dr7,C5]
-   - 500 d_Dr7_C5_C4_C2 >= -499.8962707210397
+   - 500 d_Dr7_C5_C4_C2 >= -499.6688338696105
  Drone_arrival_time_Dr7_C5_C4_C3: t[Dr7,C4] - t[Dr7,C5]
-   - 500 d_Dr7_C5_C4_C3 >= -499.8370029223045
+   - 500 d_Dr7_C5_C4_C3 >= -499.6688338696105
  Drone_arrival_time_Dr8_D0_C1_C2: - t[Dr8,D0] + t[Dr8,C1]
-   - 500 d_Dr8_D0_C1_C2 >= -499.6178540815885
+   - 500 d_Dr8_D0_C1_C2 >= -499.6827746027463
  Drone_arrival_time_Dr8_D0_C1_C3: - t[Dr8,D0] + t[Dr8,C1]
-   - 500 d_Dr8_D0_C1_C3 >= -499.6003759162863
+   - 500 d_Dr8_D0_C1_C3 >= -499.6827746027463
  Drone_arrival_time_Dr8_D0_C1_C4: - t[Dr8,D0] + t[Dr8,C1]
-   - 500 d_Dr8_D0_C1_C4 >= -499.8100140148426
+   - 500 d_Dr8_D0_C1_C4 >= -499.6827746027463
  Drone_arrival_time_Dr8_D0_C1_C5: - t[Dr8,D0] + t[Dr8,C1]
-   - 500 d_Dr8_D0_C1_C5 >= -499.7005962532795
+   - 500 d_Dr8_D0_C1_C5 >= -499.6827746027463
  Drone_arrival_time_Dr8_D0_C2_C1: - t[Dr8,D0] + t[Dr8,C2]
-   - 500 d_Dr8_D0_C2_C1 >= -499.6827746027463
+   - 500 d_Dr8_D0_C2_C1 >= -499.6178540815885
  Drone_arrival_time_Dr8_D0_C2_C3: - t[Dr8,D0] + t[Dr8,C2]
-   - 500 d_Dr8_D0_C2_C3 >= -499.6003759162863
+   - 500 d_Dr8_D0_C2_C3 >= -499.6178540815885
  Drone_arrival_time_Dr8_D0_C2_C4: - t[Dr8,D0] + t[Dr8,C2]
-   - 500 d_Dr8_D0_C2_C4 >= -499.8100140148426
+   - 500 d_Dr8_D0_C2_C4 >= -499.6178540815885
  Drone_arrival_time_Dr8_D0_C2_C5: - t[Dr8,D0] + t[Dr8,C2]
-   - 500 d_Dr8_D0_C2_C5 >= -499.7005962532795
+   - 500 d_Dr8_D0_C2_C5 >= -499.6178540815885
  Drone_arrival_time_Dr8_D0_C3_C1: - t[Dr8,D0] + t[Dr8,C3]
-   - 500 d_Dr8_D0_C3_C1 >= -499.6827746027463
+   - 500 d_Dr8_D0_C3_C1 >= -499.6003759162863
  Drone_arrival_time_Dr8_D0_C3_C2: - t[Dr8,D0] + t[Dr8,C3]
-   - 500 d_Dr8_D0_C3_C2 >= -499.6178540815885
+   - 500 d_Dr8_D0_C3_C2 >= -499.6003759162863
  Drone_arrival_time_Dr8_D0_C3_C4: - t[Dr8,D0] + t[Dr8,C3]
-   - 500 d_Dr8_D0_C3_C4 >= -499.8100140148426
+   - 500 d_Dr8_D0_C3_C4 >= -499.6003759162863
  Drone_arrival_time_Dr8_D0_C3_C5: - t[Dr8,D0] + t[Dr8,C3]
-   - 500 d_Dr8_D0_C3_C5 >= -499.7005962532795
+   - 500 d_Dr8_D0_C3_C5 >= -499.6003759162863
  Drone_arrival_time_Dr8_D0_C4_C1: - t[Dr8,D0] + t[Dr8,C4]
-   - 500 d_Dr8_D0_C4_C1 >= -499.6827746027463
+   - 500 d_Dr8_D0_C4_C1 >= -499.8100140148426
  Drone_arrival_time_Dr8_D0_C4_C2: - t[Dr8,D0] + t[Dr8,C4]
-   - 500 d_Dr8_D0_C4_C2 >= -499.6178540815885
+   - 500 d_Dr8_D0_C4_C2 >= -499.8100140148426
  Drone_arrival_time_Dr8_D0_C4_C3: - t[Dr8,D0] + t[Dr8,C4]
-   - 500 d_Dr8_D0_C4_C3 >= -499.6003759162863
+   - 500 d_Dr8_D0_C4_C3 >= -499.8100140148426
  Drone_arrival_time_Dr8_D0_C4_C5: - t[Dr8,D0] + t[Dr8,C4]
-   - 500 d_Dr8_D0_C4_C5 >= -499.7005962532795
+   - 500 d_Dr8_D0_C4_C5 >= -499.8100140148426
  Drone_arrival_time_Dr8_D0_C5_C1: - t[Dr8,D0] + t[Dr8,C5]
-   - 500 d_Dr8_D0_C5_C1 >= -499.6827746027463
+   - 500 d_Dr8_D0_C5_C1 >= -499.7005962532795
  Drone_arrival_time_Dr8_D0_C5_C2: - t[Dr8,D0] + t[Dr8,C5]
-   - 500 d_Dr8_D0_C5_C2 >= -499.6178540815885
+   - 500 d_Dr8_D0_C5_C2 >= -499.7005962532795
  Drone_arrival_time_Dr8_D0_C5_C3: - t[Dr8,D0] + t[Dr8,C5]
-   - 500 d_Dr8_D0_C5_C3 >= -499.6003759162863
+   - 500 d_Dr8_D0_C5_C3 >= -499.7005962532795
  Drone_arrival_time_Dr8_D0_C5_C4: - t[Dr8,D0] + t[Dr8,C5]
-   - 500 d_Dr8_D0_C5_C4 >= -499.8100140148426
+   - 500 d_Dr8_D0_C5_C4 >= -499.7005962532795
  Drone_arrival_time_Dr8_C1_D0_C2: t[Dr8,D0] - t[Dr8,C1]
-   - 500 d_Dr8_C1_D0_C2 >= -499.926330339115
+   - 500 d_Dr8_C1_D0_C2 >= -499.6827746027463
  Drone_arrival_time_Dr8_C1_D0_C3: t[Dr8,D0] - t[Dr8,C1]
-   - 500 d_Dr8_C1_D0_C3 >= -499.8685537885336
+   - 500 d_Dr8_C1_D0_C3 >= -499.6827746027463
  Drone_arrival_time_Dr8_C1_D0_C4: t[Dr8,D0] - t[Dr8,C1]
-   - 500 d_Dr8_C1_D0_C4 >= -499.6689160709921
+   - 500 d_Dr8_C1_D0_C4 >= -499.6827746027463
  Drone_arrival_time_Dr8_C1_D0_C5: t[Dr8,D0] - t[Dr8,C1]
-   - 500 d_Dr8_C1_D0_C5 >= -499.9682838028799
+   - 500 d_Dr8_C1_D0_C5 >= -499.6827746027463
  Drone_arrival_time_Dr8_C1_C2_D0: - t[Dr8,C1] + t[Dr8,C2]
-   - 500 d_Dr8_C1_C2_D0 >= -499.6827746027463
+   - 500 d_Dr8_C1_C2_D0 >= -499.926330339115
  Drone_arrival_time_Dr8_C1_C2_C3: - t[Dr8,C1] + t[Dr8,C2]
-   - 500 d_Dr8_C1_C2_C3 >= -499.8685537885336
+   - 500 d_Dr8_C1_C2_C3 >= -499.926330339115
  Drone_arrival_time_Dr8_C1_C2_C4: - t[Dr8,C1] + t[Dr8,C2]
-   - 500 d_Dr8_C1_C2_C4 >= -499.6689160709921
+   - 500 d_Dr8_C1_C2_C4 >= -499.926330339115
  Drone_arrival_time_Dr8_C1_C2_C5: - t[Dr8,C1] + t[Dr8,C2]
-   - 500 d_Dr8_C1_C2_C5 >= -499.9682838028799
+   - 500 d_Dr8_C1_C2_C5 >= -499.926330339115
  Drone_arrival_time_Dr8_C1_C3_D0: - t[Dr8,C1] + t[Dr8,C3]
-   - 500 d_Dr8_C1_C3_D0 >= -499.6827746027463
+   - 500 d_Dr8_C1_C3_D0 >= -499.8685537885336
  Drone_arrival_time_Dr8_C1_C3_C2: - t[Dr8,C1] + t[Dr8,C3]
-   - 500 d_Dr8_C1_C3_C2 >= -499.926330339115
+   - 500 d_Dr8_C1_C3_C2 >= -499.8685537885336
  Drone_arrival_time_Dr8_C1_C3_C4: - t[Dr8,C1] + t[Dr8,C3]
-   - 500 d_Dr8_C1_C3_C4 >= -499.6689160709921
+   - 500 d_Dr8_C1_C3_C4 >= -499.8685537885336
  Drone_arrival_time_Dr8_C1_C3_C5: - t[Dr8,C1] + t[Dr8,C3]
-   - 500 d_Dr8_C1_C3_C5 >= -499.9682838028799
+   - 500 d_Dr8_C1_C3_C5 >= -499.8685537885336
  Drone_arrival_time_Dr8_C1_C4_D0: - t[Dr8,C1] + t[Dr8,C4]
-   - 500 d_Dr8_C1_C4_D0 >= -499.6827746027463
+   - 500 d_Dr8_C1_C4_D0 >= -499.6689160709921
  Drone_arrival_time_Dr8_C1_C4_C2: - t[Dr8,C1] + t[Dr8,C4]
-   - 500 d_Dr8_C1_C4_C2 >= -499.926330339115
+   - 500 d_Dr8_C1_C4_C2 >= -499.6689160709921
  Drone_arrival_time_Dr8_C1_C4_C3: - t[Dr8,C1] + t[Dr8,C4]
-   - 500 d_Dr8_C1_C4_C3 >= -499.8685537885336
+   - 500 d_Dr8_C1_C4_C3 >= -499.6689160709921
  Drone_arrival_time_Dr8_C1_C4_C5: - t[Dr8,C1] + t[Dr8,C4]
-   - 500 d_Dr8_C1_C4_C5 >= -499.9682838028799
+   - 500 d_Dr8_C1_C4_C5 >= -499.6689160709921
  Drone_arrival_time_Dr8_C1_C5_D0: - t[Dr8,C1] + t[Dr8,C5]
-   - 500 d_Dr8_C1_C5_D0 >= -499.6827746027463
+   - 500 d_Dr8_C1_C5_D0 >= -499.9682838028799
  Drone_arrival_time_Dr8_C1_C5_C2: - t[Dr8,C1] + t[Dr8,C5]
-   - 500 d_Dr8_C1_C5_C2 >= -499.926330339115
+   - 500 d_Dr8_C1_C5_C2 >= -499.9682838028799
  Drone_arrival_time_Dr8_C1_C5_C3: - t[Dr8,C1] + t[Dr8,C5]
-   - 500 d_Dr8_C1_C5_C3 >= -499.8685537885336
+   - 500 d_Dr8_C1_C5_C3 >= -499.9682838028799
  Drone_arrival_time_Dr8_C1_C5_C4: - t[Dr8,C1] + t[Dr8,C5]
-   - 500 d_Dr8_C1_C5_C4 >= -499.6689160709921
+   - 500 d_Dr8_C1_C5_C4 >= -499.9682838028799
  Drone_arrival_time_Dr8_C2_D0_C1: t[Dr8,D0] - t[Dr8,C2]
-   - 500 d_Dr8_C2_D0_C1 >= -499.926330339115
+   - 500 d_Dr8_C2_D0_C1 >= -499.6178540815885
  Drone_arrival_time_Dr8_C2_D0_C3: t[Dr8,D0] - t[Dr8,C2]
-   - 500 d_Dr8_C2_D0_C3 >= -499.9243646242875
+   - 500 d_Dr8_C2_D0_C3 >= -499.6178540815885
  Drone_arrival_time_Dr8_C2_D0_C4: t[Dr8,D0] - t[Dr8,C2]
-   - 500 d_Dr8_C2_D0_C4 >= -499.6318927349537
+   - 500 d_Dr8_C2_D0_C4 >= -499.6178540815885
  Drone_arrival_time_Dr8_C2_D0_C5: t[Dr8,D0] - t[Dr8,C2]
-   - 500 d_Dr8_C2_D0_C5 >= -499.8962707210397
+   - 500 d_Dr8_C2_D0_C5 >= -499.6178540815885
  Drone_arrival_time_Dr8_C2_C1_D0: t[Dr8,C1] - t[Dr8,C2]
-   - 500 d_Dr8_C2_C1_D0 >= -499.6178540815885
+   - 500 d_Dr8_C2_C1_D0 >= -499.926330339115
  Drone_arrival_time_Dr8_C2_C1_C3: t[Dr8,C1] - t[Dr8,C2]
-   - 500 d_Dr8_C2_C1_C3 >= -499.9243646242875
+   - 500 d_Dr8_C2_C1_C3 >= -499.926330339115
  Drone_arrival_time_Dr8_C2_C1_C4: t[Dr8,C1] - t[Dr8,C2]
-   - 500 d_Dr8_C2_C1_C4 >= -499.6318927349537
+   - 500 d_Dr8_C2_C1_C4 >= -499.926330339115
  Drone_arrival_time_Dr8_C2_C1_C5: t[Dr8,C1] - t[Dr8,C2]
-   - 500 d_Dr8_C2_C1_C5 >= -499.8962707210397
+   - 500 d_Dr8_C2_C1_C5 >= -499.926330339115
  Drone_arrival_time_Dr8_C2_C3_D0: - t[Dr8,C2] + t[Dr8,C3]
-   - 500 d_Dr8_C2_C3_D0 >= -499.6178540815885
+   - 500 d_Dr8_C2_C3_D0 >= -499.9243646242875
  Drone_arrival_time_Dr8_C2_C3_C1: - t[Dr8,C2] + t[Dr8,C3]
-   - 500 d_Dr8_C2_C3_C1 >= -499.926330339115
+   - 500 d_Dr8_C2_C3_C1 >= -499.9243646242875
  Drone_arrival_time_Dr8_C2_C3_C4: - t[Dr8,C2] + t[Dr8,C3]
-   - 500 d_Dr8_C2_C3_C4 >= -499.6318927349537
+   - 500 d_Dr8_C2_C3_C4 >= -499.9243646242875
  Drone_arrival_time_Dr8_C2_C3_C5: - t[Dr8,C2] + t[Dr8,C3]
-   - 500 d_Dr8_C2_C3_C5 >= -499.8962707210397
+   - 500 d_Dr8_C2_C3_C5 >= -499.9243646242875
  Drone_arrival_time_Dr8_C2_C4_D0: - t[Dr8,C2] + t[Dr8,C4]
-   - 500 d_Dr8_C2_C4_D0 >= -499.6178540815885
+   - 500 d_Dr8_C2_C4_D0 >= -499.6318927349537
  Drone_arrival_time_Dr8_C2_C4_C1: - t[Dr8,C2] + t[Dr8,C4]
-   - 500 d_Dr8_C2_C4_C1 >= -499.926330339115
+   - 500 d_Dr8_C2_C4_C1 >= -499.6318927349537
  Drone_arrival_time_Dr8_C2_C4_C3: - t[Dr8,C2] + t[Dr8,C4]
-   - 500 d_Dr8_C2_C4_C3 >= -499.9243646242875
+   - 500 d_Dr8_C2_C4_C3 >= -499.6318927349537
  Drone_arrival_time_Dr8_C2_C4_C5: - t[Dr8,C2] + t[Dr8,C4]
-   - 500 d_Dr8_C2_C4_C5 >= -499.8962707210397
+   - 500 d_Dr8_C2_C4_C5 >= -499.6318927349537
  Drone_arrival_time_Dr8_C2_C5_D0: - t[Dr8,C2] + t[Dr8,C5]
-   - 500 d_Dr8_C2_C5_D0 >= -499.6178540815885
+   - 500 d_Dr8_C2_C5_D0 >= -499.8962707210397
  Drone_arrival_time_Dr8_C2_C5_C1: - t[Dr8,C2] + t[Dr8,C5]
-   - 500 d_Dr8_C2_C5_C1 >= -499.926330339115
+   - 500 d_Dr8_C2_C5_C1 >= -499.8962707210397
  Drone_arrival_time_Dr8_C2_C5_C3: - t[Dr8,C2] + t[Dr8,C5]
-   - 500 d_Dr8_C2_C5_C3 >= -499.9243646242875
+   - 500 d_Dr8_C2_C5_C3 >= -499.8962707210397
  Drone_arrival_time_Dr8_C2_C5_C4: - t[Dr8,C2] + t[Dr8,C5]
-   - 500 d_Dr8_C2_C5_C4 >= -499.6318927349537
+   - 500 d_Dr8_C2_C5_C4 >= -499.8962707210397
  Drone_arrival_time_Dr8_C3_D0_C1: t[Dr8,D0] - t[Dr8,C3]
-   - 500 d_Dr8_C3_D0_C1 >= -499.8685537885336
+   - 500 d_Dr8_C3_D0_C1 >= -499.6003759162863
  Drone_arrival_time_Dr8_C3_D0_C2: t[Dr8,D0] - t[Dr8,C3]
-   - 500 d_Dr8_C3_D0_C2 >= -499.9243646242875
+   - 500 d_Dr8_C3_D0_C2 >= -499.6003759162863
  Drone_arrival_time_Dr8_C3_D0_C4: t[Dr8,D0] - t[Dr8,C3]
-   - 500 d_Dr8_C3_D0_C4 >= -499.6522362224578
+   - 500 d_Dr8_C3_D0_C4 >= -499.6003759162863
  Drone_arrival_time_Dr8_C3_D0_C5: t[Dr8,D0] - t[Dr8,C3]
-   - 500 d_Dr8_C3_D0_C5 >= -499.8370029223045
+   - 500 d_Dr8_C3_D0_C5 >= -499.6003759162863
  Drone_arrival_time_Dr8_C3_C1_D0: t[Dr8,C1] - t[Dr8,C3]
-   - 500 d_Dr8_C3_C1_D0 >= -499.6003759162863
+   - 500 d_Dr8_C3_C1_D0 >= -499.8685537885336
  Drone_arrival_time_Dr8_C3_C1_C2: t[Dr8,C1] - t[Dr8,C3]
-   - 500 d_Dr8_C3_C1_C2 >= -499.9243646242875
+   - 500 d_Dr8_C3_C1_C2 >= -499.8685537885336
  Drone_arrival_time_Dr8_C3_C1_C4: t[Dr8,C1] - t[Dr8,C3]
-   - 500 d_Dr8_C3_C1_C4 >= -499.6522362224578
+   - 500 d_Dr8_C3_C1_C4 >= -499.8685537885336
  Drone_arrival_time_Dr8_C3_C1_C5: t[Dr8,C1] - t[Dr8,C3]
-   - 500 d_Dr8_C3_C1_C5 >= -499.8370029223045
+   - 500 d_Dr8_C3_C1_C5 >= -499.8685537885336
  Drone_arrival_time_Dr8_C3_C2_D0: t[Dr8,C2] - t[Dr8,C3]
-   - 500 d_Dr8_C3_C2_D0 >= -499.6003759162863
+   - 500 d_Dr8_C3_C2_D0 >= -499.9243646242875
  Drone_arrival_time_Dr8_C3_C2_C1: t[Dr8,C2] - t[Dr8,C3]
-   - 500 d_Dr8_C3_C2_C1 >= -499.8685537885336
+   - 500 d_Dr8_C3_C2_C1 >= -499.9243646242875
  Drone_arrival_time_Dr8_C3_C2_C4: t[Dr8,C2] - t[Dr8,C3]
-   - 500 d_Dr8_C3_C2_C4 >= -499.6522362224578
+   - 500 d_Dr8_C3_C2_C4 >= -499.9243646242875
  Drone_arrival_time_Dr8_C3_C2_C5: t[Dr8,C2] - t[Dr8,C3]
-   - 500 d_Dr8_C3_C2_C5 >= -499.8370029223045
+   - 500 d_Dr8_C3_C2_C5 >= -499.9243646242875
  Drone_arrival_time_Dr8_C3_C4_D0: - t[Dr8,C3] + t[Dr8,C4]
-   - 500 d_Dr8_C3_C4_D0 >= -499.6003759162863
+   - 500 d_Dr8_C3_C4_D0 >= -499.6522362224578
  Drone_arrival_time_Dr8_C3_C4_C1: - t[Dr8,C3] + t[Dr8,C4]
-   - 500 d_Dr8_C3_C4_C1 >= -499.8685537885336
+   - 500 d_Dr8_C3_C4_C1 >= -499.6522362224578
  Drone_arrival_time_Dr8_C3_C4_C2: - t[Dr8,C3] + t[Dr8,C4]
-   - 500 d_Dr8_C3_C4_C2 >= -499.9243646242875
+   - 500 d_Dr8_C3_C4_C2 >= -499.6522362224578
  Drone_arrival_time_Dr8_C3_C4_C5: - t[Dr8,C3] + t[Dr8,C4]
-   - 500 d_Dr8_C3_C4_C5 >= -499.8370029223045
+   - 500 d_Dr8_C3_C4_C5 >= -499.6522362224578
  Drone_arrival_time_Dr8_C3_C5_D0: - t[Dr8,C3] + t[Dr8,C5]
-   - 500 d_Dr8_C3_C5_D0 >= -499.6003759162863
+   - 500 d_Dr8_C3_C5_D0 >= -499.8370029223045
  Drone_arrival_time_Dr8_C3_C5_C1: - t[Dr8,C3] + t[Dr8,C5]
-   - 500 d_Dr8_C3_C5_C1 >= -499.8685537885336
+   - 500 d_Dr8_C3_C5_C1 >= -499.8370029223045
  Drone_arrival_time_Dr8_C3_C5_C2: - t[Dr8,C3] + t[Dr8,C5]
-   - 500 d_Dr8_C3_C5_C2 >= -499.9243646242875
+   - 500 d_Dr8_C3_C5_C2 >= -499.8370029223045
  Drone_arrival_time_Dr8_C3_C5_C4: - t[Dr8,C3] + t[Dr8,C5]
-   - 500 d_Dr8_C3_C5_C4 >= -499.6522362224578
+   - 500 d_Dr8_C3_C5_C4 >= -499.8370029223045
  Drone_arrival_time_Dr8_C4_D0_C1: t[Dr8,D0] - t[Dr8,C4]
-   - 500 d_Dr8_C4_D0_C1 >= -499.6689160709921
+   - 500 d_Dr8_C4_D0_C1 >= -499.8100140148426
  Drone_arrival_time_Dr8_C4_D0_C2: t[Dr8,D0] - t[Dr8,C4]
-   - 500 d_Dr8_C4_D0_C2 >= -499.6318927349537
+   - 500 d_Dr8_C4_D0_C2 >= -499.8100140148426
  Drone_arrival_time_Dr8_C4_D0_C3: t[Dr8,D0] - t[Dr8,C4]
-   - 500 d_Dr8_C4_D0_C3 >= -499.6522362224578
+   - 500 d_Dr8_C4_D0_C3 >= -499.8100140148426
  Drone_arrival_time_Dr8_C4_D0_C5: t[Dr8,D0] - t[Dr8,C4]
-   - 500 d_Dr8_C4_D0_C5 >= -499.6688338696105
+   - 500 d_Dr8_C4_D0_C5 >= -499.8100140148426
  Drone_arrival_time_Dr8_C4_C1_D0: t[Dr8,C1] - t[Dr8,C4]
-   - 500 d_Dr8_C4_C1_D0 >= -499.8100140148426
+   - 500 d_Dr8_C4_C1_D0 >= -499.6689160709921
  Drone_arrival_time_Dr8_C4_C1_C2: t[Dr8,C1] - t[Dr8,C4]
-   - 500 d_Dr8_C4_C1_C2 >= -499.6318927349537
+   - 500 d_Dr8_C4_C1_C2 >= -499.6689160709921
  Drone_arrival_time_Dr8_C4_C1_C3: t[Dr8,C1] - t[Dr8,C4]
-   - 500 d_Dr8_C4_C1_C3 >= -499.6522362224578
+   - 500 d_Dr8_C4_C1_C3 >= -499.6689160709921
  Drone_arrival_time_Dr8_C4_C1_C5: t[Dr8,C1] - t[Dr8,C4]
-   - 500 d_Dr8_C4_C1_C5 >= -499.6688338696105
+   - 500 d_Dr8_C4_C1_C5 >= -499.6689160709921
  Drone_arrival_time_Dr8_C4_C2_D0: t[Dr8,C2] - t[Dr8,C4]
-   - 500 d_Dr8_C4_C2_D0 >= -499.8100140148426
+   - 500 d_Dr8_C4_C2_D0 >= -499.6318927349537
  Drone_arrival_time_Dr8_C4_C2_C1: t[Dr8,C2] - t[Dr8,C4]
-   - 500 d_Dr8_C4_C2_C1 >= -499.6689160709921
+   - 500 d_Dr8_C4_C2_C1 >= -499.6318927349537
  Drone_arrival_time_Dr8_C4_C2_C3: t[Dr8,C2] - t[Dr8,C4]
-   - 500 d_Dr8_C4_C2_C3 >= -499.6522362224578
+   - 500 d_Dr8_C4_C2_C3 >= -499.6318927349537
  Drone_arrival_time_Dr8_C4_C2_C5: t[Dr8,C2] - t[Dr8,C4]
-   - 500 d_Dr8_C4_C2_C5 >= -499.6688338696105
+   - 500 d_Dr8_C4_C2_C5 >= -499.6318927349537
  Drone_arrival_time_Dr8_C4_C3_D0: t[Dr8,C3] - t[Dr8,C4]
-   - 500 d_Dr8_C4_C3_D0 >= -499.8100140148426
+   - 500 d_Dr8_C4_C3_D0 >= -499.6522362224578
  Drone_arrival_time_Dr8_C4_C3_C1: t[Dr8,C3] - t[Dr8,C4]
-   - 500 d_Dr8_C4_C3_C1 >= -499.6689160709921
+   - 500 d_Dr8_C4_C3_C1 >= -499.6522362224578
  Drone_arrival_time_Dr8_C4_C3_C2: t[Dr8,C3] - t[Dr8,C4]
-   - 500 d_Dr8_C4_C3_C2 >= -499.6318927349537
+   - 500 d_Dr8_C4_C3_C2 >= -499.6522362224578
  Drone_arrival_time_Dr8_C4_C3_C5: t[Dr8,C3] - t[Dr8,C4]
-   - 500 d_Dr8_C4_C3_C5 >= -499.6688338696105
+   - 500 d_Dr8_C4_C3_C5 >= -499.6522362224578
  Drone_arrival_time_Dr8_C4_C5_D0: - t[Dr8,C4] + t[Dr8,C5]
-   - 500 d_Dr8_C4_C5_D0 >= -499.8100140148426
+   - 500 d_Dr8_C4_C5_D0 >= -499.6688338696105
  Drone_arrival_time_Dr8_C4_C5_C1: - t[Dr8,C4] + t[Dr8,C5]
-   - 500 d_Dr8_C4_C5_C1 >= -499.6689160709921
+   - 500 d_Dr8_C4_C5_C1 >= -499.6688338696105
  Drone_arrival_time_Dr8_C4_C5_C2: - t[Dr8,C4] + t[Dr8,C5]
-   - 500 d_Dr8_C4_C5_C2 >= -499.6318927349537
+   - 500 d_Dr8_C4_C5_C2 >= -499.6688338696105
  Drone_arrival_time_Dr8_C4_C5_C3: - t[Dr8,C4] + t[Dr8,C5]
-   - 500 d_Dr8_C4_C5_C3 >= -499.6522362224578
+   - 500 d_Dr8_C4_C5_C3 >= -499.6688338696105
  Drone_arrival_time_Dr8_C5_D0_C1: t[Dr8,D0] - t[Dr8,C5]
-   - 500 d_Dr8_C5_D0_C1 >= -499.9682838028799
+   - 500 d_Dr8_C5_D0_C1 >= -499.7005962532795
  Drone_arrival_time_Dr8_C5_D0_C2: t[Dr8,D0] - t[Dr8,C5]
-   - 500 d_Dr8_C5_D0_C2 >= -499.8962707210397
+   - 500 d_Dr8_C5_D0_C2 >= -499.7005962532795
  Drone_arrival_time_Dr8_C5_D0_C3: t[Dr8,D0] - t[Dr8,C5]
-   - 500 d_Dr8_C5_D0_C3 >= -499.8370029223045
+   - 500 d_Dr8_C5_D0_C3 >= -499.7005962532795
  Drone_arrival_time_Dr8_C5_D0_C4: t[Dr8,D0] - t[Dr8,C5]
-   - 500 d_Dr8_C5_D0_C4 >= -499.6688338696105
+   - 500 d_Dr8_C5_D0_C4 >= -499.7005962532795
  Drone_arrival_time_Dr8_C5_C1_D0: t[Dr8,C1] - t[Dr8,C5]
-   - 500 d_Dr8_C5_C1_D0 >= -499.7005962532795
+   - 500 d_Dr8_C5_C1_D0 >= -499.9682838028799
  Drone_arrival_time_Dr8_C5_C1_C2: t[Dr8,C1] - t[Dr8,C5]
-   - 500 d_Dr8_C5_C1_C2 >= -499.8962707210397
+   - 500 d_Dr8_C5_C1_C2 >= -499.9682838028799
  Drone_arrival_time_Dr8_C5_C1_C3: t[Dr8,C1] - t[Dr8,C5]
-   - 500 d_Dr8_C5_C1_C3 >= -499.8370029223045
+   - 500 d_Dr8_C5_C1_C3 >= -499.9682838028799
  Drone_arrival_time_Dr8_C5_C1_C4: t[Dr8,C1] - t[Dr8,C5]
-   - 500 d_Dr8_C5_C1_C4 >= -499.6688338696105
+   - 500 d_Dr8_C5_C1_C4 >= -499.9682838028799
  Drone_arrival_time_Dr8_C5_C2_D0: t[Dr8,C2] - t[Dr8,C5]
-   - 500 d_Dr8_C5_C2_D0 >= -499.7005962532795
+   - 500 d_Dr8_C5_C2_D0 >= -499.8962707210397
  Drone_arrival_time_Dr8_C5_C2_C1: t[Dr8,C2] - t[Dr8,C5]
-   - 500 d_Dr8_C5_C2_C1 >= -499.9682838028799
+   - 500 d_Dr8_C5_C2_C1 >= -499.8962707210397
  Drone_arrival_time_Dr8_C5_C2_C3: t[Dr8,C2] - t[Dr8,C5]
-   - 500 d_Dr8_C5_C2_C3 >= -499.8370029223045
+   - 500 d_Dr8_C5_C2_C3 >= -499.8962707210397
  Drone_arrival_time_Dr8_C5_C2_C4: t[Dr8,C2] - t[Dr8,C5]
-   - 500 d_Dr8_C5_C2_C4 >= -499.6688338696105
+   - 500 d_Dr8_C5_C2_C4 >= -499.8962707210397
  Drone_arrival_time_Dr8_C5_C3_D0: t[Dr8,C3] - t[Dr8,C5]
-   - 500 d_Dr8_C5_C3_D0 >= -499.7005962532795
+   - 500 d_Dr8_C5_C3_D0 >= -499.8370029223045
  Drone_arrival_time_Dr8_C5_C3_C1: t[Dr8,C3] - t[Dr8,C5]
-   - 500 d_Dr8_C5_C3_C1 >= -499.9682838028799
+   - 500 d_Dr8_C5_C3_C1 >= -499.8370029223045
  Drone_arrival_time_Dr8_C5_C3_C2: t[Dr8,C3] - t[Dr8,C5]
-   - 500 d_Dr8_C5_C3_C2 >= -499.8962707210397
+   - 500 d_Dr8_C5_C3_C2 >= -499.8370029223045
  Drone_arrival_time_Dr8_C5_C3_C4: t[Dr8,C3] - t[Dr8,C5]
-   - 500 d_Dr8_C5_C3_C4 >= -499.6688338696105
+   - 500 d_Dr8_C5_C3_C4 >= -499.8370029223045
  Drone_arrival_time_Dr8_C5_C4_D0: t[Dr8,C4] - t[Dr8,C5]
-   - 500 d_Dr8_C5_C4_D0 >= -499.7005962532795
+   - 500 d_Dr8_C5_C4_D0 >= -499.6688338696105
  Drone_arrival_time_Dr8_C5_C4_C1: t[Dr8,C4] - t[Dr8,C5]
-   - 500 d_Dr8_C5_C4_C1 >= -499.9682838028799
+   - 500 d_Dr8_C5_C4_C1 >= -499.6688338696105
  Drone_arrival_time_Dr8_C5_C4_C2: t[Dr8,C4] - t[Dr8,C5]
-   - 500 d_Dr8_C5_C4_C2 >= -499.8962707210397
+   - 500 d_Dr8_C5_C4_C2 >= -499.6688338696105
  Drone_arrival_time_Dr8_C5_C4_C3: t[Dr8,C4] - t[Dr8,C5]
-   - 500 d_Dr8_C5_C4_C3 >= -499.8370029223045
+   - 500 d_Dr8_C5_C4_C3 >= -499.6688338696105
  Drone_arrival_time_Dr9_D0_C1_C2: - t[Dr9,D0] + t[Dr9,C1]
-   - 500 d_Dr9_D0_C1_C2 >= -499.6178540815885
+   - 500 d_Dr9_D0_C1_C2 >= -499.6827746027463
  Drone_arrival_time_Dr9_D0_C1_C3: - t[Dr9,D0] + t[Dr9,C1]
-   - 500 d_Dr9_D0_C1_C3 >= -499.6003759162863
+   - 500 d_Dr9_D0_C1_C3 >= -499.6827746027463
  Drone_arrival_time_Dr9_D0_C1_C4: - t[Dr9,D0] + t[Dr9,C1]
-   - 500 d_Dr9_D0_C1_C4 >= -499.8100140148426
+   - 500 d_Dr9_D0_C1_C4 >= -499.6827746027463
  Drone_arrival_time_Dr9_D0_C1_C5: - t[Dr9,D0] + t[Dr9,C1]
-   - 500 d_Dr9_D0_C1_C5 >= -499.7005962532795
+   - 500 d_Dr9_D0_C1_C5 >= -499.6827746027463
  Drone_arrival_time_Dr9_D0_C2_C1: - t[Dr9,D0] + t[Dr9,C2]
-   - 500 d_Dr9_D0_C2_C1 >= -499.6827746027463
+   - 500 d_Dr9_D0_C2_C1 >= -499.6178540815885
  Drone_arrival_time_Dr9_D0_C2_C3: - t[Dr9,D0] + t[Dr9,C2]
-   - 500 d_Dr9_D0_C2_C3 >= -499.6003759162863
+   - 500 d_Dr9_D0_C2_C3 >= -499.6178540815885
  Drone_arrival_time_Dr9_D0_C2_C4: - t[Dr9,D0] + t[Dr9,C2]
-   - 500 d_Dr9_D0_C2_C4 >= -499.8100140148426
+   - 500 d_Dr9_D0_C2_C4 >= -499.6178540815885
  Drone_arrival_time_Dr9_D0_C2_C5: - t[Dr9,D0] + t[Dr9,C2]
-   - 500 d_Dr9_D0_C2_C5 >= -499.7005962532795
+   - 500 d_Dr9_D0_C2_C5 >= -499.6178540815885
  Drone_arrival_time_Dr9_D0_C3_C1: - t[Dr9,D0] + t[Dr9,C3]
-   - 500 d_Dr9_D0_C3_C1 >= -499.6827746027463
+   - 500 d_Dr9_D0_C3_C1 >= -499.6003759162863
  Drone_arrival_time_Dr9_D0_C3_C2: - t[Dr9,D0] + t[Dr9,C3]
-   - 500 d_Dr9_D0_C3_C2 >= -499.6178540815885
+   - 500 d_Dr9_D0_C3_C2 >= -499.6003759162863
  Drone_arrival_time_Dr9_D0_C3_C4: - t[Dr9,D0] + t[Dr9,C3]
-   - 500 d_Dr9_D0_C3_C4 >= -499.8100140148426
+   - 500 d_Dr9_D0_C3_C4 >= -499.6003759162863
  Drone_arrival_time_Dr9_D0_C3_C5: - t[Dr9,D0] + t[Dr9,C3]
-   - 500 d_Dr9_D0_C3_C5 >= -499.7005962532795
+   - 500 d_Dr9_D0_C3_C5 >= -499.6003759162863
  Drone_arrival_time_Dr9_D0_C4_C1: - t[Dr9,D0] + t[Dr9,C4]
-   - 500 d_Dr9_D0_C4_C1 >= -499.6827746027463
+   - 500 d_Dr9_D0_C4_C1 >= -499.8100140148426
  Drone_arrival_time_Dr9_D0_C4_C2: - t[Dr9,D0] + t[Dr9,C4]
-   - 500 d_Dr9_D0_C4_C2 >= -499.6178540815885
+   - 500 d_Dr9_D0_C4_C2 >= -499.8100140148426
  Drone_arrival_time_Dr9_D0_C4_C3: - t[Dr9,D0] + t[Dr9,C4]
-   - 500 d_Dr9_D0_C4_C3 >= -499.6003759162863
+   - 500 d_Dr9_D0_C4_C3 >= -499.8100140148426
  Drone_arrival_time_Dr9_D0_C4_C5: - t[Dr9,D0] + t[Dr9,C4]
-   - 500 d_Dr9_D0_C4_C5 >= -499.7005962532795
+   - 500 d_Dr9_D0_C4_C5 >= -499.8100140148426
  Drone_arrival_time_Dr9_D0_C5_C1: - t[Dr9,D0] + t[Dr9,C5]
-   - 500 d_Dr9_D0_C5_C1 >= -499.6827746027463
+   - 500 d_Dr9_D0_C5_C1 >= -499.7005962532795
  Drone_arrival_time_Dr9_D0_C5_C2: - t[Dr9,D0] + t[Dr9,C5]
-   - 500 d_Dr9_D0_C5_C2 >= -499.6178540815885
+   - 500 d_Dr9_D0_C5_C2 >= -499.7005962532795
  Drone_arrival_time_Dr9_D0_C5_C3: - t[Dr9,D0] + t[Dr9,C5]
-   - 500 d_Dr9_D0_C5_C3 >= -499.6003759162863
+   - 500 d_Dr9_D0_C5_C3 >= -499.7005962532795
  Drone_arrival_time_Dr9_D0_C5_C4: - t[Dr9,D0] + t[Dr9,C5]
-   - 500 d_Dr9_D0_C5_C4 >= -499.8100140148426
+   - 500 d_Dr9_D0_C5_C4 >= -499.7005962532795
  Drone_arrival_time_Dr9_C1_D0_C2: t[Dr9,D0] - t[Dr9,C1]
-   - 500 d_Dr9_C1_D0_C2 >= -499.926330339115
+   - 500 d_Dr9_C1_D0_C2 >= -499.6827746027463
  Drone_arrival_time_Dr9_C1_D0_C3: t[Dr9,D0] - t[Dr9,C1]
-   - 500 d_Dr9_C1_D0_C3 >= -499.8685537885336
+   - 500 d_Dr9_C1_D0_C3 >= -499.6827746027463
  Drone_arrival_time_Dr9_C1_D0_C4: t[Dr9,D0] - t[Dr9,C1]
-   - 500 d_Dr9_C1_D0_C4 >= -499.6689160709921
+   - 500 d_Dr9_C1_D0_C4 >= -499.6827746027463
  Drone_arrival_time_Dr9_C1_D0_C5: t[Dr9,D0] - t[Dr9,C1]
-   - 500 d_Dr9_C1_D0_C5 >= -499.9682838028799
+   - 500 d_Dr9_C1_D0_C5 >= -499.6827746027463
  Drone_arrival_time_Dr9_C1_C2_D0: - t[Dr9,C1] + t[Dr9,C2]
-   - 500 d_Dr9_C1_C2_D0 >= -499.6827746027463
+   - 500 d_Dr9_C1_C2_D0 >= -499.926330339115
  Drone_arrival_time_Dr9_C1_C2_C3: - t[Dr9,C1] + t[Dr9,C2]
-   - 500 d_Dr9_C1_C2_C3 >= -499.8685537885336
+   - 500 d_Dr9_C1_C2_C3 >= -499.926330339115
  Drone_arrival_time_Dr9_C1_C2_C4: - t[Dr9,C1] + t[Dr9,C2]
-   - 500 d_Dr9_C1_C2_C4 >= -499.6689160709921
+   - 500 d_Dr9_C1_C2_C4 >= -499.926330339115
  Drone_arrival_time_Dr9_C1_C2_C5: - t[Dr9,C1] + t[Dr9,C2]
-   - 500 d_Dr9_C1_C2_C5 >= -499.9682838028799
+   - 500 d_Dr9_C1_C2_C5 >= -499.926330339115
  Drone_arrival_time_Dr9_C1_C3_D0: - t[Dr9,C1] + t[Dr9,C3]
-   - 500 d_Dr9_C1_C3_D0 >= -499.6827746027463
+   - 500 d_Dr9_C1_C3_D0 >= -499.8685537885336
  Drone_arrival_time_Dr9_C1_C3_C2: - t[Dr9,C1] + t[Dr9,C3]
-   - 500 d_Dr9_C1_C3_C2 >= -499.926330339115
+   - 500 d_Dr9_C1_C3_C2 >= -499.8685537885336
  Drone_arrival_time_Dr9_C1_C3_C4: - t[Dr9,C1] + t[Dr9,C3]
-   - 500 d_Dr9_C1_C3_C4 >= -499.6689160709921
+   - 500 d_Dr9_C1_C3_C4 >= -499.8685537885336
  Drone_arrival_time_Dr9_C1_C3_C5: - t[Dr9,C1] + t[Dr9,C3]
-   - 500 d_Dr9_C1_C3_C5 >= -499.9682838028799
+   - 500 d_Dr9_C1_C3_C5 >= -499.8685537885336
  Drone_arrival_time_Dr9_C1_C4_D0: - t[Dr9,C1] + t[Dr9,C4]
-   - 500 d_Dr9_C1_C4_D0 >= -499.6827746027463
+   - 500 d_Dr9_C1_C4_D0 >= -499.6689160709921
  Drone_arrival_time_Dr9_C1_C4_C2: - t[Dr9,C1] + t[Dr9,C4]
-   - 500 d_Dr9_C1_C4_C2 >= -499.926330339115
+   - 500 d_Dr9_C1_C4_C2 >= -499.6689160709921
  Drone_arrival_time_Dr9_C1_C4_C3: - t[Dr9,C1] + t[Dr9,C4]
-   - 500 d_Dr9_C1_C4_C3 >= -499.8685537885336
+   - 500 d_Dr9_C1_C4_C3 >= -499.6689160709921
  Drone_arrival_time_Dr9_C1_C4_C5: - t[Dr9,C1] + t[Dr9,C4]
-   - 500 d_Dr9_C1_C4_C5 >= -499.9682838028799
+   - 500 d_Dr9_C1_C4_C5 >= -499.6689160709921
  Drone_arrival_time_Dr9_C1_C5_D0: - t[Dr9,C1] + t[Dr9,C5]
-   - 500 d_Dr9_C1_C5_D0 >= -499.6827746027463
+   - 500 d_Dr9_C1_C5_D0 >= -499.9682838028799
  Drone_arrival_time_Dr9_C1_C5_C2: - t[Dr9,C1] + t[Dr9,C5]
-   - 500 d_Dr9_C1_C5_C2 >= -499.926330339115
+   - 500 d_Dr9_C1_C5_C2 >= -499.9682838028799
  Drone_arrival_time_Dr9_C1_C5_C3: - t[Dr9,C1] + t[Dr9,C5]
-   - 500 d_Dr9_C1_C5_C3 >= -499.8685537885336
+   - 500 d_Dr9_C1_C5_C3 >= -499.9682838028799
  Drone_arrival_time_Dr9_C1_C5_C4: - t[Dr9,C1] + t[Dr9,C5]
-   - 500 d_Dr9_C1_C5_C4 >= -499.6689160709921
+   - 500 d_Dr9_C1_C5_C4 >= -499.9682838028799
  Drone_arrival_time_Dr9_C2_D0_C1: t[Dr9,D0] - t[Dr9,C2]
-   - 500 d_Dr9_C2_D0_C1 >= -499.926330339115
+   - 500 d_Dr9_C2_D0_C1 >= -499.6178540815885
  Drone_arrival_time_Dr9_C2_D0_C3: t[Dr9,D0] - t[Dr9,C2]
-   - 500 d_Dr9_C2_D0_C3 >= -499.9243646242875
+   - 500 d_Dr9_C2_D0_C3 >= -499.6178540815885
  Drone_arrival_time_Dr9_C2_D0_C4: t[Dr9,D0] - t[Dr9,C2]
-   - 500 d_Dr9_C2_D0_C4 >= -499.6318927349537
+   - 500 d_Dr9_C2_D0_C4 >= -499.6178540815885
  Drone_arrival_time_Dr9_C2_D0_C5: t[Dr9,D0] - t[Dr9,C2]
-   - 500 d_Dr9_C2_D0_C5 >= -499.8962707210397
+   - 500 d_Dr9_C2_D0_C5 >= -499.6178540815885
  Drone_arrival_time_Dr9_C2_C1_D0: t[Dr9,C1] - t[Dr9,C2]
-   - 500 d_Dr9_C2_C1_D0 >= -499.6178540815885
+   - 500 d_Dr9_C2_C1_D0 >= -499.926330339115
  Drone_arrival_time_Dr9_C2_C1_C3: t[Dr9,C1] - t[Dr9,C2]
-   - 500 d_Dr9_C2_C1_C3 >= -499.9243646242875
+   - 500 d_Dr9_C2_C1_C3 >= -499.926330339115
  Drone_arrival_time_Dr9_C2_C1_C4: t[Dr9,C1] - t[Dr9,C2]
-   - 500 d_Dr9_C2_C1_C4 >= -499.6318927349537
+   - 500 d_Dr9_C2_C1_C4 >= -499.926330339115
  Drone_arrival_time_Dr9_C2_C1_C5: t[Dr9,C1] - t[Dr9,C2]
-   - 500 d_Dr9_C2_C1_C5 >= -499.8962707210397
+   - 500 d_Dr9_C2_C1_C5 >= -499.926330339115
  Drone_arrival_time_Dr9_C2_C3_D0: - t[Dr9,C2] + t[Dr9,C3]
-   - 500 d_Dr9_C2_C3_D0 >= -499.6178540815885
+   - 500 d_Dr9_C2_C3_D0 >= -499.9243646242875
  Drone_arrival_time_Dr9_C2_C3_C1: - t[Dr9,C2] + t[Dr9,C3]
-   - 500 d_Dr9_C2_C3_C1 >= -499.926330339115
+   - 500 d_Dr9_C2_C3_C1 >= -499.9243646242875
  Drone_arrival_time_Dr9_C2_C3_C4: - t[Dr9,C2] + t[Dr9,C3]
-   - 500 d_Dr9_C2_C3_C4 >= -499.6318927349537
+   - 500 d_Dr9_C2_C3_C4 >= -499.9243646242875
  Drone_arrival_time_Dr9_C2_C3_C5: - t[Dr9,C2] + t[Dr9,C3]
-   - 500 d_Dr9_C2_C3_C5 >= -499.8962707210397
+   - 500 d_Dr9_C2_C3_C5 >= -499.9243646242875
  Drone_arrival_time_Dr9_C2_C4_D0: - t[Dr9,C2] + t[Dr9,C4]
-   - 500 d_Dr9_C2_C4_D0 >= -499.6178540815885
+   - 500 d_Dr9_C2_C4_D0 >= -499.6318927349537
  Drone_arrival_time_Dr9_C2_C4_C1: - t[Dr9,C2] + t[Dr9,C4]
-   - 500 d_Dr9_C2_C4_C1 >= -499.926330339115
+   - 500 d_Dr9_C2_C4_C1 >= -499.6318927349537
  Drone_arrival_time_Dr9_C2_C4_C3: - t[Dr9,C2] + t[Dr9,C4]
-   - 500 d_Dr9_C2_C4_C3 >= -499.9243646242875
+   - 500 d_Dr9_C2_C4_C3 >= -499.6318927349537
  Drone_arrival_time_Dr9_C2_C4_C5: - t[Dr9,C2] + t[Dr9,C4]
-   - 500 d_Dr9_C2_C4_C5 >= -499.8962707210397
+   - 500 d_Dr9_C2_C4_C5 >= -499.6318927349537
  Drone_arrival_time_Dr9_C2_C5_D0: - t[Dr9,C2] + t[Dr9,C5]
-   - 500 d_Dr9_C2_C5_D0 >= -499.6178540815885
+   - 500 d_Dr9_C2_C5_D0 >= -499.8962707210397
  Drone_arrival_time_Dr9_C2_C5_C1: - t[Dr9,C2] + t[Dr9,C5]
-   - 500 d_Dr9_C2_C5_C1 >= -499.926330339115
+   - 500 d_Dr9_C2_C5_C1 >= -499.8962707210397
  Drone_arrival_time_Dr9_C2_C5_C3: - t[Dr9,C2] + t[Dr9,C5]
-   - 500 d_Dr9_C2_C5_C3 >= -499.9243646242875
+   - 500 d_Dr9_C2_C5_C3 >= -499.8962707210397
  Drone_arrival_time_Dr9_C2_C5_C4: - t[Dr9,C2] + t[Dr9,C5]
-   - 500 d_Dr9_C2_C5_C4 >= -499.6318927349537
+   - 500 d_Dr9_C2_C5_C4 >= -499.8962707210397
  Drone_arrival_time_Dr9_C3_D0_C1: t[Dr9,D0] - t[Dr9,C3]
-   - 500 d_Dr9_C3_D0_C1 >= -499.8685537885336
+   - 500 d_Dr9_C3_D0_C1 >= -499.6003759162863
  Drone_arrival_time_Dr9_C3_D0_C2: t[Dr9,D0] - t[Dr9,C3]
-   - 500 d_Dr9_C3_D0_C2 >= -499.9243646242875
+   - 500 d_Dr9_C3_D0_C2 >= -499.6003759162863
  Drone_arrival_time_Dr9_C3_D0_C4: t[Dr9,D0] - t[Dr9,C3]
-   - 500 d_Dr9_C3_D0_C4 >= -499.6522362224578
+   - 500 d_Dr9_C3_D0_C4 >= -499.6003759162863
  Drone_arrival_time_Dr9_C3_D0_C5: t[Dr9,D0] - t[Dr9,C3]
-   - 500 d_Dr9_C3_D0_C5 >= -499.8370029223045
+   - 500 d_Dr9_C3_D0_C5 >= -499.6003759162863
  Drone_arrival_time_Dr9_C3_C1_D0: t[Dr9,C1] - t[Dr9,C3]
-   - 500 d_Dr9_C3_C1_D0 >= -499.6003759162863
+   - 500 d_Dr9_C3_C1_D0 >= -499.8685537885336
  Drone_arrival_time_Dr9_C3_C1_C2: t[Dr9,C1] - t[Dr9,C3]
-   - 500 d_Dr9_C3_C1_C2 >= -499.9243646242875
+   - 500 d_Dr9_C3_C1_C2 >= -499.8685537885336
  Drone_arrival_time_Dr9_C3_C1_C4: t[Dr9,C1] - t[Dr9,C3]
-   - 500 d_Dr9_C3_C1_C4 >= -499.6522362224578
+   - 500 d_Dr9_C3_C1_C4 >= -499.8685537885336
  Drone_arrival_time_Dr9_C3_C1_C5: t[Dr9,C1] - t[Dr9,C3]
-   - 500 d_Dr9_C3_C1_C5 >= -499.8370029223045
+   - 500 d_Dr9_C3_C1_C5 >= -499.8685537885336
  Drone_arrival_time_Dr9_C3_C2_D0: t[Dr9,C2] - t[Dr9,C3]
-   - 500 d_Dr9_C3_C2_D0 >= -499.6003759162863
+   - 500 d_Dr9_C3_C2_D0 >= -499.9243646242875
  Drone_arrival_time_Dr9_C3_C2_C1: t[Dr9,C2] - t[Dr9,C3]
-   - 500 d_Dr9_C3_C2_C1 >= -499.8685537885336
+   - 500 d_Dr9_C3_C2_C1 >= -499.9243646242875
  Drone_arrival_time_Dr9_C3_C2_C4: t[Dr9,C2] - t[Dr9,C3]
-   - 500 d_Dr9_C3_C2_C4 >= -499.6522362224578
+   - 500 d_Dr9_C3_C2_C4 >= -499.9243646242875
  Drone_arrival_time_Dr9_C3_C2_C5: t[Dr9,C2] - t[Dr9,C3]
-   - 500 d_Dr9_C3_C2_C5 >= -499.8370029223045
+   - 500 d_Dr9_C3_C2_C5 >= -499.9243646242875
  Drone_arrival_time_Dr9_C3_C4_D0: - t[Dr9,C3] + t[Dr9,C4]
-   - 500 d_Dr9_C3_C4_D0 >= -499.6003759162863
+   - 500 d_Dr9_C3_C4_D0 >= -499.6522362224578
  Drone_arrival_time_Dr9_C3_C4_C1: - t[Dr9,C3] + t[Dr9,C4]
-   - 500 d_Dr9_C3_C4_C1 >= -499.8685537885336
+   - 500 d_Dr9_C3_C4_C1 >= -499.6522362224578
  Drone_arrival_time_Dr9_C3_C4_C2: - t[Dr9,C3] + t[Dr9,C4]
-   - 500 d_Dr9_C3_C4_C2 >= -499.9243646242875
+   - 500 d_Dr9_C3_C4_C2 >= -499.6522362224578
  Drone_arrival_time_Dr9_C3_C4_C5: - t[Dr9,C3] + t[Dr9,C4]
-   - 500 d_Dr9_C3_C4_C5 >= -499.8370029223045
+   - 500 d_Dr9_C3_C4_C5 >= -499.6522362224578
  Drone_arrival_time_Dr9_C3_C5_D0: - t[Dr9,C3] + t[Dr9,C5]
-   - 500 d_Dr9_C3_C5_D0 >= -499.6003759162863
+   - 500 d_Dr9_C3_C5_D0 >= -499.8370029223045
  Drone_arrival_time_Dr9_C3_C5_C1: - t[Dr9,C3] + t[Dr9,C5]
-   - 500 d_Dr9_C3_C5_C1 >= -499.8685537885336
+   - 500 d_Dr9_C3_C5_C1 >= -499.8370029223045
  Drone_arrival_time_Dr9_C3_C5_C2: - t[Dr9,C3] + t[Dr9,C5]
-   - 500 d_Dr9_C3_C5_C2 >= -499.9243646242875
+   - 500 d_Dr9_C3_C5_C2 >= -499.8370029223045
  Drone_arrival_time_Dr9_C3_C5_C4: - t[Dr9,C3] + t[Dr9,C5]
-   - 500 d_Dr9_C3_C5_C4 >= -499.6522362224578
+   - 500 d_Dr9_C3_C5_C4 >= -499.8370029223045
  Drone_arrival_time_Dr9_C4_D0_C1: t[Dr9,D0] - t[Dr9,C4]
-   - 500 d_Dr9_C4_D0_C1 >= -499.6689160709921
+   - 500 d_Dr9_C4_D0_C1 >= -499.8100140148426
  Drone_arrival_time_Dr9_C4_D0_C2: t[Dr9,D0] - t[Dr9,C4]
-   - 500 d_Dr9_C4_D0_C2 >= -499.6318927349537
+   - 500 d_Dr9_C4_D0_C2 >= -499.8100140148426
  Drone_arrival_time_Dr9_C4_D0_C3: t[Dr9,D0] - t[Dr9,C4]
-   - 500 d_Dr9_C4_D0_C3 >= -499.6522362224578
+   - 500 d_Dr9_C4_D0_C3 >= -499.8100140148426
  Drone_arrival_time_Dr9_C4_D0_C5: t[Dr9,D0] - t[Dr9,C4]
-   - 500 d_Dr9_C4_D0_C5 >= -499.6688338696105
+   - 500 d_Dr9_C4_D0_C5 >= -499.8100140148426
  Drone_arrival_time_Dr9_C4_C1_D0: t[Dr9,C1] - t[Dr9,C4]
-   - 500 d_Dr9_C4_C1_D0 >= -499.8100140148426
+   - 500 d_Dr9_C4_C1_D0 >= -499.6689160709921
  Drone_arrival_time_Dr9_C4_C1_C2: t[Dr9,C1] - t[Dr9,C4]
-   - 500 d_Dr9_C4_C1_C2 >= -499.6318927349537
+   - 500 d_Dr9_C4_C1_C2 >= -499.6689160709921
  Drone_arrival_time_Dr9_C4_C1_C3: t[Dr9,C1] - t[Dr9,C4]
-   - 500 d_Dr9_C4_C1_C3 >= -499.6522362224578
+   - 500 d_Dr9_C4_C1_C3 >= -499.6689160709921
  Drone_arrival_time_Dr9_C4_C1_C5: t[Dr9,C1] - t[Dr9,C4]
-   - 500 d_Dr9_C4_C1_C5 >= -499.6688338696105
+   - 500 d_Dr9_C4_C1_C5 >= -499.6689160709921
  Drone_arrival_time_Dr9_C4_C2_D0: t[Dr9,C2] - t[Dr9,C4]
-   - 500 d_Dr9_C4_C2_D0 >= -499.8100140148426
+   - 500 d_Dr9_C4_C2_D0 >= -499.6318927349537
  Drone_arrival_time_Dr9_C4_C2_C1: t[Dr9,C2] - t[Dr9,C4]
-   - 500 d_Dr9_C4_C2_C1 >= -499.6689160709921
+   - 500 d_Dr9_C4_C2_C1 >= -499.6318927349537
  Drone_arrival_time_Dr9_C4_C2_C3: t[Dr9,C2] - t[Dr9,C4]
-   - 500 d_Dr9_C4_C2_C3 >= -499.6522362224578
+   - 500 d_Dr9_C4_C2_C3 >= -499.6318927349537
  Drone_arrival_time_Dr9_C4_C2_C5: t[Dr9,C2] - t[Dr9,C4]
-   - 500 d_Dr9_C4_C2_C5 >= -499.6688338696105
+   - 500 d_Dr9_C4_C2_C5 >= -499.6318927349537
  Drone_arrival_time_Dr9_C4_C3_D0: t[Dr9,C3] - t[Dr9,C4]
-   - 500 d_Dr9_C4_C3_D0 >= -499.8100140148426
+   - 500 d_Dr9_C4_C3_D0 >= -499.6522362224578
  Drone_arrival_time_Dr9_C4_C3_C1: t[Dr9,C3] - t[Dr9,C4]
-   - 500 d_Dr9_C4_C3_C1 >= -499.6689160709921
+   - 500 d_Dr9_C4_C3_C1 >= -499.6522362224578
  Drone_arrival_time_Dr9_C4_C3_C2: t[Dr9,C3] - t[Dr9,C4]
-   - 500 d_Dr9_C4_C3_C2 >= -499.6318927349537
+   - 500 d_Dr9_C4_C3_C2 >= -499.6522362224578
  Drone_arrival_time_Dr9_C4_C3_C5: t[Dr9,C3] - t[Dr9,C4]
-   - 500 d_Dr9_C4_C3_C5 >= -499.6688338696105
+   - 500 d_Dr9_C4_C3_C5 >= -499.6522362224578
  Drone_arrival_time_Dr9_C4_C5_D0: - t[Dr9,C4] + t[Dr9,C5]
-   - 500 d_Dr9_C4_C5_D0 >= -499.8100140148426
+   - 500 d_Dr9_C4_C5_D0 >= -499.6688338696105
  Drone_arrival_time_Dr9_C4_C5_C1: - t[Dr9,C4] + t[Dr9,C5]
-   - 500 d_Dr9_C4_C5_C1 >= -499.6689160709921
+   - 500 d_Dr9_C4_C5_C1 >= -499.6688338696105
  Drone_arrival_time_Dr9_C4_C5_C2: - t[Dr9,C4] + t[Dr9,C5]
-   - 500 d_Dr9_C4_C5_C2 >= -499.6318927349537
+   - 500 d_Dr9_C4_C5_C2 >= -499.6688338696105
  Drone_arrival_time_Dr9_C4_C5_C3: - t[Dr9,C4] + t[Dr9,C5]
-   - 500 d_Dr9_C4_C5_C3 >= -499.6522362224578
+   - 500 d_Dr9_C4_C5_C3 >= -499.6688338696105
  Drone_arrival_time_Dr9_C5_D0_C1: t[Dr9,D0] - t[Dr9,C5]
-   - 500 d_Dr9_C5_D0_C1 >= -499.9682838028799
+   - 500 d_Dr9_C5_D0_C1 >= -499.7005962532795
  Drone_arrival_time_Dr9_C5_D0_C2: t[Dr9,D0] - t[Dr9,C5]
-   - 500 d_Dr9_C5_D0_C2 >= -499.8962707210397
+   - 500 d_Dr9_C5_D0_C2 >= -499.7005962532795
  Drone_arrival_time_Dr9_C5_D0_C3: t[Dr9,D0] - t[Dr9,C5]
-   - 500 d_Dr9_C5_D0_C3 >= -499.8370029223045
+   - 500 d_Dr9_C5_D0_C3 >= -499.7005962532795
  Drone_arrival_time_Dr9_C5_D0_C4: t[Dr9,D0] - t[Dr9,C5]
-   - 500 d_Dr9_C5_D0_C4 >= -499.6688338696105
+   - 500 d_Dr9_C5_D0_C4 >= -499.7005962532795
  Drone_arrival_time_Dr9_C5_C1_D0: t[Dr9,C1] - t[Dr9,C5]
-   - 500 d_Dr9_C5_C1_D0 >= -499.7005962532795
+   - 500 d_Dr9_C5_C1_D0 >= -499.9682838028799
  Drone_arrival_time_Dr9_C5_C1_C2: t[Dr9,C1] - t[Dr9,C5]
-   - 500 d_Dr9_C5_C1_C2 >= -499.8962707210397
+   - 500 d_Dr9_C5_C1_C2 >= -499.9682838028799
  Drone_arrival_time_Dr9_C5_C1_C3: t[Dr9,C1] - t[Dr9,C5]
-   - 500 d_Dr9_C5_C1_C3 >= -499.8370029223045
+   - 500 d_Dr9_C5_C1_C3 >= -499.9682838028799
  Drone_arrival_time_Dr9_C5_C1_C4: t[Dr9,C1] - t[Dr9,C5]
-   - 500 d_Dr9_C5_C1_C4 >= -499.6688338696105
+   - 500 d_Dr9_C5_C1_C4 >= -499.9682838028799
  Drone_arrival_time_Dr9_C5_C2_D0: t[Dr9,C2] - t[Dr9,C5]
-   - 500 d_Dr9_C5_C2_D0 >= -499.7005962532795
+   - 500 d_Dr9_C5_C2_D0 >= -499.8962707210397
  Drone_arrival_time_Dr9_C5_C2_C1: t[Dr9,C2] - t[Dr9,C5]
-   - 500 d_Dr9_C5_C2_C1 >= -499.9682838028799
+   - 500 d_Dr9_C5_C2_C1 >= -499.8962707210397
  Drone_arrival_time_Dr9_C5_C2_C3: t[Dr9,C2] - t[Dr9,C5]
-   - 500 d_Dr9_C5_C2_C3 >= -499.8370029223045
+   - 500 d_Dr9_C5_C2_C3 >= -499.8962707210397
  Drone_arrival_time_Dr9_C5_C2_C4: t[Dr9,C2] - t[Dr9,C5]
-   - 500 d_Dr9_C5_C2_C4 >= -499.6688338696105
+   - 500 d_Dr9_C5_C2_C4 >= -499.8962707210397
  Drone_arrival_time_Dr9_C5_C3_D0: t[Dr9,C3] - t[Dr9,C5]
-   - 500 d_Dr9_C5_C3_D0 >= -499.7005962532795
+   - 500 d_Dr9_C5_C3_D0 >= -499.8370029223045
  Drone_arrival_time_Dr9_C5_C3_C1: t[Dr9,C3] - t[Dr9,C5]
-   - 500 d_Dr9_C5_C3_C1 >= -499.9682838028799
+   - 500 d_Dr9_C5_C3_C1 >= -499.8370029223045
  Drone_arrival_time_Dr9_C5_C3_C2: t[Dr9,C3] - t[Dr9,C5]
-   - 500 d_Dr9_C5_C3_C2 >= -499.8962707210397
+   - 500 d_Dr9_C5_C3_C2 >= -499.8370029223045
  Drone_arrival_time_Dr9_C5_C3_C4: t[Dr9,C3] - t[Dr9,C5]
-   - 500 d_Dr9_C5_C3_C4 >= -499.6688338696105
+   - 500 d_Dr9_C5_C3_C4 >= -499.8370029223045
  Drone_arrival_time_Dr9_C5_C4_D0: t[Dr9,C4] - t[Dr9,C5]
-   - 500 d_Dr9_C5_C4_D0 >= -499.7005962532795
+   - 500 d_Dr9_C5_C4_D0 >= -499.6688338696105
  Drone_arrival_time_Dr9_C5_C4_C1: t[Dr9,C4] - t[Dr9,C5]
-   - 500 d_Dr9_C5_C4_C1 >= -499.9682838028799
+   - 500 d_Dr9_C5_C4_C1 >= -499.6688338696105
  Drone_arrival_time_Dr9_C5_C4_C2: t[Dr9,C4] - t[Dr9,C5]
-   - 500 d_Dr9_C5_C4_C2 >= -499.8962707210397
+   - 500 d_Dr9_C5_C4_C2 >= -499.6688338696105
  Drone_arrival_time_Dr9_C5_C4_C3: t[Dr9,C4] - t[Dr9,C5]
-   - 500 d_Dr9_C5_C4_C3 >= -499.8370029223045
+   - 500 d_Dr9_C5_C4_C3 >= -499.6688338696105
  Drone_arrival_time_Dr10_D0_C1_C2: - t[Dr10,D0] + t[Dr10,C1]
-   - 500 d_Dr10_D0_C1_C2 >= -499.6178540815885
+   - 500 d_Dr10_D0_C1_C2 >= -499.6827746027463
  Drone_arrival_time_Dr10_D0_C1_C3: - t[Dr10,D0] + t[Dr10,C1]
-   - 500 d_Dr10_D0_C1_C3 >= -499.6003759162863
+   - 500 d_Dr10_D0_C1_C3 >= -499.6827746027463
  Drone_arrival_time_Dr10_D0_C1_C4: - t[Dr10,D0] + t[Dr10,C1]
-   - 500 d_Dr10_D0_C1_C4 >= -499.8100140148426
+   - 500 d_Dr10_D0_C1_C4 >= -499.6827746027463
  Drone_arrival_time_Dr10_D0_C1_C5: - t[Dr10,D0] + t[Dr10,C1]
-   - 500 d_Dr10_D0_C1_C5 >= -499.7005962532795
+   - 500 d_Dr10_D0_C1_C5 >= -499.6827746027463
  Drone_arrival_time_Dr10_D0_C2_C1: - t[Dr10,D0] + t[Dr10,C2]
-   - 500 d_Dr10_D0_C2_C1 >= -499.6827746027463
+   - 500 d_Dr10_D0_C2_C1 >= -499.6178540815885
  Drone_arrival_time_Dr10_D0_C2_C3: - t[Dr10,D0] + t[Dr10,C2]
-   - 500 d_Dr10_D0_C2_C3 >= -499.6003759162863
+   - 500 d_Dr10_D0_C2_C3 >= -499.6178540815885
  Drone_arrival_time_Dr10_D0_C2_C4: - t[Dr10,D0] + t[Dr10,C2]
-   - 500 d_Dr10_D0_C2_C4 >= -499.8100140148426
+   - 500 d_Dr10_D0_C2_C4 >= -499.6178540815885
  Drone_arrival_time_Dr10_D0_C2_C5: - t[Dr10,D0] + t[Dr10,C2]
-   - 500 d_Dr10_D0_C2_C5 >= -499.7005962532795
+   - 500 d_Dr10_D0_C2_C5 >= -499.6178540815885
  Drone_arrival_time_Dr10_D0_C3_C1: - t[Dr10,D0] + t[Dr10,C3]
-   - 500 d_Dr10_D0_C3_C1 >= -499.6827746027463
+   - 500 d_Dr10_D0_C3_C1 >= -499.6003759162863
  Drone_arrival_time_Dr10_D0_C3_C2: - t[Dr10,D0] + t[Dr10,C3]
-   - 500 d_Dr10_D0_C3_C2 >= -499.6178540815885
+   - 500 d_Dr10_D0_C3_C2 >= -499.6003759162863
  Drone_arrival_time_Dr10_D0_C3_C4: - t[Dr10,D0] + t[Dr10,C3]
-   - 500 d_Dr10_D0_C3_C4 >= -499.8100140148426
+   - 500 d_Dr10_D0_C3_C4 >= -499.6003759162863
  Drone_arrival_time_Dr10_D0_C3_C5: - t[Dr10,D0] + t[Dr10,C3]
-   - 500 d_Dr10_D0_C3_C5 >= -499.7005962532795
+   - 500 d_Dr10_D0_C3_C5 >= -499.6003759162863
  Drone_arrival_time_Dr10_D0_C4_C1: - t[Dr10,D0] + t[Dr10,C4]
-   - 500 d_Dr10_D0_C4_C1 >= -499.6827746027463
+   - 500 d_Dr10_D0_C4_C1 >= -499.8100140148426
  Drone_arrival_time_Dr10_D0_C4_C2: - t[Dr10,D0] + t[Dr10,C4]
-   - 500 d_Dr10_D0_C4_C2 >= -499.6178540815885
+   - 500 d_Dr10_D0_C4_C2 >= -499.8100140148426
  Drone_arrival_time_Dr10_D0_C4_C3: - t[Dr10,D0] + t[Dr10,C4]
-   - 500 d_Dr10_D0_C4_C3 >= -499.6003759162863
+   - 500 d_Dr10_D0_C4_C3 >= -499.8100140148426
  Drone_arrival_time_Dr10_D0_C4_C5: - t[Dr10,D0] + t[Dr10,C4]
-   - 500 d_Dr10_D0_C4_C5 >= -499.7005962532795
+   - 500 d_Dr10_D0_C4_C5 >= -499.8100140148426
  Drone_arrival_time_Dr10_D0_C5_C1: - t[Dr10,D0] + t[Dr10,C5]
-   - 500 d_Dr10_D0_C5_C1 >= -499.6827746027463
+   - 500 d_Dr10_D0_C5_C1 >= -499.7005962532795
  Drone_arrival_time_Dr10_D0_C5_C2: - t[Dr10,D0] + t[Dr10,C5]
-   - 500 d_Dr10_D0_C5_C2 >= -499.6178540815885
+   - 500 d_Dr10_D0_C5_C2 >= -499.7005962532795
  Drone_arrival_time_Dr10_D0_C5_C3: - t[Dr10,D0] + t[Dr10,C5]
-   - 500 d_Dr10_D0_C5_C3 >= -499.6003759162863
+   - 500 d_Dr10_D0_C5_C3 >= -499.7005962532795
  Drone_arrival_time_Dr10_D0_C5_C4: - t[Dr10,D0] + t[Dr10,C5]
-   - 500 d_Dr10_D0_C5_C4 >= -499.8100140148426
+   - 500 d_Dr10_D0_C5_C4 >= -499.7005962532795
  Drone_arrival_time_Dr10_C1_D0_C2: t[Dr10,D0] - t[Dr10,C1]
-   - 500 d_Dr10_C1_D0_C2 >= -499.926330339115
+   - 500 d_Dr10_C1_D0_C2 >= -499.6827746027463
  Drone_arrival_time_Dr10_C1_D0_C3: t[Dr10,D0] - t[Dr10,C1]
-   - 500 d_Dr10_C1_D0_C3 >= -499.8685537885336
+   - 500 d_Dr10_C1_D0_C3 >= -499.6827746027463
  Drone_arrival_time_Dr10_C1_D0_C4: t[Dr10,D0] - t[Dr10,C1]
-   - 500 d_Dr10_C1_D0_C4 >= -499.6689160709921
+   - 500 d_Dr10_C1_D0_C4 >= -499.6827746027463
  Drone_arrival_time_Dr10_C1_D0_C5: t[Dr10,D0] - t[Dr10,C1]
-   - 500 d_Dr10_C1_D0_C5 >= -499.9682838028799
+   - 500 d_Dr10_C1_D0_C5 >= -499.6827746027463
  Drone_arrival_time_Dr10_C1_C2_D0: - t[Dr10,C1] + t[Dr10,C2]
-   - 500 d_Dr10_C1_C2_D0 >= -499.6827746027463
+   - 500 d_Dr10_C1_C2_D0 >= -499.926330339115
  Drone_arrival_time_Dr10_C1_C2_C3: - t[Dr10,C1] + t[Dr10,C2]
-   - 500 d_Dr10_C1_C2_C3 >= -499.8685537885336
+   - 500 d_Dr10_C1_C2_C3 >= -499.926330339115
  Drone_arrival_time_Dr10_C1_C2_C4: - t[Dr10,C1] + t[Dr10,C2]
-   - 500 d_Dr10_C1_C2_C4 >= -499.6689160709921
+   - 500 d_Dr10_C1_C2_C4 >= -499.926330339115
  Drone_arrival_time_Dr10_C1_C2_C5: - t[Dr10,C1] + t[Dr10,C2]
-   - 500 d_Dr10_C1_C2_C5 >= -499.9682838028799
+   - 500 d_Dr10_C1_C2_C5 >= -499.926330339115
  Drone_arrival_time_Dr10_C1_C3_D0: - t[Dr10,C1] + t[Dr10,C3]
-   - 500 d_Dr10_C1_C3_D0 >= -499.6827746027463
+   - 500 d_Dr10_C1_C3_D0 >= -499.8685537885336
  Drone_arrival_time_Dr10_C1_C3_C2: - t[Dr10,C1] + t[Dr10,C3]
-   - 500 d_Dr10_C1_C3_C2 >= -499.926330339115
+   - 500 d_Dr10_C1_C3_C2 >= -499.8685537885336
  Drone_arrival_time_Dr10_C1_C3_C4: - t[Dr10,C1] + t[Dr10,C3]
-   - 500 d_Dr10_C1_C3_C4 >= -499.6689160709921
+   - 500 d_Dr10_C1_C3_C4 >= -499.8685537885336
  Drone_arrival_time_Dr10_C1_C3_C5: - t[Dr10,C1] + t[Dr10,C3]
-   - 500 d_Dr10_C1_C3_C5 >= -499.9682838028799
+   - 500 d_Dr10_C1_C3_C5 >= -499.8685537885336
  Drone_arrival_time_Dr10_C1_C4_D0: - t[Dr10,C1] + t[Dr10,C4]
-   - 500 d_Dr10_C1_C4_D0 >= -499.6827746027463
+   - 500 d_Dr10_C1_C4_D0 >= -499.6689160709921
  Drone_arrival_time_Dr10_C1_C4_C2: - t[Dr10,C1] + t[Dr10,C4]
-   - 500 d_Dr10_C1_C4_C2 >= -499.926330339115
+   - 500 d_Dr10_C1_C4_C2 >= -499.6689160709921
  Drone_arrival_time_Dr10_C1_C4_C3: - t[Dr10,C1] + t[Dr10,C4]
-   - 500 d_Dr10_C1_C4_C3 >= -499.8685537885336
+   - 500 d_Dr10_C1_C4_C3 >= -499.6689160709921
  Drone_arrival_time_Dr10_C1_C4_C5: - t[Dr10,C1] + t[Dr10,C4]
-   - 500 d_Dr10_C1_C4_C5 >= -499.9682838028799
+   - 500 d_Dr10_C1_C4_C5 >= -499.6689160709921
  Drone_arrival_time_Dr10_C1_C5_D0: - t[Dr10,C1] + t[Dr10,C5]
-   - 500 d_Dr10_C1_C5_D0 >= -499.6827746027463
+   - 500 d_Dr10_C1_C5_D0 >= -499.9682838028799
  Drone_arrival_time_Dr10_C1_C5_C2: - t[Dr10,C1] + t[Dr10,C5]
-   - 500 d_Dr10_C1_C5_C2 >= -499.926330339115
+   - 500 d_Dr10_C1_C5_C2 >= -499.9682838028799
  Drone_arrival_time_Dr10_C1_C5_C3: - t[Dr10,C1] + t[Dr10,C5]
-   - 500 d_Dr10_C1_C5_C3 >= -499.8685537885336
+   - 500 d_Dr10_C1_C5_C3 >= -499.9682838028799
  Drone_arrival_time_Dr10_C1_C5_C4: - t[Dr10,C1] + t[Dr10,C5]
-   - 500 d_Dr10_C1_C5_C4 >= -499.6689160709921
+   - 500 d_Dr10_C1_C5_C4 >= -499.9682838028799
  Drone_arrival_time_Dr10_C2_D0_C1: t[Dr10,D0] - t[Dr10,C2]
-   - 500 d_Dr10_C2_D0_C1 >= -499.926330339115
+   - 500 d_Dr10_C2_D0_C1 >= -499.6178540815885
  Drone_arrival_time_Dr10_C2_D0_C3: t[Dr10,D0] - t[Dr10,C2]
-   - 500 d_Dr10_C2_D0_C3 >= -499.9243646242875
+   - 500 d_Dr10_C2_D0_C3 >= -499.6178540815885
  Drone_arrival_time_Dr10_C2_D0_C4: t[Dr10,D0] - t[Dr10,C2]
-   - 500 d_Dr10_C2_D0_C4 >= -499.6318927349537
+   - 500 d_Dr10_C2_D0_C4 >= -499.6178540815885
  Drone_arrival_time_Dr10_C2_D0_C5: t[Dr10,D0] - t[Dr10,C2]
-   - 500 d_Dr10_C2_D0_C5 >= -499.8962707210397
+   - 500 d_Dr10_C2_D0_C5 >= -499.6178540815885
  Drone_arrival_time_Dr10_C2_C1_D0: t[Dr10,C1] - t[Dr10,C2]
-   - 500 d_Dr10_C2_C1_D0 >= -499.6178540815885
+   - 500 d_Dr10_C2_C1_D0 >= -499.926330339115
  Drone_arrival_time_Dr10_C2_C1_C3: t[Dr10,C1] - t[Dr10,C2]
-   - 500 d_Dr10_C2_C1_C3 >= -499.9243646242875
+   - 500 d_Dr10_C2_C1_C3 >= -499.926330339115
  Drone_arrival_time_Dr10_C2_C1_C4: t[Dr10,C1] - t[Dr10,C2]
-   - 500 d_Dr10_C2_C1_C4 >= -499.6318927349537
+   - 500 d_Dr10_C2_C1_C4 >= -499.926330339115
  Drone_arrival_time_Dr10_C2_C1_C5: t[Dr10,C1] - t[Dr10,C2]
-   - 500 d_Dr10_C2_C1_C5 >= -499.8962707210397
+   - 500 d_Dr10_C2_C1_C5 >= -499.926330339115
  Drone_arrival_time_Dr10_C2_C3_D0: - t[Dr10,C2] + t[Dr10,C3]
-   - 500 d_Dr10_C2_C3_D0 >= -499.6178540815885
+   - 500 d_Dr10_C2_C3_D0 >= -499.9243646242875
  Drone_arrival_time_Dr10_C2_C3_C1: - t[Dr10,C2] + t[Dr10,C3]
-   - 500 d_Dr10_C2_C3_C1 >= -499.926330339115
+   - 500 d_Dr10_C2_C3_C1 >= -499.9243646242875
  Drone_arrival_time_Dr10_C2_C3_C4: - t[Dr10,C2] + t[Dr10,C3]
-   - 500 d_Dr10_C2_C3_C4 >= -499.6318927349537
+   - 500 d_Dr10_C2_C3_C4 >= -499.9243646242875
  Drone_arrival_time_Dr10_C2_C3_C5: - t[Dr10,C2] + t[Dr10,C3]
-   - 500 d_Dr10_C2_C3_C5 >= -499.8962707210397
+   - 500 d_Dr10_C2_C3_C5 >= -499.9243646242875
  Drone_arrival_time_Dr10_C2_C4_D0: - t[Dr10,C2] + t[Dr10,C4]
-   - 500 d_Dr10_C2_C4_D0 >= -499.6178540815885
+   - 500 d_Dr10_C2_C4_D0 >= -499.6318927349537
  Drone_arrival_time_Dr10_C2_C4_C1: - t[Dr10,C2] + t[Dr10,C4]
-   - 500 d_Dr10_C2_C4_C1 >= -499.926330339115
+   - 500 d_Dr10_C2_C4_C1 >= -499.6318927349537
  Drone_arrival_time_Dr10_C2_C4_C3: - t[Dr10,C2] + t[Dr10,C4]
-   - 500 d_Dr10_C2_C4_C3 >= -499.9243646242875
+   - 500 d_Dr10_C2_C4_C3 >= -499.6318927349537
  Drone_arrival_time_Dr10_C2_C4_C5: - t[Dr10,C2] + t[Dr10,C4]
-   - 500 d_Dr10_C2_C4_C5 >= -499.8962707210397
+   - 500 d_Dr10_C2_C4_C5 >= -499.6318927349537
  Drone_arrival_time_Dr10_C2_C5_D0: - t[Dr10,C2] + t[Dr10,C5]
-   - 500 d_Dr10_C2_C5_D0 >= -499.6178540815885
+   - 500 d_Dr10_C2_C5_D0 >= -499.8962707210397
  Drone_arrival_time_Dr10_C2_C5_C1: - t[Dr10,C2] + t[Dr10,C5]
-   - 500 d_Dr10_C2_C5_C1 >= -499.926330339115
+   - 500 d_Dr10_C2_C5_C1 >= -499.8962707210397
  Drone_arrival_time_Dr10_C2_C5_C3: - t[Dr10,C2] + t[Dr10,C5]
-   - 500 d_Dr10_C2_C5_C3 >= -499.9243646242875
+   - 500 d_Dr10_C2_C5_C3 >= -499.8962707210397
  Drone_arrival_time_Dr10_C2_C5_C4: - t[Dr10,C2] + t[Dr10,C5]
-   - 500 d_Dr10_C2_C5_C4 >= -499.6318927349537
+   - 500 d_Dr10_C2_C5_C4 >= -499.8962707210397
  Drone_arrival_time_Dr10_C3_D0_C1: t[Dr10,D0] - t[Dr10,C3]
-   - 500 d_Dr10_C3_D0_C1 >= -499.8685537885336
+   - 500 d_Dr10_C3_D0_C1 >= -499.6003759162863
  Drone_arrival_time_Dr10_C3_D0_C2: t[Dr10,D0] - t[Dr10,C3]
-   - 500 d_Dr10_C3_D0_C2 >= -499.9243646242875
+   - 500 d_Dr10_C3_D0_C2 >= -499.6003759162863
  Drone_arrival_time_Dr10_C3_D0_C4: t[Dr10,D0] - t[Dr10,C3]
-   - 500 d_Dr10_C3_D0_C4 >= -499.6522362224578
+   - 500 d_Dr10_C3_D0_C4 >= -499.6003759162863
  Drone_arrival_time_Dr10_C3_D0_C5: t[Dr10,D0] - t[Dr10,C3]
-   - 500 d_Dr10_C3_D0_C5 >= -499.8370029223045
+   - 500 d_Dr10_C3_D0_C5 >= -499.6003759162863
  Drone_arrival_time_Dr10_C3_C1_D0: t[Dr10,C1] - t[Dr10,C3]
-   - 500 d_Dr10_C3_C1_D0 >= -499.6003759162863
+   - 500 d_Dr10_C3_C1_D0 >= -499.8685537885336
  Drone_arrival_time_Dr10_C3_C1_C2: t[Dr10,C1] - t[Dr10,C3]
-   - 500 d_Dr10_C3_C1_C2 >= -499.9243646242875
+   - 500 d_Dr10_C3_C1_C2 >= -499.8685537885336
  Drone_arrival_time_Dr10_C3_C1_C4: t[Dr10,C1] - t[Dr10,C3]
-   - 500 d_Dr10_C3_C1_C4 >= -499.6522362224578
+   - 500 d_Dr10_C3_C1_C4 >= -499.8685537885336
  Drone_arrival_time_Dr10_C3_C1_C5: t[Dr10,C1] - t[Dr10,C3]
-   - 500 d_Dr10_C3_C1_C5 >= -499.8370029223045
+   - 500 d_Dr10_C3_C1_C5 >= -499.8685537885336
  Drone_arrival_time_Dr10_C3_C2_D0: t[Dr10,C2] - t[Dr10,C3]
-   - 500 d_Dr10_C3_C2_D0 >= -499.6003759162863
+   - 500 d_Dr10_C3_C2_D0 >= -499.9243646242875
  Drone_arrival_time_Dr10_C3_C2_C1: t[Dr10,C2] - t[Dr10,C3]
-   - 500 d_Dr10_C3_C2_C1 >= -499.8685537885336
+   - 500 d_Dr10_C3_C2_C1 >= -499.9243646242875
  Drone_arrival_time_Dr10_C3_C2_C4: t[Dr10,C2] - t[Dr10,C3]
-   - 500 d_Dr10_C3_C2_C4 >= -499.6522362224578
+   - 500 d_Dr10_C3_C2_C4 >= -499.9243646242875
  Drone_arrival_time_Dr10_C3_C2_C5: t[Dr10,C2] - t[Dr10,C3]
-   - 500 d_Dr10_C3_C2_C5 >= -499.8370029223045
+   - 500 d_Dr10_C3_C2_C5 >= -499.9243646242875
  Drone_arrival_time_Dr10_C3_C4_D0: - t[Dr10,C3] + t[Dr10,C4]
-   - 500 d_Dr10_C3_C4_D0 >= -499.6003759162863
+   - 500 d_Dr10_C3_C4_D0 >= -499.6522362224578
  Drone_arrival_time_Dr10_C3_C4_C1: - t[Dr10,C3] + t[Dr10,C4]
-   - 500 d_Dr10_C3_C4_C1 >= -499.8685537885336
+   - 500 d_Dr10_C3_C4_C1 >= -499.6522362224578
  Drone_arrival_time_Dr10_C3_C4_C2: - t[Dr10,C3] + t[Dr10,C4]
-   - 500 d_Dr10_C3_C4_C2 >= -499.9243646242875
+   - 500 d_Dr10_C3_C4_C2 >= -499.6522362224578
  Drone_arrival_time_Dr10_C3_C4_C5: - t[Dr10,C3] + t[Dr10,C4]
-   - 500 d_Dr10_C3_C4_C5 >= -499.8370029223045
+   - 500 d_Dr10_C3_C4_C5 >= -499.6522362224578
  Drone_arrival_time_Dr10_C3_C5_D0: - t[Dr10,C3] + t[Dr10,C5]
-   - 500 d_Dr10_C3_C5_D0 >= -499.6003759162863
+   - 500 d_Dr10_C3_C5_D0 >= -499.8370029223045
  Drone_arrival_time_Dr10_C3_C5_C1: - t[Dr10,C3] + t[Dr10,C5]
-   - 500 d_Dr10_C3_C5_C1 >= -499.8685537885336
+   - 500 d_Dr10_C3_C5_C1 >= -499.8370029223045
  Drone_arrival_time_Dr10_C3_C5_C2: - t[Dr10,C3] + t[Dr10,C5]
-   - 500 d_Dr10_C3_C5_C2 >= -499.9243646242875
+   - 500 d_Dr10_C3_C5_C2 >= -499.8370029223045
  Drone_arrival_time_Dr10_C3_C5_C4: - t[Dr10,C3] + t[Dr10,C5]
-   - 500 d_Dr10_C3_C5_C4 >= -499.6522362224578
+   - 500 d_Dr10_C3_C5_C4 >= -499.8370029223045
  Drone_arrival_time_Dr10_C4_D0_C1: t[Dr10,D0] - t[Dr10,C4]
-   - 500 d_Dr10_C4_D0_C1 >= -499.6689160709921
+   - 500 d_Dr10_C4_D0_C1 >= -499.8100140148426
  Drone_arrival_time_Dr10_C4_D0_C2: t[Dr10,D0] - t[Dr10,C4]
-   - 500 d_Dr10_C4_D0_C2 >= -499.6318927349537
+   - 500 d_Dr10_C4_D0_C2 >= -499.8100140148426
  Drone_arrival_time_Dr10_C4_D0_C3: t[Dr10,D0] - t[Dr10,C4]
-   - 500 d_Dr10_C4_D0_C3 >= -499.6522362224578
+   - 500 d_Dr10_C4_D0_C3 >= -499.8100140148426
  Drone_arrival_time_Dr10_C4_D0_C5: t[Dr10,D0] - t[Dr10,C4]
-   - 500 d_Dr10_C4_D0_C5 >= -499.6688338696105
+   - 500 d_Dr10_C4_D0_C5 >= -499.8100140148426
  Drone_arrival_time_Dr10_C4_C1_D0: t[Dr10,C1] - t[Dr10,C4]
-   - 500 d_Dr10_C4_C1_D0 >= -499.8100140148426
+   - 500 d_Dr10_C4_C1_D0 >= -499.6689160709921
  Drone_arrival_time_Dr10_C4_C1_C2: t[Dr10,C1] - t[Dr10,C4]
-   - 500 d_Dr10_C4_C1_C2 >= -499.6318927349537
+   - 500 d_Dr10_C4_C1_C2 >= -499.6689160709921
  Drone_arrival_time_Dr10_C4_C1_C3: t[Dr10,C1] - t[Dr10,C4]
-   - 500 d_Dr10_C4_C1_C3 >= -499.6522362224578
+   - 500 d_Dr10_C4_C1_C3 >= -499.6689160709921
  Drone_arrival_time_Dr10_C4_C1_C5: t[Dr10,C1] - t[Dr10,C4]
-   - 500 d_Dr10_C4_C1_C5 >= -499.6688338696105
+   - 500 d_Dr10_C4_C1_C5 >= -499.6689160709921
  Drone_arrival_time_Dr10_C4_C2_D0: t[Dr10,C2] - t[Dr10,C4]
-   - 500 d_Dr10_C4_C2_D0 >= -499.8100140148426
+   - 500 d_Dr10_C4_C2_D0 >= -499.6318927349537
  Drone_arrival_time_Dr10_C4_C2_C1: t[Dr10,C2] - t[Dr10,C4]
-   - 500 d_Dr10_C4_C2_C1 >= -499.6689160709921
+   - 500 d_Dr10_C4_C2_C1 >= -499.6318927349537
  Drone_arrival_time_Dr10_C4_C2_C3: t[Dr10,C2] - t[Dr10,C4]
-   - 500 d_Dr10_C4_C2_C3 >= -499.6522362224578
+   - 500 d_Dr10_C4_C2_C3 >= -499.6318927349537
  Drone_arrival_time_Dr10_C4_C2_C5: t[Dr10,C2] - t[Dr10,C4]
-   - 500 d_Dr10_C4_C2_C5 >= -499.6688338696105
+   - 500 d_Dr10_C4_C2_C5 >= -499.6318927349537
  Drone_arrival_time_Dr10_C4_C3_D0: t[Dr10,C3] - t[Dr10,C4]
-   - 500 d_Dr10_C4_C3_D0 >= -499.8100140148426
+   - 500 d_Dr10_C4_C3_D0 >= -499.6522362224578
  Drone_arrival_time_Dr10_C4_C3_C1: t[Dr10,C3] - t[Dr10,C4]
-   - 500 d_Dr10_C4_C3_C1 >= -499.6689160709921
+   - 500 d_Dr10_C4_C3_C1 >= -499.6522362224578
  Drone_arrival_time_Dr10_C4_C3_C2: t[Dr10,C3] - t[Dr10,C4]
-   - 500 d_Dr10_C4_C3_C2 >= -499.6318927349537
+   - 500 d_Dr10_C4_C3_C2 >= -499.6522362224578
  Drone_arrival_time_Dr10_C4_C3_C5: t[Dr10,C3] - t[Dr10,C4]
-   - 500 d_Dr10_C4_C3_C5 >= -499.6688338696105
+   - 500 d_Dr10_C4_C3_C5 >= -499.6522362224578
  Drone_arrival_time_Dr10_C4_C5_D0: - t[Dr10,C4] + t[Dr10,C5]
-   - 500 d_Dr10_C4_C5_D0 >= -499.8100140148426
+   - 500 d_Dr10_C4_C5_D0 >= -499.6688338696105
  Drone_arrival_time_Dr10_C4_C5_C1: - t[Dr10,C4] + t[Dr10,C5]
-   - 500 d_Dr10_C4_C5_C1 >= -499.6689160709921
+   - 500 d_Dr10_C4_C5_C1 >= -499.6688338696105
  Drone_arrival_time_Dr10_C4_C5_C2: - t[Dr10,C4] + t[Dr10,C5]
-   - 500 d_Dr10_C4_C5_C2 >= -499.6318927349537
+   - 500 d_Dr10_C4_C5_C2 >= -499.6688338696105
  Drone_arrival_time_Dr10_C4_C5_C3: - t[Dr10,C4] + t[Dr10,C5]
-   - 500 d_Dr10_C4_C5_C3 >= -499.6522362224578
+   - 500 d_Dr10_C4_C5_C3 >= -499.6688338696105
  Drone_arrival_time_Dr10_C5_D0_C1: t[Dr10,D0] - t[Dr10,C5]
-   - 500 d_Dr10_C5_D0_C1 >= -499.9682838028799
+   - 500 d_Dr10_C5_D0_C1 >= -499.7005962532795
  Drone_arrival_time_Dr10_C5_D0_C2: t[Dr10,D0] - t[Dr10,C5]
-   - 500 d_Dr10_C5_D0_C2 >= -499.8962707210397
+   - 500 d_Dr10_C5_D0_C2 >= -499.7005962532795
  Drone_arrival_time_Dr10_C5_D0_C3: t[Dr10,D0] - t[Dr10,C5]
-   - 500 d_Dr10_C5_D0_C3 >= -499.8370029223045
+   - 500 d_Dr10_C5_D0_C3 >= -499.7005962532795
  Drone_arrival_time_Dr10_C5_D0_C4: t[Dr10,D0] - t[Dr10,C5]
-   - 500 d_Dr10_C5_D0_C4 >= -499.6688338696105
+   - 500 d_Dr10_C5_D0_C4 >= -499.7005962532795
  Drone_arrival_time_Dr10_C5_C1_D0: t[Dr10,C1] - t[Dr10,C5]
-   - 500 d_Dr10_C5_C1_D0 >= -499.7005962532795
+   - 500 d_Dr10_C5_C1_D0 >= -499.9682838028799
  Drone_arrival_time_Dr10_C5_C1_C2: t[Dr10,C1] - t[Dr10,C5]
-   - 500 d_Dr10_C5_C1_C2 >= -499.8962707210397
+   - 500 d_Dr10_C5_C1_C2 >= -499.9682838028799
  Drone_arrival_time_Dr10_C5_C1_C3: t[Dr10,C1] - t[Dr10,C5]
-   - 500 d_Dr10_C5_C1_C3 >= -499.8370029223045
+   - 500 d_Dr10_C5_C1_C3 >= -499.9682838028799
  Drone_arrival_time_Dr10_C5_C1_C4: t[Dr10,C1] - t[Dr10,C5]
-   - 500 d_Dr10_C5_C1_C4 >= -499.6688338696105
+   - 500 d_Dr10_C5_C1_C4 >= -499.9682838028799
  Drone_arrival_time_Dr10_C5_C2_D0: t[Dr10,C2] - t[Dr10,C5]
-   - 500 d_Dr10_C5_C2_D0 >= -499.7005962532795
+   - 500 d_Dr10_C5_C2_D0 >= -499.8962707210397
  Drone_arrival_time_Dr10_C5_C2_C1: t[Dr10,C2] - t[Dr10,C5]
-   - 500 d_Dr10_C5_C2_C1 >= -499.9682838028799
+   - 500 d_Dr10_C5_C2_C1 >= -499.8962707210397
  Drone_arrival_time_Dr10_C5_C2_C3: t[Dr10,C2] - t[Dr10,C5]
-   - 500 d_Dr10_C5_C2_C3 >= -499.8370029223045
+   - 500 d_Dr10_C5_C2_C3 >= -499.8962707210397
  Drone_arrival_time_Dr10_C5_C2_C4: t[Dr10,C2] - t[Dr10,C5]
-   - 500 d_Dr10_C5_C2_C4 >= -499.6688338696105
+   - 500 d_Dr10_C5_C2_C4 >= -499.8962707210397
  Drone_arrival_time_Dr10_C5_C3_D0: t[Dr10,C3] - t[Dr10,C5]
-   - 500 d_Dr10_C5_C3_D0 >= -499.7005962532795
+   - 500 d_Dr10_C5_C3_D0 >= -499.8370029223045
  Drone_arrival_time_Dr10_C5_C3_C1: t[Dr10,C3] - t[Dr10,C5]
-   - 500 d_Dr10_C5_C3_C1 >= -499.9682838028799
+   - 500 d_Dr10_C5_C3_C1 >= -499.8370029223045
  Drone_arrival_time_Dr10_C5_C3_C2: t[Dr10,C3] - t[Dr10,C5]
-   - 500 d_Dr10_C5_C3_C2 >= -499.8962707210397
+   - 500 d_Dr10_C5_C3_C2 >= -499.8370029223045
  Drone_arrival_time_Dr10_C5_C3_C4: t[Dr10,C3] - t[Dr10,C5]
-   - 500 d_Dr10_C5_C3_C4 >= -499.6688338696105
+   - 500 d_Dr10_C5_C3_C4 >= -499.8370029223045
  Drone_arrival_time_Dr10_C5_C4_D0: t[Dr10,C4] - t[Dr10,C5]
-   - 500 d_Dr10_C5_C4_D0 >= -499.7005962532795
+   - 500 d_Dr10_C5_C4_D0 >= -499.6688338696105
  Drone_arrival_time_Dr10_C5_C4_C1: t[Dr10,C4] - t[Dr10,C5]
-   - 500 d_Dr10_C5_C4_C1 >= -499.9682838028799
+   - 500 d_Dr10_C5_C4_C1 >= -499.6688338696105
  Drone_arrival_time_Dr10_C5_C4_C2: t[Dr10,C4] - t[Dr10,C5]
-   - 500 d_Dr10_C5_C4_C2 >= -499.8962707210397
+   - 500 d_Dr10_C5_C4_C2 >= -499.6688338696105
  Drone_arrival_time_Dr10_C5_C4_C3: t[Dr10,C4] - t[Dr10,C5]
-   - 500 d_Dr10_C5_C4_C3 >= -499.8370029223045
+   - 500 d_Dr10_C5_C4_C3 >= -499.6688338696105
+ Drone_retrieval_time_Dr1_D0_C1_C2: - t[Tr1,D0] + t[Tr1,C2]
+   + 500 d_Dr1_D0_C1_C2 <= 500.3821459184115
+ Drone_retrieval_time_Dr1_D0_C1_C2: - t[Dr1,C1] + t[Dr1,C2]
+   - 500 d_Dr1_D0_C1_C2 >= -499.926330339115
+ Drone_retrieval_time_Dr1_D0_C1_C3: - t[Tr1,D0] + t[Tr1,C3]
+   + 500 d_Dr1_D0_C1_C3 <= 500.3996240837137
+ Drone_retrieval_time_Dr1_D0_C1_C3: - t[Dr1,C1] + t[Dr1,C3]
+   - 500 d_Dr1_D0_C1_C3 >= -499.8685537885336
+ Drone_retrieval_time_Dr1_D0_C1_C4: - t[Tr1,D0] + t[Tr1,C4]
+   + 500 d_Dr1_D0_C1_C4 <= 500.1899859851574
+ Drone_retrieval_time_Dr1_D0_C1_C4: - t[Dr1,C1] + t[Dr1,C4]
+   - 500 d_Dr1_D0_C1_C4 >= -499.6689160709921
+ Drone_retrieval_time_Dr1_D0_C1_C5: - t[Tr1,D0] + t[Tr1,C5]
+   + 500 d_Dr1_D0_C1_C5 <= 500.2994037467205
+ Drone_retrieval_time_Dr1_D0_C1_C5: - t[Dr1,C1] + t[Dr1,C5]
+   - 500 d_Dr1_D0_C1_C5 >= -499.9682838028799
+ Drone_retrieval_time_Dr1_D0_C2_C1: - t[Tr1,D0] + t[Tr1,C1]
+   + 500 d_Dr1_D0_C2_C1 <= 500.3172253972537
+ Drone_retrieval_time_Dr1_D0_C2_C1: t[Dr1,C1] - t[Dr1,C2]
+   - 500 d_Dr1_D0_C2_C1 >= -499.926330339115
+ Drone_retrieval_time_Dr1_D0_C2_C3: - t[Tr1,D0] + t[Tr1,C3]
+   + 500 d_Dr1_D0_C2_C3 <= 500.3996240837137
+ Drone_retrieval_time_Dr1_D0_C2_C3: - t[Dr1,C2] + t[Dr1,C3]
+   - 500 d_Dr1_D0_C2_C3 >= -499.9243646242875
+ Drone_retrieval_time_Dr1_D0_C2_C4: - t[Tr1,D0] + t[Tr1,C4]
+   + 500 d_Dr1_D0_C2_C4 <= 500.1899859851574
+ Drone_retrieval_time_Dr1_D0_C2_C4: - t[Dr1,C2] + t[Dr1,C4]
+   - 500 d_Dr1_D0_C2_C4 >= -499.6318927349537
+ Drone_retrieval_time_Dr1_D0_C2_C5: - t[Tr1,D0] + t[Tr1,C5]
+   + 500 d_Dr1_D0_C2_C5 <= 500.2994037467205
+ Drone_retrieval_time_Dr1_D0_C2_C5: - t[Dr1,C2] + t[Dr1,C5]
+   - 500 d_Dr1_D0_C2_C5 >= -499.8962707210397
+ Drone_retrieval_time_Dr1_D0_C3_C1: - t[Tr1,D0] + t[Tr1,C1]
+   + 500 d_Dr1_D0_C3_C1 <= 500.3172253972537
+ Drone_retrieval_time_Dr1_D0_C3_C1: t[Dr1,C1] - t[Dr1,C3]
+   - 500 d_Dr1_D0_C3_C1 >= -499.8685537885336
+ Drone_retrieval_time_Dr1_D0_C3_C2: - t[Tr1,D0] + t[Tr1,C2]
+   + 500 d_Dr1_D0_C3_C2 <= 500.3821459184115
+ Drone_retrieval_time_Dr1_D0_C3_C2: t[Dr1,C2] - t[Dr1,C3]
+   - 500 d_Dr1_D0_C3_C2 >= -499.9243646242875
+ Drone_retrieval_time_Dr1_D0_C3_C4: - t[Tr1,D0] + t[Tr1,C4]
+   + 500 d_Dr1_D0_C3_C4 <= 500.1899859851574
+ Drone_retrieval_time_Dr1_D0_C3_C4: - t[Dr1,C3] + t[Dr1,C4]
+   - 500 d_Dr1_D0_C3_C4 >= -499.6522362224578
+ Drone_retrieval_time_Dr1_D0_C3_C5: - t[Tr1,D0] + t[Tr1,C5]
+   + 500 d_Dr1_D0_C3_C5 <= 500.2994037467205
+ Drone_retrieval_time_Dr1_D0_C3_C5: - t[Dr1,C3] + t[Dr1,C5]
+   - 500 d_Dr1_D0_C3_C5 >= -499.8370029223045
+ Drone_retrieval_time_Dr1_D0_C4_C1: - t[Tr1,D0] + t[Tr1,C1]
+   + 500 d_Dr1_D0_C4_C1 <= 500.3172253972537
+ Drone_retrieval_time_Dr1_D0_C4_C1: t[Dr1,C1] - t[Dr1,C4]
+   - 500 d_Dr1_D0_C4_C1 >= -499.6689160709921
+ Drone_retrieval_time_Dr1_D0_C4_C2: - t[Tr1,D0] + t[Tr1,C2]
+   + 500 d_Dr1_D0_C4_C2 <= 500.3821459184115
+ Drone_retrieval_time_Dr1_D0_C4_C2: t[Dr1,C2] - t[Dr1,C4]
+   - 500 d_Dr1_D0_C4_C2 >= -499.6318927349537
+ Drone_retrieval_time_Dr1_D0_C4_C3: - t[Tr1,D0] + t[Tr1,C3]
+   + 500 d_Dr1_D0_C4_C3 <= 500.3996240837137
+ Drone_retrieval_time_Dr1_D0_C4_C3: t[Dr1,C3] - t[Dr1,C4]
+   - 500 d_Dr1_D0_C4_C3 >= -499.6522362224578
+ Drone_retrieval_time_Dr1_D0_C4_C5: - t[Tr1,D0] + t[Tr1,C5]
+   + 500 d_Dr1_D0_C4_C5 <= 500.2994037467205
+ Drone_retrieval_time_Dr1_D0_C4_C5: - t[Dr1,C4] + t[Dr1,C5]
+   - 500 d_Dr1_D0_C4_C5 >= -499.6688338696105
+ Drone_retrieval_time_Dr1_D0_C5_C1: - t[Tr1,D0] + t[Tr1,C1]
+   + 500 d_Dr1_D0_C5_C1 <= 500.3172253972537
+ Drone_retrieval_time_Dr1_D0_C5_C1: t[Dr1,C1] - t[Dr1,C5]
+   - 500 d_Dr1_D0_C5_C1 >= -499.9682838028799
+ Drone_retrieval_time_Dr1_D0_C5_C2: - t[Tr1,D0] + t[Tr1,C2]
+   + 500 d_Dr1_D0_C5_C2 <= 500.3821459184115
+ Drone_retrieval_time_Dr1_D0_C5_C2: t[Dr1,C2] - t[Dr1,C5]
+   - 500 d_Dr1_D0_C5_C2 >= -499.8962707210397
+ Drone_retrieval_time_Dr1_D0_C5_C3: - t[Tr1,D0] + t[Tr1,C3]
+   + 500 d_Dr1_D0_C5_C3 <= 500.3996240837137
+ Drone_retrieval_time_Dr1_D0_C5_C3: t[Dr1,C3] - t[Dr1,C5]
+   - 500 d_Dr1_D0_C5_C3 >= -499.8370029223045
+ Drone_retrieval_time_Dr1_D0_C5_C4: - t[Tr1,D0] + t[Tr1,C4]
+   + 500 d_Dr1_D0_C5_C4 <= 500.1899859851574
+ Drone_retrieval_time_Dr1_D0_C5_C4: t[Dr1,C4] - t[Dr1,C5]
+   - 500 d_Dr1_D0_C5_C4 >= -499.6688338696105
+ Drone_retrieval_time_Dr1_C1_D0_C2: - t[Tr1,C1] + t[Tr1,C2]
+   + 500 d_Dr1_C1_D0_C2 <= 500.073669660885
+ Drone_retrieval_time_Dr1_C1_D0_C2: - t[Dr1,D0] + t[Dr1,C2]
+   - 500 d_Dr1_C1_D0_C2 >= -499.6178540815885
+ Drone_retrieval_time_Dr1_C1_D0_C3: - t[Tr1,C1] + t[Tr1,C3]
+   + 500 d_Dr1_C1_D0_C3 <= 500.1314462114664
+ Drone_retrieval_time_Dr1_C1_D0_C3: - t[Dr1,D0] + t[Dr1,C3]
+   - 500 d_Dr1_C1_D0_C3 >= -499.6003759162863
+ Drone_retrieval_time_Dr1_C1_D0_C4: - t[Tr1,C1] + t[Tr1,C4]
+   + 500 d_Dr1_C1_D0_C4 <= 500.3310839290079
+ Drone_retrieval_time_Dr1_C1_D0_C4: - t[Dr1,D0] + t[Dr1,C4]
+   - 500 d_Dr1_C1_D0_C4 >= -499.8100140148426
+ Drone_retrieval_time_Dr1_C1_D0_C5: - t[Tr1,C1] + t[Tr1,C5]
+   + 500 d_Dr1_C1_D0_C5 <= 500.0317161971201
+ Drone_retrieval_time_Dr1_C1_D0_C5: - t[Dr1,D0] + t[Dr1,C5]
+   - 500 d_Dr1_C1_D0_C5 >= -499.7005962532795
+ Drone_retrieval_time_Dr1_C1_C2_D0: t[Tr1,D0] - t[Tr1,C1]
+   + 500 d_Dr1_C1_C2_D0 <= 500.3172253972537
+ Drone_retrieval_time_Dr1_C1_C2_D0: t[Dr1,D0] - t[Dr1,C2]
+   - 500 d_Dr1_C1_C2_D0 >= -499.6178540815885
+ Drone_retrieval_time_Dr1_C1_C2_C3: - t[Tr1,C1] + t[Tr1,C3]
+   + 500 d_Dr1_C1_C2_C3 <= 500.1314462114664
+ Drone_retrieval_time_Dr1_C1_C2_C3: - t[Dr1,C2] + t[Dr1,C3]
+   - 500 d_Dr1_C1_C2_C3 >= -499.9243646242875
+ Drone_retrieval_time_Dr1_C1_C2_C4: - t[Tr1,C1] + t[Tr1,C4]
+   + 500 d_Dr1_C1_C2_C4 <= 500.3310839290079
+ Drone_retrieval_time_Dr1_C1_C2_C4: - t[Dr1,C2] + t[Dr1,C4]
+   - 500 d_Dr1_C1_C2_C4 >= -499.6318927349537
+ Drone_retrieval_time_Dr1_C1_C2_C5: - t[Tr1,C1] + t[Tr1,C5]
+   + 500 d_Dr1_C1_C2_C5 <= 500.0317161971201
+ Drone_retrieval_time_Dr1_C1_C2_C5: - t[Dr1,C2] + t[Dr1,C5]
+   - 500 d_Dr1_C1_C2_C5 >= -499.8962707210397
+ Drone_retrieval_time_Dr1_C1_C3_D0: t[Tr1,D0] - t[Tr1,C1]
+   + 500 d_Dr1_C1_C3_D0 <= 500.3172253972537
+ Drone_retrieval_time_Dr1_C1_C3_D0: t[Dr1,D0] - t[Dr1,C3]
+   - 500 d_Dr1_C1_C3_D0 >= -499.6003759162863
+ Drone_retrieval_time_Dr1_C1_C3_C2: - t[Tr1,C1] + t[Tr1,C2]
+   + 500 d_Dr1_C1_C3_C2 <= 500.073669660885
+ Drone_retrieval_time_Dr1_C1_C3_C2: t[Dr1,C2] - t[Dr1,C3]
+   - 500 d_Dr1_C1_C3_C2 >= -499.9243646242875
+ Drone_retrieval_time_Dr1_C1_C3_C4: - t[Tr1,C1] + t[Tr1,C4]
+   + 500 d_Dr1_C1_C3_C4 <= 500.3310839290079
+ Drone_retrieval_time_Dr1_C1_C3_C4: - t[Dr1,C3] + t[Dr1,C4]
+   - 500 d_Dr1_C1_C3_C4 >= -499.6522362224578
+ Drone_retrieval_time_Dr1_C1_C3_C5: - t[Tr1,C1] + t[Tr1,C5]
+   + 500 d_Dr1_C1_C3_C5 <= 500.0317161971201
+ Drone_retrieval_time_Dr1_C1_C3_C5: - t[Dr1,C3] + t[Dr1,C5]
+   - 500 d_Dr1_C1_C3_C5 >= -499.8370029223045
+ Drone_retrieval_time_Dr1_C1_C4_D0: t[Tr1,D0] - t[Tr1,C1]
+   + 500 d_Dr1_C1_C4_D0 <= 500.3172253972537
+ Drone_retrieval_time_Dr1_C1_C4_D0: t[Dr1,D0] - t[Dr1,C4]
+   - 500 d_Dr1_C1_C4_D0 >= -499.8100140148426
+ Drone_retrieval_time_Dr1_C1_C4_C2: - t[Tr1,C1] + t[Tr1,C2]
+   + 500 d_Dr1_C1_C4_C2 <= 500.073669660885
+ Drone_retrieval_time_Dr1_C1_C4_C2: t[Dr1,C2] - t[Dr1,C4]
+   - 500 d_Dr1_C1_C4_C2 >= -499.6318927349537
+ Drone_retrieval_time_Dr1_C1_C4_C3: - t[Tr1,C1] + t[Tr1,C3]
+   + 500 d_Dr1_C1_C4_C3 <= 500.1314462114664
+ Drone_retrieval_time_Dr1_C1_C4_C3: t[Dr1,C3] - t[Dr1,C4]
+   - 500 d_Dr1_C1_C4_C3 >= -499.6522362224578
+ Drone_retrieval_time_Dr1_C1_C4_C5: - t[Tr1,C1] + t[Tr1,C5]
+   + 500 d_Dr1_C1_C4_C5 <= 500.0317161971201
+ Drone_retrieval_time_Dr1_C1_C4_C5: - t[Dr1,C4] + t[Dr1,C5]
+   - 500 d_Dr1_C1_C4_C5 >= -499.6688338696105
+ Drone_retrieval_time_Dr1_C1_C5_D0: t[Tr1,D0] - t[Tr1,C1]
+   + 500 d_Dr1_C1_C5_D0 <= 500.3172253972537
+ Drone_retrieval_time_Dr1_C1_C5_D0: t[Dr1,D0] - t[Dr1,C5]
+   - 500 d_Dr1_C1_C5_D0 >= -499.7005962532795
+ Drone_retrieval_time_Dr1_C1_C5_C2: - t[Tr1,C1] + t[Tr1,C2]
+   + 500 d_Dr1_C1_C5_C2 <= 500.073669660885
+ Drone_retrieval_time_Dr1_C1_C5_C2: t[Dr1,C2] - t[Dr1,C5]
+   - 500 d_Dr1_C1_C5_C2 >= -499.8962707210397
+ Drone_retrieval_time_Dr1_C1_C5_C3: - t[Tr1,C1] + t[Tr1,C3]
+   + 500 d_Dr1_C1_C5_C3 <= 500.1314462114664
+ Drone_retrieval_time_Dr1_C1_C5_C3: t[Dr1,C3] - t[Dr1,C5]
+   - 500 d_Dr1_C1_C5_C3 >= -499.8370029223045
+ Drone_retrieval_time_Dr1_C1_C5_C4: - t[Tr1,C1] + t[Tr1,C4]
+   + 500 d_Dr1_C1_C5_C4 <= 500.3310839290079
+ Drone_retrieval_time_Dr1_C1_C5_C4: t[Dr1,C4] - t[Dr1,C5]
+   - 500 d_Dr1_C1_C5_C4 >= -499.6688338696105
+ Drone_retrieval_time_Dr1_C2_D0_C1: t[Tr1,C1] - t[Tr1,C2]
+   + 500 d_Dr1_C2_D0_C1 <= 500.073669660885
+ Drone_retrieval_time_Dr1_C2_D0_C1: - t[Dr1,D0] + t[Dr1,C1]
+   - 500 d_Dr1_C2_D0_C1 >= -499.6827746027463
+ Drone_retrieval_time_Dr1_C2_D0_C3: - t[Tr1,C2] + t[Tr1,C3]
+   + 500 d_Dr1_C2_D0_C3 <= 500.0756353757125
+ Drone_retrieval_time_Dr1_C2_D0_C3: - t[Dr1,D0] + t[Dr1,C3]
+   - 500 d_Dr1_C2_D0_C3 >= -499.6003759162863
+ Drone_retrieval_time_Dr1_C2_D0_C4: - t[Tr1,C2] + t[Tr1,C4]
+   + 500 d_Dr1_C2_D0_C4 <= 500.3681072650463
+ Drone_retrieval_time_Dr1_C2_D0_C4: - t[Dr1,D0] + t[Dr1,C4]
+   - 500 d_Dr1_C2_D0_C4 >= -499.8100140148426
+ Drone_retrieval_time_Dr1_C2_D0_C5: - t[Tr1,C2] + t[Tr1,C5]
+   + 500 d_Dr1_C2_D0_C5 <= 500.1037292789603
+ Drone_retrieval_time_Dr1_C2_D0_C5: - t[Dr1,D0] + t[Dr1,C5]
+   - 500 d_Dr1_C2_D0_C5 >= -499.7005962532795
+ Drone_retrieval_time_Dr1_C2_C1_D0: t[Tr1,D0] - t[Tr1,C2]
+   + 500 d_Dr1_C2_C1_D0 <= 500.3821459184115
+ Drone_retrieval_time_Dr1_C2_C1_D0: t[Dr1,D0] - t[Dr1,C1]
+   - 500 d_Dr1_C2_C1_D0 >= -499.6827746027463
+ Drone_retrieval_time_Dr1_C2_C1_C3: - t[Tr1,C2] + t[Tr1,C3]
+   + 500 d_Dr1_C2_C1_C3 <= 500.0756353757125
+ Drone_retrieval_time_Dr1_C2_C1_C3: - t[Dr1,C1] + t[Dr1,C3]
+   - 500 d_Dr1_C2_C1_C3 >= -499.8685537885336
+ Drone_retrieval_time_Dr1_C2_C1_C4: - t[Tr1,C2] + t[Tr1,C4]
+   + 500 d_Dr1_C2_C1_C4 <= 500.3681072650463
+ Drone_retrieval_time_Dr1_C2_C1_C4: - t[Dr1,C1] + t[Dr1,C4]
+   - 500 d_Dr1_C2_C1_C4 >= -499.6689160709921
+ Drone_retrieval_time_Dr1_C2_C1_C5: - t[Tr1,C2] + t[Tr1,C5]
+   + 500 d_Dr1_C2_C1_C5 <= 500.1037292789603
+ Drone_retrieval_time_Dr1_C2_C1_C5: - t[Dr1,C1] + t[Dr1,C5]
+   - 500 d_Dr1_C2_C1_C5 >= -499.9682838028799
+ Drone_retrieval_time_Dr1_C2_C3_D0: t[Tr1,D0] - t[Tr1,C2]
+   + 500 d_Dr1_C2_C3_D0 <= 500.3821459184115
+ Drone_retrieval_time_Dr1_C2_C3_D0: t[Dr1,D0] - t[Dr1,C3]
+   - 500 d_Dr1_C2_C3_D0 >= -499.6003759162863
+ Drone_retrieval_time_Dr1_C2_C3_C1: t[Tr1,C1] - t[Tr1,C2]
+   + 500 d_Dr1_C2_C3_C1 <= 500.073669660885
+ Drone_retrieval_time_Dr1_C2_C3_C1: t[Dr1,C1] - t[Dr1,C3]
+   - 500 d_Dr1_C2_C3_C1 >= -499.8685537885336
+ Drone_retrieval_time_Dr1_C2_C3_C4: - t[Tr1,C2] + t[Tr1,C4]
+   + 500 d_Dr1_C2_C3_C4 <= 500.3681072650463
+ Drone_retrieval_time_Dr1_C2_C3_C4: - t[Dr1,C3] + t[Dr1,C4]
+   - 500 d_Dr1_C2_C3_C4 >= -499.6522362224578
+ Drone_retrieval_time_Dr1_C2_C3_C5: - t[Tr1,C2] + t[Tr1,C5]
+   + 500 d_Dr1_C2_C3_C5 <= 500.1037292789603
+ Drone_retrieval_time_Dr1_C2_C3_C5: - t[Dr1,C3] + t[Dr1,C5]
+   - 500 d_Dr1_C2_C3_C5 >= -499.8370029223045
+ Drone_retrieval_time_Dr1_C2_C4_D0: t[Tr1,D0] - t[Tr1,C2]
+   + 500 d_Dr1_C2_C4_D0 <= 500.3821459184115
+ Drone_retrieval_time_Dr1_C2_C4_D0: t[Dr1,D0] - t[Dr1,C4]
+   - 500 d_Dr1_C2_C4_D0 >= -499.8100140148426
+ Drone_retrieval_time_Dr1_C2_C4_C1: t[Tr1,C1] - t[Tr1,C2]
+   + 500 d_Dr1_C2_C4_C1 <= 500.073669660885
+ Drone_retrieval_time_Dr1_C2_C4_C1: t[Dr1,C1] - t[Dr1,C4]
+   - 500 d_Dr1_C2_C4_C1 >= -499.6689160709921
+ Drone_retrieval_time_Dr1_C2_C4_C3: - t[Tr1,C2] + t[Tr1,C3]
+   + 500 d_Dr1_C2_C4_C3 <= 500.0756353757125
+ Drone_retrieval_time_Dr1_C2_C4_C3: t[Dr1,C3] - t[Dr1,C4]
+   - 500 d_Dr1_C2_C4_C3 >= -499.6522362224578
+ Drone_retrieval_time_Dr1_C2_C4_C5: - t[Tr1,C2] + t[Tr1,C5]
+   + 500 d_Dr1_C2_C4_C5 <= 500.1037292789603
+ Drone_retrieval_time_Dr1_C2_C4_C5: - t[Dr1,C4] + t[Dr1,C5]
+   - 500 d_Dr1_C2_C4_C5 >= -499.6688338696105
+ Drone_retrieval_time_Dr1_C2_C5_D0: t[Tr1,D0] - t[Tr1,C2]
+   + 500 d_Dr1_C2_C5_D0 <= 500.3821459184115
+ Drone_retrieval_time_Dr1_C2_C5_D0: t[Dr1,D0] - t[Dr1,C5]
+   - 500 d_Dr1_C2_C5_D0 >= -499.7005962532795
+ Drone_retrieval_time_Dr1_C2_C5_C1: t[Tr1,C1] - t[Tr1,C2]
+   + 500 d_Dr1_C2_C5_C1 <= 500.073669660885
+ Drone_retrieval_time_Dr1_C2_C5_C1: t[Dr1,C1] - t[Dr1,C5]
+   - 500 d_Dr1_C2_C5_C1 >= -499.9682838028799
+ Drone_retrieval_time_Dr1_C2_C5_C3: - t[Tr1,C2] + t[Tr1,C3]
+   + 500 d_Dr1_C2_C5_C3 <= 500.0756353757125
+ Drone_retrieval_time_Dr1_C2_C5_C3: t[Dr1,C3] - t[Dr1,C5]
+   - 500 d_Dr1_C2_C5_C3 >= -499.8370029223045
+ Drone_retrieval_time_Dr1_C2_C5_C4: - t[Tr1,C2] + t[Tr1,C4]
+   + 500 d_Dr1_C2_C5_C4 <= 500.3681072650463
+ Drone_retrieval_time_Dr1_C2_C5_C4: t[Dr1,C4] - t[Dr1,C5]
+   - 500 d_Dr1_C2_C5_C4 >= -499.6688338696105
+ Drone_retrieval_time_Dr1_C3_D0_C1: t[Tr1,C1] - t[Tr1,C3]
+   + 500 d_Dr1_C3_D0_C1 <= 500.1314462114664
+ Drone_retrieval_time_Dr1_C3_D0_C1: - t[Dr1,D0] + t[Dr1,C1]
+   - 500 d_Dr1_C3_D0_C1 >= -499.6827746027463
+ Drone_retrieval_time_Dr1_C3_D0_C2: t[Tr1,C2] - t[Tr1,C3]
+   + 500 d_Dr1_C3_D0_C2 <= 500.0756353757125
+ Drone_retrieval_time_Dr1_C3_D0_C2: - t[Dr1,D0] + t[Dr1,C2]
+   - 500 d_Dr1_C3_D0_C2 >= -499.6178540815885
+ Drone_retrieval_time_Dr1_C3_D0_C4: - t[Tr1,C3] + t[Tr1,C4]
+   + 500 d_Dr1_C3_D0_C4 <= 500.3477637775422
+ Drone_retrieval_time_Dr1_C3_D0_C4: - t[Dr1,D0] + t[Dr1,C4]
+   - 500 d_Dr1_C3_D0_C4 >= -499.8100140148426
+ Drone_retrieval_time_Dr1_C3_D0_C5: - t[Tr1,C3] + t[Tr1,C5]
+   + 500 d_Dr1_C3_D0_C5 <= 500.1629970776955
+ Drone_retrieval_time_Dr1_C3_D0_C5: - t[Dr1,D0] + t[Dr1,C5]
+   - 500 d_Dr1_C3_D0_C5 >= -499.7005962532795
+ Drone_retrieval_time_Dr1_C3_C1_D0: t[Tr1,D0] - t[Tr1,C3]
+   + 500 d_Dr1_C3_C1_D0 <= 500.3996240837137
+ Drone_retrieval_time_Dr1_C3_C1_D0: t[Dr1,D0] - t[Dr1,C1]
+   - 500 d_Dr1_C3_C1_D0 >= -499.6827746027463
+ Drone_retrieval_time_Dr1_C3_C1_C2: t[Tr1,C2] - t[Tr1,C3]
+   + 500 d_Dr1_C3_C1_C2 <= 500.0756353757125
+ Drone_retrieval_time_Dr1_C3_C1_C2: - t[Dr1,C1] + t[Dr1,C2]
+   - 500 d_Dr1_C3_C1_C2 >= -499.926330339115
+ Drone_retrieval_time_Dr1_C3_C1_C4: - t[Tr1,C3] + t[Tr1,C4]
+   + 500 d_Dr1_C3_C1_C4 <= 500.3477637775422
+ Drone_retrieval_time_Dr1_C3_C1_C4: - t[Dr1,C1] + t[Dr1,C4]
+   - 500 d_Dr1_C3_C1_C4 >= -499.6689160709921
+ Drone_retrieval_time_Dr1_C3_C1_C5: - t[Tr1,C3] + t[Tr1,C5]
+   + 500 d_Dr1_C3_C1_C5 <= 500.1629970776955
+ Drone_retrieval_time_Dr1_C3_C1_C5: - t[Dr1,C1] + t[Dr1,C5]
+   - 500 d_Dr1_C3_C1_C5 >= -499.9682838028799
+ Drone_retrieval_time_Dr1_C3_C2_D0: t[Tr1,D0] - t[Tr1,C3]
+   + 500 d_Dr1_C3_C2_D0 <= 500.3996240837137
+ Drone_retrieval_time_Dr1_C3_C2_D0: t[Dr1,D0] - t[Dr1,C2]
+   - 500 d_Dr1_C3_C2_D0 >= -499.6178540815885
+ Drone_retrieval_time_Dr1_C3_C2_C1: t[Tr1,C1] - t[Tr1,C3]
+   + 500 d_Dr1_C3_C2_C1 <= 500.1314462114664
+ Drone_retrieval_time_Dr1_C3_C2_C1: t[Dr1,C1] - t[Dr1,C2]
+   - 500 d_Dr1_C3_C2_C1 >= -499.926330339115
+ Drone_retrieval_time_Dr1_C3_C2_C4: - t[Tr1,C3] + t[Tr1,C4]
+   + 500 d_Dr1_C3_C2_C4 <= 500.3477637775422
+ Drone_retrieval_time_Dr1_C3_C2_C4: - t[Dr1,C2] + t[Dr1,C4]
+   - 500 d_Dr1_C3_C2_C4 >= -499.6318927349537
+ Drone_retrieval_time_Dr1_C3_C2_C5: - t[Tr1,C3] + t[Tr1,C5]
+   + 500 d_Dr1_C3_C2_C5 <= 500.1629970776955
+ Drone_retrieval_time_Dr1_C3_C2_C5: - t[Dr1,C2] + t[Dr1,C5]
+   - 500 d_Dr1_C3_C2_C5 >= -499.8962707210397
+ Drone_retrieval_time_Dr1_C3_C4_D0: t[Tr1,D0] - t[Tr1,C3]
+   + 500 d_Dr1_C3_C4_D0 <= 500.3996240837137
+ Drone_retrieval_time_Dr1_C3_C4_D0: t[Dr1,D0] - t[Dr1,C4]
+   - 500 d_Dr1_C3_C4_D0 >= -499.8100140148426
+ Drone_retrieval_time_Dr1_C3_C4_C1: t[Tr1,C1] - t[Tr1,C3]
+   + 500 d_Dr1_C3_C4_C1 <= 500.1314462114664
+ Drone_retrieval_time_Dr1_C3_C4_C1: t[Dr1,C1] - t[Dr1,C4]
+   - 500 d_Dr1_C3_C4_C1 >= -499.6689160709921
+ Drone_retrieval_time_Dr1_C3_C4_C2: t[Tr1,C2] - t[Tr1,C3]
+   + 500 d_Dr1_C3_C4_C2 <= 500.0756353757125
+ Drone_retrieval_time_Dr1_C3_C4_C2: t[Dr1,C2] - t[Dr1,C4]
+   - 500 d_Dr1_C3_C4_C2 >= -499.6318927349537
+ Drone_retrieval_time_Dr1_C3_C4_C5: - t[Tr1,C3] + t[Tr1,C5]
+   + 500 d_Dr1_C3_C4_C5 <= 500.1629970776955
+ Drone_retrieval_time_Dr1_C3_C4_C5: - t[Dr1,C4] + t[Dr1,C5]
+   - 500 d_Dr1_C3_C4_C5 >= -499.6688338696105
+ Drone_retrieval_time_Dr1_C3_C5_D0: t[Tr1,D0] - t[Tr1,C3]
+   + 500 d_Dr1_C3_C5_D0 <= 500.3996240837137
+ Drone_retrieval_time_Dr1_C3_C5_D0: t[Dr1,D0] - t[Dr1,C5]
+   - 500 d_Dr1_C3_C5_D0 >= -499.7005962532795
+ Drone_retrieval_time_Dr1_C3_C5_C1: t[Tr1,C1] - t[Tr1,C3]
+   + 500 d_Dr1_C3_C5_C1 <= 500.1314462114664
+ Drone_retrieval_time_Dr1_C3_C5_C1: t[Dr1,C1] - t[Dr1,C5]
+   - 500 d_Dr1_C3_C5_C1 >= -499.9682838028799
+ Drone_retrieval_time_Dr1_C3_C5_C2: t[Tr1,C2] - t[Tr1,C3]
+   + 500 d_Dr1_C3_C5_C2 <= 500.0756353757125
+ Drone_retrieval_time_Dr1_C3_C5_C2: t[Dr1,C2] - t[Dr1,C5]
+   - 500 d_Dr1_C3_C5_C2 >= -499.8962707210397
+ Drone_retrieval_time_Dr1_C3_C5_C4: - t[Tr1,C3] + t[Tr1,C4]
+   + 500 d_Dr1_C3_C5_C4 <= 500.3477637775422
+ Drone_retrieval_time_Dr1_C3_C5_C4: t[Dr1,C4] - t[Dr1,C5]
+   - 500 d_Dr1_C3_C5_C4 >= -499.6688338696105
+ Drone_retrieval_time_Dr1_C4_D0_C1: t[Tr1,C1] - t[Tr1,C4]
+   + 500 d_Dr1_C4_D0_C1 <= 500.3310839290079
+ Drone_retrieval_time_Dr1_C4_D0_C1: - t[Dr1,D0] + t[Dr1,C1]
+   - 500 d_Dr1_C4_D0_C1 >= -499.6827746027463
+ Drone_retrieval_time_Dr1_C4_D0_C2: t[Tr1,C2] - t[Tr1,C4]
+   + 500 d_Dr1_C4_D0_C2 <= 500.3681072650463
+ Drone_retrieval_time_Dr1_C4_D0_C2: - t[Dr1,D0] + t[Dr1,C2]
+   - 500 d_Dr1_C4_D0_C2 >= -499.6178540815885
+ Drone_retrieval_time_Dr1_C4_D0_C3: t[Tr1,C3] - t[Tr1,C4]
+   + 500 d_Dr1_C4_D0_C3 <= 500.3477637775422
+ Drone_retrieval_time_Dr1_C4_D0_C3: - t[Dr1,D0] + t[Dr1,C3]
+   - 500 d_Dr1_C4_D0_C3 >= -499.6003759162863
+ Drone_retrieval_time_Dr1_C4_D0_C5: - t[Tr1,C4] + t[Tr1,C5]
+   + 500 d_Dr1_C4_D0_C5 <= 500.3311661303895
+ Drone_retrieval_time_Dr1_C4_D0_C5: - t[Dr1,D0] + t[Dr1,C5]
+   - 500 d_Dr1_C4_D0_C5 >= -499.7005962532795
+ Drone_retrieval_time_Dr1_C4_C1_D0: t[Tr1,D0] - t[Tr1,C4]
+   + 500 d_Dr1_C4_C1_D0 <= 500.1899859851574
+ Drone_retrieval_time_Dr1_C4_C1_D0: t[Dr1,D0] - t[Dr1,C1]
+   - 500 d_Dr1_C4_C1_D0 >= -499.6827746027463
+ Drone_retrieval_time_Dr1_C4_C1_C2: t[Tr1,C2] - t[Tr1,C4]
+   + 500 d_Dr1_C4_C1_C2 <= 500.3681072650463
+ Drone_retrieval_time_Dr1_C4_C1_C2: - t[Dr1,C1] + t[Dr1,C2]
+   - 500 d_Dr1_C4_C1_C2 >= -499.926330339115
+ Drone_retrieval_time_Dr1_C4_C1_C3: t[Tr1,C3] - t[Tr1,C4]
+   + 500 d_Dr1_C4_C1_C3 <= 500.3477637775422
+ Drone_retrieval_time_Dr1_C4_C1_C3: - t[Dr1,C1] + t[Dr1,C3]
+   - 500 d_Dr1_C4_C1_C3 >= -499.8685537885336
+ Drone_retrieval_time_Dr1_C4_C1_C5: - t[Tr1,C4] + t[Tr1,C5]
+   + 500 d_Dr1_C4_C1_C5 <= 500.3311661303895
+ Drone_retrieval_time_Dr1_C4_C1_C5: - t[Dr1,C1] + t[Dr1,C5]
+   - 500 d_Dr1_C4_C1_C5 >= -499.9682838028799
+ Drone_retrieval_time_Dr1_C4_C2_D0: t[Tr1,D0] - t[Tr1,C4]
+   + 500 d_Dr1_C4_C2_D0 <= 500.1899859851574
+ Drone_retrieval_time_Dr1_C4_C2_D0: t[Dr1,D0] - t[Dr1,C2]
+   - 500 d_Dr1_C4_C2_D0 >= -499.6178540815885
+ Drone_retrieval_time_Dr1_C4_C2_C1: t[Tr1,C1] - t[Tr1,C4]
+   + 500 d_Dr1_C4_C2_C1 <= 500.3310839290079
+ Drone_retrieval_time_Dr1_C4_C2_C1: t[Dr1,C1] - t[Dr1,C2]
+   - 500 d_Dr1_C4_C2_C1 >= -499.926330339115
+ Drone_retrieval_time_Dr1_C4_C2_C3: t[Tr1,C3] - t[Tr1,C4]
+   + 500 d_Dr1_C4_C2_C3 <= 500.3477637775422
+ Drone_retrieval_time_Dr1_C4_C2_C3: - t[Dr1,C2] + t[Dr1,C3]
+   - 500 d_Dr1_C4_C2_C3 >= -499.9243646242875
+ Drone_retrieval_time_Dr1_C4_C2_C5: - t[Tr1,C4] + t[Tr1,C5]
+   + 500 d_Dr1_C4_C2_C5 <= 500.3311661303895
+ Drone_retrieval_time_Dr1_C4_C2_C5: - t[Dr1,C2] + t[Dr1,C5]
+   - 500 d_Dr1_C4_C2_C5 >= -499.8962707210397
+ Drone_retrieval_time_Dr1_C4_C3_D0: t[Tr1,D0] - t[Tr1,C4]
+   + 500 d_Dr1_C4_C3_D0 <= 500.1899859851574
+ Drone_retrieval_time_Dr1_C4_C3_D0: t[Dr1,D0] - t[Dr1,C3]
+   - 500 d_Dr1_C4_C3_D0 >= -499.6003759162863
+ Drone_retrieval_time_Dr1_C4_C3_C1: t[Tr1,C1] - t[Tr1,C4]
+   + 500 d_Dr1_C4_C3_C1 <= 500.3310839290079
+ Drone_retrieval_time_Dr1_C4_C3_C1: t[Dr1,C1] - t[Dr1,C3]
+   - 500 d_Dr1_C4_C3_C1 >= -499.8685537885336
+ Drone_retrieval_time_Dr1_C4_C3_C2: t[Tr1,C2] - t[Tr1,C4]
+   + 500 d_Dr1_C4_C3_C2 <= 500.3681072650463
+ Drone_retrieval_time_Dr1_C4_C3_C2: t[Dr1,C2] - t[Dr1,C3]
+   - 500 d_Dr1_C4_C3_C2 >= -499.9243646242875
+ Drone_retrieval_time_Dr1_C4_C3_C5: - t[Tr1,C4] + t[Tr1,C5]
+   + 500 d_Dr1_C4_C3_C5 <= 500.3311661303895
+ Drone_retrieval_time_Dr1_C4_C3_C5: - t[Dr1,C3] + t[Dr1,C5]
+   - 500 d_Dr1_C4_C3_C5 >= -499.8370029223045
+ Drone_retrieval_time_Dr1_C4_C5_D0: t[Tr1,D0] - t[Tr1,C4]
+   + 500 d_Dr1_C4_C5_D0 <= 500.1899859851574
+ Drone_retrieval_time_Dr1_C4_C5_D0: t[Dr1,D0] - t[Dr1,C5]
+   - 500 d_Dr1_C4_C5_D0 >= -499.7005962532795
+ Drone_retrieval_time_Dr1_C4_C5_C1: t[Tr1,C1] - t[Tr1,C4]
+   + 500 d_Dr1_C4_C5_C1 <= 500.3310839290079
+ Drone_retrieval_time_Dr1_C4_C5_C1: t[Dr1,C1] - t[Dr1,C5]
+   - 500 d_Dr1_C4_C5_C1 >= -499.9682838028799
+ Drone_retrieval_time_Dr1_C4_C5_C2: t[Tr1,C2] - t[Tr1,C4]
+   + 500 d_Dr1_C4_C5_C2 <= 500.3681072650463
+ Drone_retrieval_time_Dr1_C4_C5_C2: t[Dr1,C2] - t[Dr1,C5]
+   - 500 d_Dr1_C4_C5_C2 >= -499.8962707210397
+ Drone_retrieval_time_Dr1_C4_C5_C3: t[Tr1,C3] - t[Tr1,C4]
+   + 500 d_Dr1_C4_C5_C3 <= 500.3477637775422
+ Drone_retrieval_time_Dr1_C4_C5_C3: t[Dr1,C3] - t[Dr1,C5]
+   - 500 d_Dr1_C4_C5_C3 >= -499.8370029223045
+ Drone_retrieval_time_Dr1_C5_D0_C1: t[Tr1,C1] - t[Tr1,C5]
+   + 500 d_Dr1_C5_D0_C1 <= 500.0317161971201
+ Drone_retrieval_time_Dr1_C5_D0_C1: - t[Dr1,D0] + t[Dr1,C1]
+   - 500 d_Dr1_C5_D0_C1 >= -499.6827746027463
+ Drone_retrieval_time_Dr1_C5_D0_C2: t[Tr1,C2] - t[Tr1,C5]
+   + 500 d_Dr1_C5_D0_C2 <= 500.1037292789603
+ Drone_retrieval_time_Dr1_C5_D0_C2: - t[Dr1,D0] + t[Dr1,C2]
+   - 500 d_Dr1_C5_D0_C2 >= -499.6178540815885
+ Drone_retrieval_time_Dr1_C5_D0_C3: t[Tr1,C3] - t[Tr1,C5]
+   + 500 d_Dr1_C5_D0_C3 <= 500.1629970776955
+ Drone_retrieval_time_Dr1_C5_D0_C3: - t[Dr1,D0] + t[Dr1,C3]
+   - 500 d_Dr1_C5_D0_C3 >= -499.6003759162863
+ Drone_retrieval_time_Dr1_C5_D0_C4: t[Tr1,C4] - t[Tr1,C5]
+   + 500 d_Dr1_C5_D0_C4 <= 500.3311661303895
+ Drone_retrieval_time_Dr1_C5_D0_C4: - t[Dr1,D0] + t[Dr1,C4]
+   - 500 d_Dr1_C5_D0_C4 >= -499.8100140148426
+ Drone_retrieval_time_Dr1_C5_C1_D0: t[Tr1,D0] - t[Tr1,C5]
+   + 500 d_Dr1_C5_C1_D0 <= 500.2994037467205
+ Drone_retrieval_time_Dr1_C5_C1_D0: t[Dr1,D0] - t[Dr1,C1]
+   - 500 d_Dr1_C5_C1_D0 >= -499.6827746027463
+ Drone_retrieval_time_Dr1_C5_C1_C2: t[Tr1,C2] - t[Tr1,C5]
+   + 500 d_Dr1_C5_C1_C2 <= 500.1037292789603
+ Drone_retrieval_time_Dr1_C5_C1_C2: - t[Dr1,C1] + t[Dr1,C2]
+   - 500 d_Dr1_C5_C1_C2 >= -499.926330339115
+ Drone_retrieval_time_Dr1_C5_C1_C3: t[Tr1,C3] - t[Tr1,C5]
+   + 500 d_Dr1_C5_C1_C3 <= 500.1629970776955
+ Drone_retrieval_time_Dr1_C5_C1_C3: - t[Dr1,C1] + t[Dr1,C3]
+   - 500 d_Dr1_C5_C1_C3 >= -499.8685537885336
+ Drone_retrieval_time_Dr1_C5_C1_C4: t[Tr1,C4] - t[Tr1,C5]
+   + 500 d_Dr1_C5_C1_C4 <= 500.3311661303895
+ Drone_retrieval_time_Dr1_C5_C1_C4: - t[Dr1,C1] + t[Dr1,C4]
+   - 500 d_Dr1_C5_C1_C4 >= -499.6689160709921
+ Drone_retrieval_time_Dr1_C5_C2_D0: t[Tr1,D0] - t[Tr1,C5]
+   + 500 d_Dr1_C5_C2_D0 <= 500.2994037467205
+ Drone_retrieval_time_Dr1_C5_C2_D0: t[Dr1,D0] - t[Dr1,C2]
+   - 500 d_Dr1_C5_C2_D0 >= -499.6178540815885
+ Drone_retrieval_time_Dr1_C5_C2_C1: t[Tr1,C1] - t[Tr1,C5]
+   + 500 d_Dr1_C5_C2_C1 <= 500.0317161971201
+ Drone_retrieval_time_Dr1_C5_C2_C1: t[Dr1,C1] - t[Dr1,C2]
+   - 500 d_Dr1_C5_C2_C1 >= -499.926330339115
+ Drone_retrieval_time_Dr1_C5_C2_C3: t[Tr1,C3] - t[Tr1,C5]
+   + 500 d_Dr1_C5_C2_C3 <= 500.1629970776955
+ Drone_retrieval_time_Dr1_C5_C2_C3: - t[Dr1,C2] + t[Dr1,C3]
+   - 500 d_Dr1_C5_C2_C3 >= -499.9243646242875
+ Drone_retrieval_time_Dr1_C5_C2_C4: t[Tr1,C4] - t[Tr1,C5]
+   + 500 d_Dr1_C5_C2_C4 <= 500.3311661303895
+ Drone_retrieval_time_Dr1_C5_C2_C4: - t[Dr1,C2] + t[Dr1,C4]
+   - 500 d_Dr1_C5_C2_C4 >= -499.6318927349537
+ Drone_retrieval_time_Dr1_C5_C3_D0: t[Tr1,D0] - t[Tr1,C5]
+   + 500 d_Dr1_C5_C3_D0 <= 500.2994037467205
+ Drone_retrieval_time_Dr1_C5_C3_D0: t[Dr1,D0] - t[Dr1,C3]
+   - 500 d_Dr1_C5_C3_D0 >= -499.6003759162863
+ Drone_retrieval_time_Dr1_C5_C3_C1: t[Tr1,C1] - t[Tr1,C5]
+   + 500 d_Dr1_C5_C3_C1 <= 500.0317161971201
+ Drone_retrieval_time_Dr1_C5_C3_C1: t[Dr1,C1] - t[Dr1,C3]
+   - 500 d_Dr1_C5_C3_C1 >= -499.8685537885336
+ Drone_retrieval_time_Dr1_C5_C3_C2: t[Tr1,C2] - t[Tr1,C5]
+   + 500 d_Dr1_C5_C3_C2 <= 500.1037292789603
+ Drone_retrieval_time_Dr1_C5_C3_C2: t[Dr1,C2] - t[Dr1,C3]
+   - 500 d_Dr1_C5_C3_C2 >= -499.9243646242875
+ Drone_retrieval_time_Dr1_C5_C3_C4: t[Tr1,C4] - t[Tr1,C5]
+   + 500 d_Dr1_C5_C3_C4 <= 500.3311661303895
+ Drone_retrieval_time_Dr1_C5_C3_C4: - t[Dr1,C3] + t[Dr1,C4]
+   - 500 d_Dr1_C5_C3_C4 >= -499.6522362224578
+ Drone_retrieval_time_Dr1_C5_C4_D0: t[Tr1,D0] - t[Tr1,C5]
+   + 500 d_Dr1_C5_C4_D0 <= 500.2994037467205
+ Drone_retrieval_time_Dr1_C5_C4_D0: t[Dr1,D0] - t[Dr1,C4]
+   - 500 d_Dr1_C5_C4_D0 >= -499.8100140148426
+ Drone_retrieval_time_Dr1_C5_C4_C1: t[Tr1,C1] - t[Tr1,C5]
+   + 500 d_Dr1_C5_C4_C1 <= 500.0317161971201
+ Drone_retrieval_time_Dr1_C5_C4_C1: t[Dr1,C1] - t[Dr1,C4]
+   - 500 d_Dr1_C5_C4_C1 >= -499.6689160709921
+ Drone_retrieval_time_Dr1_C5_C4_C2: t[Tr1,C2] - t[Tr1,C5]
+   + 500 d_Dr1_C5_C4_C2 <= 500.1037292789603
+ Drone_retrieval_time_Dr1_C5_C4_C2: t[Dr1,C2] - t[Dr1,C4]
+   - 500 d_Dr1_C5_C4_C2 >= -499.6318927349537
+ Drone_retrieval_time_Dr1_C5_C4_C3: t[Tr1,C3] - t[Tr1,C5]
+   + 500 d_Dr1_C5_C4_C3 <= 500.1629970776955
+ Drone_retrieval_time_Dr1_C5_C4_C3: t[Dr1,C3] - t[Dr1,C4]
+   - 500 d_Dr1_C5_C4_C3 >= -499.6522362224578
+ Drone_retrieval_time_Dr2_D0_C1_C2: - t[Tr2,D0] + t[Tr2,C2]
+   + 500 d_Dr2_D0_C1_C2 <= 500.3821459184115
+ Drone_retrieval_time_Dr2_D0_C1_C2: - t[Dr2,C1] + t[Dr2,C2]
+   - 500 d_Dr2_D0_C1_C2 >= -499.926330339115
+ Drone_retrieval_time_Dr2_D0_C1_C3: - t[Tr2,D0] + t[Tr2,C3]
+   + 500 d_Dr2_D0_C1_C3 <= 500.3996240837137
+ Drone_retrieval_time_Dr2_D0_C1_C3: - t[Dr2,C1] + t[Dr2,C3]
+   - 500 d_Dr2_D0_C1_C3 >= -499.8685537885336
+ Drone_retrieval_time_Dr2_D0_C1_C4: - t[Tr2,D0] + t[Tr2,C4]
+   + 500 d_Dr2_D0_C1_C4 <= 500.1899859851574
+ Drone_retrieval_time_Dr2_D0_C1_C4: - t[Dr2,C1] + t[Dr2,C4]
+   - 500 d_Dr2_D0_C1_C4 >= -499.6689160709921
+ Drone_retrieval_time_Dr2_D0_C1_C5: - t[Tr2,D0] + t[Tr2,C5]
+   + 500 d_Dr2_D0_C1_C5 <= 500.2994037467205
+ Drone_retrieval_time_Dr2_D0_C1_C5: - t[Dr2,C1] + t[Dr2,C5]
+   - 500 d_Dr2_D0_C1_C5 >= -499.9682838028799
+ Drone_retrieval_time_Dr2_D0_C2_C1: - t[Tr2,D0] + t[Tr2,C1]
+   + 500 d_Dr2_D0_C2_C1 <= 500.3172253972537
+ Drone_retrieval_time_Dr2_D0_C2_C1: t[Dr2,C1] - t[Dr2,C2]
+   - 500 d_Dr2_D0_C2_C1 >= -499.926330339115
+ Drone_retrieval_time_Dr2_D0_C2_C3: - t[Tr2,D0] + t[Tr2,C3]
+   + 500 d_Dr2_D0_C2_C3 <= 500.3996240837137
+ Drone_retrieval_time_Dr2_D0_C2_C3: - t[Dr2,C2] + t[Dr2,C3]
+   - 500 d_Dr2_D0_C2_C3 >= -499.9243646242875
+ Drone_retrieval_time_Dr2_D0_C2_C4: - t[Tr2,D0] + t[Tr2,C4]
+   + 500 d_Dr2_D0_C2_C4 <= 500.1899859851574
+ Drone_retrieval_time_Dr2_D0_C2_C4: - t[Dr2,C2] + t[Dr2,C4]
+   - 500 d_Dr2_D0_C2_C4 >= -499.6318927349537
+ Drone_retrieval_time_Dr2_D0_C2_C5: - t[Tr2,D0] + t[Tr2,C5]
+   + 500 d_Dr2_D0_C2_C5 <= 500.2994037467205
+ Drone_retrieval_time_Dr2_D0_C2_C5: - t[Dr2,C2] + t[Dr2,C5]
+   - 500 d_Dr2_D0_C2_C5 >= -499.8962707210397
+ Drone_retrieval_time_Dr2_D0_C3_C1: - t[Tr2,D0] + t[Tr2,C1]
+   + 500 d_Dr2_D0_C3_C1 <= 500.3172253972537
+ Drone_retrieval_time_Dr2_D0_C3_C1: t[Dr2,C1] - t[Dr2,C3]
+   - 500 d_Dr2_D0_C3_C1 >= -499.8685537885336
+ Drone_retrieval_time_Dr2_D0_C3_C2: - t[Tr2,D0] + t[Tr2,C2]
+   + 500 d_Dr2_D0_C3_C2 <= 500.3821459184115
+ Drone_retrieval_time_Dr2_D0_C3_C2: t[Dr2,C2] - t[Dr2,C3]
+   - 500 d_Dr2_D0_C3_C2 >= -499.9243646242875
+ Drone_retrieval_time_Dr2_D0_C3_C4: - t[Tr2,D0] + t[Tr2,C4]
+   + 500 d_Dr2_D0_C3_C4 <= 500.1899859851574
+ Drone_retrieval_time_Dr2_D0_C3_C4: - t[Dr2,C3] + t[Dr2,C4]
+   - 500 d_Dr2_D0_C3_C4 >= -499.6522362224578
+ Drone_retrieval_time_Dr2_D0_C3_C5: - t[Tr2,D0] + t[Tr2,C5]
+   + 500 d_Dr2_D0_C3_C5 <= 500.2994037467205
+ Drone_retrieval_time_Dr2_D0_C3_C5: - t[Dr2,C3] + t[Dr2,C5]
+   - 500 d_Dr2_D0_C3_C5 >= -499.8370029223045
+ Drone_retrieval_time_Dr2_D0_C4_C1: - t[Tr2,D0] + t[Tr2,C1]
+   + 500 d_Dr2_D0_C4_C1 <= 500.3172253972537
+ Drone_retrieval_time_Dr2_D0_C4_C1: t[Dr2,C1] - t[Dr2,C4]
+   - 500 d_Dr2_D0_C4_C1 >= -499.6689160709921
+ Drone_retrieval_time_Dr2_D0_C4_C2: - t[Tr2,D0] + t[Tr2,C2]
+   + 500 d_Dr2_D0_C4_C2 <= 500.3821459184115
+ Drone_retrieval_time_Dr2_D0_C4_C2: t[Dr2,C2] - t[Dr2,C4]
+   - 500 d_Dr2_D0_C4_C2 >= -499.6318927349537
+ Drone_retrieval_time_Dr2_D0_C4_C3: - t[Tr2,D0] + t[Tr2,C3]
+   + 500 d_Dr2_D0_C4_C3 <= 500.3996240837137
+ Drone_retrieval_time_Dr2_D0_C4_C3: t[Dr2,C3] - t[Dr2,C4]
+   - 500 d_Dr2_D0_C4_C3 >= -499.6522362224578
+ Drone_retrieval_time_Dr2_D0_C4_C5: - t[Tr2,D0] + t[Tr2,C5]
+   + 500 d_Dr2_D0_C4_C5 <= 500.2994037467205
+ Drone_retrieval_time_Dr2_D0_C4_C5: - t[Dr2,C4] + t[Dr2,C5]
+   - 500 d_Dr2_D0_C4_C5 >= -499.6688338696105
+ Drone_retrieval_time_Dr2_D0_C5_C1: - t[Tr2,D0] + t[Tr2,C1]
+   + 500 d_Dr2_D0_C5_C1 <= 500.3172253972537
+ Drone_retrieval_time_Dr2_D0_C5_C1: t[Dr2,C1] - t[Dr2,C5]
+   - 500 d_Dr2_D0_C5_C1 >= -499.9682838028799
+ Drone_retrieval_time_Dr2_D0_C5_C2: - t[Tr2,D0] + t[Tr2,C2]
+   + 500 d_Dr2_D0_C5_C2 <= 500.3821459184115
+ Drone_retrieval_time_Dr2_D0_C5_C2: t[Dr2,C2] - t[Dr2,C5]
+   - 500 d_Dr2_D0_C5_C2 >= -499.8962707210397
+ Drone_retrieval_time_Dr2_D0_C5_C3: - t[Tr2,D0] + t[Tr2,C3]
+   + 500 d_Dr2_D0_C5_C3 <= 500.3996240837137
+ Drone_retrieval_time_Dr2_D0_C5_C3: t[Dr2,C3] - t[Dr2,C5]
+   - 500 d_Dr2_D0_C5_C3 >= -499.8370029223045
+ Drone_retrieval_time_Dr2_D0_C5_C4: - t[Tr2,D0] + t[Tr2,C4]
+   + 500 d_Dr2_D0_C5_C4 <= 500.1899859851574
+ Drone_retrieval_time_Dr2_D0_C5_C4: t[Dr2,C4] - t[Dr2,C5]
+   - 500 d_Dr2_D0_C5_C4 >= -499.6688338696105
+ Drone_retrieval_time_Dr2_C1_D0_C2: - t[Tr2,C1] + t[Tr2,C2]
+   + 500 d_Dr2_C1_D0_C2 <= 500.073669660885
+ Drone_retrieval_time_Dr2_C1_D0_C2: - t[Dr2,D0] + t[Dr2,C2]
+   - 500 d_Dr2_C1_D0_C2 >= -499.6178540815885
+ Drone_retrieval_time_Dr2_C1_D0_C3: - t[Tr2,C1] + t[Tr2,C3]
+   + 500 d_Dr2_C1_D0_C3 <= 500.1314462114664
+ Drone_retrieval_time_Dr2_C1_D0_C3: - t[Dr2,D0] + t[Dr2,C3]
+   - 500 d_Dr2_C1_D0_C3 >= -499.6003759162863
+ Drone_retrieval_time_Dr2_C1_D0_C4: - t[Tr2,C1] + t[Tr2,C4]
+   + 500 d_Dr2_C1_D0_C4 <= 500.3310839290079
+ Drone_retrieval_time_Dr2_C1_D0_C4: - t[Dr2,D0] + t[Dr2,C4]
+   - 500 d_Dr2_C1_D0_C4 >= -499.8100140148426
+ Drone_retrieval_time_Dr2_C1_D0_C5: - t[Tr2,C1] + t[Tr2,C5]
+   + 500 d_Dr2_C1_D0_C5 <= 500.0317161971201
+ Drone_retrieval_time_Dr2_C1_D0_C5: - t[Dr2,D0] + t[Dr2,C5]
+   - 500 d_Dr2_C1_D0_C5 >= -499.7005962532795
+ Drone_retrieval_time_Dr2_C1_C2_D0: t[Tr2,D0] - t[Tr2,C1]
+   + 500 d_Dr2_C1_C2_D0 <= 500.3172253972537
+ Drone_retrieval_time_Dr2_C1_C2_D0: t[Dr2,D0] - t[Dr2,C2]
+   - 500 d_Dr2_C1_C2_D0 >= -499.6178540815885
+ Drone_retrieval_time_Dr2_C1_C2_C3: - t[Tr2,C1] + t[Tr2,C3]
+   + 500 d_Dr2_C1_C2_C3 <= 500.1314462114664
+ Drone_retrieval_time_Dr2_C1_C2_C3: - t[Dr2,C2] + t[Dr2,C3]
+   - 500 d_Dr2_C1_C2_C3 >= -499.9243646242875
+ Drone_retrieval_time_Dr2_C1_C2_C4: - t[Tr2,C1] + t[Tr2,C4]
+   + 500 d_Dr2_C1_C2_C4 <= 500.3310839290079
+ Drone_retrieval_time_Dr2_C1_C2_C4: - t[Dr2,C2] + t[Dr2,C4]
+   - 500 d_Dr2_C1_C2_C4 >= -499.6318927349537
+ Drone_retrieval_time_Dr2_C1_C2_C5: - t[Tr2,C1] + t[Tr2,C5]
+   + 500 d_Dr2_C1_C2_C5 <= 500.0317161971201
+ Drone_retrieval_time_Dr2_C1_C2_C5: - t[Dr2,C2] + t[Dr2,C5]
+   - 500 d_Dr2_C1_C2_C5 >= -499.8962707210397
+ Drone_retrieval_time_Dr2_C1_C3_D0: t[Tr2,D0] - t[Tr2,C1]
+   + 500 d_Dr2_C1_C3_D0 <= 500.3172253972537
+ Drone_retrieval_time_Dr2_C1_C3_D0: t[Dr2,D0] - t[Dr2,C3]
+   - 500 d_Dr2_C1_C3_D0 >= -499.6003759162863
+ Drone_retrieval_time_Dr2_C1_C3_C2: - t[Tr2,C1] + t[Tr2,C2]
+   + 500 d_Dr2_C1_C3_C2 <= 500.073669660885
+ Drone_retrieval_time_Dr2_C1_C3_C2: t[Dr2,C2] - t[Dr2,C3]
+   - 500 d_Dr2_C1_C3_C2 >= -499.9243646242875
+ Drone_retrieval_time_Dr2_C1_C3_C4: - t[Tr2,C1] + t[Tr2,C4]
+   + 500 d_Dr2_C1_C3_C4 <= 500.3310839290079
+ Drone_retrieval_time_Dr2_C1_C3_C4: - t[Dr2,C3] + t[Dr2,C4]
+   - 500 d_Dr2_C1_C3_C4 >= -499.6522362224578
+ Drone_retrieval_time_Dr2_C1_C3_C5: - t[Tr2,C1] + t[Tr2,C5]
+   + 500 d_Dr2_C1_C3_C5 <= 500.0317161971201
+ Drone_retrieval_time_Dr2_C1_C3_C5: - t[Dr2,C3] + t[Dr2,C5]
+   - 500 d_Dr2_C1_C3_C5 >= -499.8370029223045
+ Drone_retrieval_time_Dr2_C1_C4_D0: t[Tr2,D0] - t[Tr2,C1]
+   + 500 d_Dr2_C1_C4_D0 <= 500.3172253972537
+ Drone_retrieval_time_Dr2_C1_C4_D0: t[Dr2,D0] - t[Dr2,C4]
+   - 500 d_Dr2_C1_C4_D0 >= -499.8100140148426
+ Drone_retrieval_time_Dr2_C1_C4_C2: - t[Tr2,C1] + t[Tr2,C2]
+   + 500 d_Dr2_C1_C4_C2 <= 500.073669660885
+ Drone_retrieval_time_Dr2_C1_C4_C2: t[Dr2,C2] - t[Dr2,C4]
+   - 500 d_Dr2_C1_C4_C2 >= -499.6318927349537
+ Drone_retrieval_time_Dr2_C1_C4_C3: - t[Tr2,C1] + t[Tr2,C3]
+   + 500 d_Dr2_C1_C4_C3 <= 500.1314462114664
+ Drone_retrieval_time_Dr2_C1_C4_C3: t[Dr2,C3] - t[Dr2,C4]
+   - 500 d_Dr2_C1_C4_C3 >= -499.6522362224578
+ Drone_retrieval_time_Dr2_C1_C4_C5: - t[Tr2,C1] + t[Tr2,C5]
+   + 500 d_Dr2_C1_C4_C5 <= 500.0317161971201
+ Drone_retrieval_time_Dr2_C1_C4_C5: - t[Dr2,C4] + t[Dr2,C5]
+   - 500 d_Dr2_C1_C4_C5 >= -499.6688338696105
+ Drone_retrieval_time_Dr2_C1_C5_D0: t[Tr2,D0] - t[Tr2,C1]
+   + 500 d_Dr2_C1_C5_D0 <= 500.3172253972537
+ Drone_retrieval_time_Dr2_C1_C5_D0: t[Dr2,D0] - t[Dr2,C5]
+   - 500 d_Dr2_C1_C5_D0 >= -499.7005962532795
+ Drone_retrieval_time_Dr2_C1_C5_C2: - t[Tr2,C1] + t[Tr2,C2]
+   + 500 d_Dr2_C1_C5_C2 <= 500.073669660885
+ Drone_retrieval_time_Dr2_C1_C5_C2: t[Dr2,C2] - t[Dr2,C5]
+   - 500 d_Dr2_C1_C5_C2 >= -499.8962707210397
+ Drone_retrieval_time_Dr2_C1_C5_C3: - t[Tr2,C1] + t[Tr2,C3]
+   + 500 d_Dr2_C1_C5_C3 <= 500.1314462114664
+ Drone_retrieval_time_Dr2_C1_C5_C3: t[Dr2,C3] - t[Dr2,C5]
+   - 500 d_Dr2_C1_C5_C3 >= -499.8370029223045
+ Drone_retrieval_time_Dr2_C1_C5_C4: - t[Tr2,C1] + t[Tr2,C4]
+   + 500 d_Dr2_C1_C5_C4 <= 500.3310839290079
+ Drone_retrieval_time_Dr2_C1_C5_C4: t[Dr2,C4] - t[Dr2,C5]
+   - 500 d_Dr2_C1_C5_C4 >= -499.6688338696105
+ Drone_retrieval_time_Dr2_C2_D0_C1: t[Tr2,C1] - t[Tr2,C2]
+   + 500 d_Dr2_C2_D0_C1 <= 500.073669660885
+ Drone_retrieval_time_Dr2_C2_D0_C1: - t[Dr2,D0] + t[Dr2,C1]
+   - 500 d_Dr2_C2_D0_C1 >= -499.6827746027463
+ Drone_retrieval_time_Dr2_C2_D0_C3: - t[Tr2,C2] + t[Tr2,C3]
+   + 500 d_Dr2_C2_D0_C3 <= 500.0756353757125
+ Drone_retrieval_time_Dr2_C2_D0_C3: - t[Dr2,D0] + t[Dr2,C3]
+   - 500 d_Dr2_C2_D0_C3 >= -499.6003759162863
+ Drone_retrieval_time_Dr2_C2_D0_C4: - t[Tr2,C2] + t[Tr2,C4]
+   + 500 d_Dr2_C2_D0_C4 <= 500.3681072650463
+ Drone_retrieval_time_Dr2_C2_D0_C4: - t[Dr2,D0] + t[Dr2,C4]
+   - 500 d_Dr2_C2_D0_C4 >= -499.8100140148426
+ Drone_retrieval_time_Dr2_C2_D0_C5: - t[Tr2,C2] + t[Tr2,C5]
+   + 500 d_Dr2_C2_D0_C5 <= 500.1037292789603
+ Drone_retrieval_time_Dr2_C2_D0_C5: - t[Dr2,D0] + t[Dr2,C5]
+   - 500 d_Dr2_C2_D0_C5 >= -499.7005962532795
+ Drone_retrieval_time_Dr2_C2_C1_D0: t[Tr2,D0] - t[Tr2,C2]
+   + 500 d_Dr2_C2_C1_D0 <= 500.3821459184115
+ Drone_retrieval_time_Dr2_C2_C1_D0: t[Dr2,D0] - t[Dr2,C1]
+   - 500 d_Dr2_C2_C1_D0 >= -499.6827746027463
+ Drone_retrieval_time_Dr2_C2_C1_C3: - t[Tr2,C2] + t[Tr2,C3]
+   + 500 d_Dr2_C2_C1_C3 <= 500.0756353757125
+ Drone_retrieval_time_Dr2_C2_C1_C3: - t[Dr2,C1] + t[Dr2,C3]
+   - 500 d_Dr2_C2_C1_C3 >= -499.8685537885336
+ Drone_retrieval_time_Dr2_C2_C1_C4: - t[Tr2,C2] + t[Tr2,C4]
+   + 500 d_Dr2_C2_C1_C4 <= 500.3681072650463
+ Drone_retrieval_time_Dr2_C2_C1_C4: - t[Dr2,C1] + t[Dr2,C4]
+   - 500 d_Dr2_C2_C1_C4 >= -499.6689160709921
+ Drone_retrieval_time_Dr2_C2_C1_C5: - t[Tr2,C2] + t[Tr2,C5]
+   + 500 d_Dr2_C2_C1_C5 <= 500.1037292789603
+ Drone_retrieval_time_Dr2_C2_C1_C5: - t[Dr2,C1] + t[Dr2,C5]
+   - 500 d_Dr2_C2_C1_C5 >= -499.9682838028799
+ Drone_retrieval_time_Dr2_C2_C3_D0: t[Tr2,D0] - t[Tr2,C2]
+   + 500 d_Dr2_C2_C3_D0 <= 500.3821459184115
+ Drone_retrieval_time_Dr2_C2_C3_D0: t[Dr2,D0] - t[Dr2,C3]
+   - 500 d_Dr2_C2_C3_D0 >= -499.6003759162863
+ Drone_retrieval_time_Dr2_C2_C3_C1: t[Tr2,C1] - t[Tr2,C2]
+   + 500 d_Dr2_C2_C3_C1 <= 500.073669660885
+ Drone_retrieval_time_Dr2_C2_C3_C1: t[Dr2,C1] - t[Dr2,C3]
+   - 500 d_Dr2_C2_C3_C1 >= -499.8685537885336
+ Drone_retrieval_time_Dr2_C2_C3_C4: - t[Tr2,C2] + t[Tr2,C4]
+   + 500 d_Dr2_C2_C3_C4 <= 500.3681072650463
+ Drone_retrieval_time_Dr2_C2_C3_C4: - t[Dr2,C3] + t[Dr2,C4]
+   - 500 d_Dr2_C2_C3_C4 >= -499.6522362224578
+ Drone_retrieval_time_Dr2_C2_C3_C5: - t[Tr2,C2] + t[Tr2,C5]
+   + 500 d_Dr2_C2_C3_C5 <= 500.1037292789603
+ Drone_retrieval_time_Dr2_C2_C3_C5: - t[Dr2,C3] + t[Dr2,C5]
+   - 500 d_Dr2_C2_C3_C5 >= -499.8370029223045
+ Drone_retrieval_time_Dr2_C2_C4_D0: t[Tr2,D0] - t[Tr2,C2]
+   + 500 d_Dr2_C2_C4_D0 <= 500.3821459184115
+ Drone_retrieval_time_Dr2_C2_C4_D0: t[Dr2,D0] - t[Dr2,C4]
+   - 500 d_Dr2_C2_C4_D0 >= -499.8100140148426
+ Drone_retrieval_time_Dr2_C2_C4_C1: t[Tr2,C1] - t[Tr2,C2]
+   + 500 d_Dr2_C2_C4_C1 <= 500.073669660885
+ Drone_retrieval_time_Dr2_C2_C4_C1: t[Dr2,C1] - t[Dr2,C4]
+   - 500 d_Dr2_C2_C4_C1 >= -499.6689160709921
+ Drone_retrieval_time_Dr2_C2_C4_C3: - t[Tr2,C2] + t[Tr2,C3]
+   + 500 d_Dr2_C2_C4_C3 <= 500.0756353757125
+ Drone_retrieval_time_Dr2_C2_C4_C3: t[Dr2,C3] - t[Dr2,C4]
+   - 500 d_Dr2_C2_C4_C3 >= -499.6522362224578
+ Drone_retrieval_time_Dr2_C2_C4_C5: - t[Tr2,C2] + t[Tr2,C5]
+   + 500 d_Dr2_C2_C4_C5 <= 500.1037292789603
+ Drone_retrieval_time_Dr2_C2_C4_C5: - t[Dr2,C4] + t[Dr2,C5]
+   - 500 d_Dr2_C2_C4_C5 >= -499.6688338696105
+ Drone_retrieval_time_Dr2_C2_C5_D0: t[Tr2,D0] - t[Tr2,C2]
+   + 500 d_Dr2_C2_C5_D0 <= 500.3821459184115
+ Drone_retrieval_time_Dr2_C2_C5_D0: t[Dr2,D0] - t[Dr2,C5]
+   - 500 d_Dr2_C2_C5_D0 >= -499.7005962532795
+ Drone_retrieval_time_Dr2_C2_C5_C1: t[Tr2,C1] - t[Tr2,C2]
+   + 500 d_Dr2_C2_C5_C1 <= 500.073669660885
+ Drone_retrieval_time_Dr2_C2_C5_C1: t[Dr2,C1] - t[Dr2,C5]
+   - 500 d_Dr2_C2_C5_C1 >= -499.9682838028799
+ Drone_retrieval_time_Dr2_C2_C5_C3: - t[Tr2,C2] + t[Tr2,C3]
+   + 500 d_Dr2_C2_C5_C3 <= 500.0756353757125
+ Drone_retrieval_time_Dr2_C2_C5_C3: t[Dr2,C3] - t[Dr2,C5]
+   - 500 d_Dr2_C2_C5_C3 >= -499.8370029223045
+ Drone_retrieval_time_Dr2_C2_C5_C4: - t[Tr2,C2] + t[Tr2,C4]
+   + 500 d_Dr2_C2_C5_C4 <= 500.3681072650463
+ Drone_retrieval_time_Dr2_C2_C5_C4: t[Dr2,C4] - t[Dr2,C5]
+   - 500 d_Dr2_C2_C5_C4 >= -499.6688338696105
+ Drone_retrieval_time_Dr2_C3_D0_C1: t[Tr2,C1] - t[Tr2,C3]
+   + 500 d_Dr2_C3_D0_C1 <= 500.1314462114664
+ Drone_retrieval_time_Dr2_C3_D0_C1: - t[Dr2,D0] + t[Dr2,C1]
+   - 500 d_Dr2_C3_D0_C1 >= -499.6827746027463
+ Drone_retrieval_time_Dr2_C3_D0_C2: t[Tr2,C2] - t[Tr2,C3]
+   + 500 d_Dr2_C3_D0_C2 <= 500.0756353757125
+ Drone_retrieval_time_Dr2_C3_D0_C2: - t[Dr2,D0] + t[Dr2,C2]
+   - 500 d_Dr2_C3_D0_C2 >= -499.6178540815885
+ Drone_retrieval_time_Dr2_C3_D0_C4: - t[Tr2,C3] + t[Tr2,C4]
+   + 500 d_Dr2_C3_D0_C4 <= 500.3477637775422
+ Drone_retrieval_time_Dr2_C3_D0_C4: - t[Dr2,D0] + t[Dr2,C4]
+   - 500 d_Dr2_C3_D0_C4 >= -499.8100140148426
+ Drone_retrieval_time_Dr2_C3_D0_C5: - t[Tr2,C3] + t[Tr2,C5]
+   + 500 d_Dr2_C3_D0_C5 <= 500.1629970776955
+ Drone_retrieval_time_Dr2_C3_D0_C5: - t[Dr2,D0] + t[Dr2,C5]
+   - 500 d_Dr2_C3_D0_C5 >= -499.7005962532795
+ Drone_retrieval_time_Dr2_C3_C1_D0: t[Tr2,D0] - t[Tr2,C3]
+   + 500 d_Dr2_C3_C1_D0 <= 500.3996240837137
+ Drone_retrieval_time_Dr2_C3_C1_D0: t[Dr2,D0] - t[Dr2,C1]
+   - 500 d_Dr2_C3_C1_D0 >= -499.6827746027463
+ Drone_retrieval_time_Dr2_C3_C1_C2: t[Tr2,C2] - t[Tr2,C3]
+   + 500 d_Dr2_C3_C1_C2 <= 500.0756353757125
+ Drone_retrieval_time_Dr2_C3_C1_C2: - t[Dr2,C1] + t[Dr2,C2]
+   - 500 d_Dr2_C3_C1_C2 >= -499.926330339115
+ Drone_retrieval_time_Dr2_C3_C1_C4: - t[Tr2,C3] + t[Tr2,C4]
+   + 500 d_Dr2_C3_C1_C4 <= 500.3477637775422
+ Drone_retrieval_time_Dr2_C3_C1_C4: - t[Dr2,C1] + t[Dr2,C4]
+   - 500 d_Dr2_C3_C1_C4 >= -499.6689160709921
+ Drone_retrieval_time_Dr2_C3_C1_C5: - t[Tr2,C3] + t[Tr2,C5]
+   + 500 d_Dr2_C3_C1_C5 <= 500.1629970776955
+ Drone_retrieval_time_Dr2_C3_C1_C5: - t[Dr2,C1] + t[Dr2,C5]
+   - 500 d_Dr2_C3_C1_C5 >= -499.9682838028799
+ Drone_retrieval_time_Dr2_C3_C2_D0: t[Tr2,D0] - t[Tr2,C3]
+   + 500 d_Dr2_C3_C2_D0 <= 500.3996240837137
+ Drone_retrieval_time_Dr2_C3_C2_D0: t[Dr2,D0] - t[Dr2,C2]
+   - 500 d_Dr2_C3_C2_D0 >= -499.6178540815885
+ Drone_retrieval_time_Dr2_C3_C2_C1: t[Tr2,C1] - t[Tr2,C3]
+   + 500 d_Dr2_C3_C2_C1 <= 500.1314462114664
+ Drone_retrieval_time_Dr2_C3_C2_C1: t[Dr2,C1] - t[Dr2,C2]
+   - 500 d_Dr2_C3_C2_C1 >= -499.926330339115
+ Drone_retrieval_time_Dr2_C3_C2_C4: - t[Tr2,C3] + t[Tr2,C4]
+   + 500 d_Dr2_C3_C2_C4 <= 500.3477637775422
+ Drone_retrieval_time_Dr2_C3_C2_C4: - t[Dr2,C2] + t[Dr2,C4]
+   - 500 d_Dr2_C3_C2_C4 >= -499.6318927349537
+ Drone_retrieval_time_Dr2_C3_C2_C5: - t[Tr2,C3] + t[Tr2,C5]
+   + 500 d_Dr2_C3_C2_C5 <= 500.1629970776955
+ Drone_retrieval_time_Dr2_C3_C2_C5: - t[Dr2,C2] + t[Dr2,C5]
+   - 500 d_Dr2_C3_C2_C5 >= -499.8962707210397
+ Drone_retrieval_time_Dr2_C3_C4_D0: t[Tr2,D0] - t[Tr2,C3]
+   + 500 d_Dr2_C3_C4_D0 <= 500.3996240837137
+ Drone_retrieval_time_Dr2_C3_C4_D0: t[Dr2,D0] - t[Dr2,C4]
+   - 500 d_Dr2_C3_C4_D0 >= -499.8100140148426
+ Drone_retrieval_time_Dr2_C3_C4_C1: t[Tr2,C1] - t[Tr2,C3]
+   + 500 d_Dr2_C3_C4_C1 <= 500.1314462114664
+ Drone_retrieval_time_Dr2_C3_C4_C1: t[Dr2,C1] - t[Dr2,C4]
+   - 500 d_Dr2_C3_C4_C1 >= -499.6689160709921
+ Drone_retrieval_time_Dr2_C3_C4_C2: t[Tr2,C2] - t[Tr2,C3]
+   + 500 d_Dr2_C3_C4_C2 <= 500.0756353757125
+ Drone_retrieval_time_Dr2_C3_C4_C2: t[Dr2,C2] - t[Dr2,C4]
+   - 500 d_Dr2_C3_C4_C2 >= -499.6318927349537
+ Drone_retrieval_time_Dr2_C3_C4_C5: - t[Tr2,C3] + t[Tr2,C5]
+   + 500 d_Dr2_C3_C4_C5 <= 500.1629970776955
+ Drone_retrieval_time_Dr2_C3_C4_C5: - t[Dr2,C4] + t[Dr2,C5]
+   - 500 d_Dr2_C3_C4_C5 >= -499.6688338696105
+ Drone_retrieval_time_Dr2_C3_C5_D0: t[Tr2,D0] - t[Tr2,C3]
+   + 500 d_Dr2_C3_C5_D0 <= 500.3996240837137
+ Drone_retrieval_time_Dr2_C3_C5_D0: t[Dr2,D0] - t[Dr2,C5]
+   - 500 d_Dr2_C3_C5_D0 >= -499.7005962532795
+ Drone_retrieval_time_Dr2_C3_C5_C1: t[Tr2,C1] - t[Tr2,C3]
+   + 500 d_Dr2_C3_C5_C1 <= 500.1314462114664
+ Drone_retrieval_time_Dr2_C3_C5_C1: t[Dr2,C1] - t[Dr2,C5]
+   - 500 d_Dr2_C3_C5_C1 >= -499.9682838028799
+ Drone_retrieval_time_Dr2_C3_C5_C2: t[Tr2,C2] - t[Tr2,C3]
+   + 500 d_Dr2_C3_C5_C2 <= 500.0756353757125
+ Drone_retrieval_time_Dr2_C3_C5_C2: t[Dr2,C2] - t[Dr2,C5]
+   - 500 d_Dr2_C3_C5_C2 >= -499.8962707210397
+ Drone_retrieval_time_Dr2_C3_C5_C4: - t[Tr2,C3] + t[Tr2,C4]
+   + 500 d_Dr2_C3_C5_C4 <= 500.3477637775422
+ Drone_retrieval_time_Dr2_C3_C5_C4: t[Dr2,C4] - t[Dr2,C5]
+   - 500 d_Dr2_C3_C5_C4 >= -499.6688338696105
+ Drone_retrieval_time_Dr2_C4_D0_C1: t[Tr2,C1] - t[Tr2,C4]
+   + 500 d_Dr2_C4_D0_C1 <= 500.3310839290079
+ Drone_retrieval_time_Dr2_C4_D0_C1: - t[Dr2,D0] + t[Dr2,C1]
+   - 500 d_Dr2_C4_D0_C1 >= -499.6827746027463
+ Drone_retrieval_time_Dr2_C4_D0_C2: t[Tr2,C2] - t[Tr2,C4]
+   + 500 d_Dr2_C4_D0_C2 <= 500.3681072650463
+ Drone_retrieval_time_Dr2_C4_D0_C2: - t[Dr2,D0] + t[Dr2,C2]
+   - 500 d_Dr2_C4_D0_C2 >= -499.6178540815885
+ Drone_retrieval_time_Dr2_C4_D0_C3: t[Tr2,C3] - t[Tr2,C4]
+   + 500 d_Dr2_C4_D0_C3 <= 500.3477637775422
+ Drone_retrieval_time_Dr2_C4_D0_C3: - t[Dr2,D0] + t[Dr2,C3]
+   - 500 d_Dr2_C4_D0_C3 >= -499.6003759162863
+ Drone_retrieval_time_Dr2_C4_D0_C5: - t[Tr2,C4] + t[Tr2,C5]
+   + 500 d_Dr2_C4_D0_C5 <= 500.3311661303895
+ Drone_retrieval_time_Dr2_C4_D0_C5: - t[Dr2,D0] + t[Dr2,C5]
+   - 500 d_Dr2_C4_D0_C5 >= -499.7005962532795
+ Drone_retrieval_time_Dr2_C4_C1_D0: t[Tr2,D0] - t[Tr2,C4]
+   + 500 d_Dr2_C4_C1_D0 <= 500.1899859851574
+ Drone_retrieval_time_Dr2_C4_C1_D0: t[Dr2,D0] - t[Dr2,C1]
+   - 500 d_Dr2_C4_C1_D0 >= -499.6827746027463
+ Drone_retrieval_time_Dr2_C4_C1_C2: t[Tr2,C2] - t[Tr2,C4]
+   + 500 d_Dr2_C4_C1_C2 <= 500.3681072650463
+ Drone_retrieval_time_Dr2_C4_C1_C2: - t[Dr2,C1] + t[Dr2,C2]
+   - 500 d_Dr2_C4_C1_C2 >= -499.926330339115
+ Drone_retrieval_time_Dr2_C4_C1_C3: t[Tr2,C3] - t[Tr2,C4]
+   + 500 d_Dr2_C4_C1_C3 <= 500.3477637775422
+ Drone_retrieval_time_Dr2_C4_C1_C3: - t[Dr2,C1] + t[Dr2,C3]
+   - 500 d_Dr2_C4_C1_C3 >= -499.8685537885336
+ Drone_retrieval_time_Dr2_C4_C1_C5: - t[Tr2,C4] + t[Tr2,C5]
+   + 500 d_Dr2_C4_C1_C5 <= 500.3311661303895
+ Drone_retrieval_time_Dr2_C4_C1_C5: - t[Dr2,C1] + t[Dr2,C5]
+   - 500 d_Dr2_C4_C1_C5 >= -499.9682838028799
+ Drone_retrieval_time_Dr2_C4_C2_D0: t[Tr2,D0] - t[Tr2,C4]
+   + 500 d_Dr2_C4_C2_D0 <= 500.1899859851574
+ Drone_retrieval_time_Dr2_C4_C2_D0: t[Dr2,D0] - t[Dr2,C2]
+   - 500 d_Dr2_C4_C2_D0 >= -499.6178540815885
+ Drone_retrieval_time_Dr2_C4_C2_C1: t[Tr2,C1] - t[Tr2,C4]
+   + 500 d_Dr2_C4_C2_C1 <= 500.3310839290079
+ Drone_retrieval_time_Dr2_C4_C2_C1: t[Dr2,C1] - t[Dr2,C2]
+   - 500 d_Dr2_C4_C2_C1 >= -499.926330339115
+ Drone_retrieval_time_Dr2_C4_C2_C3: t[Tr2,C3] - t[Tr2,C4]
+   + 500 d_Dr2_C4_C2_C3 <= 500.3477637775422
+ Drone_retrieval_time_Dr2_C4_C2_C3: - t[Dr2,C2] + t[Dr2,C3]
+   - 500 d_Dr2_C4_C2_C3 >= -499.9243646242875
+ Drone_retrieval_time_Dr2_C4_C2_C5: - t[Tr2,C4] + t[Tr2,C5]
+   + 500 d_Dr2_C4_C2_C5 <= 500.3311661303895
+ Drone_retrieval_time_Dr2_C4_C2_C5: - t[Dr2,C2] + t[Dr2,C5]
+   - 500 d_Dr2_C4_C2_C5 >= -499.8962707210397
+ Drone_retrieval_time_Dr2_C4_C3_D0: t[Tr2,D0] - t[Tr2,C4]
+   + 500 d_Dr2_C4_C3_D0 <= 500.1899859851574
+ Drone_retrieval_time_Dr2_C4_C3_D0: t[Dr2,D0] - t[Dr2,C3]
+   - 500 d_Dr2_C4_C3_D0 >= -499.6003759162863
+ Drone_retrieval_time_Dr2_C4_C3_C1: t[Tr2,C1] - t[Tr2,C4]
+   + 500 d_Dr2_C4_C3_C1 <= 500.3310839290079
+ Drone_retrieval_time_Dr2_C4_C3_C1: t[Dr2,C1] - t[Dr2,C3]
+   - 500 d_Dr2_C4_C3_C1 >= -499.8685537885336
+ Drone_retrieval_time_Dr2_C4_C3_C2: t[Tr2,C2] - t[Tr2,C4]
+   + 500 d_Dr2_C4_C3_C2 <= 500.3681072650463
+ Drone_retrieval_time_Dr2_C4_C3_C2: t[Dr2,C2] - t[Dr2,C3]
+   - 500 d_Dr2_C4_C3_C2 >= -499.9243646242875
+ Drone_retrieval_time_Dr2_C4_C3_C5: - t[Tr2,C4] + t[Tr2,C5]
+   + 500 d_Dr2_C4_C3_C5 <= 500.3311661303895
+ Drone_retrieval_time_Dr2_C4_C3_C5: - t[Dr2,C3] + t[Dr2,C5]
+   - 500 d_Dr2_C4_C3_C5 >= -499.8370029223045
+ Drone_retrieval_time_Dr2_C4_C5_D0: t[Tr2,D0] - t[Tr2,C4]
+   + 500 d_Dr2_C4_C5_D0 <= 500.1899859851574
+ Drone_retrieval_time_Dr2_C4_C5_D0: t[Dr2,D0] - t[Dr2,C5]
+   - 500 d_Dr2_C4_C5_D0 >= -499.7005962532795
+ Drone_retrieval_time_Dr2_C4_C5_C1: t[Tr2,C1] - t[Tr2,C4]
+   + 500 d_Dr2_C4_C5_C1 <= 500.3310839290079
+ Drone_retrieval_time_Dr2_C4_C5_C1: t[Dr2,C1] - t[Dr2,C5]
+   - 500 d_Dr2_C4_C5_C1 >= -499.9682838028799
+ Drone_retrieval_time_Dr2_C4_C5_C2: t[Tr2,C2] - t[Tr2,C4]
+   + 500 d_Dr2_C4_C5_C2 <= 500.3681072650463
+ Drone_retrieval_time_Dr2_C4_C5_C2: t[Dr2,C2] - t[Dr2,C5]
+   - 500 d_Dr2_C4_C5_C2 >= -499.8962707210397
+ Drone_retrieval_time_Dr2_C4_C5_C3: t[Tr2,C3] - t[Tr2,C4]
+   + 500 d_Dr2_C4_C5_C3 <= 500.3477637775422
+ Drone_retrieval_time_Dr2_C4_C5_C3: t[Dr2,C3] - t[Dr2,C5]
+   - 500 d_Dr2_C4_C5_C3 >= -499.8370029223045
+ Drone_retrieval_time_Dr2_C5_D0_C1: t[Tr2,C1] - t[Tr2,C5]
+   + 500 d_Dr2_C5_D0_C1 <= 500.0317161971201
+ Drone_retrieval_time_Dr2_C5_D0_C1: - t[Dr2,D0] + t[Dr2,C1]
+   - 500 d_Dr2_C5_D0_C1 >= -499.6827746027463
+ Drone_retrieval_time_Dr2_C5_D0_C2: t[Tr2,C2] - t[Tr2,C5]
+   + 500 d_Dr2_C5_D0_C2 <= 500.1037292789603
+ Drone_retrieval_time_Dr2_C5_D0_C2: - t[Dr2,D0] + t[Dr2,C2]
+   - 500 d_Dr2_C5_D0_C2 >= -499.6178540815885
+ Drone_retrieval_time_Dr2_C5_D0_C3: t[Tr2,C3] - t[Tr2,C5]
+   + 500 d_Dr2_C5_D0_C3 <= 500.1629970776955
+ Drone_retrieval_time_Dr2_C5_D0_C3: - t[Dr2,D0] + t[Dr2,C3]
+   - 500 d_Dr2_C5_D0_C3 >= -499.6003759162863
+ Drone_retrieval_time_Dr2_C5_D0_C4: t[Tr2,C4] - t[Tr2,C5]
+   + 500 d_Dr2_C5_D0_C4 <= 500.3311661303895
+ Drone_retrieval_time_Dr2_C5_D0_C4: - t[Dr2,D0] + t[Dr2,C4]
+   - 500 d_Dr2_C5_D0_C4 >= -499.8100140148426
+ Drone_retrieval_time_Dr2_C5_C1_D0: t[Tr2,D0] - t[Tr2,C5]
+   + 500 d_Dr2_C5_C1_D0 <= 500.2994037467205
+ Drone_retrieval_time_Dr2_C5_C1_D0: t[Dr2,D0] - t[Dr2,C1]
+   - 500 d_Dr2_C5_C1_D0 >= -499.6827746027463
+ Drone_retrieval_time_Dr2_C5_C1_C2: t[Tr2,C2] - t[Tr2,C5]
+   + 500 d_Dr2_C5_C1_C2 <= 500.1037292789603
+ Drone_retrieval_time_Dr2_C5_C1_C2: - t[Dr2,C1] + t[Dr2,C2]
+   - 500 d_Dr2_C5_C1_C2 >= -499.926330339115
+ Drone_retrieval_time_Dr2_C5_C1_C3: t[Tr2,C3] - t[Tr2,C5]
+   + 500 d_Dr2_C5_C1_C3 <= 500.1629970776955
+ Drone_retrieval_time_Dr2_C5_C1_C3: - t[Dr2,C1] + t[Dr2,C3]
+   - 500 d_Dr2_C5_C1_C3 >= -499.8685537885336
+ Drone_retrieval_time_Dr2_C5_C1_C4: t[Tr2,C4] - t[Tr2,C5]
+   + 500 d_Dr2_C5_C1_C4 <= 500.3311661303895
+ Drone_retrieval_time_Dr2_C5_C1_C4: - t[Dr2,C1] + t[Dr2,C4]
+   - 500 d_Dr2_C5_C1_C4 >= -499.6689160709921
+ Drone_retrieval_time_Dr2_C5_C2_D0: t[Tr2,D0] - t[Tr2,C5]
+   + 500 d_Dr2_C5_C2_D0 <= 500.2994037467205
+ Drone_retrieval_time_Dr2_C5_C2_D0: t[Dr2,D0] - t[Dr2,C2]
+   - 500 d_Dr2_C5_C2_D0 >= -499.6178540815885
+ Drone_retrieval_time_Dr2_C5_C2_C1: t[Tr2,C1] - t[Tr2,C5]
+   + 500 d_Dr2_C5_C2_C1 <= 500.0317161971201
+ Drone_retrieval_time_Dr2_C5_C2_C1: t[Dr2,C1] - t[Dr2,C2]
+   - 500 d_Dr2_C5_C2_C1 >= -499.926330339115
+ Drone_retrieval_time_Dr2_C5_C2_C3: t[Tr2,C3] - t[Tr2,C5]
+   + 500 d_Dr2_C5_C2_C3 <= 500.1629970776955
+ Drone_retrieval_time_Dr2_C5_C2_C3: - t[Dr2,C2] + t[Dr2,C3]
+   - 500 d_Dr2_C5_C2_C3 >= -499.9243646242875
+ Drone_retrieval_time_Dr2_C5_C2_C4: t[Tr2,C4] - t[Tr2,C5]
+   + 500 d_Dr2_C5_C2_C4 <= 500.3311661303895
+ Drone_retrieval_time_Dr2_C5_C2_C4: - t[Dr2,C2] + t[Dr2,C4]
+   - 500 d_Dr2_C5_C2_C4 >= -499.6318927349537
+ Drone_retrieval_time_Dr2_C5_C3_D0: t[Tr2,D0] - t[Tr2,C5]
+   + 500 d_Dr2_C5_C3_D0 <= 500.2994037467205
+ Drone_retrieval_time_Dr2_C5_C3_D0: t[Dr2,D0] - t[Dr2,C3]
+   - 500 d_Dr2_C5_C3_D0 >= -499.6003759162863
+ Drone_retrieval_time_Dr2_C5_C3_C1: t[Tr2,C1] - t[Tr2,C5]
+   + 500 d_Dr2_C5_C3_C1 <= 500.0317161971201
+ Drone_retrieval_time_Dr2_C5_C3_C1: t[Dr2,C1] - t[Dr2,C3]
+   - 500 d_Dr2_C5_C3_C1 >= -499.8685537885336
+ Drone_retrieval_time_Dr2_C5_C3_C2: t[Tr2,C2] - t[Tr2,C5]
+   + 500 d_Dr2_C5_C3_C2 <= 500.1037292789603
+ Drone_retrieval_time_Dr2_C5_C3_C2: t[Dr2,C2] - t[Dr2,C3]
+   - 500 d_Dr2_C5_C3_C2 >= -499.9243646242875
+ Drone_retrieval_time_Dr2_C5_C3_C4: t[Tr2,C4] - t[Tr2,C5]
+   + 500 d_Dr2_C5_C3_C4 <= 500.3311661303895
+ Drone_retrieval_time_Dr2_C5_C3_C4: - t[Dr2,C3] + t[Dr2,C4]
+   - 500 d_Dr2_C5_C3_C4 >= -499.6522362224578
+ Drone_retrieval_time_Dr2_C5_C4_D0: t[Tr2,D0] - t[Tr2,C5]
+   + 500 d_Dr2_C5_C4_D0 <= 500.2994037467205
+ Drone_retrieval_time_Dr2_C5_C4_D0: t[Dr2,D0] - t[Dr2,C4]
+   - 500 d_Dr2_C5_C4_D0 >= -499.8100140148426
+ Drone_retrieval_time_Dr2_C5_C4_C1: t[Tr2,C1] - t[Tr2,C5]
+   + 500 d_Dr2_C5_C4_C1 <= 500.0317161971201
+ Drone_retrieval_time_Dr2_C5_C4_C1: t[Dr2,C1] - t[Dr2,C4]
+   - 500 d_Dr2_C5_C4_C1 >= -499.6689160709921
+ Drone_retrieval_time_Dr2_C5_C4_C2: t[Tr2,C2] - t[Tr2,C5]
+   + 500 d_Dr2_C5_C4_C2 <= 500.1037292789603
+ Drone_retrieval_time_Dr2_C5_C4_C2: t[Dr2,C2] - t[Dr2,C4]
+   - 500 d_Dr2_C5_C4_C2 >= -499.6318927349537
+ Drone_retrieval_time_Dr2_C5_C4_C3: t[Tr2,C3] - t[Tr2,C5]
+   + 500 d_Dr2_C5_C4_C3 <= 500.1629970776955
+ Drone_retrieval_time_Dr2_C5_C4_C3: t[Dr2,C3] - t[Dr2,C4]
+   - 500 d_Dr2_C5_C4_C3 >= -499.6522362224578
+ Drone_retrieval_time_Dr3_D0_C1_C2: - t[Tr3,D0] + t[Tr3,C2]
+   + 500 d_Dr3_D0_C1_C2 <= 500.3821459184115
+ Drone_retrieval_time_Dr3_D0_C1_C2: - t[Dr3,C1] + t[Dr3,C2]
+   - 500 d_Dr3_D0_C1_C2 >= -499.926330339115
+ Drone_retrieval_time_Dr3_D0_C1_C3: - t[Tr3,D0] + t[Tr3,C3]
+   + 500 d_Dr3_D0_C1_C3 <= 500.3996240837137
+ Drone_retrieval_time_Dr3_D0_C1_C3: - t[Dr3,C1] + t[Dr3,C3]
+   - 500 d_Dr3_D0_C1_C3 >= -499.8685537885336
+ Drone_retrieval_time_Dr3_D0_C1_C4: - t[Tr3,D0] + t[Tr3,C4]
+   + 500 d_Dr3_D0_C1_C4 <= 500.1899859851574
+ Drone_retrieval_time_Dr3_D0_C1_C4: - t[Dr3,C1] + t[Dr3,C4]
+   - 500 d_Dr3_D0_C1_C4 >= -499.6689160709921
+ Drone_retrieval_time_Dr3_D0_C1_C5: - t[Tr3,D0] + t[Tr3,C5]
+   + 500 d_Dr3_D0_C1_C5 <= 500.2994037467205
+ Drone_retrieval_time_Dr3_D0_C1_C5: - t[Dr3,C1] + t[Dr3,C5]
+   - 500 d_Dr3_D0_C1_C5 >= -499.9682838028799
+ Drone_retrieval_time_Dr3_D0_C2_C1: - t[Tr3,D0] + t[Tr3,C1]
+   + 500 d_Dr3_D0_C2_C1 <= 500.3172253972537
+ Drone_retrieval_time_Dr3_D0_C2_C1: t[Dr3,C1] - t[Dr3,C2]
+   - 500 d_Dr3_D0_C2_C1 >= -499.926330339115
+ Drone_retrieval_time_Dr3_D0_C2_C3: - t[Tr3,D0] + t[Tr3,C3]
+   + 500 d_Dr3_D0_C2_C3 <= 500.3996240837137
+ Drone_retrieval_time_Dr3_D0_C2_C3: - t[Dr3,C2] + t[Dr3,C3]
+   - 500 d_Dr3_D0_C2_C3 >= -499.9243646242875
+ Drone_retrieval_time_Dr3_D0_C2_C4: - t[Tr3,D0] + t[Tr3,C4]
+   + 500 d_Dr3_D0_C2_C4 <= 500.1899859851574
+ Drone_retrieval_time_Dr3_D0_C2_C4: - t[Dr3,C2] + t[Dr3,C4]
+   - 500 d_Dr3_D0_C2_C4 >= -499.6318927349537
+ Drone_retrieval_time_Dr3_D0_C2_C5: - t[Tr3,D0] + t[Tr3,C5]
+   + 500 d_Dr3_D0_C2_C5 <= 500.2994037467205
+ Drone_retrieval_time_Dr3_D0_C2_C5: - t[Dr3,C2] + t[Dr3,C5]
+   - 500 d_Dr3_D0_C2_C5 >= -499.8962707210397
+ Drone_retrieval_time_Dr3_D0_C3_C1: - t[Tr3,D0] + t[Tr3,C1]
+   + 500 d_Dr3_D0_C3_C1 <= 500.3172253972537
+ Drone_retrieval_time_Dr3_D0_C3_C1: t[Dr3,C1] - t[Dr3,C3]
+   - 500 d_Dr3_D0_C3_C1 >= -499.8685537885336
+ Drone_retrieval_time_Dr3_D0_C3_C2: - t[Tr3,D0] + t[Tr3,C2]
+   + 500 d_Dr3_D0_C3_C2 <= 500.3821459184115
+ Drone_retrieval_time_Dr3_D0_C3_C2: t[Dr3,C2] - t[Dr3,C3]
+   - 500 d_Dr3_D0_C3_C2 >= -499.9243646242875
+ Drone_retrieval_time_Dr3_D0_C3_C4: - t[Tr3,D0] + t[Tr3,C4]
+   + 500 d_Dr3_D0_C3_C4 <= 500.1899859851574
+ Drone_retrieval_time_Dr3_D0_C3_C4: - t[Dr3,C3] + t[Dr3,C4]
+   - 500 d_Dr3_D0_C3_C4 >= -499.6522362224578
+ Drone_retrieval_time_Dr3_D0_C3_C5: - t[Tr3,D0] + t[Tr3,C5]
+   + 500 d_Dr3_D0_C3_C5 <= 500.2994037467205
+ Drone_retrieval_time_Dr3_D0_C3_C5: - t[Dr3,C3] + t[Dr3,C5]
+   - 500 d_Dr3_D0_C3_C5 >= -499.8370029223045
+ Drone_retrieval_time_Dr3_D0_C4_C1: - t[Tr3,D0] + t[Tr3,C1]
+   + 500 d_Dr3_D0_C4_C1 <= 500.3172253972537
+ Drone_retrieval_time_Dr3_D0_C4_C1: t[Dr3,C1] - t[Dr3,C4]
+   - 500 d_Dr3_D0_C4_C1 >= -499.6689160709921
+ Drone_retrieval_time_Dr3_D0_C4_C2: - t[Tr3,D0] + t[Tr3,C2]
+   + 500 d_Dr3_D0_C4_C2 <= 500.3821459184115
+ Drone_retrieval_time_Dr3_D0_C4_C2: t[Dr3,C2] - t[Dr3,C4]
+   - 500 d_Dr3_D0_C4_C2 >= -499.6318927349537
+ Drone_retrieval_time_Dr3_D0_C4_C3: - t[Tr3,D0] + t[Tr3,C3]
+   + 500 d_Dr3_D0_C4_C3 <= 500.3996240837137
+ Drone_retrieval_time_Dr3_D0_C4_C3: t[Dr3,C3] - t[Dr3,C4]
+   - 500 d_Dr3_D0_C4_C3 >= -499.6522362224578
+ Drone_retrieval_time_Dr3_D0_C4_C5: - t[Tr3,D0] + t[Tr3,C5]
+   + 500 d_Dr3_D0_C4_C5 <= 500.2994037467205
+ Drone_retrieval_time_Dr3_D0_C4_C5: - t[Dr3,C4] + t[Dr3,C5]
+   - 500 d_Dr3_D0_C4_C5 >= -499.6688338696105
+ Drone_retrieval_time_Dr3_D0_C5_C1: - t[Tr3,D0] + t[Tr3,C1]
+   + 500 d_Dr3_D0_C5_C1 <= 500.3172253972537
+ Drone_retrieval_time_Dr3_D0_C5_C1: t[Dr3,C1] - t[Dr3,C5]
+   - 500 d_Dr3_D0_C5_C1 >= -499.9682838028799
+ Drone_retrieval_time_Dr3_D0_C5_C2: - t[Tr3,D0] + t[Tr3,C2]
+   + 500 d_Dr3_D0_C5_C2 <= 500.3821459184115
+ Drone_retrieval_time_Dr3_D0_C5_C2: t[Dr3,C2] - t[Dr3,C5]
+   - 500 d_Dr3_D0_C5_C2 >= -499.8962707210397
+ Drone_retrieval_time_Dr3_D0_C5_C3: - t[Tr3,D0] + t[Tr3,C3]
+   + 500 d_Dr3_D0_C5_C3 <= 500.3996240837137
+ Drone_retrieval_time_Dr3_D0_C5_C3: t[Dr3,C3] - t[Dr3,C5]
+   - 500 d_Dr3_D0_C5_C3 >= -499.8370029223045
+ Drone_retrieval_time_Dr3_D0_C5_C4: - t[Tr3,D0] + t[Tr3,C4]
+   + 500 d_Dr3_D0_C5_C4 <= 500.1899859851574
+ Drone_retrieval_time_Dr3_D0_C5_C4: t[Dr3,C4] - t[Dr3,C5]
+   - 500 d_Dr3_D0_C5_C4 >= -499.6688338696105
+ Drone_retrieval_time_Dr3_C1_D0_C2: - t[Tr3,C1] + t[Tr3,C2]
+   + 500 d_Dr3_C1_D0_C2 <= 500.073669660885
+ Drone_retrieval_time_Dr3_C1_D0_C2: - t[Dr3,D0] + t[Dr3,C2]
+   - 500 d_Dr3_C1_D0_C2 >= -499.6178540815885
+ Drone_retrieval_time_Dr3_C1_D0_C3: - t[Tr3,C1] + t[Tr3,C3]
+   + 500 d_Dr3_C1_D0_C3 <= 500.1314462114664
+ Drone_retrieval_time_Dr3_C1_D0_C3: - t[Dr3,D0] + t[Dr3,C3]
+   - 500 d_Dr3_C1_D0_C3 >= -499.6003759162863
+ Drone_retrieval_time_Dr3_C1_D0_C4: - t[Tr3,C1] + t[Tr3,C4]
+   + 500 d_Dr3_C1_D0_C4 <= 500.3310839290079
+ Drone_retrieval_time_Dr3_C1_D0_C4: - t[Dr3,D0] + t[Dr3,C4]
+   - 500 d_Dr3_C1_D0_C4 >= -499.8100140148426
+ Drone_retrieval_time_Dr3_C1_D0_C5: - t[Tr3,C1] + t[Tr3,C5]
+   + 500 d_Dr3_C1_D0_C5 <= 500.0317161971201
+ Drone_retrieval_time_Dr3_C1_D0_C5: - t[Dr3,D0] + t[Dr3,C5]
+   - 500 d_Dr3_C1_D0_C5 >= -499.7005962532795
+ Drone_retrieval_time_Dr3_C1_C2_D0: t[Tr3,D0] - t[Tr3,C1]
+   + 500 d_Dr3_C1_C2_D0 <= 500.3172253972537
+ Drone_retrieval_time_Dr3_C1_C2_D0: t[Dr3,D0] - t[Dr3,C2]
+   - 500 d_Dr3_C1_C2_D0 >= -499.6178540815885
+ Drone_retrieval_time_Dr3_C1_C2_C3: - t[Tr3,C1] + t[Tr3,C3]
+   + 500 d_Dr3_C1_C2_C3 <= 500.1314462114664
+ Drone_retrieval_time_Dr3_C1_C2_C3: - t[Dr3,C2] + t[Dr3,C3]
+   - 500 d_Dr3_C1_C2_C3 >= -499.9243646242875
+ Drone_retrieval_time_Dr3_C1_C2_C4: - t[Tr3,C1] + t[Tr3,C4]
+   + 500 d_Dr3_C1_C2_C4 <= 500.3310839290079
+ Drone_retrieval_time_Dr3_C1_C2_C4: - t[Dr3,C2] + t[Dr3,C4]
+   - 500 d_Dr3_C1_C2_C4 >= -499.6318927349537
+ Drone_retrieval_time_Dr3_C1_C2_C5: - t[Tr3,C1] + t[Tr3,C5]
+   + 500 d_Dr3_C1_C2_C5 <= 500.0317161971201
+ Drone_retrieval_time_Dr3_C1_C2_C5: - t[Dr3,C2] + t[Dr3,C5]
+   - 500 d_Dr3_C1_C2_C5 >= -499.8962707210397
+ Drone_retrieval_time_Dr3_C1_C3_D0: t[Tr3,D0] - t[Tr3,C1]
+   + 500 d_Dr3_C1_C3_D0 <= 500.3172253972537
+ Drone_retrieval_time_Dr3_C1_C3_D0: t[Dr3,D0] - t[Dr3,C3]
+   - 500 d_Dr3_C1_C3_D0 >= -499.6003759162863
+ Drone_retrieval_time_Dr3_C1_C3_C2: - t[Tr3,C1] + t[Tr3,C2]
+   + 500 d_Dr3_C1_C3_C2 <= 500.073669660885
+ Drone_retrieval_time_Dr3_C1_C3_C2: t[Dr3,C2] - t[Dr3,C3]
+   - 500 d_Dr3_C1_C3_C2 >= -499.9243646242875
+ Drone_retrieval_time_Dr3_C1_C3_C4: - t[Tr3,C1] + t[Tr3,C4]
+   + 500 d_Dr3_C1_C3_C4 <= 500.3310839290079
+ Drone_retrieval_time_Dr3_C1_C3_C4: - t[Dr3,C3] + t[Dr3,C4]
+   - 500 d_Dr3_C1_C3_C4 >= -499.6522362224578
+ Drone_retrieval_time_Dr3_C1_C3_C5: - t[Tr3,C1] + t[Tr3,C5]
+   + 500 d_Dr3_C1_C3_C5 <= 500.0317161971201
+ Drone_retrieval_time_Dr3_C1_C3_C5: - t[Dr3,C3] + t[Dr3,C5]
+   - 500 d_Dr3_C1_C3_C5 >= -499.8370029223045
+ Drone_retrieval_time_Dr3_C1_C4_D0: t[Tr3,D0] - t[Tr3,C1]
+   + 500 d_Dr3_C1_C4_D0 <= 500.3172253972537
+ Drone_retrieval_time_Dr3_C1_C4_D0: t[Dr3,D0] - t[Dr3,C4]
+   - 500 d_Dr3_C1_C4_D0 >= -499.8100140148426
+ Drone_retrieval_time_Dr3_C1_C4_C2: - t[Tr3,C1] + t[Tr3,C2]
+   + 500 d_Dr3_C1_C4_C2 <= 500.073669660885
+ Drone_retrieval_time_Dr3_C1_C4_C2: t[Dr3,C2] - t[Dr3,C4]
+   - 500 d_Dr3_C1_C4_C2 >= -499.6318927349537
+ Drone_retrieval_time_Dr3_C1_C4_C3: - t[Tr3,C1] + t[Tr3,C3]
+   + 500 d_Dr3_C1_C4_C3 <= 500.1314462114664
+ Drone_retrieval_time_Dr3_C1_C4_C3: t[Dr3,C3] - t[Dr3,C4]
+   - 500 d_Dr3_C1_C4_C3 >= -499.6522362224578
+ Drone_retrieval_time_Dr3_C1_C4_C5: - t[Tr3,C1] + t[Tr3,C5]
+   + 500 d_Dr3_C1_C4_C5 <= 500.0317161971201
+ Drone_retrieval_time_Dr3_C1_C4_C5: - t[Dr3,C4] + t[Dr3,C5]
+   - 500 d_Dr3_C1_C4_C5 >= -499.6688338696105
+ Drone_retrieval_time_Dr3_C1_C5_D0: t[Tr3,D0] - t[Tr3,C1]
+   + 500 d_Dr3_C1_C5_D0 <= 500.3172253972537
+ Drone_retrieval_time_Dr3_C1_C5_D0: t[Dr3,D0] - t[Dr3,C5]
+   - 500 d_Dr3_C1_C5_D0 >= -499.7005962532795
+ Drone_retrieval_time_Dr3_C1_C5_C2: - t[Tr3,C1] + t[Tr3,C2]
+   + 500 d_Dr3_C1_C5_C2 <= 500.073669660885
+ Drone_retrieval_time_Dr3_C1_C5_C2: t[Dr3,C2] - t[Dr3,C5]
+   - 500 d_Dr3_C1_C5_C2 >= -499.8962707210397
+ Drone_retrieval_time_Dr3_C1_C5_C3: - t[Tr3,C1] + t[Tr3,C3]
+   + 500 d_Dr3_C1_C5_C3 <= 500.1314462114664
+ Drone_retrieval_time_Dr3_C1_C5_C3: t[Dr3,C3] - t[Dr3,C5]
+   - 500 d_Dr3_C1_C5_C3 >= -499.8370029223045
+ Drone_retrieval_time_Dr3_C1_C5_C4: - t[Tr3,C1] + t[Tr3,C4]
+   + 500 d_Dr3_C1_C5_C4 <= 500.3310839290079
+ Drone_retrieval_time_Dr3_C1_C5_C4: t[Dr3,C4] - t[Dr3,C5]
+   - 500 d_Dr3_C1_C5_C4 >= -499.6688338696105
+ Drone_retrieval_time_Dr3_C2_D0_C1: t[Tr3,C1] - t[Tr3,C2]
+   + 500 d_Dr3_C2_D0_C1 <= 500.073669660885
+ Drone_retrieval_time_Dr3_C2_D0_C1: - t[Dr3,D0] + t[Dr3,C1]
+   - 500 d_Dr3_C2_D0_C1 >= -499.6827746027463
+ Drone_retrieval_time_Dr3_C2_D0_C3: - t[Tr3,C2] + t[Tr3,C3]
+   + 500 d_Dr3_C2_D0_C3 <= 500.0756353757125
+ Drone_retrieval_time_Dr3_C2_D0_C3: - t[Dr3,D0] + t[Dr3,C3]
+   - 500 d_Dr3_C2_D0_C3 >= -499.6003759162863
+ Drone_retrieval_time_Dr3_C2_D0_C4: - t[Tr3,C2] + t[Tr3,C4]
+   + 500 d_Dr3_C2_D0_C4 <= 500.3681072650463
+ Drone_retrieval_time_Dr3_C2_D0_C4: - t[Dr3,D0] + t[Dr3,C4]
+   - 500 d_Dr3_C2_D0_C4 >= -499.8100140148426
+ Drone_retrieval_time_Dr3_C2_D0_C5: - t[Tr3,C2] + t[Tr3,C5]
+   + 500 d_Dr3_C2_D0_C5 <= 500.1037292789603
+ Drone_retrieval_time_Dr3_C2_D0_C5: - t[Dr3,D0] + t[Dr3,C5]
+   - 500 d_Dr3_C2_D0_C5 >= -499.7005962532795
+ Drone_retrieval_time_Dr3_C2_C1_D0: t[Tr3,D0] - t[Tr3,C2]
+   + 500 d_Dr3_C2_C1_D0 <= 500.3821459184115
+ Drone_retrieval_time_Dr3_C2_C1_D0: t[Dr3,D0] - t[Dr3,C1]
+   - 500 d_Dr3_C2_C1_D0 >= -499.6827746027463
+ Drone_retrieval_time_Dr3_C2_C1_C3: - t[Tr3,C2] + t[Tr3,C3]
+   + 500 d_Dr3_C2_C1_C3 <= 500.0756353757125
+ Drone_retrieval_time_Dr3_C2_C1_C3: - t[Dr3,C1] + t[Dr3,C3]
+   - 500 d_Dr3_C2_C1_C3 >= -499.8685537885336
+ Drone_retrieval_time_Dr3_C2_C1_C4: - t[Tr3,C2] + t[Tr3,C4]
+   + 500 d_Dr3_C2_C1_C4 <= 500.3681072650463
+ Drone_retrieval_time_Dr3_C2_C1_C4: - t[Dr3,C1] + t[Dr3,C4]
+   - 500 d_Dr3_C2_C1_C4 >= -499.6689160709921
+ Drone_retrieval_time_Dr3_C2_C1_C5: - t[Tr3,C2] + t[Tr3,C5]
+   + 500 d_Dr3_C2_C1_C5 <= 500.1037292789603
+ Drone_retrieval_time_Dr3_C2_C1_C5: - t[Dr3,C1] + t[Dr3,C5]
+   - 500 d_Dr3_C2_C1_C5 >= -499.9682838028799
+ Drone_retrieval_time_Dr3_C2_C3_D0: t[Tr3,D0] - t[Tr3,C2]
+   + 500 d_Dr3_C2_C3_D0 <= 500.3821459184115
+ Drone_retrieval_time_Dr3_C2_C3_D0: t[Dr3,D0] - t[Dr3,C3]
+   - 500 d_Dr3_C2_C3_D0 >= -499.6003759162863
+ Drone_retrieval_time_Dr3_C2_C3_C1: t[Tr3,C1] - t[Tr3,C2]
+   + 500 d_Dr3_C2_C3_C1 <= 500.073669660885
+ Drone_retrieval_time_Dr3_C2_C3_C1: t[Dr3,C1] - t[Dr3,C3]
+   - 500 d_Dr3_C2_C3_C1 >= -499.8685537885336
+ Drone_retrieval_time_Dr3_C2_C3_C4: - t[Tr3,C2] + t[Tr3,C4]
+   + 500 d_Dr3_C2_C3_C4 <= 500.3681072650463
+ Drone_retrieval_time_Dr3_C2_C3_C4: - t[Dr3,C3] + t[Dr3,C4]
+   - 500 d_Dr3_C2_C3_C4 >= -499.6522362224578
+ Drone_retrieval_time_Dr3_C2_C3_C5: - t[Tr3,C2] + t[Tr3,C5]
+   + 500 d_Dr3_C2_C3_C5 <= 500.1037292789603
+ Drone_retrieval_time_Dr3_C2_C3_C5: - t[Dr3,C3] + t[Dr3,C5]
+   - 500 d_Dr3_C2_C3_C5 >= -499.8370029223045
+ Drone_retrieval_time_Dr3_C2_C4_D0: t[Tr3,D0] - t[Tr3,C2]
+   + 500 d_Dr3_C2_C4_D0 <= 500.3821459184115
+ Drone_retrieval_time_Dr3_C2_C4_D0: t[Dr3,D0] - t[Dr3,C4]
+   - 500 d_Dr3_C2_C4_D0 >= -499.8100140148426
+ Drone_retrieval_time_Dr3_C2_C4_C1: t[Tr3,C1] - t[Tr3,C2]
+   + 500 d_Dr3_C2_C4_C1 <= 500.073669660885
+ Drone_retrieval_time_Dr3_C2_C4_C1: t[Dr3,C1] - t[Dr3,C4]
+   - 500 d_Dr3_C2_C4_C1 >= -499.6689160709921
+ Drone_retrieval_time_Dr3_C2_C4_C3: - t[Tr3,C2] + t[Tr3,C3]
+   + 500 d_Dr3_C2_C4_C3 <= 500.0756353757125
+ Drone_retrieval_time_Dr3_C2_C4_C3: t[Dr3,C3] - t[Dr3,C4]
+   - 500 d_Dr3_C2_C4_C3 >= -499.6522362224578
+ Drone_retrieval_time_Dr3_C2_C4_C5: - t[Tr3,C2] + t[Tr3,C5]
+   + 500 d_Dr3_C2_C4_C5 <= 500.1037292789603
+ Drone_retrieval_time_Dr3_C2_C4_C5: - t[Dr3,C4] + t[Dr3,C5]
+   - 500 d_Dr3_C2_C4_C5 >= -499.6688338696105
+ Drone_retrieval_time_Dr3_C2_C5_D0: t[Tr3,D0] - t[Tr3,C2]
+   + 500 d_Dr3_C2_C5_D0 <= 500.3821459184115
+ Drone_retrieval_time_Dr3_C2_C5_D0: t[Dr3,D0] - t[Dr3,C5]
+   - 500 d_Dr3_C2_C5_D0 >= -499.7005962532795
+ Drone_retrieval_time_Dr3_C2_C5_C1: t[Tr3,C1] - t[Tr3,C2]
+   + 500 d_Dr3_C2_C5_C1 <= 500.073669660885
+ Drone_retrieval_time_Dr3_C2_C5_C1: t[Dr3,C1] - t[Dr3,C5]
+   - 500 d_Dr3_C2_C5_C1 >= -499.9682838028799
+ Drone_retrieval_time_Dr3_C2_C5_C3: - t[Tr3,C2] + t[Tr3,C3]
+   + 500 d_Dr3_C2_C5_C3 <= 500.0756353757125
+ Drone_retrieval_time_Dr3_C2_C5_C3: t[Dr3,C3] - t[Dr3,C5]
+   - 500 d_Dr3_C2_C5_C3 >= -499.8370029223045
+ Drone_retrieval_time_Dr3_C2_C5_C4: - t[Tr3,C2] + t[Tr3,C4]
+   + 500 d_Dr3_C2_C5_C4 <= 500.3681072650463
+ Drone_retrieval_time_Dr3_C2_C5_C4: t[Dr3,C4] - t[Dr3,C5]
+   - 500 d_Dr3_C2_C5_C4 >= -499.6688338696105
+ Drone_retrieval_time_Dr3_C3_D0_C1: t[Tr3,C1] - t[Tr3,C3]
+   + 500 d_Dr3_C3_D0_C1 <= 500.1314462114664
+ Drone_retrieval_time_Dr3_C3_D0_C1: - t[Dr3,D0] + t[Dr3,C1]
+   - 500 d_Dr3_C3_D0_C1 >= -499.6827746027463
+ Drone_retrieval_time_Dr3_C3_D0_C2: t[Tr3,C2] - t[Tr3,C3]
+   + 500 d_Dr3_C3_D0_C2 <= 500.0756353757125
+ Drone_retrieval_time_Dr3_C3_D0_C2: - t[Dr3,D0] + t[Dr3,C2]
+   - 500 d_Dr3_C3_D0_C2 >= -499.6178540815885
+ Drone_retrieval_time_Dr3_C3_D0_C4: - t[Tr3,C3] + t[Tr3,C4]
+   + 500 d_Dr3_C3_D0_C4 <= 500.3477637775422
+ Drone_retrieval_time_Dr3_C3_D0_C4: - t[Dr3,D0] + t[Dr3,C4]
+   - 500 d_Dr3_C3_D0_C4 >= -499.8100140148426
+ Drone_retrieval_time_Dr3_C3_D0_C5: - t[Tr3,C3] + t[Tr3,C5]
+   + 500 d_Dr3_C3_D0_C5 <= 500.1629970776955
+ Drone_retrieval_time_Dr3_C3_D0_C5: - t[Dr3,D0] + t[Dr3,C5]
+   - 500 d_Dr3_C3_D0_C5 >= -499.7005962532795
+ Drone_retrieval_time_Dr3_C3_C1_D0: t[Tr3,D0] - t[Tr3,C3]
+   + 500 d_Dr3_C3_C1_D0 <= 500.3996240837137
+ Drone_retrieval_time_Dr3_C3_C1_D0: t[Dr3,D0] - t[Dr3,C1]
+   - 500 d_Dr3_C3_C1_D0 >= -499.6827746027463
+ Drone_retrieval_time_Dr3_C3_C1_C2: t[Tr3,C2] - t[Tr3,C3]
+   + 500 d_Dr3_C3_C1_C2 <= 500.0756353757125
+ Drone_retrieval_time_Dr3_C3_C1_C2: - t[Dr3,C1] + t[Dr3,C2]
+   - 500 d_Dr3_C3_C1_C2 >= -499.926330339115
+ Drone_retrieval_time_Dr3_C3_C1_C4: - t[Tr3,C3] + t[Tr3,C4]
+   + 500 d_Dr3_C3_C1_C4 <= 500.3477637775422
+ Drone_retrieval_time_Dr3_C3_C1_C4: - t[Dr3,C1] + t[Dr3,C4]
+   - 500 d_Dr3_C3_C1_C4 >= -499.6689160709921
+ Drone_retrieval_time_Dr3_C3_C1_C5: - t[Tr3,C3] + t[Tr3,C5]
+   + 500 d_Dr3_C3_C1_C5 <= 500.1629970776955
+ Drone_retrieval_time_Dr3_C3_C1_C5: - t[Dr3,C1] + t[Dr3,C5]
+   - 500 d_Dr3_C3_C1_C5 >= -499.9682838028799
+ Drone_retrieval_time_Dr3_C3_C2_D0: t[Tr3,D0] - t[Tr3,C3]
+   + 500 d_Dr3_C3_C2_D0 <= 500.3996240837137
+ Drone_retrieval_time_Dr3_C3_C2_D0: t[Dr3,D0] - t[Dr3,C2]
+   - 500 d_Dr3_C3_C2_D0 >= -499.6178540815885
+ Drone_retrieval_time_Dr3_C3_C2_C1: t[Tr3,C1] - t[Tr3,C3]
+   + 500 d_Dr3_C3_C2_C1 <= 500.1314462114664
+ Drone_retrieval_time_Dr3_C3_C2_C1: t[Dr3,C1] - t[Dr3,C2]
+   - 500 d_Dr3_C3_C2_C1 >= -499.926330339115
+ Drone_retrieval_time_Dr3_C3_C2_C4: - t[Tr3,C3] + t[Tr3,C4]
+   + 500 d_Dr3_C3_C2_C4 <= 500.3477637775422
+ Drone_retrieval_time_Dr3_C3_C2_C4: - t[Dr3,C2] + t[Dr3,C4]
+   - 500 d_Dr3_C3_C2_C4 >= -499.6318927349537
+ Drone_retrieval_time_Dr3_C3_C2_C5: - t[Tr3,C3] + t[Tr3,C5]
+   + 500 d_Dr3_C3_C2_C5 <= 500.1629970776955
+ Drone_retrieval_time_Dr3_C3_C2_C5: - t[Dr3,C2] + t[Dr3,C5]
+   - 500 d_Dr3_C3_C2_C5 >= -499.8962707210397
+ Drone_retrieval_time_Dr3_C3_C4_D0: t[Tr3,D0] - t[Tr3,C3]
+   + 500 d_Dr3_C3_C4_D0 <= 500.3996240837137
+ Drone_retrieval_time_Dr3_C3_C4_D0: t[Dr3,D0] - t[Dr3,C4]
+   - 500 d_Dr3_C3_C4_D0 >= -499.8100140148426
+ Drone_retrieval_time_Dr3_C3_C4_C1: t[Tr3,C1] - t[Tr3,C3]
+   + 500 d_Dr3_C3_C4_C1 <= 500.1314462114664
+ Drone_retrieval_time_Dr3_C3_C4_C1: t[Dr3,C1] - t[Dr3,C4]
+   - 500 d_Dr3_C3_C4_C1 >= -499.6689160709921
+ Drone_retrieval_time_Dr3_C3_C4_C2: t[Tr3,C2] - t[Tr3,C3]
+   + 500 d_Dr3_C3_C4_C2 <= 500.0756353757125
+ Drone_retrieval_time_Dr3_C3_C4_C2: t[Dr3,C2] - t[Dr3,C4]
+   - 500 d_Dr3_C3_C4_C2 >= -499.6318927349537
+ Drone_retrieval_time_Dr3_C3_C4_C5: - t[Tr3,C3] + t[Tr3,C5]
+   + 500 d_Dr3_C3_C4_C5 <= 500.1629970776955
+ Drone_retrieval_time_Dr3_C3_C4_C5: - t[Dr3,C4] + t[Dr3,C5]
+   - 500 d_Dr3_C3_C4_C5 >= -499.6688338696105
+ Drone_retrieval_time_Dr3_C3_C5_D0: t[Tr3,D0] - t[Tr3,C3]
+   + 500 d_Dr3_C3_C5_D0 <= 500.3996240837137
+ Drone_retrieval_time_Dr3_C3_C5_D0: t[Dr3,D0] - t[Dr3,C5]
+   - 500 d_Dr3_C3_C5_D0 >= -499.7005962532795
+ Drone_retrieval_time_Dr3_C3_C5_C1: t[Tr3,C1] - t[Tr3,C3]
+   + 500 d_Dr3_C3_C5_C1 <= 500.1314462114664
+ Drone_retrieval_time_Dr3_C3_C5_C1: t[Dr3,C1] - t[Dr3,C5]
+   - 500 d_Dr3_C3_C5_C1 >= -499.9682838028799
+ Drone_retrieval_time_Dr3_C3_C5_C2: t[Tr3,C2] - t[Tr3,C3]
+   + 500 d_Dr3_C3_C5_C2 <= 500.0756353757125
+ Drone_retrieval_time_Dr3_C3_C5_C2: t[Dr3,C2] - t[Dr3,C5]
+   - 500 d_Dr3_C3_C5_C2 >= -499.8962707210397
+ Drone_retrieval_time_Dr3_C3_C5_C4: - t[Tr3,C3] + t[Tr3,C4]
+   + 500 d_Dr3_C3_C5_C4 <= 500.3477637775422
+ Drone_retrieval_time_Dr3_C3_C5_C4: t[Dr3,C4] - t[Dr3,C5]
+   - 500 d_Dr3_C3_C5_C4 >= -499.6688338696105
+ Drone_retrieval_time_Dr3_C4_D0_C1: t[Tr3,C1] - t[Tr3,C4]
+   + 500 d_Dr3_C4_D0_C1 <= 500.3310839290079
+ Drone_retrieval_time_Dr3_C4_D0_C1: - t[Dr3,D0] + t[Dr3,C1]
+   - 500 d_Dr3_C4_D0_C1 >= -499.6827746027463
+ Drone_retrieval_time_Dr3_C4_D0_C2: t[Tr3,C2] - t[Tr3,C4]
+   + 500 d_Dr3_C4_D0_C2 <= 500.3681072650463
+ Drone_retrieval_time_Dr3_C4_D0_C2: - t[Dr3,D0] + t[Dr3,C2]
+   - 500 d_Dr3_C4_D0_C2 >= -499.6178540815885
+ Drone_retrieval_time_Dr3_C4_D0_C3: t[Tr3,C3] - t[Tr3,C4]
+   + 500 d_Dr3_C4_D0_C3 <= 500.3477637775422
+ Drone_retrieval_time_Dr3_C4_D0_C3: - t[Dr3,D0] + t[Dr3,C3]
+   - 500 d_Dr3_C4_D0_C3 >= -499.6003759162863
+ Drone_retrieval_time_Dr3_C4_D0_C5: - t[Tr3,C4] + t[Tr3,C5]
+   + 500 d_Dr3_C4_D0_C5 <= 500.3311661303895
+ Drone_retrieval_time_Dr3_C4_D0_C5: - t[Dr3,D0] + t[Dr3,C5]
+   - 500 d_Dr3_C4_D0_C5 >= -499.7005962532795
+ Drone_retrieval_time_Dr3_C4_C1_D0: t[Tr3,D0] - t[Tr3,C4]
+   + 500 d_Dr3_C4_C1_D0 <= 500.1899859851574
+ Drone_retrieval_time_Dr3_C4_C1_D0: t[Dr3,D0] - t[Dr3,C1]
+   - 500 d_Dr3_C4_C1_D0 >= -499.6827746027463
+ Drone_retrieval_time_Dr3_C4_C1_C2: t[Tr3,C2] - t[Tr3,C4]
+   + 500 d_Dr3_C4_C1_C2 <= 500.3681072650463
+ Drone_retrieval_time_Dr3_C4_C1_C2: - t[Dr3,C1] + t[Dr3,C2]
+   - 500 d_Dr3_C4_C1_C2 >= -499.926330339115
+ Drone_retrieval_time_Dr3_C4_C1_C3: t[Tr3,C3] - t[Tr3,C4]
+   + 500 d_Dr3_C4_C1_C3 <= 500.3477637775422
+ Drone_retrieval_time_Dr3_C4_C1_C3: - t[Dr3,C1] + t[Dr3,C3]
+   - 500 d_Dr3_C4_C1_C3 >= -499.8685537885336
+ Drone_retrieval_time_Dr3_C4_C1_C5: - t[Tr3,C4] + t[Tr3,C5]
+   + 500 d_Dr3_C4_C1_C5 <= 500.3311661303895
+ Drone_retrieval_time_Dr3_C4_C1_C5: - t[Dr3,C1] + t[Dr3,C5]
+   - 500 d_Dr3_C4_C1_C5 >= -499.9682838028799
+ Drone_retrieval_time_Dr3_C4_C2_D0: t[Tr3,D0] - t[Tr3,C4]
+   + 500 d_Dr3_C4_C2_D0 <= 500.1899859851574
+ Drone_retrieval_time_Dr3_C4_C2_D0: t[Dr3,D0] - t[Dr3,C2]
+   - 500 d_Dr3_C4_C2_D0 >= -499.6178540815885
+ Drone_retrieval_time_Dr3_C4_C2_C1: t[Tr3,C1] - t[Tr3,C4]
+   + 500 d_Dr3_C4_C2_C1 <= 500.3310839290079
+ Drone_retrieval_time_Dr3_C4_C2_C1: t[Dr3,C1] - t[Dr3,C2]
+   - 500 d_Dr3_C4_C2_C1 >= -499.926330339115
+ Drone_retrieval_time_Dr3_C4_C2_C3: t[Tr3,C3] - t[Tr3,C4]
+   + 500 d_Dr3_C4_C2_C3 <= 500.3477637775422
+ Drone_retrieval_time_Dr3_C4_C2_C3: - t[Dr3,C2] + t[Dr3,C3]
+   - 500 d_Dr3_C4_C2_C3 >= -499.9243646242875
+ Drone_retrieval_time_Dr3_C4_C2_C5: - t[Tr3,C4] + t[Tr3,C5]
+   + 500 d_Dr3_C4_C2_C5 <= 500.3311661303895
+ Drone_retrieval_time_Dr3_C4_C2_C5: - t[Dr3,C2] + t[Dr3,C5]
+   - 500 d_Dr3_C4_C2_C5 >= -499.8962707210397
+ Drone_retrieval_time_Dr3_C4_C3_D0: t[Tr3,D0] - t[Tr3,C4]
+   + 500 d_Dr3_C4_C3_D0 <= 500.1899859851574
+ Drone_retrieval_time_Dr3_C4_C3_D0: t[Dr3,D0] - t[Dr3,C3]
+   - 500 d_Dr3_C4_C3_D0 >= -499.6003759162863
+ Drone_retrieval_time_Dr3_C4_C3_C1: t[Tr3,C1] - t[Tr3,C4]
+   + 500 d_Dr3_C4_C3_C1 <= 500.3310839290079
+ Drone_retrieval_time_Dr3_C4_C3_C1: t[Dr3,C1] - t[Dr3,C3]
+   - 500 d_Dr3_C4_C3_C1 >= -499.8685537885336
+ Drone_retrieval_time_Dr3_C4_C3_C2: t[Tr3,C2] - t[Tr3,C4]
+   + 500 d_Dr3_C4_C3_C2 <= 500.3681072650463
+ Drone_retrieval_time_Dr3_C4_C3_C2: t[Dr3,C2] - t[Dr3,C3]
+   - 500 d_Dr3_C4_C3_C2 >= -499.9243646242875
+ Drone_retrieval_time_Dr3_C4_C3_C5: - t[Tr3,C4] + t[Tr3,C5]
+   + 500 d_Dr3_C4_C3_C5 <= 500.3311661303895
+ Drone_retrieval_time_Dr3_C4_C3_C5: - t[Dr3,C3] + t[Dr3,C5]
+   - 500 d_Dr3_C4_C3_C5 >= -499.8370029223045
+ Drone_retrieval_time_Dr3_C4_C5_D0: t[Tr3,D0] - t[Tr3,C4]
+   + 500 d_Dr3_C4_C5_D0 <= 500.1899859851574
+ Drone_retrieval_time_Dr3_C4_C5_D0: t[Dr3,D0] - t[Dr3,C5]
+   - 500 d_Dr3_C4_C5_D0 >= -499.7005962532795
+ Drone_retrieval_time_Dr3_C4_C5_C1: t[Tr3,C1] - t[Tr3,C4]
+   + 500 d_Dr3_C4_C5_C1 <= 500.3310839290079
+ Drone_retrieval_time_Dr3_C4_C5_C1: t[Dr3,C1] - t[Dr3,C5]
+   - 500 d_Dr3_C4_C5_C1 >= -499.9682838028799
+ Drone_retrieval_time_Dr3_C4_C5_C2: t[Tr3,C2] - t[Tr3,C4]
+   + 500 d_Dr3_C4_C5_C2 <= 500.3681072650463
+ Drone_retrieval_time_Dr3_C4_C5_C2: t[Dr3,C2] - t[Dr3,C5]
+   - 500 d_Dr3_C4_C5_C2 >= -499.8962707210397
+ Drone_retrieval_time_Dr3_C4_C5_C3: t[Tr3,C3] - t[Tr3,C4]
+   + 500 d_Dr3_C4_C5_C3 <= 500.3477637775422
+ Drone_retrieval_time_Dr3_C4_C5_C3: t[Dr3,C3] - t[Dr3,C5]
+   - 500 d_Dr3_C4_C5_C3 >= -499.8370029223045
+ Drone_retrieval_time_Dr3_C5_D0_C1: t[Tr3,C1] - t[Tr3,C5]
+   + 500 d_Dr3_C5_D0_C1 <= 500.0317161971201
+ Drone_retrieval_time_Dr3_C5_D0_C1: - t[Dr3,D0] + t[Dr3,C1]
+   - 500 d_Dr3_C5_D0_C1 >= -499.6827746027463
+ Drone_retrieval_time_Dr3_C5_D0_C2: t[Tr3,C2] - t[Tr3,C5]
+   + 500 d_Dr3_C5_D0_C2 <= 500.1037292789603
+ Drone_retrieval_time_Dr3_C5_D0_C2: - t[Dr3,D0] + t[Dr3,C2]
+   - 500 d_Dr3_C5_D0_C2 >= -499.6178540815885
+ Drone_retrieval_time_Dr3_C5_D0_C3: t[Tr3,C3] - t[Tr3,C5]
+   + 500 d_Dr3_C5_D0_C3 <= 500.1629970776955
+ Drone_retrieval_time_Dr3_C5_D0_C3: - t[Dr3,D0] + t[Dr3,C3]
+   - 500 d_Dr3_C5_D0_C3 >= -499.6003759162863
+ Drone_retrieval_time_Dr3_C5_D0_C4: t[Tr3,C4] - t[Tr3,C5]
+   + 500 d_Dr3_C5_D0_C4 <= 500.3311661303895
+ Drone_retrieval_time_Dr3_C5_D0_C4: - t[Dr3,D0] + t[Dr3,C4]
+   - 500 d_Dr3_C5_D0_C4 >= -499.8100140148426
+ Drone_retrieval_time_Dr3_C5_C1_D0: t[Tr3,D0] - t[Tr3,C5]
+   + 500 d_Dr3_C5_C1_D0 <= 500.2994037467205
+ Drone_retrieval_time_Dr3_C5_C1_D0: t[Dr3,D0] - t[Dr3,C1]
+   - 500 d_Dr3_C5_C1_D0 >= -499.6827746027463
+ Drone_retrieval_time_Dr3_C5_C1_C2: t[Tr3,C2] - t[Tr3,C5]
+   + 500 d_Dr3_C5_C1_C2 <= 500.1037292789603
+ Drone_retrieval_time_Dr3_C5_C1_C2: - t[Dr3,C1] + t[Dr3,C2]
+   - 500 d_Dr3_C5_C1_C2 >= -499.926330339115
+ Drone_retrieval_time_Dr3_C5_C1_C3: t[Tr3,C3] - t[Tr3,C5]
+   + 500 d_Dr3_C5_C1_C3 <= 500.1629970776955
+ Drone_retrieval_time_Dr3_C5_C1_C3: - t[Dr3,C1] + t[Dr3,C3]
+   - 500 d_Dr3_C5_C1_C3 >= -499.8685537885336
+ Drone_retrieval_time_Dr3_C5_C1_C4: t[Tr3,C4] - t[Tr3,C5]
+   + 500 d_Dr3_C5_C1_C4 <= 500.3311661303895
+ Drone_retrieval_time_Dr3_C5_C1_C4: - t[Dr3,C1] + t[Dr3,C4]
+   - 500 d_Dr3_C5_C1_C4 >= -499.6689160709921
+ Drone_retrieval_time_Dr3_C5_C2_D0: t[Tr3,D0] - t[Tr3,C5]
+   + 500 d_Dr3_C5_C2_D0 <= 500.2994037467205
+ Drone_retrieval_time_Dr3_C5_C2_D0: t[Dr3,D0] - t[Dr3,C2]
+   - 500 d_Dr3_C5_C2_D0 >= -499.6178540815885
+ Drone_retrieval_time_Dr3_C5_C2_C1: t[Tr3,C1] - t[Tr3,C5]
+   + 500 d_Dr3_C5_C2_C1 <= 500.0317161971201
+ Drone_retrieval_time_Dr3_C5_C2_C1: t[Dr3,C1] - t[Dr3,C2]
+   - 500 d_Dr3_C5_C2_C1 >= -499.926330339115
+ Drone_retrieval_time_Dr3_C5_C2_C3: t[Tr3,C3] - t[Tr3,C5]
+   + 500 d_Dr3_C5_C2_C3 <= 500.1629970776955
+ Drone_retrieval_time_Dr3_C5_C2_C3: - t[Dr3,C2] + t[Dr3,C3]
+   - 500 d_Dr3_C5_C2_C3 >= -499.9243646242875
+ Drone_retrieval_time_Dr3_C5_C2_C4: t[Tr3,C4] - t[Tr3,C5]
+   + 500 d_Dr3_C5_C2_C4 <= 500.3311661303895
+ Drone_retrieval_time_Dr3_C5_C2_C4: - t[Dr3,C2] + t[Dr3,C4]
+   - 500 d_Dr3_C5_C2_C4 >= -499.6318927349537
+ Drone_retrieval_time_Dr3_C5_C3_D0: t[Tr3,D0] - t[Tr3,C5]
+   + 500 d_Dr3_C5_C3_D0 <= 500.2994037467205
+ Drone_retrieval_time_Dr3_C5_C3_D0: t[Dr3,D0] - t[Dr3,C3]
+   - 500 d_Dr3_C5_C3_D0 >= -499.6003759162863
+ Drone_retrieval_time_Dr3_C5_C3_C1: t[Tr3,C1] - t[Tr3,C5]
+   + 500 d_Dr3_C5_C3_C1 <= 500.0317161971201
+ Drone_retrieval_time_Dr3_C5_C3_C1: t[Dr3,C1] - t[Dr3,C3]
+   - 500 d_Dr3_C5_C3_C1 >= -499.8685537885336
+ Drone_retrieval_time_Dr3_C5_C3_C2: t[Tr3,C2] - t[Tr3,C5]
+   + 500 d_Dr3_C5_C3_C2 <= 500.1037292789603
+ Drone_retrieval_time_Dr3_C5_C3_C2: t[Dr3,C2] - t[Dr3,C3]
+   - 500 d_Dr3_C5_C3_C2 >= -499.9243646242875
+ Drone_retrieval_time_Dr3_C5_C3_C4: t[Tr3,C4] - t[Tr3,C5]
+   + 500 d_Dr3_C5_C3_C4 <= 500.3311661303895
+ Drone_retrieval_time_Dr3_C5_C3_C4: - t[Dr3,C3] + t[Dr3,C4]
+   - 500 d_Dr3_C5_C3_C4 >= -499.6522362224578
+ Drone_retrieval_time_Dr3_C5_C4_D0: t[Tr3,D0] - t[Tr3,C5]
+   + 500 d_Dr3_C5_C4_D0 <= 500.2994037467205
+ Drone_retrieval_time_Dr3_C5_C4_D0: t[Dr3,D0] - t[Dr3,C4]
+   - 500 d_Dr3_C5_C4_D0 >= -499.8100140148426
+ Drone_retrieval_time_Dr3_C5_C4_C1: t[Tr3,C1] - t[Tr3,C5]
+   + 500 d_Dr3_C5_C4_C1 <= 500.0317161971201
+ Drone_retrieval_time_Dr3_C5_C4_C1: t[Dr3,C1] - t[Dr3,C4]
+   - 500 d_Dr3_C5_C4_C1 >= -499.6689160709921
+ Drone_retrieval_time_Dr3_C5_C4_C2: t[Tr3,C2] - t[Tr3,C5]
+   + 500 d_Dr3_C5_C4_C2 <= 500.1037292789603
+ Drone_retrieval_time_Dr3_C5_C4_C2: t[Dr3,C2] - t[Dr3,C4]
+   - 500 d_Dr3_C5_C4_C2 >= -499.6318927349537
+ Drone_retrieval_time_Dr3_C5_C4_C3: t[Tr3,C3] - t[Tr3,C5]
+   + 500 d_Dr3_C5_C4_C3 <= 500.1629970776955
+ Drone_retrieval_time_Dr3_C5_C4_C3: t[Dr3,C3] - t[Dr3,C4]
+   - 500 d_Dr3_C5_C4_C3 >= -499.6522362224578
+ Drone_retrieval_time_Dr4_D0_C1_C2: - t[Tr4,D0] + t[Tr4,C2]
+   + 500 d_Dr4_D0_C1_C2 <= 500.3821459184115
+ Drone_retrieval_time_Dr4_D0_C1_C2: - t[Dr4,C1] + t[Dr4,C2]
+   - 500 d_Dr4_D0_C1_C2 >= -499.926330339115
+ Drone_retrieval_time_Dr4_D0_C1_C3: - t[Tr4,D0] + t[Tr4,C3]
+   + 500 d_Dr4_D0_C1_C3 <= 500.3996240837137
+ Drone_retrieval_time_Dr4_D0_C1_C3: - t[Dr4,C1] + t[Dr4,C3]
+   - 500 d_Dr4_D0_C1_C3 >= -499.8685537885336
+ Drone_retrieval_time_Dr4_D0_C1_C4: - t[Tr4,D0] + t[Tr4,C4]
+   + 500 d_Dr4_D0_C1_C4 <= 500.1899859851574
+ Drone_retrieval_time_Dr4_D0_C1_C4: - t[Dr4,C1] + t[Dr4,C4]
+   - 500 d_Dr4_D0_C1_C4 >= -499.6689160709921
+ Drone_retrieval_time_Dr4_D0_C1_C5: - t[Tr4,D0] + t[Tr4,C5]
+   + 500 d_Dr4_D0_C1_C5 <= 500.2994037467205
+ Drone_retrieval_time_Dr4_D0_C1_C5: - t[Dr4,C1] + t[Dr4,C5]
+   - 500 d_Dr4_D0_C1_C5 >= -499.9682838028799
+ Drone_retrieval_time_Dr4_D0_C2_C1: - t[Tr4,D0] + t[Tr4,C1]
+   + 500 d_Dr4_D0_C2_C1 <= 500.3172253972537
+ Drone_retrieval_time_Dr4_D0_C2_C1: t[Dr4,C1] - t[Dr4,C2]
+   - 500 d_Dr4_D0_C2_C1 >= -499.926330339115
+ Drone_retrieval_time_Dr4_D0_C2_C3: - t[Tr4,D0] + t[Tr4,C3]
+   + 500 d_Dr4_D0_C2_C3 <= 500.3996240837137
+ Drone_retrieval_time_Dr4_D0_C2_C3: - t[Dr4,C2] + t[Dr4,C3]
+   - 500 d_Dr4_D0_C2_C3 >= -499.9243646242875
+ Drone_retrieval_time_Dr4_D0_C2_C4: - t[Tr4,D0] + t[Tr4,C4]
+   + 500 d_Dr4_D0_C2_C4 <= 500.1899859851574
+ Drone_retrieval_time_Dr4_D0_C2_C4: - t[Dr4,C2] + t[Dr4,C4]
+   - 500 d_Dr4_D0_C2_C4 >= -499.6318927349537
+ Drone_retrieval_time_Dr4_D0_C2_C5: - t[Tr4,D0] + t[Tr4,C5]
+   + 500 d_Dr4_D0_C2_C5 <= 500.2994037467205
+ Drone_retrieval_time_Dr4_D0_C2_C5: - t[Dr4,C2] + t[Dr4,C5]
+   - 500 d_Dr4_D0_C2_C5 >= -499.8962707210397
+ Drone_retrieval_time_Dr4_D0_C3_C1: - t[Tr4,D0] + t[Tr4,C1]
+   + 500 d_Dr4_D0_C3_C1 <= 500.3172253972537
+ Drone_retrieval_time_Dr4_D0_C3_C1: t[Dr4,C1] - t[Dr4,C3]
+   - 500 d_Dr4_D0_C3_C1 >= -499.8685537885336
+ Drone_retrieval_time_Dr4_D0_C3_C2: - t[Tr4,D0] + t[Tr4,C2]
+   + 500 d_Dr4_D0_C3_C2 <= 500.3821459184115
+ Drone_retrieval_time_Dr4_D0_C3_C2: t[Dr4,C2] - t[Dr4,C3]
+   - 500 d_Dr4_D0_C3_C2 >= -499.9243646242875
+ Drone_retrieval_time_Dr4_D0_C3_C4: - t[Tr4,D0] + t[Tr4,C4]
+   + 500 d_Dr4_D0_C3_C4 <= 500.1899859851574
+ Drone_retrieval_time_Dr4_D0_C3_C4: - t[Dr4,C3] + t[Dr4,C4]
+   - 500 d_Dr4_D0_C3_C4 >= -499.6522362224578
+ Drone_retrieval_time_Dr4_D0_C3_C5: - t[Tr4,D0] + t[Tr4,C5]
+   + 500 d_Dr4_D0_C3_C5 <= 500.2994037467205
+ Drone_retrieval_time_Dr4_D0_C3_C5: - t[Dr4,C3] + t[Dr4,C5]
+   - 500 d_Dr4_D0_C3_C5 >= -499.8370029223045
+ Drone_retrieval_time_Dr4_D0_C4_C1: - t[Tr4,D0] + t[Tr4,C1]
+   + 500 d_Dr4_D0_C4_C1 <= 500.3172253972537
+ Drone_retrieval_time_Dr4_D0_C4_C1: t[Dr4,C1] - t[Dr4,C4]
+   - 500 d_Dr4_D0_C4_C1 >= -499.6689160709921
+ Drone_retrieval_time_Dr4_D0_C4_C2: - t[Tr4,D0] + t[Tr4,C2]
+   + 500 d_Dr4_D0_C4_C2 <= 500.3821459184115
+ Drone_retrieval_time_Dr4_D0_C4_C2: t[Dr4,C2] - t[Dr4,C4]
+   - 500 d_Dr4_D0_C4_C2 >= -499.6318927349537
+ Drone_retrieval_time_Dr4_D0_C4_C3: - t[Tr4,D0] + t[Tr4,C3]
+   + 500 d_Dr4_D0_C4_C3 <= 500.3996240837137
+ Drone_retrieval_time_Dr4_D0_C4_C3: t[Dr4,C3] - t[Dr4,C4]
+   - 500 d_Dr4_D0_C4_C3 >= -499.6522362224578
+ Drone_retrieval_time_Dr4_D0_C4_C5: - t[Tr4,D0] + t[Tr4,C5]
+   + 500 d_Dr4_D0_C4_C5 <= 500.2994037467205
+ Drone_retrieval_time_Dr4_D0_C4_C5: - t[Dr4,C4] + t[Dr4,C5]
+   - 500 d_Dr4_D0_C4_C5 >= -499.6688338696105
+ Drone_retrieval_time_Dr4_D0_C5_C1: - t[Tr4,D0] + t[Tr4,C1]
+   + 500 d_Dr4_D0_C5_C1 <= 500.3172253972537
+ Drone_retrieval_time_Dr4_D0_C5_C1: t[Dr4,C1] - t[Dr4,C5]
+   - 500 d_Dr4_D0_C5_C1 >= -499.9682838028799
+ Drone_retrieval_time_Dr4_D0_C5_C2: - t[Tr4,D0] + t[Tr4,C2]
+   + 500 d_Dr4_D0_C5_C2 <= 500.3821459184115
+ Drone_retrieval_time_Dr4_D0_C5_C2: t[Dr4,C2] - t[Dr4,C5]
+   - 500 d_Dr4_D0_C5_C2 >= -499.8962707210397
+ Drone_retrieval_time_Dr4_D0_C5_C3: - t[Tr4,D0] + t[Tr4,C3]
+   + 500 d_Dr4_D0_C5_C3 <= 500.3996240837137
+ Drone_retrieval_time_Dr4_D0_C5_C3: t[Dr4,C3] - t[Dr4,C5]
+   - 500 d_Dr4_D0_C5_C3 >= -499.8370029223045
+ Drone_retrieval_time_Dr4_D0_C5_C4: - t[Tr4,D0] + t[Tr4,C4]
+   + 500 d_Dr4_D0_C5_C4 <= 500.1899859851574
+ Drone_retrieval_time_Dr4_D0_C5_C4: t[Dr4,C4] - t[Dr4,C5]
+   - 500 d_Dr4_D0_C5_C4 >= -499.6688338696105
+ Drone_retrieval_time_Dr4_C1_D0_C2: - t[Tr4,C1] + t[Tr4,C2]
+   + 500 d_Dr4_C1_D0_C2 <= 500.073669660885
+ Drone_retrieval_time_Dr4_C1_D0_C2: - t[Dr4,D0] + t[Dr4,C2]
+   - 500 d_Dr4_C1_D0_C2 >= -499.6178540815885
+ Drone_retrieval_time_Dr4_C1_D0_C3: - t[Tr4,C1] + t[Tr4,C3]
+   + 500 d_Dr4_C1_D0_C3 <= 500.1314462114664
+ Drone_retrieval_time_Dr4_C1_D0_C3: - t[Dr4,D0] + t[Dr4,C3]
+   - 500 d_Dr4_C1_D0_C3 >= -499.6003759162863
+ Drone_retrieval_time_Dr4_C1_D0_C4: - t[Tr4,C1] + t[Tr4,C4]
+   + 500 d_Dr4_C1_D0_C4 <= 500.3310839290079
+ Drone_retrieval_time_Dr4_C1_D0_C4: - t[Dr4,D0] + t[Dr4,C4]
+   - 500 d_Dr4_C1_D0_C4 >= -499.8100140148426
+ Drone_retrieval_time_Dr4_C1_D0_C5: - t[Tr4,C1] + t[Tr4,C5]
+   + 500 d_Dr4_C1_D0_C5 <= 500.0317161971201
+ Drone_retrieval_time_Dr4_C1_D0_C5: - t[Dr4,D0] + t[Dr4,C5]
+   - 500 d_Dr4_C1_D0_C5 >= -499.7005962532795
+ Drone_retrieval_time_Dr4_C1_C2_D0: t[Tr4,D0] - t[Tr4,C1]
+   + 500 d_Dr4_C1_C2_D0 <= 500.3172253972537
+ Drone_retrieval_time_Dr4_C1_C2_D0: t[Dr4,D0] - t[Dr4,C2]
+   - 500 d_Dr4_C1_C2_D0 >= -499.6178540815885
+ Drone_retrieval_time_Dr4_C1_C2_C3: - t[Tr4,C1] + t[Tr4,C3]
+   + 500 d_Dr4_C1_C2_C3 <= 500.1314462114664
+ Drone_retrieval_time_Dr4_C1_C2_C3: - t[Dr4,C2] + t[Dr4,C3]
+   - 500 d_Dr4_C1_C2_C3 >= -499.9243646242875
+ Drone_retrieval_time_Dr4_C1_C2_C4: - t[Tr4,C1] + t[Tr4,C4]
+   + 500 d_Dr4_C1_C2_C4 <= 500.3310839290079
+ Drone_retrieval_time_Dr4_C1_C2_C4: - t[Dr4,C2] + t[Dr4,C4]
+   - 500 d_Dr4_C1_C2_C4 >= -499.6318927349537
+ Drone_retrieval_time_Dr4_C1_C2_C5: - t[Tr4,C1] + t[Tr4,C5]
+   + 500 d_Dr4_C1_C2_C5 <= 500.0317161971201
+ Drone_retrieval_time_Dr4_C1_C2_C5: - t[Dr4,C2] + t[Dr4,C5]
+   - 500 d_Dr4_C1_C2_C5 >= -499.8962707210397
+ Drone_retrieval_time_Dr4_C1_C3_D0: t[Tr4,D0] - t[Tr4,C1]
+   + 500 d_Dr4_C1_C3_D0 <= 500.3172253972537
+ Drone_retrieval_time_Dr4_C1_C3_D0: t[Dr4,D0] - t[Dr4,C3]
+   - 500 d_Dr4_C1_C3_D0 >= -499.6003759162863
+ Drone_retrieval_time_Dr4_C1_C3_C2: - t[Tr4,C1] + t[Tr4,C2]
+   + 500 d_Dr4_C1_C3_C2 <= 500.073669660885
+ Drone_retrieval_time_Dr4_C1_C3_C2: t[Dr4,C2] - t[Dr4,C3]
+   - 500 d_Dr4_C1_C3_C2 >= -499.9243646242875
+ Drone_retrieval_time_Dr4_C1_C3_C4: - t[Tr4,C1] + t[Tr4,C4]
+   + 500 d_Dr4_C1_C3_C4 <= 500.3310839290079
+ Drone_retrieval_time_Dr4_C1_C3_C4: - t[Dr4,C3] + t[Dr4,C4]
+   - 500 d_Dr4_C1_C3_C4 >= -499.6522362224578
+ Drone_retrieval_time_Dr4_C1_C3_C5: - t[Tr4,C1] + t[Tr4,C5]
+   + 500 d_Dr4_C1_C3_C5 <= 500.0317161971201
+ Drone_retrieval_time_Dr4_C1_C3_C5: - t[Dr4,C3] + t[Dr4,C5]
+   - 500 d_Dr4_C1_C3_C5 >= -499.8370029223045
+ Drone_retrieval_time_Dr4_C1_C4_D0: t[Tr4,D0] - t[Tr4,C1]
+   + 500 d_Dr4_C1_C4_D0 <= 500.3172253972537
+ Drone_retrieval_time_Dr4_C1_C4_D0: t[Dr4,D0] - t[Dr4,C4]
+   - 500 d_Dr4_C1_C4_D0 >= -499.8100140148426
+ Drone_retrieval_time_Dr4_C1_C4_C2: - t[Tr4,C1] + t[Tr4,C2]
+   + 500 d_Dr4_C1_C4_C2 <= 500.073669660885
+ Drone_retrieval_time_Dr4_C1_C4_C2: t[Dr4,C2] - t[Dr4,C4]
+   - 500 d_Dr4_C1_C4_C2 >= -499.6318927349537
+ Drone_retrieval_time_Dr4_C1_C4_C3: - t[Tr4,C1] + t[Tr4,C3]
+   + 500 d_Dr4_C1_C4_C3 <= 500.1314462114664
+ Drone_retrieval_time_Dr4_C1_C4_C3: t[Dr4,C3] - t[Dr4,C4]
+   - 500 d_Dr4_C1_C4_C3 >= -499.6522362224578
+ Drone_retrieval_time_Dr4_C1_C4_C5: - t[Tr4,C1] + t[Tr4,C5]
+   + 500 d_Dr4_C1_C4_C5 <= 500.0317161971201
+ Drone_retrieval_time_Dr4_C1_C4_C5: - t[Dr4,C4] + t[Dr4,C5]
+   - 500 d_Dr4_C1_C4_C5 >= -499.6688338696105
+ Drone_retrieval_time_Dr4_C1_C5_D0: t[Tr4,D0] - t[Tr4,C1]
+   + 500 d_Dr4_C1_C5_D0 <= 500.3172253972537
+ Drone_retrieval_time_Dr4_C1_C5_D0: t[Dr4,D0] - t[Dr4,C5]
+   - 500 d_Dr4_C1_C5_D0 >= -499.7005962532795
+ Drone_retrieval_time_Dr4_C1_C5_C2: - t[Tr4,C1] + t[Tr4,C2]
+   + 500 d_Dr4_C1_C5_C2 <= 500.073669660885
+ Drone_retrieval_time_Dr4_C1_C5_C2: t[Dr4,C2] - t[Dr4,C5]
+   - 500 d_Dr4_C1_C5_C2 >= -499.8962707210397
+ Drone_retrieval_time_Dr4_C1_C5_C3: - t[Tr4,C1] + t[Tr4,C3]
+   + 500 d_Dr4_C1_C5_C3 <= 500.1314462114664
+ Drone_retrieval_time_Dr4_C1_C5_C3: t[Dr4,C3] - t[Dr4,C5]
+   - 500 d_Dr4_C1_C5_C3 >= -499.8370029223045
+ Drone_retrieval_time_Dr4_C1_C5_C4: - t[Tr4,C1] + t[Tr4,C4]
+   + 500 d_Dr4_C1_C5_C4 <= 500.3310839290079
+ Drone_retrieval_time_Dr4_C1_C5_C4: t[Dr4,C4] - t[Dr4,C5]
+   - 500 d_Dr4_C1_C5_C4 >= -499.6688338696105
+ Drone_retrieval_time_Dr4_C2_D0_C1: t[Tr4,C1] - t[Tr4,C2]
+   + 500 d_Dr4_C2_D0_C1 <= 500.073669660885
+ Drone_retrieval_time_Dr4_C2_D0_C1: - t[Dr4,D0] + t[Dr4,C1]
+   - 500 d_Dr4_C2_D0_C1 >= -499.6827746027463
+ Drone_retrieval_time_Dr4_C2_D0_C3: - t[Tr4,C2] + t[Tr4,C3]
+   + 500 d_Dr4_C2_D0_C3 <= 500.0756353757125
+ Drone_retrieval_time_Dr4_C2_D0_C3: - t[Dr4,D0] + t[Dr4,C3]
+   - 500 d_Dr4_C2_D0_C3 >= -499.6003759162863
+ Drone_retrieval_time_Dr4_C2_D0_C4: - t[Tr4,C2] + t[Tr4,C4]
+   + 500 d_Dr4_C2_D0_C4 <= 500.3681072650463
+ Drone_retrieval_time_Dr4_C2_D0_C4: - t[Dr4,D0] + t[Dr4,C4]
+   - 500 d_Dr4_C2_D0_C4 >= -499.8100140148426
+ Drone_retrieval_time_Dr4_C2_D0_C5: - t[Tr4,C2] + t[Tr4,C5]
+   + 500 d_Dr4_C2_D0_C5 <= 500.1037292789603
+ Drone_retrieval_time_Dr4_C2_D0_C5: - t[Dr4,D0] + t[Dr4,C5]
+   - 500 d_Dr4_C2_D0_C5 >= -499.7005962532795
+ Drone_retrieval_time_Dr4_C2_C1_D0: t[Tr4,D0] - t[Tr4,C2]
+   + 500 d_Dr4_C2_C1_D0 <= 500.3821459184115
+ Drone_retrieval_time_Dr4_C2_C1_D0: t[Dr4,D0] - t[Dr4,C1]
+   - 500 d_Dr4_C2_C1_D0 >= -499.6827746027463
+ Drone_retrieval_time_Dr4_C2_C1_C3: - t[Tr4,C2] + t[Tr4,C3]
+   + 500 d_Dr4_C2_C1_C3 <= 500.0756353757125
+ Drone_retrieval_time_Dr4_C2_C1_C3: - t[Dr4,C1] + t[Dr4,C3]
+   - 500 d_Dr4_C2_C1_C3 >= -499.8685537885336
+ Drone_retrieval_time_Dr4_C2_C1_C4: - t[Tr4,C2] + t[Tr4,C4]
+   + 500 d_Dr4_C2_C1_C4 <= 500.3681072650463
+ Drone_retrieval_time_Dr4_C2_C1_C4: - t[Dr4,C1] + t[Dr4,C4]
+   - 500 d_Dr4_C2_C1_C4 >= -499.6689160709921
+ Drone_retrieval_time_Dr4_C2_C1_C5: - t[Tr4,C2] + t[Tr4,C5]
+   + 500 d_Dr4_C2_C1_C5 <= 500.1037292789603
+ Drone_retrieval_time_Dr4_C2_C1_C5: - t[Dr4,C1] + t[Dr4,C5]
+   - 500 d_Dr4_C2_C1_C5 >= -499.9682838028799
+ Drone_retrieval_time_Dr4_C2_C3_D0: t[Tr4,D0] - t[Tr4,C2]
+   + 500 d_Dr4_C2_C3_D0 <= 500.3821459184115
+ Drone_retrieval_time_Dr4_C2_C3_D0: t[Dr4,D0] - t[Dr4,C3]
+   - 500 d_Dr4_C2_C3_D0 >= -499.6003759162863
+ Drone_retrieval_time_Dr4_C2_C3_C1: t[Tr4,C1] - t[Tr4,C2]
+   + 500 d_Dr4_C2_C3_C1 <= 500.073669660885
+ Drone_retrieval_time_Dr4_C2_C3_C1: t[Dr4,C1] - t[Dr4,C3]
+   - 500 d_Dr4_C2_C3_C1 >= -499.8685537885336
+ Drone_retrieval_time_Dr4_C2_C3_C4: - t[Tr4,C2] + t[Tr4,C4]
+   + 500 d_Dr4_C2_C3_C4 <= 500.3681072650463
+ Drone_retrieval_time_Dr4_C2_C3_C4: - t[Dr4,C3] + t[Dr4,C4]
+   - 500 d_Dr4_C2_C3_C4 >= -499.6522362224578
+ Drone_retrieval_time_Dr4_C2_C3_C5: - t[Tr4,C2] + t[Tr4,C5]
+   + 500 d_Dr4_C2_C3_C5 <= 500.1037292789603
+ Drone_retrieval_time_Dr4_C2_C3_C5: - t[Dr4,C3] + t[Dr4,C5]
+   - 500 d_Dr4_C2_C3_C5 >= -499.8370029223045
+ Drone_retrieval_time_Dr4_C2_C4_D0: t[Tr4,D0] - t[Tr4,C2]
+   + 500 d_Dr4_C2_C4_D0 <= 500.3821459184115
+ Drone_retrieval_time_Dr4_C2_C4_D0: t[Dr4,D0] - t[Dr4,C4]
+   - 500 d_Dr4_C2_C4_D0 >= -499.8100140148426
+ Drone_retrieval_time_Dr4_C2_C4_C1: t[Tr4,C1] - t[Tr4,C2]
+   + 500 d_Dr4_C2_C4_C1 <= 500.073669660885
+ Drone_retrieval_time_Dr4_C2_C4_C1: t[Dr4,C1] - t[Dr4,C4]
+   - 500 d_Dr4_C2_C4_C1 >= -499.6689160709921
+ Drone_retrieval_time_Dr4_C2_C4_C3: - t[Tr4,C2] + t[Tr4,C3]
+   + 500 d_Dr4_C2_C4_C3 <= 500.0756353757125
+ Drone_retrieval_time_Dr4_C2_C4_C3: t[Dr4,C3] - t[Dr4,C4]
+   - 500 d_Dr4_C2_C4_C3 >= -499.6522362224578
+ Drone_retrieval_time_Dr4_C2_C4_C5: - t[Tr4,C2] + t[Tr4,C5]
+   + 500 d_Dr4_C2_C4_C5 <= 500.1037292789603
+ Drone_retrieval_time_Dr4_C2_C4_C5: - t[Dr4,C4] + t[Dr4,C5]
+   - 500 d_Dr4_C2_C4_C5 >= -499.6688338696105
+ Drone_retrieval_time_Dr4_C2_C5_D0: t[Tr4,D0] - t[Tr4,C2]
+   + 500 d_Dr4_C2_C5_D0 <= 500.3821459184115
+ Drone_retrieval_time_Dr4_C2_C5_D0: t[Dr4,D0] - t[Dr4,C5]
+   - 500 d_Dr4_C2_C5_D0 >= -499.7005962532795
+ Drone_retrieval_time_Dr4_C2_C5_C1: t[Tr4,C1] - t[Tr4,C2]
+   + 500 d_Dr4_C2_C5_C1 <= 500.073669660885
+ Drone_retrieval_time_Dr4_C2_C5_C1: t[Dr4,C1] - t[Dr4,C5]
+   - 500 d_Dr4_C2_C5_C1 >= -499.9682838028799
+ Drone_retrieval_time_Dr4_C2_C5_C3: - t[Tr4,C2] + t[Tr4,C3]
+   + 500 d_Dr4_C2_C5_C3 <= 500.0756353757125
+ Drone_retrieval_time_Dr4_C2_C5_C3: t[Dr4,C3] - t[Dr4,C5]
+   - 500 d_Dr4_C2_C5_C3 >= -499.8370029223045
+ Drone_retrieval_time_Dr4_C2_C5_C4: - t[Tr4,C2] + t[Tr4,C4]
+   + 500 d_Dr4_C2_C5_C4 <= 500.3681072650463
+ Drone_retrieval_time_Dr4_C2_C5_C4: t[Dr4,C4] - t[Dr4,C5]
+   - 500 d_Dr4_C2_C5_C4 >= -499.6688338696105
+ Drone_retrieval_time_Dr4_C3_D0_C1: t[Tr4,C1] - t[Tr4,C3]
+   + 500 d_Dr4_C3_D0_C1 <= 500.1314462114664
+ Drone_retrieval_time_Dr4_C3_D0_C1: - t[Dr4,D0] + t[Dr4,C1]
+   - 500 d_Dr4_C3_D0_C1 >= -499.6827746027463
+ Drone_retrieval_time_Dr4_C3_D0_C2: t[Tr4,C2] - t[Tr4,C3]
+   + 500 d_Dr4_C3_D0_C2 <= 500.0756353757125
+ Drone_retrieval_time_Dr4_C3_D0_C2: - t[Dr4,D0] + t[Dr4,C2]
+   - 500 d_Dr4_C3_D0_C2 >= -499.6178540815885
+ Drone_retrieval_time_Dr4_C3_D0_C4: - t[Tr4,C3] + t[Tr4,C4]
+   + 500 d_Dr4_C3_D0_C4 <= 500.3477637775422
+ Drone_retrieval_time_Dr4_C3_D0_C4: - t[Dr4,D0] + t[Dr4,C4]
+   - 500 d_Dr4_C3_D0_C4 >= -499.8100140148426
+ Drone_retrieval_time_Dr4_C3_D0_C5: - t[Tr4,C3] + t[Tr4,C5]
+   + 500 d_Dr4_C3_D0_C5 <= 500.1629970776955
+ Drone_retrieval_time_Dr4_C3_D0_C5: - t[Dr4,D0] + t[Dr4,C5]
+   - 500 d_Dr4_C3_D0_C5 >= -499.7005962532795
+ Drone_retrieval_time_Dr4_C3_C1_D0: t[Tr4,D0] - t[Tr4,C3]
+   + 500 d_Dr4_C3_C1_D0 <= 500.3996240837137
+ Drone_retrieval_time_Dr4_C3_C1_D0: t[Dr4,D0] - t[Dr4,C1]
+   - 500 d_Dr4_C3_C1_D0 >= -499.6827746027463
+ Drone_retrieval_time_Dr4_C3_C1_C2: t[Tr4,C2] - t[Tr4,C3]
+   + 500 d_Dr4_C3_C1_C2 <= 500.0756353757125
+ Drone_retrieval_time_Dr4_C3_C1_C2: - t[Dr4,C1] + t[Dr4,C2]
+   - 500 d_Dr4_C3_C1_C2 >= -499.926330339115
+ Drone_retrieval_time_Dr4_C3_C1_C4: - t[Tr4,C3] + t[Tr4,C4]
+   + 500 d_Dr4_C3_C1_C4 <= 500.3477637775422
+ Drone_retrieval_time_Dr4_C3_C1_C4: - t[Dr4,C1] + t[Dr4,C4]
+   - 500 d_Dr4_C3_C1_C4 >= -499.6689160709921
+ Drone_retrieval_time_Dr4_C3_C1_C5: - t[Tr4,C3] + t[Tr4,C5]
+   + 500 d_Dr4_C3_C1_C5 <= 500.1629970776955
+ Drone_retrieval_time_Dr4_C3_C1_C5: - t[Dr4,C1] + t[Dr4,C5]
+   - 500 d_Dr4_C3_C1_C5 >= -499.9682838028799
+ Drone_retrieval_time_Dr4_C3_C2_D0: t[Tr4,D0] - t[Tr4,C3]
+   + 500 d_Dr4_C3_C2_D0 <= 500.3996240837137
+ Drone_retrieval_time_Dr4_C3_C2_D0: t[Dr4,D0] - t[Dr4,C2]
+   - 500 d_Dr4_C3_C2_D0 >= -499.6178540815885
+ Drone_retrieval_time_Dr4_C3_C2_C1: t[Tr4,C1] - t[Tr4,C3]
+   + 500 d_Dr4_C3_C2_C1 <= 500.1314462114664
+ Drone_retrieval_time_Dr4_C3_C2_C1: t[Dr4,C1] - t[Dr4,C2]
+   - 500 d_Dr4_C3_C2_C1 >= -499.926330339115
+ Drone_retrieval_time_Dr4_C3_C2_C4: - t[Tr4,C3] + t[Tr4,C4]
+   + 500 d_Dr4_C3_C2_C4 <= 500.3477637775422
+ Drone_retrieval_time_Dr4_C3_C2_C4: - t[Dr4,C2] + t[Dr4,C4]
+   - 500 d_Dr4_C3_C2_C4 >= -499.6318927349537
+ Drone_retrieval_time_Dr4_C3_C2_C5: - t[Tr4,C3] + t[Tr4,C5]
+   + 500 d_Dr4_C3_C2_C5 <= 500.1629970776955
+ Drone_retrieval_time_Dr4_C3_C2_C5: - t[Dr4,C2] + t[Dr4,C5]
+   - 500 d_Dr4_C3_C2_C5 >= -499.8962707210397
+ Drone_retrieval_time_Dr4_C3_C4_D0: t[Tr4,D0] - t[Tr4,C3]
+   + 500 d_Dr4_C3_C4_D0 <= 500.3996240837137
+ Drone_retrieval_time_Dr4_C3_C4_D0: t[Dr4,D0] - t[Dr4,C4]
+   - 500 d_Dr4_C3_C4_D0 >= -499.8100140148426
+ Drone_retrieval_time_Dr4_C3_C4_C1: t[Tr4,C1] - t[Tr4,C3]
+   + 500 d_Dr4_C3_C4_C1 <= 500.1314462114664
+ Drone_retrieval_time_Dr4_C3_C4_C1: t[Dr4,C1] - t[Dr4,C4]
+   - 500 d_Dr4_C3_C4_C1 >= -499.6689160709921
+ Drone_retrieval_time_Dr4_C3_C4_C2: t[Tr4,C2] - t[Tr4,C3]
+   + 500 d_Dr4_C3_C4_C2 <= 500.0756353757125
+ Drone_retrieval_time_Dr4_C3_C4_C2: t[Dr4,C2] - t[Dr4,C4]
+   - 500 d_Dr4_C3_C4_C2 >= -499.6318927349537
+ Drone_retrieval_time_Dr4_C3_C4_C5: - t[Tr4,C3] + t[Tr4,C5]
+   + 500 d_Dr4_C3_C4_C5 <= 500.1629970776955
+ Drone_retrieval_time_Dr4_C3_C4_C5: - t[Dr4,C4] + t[Dr4,C5]
+   - 500 d_Dr4_C3_C4_C5 >= -499.6688338696105
+ Drone_retrieval_time_Dr4_C3_C5_D0: t[Tr4,D0] - t[Tr4,C3]
+   + 500 d_Dr4_C3_C5_D0 <= 500.3996240837137
+ Drone_retrieval_time_Dr4_C3_C5_D0: t[Dr4,D0] - t[Dr4,C5]
+   - 500 d_Dr4_C3_C5_D0 >= -499.7005962532795
+ Drone_retrieval_time_Dr4_C3_C5_C1: t[Tr4,C1] - t[Tr4,C3]
+   + 500 d_Dr4_C3_C5_C1 <= 500.1314462114664
+ Drone_retrieval_time_Dr4_C3_C5_C1: t[Dr4,C1] - t[Dr4,C5]
+   - 500 d_Dr4_C3_C5_C1 >= -499.9682838028799
+ Drone_retrieval_time_Dr4_C3_C5_C2: t[Tr4,C2] - t[Tr4,C3]
+   + 500 d_Dr4_C3_C5_C2 <= 500.0756353757125
+ Drone_retrieval_time_Dr4_C3_C5_C2: t[Dr4,C2] - t[Dr4,C5]
+   - 500 d_Dr4_C3_C5_C2 >= -499.8962707210397
+ Drone_retrieval_time_Dr4_C3_C5_C4: - t[Tr4,C3] + t[Tr4,C4]
+   + 500 d_Dr4_C3_C5_C4 <= 500.3477637775422
+ Drone_retrieval_time_Dr4_C3_C5_C4: t[Dr4,C4] - t[Dr4,C5]
+   - 500 d_Dr4_C3_C5_C4 >= -499.6688338696105
+ Drone_retrieval_time_Dr4_C4_D0_C1: t[Tr4,C1] - t[Tr4,C4]
+   + 500 d_Dr4_C4_D0_C1 <= 500.3310839290079
+ Drone_retrieval_time_Dr4_C4_D0_C1: - t[Dr4,D0] + t[Dr4,C1]
+   - 500 d_Dr4_C4_D0_C1 >= -499.6827746027463
+ Drone_retrieval_time_Dr4_C4_D0_C2: t[Tr4,C2] - t[Tr4,C4]
+   + 500 d_Dr4_C4_D0_C2 <= 500.3681072650463
+ Drone_retrieval_time_Dr4_C4_D0_C2: - t[Dr4,D0] + t[Dr4,C2]
+   - 500 d_Dr4_C4_D0_C2 >= -499.6178540815885
+ Drone_retrieval_time_Dr4_C4_D0_C3: t[Tr4,C3] - t[Tr4,C4]
+   + 500 d_Dr4_C4_D0_C3 <= 500.3477637775422
+ Drone_retrieval_time_Dr4_C4_D0_C3: - t[Dr4,D0] + t[Dr4,C3]
+   - 500 d_Dr4_C4_D0_C3 >= -499.6003759162863
+ Drone_retrieval_time_Dr4_C4_D0_C5: - t[Tr4,C4] + t[Tr4,C5]
+   + 500 d_Dr4_C4_D0_C5 <= 500.3311661303895
+ Drone_retrieval_time_Dr4_C4_D0_C5: - t[Dr4,D0] + t[Dr4,C5]
+   - 500 d_Dr4_C4_D0_C5 >= -499.7005962532795
+ Drone_retrieval_time_Dr4_C4_C1_D0: t[Tr4,D0] - t[Tr4,C4]
+   + 500 d_Dr4_C4_C1_D0 <= 500.1899859851574
+ Drone_retrieval_time_Dr4_C4_C1_D0: t[Dr4,D0] - t[Dr4,C1]
+   - 500 d_Dr4_C4_C1_D0 >= -499.6827746027463
+ Drone_retrieval_time_Dr4_C4_C1_C2: t[Tr4,C2] - t[Tr4,C4]
+   + 500 d_Dr4_C4_C1_C2 <= 500.3681072650463
+ Drone_retrieval_time_Dr4_C4_C1_C2: - t[Dr4,C1] + t[Dr4,C2]
+   - 500 d_Dr4_C4_C1_C2 >= -499.926330339115
+ Drone_retrieval_time_Dr4_C4_C1_C3: t[Tr4,C3] - t[Tr4,C4]
+   + 500 d_Dr4_C4_C1_C3 <= 500.3477637775422
+ Drone_retrieval_time_Dr4_C4_C1_C3: - t[Dr4,C1] + t[Dr4,C3]
+   - 500 d_Dr4_C4_C1_C3 >= -499.8685537885336
+ Drone_retrieval_time_Dr4_C4_C1_C5: - t[Tr4,C4] + t[Tr4,C5]
+   + 500 d_Dr4_C4_C1_C5 <= 500.3311661303895
+ Drone_retrieval_time_Dr4_C4_C1_C5: - t[Dr4,C1] + t[Dr4,C5]
+   - 500 d_Dr4_C4_C1_C5 >= -499.9682838028799
+ Drone_retrieval_time_Dr4_C4_C2_D0: t[Tr4,D0] - t[Tr4,C4]
+   + 500 d_Dr4_C4_C2_D0 <= 500.1899859851574
+ Drone_retrieval_time_Dr4_C4_C2_D0: t[Dr4,D0] - t[Dr4,C2]
+   - 500 d_Dr4_C4_C2_D0 >= -499.6178540815885
+ Drone_retrieval_time_Dr4_C4_C2_C1: t[Tr4,C1] - t[Tr4,C4]
+   + 500 d_Dr4_C4_C2_C1 <= 500.3310839290079
+ Drone_retrieval_time_Dr4_C4_C2_C1: t[Dr4,C1] - t[Dr4,C2]
+   - 500 d_Dr4_C4_C2_C1 >= -499.926330339115
+ Drone_retrieval_time_Dr4_C4_C2_C3: t[Tr4,C3] - t[Tr4,C4]
+   + 500 d_Dr4_C4_C2_C3 <= 500.3477637775422
+ Drone_retrieval_time_Dr4_C4_C2_C3: - t[Dr4,C2] + t[Dr4,C3]
+   - 500 d_Dr4_C4_C2_C3 >= -499.9243646242875
+ Drone_retrieval_time_Dr4_C4_C2_C5: - t[Tr4,C4] + t[Tr4,C5]
+   + 500 d_Dr4_C4_C2_C5 <= 500.3311661303895
+ Drone_retrieval_time_Dr4_C4_C2_C5: - t[Dr4,C2] + t[Dr4,C5]
+   - 500 d_Dr4_C4_C2_C5 >= -499.8962707210397
+ Drone_retrieval_time_Dr4_C4_C3_D0: t[Tr4,D0] - t[Tr4,C4]
+   + 500 d_Dr4_C4_C3_D0 <= 500.1899859851574
+ Drone_retrieval_time_Dr4_C4_C3_D0: t[Dr4,D0] - t[Dr4,C3]
+   - 500 d_Dr4_C4_C3_D0 >= -499.6003759162863
+ Drone_retrieval_time_Dr4_C4_C3_C1: t[Tr4,C1] - t[Tr4,C4]
+   + 500 d_Dr4_C4_C3_C1 <= 500.3310839290079
+ Drone_retrieval_time_Dr4_C4_C3_C1: t[Dr4,C1] - t[Dr4,C3]
+   - 500 d_Dr4_C4_C3_C1 >= -499.8685537885336
+ Drone_retrieval_time_Dr4_C4_C3_C2: t[Tr4,C2] - t[Tr4,C4]
+   + 500 d_Dr4_C4_C3_C2 <= 500.3681072650463
+ Drone_retrieval_time_Dr4_C4_C3_C2: t[Dr4,C2] - t[Dr4,C3]
+   - 500 d_Dr4_C4_C3_C2 >= -499.9243646242875
+ Drone_retrieval_time_Dr4_C4_C3_C5: - t[Tr4,C4] + t[Tr4,C5]
+   + 500 d_Dr4_C4_C3_C5 <= 500.3311661303895
+ Drone_retrieval_time_Dr4_C4_C3_C5: - t[Dr4,C3] + t[Dr4,C5]
+   - 500 d_Dr4_C4_C3_C5 >= -499.8370029223045
+ Drone_retrieval_time_Dr4_C4_C5_D0: t[Tr4,D0] - t[Tr4,C4]
+   + 500 d_Dr4_C4_C5_D0 <= 500.1899859851574
+ Drone_retrieval_time_Dr4_C4_C5_D0: t[Dr4,D0] - t[Dr4,C5]
+   - 500 d_Dr4_C4_C5_D0 >= -499.7005962532795
+ Drone_retrieval_time_Dr4_C4_C5_C1: t[Tr4,C1] - t[Tr4,C4]
+   + 500 d_Dr4_C4_C5_C1 <= 500.3310839290079
+ Drone_retrieval_time_Dr4_C4_C5_C1: t[Dr4,C1] - t[Dr4,C5]
+   - 500 d_Dr4_C4_C5_C1 >= -499.9682838028799
+ Drone_retrieval_time_Dr4_C4_C5_C2: t[Tr4,C2] - t[Tr4,C4]
+   + 500 d_Dr4_C4_C5_C2 <= 500.3681072650463
+ Drone_retrieval_time_Dr4_C4_C5_C2: t[Dr4,C2] - t[Dr4,C5]
+   - 500 d_Dr4_C4_C5_C2 >= -499.8962707210397
+ Drone_retrieval_time_Dr4_C4_C5_C3: t[Tr4,C3] - t[Tr4,C4]
+   + 500 d_Dr4_C4_C5_C3 <= 500.3477637775422
+ Drone_retrieval_time_Dr4_C4_C5_C3: t[Dr4,C3] - t[Dr4,C5]
+   - 500 d_Dr4_C4_C5_C3 >= -499.8370029223045
+ Drone_retrieval_time_Dr4_C5_D0_C1: t[Tr4,C1] - t[Tr4,C5]
+   + 500 d_Dr4_C5_D0_C1 <= 500.0317161971201
+ Drone_retrieval_time_Dr4_C5_D0_C1: - t[Dr4,D0] + t[Dr4,C1]
+   - 500 d_Dr4_C5_D0_C1 >= -499.6827746027463
+ Drone_retrieval_time_Dr4_C5_D0_C2: t[Tr4,C2] - t[Tr4,C5]
+   + 500 d_Dr4_C5_D0_C2 <= 500.1037292789603
+ Drone_retrieval_time_Dr4_C5_D0_C2: - t[Dr4,D0] + t[Dr4,C2]
+   - 500 d_Dr4_C5_D0_C2 >= -499.6178540815885
+ Drone_retrieval_time_Dr4_C5_D0_C3: t[Tr4,C3] - t[Tr4,C5]
+   + 500 d_Dr4_C5_D0_C3 <= 500.1629970776955
+ Drone_retrieval_time_Dr4_C5_D0_C3: - t[Dr4,D0] + t[Dr4,C3]
+   - 500 d_Dr4_C5_D0_C3 >= -499.6003759162863
+ Drone_retrieval_time_Dr4_C5_D0_C4: t[Tr4,C4] - t[Tr4,C5]
+   + 500 d_Dr4_C5_D0_C4 <= 500.3311661303895
+ Drone_retrieval_time_Dr4_C5_D0_C4: - t[Dr4,D0] + t[Dr4,C4]
+   - 500 d_Dr4_C5_D0_C4 >= -499.8100140148426
+ Drone_retrieval_time_Dr4_C5_C1_D0: t[Tr4,D0] - t[Tr4,C5]
+   + 500 d_Dr4_C5_C1_D0 <= 500.2994037467205
+ Drone_retrieval_time_Dr4_C5_C1_D0: t[Dr4,D0] - t[Dr4,C1]
+   - 500 d_Dr4_C5_C1_D0 >= -499.6827746027463
+ Drone_retrieval_time_Dr4_C5_C1_C2: t[Tr4,C2] - t[Tr4,C5]
+   + 500 d_Dr4_C5_C1_C2 <= 500.1037292789603
+ Drone_retrieval_time_Dr4_C5_C1_C2: - t[Dr4,C1] + t[Dr4,C2]
+   - 500 d_Dr4_C5_C1_C2 >= -499.926330339115
+ Drone_retrieval_time_Dr4_C5_C1_C3: t[Tr4,C3] - t[Tr4,C5]
+   + 500 d_Dr4_C5_C1_C3 <= 500.1629970776955
+ Drone_retrieval_time_Dr4_C5_C1_C3: - t[Dr4,C1] + t[Dr4,C3]
+   - 500 d_Dr4_C5_C1_C3 >= -499.8685537885336
+ Drone_retrieval_time_Dr4_C5_C1_C4: t[Tr4,C4] - t[Tr4,C5]
+   + 500 d_Dr4_C5_C1_C4 <= 500.3311661303895
+ Drone_retrieval_time_Dr4_C5_C1_C4: - t[Dr4,C1] + t[Dr4,C4]
+   - 500 d_Dr4_C5_C1_C4 >= -499.6689160709921
+ Drone_retrieval_time_Dr4_C5_C2_D0: t[Tr4,D0] - t[Tr4,C5]
+   + 500 d_Dr4_C5_C2_D0 <= 500.2994037467205
+ Drone_retrieval_time_Dr4_C5_C2_D0: t[Dr4,D0] - t[Dr4,C2]
+   - 500 d_Dr4_C5_C2_D0 >= -499.6178540815885
+ Drone_retrieval_time_Dr4_C5_C2_C1: t[Tr4,C1] - t[Tr4,C5]
+   + 500 d_Dr4_C5_C2_C1 <= 500.0317161971201
+ Drone_retrieval_time_Dr4_C5_C2_C1: t[Dr4,C1] - t[Dr4,C2]
+   - 500 d_Dr4_C5_C2_C1 >= -499.926330339115
+ Drone_retrieval_time_Dr4_C5_C2_C3: t[Tr4,C3] - t[Tr4,C5]
+   + 500 d_Dr4_C5_C2_C3 <= 500.1629970776955
+ Drone_retrieval_time_Dr4_C5_C2_C3: - t[Dr4,C2] + t[Dr4,C3]
+   - 500 d_Dr4_C5_C2_C3 >= -499.9243646242875
+ Drone_retrieval_time_Dr4_C5_C2_C4: t[Tr4,C4] - t[Tr4,C5]
+   + 500 d_Dr4_C5_C2_C4 <= 500.3311661303895
+ Drone_retrieval_time_Dr4_C5_C2_C4: - t[Dr4,C2] + t[Dr4,C4]
+   - 500 d_Dr4_C5_C2_C4 >= -499.6318927349537
+ Drone_retrieval_time_Dr4_C5_C3_D0: t[Tr4,D0] - t[Tr4,C5]
+   + 500 d_Dr4_C5_C3_D0 <= 500.2994037467205
+ Drone_retrieval_time_Dr4_C5_C3_D0: t[Dr4,D0] - t[Dr4,C3]
+   - 500 d_Dr4_C5_C3_D0 >= -499.6003759162863
+ Drone_retrieval_time_Dr4_C5_C3_C1: t[Tr4,C1] - t[Tr4,C5]
+   + 500 d_Dr4_C5_C3_C1 <= 500.0317161971201
+ Drone_retrieval_time_Dr4_C5_C3_C1: t[Dr4,C1] - t[Dr4,C3]
+   - 500 d_Dr4_C5_C3_C1 >= -499.8685537885336
+ Drone_retrieval_time_Dr4_C5_C3_C2: t[Tr4,C2] - t[Tr4,C5]
+   + 500 d_Dr4_C5_C3_C2 <= 500.1037292789603
+ Drone_retrieval_time_Dr4_C5_C3_C2: t[Dr4,C2] - t[Dr4,C3]
+   - 500 d_Dr4_C5_C3_C2 >= -499.9243646242875
+ Drone_retrieval_time_Dr4_C5_C3_C4: t[Tr4,C4] - t[Tr4,C5]
+   + 500 d_Dr4_C5_C3_C4 <= 500.3311661303895
+ Drone_retrieval_time_Dr4_C5_C3_C4: - t[Dr4,C3] + t[Dr4,C4]
+   - 500 d_Dr4_C5_C3_C4 >= -499.6522362224578
+ Drone_retrieval_time_Dr4_C5_C4_D0: t[Tr4,D0] - t[Tr4,C5]
+   + 500 d_Dr4_C5_C4_D0 <= 500.2994037467205
+ Drone_retrieval_time_Dr4_C5_C4_D0: t[Dr4,D0] - t[Dr4,C4]
+   - 500 d_Dr4_C5_C4_D0 >= -499.8100140148426
+ Drone_retrieval_time_Dr4_C5_C4_C1: t[Tr4,C1] - t[Tr4,C5]
+   + 500 d_Dr4_C5_C4_C1 <= 500.0317161971201
+ Drone_retrieval_time_Dr4_C5_C4_C1: t[Dr4,C1] - t[Dr4,C4]
+   - 500 d_Dr4_C5_C4_C1 >= -499.6689160709921
+ Drone_retrieval_time_Dr4_C5_C4_C2: t[Tr4,C2] - t[Tr4,C5]
+   + 500 d_Dr4_C5_C4_C2 <= 500.1037292789603
+ Drone_retrieval_time_Dr4_C5_C4_C2: t[Dr4,C2] - t[Dr4,C4]
+   - 500 d_Dr4_C5_C4_C2 >= -499.6318927349537
+ Drone_retrieval_time_Dr4_C5_C4_C3: t[Tr4,C3] - t[Tr4,C5]
+   + 500 d_Dr4_C5_C4_C3 <= 500.1629970776955
+ Drone_retrieval_time_Dr4_C5_C4_C3: t[Dr4,C3] - t[Dr4,C4]
+   - 500 d_Dr4_C5_C4_C3 >= -499.6522362224578
+ Drone_retrieval_time_Dr5_D0_C1_C2: - t[Tr5,D0] + t[Tr5,C2]
+   + 500 d_Dr5_D0_C1_C2 <= 500.3821459184115
+ Drone_retrieval_time_Dr5_D0_C1_C2: - t[Dr5,C1] + t[Dr5,C2]
+   - 500 d_Dr5_D0_C1_C2 >= -499.926330339115
+ Drone_retrieval_time_Dr5_D0_C1_C3: - t[Tr5,D0] + t[Tr5,C3]
+   + 500 d_Dr5_D0_C1_C3 <= 500.3996240837137
+ Drone_retrieval_time_Dr5_D0_C1_C3: - t[Dr5,C1] + t[Dr5,C3]
+   - 500 d_Dr5_D0_C1_C3 >= -499.8685537885336
+ Drone_retrieval_time_Dr5_D0_C1_C4: - t[Tr5,D0] + t[Tr5,C4]
+   + 500 d_Dr5_D0_C1_C4 <= 500.1899859851574
+ Drone_retrieval_time_Dr5_D0_C1_C4: - t[Dr5,C1] + t[Dr5,C4]
+   - 500 d_Dr5_D0_C1_C4 >= -499.6689160709921
+ Drone_retrieval_time_Dr5_D0_C1_C5: - t[Tr5,D0] + t[Tr5,C5]
+   + 500 d_Dr5_D0_C1_C5 <= 500.2994037467205
+ Drone_retrieval_time_Dr5_D0_C1_C5: - t[Dr5,C1] + t[Dr5,C5]
+   - 500 d_Dr5_D0_C1_C5 >= -499.9682838028799
+ Drone_retrieval_time_Dr5_D0_C2_C1: - t[Tr5,D0] + t[Tr5,C1]
+   + 500 d_Dr5_D0_C2_C1 <= 500.3172253972537
+ Drone_retrieval_time_Dr5_D0_C2_C1: t[Dr5,C1] - t[Dr5,C2]
+   - 500 d_Dr5_D0_C2_C1 >= -499.926330339115
+ Drone_retrieval_time_Dr5_D0_C2_C3: - t[Tr5,D0] + t[Tr5,C3]
+   + 500 d_Dr5_D0_C2_C3 <= 500.3996240837137
+ Drone_retrieval_time_Dr5_D0_C2_C3: - t[Dr5,C2] + t[Dr5,C3]
+   - 500 d_Dr5_D0_C2_C3 >= -499.9243646242875
+ Drone_retrieval_time_Dr5_D0_C2_C4: - t[Tr5,D0] + t[Tr5,C4]
+   + 500 d_Dr5_D0_C2_C4 <= 500.1899859851574
+ Drone_retrieval_time_Dr5_D0_C2_C4: - t[Dr5,C2] + t[Dr5,C4]
+   - 500 d_Dr5_D0_C2_C4 >= -499.6318927349537
+ Drone_retrieval_time_Dr5_D0_C2_C5: - t[Tr5,D0] + t[Tr5,C5]
+   + 500 d_Dr5_D0_C2_C5 <= 500.2994037467205
+ Drone_retrieval_time_Dr5_D0_C2_C5: - t[Dr5,C2] + t[Dr5,C5]
+   - 500 d_Dr5_D0_C2_C5 >= -499.8962707210397
+ Drone_retrieval_time_Dr5_D0_C3_C1: - t[Tr5,D0] + t[Tr5,C1]
+   + 500 d_Dr5_D0_C3_C1 <= 500.3172253972537
+ Drone_retrieval_time_Dr5_D0_C3_C1: t[Dr5,C1] - t[Dr5,C3]
+   - 500 d_Dr5_D0_C3_C1 >= -499.8685537885336
+ Drone_retrieval_time_Dr5_D0_C3_C2: - t[Tr5,D0] + t[Tr5,C2]
+   + 500 d_Dr5_D0_C3_C2 <= 500.3821459184115
+ Drone_retrieval_time_Dr5_D0_C3_C2: t[Dr5,C2] - t[Dr5,C3]
+   - 500 d_Dr5_D0_C3_C2 >= -499.9243646242875
+ Drone_retrieval_time_Dr5_D0_C3_C4: - t[Tr5,D0] + t[Tr5,C4]
+   + 500 d_Dr5_D0_C3_C4 <= 500.1899859851574
+ Drone_retrieval_time_Dr5_D0_C3_C4: - t[Dr5,C3] + t[Dr5,C4]
+   - 500 d_Dr5_D0_C3_C4 >= -499.6522362224578
+ Drone_retrieval_time_Dr5_D0_C3_C5: - t[Tr5,D0] + t[Tr5,C5]
+   + 500 d_Dr5_D0_C3_C5 <= 500.2994037467205
+ Drone_retrieval_time_Dr5_D0_C3_C5: - t[Dr5,C3] + t[Dr5,C5]
+   - 500 d_Dr5_D0_C3_C5 >= -499.8370029223045
+ Drone_retrieval_time_Dr5_D0_C4_C1: - t[Tr5,D0] + t[Tr5,C1]
+   + 500 d_Dr5_D0_C4_C1 <= 500.3172253972537
+ Drone_retrieval_time_Dr5_D0_C4_C1: t[Dr5,C1] - t[Dr5,C4]
+   - 500 d_Dr5_D0_C4_C1 >= -499.6689160709921
+ Drone_retrieval_time_Dr5_D0_C4_C2: - t[Tr5,D0] + t[Tr5,C2]
+   + 500 d_Dr5_D0_C4_C2 <= 500.3821459184115
+ Drone_retrieval_time_Dr5_D0_C4_C2: t[Dr5,C2] - t[Dr5,C4]
+   - 500 d_Dr5_D0_C4_C2 >= -499.6318927349537
+ Drone_retrieval_time_Dr5_D0_C4_C3: - t[Tr5,D0] + t[Tr5,C3]
+   + 500 d_Dr5_D0_C4_C3 <= 500.3996240837137
+ Drone_retrieval_time_Dr5_D0_C4_C3: t[Dr5,C3] - t[Dr5,C4]
+   - 500 d_Dr5_D0_C4_C3 >= -499.6522362224578
+ Drone_retrieval_time_Dr5_D0_C4_C5: - t[Tr5,D0] + t[Tr5,C5]
+   + 500 d_Dr5_D0_C4_C5 <= 500.2994037467205
+ Drone_retrieval_time_Dr5_D0_C4_C5: - t[Dr5,C4] + t[Dr5,C5]
+   - 500 d_Dr5_D0_C4_C5 >= -499.6688338696105
+ Drone_retrieval_time_Dr5_D0_C5_C1: - t[Tr5,D0] + t[Tr5,C1]
+   + 500 d_Dr5_D0_C5_C1 <= 500.3172253972537
+ Drone_retrieval_time_Dr5_D0_C5_C1: t[Dr5,C1] - t[Dr5,C5]
+   - 500 d_Dr5_D0_C5_C1 >= -499.9682838028799
+ Drone_retrieval_time_Dr5_D0_C5_C2: - t[Tr5,D0] + t[Tr5,C2]
+   + 500 d_Dr5_D0_C5_C2 <= 500.3821459184115
+ Drone_retrieval_time_Dr5_D0_C5_C2: t[Dr5,C2] - t[Dr5,C5]
+   - 500 d_Dr5_D0_C5_C2 >= -499.8962707210397
+ Drone_retrieval_time_Dr5_D0_C5_C3: - t[Tr5,D0] + t[Tr5,C3]
+   + 500 d_Dr5_D0_C5_C3 <= 500.3996240837137
+ Drone_retrieval_time_Dr5_D0_C5_C3: t[Dr5,C3] - t[Dr5,C5]
+   - 500 d_Dr5_D0_C5_C3 >= -499.8370029223045
+ Drone_retrieval_time_Dr5_D0_C5_C4: - t[Tr5,D0] + t[Tr5,C4]
+   + 500 d_Dr5_D0_C5_C4 <= 500.1899859851574
+ Drone_retrieval_time_Dr5_D0_C5_C4: t[Dr5,C4] - t[Dr5,C5]
+   - 500 d_Dr5_D0_C5_C4 >= -499.6688338696105
+ Drone_retrieval_time_Dr5_C1_D0_C2: - t[Tr5,C1] + t[Tr5,C2]
+   + 500 d_Dr5_C1_D0_C2 <= 500.073669660885
+ Drone_retrieval_time_Dr5_C1_D0_C2: - t[Dr5,D0] + t[Dr5,C2]
+   - 500 d_Dr5_C1_D0_C2 >= -499.6178540815885
+ Drone_retrieval_time_Dr5_C1_D0_C3: - t[Tr5,C1] + t[Tr5,C3]
+   + 500 d_Dr5_C1_D0_C3 <= 500.1314462114664
+ Drone_retrieval_time_Dr5_C1_D0_C3: - t[Dr5,D0] + t[Dr5,C3]
+   - 500 d_Dr5_C1_D0_C3 >= -499.6003759162863
+ Drone_retrieval_time_Dr5_C1_D0_C4: - t[Tr5,C1] + t[Tr5,C4]
+   + 500 d_Dr5_C1_D0_C4 <= 500.3310839290079
+ Drone_retrieval_time_Dr5_C1_D0_C4: - t[Dr5,D0] + t[Dr5,C4]
+   - 500 d_Dr5_C1_D0_C4 >= -499.8100140148426
+ Drone_retrieval_time_Dr5_C1_D0_C5: - t[Tr5,C1] + t[Tr5,C5]
+   + 500 d_Dr5_C1_D0_C5 <= 500.0317161971201
+ Drone_retrieval_time_Dr5_C1_D0_C5: - t[Dr5,D0] + t[Dr5,C5]
+   - 500 d_Dr5_C1_D0_C5 >= -499.7005962532795
+ Drone_retrieval_time_Dr5_C1_C2_D0: t[Tr5,D0] - t[Tr5,C1]
+   + 500 d_Dr5_C1_C2_D0 <= 500.3172253972537
+ Drone_retrieval_time_Dr5_C1_C2_D0: t[Dr5,D0] - t[Dr5,C2]
+   - 500 d_Dr5_C1_C2_D0 >= -499.6178540815885
+ Drone_retrieval_time_Dr5_C1_C2_C3: - t[Tr5,C1] + t[Tr5,C3]
+   + 500 d_Dr5_C1_C2_C3 <= 500.1314462114664
+ Drone_retrieval_time_Dr5_C1_C2_C3: - t[Dr5,C2] + t[Dr5,C3]
+   - 500 d_Dr5_C1_C2_C3 >= -499.9243646242875
+ Drone_retrieval_time_Dr5_C1_C2_C4: - t[Tr5,C1] + t[Tr5,C4]
+   + 500 d_Dr5_C1_C2_C4 <= 500.3310839290079
+ Drone_retrieval_time_Dr5_C1_C2_C4: - t[Dr5,C2] + t[Dr5,C4]
+   - 500 d_Dr5_C1_C2_C4 >= -499.6318927349537
+ Drone_retrieval_time_Dr5_C1_C2_C5: - t[Tr5,C1] + t[Tr5,C5]
+   + 500 d_Dr5_C1_C2_C5 <= 500.0317161971201
+ Drone_retrieval_time_Dr5_C1_C2_C5: - t[Dr5,C2] + t[Dr5,C5]
+   - 500 d_Dr5_C1_C2_C5 >= -499.8962707210397
+ Drone_retrieval_time_Dr5_C1_C3_D0: t[Tr5,D0] - t[Tr5,C1]
+   + 500 d_Dr5_C1_C3_D0 <= 500.3172253972537
+ Drone_retrieval_time_Dr5_C1_C3_D0: t[Dr5,D0] - t[Dr5,C3]
+   - 500 d_Dr5_C1_C3_D0 >= -499.6003759162863
+ Drone_retrieval_time_Dr5_C1_C3_C2: - t[Tr5,C1] + t[Tr5,C2]
+   + 500 d_Dr5_C1_C3_C2 <= 500.073669660885
+ Drone_retrieval_time_Dr5_C1_C3_C2: t[Dr5,C2] - t[Dr5,C3]
+   - 500 d_Dr5_C1_C3_C2 >= -499.9243646242875
+ Drone_retrieval_time_Dr5_C1_C3_C4: - t[Tr5,C1] + t[Tr5,C4]
+   + 500 d_Dr5_C1_C3_C4 <= 500.3310839290079
+ Drone_retrieval_time_Dr5_C1_C3_C4: - t[Dr5,C3] + t[Dr5,C4]
+   - 500 d_Dr5_C1_C3_C4 >= -499.6522362224578
+ Drone_retrieval_time_Dr5_C1_C3_C5: - t[Tr5,C1] + t[Tr5,C5]
+   + 500 d_Dr5_C1_C3_C5 <= 500.0317161971201
+ Drone_retrieval_time_Dr5_C1_C3_C5: - t[Dr5,C3] + t[Dr5,C5]
+   - 500 d_Dr5_C1_C3_C5 >= -499.8370029223045
+ Drone_retrieval_time_Dr5_C1_C4_D0: t[Tr5,D0] - t[Tr5,C1]
+   + 500 d_Dr5_C1_C4_D0 <= 500.3172253972537
+ Drone_retrieval_time_Dr5_C1_C4_D0: t[Dr5,D0] - t[Dr5,C4]
+   - 500 d_Dr5_C1_C4_D0 >= -499.8100140148426
+ Drone_retrieval_time_Dr5_C1_C4_C2: - t[Tr5,C1] + t[Tr5,C2]
+   + 500 d_Dr5_C1_C4_C2 <= 500.073669660885
+ Drone_retrieval_time_Dr5_C1_C4_C2: t[Dr5,C2] - t[Dr5,C4]
+   - 500 d_Dr5_C1_C4_C2 >= -499.6318927349537
+ Drone_retrieval_time_Dr5_C1_C4_C3: - t[Tr5,C1] + t[Tr5,C3]
+   + 500 d_Dr5_C1_C4_C3 <= 500.1314462114664
+ Drone_retrieval_time_Dr5_C1_C4_C3: t[Dr5,C3] - t[Dr5,C4]
+   - 500 d_Dr5_C1_C4_C3 >= -499.6522362224578
+ Drone_retrieval_time_Dr5_C1_C4_C5: - t[Tr5,C1] + t[Tr5,C5]
+   + 500 d_Dr5_C1_C4_C5 <= 500.0317161971201
+ Drone_retrieval_time_Dr5_C1_C4_C5: - t[Dr5,C4] + t[Dr5,C5]
+   - 500 d_Dr5_C1_C4_C5 >= -499.6688338696105
+ Drone_retrieval_time_Dr5_C1_C5_D0: t[Tr5,D0] - t[Tr5,C1]
+   + 500 d_Dr5_C1_C5_D0 <= 500.3172253972537
+ Drone_retrieval_time_Dr5_C1_C5_D0: t[Dr5,D0] - t[Dr5,C5]
+   - 500 d_Dr5_C1_C5_D0 >= -499.7005962532795
+ Drone_retrieval_time_Dr5_C1_C5_C2: - t[Tr5,C1] + t[Tr5,C2]
+   + 500 d_Dr5_C1_C5_C2 <= 500.073669660885
+ Drone_retrieval_time_Dr5_C1_C5_C2: t[Dr5,C2] - t[Dr5,C5]
+   - 500 d_Dr5_C1_C5_C2 >= -499.8962707210397
+ Drone_retrieval_time_Dr5_C1_C5_C3: - t[Tr5,C1] + t[Tr5,C3]
+   + 500 d_Dr5_C1_C5_C3 <= 500.1314462114664
+ Drone_retrieval_time_Dr5_C1_C5_C3: t[Dr5,C3] - t[Dr5,C5]
+   - 500 d_Dr5_C1_C5_C3 >= -499.8370029223045
+ Drone_retrieval_time_Dr5_C1_C5_C4: - t[Tr5,C1] + t[Tr5,C4]
+   + 500 d_Dr5_C1_C5_C4 <= 500.3310839290079
+ Drone_retrieval_time_Dr5_C1_C5_C4: t[Dr5,C4] - t[Dr5,C5]
+   - 500 d_Dr5_C1_C5_C4 >= -499.6688338696105
+ Drone_retrieval_time_Dr5_C2_D0_C1: t[Tr5,C1] - t[Tr5,C2]
+   + 500 d_Dr5_C2_D0_C1 <= 500.073669660885
+ Drone_retrieval_time_Dr5_C2_D0_C1: - t[Dr5,D0] + t[Dr5,C1]
+   - 500 d_Dr5_C2_D0_C1 >= -499.6827746027463
+ Drone_retrieval_time_Dr5_C2_D0_C3: - t[Tr5,C2] + t[Tr5,C3]
+   + 500 d_Dr5_C2_D0_C3 <= 500.0756353757125
+ Drone_retrieval_time_Dr5_C2_D0_C3: - t[Dr5,D0] + t[Dr5,C3]
+   - 500 d_Dr5_C2_D0_C3 >= -499.6003759162863
+ Drone_retrieval_time_Dr5_C2_D0_C4: - t[Tr5,C2] + t[Tr5,C4]
+   + 500 d_Dr5_C2_D0_C4 <= 500.3681072650463
+ Drone_retrieval_time_Dr5_C2_D0_C4: - t[Dr5,D0] + t[Dr5,C4]
+   - 500 d_Dr5_C2_D0_C4 >= -499.8100140148426
+ Drone_retrieval_time_Dr5_C2_D0_C5: - t[Tr5,C2] + t[Tr5,C5]
+   + 500 d_Dr5_C2_D0_C5 <= 500.1037292789603
+ Drone_retrieval_time_Dr5_C2_D0_C5: - t[Dr5,D0] + t[Dr5,C5]
+   - 500 d_Dr5_C2_D0_C5 >= -499.7005962532795
+ Drone_retrieval_time_Dr5_C2_C1_D0: t[Tr5,D0] - t[Tr5,C2]
+   + 500 d_Dr5_C2_C1_D0 <= 500.3821459184115
+ Drone_retrieval_time_Dr5_C2_C1_D0: t[Dr5,D0] - t[Dr5,C1]
+   - 500 d_Dr5_C2_C1_D0 >= -499.6827746027463
+ Drone_retrieval_time_Dr5_C2_C1_C3: - t[Tr5,C2] + t[Tr5,C3]
+   + 500 d_Dr5_C2_C1_C3 <= 500.0756353757125
+ Drone_retrieval_time_Dr5_C2_C1_C3: - t[Dr5,C1] + t[Dr5,C3]
+   - 500 d_Dr5_C2_C1_C3 >= -499.8685537885336
+ Drone_retrieval_time_Dr5_C2_C1_C4: - t[Tr5,C2] + t[Tr5,C4]
+   + 500 d_Dr5_C2_C1_C4 <= 500.3681072650463
+ Drone_retrieval_time_Dr5_C2_C1_C4: - t[Dr5,C1] + t[Dr5,C4]
+   - 500 d_Dr5_C2_C1_C4 >= -499.6689160709921
+ Drone_retrieval_time_Dr5_C2_C1_C5: - t[Tr5,C2] + t[Tr5,C5]
+   + 500 d_Dr5_C2_C1_C5 <= 500.1037292789603
+ Drone_retrieval_time_Dr5_C2_C1_C5: - t[Dr5,C1] + t[Dr5,C5]
+   - 500 d_Dr5_C2_C1_C5 >= -499.9682838028799
+ Drone_retrieval_time_Dr5_C2_C3_D0: t[Tr5,D0] - t[Tr5,C2]
+   + 500 d_Dr5_C2_C3_D0 <= 500.3821459184115
+ Drone_retrieval_time_Dr5_C2_C3_D0: t[Dr5,D0] - t[Dr5,C3]
+   - 500 d_Dr5_C2_C3_D0 >= -499.6003759162863
+ Drone_retrieval_time_Dr5_C2_C3_C1: t[Tr5,C1] - t[Tr5,C2]
+   + 500 d_Dr5_C2_C3_C1 <= 500.073669660885
+ Drone_retrieval_time_Dr5_C2_C3_C1: t[Dr5,C1] - t[Dr5,C3]
+   - 500 d_Dr5_C2_C3_C1 >= -499.8685537885336
+ Drone_retrieval_time_Dr5_C2_C3_C4: - t[Tr5,C2] + t[Tr5,C4]
+   + 500 d_Dr5_C2_C3_C4 <= 500.3681072650463
+ Drone_retrieval_time_Dr5_C2_C3_C4: - t[Dr5,C3] + t[Dr5,C4]
+   - 500 d_Dr5_C2_C3_C4 >= -499.6522362224578
+ Drone_retrieval_time_Dr5_C2_C3_C5: - t[Tr5,C2] + t[Tr5,C5]
+   + 500 d_Dr5_C2_C3_C5 <= 500.1037292789603
+ Drone_retrieval_time_Dr5_C2_C3_C5: - t[Dr5,C3] + t[Dr5,C5]
+   - 500 d_Dr5_C2_C3_C5 >= -499.8370029223045
+ Drone_retrieval_time_Dr5_C2_C4_D0: t[Tr5,D0] - t[Tr5,C2]
+   + 500 d_Dr5_C2_C4_D0 <= 500.3821459184115
+ Drone_retrieval_time_Dr5_C2_C4_D0: t[Dr5,D0] - t[Dr5,C4]
+   - 500 d_Dr5_C2_C4_D0 >= -499.8100140148426
+ Drone_retrieval_time_Dr5_C2_C4_C1: t[Tr5,C1] - t[Tr5,C2]
+   + 500 d_Dr5_C2_C4_C1 <= 500.073669660885
+ Drone_retrieval_time_Dr5_C2_C4_C1: t[Dr5,C1] - t[Dr5,C4]
+   - 500 d_Dr5_C2_C4_C1 >= -499.6689160709921
+ Drone_retrieval_time_Dr5_C2_C4_C3: - t[Tr5,C2] + t[Tr5,C3]
+   + 500 d_Dr5_C2_C4_C3 <= 500.0756353757125
+ Drone_retrieval_time_Dr5_C2_C4_C3: t[Dr5,C3] - t[Dr5,C4]
+   - 500 d_Dr5_C2_C4_C3 >= -499.6522362224578
+ Drone_retrieval_time_Dr5_C2_C4_C5: - t[Tr5,C2] + t[Tr5,C5]
+   + 500 d_Dr5_C2_C4_C5 <= 500.1037292789603
+ Drone_retrieval_time_Dr5_C2_C4_C5: - t[Dr5,C4] + t[Dr5,C5]
+   - 500 d_Dr5_C2_C4_C5 >= -499.6688338696105
+ Drone_retrieval_time_Dr5_C2_C5_D0: t[Tr5,D0] - t[Tr5,C2]
+   + 500 d_Dr5_C2_C5_D0 <= 500.3821459184115
+ Drone_retrieval_time_Dr5_C2_C5_D0: t[Dr5,D0] - t[Dr5,C5]
+   - 500 d_Dr5_C2_C5_D0 >= -499.7005962532795
+ Drone_retrieval_time_Dr5_C2_C5_C1: t[Tr5,C1] - t[Tr5,C2]
+   + 500 d_Dr5_C2_C5_C1 <= 500.073669660885
+ Drone_retrieval_time_Dr5_C2_C5_C1: t[Dr5,C1] - t[Dr5,C5]
+   - 500 d_Dr5_C2_C5_C1 >= -499.9682838028799
+ Drone_retrieval_time_Dr5_C2_C5_C3: - t[Tr5,C2] + t[Tr5,C3]
+   + 500 d_Dr5_C2_C5_C3 <= 500.0756353757125
+ Drone_retrieval_time_Dr5_C2_C5_C3: t[Dr5,C3] - t[Dr5,C5]
+   - 500 d_Dr5_C2_C5_C3 >= -499.8370029223045
+ Drone_retrieval_time_Dr5_C2_C5_C4: - t[Tr5,C2] + t[Tr5,C4]
+   + 500 d_Dr5_C2_C5_C4 <= 500.3681072650463
+ Drone_retrieval_time_Dr5_C2_C5_C4: t[Dr5,C4] - t[Dr5,C5]
+   - 500 d_Dr5_C2_C5_C4 >= -499.6688338696105
+ Drone_retrieval_time_Dr5_C3_D0_C1: t[Tr5,C1] - t[Tr5,C3]
+   + 500 d_Dr5_C3_D0_C1 <= 500.1314462114664
+ Drone_retrieval_time_Dr5_C3_D0_C1: - t[Dr5,D0] + t[Dr5,C1]
+   - 500 d_Dr5_C3_D0_C1 >= -499.6827746027463
+ Drone_retrieval_time_Dr5_C3_D0_C2: t[Tr5,C2] - t[Tr5,C3]
+   + 500 d_Dr5_C3_D0_C2 <= 500.0756353757125
+ Drone_retrieval_time_Dr5_C3_D0_C2: - t[Dr5,D0] + t[Dr5,C2]
+   - 500 d_Dr5_C3_D0_C2 >= -499.6178540815885
+ Drone_retrieval_time_Dr5_C3_D0_C4: - t[Tr5,C3] + t[Tr5,C4]
+   + 500 d_Dr5_C3_D0_C4 <= 500.3477637775422
+ Drone_retrieval_time_Dr5_C3_D0_C4: - t[Dr5,D0] + t[Dr5,C4]
+   - 500 d_Dr5_C3_D0_C4 >= -499.8100140148426
+ Drone_retrieval_time_Dr5_C3_D0_C5: - t[Tr5,C3] + t[Tr5,C5]
+   + 500 d_Dr5_C3_D0_C5 <= 500.1629970776955
+ Drone_retrieval_time_Dr5_C3_D0_C5: - t[Dr5,D0] + t[Dr5,C5]
+   - 500 d_Dr5_C3_D0_C5 >= -499.7005962532795
+ Drone_retrieval_time_Dr5_C3_C1_D0: t[Tr5,D0] - t[Tr5,C3]
+   + 500 d_Dr5_C3_C1_D0 <= 500.3996240837137
+ Drone_retrieval_time_Dr5_C3_C1_D0: t[Dr5,D0] - t[Dr5,C1]
+   - 500 d_Dr5_C3_C1_D0 >= -499.6827746027463
+ Drone_retrieval_time_Dr5_C3_C1_C2: t[Tr5,C2] - t[Tr5,C3]
+   + 500 d_Dr5_C3_C1_C2 <= 500.0756353757125
+ Drone_retrieval_time_Dr5_C3_C1_C2: - t[Dr5,C1] + t[Dr5,C2]
+   - 500 d_Dr5_C3_C1_C2 >= -499.926330339115
+ Drone_retrieval_time_Dr5_C3_C1_C4: - t[Tr5,C3] + t[Tr5,C4]
+   + 500 d_Dr5_C3_C1_C4 <= 500.3477637775422
+ Drone_retrieval_time_Dr5_C3_C1_C4: - t[Dr5,C1] + t[Dr5,C4]
+   - 500 d_Dr5_C3_C1_C4 >= -499.6689160709921
+ Drone_retrieval_time_Dr5_C3_C1_C5: - t[Tr5,C3] + t[Tr5,C5]
+   + 500 d_Dr5_C3_C1_C5 <= 500.1629970776955
+ Drone_retrieval_time_Dr5_C3_C1_C5: - t[Dr5,C1] + t[Dr5,C5]
+   - 500 d_Dr5_C3_C1_C5 >= -499.9682838028799
+ Drone_retrieval_time_Dr5_C3_C2_D0: t[Tr5,D0] - t[Tr5,C3]
+   + 500 d_Dr5_C3_C2_D0 <= 500.3996240837137
+ Drone_retrieval_time_Dr5_C3_C2_D0: t[Dr5,D0] - t[Dr5,C2]
+   - 500 d_Dr5_C3_C2_D0 >= -499.6178540815885
+ Drone_retrieval_time_Dr5_C3_C2_C1: t[Tr5,C1] - t[Tr5,C3]
+   + 500 d_Dr5_C3_C2_C1 <= 500.1314462114664
+ Drone_retrieval_time_Dr5_C3_C2_C1: t[Dr5,C1] - t[Dr5,C2]
+   - 500 d_Dr5_C3_C2_C1 >= -499.926330339115
+ Drone_retrieval_time_Dr5_C3_C2_C4: - t[Tr5,C3] + t[Tr5,C4]
+   + 500 d_Dr5_C3_C2_C4 <= 500.3477637775422
+ Drone_retrieval_time_Dr5_C3_C2_C4: - t[Dr5,C2] + t[Dr5,C4]
+   - 500 d_Dr5_C3_C2_C4 >= -499.6318927349537
+ Drone_retrieval_time_Dr5_C3_C2_C5: - t[Tr5,C3] + t[Tr5,C5]
+   + 500 d_Dr5_C3_C2_C5 <= 500.1629970776955
+ Drone_retrieval_time_Dr5_C3_C2_C5: - t[Dr5,C2] + t[Dr5,C5]
+   - 500 d_Dr5_C3_C2_C5 >= -499.8962707210397
+ Drone_retrieval_time_Dr5_C3_C4_D0: t[Tr5,D0] - t[Tr5,C3]
+   + 500 d_Dr5_C3_C4_D0 <= 500.3996240837137
+ Drone_retrieval_time_Dr5_C3_C4_D0: t[Dr5,D0] - t[Dr5,C4]
+   - 500 d_Dr5_C3_C4_D0 >= -499.8100140148426
+ Drone_retrieval_time_Dr5_C3_C4_C1: t[Tr5,C1] - t[Tr5,C3]
+   + 500 d_Dr5_C3_C4_C1 <= 500.1314462114664
+ Drone_retrieval_time_Dr5_C3_C4_C1: t[Dr5,C1] - t[Dr5,C4]
+   - 500 d_Dr5_C3_C4_C1 >= -499.6689160709921
+ Drone_retrieval_time_Dr5_C3_C4_C2: t[Tr5,C2] - t[Tr5,C3]
+   + 500 d_Dr5_C3_C4_C2 <= 500.0756353757125
+ Drone_retrieval_time_Dr5_C3_C4_C2: t[Dr5,C2] - t[Dr5,C4]
+   - 500 d_Dr5_C3_C4_C2 >= -499.6318927349537
+ Drone_retrieval_time_Dr5_C3_C4_C5: - t[Tr5,C3] + t[Tr5,C5]
+   + 500 d_Dr5_C3_C4_C5 <= 500.1629970776955
+ Drone_retrieval_time_Dr5_C3_C4_C5: - t[Dr5,C4] + t[Dr5,C5]
+   - 500 d_Dr5_C3_C4_C5 >= -499.6688338696105
+ Drone_retrieval_time_Dr5_C3_C5_D0: t[Tr5,D0] - t[Tr5,C3]
+   + 500 d_Dr5_C3_C5_D0 <= 500.3996240837137
+ Drone_retrieval_time_Dr5_C3_C5_D0: t[Dr5,D0] - t[Dr5,C5]
+   - 500 d_Dr5_C3_C5_D0 >= -499.7005962532795
+ Drone_retrieval_time_Dr5_C3_C5_C1: t[Tr5,C1] - t[Tr5,C3]
+   + 500 d_Dr5_C3_C5_C1 <= 500.1314462114664
+ Drone_retrieval_time_Dr5_C3_C5_C1: t[Dr5,C1] - t[Dr5,C5]
+   - 500 d_Dr5_C3_C5_C1 >= -499.9682838028799
+ Drone_retrieval_time_Dr5_C3_C5_C2: t[Tr5,C2] - t[Tr5,C3]
+   + 500 d_Dr5_C3_C5_C2 <= 500.0756353757125
+ Drone_retrieval_time_Dr5_C3_C5_C2: t[Dr5,C2] - t[Dr5,C5]
+   - 500 d_Dr5_C3_C5_C2 >= -499.8962707210397
+ Drone_retrieval_time_Dr5_C3_C5_C4: - t[Tr5,C3] + t[Tr5,C4]
+   + 500 d_Dr5_C3_C5_C4 <= 500.3477637775422
+ Drone_retrieval_time_Dr5_C3_C5_C4: t[Dr5,C4] - t[Dr5,C5]
+   - 500 d_Dr5_C3_C5_C4 >= -499.6688338696105
+ Drone_retrieval_time_Dr5_C4_D0_C1: t[Tr5,C1] - t[Tr5,C4]
+   + 500 d_Dr5_C4_D0_C1 <= 500.3310839290079
+ Drone_retrieval_time_Dr5_C4_D0_C1: - t[Dr5,D0] + t[Dr5,C1]
+   - 500 d_Dr5_C4_D0_C1 >= -499.6827746027463
+ Drone_retrieval_time_Dr5_C4_D0_C2: t[Tr5,C2] - t[Tr5,C4]
+   + 500 d_Dr5_C4_D0_C2 <= 500.3681072650463
+ Drone_retrieval_time_Dr5_C4_D0_C2: - t[Dr5,D0] + t[Dr5,C2]
+   - 500 d_Dr5_C4_D0_C2 >= -499.6178540815885
+ Drone_retrieval_time_Dr5_C4_D0_C3: t[Tr5,C3] - t[Tr5,C4]
+   + 500 d_Dr5_C4_D0_C3 <= 500.3477637775422
+ Drone_retrieval_time_Dr5_C4_D0_C3: - t[Dr5,D0] + t[Dr5,C3]
+   - 500 d_Dr5_C4_D0_C3 >= -499.6003759162863
+ Drone_retrieval_time_Dr5_C4_D0_C5: - t[Tr5,C4] + t[Tr5,C5]
+   + 500 d_Dr5_C4_D0_C5 <= 500.3311661303895
+ Drone_retrieval_time_Dr5_C4_D0_C5: - t[Dr5,D0] + t[Dr5,C5]
+   - 500 d_Dr5_C4_D0_C5 >= -499.7005962532795
+ Drone_retrieval_time_Dr5_C4_C1_D0: t[Tr5,D0] - t[Tr5,C4]
+   + 500 d_Dr5_C4_C1_D0 <= 500.1899859851574
+ Drone_retrieval_time_Dr5_C4_C1_D0: t[Dr5,D0] - t[Dr5,C1]
+   - 500 d_Dr5_C4_C1_D0 >= -499.6827746027463
+ Drone_retrieval_time_Dr5_C4_C1_C2: t[Tr5,C2] - t[Tr5,C4]
+   + 500 d_Dr5_C4_C1_C2 <= 500.3681072650463
+ Drone_retrieval_time_Dr5_C4_C1_C2: - t[Dr5,C1] + t[Dr5,C2]
+   - 500 d_Dr5_C4_C1_C2 >= -499.926330339115
+ Drone_retrieval_time_Dr5_C4_C1_C3: t[Tr5,C3] - t[Tr5,C4]
+   + 500 d_Dr5_C4_C1_C3 <= 500.3477637775422
+ Drone_retrieval_time_Dr5_C4_C1_C3: - t[Dr5,C1] + t[Dr5,C3]
+   - 500 d_Dr5_C4_C1_C3 >= -499.8685537885336
+ Drone_retrieval_time_Dr5_C4_C1_C5: - t[Tr5,C4] + t[Tr5,C5]
+   + 500 d_Dr5_C4_C1_C5 <= 500.3311661303895
+ Drone_retrieval_time_Dr5_C4_C1_C5: - t[Dr5,C1] + t[Dr5,C5]
+   - 500 d_Dr5_C4_C1_C5 >= -499.9682838028799
+ Drone_retrieval_time_Dr5_C4_C2_D0: t[Tr5,D0] - t[Tr5,C4]
+   + 500 d_Dr5_C4_C2_D0 <= 500.1899859851574
+ Drone_retrieval_time_Dr5_C4_C2_D0: t[Dr5,D0] - t[Dr5,C2]
+   - 500 d_Dr5_C4_C2_D0 >= -499.6178540815885
+ Drone_retrieval_time_Dr5_C4_C2_C1: t[Tr5,C1] - t[Tr5,C4]
+   + 500 d_Dr5_C4_C2_C1 <= 500.3310839290079
+ Drone_retrieval_time_Dr5_C4_C2_C1: t[Dr5,C1] - t[Dr5,C2]
+   - 500 d_Dr5_C4_C2_C1 >= -499.926330339115
+ Drone_retrieval_time_Dr5_C4_C2_C3: t[Tr5,C3] - t[Tr5,C4]
+   + 500 d_Dr5_C4_C2_C3 <= 500.3477637775422
+ Drone_retrieval_time_Dr5_C4_C2_C3: - t[Dr5,C2] + t[Dr5,C3]
+   - 500 d_Dr5_C4_C2_C3 >= -499.9243646242875
+ Drone_retrieval_time_Dr5_C4_C2_C5: - t[Tr5,C4] + t[Tr5,C5]
+   + 500 d_Dr5_C4_C2_C5 <= 500.3311661303895
+ Drone_retrieval_time_Dr5_C4_C2_C5: - t[Dr5,C2] + t[Dr5,C5]
+   - 500 d_Dr5_C4_C2_C5 >= -499.8962707210397
+ Drone_retrieval_time_Dr5_C4_C3_D0: t[Tr5,D0] - t[Tr5,C4]
+   + 500 d_Dr5_C4_C3_D0 <= 500.1899859851574
+ Drone_retrieval_time_Dr5_C4_C3_D0: t[Dr5,D0] - t[Dr5,C3]
+   - 500 d_Dr5_C4_C3_D0 >= -499.6003759162863
+ Drone_retrieval_time_Dr5_C4_C3_C1: t[Tr5,C1] - t[Tr5,C4]
+   + 500 d_Dr5_C4_C3_C1 <= 500.3310839290079
+ Drone_retrieval_time_Dr5_C4_C3_C1: t[Dr5,C1] - t[Dr5,C3]
+   - 500 d_Dr5_C4_C3_C1 >= -499.8685537885336
+ Drone_retrieval_time_Dr5_C4_C3_C2: t[Tr5,C2] - t[Tr5,C4]
+   + 500 d_Dr5_C4_C3_C2 <= 500.3681072650463
+ Drone_retrieval_time_Dr5_C4_C3_C2: t[Dr5,C2] - t[Dr5,C3]
+   - 500 d_Dr5_C4_C3_C2 >= -499.9243646242875
+ Drone_retrieval_time_Dr5_C4_C3_C5: - t[Tr5,C4] + t[Tr5,C5]
+   + 500 d_Dr5_C4_C3_C5 <= 500.3311661303895
+ Drone_retrieval_time_Dr5_C4_C3_C5: - t[Dr5,C3] + t[Dr5,C5]
+   - 500 d_Dr5_C4_C3_C5 >= -499.8370029223045
+ Drone_retrieval_time_Dr5_C4_C5_D0: t[Tr5,D0] - t[Tr5,C4]
+   + 500 d_Dr5_C4_C5_D0 <= 500.1899859851574
+ Drone_retrieval_time_Dr5_C4_C5_D0: t[Dr5,D0] - t[Dr5,C5]
+   - 500 d_Dr5_C4_C5_D0 >= -499.7005962532795
+ Drone_retrieval_time_Dr5_C4_C5_C1: t[Tr5,C1] - t[Tr5,C4]
+   + 500 d_Dr5_C4_C5_C1 <= 500.3310839290079
+ Drone_retrieval_time_Dr5_C4_C5_C1: t[Dr5,C1] - t[Dr5,C5]
+   - 500 d_Dr5_C4_C5_C1 >= -499.9682838028799
+ Drone_retrieval_time_Dr5_C4_C5_C2: t[Tr5,C2] - t[Tr5,C4]
+   + 500 d_Dr5_C4_C5_C2 <= 500.3681072650463
+ Drone_retrieval_time_Dr5_C4_C5_C2: t[Dr5,C2] - t[Dr5,C5]
+   - 500 d_Dr5_C4_C5_C2 >= -499.8962707210397
+ Drone_retrieval_time_Dr5_C4_C5_C3: t[Tr5,C3] - t[Tr5,C4]
+   + 500 d_Dr5_C4_C5_C3 <= 500.3477637775422
+ Drone_retrieval_time_Dr5_C4_C5_C3: t[Dr5,C3] - t[Dr5,C5]
+   - 500 d_Dr5_C4_C5_C3 >= -499.8370029223045
+ Drone_retrieval_time_Dr5_C5_D0_C1: t[Tr5,C1] - t[Tr5,C5]
+   + 500 d_Dr5_C5_D0_C1 <= 500.0317161971201
+ Drone_retrieval_time_Dr5_C5_D0_C1: - t[Dr5,D0] + t[Dr5,C1]
+   - 500 d_Dr5_C5_D0_C1 >= -499.6827746027463
+ Drone_retrieval_time_Dr5_C5_D0_C2: t[Tr5,C2] - t[Tr5,C5]
+   + 500 d_Dr5_C5_D0_C2 <= 500.1037292789603
+ Drone_retrieval_time_Dr5_C5_D0_C2: - t[Dr5,D0] + t[Dr5,C2]
+   - 500 d_Dr5_C5_D0_C2 >= -499.6178540815885
+ Drone_retrieval_time_Dr5_C5_D0_C3: t[Tr5,C3] - t[Tr5,C5]
+   + 500 d_Dr5_C5_D0_C3 <= 500.1629970776955
+ Drone_retrieval_time_Dr5_C5_D0_C3: - t[Dr5,D0] + t[Dr5,C3]
+   - 500 d_Dr5_C5_D0_C3 >= -499.6003759162863
+ Drone_retrieval_time_Dr5_C5_D0_C4: t[Tr5,C4] - t[Tr5,C5]
+   + 500 d_Dr5_C5_D0_C4 <= 500.3311661303895
+ Drone_retrieval_time_Dr5_C5_D0_C4: - t[Dr5,D0] + t[Dr5,C4]
+   - 500 d_Dr5_C5_D0_C4 >= -499.8100140148426
+ Drone_retrieval_time_Dr5_C5_C1_D0: t[Tr5,D0] - t[Tr5,C5]
+   + 500 d_Dr5_C5_C1_D0 <= 500.2994037467205
+ Drone_retrieval_time_Dr5_C5_C1_D0: t[Dr5,D0] - t[Dr5,C1]
+   - 500 d_Dr5_C5_C1_D0 >= -499.6827746027463
+ Drone_retrieval_time_Dr5_C5_C1_C2: t[Tr5,C2] - t[Tr5,C5]
+   + 500 d_Dr5_C5_C1_C2 <= 500.1037292789603
+ Drone_retrieval_time_Dr5_C5_C1_C2: - t[Dr5,C1] + t[Dr5,C2]
+   - 500 d_Dr5_C5_C1_C2 >= -499.926330339115
+ Drone_retrieval_time_Dr5_C5_C1_C3: t[Tr5,C3] - t[Tr5,C5]
+   + 500 d_Dr5_C5_C1_C3 <= 500.1629970776955
+ Drone_retrieval_time_Dr5_C5_C1_C3: - t[Dr5,C1] + t[Dr5,C3]
+   - 500 d_Dr5_C5_C1_C3 >= -499.8685537885336
+ Drone_retrieval_time_Dr5_C5_C1_C4: t[Tr5,C4] - t[Tr5,C5]
+   + 500 d_Dr5_C5_C1_C4 <= 500.3311661303895
+ Drone_retrieval_time_Dr5_C5_C1_C4: - t[Dr5,C1] + t[Dr5,C4]
+   - 500 d_Dr5_C5_C1_C4 >= -499.6689160709921
+ Drone_retrieval_time_Dr5_C5_C2_D0: t[Tr5,D0] - t[Tr5,C5]
+   + 500 d_Dr5_C5_C2_D0 <= 500.2994037467205
+ Drone_retrieval_time_Dr5_C5_C2_D0: t[Dr5,D0] - t[Dr5,C2]
+   - 500 d_Dr5_C5_C2_D0 >= -499.6178540815885
+ Drone_retrieval_time_Dr5_C5_C2_C1: t[Tr5,C1] - t[Tr5,C5]
+   + 500 d_Dr5_C5_C2_C1 <= 500.0317161971201
+ Drone_retrieval_time_Dr5_C5_C2_C1: t[Dr5,C1] - t[Dr5,C2]
+   - 500 d_Dr5_C5_C2_C1 >= -499.926330339115
+ Drone_retrieval_time_Dr5_C5_C2_C3: t[Tr5,C3] - t[Tr5,C5]
+   + 500 d_Dr5_C5_C2_C3 <= 500.1629970776955
+ Drone_retrieval_time_Dr5_C5_C2_C3: - t[Dr5,C2] + t[Dr5,C3]
+   - 500 d_Dr5_C5_C2_C3 >= -499.9243646242875
+ Drone_retrieval_time_Dr5_C5_C2_C4: t[Tr5,C4] - t[Tr5,C5]
+   + 500 d_Dr5_C5_C2_C4 <= 500.3311661303895
+ Drone_retrieval_time_Dr5_C5_C2_C4: - t[Dr5,C2] + t[Dr5,C4]
+   - 500 d_Dr5_C5_C2_C4 >= -499.6318927349537
+ Drone_retrieval_time_Dr5_C5_C3_D0: t[Tr5,D0] - t[Tr5,C5]
+   + 500 d_Dr5_C5_C3_D0 <= 500.2994037467205
+ Drone_retrieval_time_Dr5_C5_C3_D0: t[Dr5,D0] - t[Dr5,C3]
+   - 500 d_Dr5_C5_C3_D0 >= -499.6003759162863
+ Drone_retrieval_time_Dr5_C5_C3_C1: t[Tr5,C1] - t[Tr5,C5]
+   + 500 d_Dr5_C5_C3_C1 <= 500.0317161971201
+ Drone_retrieval_time_Dr5_C5_C3_C1: t[Dr5,C1] - t[Dr5,C3]
+   - 500 d_Dr5_C5_C3_C1 >= -499.8685537885336
+ Drone_retrieval_time_Dr5_C5_C3_C2: t[Tr5,C2] - t[Tr5,C5]
+   + 500 d_Dr5_C5_C3_C2 <= 500.1037292789603
+ Drone_retrieval_time_Dr5_C5_C3_C2: t[Dr5,C2] - t[Dr5,C3]
+   - 500 d_Dr5_C5_C3_C2 >= -499.9243646242875
+ Drone_retrieval_time_Dr5_C5_C3_C4: t[Tr5,C4] - t[Tr5,C5]
+   + 500 d_Dr5_C5_C3_C4 <= 500.3311661303895
+ Drone_retrieval_time_Dr5_C5_C3_C4: - t[Dr5,C3] + t[Dr5,C4]
+   - 500 d_Dr5_C5_C3_C4 >= -499.6522362224578
+ Drone_retrieval_time_Dr5_C5_C4_D0: t[Tr5,D0] - t[Tr5,C5]
+   + 500 d_Dr5_C5_C4_D0 <= 500.2994037467205
+ Drone_retrieval_time_Dr5_C5_C4_D0: t[Dr5,D0] - t[Dr5,C4]
+   - 500 d_Dr5_C5_C4_D0 >= -499.8100140148426
+ Drone_retrieval_time_Dr5_C5_C4_C1: t[Tr5,C1] - t[Tr5,C5]
+   + 500 d_Dr5_C5_C4_C1 <= 500.0317161971201
+ Drone_retrieval_time_Dr5_C5_C4_C1: t[Dr5,C1] - t[Dr5,C4]
+   - 500 d_Dr5_C5_C4_C1 >= -499.6689160709921
+ Drone_retrieval_time_Dr5_C5_C4_C2: t[Tr5,C2] - t[Tr5,C5]
+   + 500 d_Dr5_C5_C4_C2 <= 500.1037292789603
+ Drone_retrieval_time_Dr5_C5_C4_C2: t[Dr5,C2] - t[Dr5,C4]
+   - 500 d_Dr5_C5_C4_C2 >= -499.6318927349537
+ Drone_retrieval_time_Dr5_C5_C4_C3: t[Tr5,C3] - t[Tr5,C5]
+   + 500 d_Dr5_C5_C4_C3 <= 500.1629970776955
+ Drone_retrieval_time_Dr5_C5_C4_C3: t[Dr5,C3] - t[Dr5,C4]
+   - 500 d_Dr5_C5_C4_C3 >= -499.6522362224578
+ Drone_retrieval_time_Dr6_D0_C1_C2: - t[Tr6,D0] + t[Tr6,C2]
+   + 500 d_Dr6_D0_C1_C2 <= 500.3821459184115
+ Drone_retrieval_time_Dr6_D0_C1_C2: - t[Dr6,C1] + t[Dr6,C2]
+   - 500 d_Dr6_D0_C1_C2 >= -499.926330339115
+ Drone_retrieval_time_Dr6_D0_C1_C3: - t[Tr6,D0] + t[Tr6,C3]
+   + 500 d_Dr6_D0_C1_C3 <= 500.3996240837137
+ Drone_retrieval_time_Dr6_D0_C1_C3: - t[Dr6,C1] + t[Dr6,C3]
+   - 500 d_Dr6_D0_C1_C3 >= -499.8685537885336
+ Drone_retrieval_time_Dr6_D0_C1_C4: - t[Tr6,D0] + t[Tr6,C4]
+   + 500 d_Dr6_D0_C1_C4 <= 500.1899859851574
+ Drone_retrieval_time_Dr6_D0_C1_C4: - t[Dr6,C1] + t[Dr6,C4]
+   - 500 d_Dr6_D0_C1_C4 >= -499.6689160709921
+ Drone_retrieval_time_Dr6_D0_C1_C5: - t[Tr6,D0] + t[Tr6,C5]
+   + 500 d_Dr6_D0_C1_C5 <= 500.2994037467205
+ Drone_retrieval_time_Dr6_D0_C1_C5: - t[Dr6,C1] + t[Dr6,C5]
+   - 500 d_Dr6_D0_C1_C5 >= -499.9682838028799
+ Drone_retrieval_time_Dr6_D0_C2_C1: - t[Tr6,D0] + t[Tr6,C1]
+   + 500 d_Dr6_D0_C2_C1 <= 500.3172253972537
+ Drone_retrieval_time_Dr6_D0_C2_C1: t[Dr6,C1] - t[Dr6,C2]
+   - 500 d_Dr6_D0_C2_C1 >= -499.926330339115
+ Drone_retrieval_time_Dr6_D0_C2_C3: - t[Tr6,D0] + t[Tr6,C3]
+   + 500 d_Dr6_D0_C2_C3 <= 500.3996240837137
+ Drone_retrieval_time_Dr6_D0_C2_C3: - t[Dr6,C2] + t[Dr6,C3]
+   - 500 d_Dr6_D0_C2_C3 >= -499.9243646242875
+ Drone_retrieval_time_Dr6_D0_C2_C4: - t[Tr6,D0] + t[Tr6,C4]
+   + 500 d_Dr6_D0_C2_C4 <= 500.1899859851574
+ Drone_retrieval_time_Dr6_D0_C2_C4: - t[Dr6,C2] + t[Dr6,C4]
+   - 500 d_Dr6_D0_C2_C4 >= -499.6318927349537
+ Drone_retrieval_time_Dr6_D0_C2_C5: - t[Tr6,D0] + t[Tr6,C5]
+   + 500 d_Dr6_D0_C2_C5 <= 500.2994037467205
+ Drone_retrieval_time_Dr6_D0_C2_C5: - t[Dr6,C2] + t[Dr6,C5]
+   - 500 d_Dr6_D0_C2_C5 >= -499.8962707210397
+ Drone_retrieval_time_Dr6_D0_C3_C1: - t[Tr6,D0] + t[Tr6,C1]
+   + 500 d_Dr6_D0_C3_C1 <= 500.3172253972537
+ Drone_retrieval_time_Dr6_D0_C3_C1: t[Dr6,C1] - t[Dr6,C3]
+   - 500 d_Dr6_D0_C3_C1 >= -499.8685537885336
+ Drone_retrieval_time_Dr6_D0_C3_C2: - t[Tr6,D0] + t[Tr6,C2]
+   + 500 d_Dr6_D0_C3_C2 <= 500.3821459184115
+ Drone_retrieval_time_Dr6_D0_C3_C2: t[Dr6,C2] - t[Dr6,C3]
+   - 500 d_Dr6_D0_C3_C2 >= -499.9243646242875
+ Drone_retrieval_time_Dr6_D0_C3_C4: - t[Tr6,D0] + t[Tr6,C4]
+   + 500 d_Dr6_D0_C3_C4 <= 500.1899859851574
+ Drone_retrieval_time_Dr6_D0_C3_C4: - t[Dr6,C3] + t[Dr6,C4]
+   - 500 d_Dr6_D0_C3_C4 >= -499.6522362224578
+ Drone_retrieval_time_Dr6_D0_C3_C5: - t[Tr6,D0] + t[Tr6,C5]
+   + 500 d_Dr6_D0_C3_C5 <= 500.2994037467205
+ Drone_retrieval_time_Dr6_D0_C3_C5: - t[Dr6,C3] + t[Dr6,C5]
+   - 500 d_Dr6_D0_C3_C5 >= -499.8370029223045
+ Drone_retrieval_time_Dr6_D0_C4_C1: - t[Tr6,D0] + t[Tr6,C1]
+   + 500 d_Dr6_D0_C4_C1 <= 500.3172253972537
+ Drone_retrieval_time_Dr6_D0_C4_C1: t[Dr6,C1] - t[Dr6,C4]
+   - 500 d_Dr6_D0_C4_C1 >= -499.6689160709921
+ Drone_retrieval_time_Dr6_D0_C4_C2: - t[Tr6,D0] + t[Tr6,C2]
+   + 500 d_Dr6_D0_C4_C2 <= 500.3821459184115
+ Drone_retrieval_time_Dr6_D0_C4_C2: t[Dr6,C2] - t[Dr6,C4]
+   - 500 d_Dr6_D0_C4_C2 >= -499.6318927349537
+ Drone_retrieval_time_Dr6_D0_C4_C3: - t[Tr6,D0] + t[Tr6,C3]
+   + 500 d_Dr6_D0_C4_C3 <= 500.3996240837137
+ Drone_retrieval_time_Dr6_D0_C4_C3: t[Dr6,C3] - t[Dr6,C4]
+   - 500 d_Dr6_D0_C4_C3 >= -499.6522362224578
+ Drone_retrieval_time_Dr6_D0_C4_C5: - t[Tr6,D0] + t[Tr6,C5]
+   + 500 d_Dr6_D0_C4_C5 <= 500.2994037467205
+ Drone_retrieval_time_Dr6_D0_C4_C5: - t[Dr6,C4] + t[Dr6,C5]
+   - 500 d_Dr6_D0_C4_C5 >= -499.6688338696105
+ Drone_retrieval_time_Dr6_D0_C5_C1: - t[Tr6,D0] + t[Tr6,C1]
+   + 500 d_Dr6_D0_C5_C1 <= 500.3172253972537
+ Drone_retrieval_time_Dr6_D0_C5_C1: t[Dr6,C1] - t[Dr6,C5]
+   - 500 d_Dr6_D0_C5_C1 >= -499.9682838028799
+ Drone_retrieval_time_Dr6_D0_C5_C2: - t[Tr6,D0] + t[Tr6,C2]
+   + 500 d_Dr6_D0_C5_C2 <= 500.3821459184115
+ Drone_retrieval_time_Dr6_D0_C5_C2: t[Dr6,C2] - t[Dr6,C5]
+   - 500 d_Dr6_D0_C5_C2 >= -499.8962707210397
+ Drone_retrieval_time_Dr6_D0_C5_C3: - t[Tr6,D0] + t[Tr6,C3]
+   + 500 d_Dr6_D0_C5_C3 <= 500.3996240837137
+ Drone_retrieval_time_Dr6_D0_C5_C3: t[Dr6,C3] - t[Dr6,C5]
+   - 500 d_Dr6_D0_C5_C3 >= -499.8370029223045
+ Drone_retrieval_time_Dr6_D0_C5_C4: - t[Tr6,D0] + t[Tr6,C4]
+   + 500 d_Dr6_D0_C5_C4 <= 500.1899859851574
+ Drone_retrieval_time_Dr6_D0_C5_C4: t[Dr6,C4] - t[Dr6,C5]
+   - 500 d_Dr6_D0_C5_C4 >= -499.6688338696105
+ Drone_retrieval_time_Dr6_C1_D0_C2: - t[Tr6,C1] + t[Tr6,C2]
+   + 500 d_Dr6_C1_D0_C2 <= 500.073669660885
+ Drone_retrieval_time_Dr6_C1_D0_C2: - t[Dr6,D0] + t[Dr6,C2]
+   - 500 d_Dr6_C1_D0_C2 >= -499.6178540815885
+ Drone_retrieval_time_Dr6_C1_D0_C3: - t[Tr6,C1] + t[Tr6,C3]
+   + 500 d_Dr6_C1_D0_C3 <= 500.1314462114664
+ Drone_retrieval_time_Dr6_C1_D0_C3: - t[Dr6,D0] + t[Dr6,C3]
+   - 500 d_Dr6_C1_D0_C3 >= -499.6003759162863
+ Drone_retrieval_time_Dr6_C1_D0_C4: - t[Tr6,C1] + t[Tr6,C4]
+   + 500 d_Dr6_C1_D0_C4 <= 500.3310839290079
+ Drone_retrieval_time_Dr6_C1_D0_C4: - t[Dr6,D0] + t[Dr6,C4]
+   - 500 d_Dr6_C1_D0_C4 >= -499.8100140148426
+ Drone_retrieval_time_Dr6_C1_D0_C5: - t[Tr6,C1] + t[Tr6,C5]
+   + 500 d_Dr6_C1_D0_C5 <= 500.0317161971201
+ Drone_retrieval_time_Dr6_C1_D0_C5: - t[Dr6,D0] + t[Dr6,C5]
+   - 500 d_Dr6_C1_D0_C5 >= -499.7005962532795
+ Drone_retrieval_time_Dr6_C1_C2_D0: t[Tr6,D0] - t[Tr6,C1]
+   + 500 d_Dr6_C1_C2_D0 <= 500.3172253972537
+ Drone_retrieval_time_Dr6_C1_C2_D0: t[Dr6,D0] - t[Dr6,C2]
+   - 500 d_Dr6_C1_C2_D0 >= -499.6178540815885
+ Drone_retrieval_time_Dr6_C1_C2_C3: - t[Tr6,C1] + t[Tr6,C3]
+   + 500 d_Dr6_C1_C2_C3 <= 500.1314462114664
+ Drone_retrieval_time_Dr6_C1_C2_C3: - t[Dr6,C2] + t[Dr6,C3]
+   - 500 d_Dr6_C1_C2_C3 >= -499.9243646242875
+ Drone_retrieval_time_Dr6_C1_C2_C4: - t[Tr6,C1] + t[Tr6,C4]
+   + 500 d_Dr6_C1_C2_C4 <= 500.3310839290079
+ Drone_retrieval_time_Dr6_C1_C2_C4: - t[Dr6,C2] + t[Dr6,C4]
+   - 500 d_Dr6_C1_C2_C4 >= -499.6318927349537
+ Drone_retrieval_time_Dr6_C1_C2_C5: - t[Tr6,C1] + t[Tr6,C5]
+   + 500 d_Dr6_C1_C2_C5 <= 500.0317161971201
+ Drone_retrieval_time_Dr6_C1_C2_C5: - t[Dr6,C2] + t[Dr6,C5]
+   - 500 d_Dr6_C1_C2_C5 >= -499.8962707210397
+ Drone_retrieval_time_Dr6_C1_C3_D0: t[Tr6,D0] - t[Tr6,C1]
+   + 500 d_Dr6_C1_C3_D0 <= 500.3172253972537
+ Drone_retrieval_time_Dr6_C1_C3_D0: t[Dr6,D0] - t[Dr6,C3]
+   - 500 d_Dr6_C1_C3_D0 >= -499.6003759162863
+ Drone_retrieval_time_Dr6_C1_C3_C2: - t[Tr6,C1] + t[Tr6,C2]
+   + 500 d_Dr6_C1_C3_C2 <= 500.073669660885
+ Drone_retrieval_time_Dr6_C1_C3_C2: t[Dr6,C2] - t[Dr6,C3]
+   - 500 d_Dr6_C1_C3_C2 >= -499.9243646242875
+ Drone_retrieval_time_Dr6_C1_C3_C4: - t[Tr6,C1] + t[Tr6,C4]
+   + 500 d_Dr6_C1_C3_C4 <= 500.3310839290079
+ Drone_retrieval_time_Dr6_C1_C3_C4: - t[Dr6,C3] + t[Dr6,C4]
+   - 500 d_Dr6_C1_C3_C4 >= -499.6522362224578
+ Drone_retrieval_time_Dr6_C1_C3_C5: - t[Tr6,C1] + t[Tr6,C5]
+   + 500 d_Dr6_C1_C3_C5 <= 500.0317161971201
+ Drone_retrieval_time_Dr6_C1_C3_C5: - t[Dr6,C3] + t[Dr6,C5]
+   - 500 d_Dr6_C1_C3_C5 >= -499.8370029223045
+ Drone_retrieval_time_Dr6_C1_C4_D0: t[Tr6,D0] - t[Tr6,C1]
+   + 500 d_Dr6_C1_C4_D0 <= 500.3172253972537
+ Drone_retrieval_time_Dr6_C1_C4_D0: t[Dr6,D0] - t[Dr6,C4]
+   - 500 d_Dr6_C1_C4_D0 >= -499.8100140148426
+ Drone_retrieval_time_Dr6_C1_C4_C2: - t[Tr6,C1] + t[Tr6,C2]
+   + 500 d_Dr6_C1_C4_C2 <= 500.073669660885
+ Drone_retrieval_time_Dr6_C1_C4_C2: t[Dr6,C2] - t[Dr6,C4]
+   - 500 d_Dr6_C1_C4_C2 >= -499.6318927349537
+ Drone_retrieval_time_Dr6_C1_C4_C3: - t[Tr6,C1] + t[Tr6,C3]
+   + 500 d_Dr6_C1_C4_C3 <= 500.1314462114664
+ Drone_retrieval_time_Dr6_C1_C4_C3: t[Dr6,C3] - t[Dr6,C4]
+   - 500 d_Dr6_C1_C4_C3 >= -499.6522362224578
+ Drone_retrieval_time_Dr6_C1_C4_C5: - t[Tr6,C1] + t[Tr6,C5]
+   + 500 d_Dr6_C1_C4_C5 <= 500.0317161971201
+ Drone_retrieval_time_Dr6_C1_C4_C5: - t[Dr6,C4] + t[Dr6,C5]
+   - 500 d_Dr6_C1_C4_C5 >= -499.6688338696105
+ Drone_retrieval_time_Dr6_C1_C5_D0: t[Tr6,D0] - t[Tr6,C1]
+   + 500 d_Dr6_C1_C5_D0 <= 500.3172253972537
+ Drone_retrieval_time_Dr6_C1_C5_D0: t[Dr6,D0] - t[Dr6,C5]
+   - 500 d_Dr6_C1_C5_D0 >= -499.7005962532795
+ Drone_retrieval_time_Dr6_C1_C5_C2: - t[Tr6,C1] + t[Tr6,C2]
+   + 500 d_Dr6_C1_C5_C2 <= 500.073669660885
+ Drone_retrieval_time_Dr6_C1_C5_C2: t[Dr6,C2] - t[Dr6,C5]
+   - 500 d_Dr6_C1_C5_C2 >= -499.8962707210397
+ Drone_retrieval_time_Dr6_C1_C5_C3: - t[Tr6,C1] + t[Tr6,C3]
+   + 500 d_Dr6_C1_C5_C3 <= 500.1314462114664
+ Drone_retrieval_time_Dr6_C1_C5_C3: t[Dr6,C3] - t[Dr6,C5]
+   - 500 d_Dr6_C1_C5_C3 >= -499.8370029223045
+ Drone_retrieval_time_Dr6_C1_C5_C4: - t[Tr6,C1] + t[Tr6,C4]
+   + 500 d_Dr6_C1_C5_C4 <= 500.3310839290079
+ Drone_retrieval_time_Dr6_C1_C5_C4: t[Dr6,C4] - t[Dr6,C5]
+   - 500 d_Dr6_C1_C5_C4 >= -499.6688338696105
+ Drone_retrieval_time_Dr6_C2_D0_C1: t[Tr6,C1] - t[Tr6,C2]
+   + 500 d_Dr6_C2_D0_C1 <= 500.073669660885
+ Drone_retrieval_time_Dr6_C2_D0_C1: - t[Dr6,D0] + t[Dr6,C1]
+   - 500 d_Dr6_C2_D0_C1 >= -499.6827746027463
+ Drone_retrieval_time_Dr6_C2_D0_C3: - t[Tr6,C2] + t[Tr6,C3]
+   + 500 d_Dr6_C2_D0_C3 <= 500.0756353757125
+ Drone_retrieval_time_Dr6_C2_D0_C3: - t[Dr6,D0] + t[Dr6,C3]
+   - 500 d_Dr6_C2_D0_C3 >= -499.6003759162863
+ Drone_retrieval_time_Dr6_C2_D0_C4: - t[Tr6,C2] + t[Tr6,C4]
+   + 500 d_Dr6_C2_D0_C4 <= 500.3681072650463
+ Drone_retrieval_time_Dr6_C2_D0_C4: - t[Dr6,D0] + t[Dr6,C4]
+   - 500 d_Dr6_C2_D0_C4 >= -499.8100140148426
+ Drone_retrieval_time_Dr6_C2_D0_C5: - t[Tr6,C2] + t[Tr6,C5]
+   + 500 d_Dr6_C2_D0_C5 <= 500.1037292789603
+ Drone_retrieval_time_Dr6_C2_D0_C5: - t[Dr6,D0] + t[Dr6,C5]
+   - 500 d_Dr6_C2_D0_C5 >= -499.7005962532795
+ Drone_retrieval_time_Dr6_C2_C1_D0: t[Tr6,D0] - t[Tr6,C2]
+   + 500 d_Dr6_C2_C1_D0 <= 500.3821459184115
+ Drone_retrieval_time_Dr6_C2_C1_D0: t[Dr6,D0] - t[Dr6,C1]
+   - 500 d_Dr6_C2_C1_D0 >= -499.6827746027463
+ Drone_retrieval_time_Dr6_C2_C1_C3: - t[Tr6,C2] + t[Tr6,C3]
+   + 500 d_Dr6_C2_C1_C3 <= 500.0756353757125
+ Drone_retrieval_time_Dr6_C2_C1_C3: - t[Dr6,C1] + t[Dr6,C3]
+   - 500 d_Dr6_C2_C1_C3 >= -499.8685537885336
+ Drone_retrieval_time_Dr6_C2_C1_C4: - t[Tr6,C2] + t[Tr6,C4]
+   + 500 d_Dr6_C2_C1_C4 <= 500.3681072650463
+ Drone_retrieval_time_Dr6_C2_C1_C4: - t[Dr6,C1] + t[Dr6,C4]
+   - 500 d_Dr6_C2_C1_C4 >= -499.6689160709921
+ Drone_retrieval_time_Dr6_C2_C1_C5: - t[Tr6,C2] + t[Tr6,C5]
+   + 500 d_Dr6_C2_C1_C5 <= 500.1037292789603
+ Drone_retrieval_time_Dr6_C2_C1_C5: - t[Dr6,C1] + t[Dr6,C5]
+   - 500 d_Dr6_C2_C1_C5 >= -499.9682838028799
+ Drone_retrieval_time_Dr6_C2_C3_D0: t[Tr6,D0] - t[Tr6,C2]
+   + 500 d_Dr6_C2_C3_D0 <= 500.3821459184115
+ Drone_retrieval_time_Dr6_C2_C3_D0: t[Dr6,D0] - t[Dr6,C3]
+   - 500 d_Dr6_C2_C3_D0 >= -499.6003759162863
+ Drone_retrieval_time_Dr6_C2_C3_C1: t[Tr6,C1] - t[Tr6,C2]
+   + 500 d_Dr6_C2_C3_C1 <= 500.073669660885
+ Drone_retrieval_time_Dr6_C2_C3_C1: t[Dr6,C1] - t[Dr6,C3]
+   - 500 d_Dr6_C2_C3_C1 >= -499.8685537885336
+ Drone_retrieval_time_Dr6_C2_C3_C4: - t[Tr6,C2] + t[Tr6,C4]
+   + 500 d_Dr6_C2_C3_C4 <= 500.3681072650463
+ Drone_retrieval_time_Dr6_C2_C3_C4: - t[Dr6,C3] + t[Dr6,C4]
+   - 500 d_Dr6_C2_C3_C4 >= -499.6522362224578
+ Drone_retrieval_time_Dr6_C2_C3_C5: - t[Tr6,C2] + t[Tr6,C5]
+   + 500 d_Dr6_C2_C3_C5 <= 500.1037292789603
+ Drone_retrieval_time_Dr6_C2_C3_C5: - t[Dr6,C3] + t[Dr6,C5]
+   - 500 d_Dr6_C2_C3_C5 >= -499.8370029223045
+ Drone_retrieval_time_Dr6_C2_C4_D0: t[Tr6,D0] - t[Tr6,C2]
+   + 500 d_Dr6_C2_C4_D0 <= 500.3821459184115
+ Drone_retrieval_time_Dr6_C2_C4_D0: t[Dr6,D0] - t[Dr6,C4]
+   - 500 d_Dr6_C2_C4_D0 >= -499.8100140148426
+ Drone_retrieval_time_Dr6_C2_C4_C1: t[Tr6,C1] - t[Tr6,C2]
+   + 500 d_Dr6_C2_C4_C1 <= 500.073669660885
+ Drone_retrieval_time_Dr6_C2_C4_C1: t[Dr6,C1] - t[Dr6,C4]
+   - 500 d_Dr6_C2_C4_C1 >= -499.6689160709921
+ Drone_retrieval_time_Dr6_C2_C4_C3: - t[Tr6,C2] + t[Tr6,C3]
+   + 500 d_Dr6_C2_C4_C3 <= 500.0756353757125
+ Drone_retrieval_time_Dr6_C2_C4_C3: t[Dr6,C3] - t[Dr6,C4]
+   - 500 d_Dr6_C2_C4_C3 >= -499.6522362224578
+ Drone_retrieval_time_Dr6_C2_C4_C5: - t[Tr6,C2] + t[Tr6,C5]
+   + 500 d_Dr6_C2_C4_C5 <= 500.1037292789603
+ Drone_retrieval_time_Dr6_C2_C4_C5: - t[Dr6,C4] + t[Dr6,C5]
+   - 500 d_Dr6_C2_C4_C5 >= -499.6688338696105
+ Drone_retrieval_time_Dr6_C2_C5_D0: t[Tr6,D0] - t[Tr6,C2]
+   + 500 d_Dr6_C2_C5_D0 <= 500.3821459184115
+ Drone_retrieval_time_Dr6_C2_C5_D0: t[Dr6,D0] - t[Dr6,C5]
+   - 500 d_Dr6_C2_C5_D0 >= -499.7005962532795
+ Drone_retrieval_time_Dr6_C2_C5_C1: t[Tr6,C1] - t[Tr6,C2]
+   + 500 d_Dr6_C2_C5_C1 <= 500.073669660885
+ Drone_retrieval_time_Dr6_C2_C5_C1: t[Dr6,C1] - t[Dr6,C5]
+   - 500 d_Dr6_C2_C5_C1 >= -499.9682838028799
+ Drone_retrieval_time_Dr6_C2_C5_C3: - t[Tr6,C2] + t[Tr6,C3]
+   + 500 d_Dr6_C2_C5_C3 <= 500.0756353757125
+ Drone_retrieval_time_Dr6_C2_C5_C3: t[Dr6,C3] - t[Dr6,C5]
+   - 500 d_Dr6_C2_C5_C3 >= -499.8370029223045
+ Drone_retrieval_time_Dr6_C2_C5_C4: - t[Tr6,C2] + t[Tr6,C4]
+   + 500 d_Dr6_C2_C5_C4 <= 500.3681072650463
+ Drone_retrieval_time_Dr6_C2_C5_C4: t[Dr6,C4] - t[Dr6,C5]
+   - 500 d_Dr6_C2_C5_C4 >= -499.6688338696105
+ Drone_retrieval_time_Dr6_C3_D0_C1: t[Tr6,C1] - t[Tr6,C3]
+   + 500 d_Dr6_C3_D0_C1 <= 500.1314462114664
+ Drone_retrieval_time_Dr6_C3_D0_C1: - t[Dr6,D0] + t[Dr6,C1]
+   - 500 d_Dr6_C3_D0_C1 >= -499.6827746027463
+ Drone_retrieval_time_Dr6_C3_D0_C2: t[Tr6,C2] - t[Tr6,C3]
+   + 500 d_Dr6_C3_D0_C2 <= 500.0756353757125
+ Drone_retrieval_time_Dr6_C3_D0_C2: - t[Dr6,D0] + t[Dr6,C2]
+   - 500 d_Dr6_C3_D0_C2 >= -499.6178540815885
+ Drone_retrieval_time_Dr6_C3_D0_C4: - t[Tr6,C3] + t[Tr6,C4]
+   + 500 d_Dr6_C3_D0_C4 <= 500.3477637775422
+ Drone_retrieval_time_Dr6_C3_D0_C4: - t[Dr6,D0] + t[Dr6,C4]
+   - 500 d_Dr6_C3_D0_C4 >= -499.8100140148426
+ Drone_retrieval_time_Dr6_C3_D0_C5: - t[Tr6,C3] + t[Tr6,C5]
+   + 500 d_Dr6_C3_D0_C5 <= 500.1629970776955
+ Drone_retrieval_time_Dr6_C3_D0_C5: - t[Dr6,D0] + t[Dr6,C5]
+   - 500 d_Dr6_C3_D0_C5 >= -499.7005962532795
+ Drone_retrieval_time_Dr6_C3_C1_D0: t[Tr6,D0] - t[Tr6,C3]
+   + 500 d_Dr6_C3_C1_D0 <= 500.3996240837137
+ Drone_retrieval_time_Dr6_C3_C1_D0: t[Dr6,D0] - t[Dr6,C1]
+   - 500 d_Dr6_C3_C1_D0 >= -499.6827746027463
+ Drone_retrieval_time_Dr6_C3_C1_C2: t[Tr6,C2] - t[Tr6,C3]
+   + 500 d_Dr6_C3_C1_C2 <= 500.0756353757125
+ Drone_retrieval_time_Dr6_C3_C1_C2: - t[Dr6,C1] + t[Dr6,C2]
+   - 500 d_Dr6_C3_C1_C2 >= -499.926330339115
+ Drone_retrieval_time_Dr6_C3_C1_C4: - t[Tr6,C3] + t[Tr6,C4]
+   + 500 d_Dr6_C3_C1_C4 <= 500.3477637775422
+ Drone_retrieval_time_Dr6_C3_C1_C4: - t[Dr6,C1] + t[Dr6,C4]
+   - 500 d_Dr6_C3_C1_C4 >= -499.6689160709921
+ Drone_retrieval_time_Dr6_C3_C1_C5: - t[Tr6,C3] + t[Tr6,C5]
+   + 500 d_Dr6_C3_C1_C5 <= 500.1629970776955
+ Drone_retrieval_time_Dr6_C3_C1_C5: - t[Dr6,C1] + t[Dr6,C5]
+   - 500 d_Dr6_C3_C1_C5 >= -499.9682838028799
+ Drone_retrieval_time_Dr6_C3_C2_D0: t[Tr6,D0] - t[Tr6,C3]
+   + 500 d_Dr6_C3_C2_D0 <= 500.3996240837137
+ Drone_retrieval_time_Dr6_C3_C2_D0: t[Dr6,D0] - t[Dr6,C2]
+   - 500 d_Dr6_C3_C2_D0 >= -499.6178540815885
+ Drone_retrieval_time_Dr6_C3_C2_C1: t[Tr6,C1] - t[Tr6,C3]
+   + 500 d_Dr6_C3_C2_C1 <= 500.1314462114664
+ Drone_retrieval_time_Dr6_C3_C2_C1: t[Dr6,C1] - t[Dr6,C2]
+   - 500 d_Dr6_C3_C2_C1 >= -499.926330339115
+ Drone_retrieval_time_Dr6_C3_C2_C4: - t[Tr6,C3] + t[Tr6,C4]
+   + 500 d_Dr6_C3_C2_C4 <= 500.3477637775422
+ Drone_retrieval_time_Dr6_C3_C2_C4: - t[Dr6,C2] + t[Dr6,C4]
+   - 500 d_Dr6_C3_C2_C4 >= -499.6318927349537
+ Drone_retrieval_time_Dr6_C3_C2_C5: - t[Tr6,C3] + t[Tr6,C5]
+   + 500 d_Dr6_C3_C2_C5 <= 500.1629970776955
+ Drone_retrieval_time_Dr6_C3_C2_C5: - t[Dr6,C2] + t[Dr6,C5]
+   - 500 d_Dr6_C3_C2_C5 >= -499.8962707210397
+ Drone_retrieval_time_Dr6_C3_C4_D0: t[Tr6,D0] - t[Tr6,C3]
+   + 500 d_Dr6_C3_C4_D0 <= 500.3996240837137
+ Drone_retrieval_time_Dr6_C3_C4_D0: t[Dr6,D0] - t[Dr6,C4]
+   - 500 d_Dr6_C3_C4_D0 >= -499.8100140148426
+ Drone_retrieval_time_Dr6_C3_C4_C1: t[Tr6,C1] - t[Tr6,C3]
+   + 500 d_Dr6_C3_C4_C1 <= 500.1314462114664
+ Drone_retrieval_time_Dr6_C3_C4_C1: t[Dr6,C1] - t[Dr6,C4]
+   - 500 d_Dr6_C3_C4_C1 >= -499.6689160709921
+ Drone_retrieval_time_Dr6_C3_C4_C2: t[Tr6,C2] - t[Tr6,C3]
+   + 500 d_Dr6_C3_C4_C2 <= 500.0756353757125
+ Drone_retrieval_time_Dr6_C3_C4_C2: t[Dr6,C2] - t[Dr6,C4]
+   - 500 d_Dr6_C3_C4_C2 >= -499.6318927349537
+ Drone_retrieval_time_Dr6_C3_C4_C5: - t[Tr6,C3] + t[Tr6,C5]
+   + 500 d_Dr6_C3_C4_C5 <= 500.1629970776955
+ Drone_retrieval_time_Dr6_C3_C4_C5: - t[Dr6,C4] + t[Dr6,C5]
+   - 500 d_Dr6_C3_C4_C5 >= -499.6688338696105
+ Drone_retrieval_time_Dr6_C3_C5_D0: t[Tr6,D0] - t[Tr6,C3]
+   + 500 d_Dr6_C3_C5_D0 <= 500.3996240837137
+ Drone_retrieval_time_Dr6_C3_C5_D0: t[Dr6,D0] - t[Dr6,C5]
+   - 500 d_Dr6_C3_C5_D0 >= -499.7005962532795
+ Drone_retrieval_time_Dr6_C3_C5_C1: t[Tr6,C1] - t[Tr6,C3]
+   + 500 d_Dr6_C3_C5_C1 <= 500.1314462114664
+ Drone_retrieval_time_Dr6_C3_C5_C1: t[Dr6,C1] - t[Dr6,C5]
+   - 500 d_Dr6_C3_C5_C1 >= -499.9682838028799
+ Drone_retrieval_time_Dr6_C3_C5_C2: t[Tr6,C2] - t[Tr6,C3]
+   + 500 d_Dr6_C3_C5_C2 <= 500.0756353757125
+ Drone_retrieval_time_Dr6_C3_C5_C2: t[Dr6,C2] - t[Dr6,C5]
+   - 500 d_Dr6_C3_C5_C2 >= -499.8962707210397
+ Drone_retrieval_time_Dr6_C3_C5_C4: - t[Tr6,C3] + t[Tr6,C4]
+   + 500 d_Dr6_C3_C5_C4 <= 500.3477637775422
+ Drone_retrieval_time_Dr6_C3_C5_C4: t[Dr6,C4] - t[Dr6,C5]
+   - 500 d_Dr6_C3_C5_C4 >= -499.6688338696105
+ Drone_retrieval_time_Dr6_C4_D0_C1: t[Tr6,C1] - t[Tr6,C4]
+   + 500 d_Dr6_C4_D0_C1 <= 500.3310839290079
+ Drone_retrieval_time_Dr6_C4_D0_C1: - t[Dr6,D0] + t[Dr6,C1]
+   - 500 d_Dr6_C4_D0_C1 >= -499.6827746027463
+ Drone_retrieval_time_Dr6_C4_D0_C2: t[Tr6,C2] - t[Tr6,C4]
+   + 500 d_Dr6_C4_D0_C2 <= 500.3681072650463
+ Drone_retrieval_time_Dr6_C4_D0_C2: - t[Dr6,D0] + t[Dr6,C2]
+   - 500 d_Dr6_C4_D0_C2 >= -499.6178540815885
+ Drone_retrieval_time_Dr6_C4_D0_C3: t[Tr6,C3] - t[Tr6,C4]
+   + 500 d_Dr6_C4_D0_C3 <= 500.3477637775422
+ Drone_retrieval_time_Dr6_C4_D0_C3: - t[Dr6,D0] + t[Dr6,C3]
+   - 500 d_Dr6_C4_D0_C3 >= -499.6003759162863
+ Drone_retrieval_time_Dr6_C4_D0_C5: - t[Tr6,C4] + t[Tr6,C5]
+   + 500 d_Dr6_C4_D0_C5 <= 500.3311661303895
+ Drone_retrieval_time_Dr6_C4_D0_C5: - t[Dr6,D0] + t[Dr6,C5]
+   - 500 d_Dr6_C4_D0_C5 >= -499.7005962532795
+ Drone_retrieval_time_Dr6_C4_C1_D0: t[Tr6,D0] - t[Tr6,C4]
+   + 500 d_Dr6_C4_C1_D0 <= 500.1899859851574
+ Drone_retrieval_time_Dr6_C4_C1_D0: t[Dr6,D0] - t[Dr6,C1]
+   - 500 d_Dr6_C4_C1_D0 >= -499.6827746027463
+ Drone_retrieval_time_Dr6_C4_C1_C2: t[Tr6,C2] - t[Tr6,C4]
+   + 500 d_Dr6_C4_C1_C2 <= 500.3681072650463
+ Drone_retrieval_time_Dr6_C4_C1_C2: - t[Dr6,C1] + t[Dr6,C2]
+   - 500 d_Dr6_C4_C1_C2 >= -499.926330339115
+ Drone_retrieval_time_Dr6_C4_C1_C3: t[Tr6,C3] - t[Tr6,C4]
+   + 500 d_Dr6_C4_C1_C3 <= 500.3477637775422
+ Drone_retrieval_time_Dr6_C4_C1_C3: - t[Dr6,C1] + t[Dr6,C3]
+   - 500 d_Dr6_C4_C1_C3 >= -499.8685537885336
+ Drone_retrieval_time_Dr6_C4_C1_C5: - t[Tr6,C4] + t[Tr6,C5]
+   + 500 d_Dr6_C4_C1_C5 <= 500.3311661303895
+ Drone_retrieval_time_Dr6_C4_C1_C5: - t[Dr6,C1] + t[Dr6,C5]
+   - 500 d_Dr6_C4_C1_C5 >= -499.9682838028799
+ Drone_retrieval_time_Dr6_C4_C2_D0: t[Tr6,D0] - t[Tr6,C4]
+   + 500 d_Dr6_C4_C2_D0 <= 500.1899859851574
+ Drone_retrieval_time_Dr6_C4_C2_D0: t[Dr6,D0] - t[Dr6,C2]
+   - 500 d_Dr6_C4_C2_D0 >= -499.6178540815885
+ Drone_retrieval_time_Dr6_C4_C2_C1: t[Tr6,C1] - t[Tr6,C4]
+   + 500 d_Dr6_C4_C2_C1 <= 500.3310839290079
+ Drone_retrieval_time_Dr6_C4_C2_C1: t[Dr6,C1] - t[Dr6,C2]
+   - 500 d_Dr6_C4_C2_C1 >= -499.926330339115
+ Drone_retrieval_time_Dr6_C4_C2_C3: t[Tr6,C3] - t[Tr6,C4]
+   + 500 d_Dr6_C4_C2_C3 <= 500.3477637775422
+ Drone_retrieval_time_Dr6_C4_C2_C3: - t[Dr6,C2] + t[Dr6,C3]
+   - 500 d_Dr6_C4_C2_C3 >= -499.9243646242875
+ Drone_retrieval_time_Dr6_C4_C2_C5: - t[Tr6,C4] + t[Tr6,C5]
+   + 500 d_Dr6_C4_C2_C5 <= 500.3311661303895
+ Drone_retrieval_time_Dr6_C4_C2_C5: - t[Dr6,C2] + t[Dr6,C5]
+   - 500 d_Dr6_C4_C2_C5 >= -499.8962707210397
+ Drone_retrieval_time_Dr6_C4_C3_D0: t[Tr6,D0] - t[Tr6,C4]
+   + 500 d_Dr6_C4_C3_D0 <= 500.1899859851574
+ Drone_retrieval_time_Dr6_C4_C3_D0: t[Dr6,D0] - t[Dr6,C3]
+   - 500 d_Dr6_C4_C3_D0 >= -499.6003759162863
+ Drone_retrieval_time_Dr6_C4_C3_C1: t[Tr6,C1] - t[Tr6,C4]
+   + 500 d_Dr6_C4_C3_C1 <= 500.3310839290079
+ Drone_retrieval_time_Dr6_C4_C3_C1: t[Dr6,C1] - t[Dr6,C3]
+   - 500 d_Dr6_C4_C3_C1 >= -499.8685537885336
+ Drone_retrieval_time_Dr6_C4_C3_C2: t[Tr6,C2] - t[Tr6,C4]
+   + 500 d_Dr6_C4_C3_C2 <= 500.3681072650463
+ Drone_retrieval_time_Dr6_C4_C3_C2: t[Dr6,C2] - t[Dr6,C3]
+   - 500 d_Dr6_C4_C3_C2 >= -499.9243646242875
+ Drone_retrieval_time_Dr6_C4_C3_C5: - t[Tr6,C4] + t[Tr6,C5]
+   + 500 d_Dr6_C4_C3_C5 <= 500.3311661303895
+ Drone_retrieval_time_Dr6_C4_C3_C5: - t[Dr6,C3] + t[Dr6,C5]
+   - 500 d_Dr6_C4_C3_C5 >= -499.8370029223045
+ Drone_retrieval_time_Dr6_C4_C5_D0: t[Tr6,D0] - t[Tr6,C4]
+   + 500 d_Dr6_C4_C5_D0 <= 500.1899859851574
+ Drone_retrieval_time_Dr6_C4_C5_D0: t[Dr6,D0] - t[Dr6,C5]
+   - 500 d_Dr6_C4_C5_D0 >= -499.7005962532795
+ Drone_retrieval_time_Dr6_C4_C5_C1: t[Tr6,C1] - t[Tr6,C4]
+   + 500 d_Dr6_C4_C5_C1 <= 500.3310839290079
+ Drone_retrieval_time_Dr6_C4_C5_C1: t[Dr6,C1] - t[Dr6,C5]
+   - 500 d_Dr6_C4_C5_C1 >= -499.9682838028799
+ Drone_retrieval_time_Dr6_C4_C5_C2: t[Tr6,C2] - t[Tr6,C4]
+   + 500 d_Dr6_C4_C5_C2 <= 500.3681072650463
+ Drone_retrieval_time_Dr6_C4_C5_C2: t[Dr6,C2] - t[Dr6,C5]
+   - 500 d_Dr6_C4_C5_C2 >= -499.8962707210397
+ Drone_retrieval_time_Dr6_C4_C5_C3: t[Tr6,C3] - t[Tr6,C4]
+   + 500 d_Dr6_C4_C5_C3 <= 500.3477637775422
+ Drone_retrieval_time_Dr6_C4_C5_C3: t[Dr6,C3] - t[Dr6,C5]
+   - 500 d_Dr6_C4_C5_C3 >= -499.8370029223045
+ Drone_retrieval_time_Dr6_C5_D0_C1: t[Tr6,C1] - t[Tr6,C5]
+   + 500 d_Dr6_C5_D0_C1 <= 500.0317161971201
+ Drone_retrieval_time_Dr6_C5_D0_C1: - t[Dr6,D0] + t[Dr6,C1]
+   - 500 d_Dr6_C5_D0_C1 >= -499.6827746027463
+ Drone_retrieval_time_Dr6_C5_D0_C2: t[Tr6,C2] - t[Tr6,C5]
+   + 500 d_Dr6_C5_D0_C2 <= 500.1037292789603
+ Drone_retrieval_time_Dr6_C5_D0_C2: - t[Dr6,D0] + t[Dr6,C2]
+   - 500 d_Dr6_C5_D0_C2 >= -499.6178540815885
+ Drone_retrieval_time_Dr6_C5_D0_C3: t[Tr6,C3] - t[Tr6,C5]
+   + 500 d_Dr6_C5_D0_C3 <= 500.1629970776955
+ Drone_retrieval_time_Dr6_C5_D0_C3: - t[Dr6,D0] + t[Dr6,C3]
+   - 500 d_Dr6_C5_D0_C3 >= -499.6003759162863
+ Drone_retrieval_time_Dr6_C5_D0_C4: t[Tr6,C4] - t[Tr6,C5]
+   + 500 d_Dr6_C5_D0_C4 <= 500.3311661303895
+ Drone_retrieval_time_Dr6_C5_D0_C4: - t[Dr6,D0] + t[Dr6,C4]
+   - 500 d_Dr6_C5_D0_C4 >= -499.8100140148426
+ Drone_retrieval_time_Dr6_C5_C1_D0: t[Tr6,D0] - t[Tr6,C5]
+   + 500 d_Dr6_C5_C1_D0 <= 500.2994037467205
+ Drone_retrieval_time_Dr6_C5_C1_D0: t[Dr6,D0] - t[Dr6,C1]
+   - 500 d_Dr6_C5_C1_D0 >= -499.6827746027463
+ Drone_retrieval_time_Dr6_C5_C1_C2: t[Tr6,C2] - t[Tr6,C5]
+   + 500 d_Dr6_C5_C1_C2 <= 500.1037292789603
+ Drone_retrieval_time_Dr6_C5_C1_C2: - t[Dr6,C1] + t[Dr6,C2]
+   - 500 d_Dr6_C5_C1_C2 >= -499.926330339115
+ Drone_retrieval_time_Dr6_C5_C1_C3: t[Tr6,C3] - t[Tr6,C5]
+   + 500 d_Dr6_C5_C1_C3 <= 500.1629970776955
+ Drone_retrieval_time_Dr6_C5_C1_C3: - t[Dr6,C1] + t[Dr6,C3]
+   - 500 d_Dr6_C5_C1_C3 >= -499.8685537885336
+ Drone_retrieval_time_Dr6_C5_C1_C4: t[Tr6,C4] - t[Tr6,C5]
+   + 500 d_Dr6_C5_C1_C4 <= 500.3311661303895
+ Drone_retrieval_time_Dr6_C5_C1_C4: - t[Dr6,C1] + t[Dr6,C4]
+   - 500 d_Dr6_C5_C1_C4 >= -499.6689160709921
+ Drone_retrieval_time_Dr6_C5_C2_D0: t[Tr6,D0] - t[Tr6,C5]
+   + 500 d_Dr6_C5_C2_D0 <= 500.2994037467205
+ Drone_retrieval_time_Dr6_C5_C2_D0: t[Dr6,D0] - t[Dr6,C2]
+   - 500 d_Dr6_C5_C2_D0 >= -499.6178540815885
+ Drone_retrieval_time_Dr6_C5_C2_C1: t[Tr6,C1] - t[Tr6,C5]
+   + 500 d_Dr6_C5_C2_C1 <= 500.0317161971201
+ Drone_retrieval_time_Dr6_C5_C2_C1: t[Dr6,C1] - t[Dr6,C2]
+   - 500 d_Dr6_C5_C2_C1 >= -499.926330339115
+ Drone_retrieval_time_Dr6_C5_C2_C3: t[Tr6,C3] - t[Tr6,C5]
+   + 500 d_Dr6_C5_C2_C3 <= 500.1629970776955
+ Drone_retrieval_time_Dr6_C5_C2_C3: - t[Dr6,C2] + t[Dr6,C3]
+   - 500 d_Dr6_C5_C2_C3 >= -499.9243646242875
+ Drone_retrieval_time_Dr6_C5_C2_C4: t[Tr6,C4] - t[Tr6,C5]
+   + 500 d_Dr6_C5_C2_C4 <= 500.3311661303895
+ Drone_retrieval_time_Dr6_C5_C2_C4: - t[Dr6,C2] + t[Dr6,C4]
+   - 500 d_Dr6_C5_C2_C4 >= -499.6318927349537
+ Drone_retrieval_time_Dr6_C5_C3_D0: t[Tr6,D0] - t[Tr6,C5]
+   + 500 d_Dr6_C5_C3_D0 <= 500.2994037467205
+ Drone_retrieval_time_Dr6_C5_C3_D0: t[Dr6,D0] - t[Dr6,C3]
+   - 500 d_Dr6_C5_C3_D0 >= -499.6003759162863
+ Drone_retrieval_time_Dr6_C5_C3_C1: t[Tr6,C1] - t[Tr6,C5]
+   + 500 d_Dr6_C5_C3_C1 <= 500.0317161971201
+ Drone_retrieval_time_Dr6_C5_C3_C1: t[Dr6,C1] - t[Dr6,C3]
+   - 500 d_Dr6_C5_C3_C1 >= -499.8685537885336
+ Drone_retrieval_time_Dr6_C5_C3_C2: t[Tr6,C2] - t[Tr6,C5]
+   + 500 d_Dr6_C5_C3_C2 <= 500.1037292789603
+ Drone_retrieval_time_Dr6_C5_C3_C2: t[Dr6,C2] - t[Dr6,C3]
+   - 500 d_Dr6_C5_C3_C2 >= -499.9243646242875
+ Drone_retrieval_time_Dr6_C5_C3_C4: t[Tr6,C4] - t[Tr6,C5]
+   + 500 d_Dr6_C5_C3_C4 <= 500.3311661303895
+ Drone_retrieval_time_Dr6_C5_C3_C4: - t[Dr6,C3] + t[Dr6,C4]
+   - 500 d_Dr6_C5_C3_C4 >= -499.6522362224578
+ Drone_retrieval_time_Dr6_C5_C4_D0: t[Tr6,D0] - t[Tr6,C5]
+   + 500 d_Dr6_C5_C4_D0 <= 500.2994037467205
+ Drone_retrieval_time_Dr6_C5_C4_D0: t[Dr6,D0] - t[Dr6,C4]
+   - 500 d_Dr6_C5_C4_D0 >= -499.8100140148426
+ Drone_retrieval_time_Dr6_C5_C4_C1: t[Tr6,C1] - t[Tr6,C5]
+   + 500 d_Dr6_C5_C4_C1 <= 500.0317161971201
+ Drone_retrieval_time_Dr6_C5_C4_C1: t[Dr6,C1] - t[Dr6,C4]
+   - 500 d_Dr6_C5_C4_C1 >= -499.6689160709921
+ Drone_retrieval_time_Dr6_C5_C4_C2: t[Tr6,C2] - t[Tr6,C5]
+   + 500 d_Dr6_C5_C4_C2 <= 500.1037292789603
+ Drone_retrieval_time_Dr6_C5_C4_C2: t[Dr6,C2] - t[Dr6,C4]
+   - 500 d_Dr6_C5_C4_C2 >= -499.6318927349537
+ Drone_retrieval_time_Dr6_C5_C4_C3: t[Tr6,C3] - t[Tr6,C5]
+   + 500 d_Dr6_C5_C4_C3 <= 500.1629970776955
+ Drone_retrieval_time_Dr6_C5_C4_C3: t[Dr6,C3] - t[Dr6,C4]
+   - 500 d_Dr6_C5_C4_C3 >= -499.6522362224578
+ Drone_retrieval_time_Dr7_D0_C1_C2: - t[Tr7,D0] + t[Tr7,C2]
+   + 500 d_Dr7_D0_C1_C2 <= 500.3821459184115
+ Drone_retrieval_time_Dr7_D0_C1_C2: - t[Dr7,C1] + t[Dr7,C2]
+   - 500 d_Dr7_D0_C1_C2 >= -499.926330339115
+ Drone_retrieval_time_Dr7_D0_C1_C3: - t[Tr7,D0] + t[Tr7,C3]
+   + 500 d_Dr7_D0_C1_C3 <= 500.3996240837137
+ Drone_retrieval_time_Dr7_D0_C1_C3: - t[Dr7,C1] + t[Dr7,C3]
+   - 500 d_Dr7_D0_C1_C3 >= -499.8685537885336
+ Drone_retrieval_time_Dr7_D0_C1_C4: - t[Tr7,D0] + t[Tr7,C4]
+   + 500 d_Dr7_D0_C1_C4 <= 500.1899859851574
+ Drone_retrieval_time_Dr7_D0_C1_C4: - t[Dr7,C1] + t[Dr7,C4]
+   - 500 d_Dr7_D0_C1_C4 >= -499.6689160709921
+ Drone_retrieval_time_Dr7_D0_C1_C5: - t[Tr7,D0] + t[Tr7,C5]
+   + 500 d_Dr7_D0_C1_C5 <= 500.2994037467205
+ Drone_retrieval_time_Dr7_D0_C1_C5: - t[Dr7,C1] + t[Dr7,C5]
+   - 500 d_Dr7_D0_C1_C5 >= -499.9682838028799
+ Drone_retrieval_time_Dr7_D0_C2_C1: - t[Tr7,D0] + t[Tr7,C1]
+   + 500 d_Dr7_D0_C2_C1 <= 500.3172253972537
+ Drone_retrieval_time_Dr7_D0_C2_C1: t[Dr7,C1] - t[Dr7,C2]
+   - 500 d_Dr7_D0_C2_C1 >= -499.926330339115
+ Drone_retrieval_time_Dr7_D0_C2_C3: - t[Tr7,D0] + t[Tr7,C3]
+   + 500 d_Dr7_D0_C2_C3 <= 500.3996240837137
+ Drone_retrieval_time_Dr7_D0_C2_C3: - t[Dr7,C2] + t[Dr7,C3]
+   - 500 d_Dr7_D0_C2_C3 >= -499.9243646242875
+ Drone_retrieval_time_Dr7_D0_C2_C4: - t[Tr7,D0] + t[Tr7,C4]
+   + 500 d_Dr7_D0_C2_C4 <= 500.1899859851574
+ Drone_retrieval_time_Dr7_D0_C2_C4: - t[Dr7,C2] + t[Dr7,C4]
+   - 500 d_Dr7_D0_C2_C4 >= -499.6318927349537
+ Drone_retrieval_time_Dr7_D0_C2_C5: - t[Tr7,D0] + t[Tr7,C5]
+   + 500 d_Dr7_D0_C2_C5 <= 500.2994037467205
+ Drone_retrieval_time_Dr7_D0_C2_C5: - t[Dr7,C2] + t[Dr7,C5]
+   - 500 d_Dr7_D0_C2_C5 >= -499.8962707210397
+ Drone_retrieval_time_Dr7_D0_C3_C1: - t[Tr7,D0] + t[Tr7,C1]
+   + 500 d_Dr7_D0_C3_C1 <= 500.3172253972537
+ Drone_retrieval_time_Dr7_D0_C3_C1: t[Dr7,C1] - t[Dr7,C3]
+   - 500 d_Dr7_D0_C3_C1 >= -499.8685537885336
+ Drone_retrieval_time_Dr7_D0_C3_C2: - t[Tr7,D0] + t[Tr7,C2]
+   + 500 d_Dr7_D0_C3_C2 <= 500.3821459184115
+ Drone_retrieval_time_Dr7_D0_C3_C2: t[Dr7,C2] - t[Dr7,C3]
+   - 500 d_Dr7_D0_C3_C2 >= -499.9243646242875
+ Drone_retrieval_time_Dr7_D0_C3_C4: - t[Tr7,D0] + t[Tr7,C4]
+   + 500 d_Dr7_D0_C3_C4 <= 500.1899859851574
+ Drone_retrieval_time_Dr7_D0_C3_C4: - t[Dr7,C3] + t[Dr7,C4]
+   - 500 d_Dr7_D0_C3_C4 >= -499.6522362224578
+ Drone_retrieval_time_Dr7_D0_C3_C5: - t[Tr7,D0] + t[Tr7,C5]
+   + 500 d_Dr7_D0_C3_C5 <= 500.2994037467205
+ Drone_retrieval_time_Dr7_D0_C3_C5: - t[Dr7,C3] + t[Dr7,C5]
+   - 500 d_Dr7_D0_C3_C5 >= -499.8370029223045
+ Drone_retrieval_time_Dr7_D0_C4_C1: - t[Tr7,D0] + t[Tr7,C1]
+   + 500 d_Dr7_D0_C4_C1 <= 500.3172253972537
+ Drone_retrieval_time_Dr7_D0_C4_C1: t[Dr7,C1] - t[Dr7,C4]
+   - 500 d_Dr7_D0_C4_C1 >= -499.6689160709921
+ Drone_retrieval_time_Dr7_D0_C4_C2: - t[Tr7,D0] + t[Tr7,C2]
+   + 500 d_Dr7_D0_C4_C2 <= 500.3821459184115
+ Drone_retrieval_time_Dr7_D0_C4_C2: t[Dr7,C2] - t[Dr7,C4]
+   - 500 d_Dr7_D0_C4_C2 >= -499.6318927349537
+ Drone_retrieval_time_Dr7_D0_C4_C3: - t[Tr7,D0] + t[Tr7,C3]
+   + 500 d_Dr7_D0_C4_C3 <= 500.3996240837137
+ Drone_retrieval_time_Dr7_D0_C4_C3: t[Dr7,C3] - t[Dr7,C4]
+   - 500 d_Dr7_D0_C4_C3 >= -499.6522362224578
+ Drone_retrieval_time_Dr7_D0_C4_C5: - t[Tr7,D0] + t[Tr7,C5]
+   + 500 d_Dr7_D0_C4_C5 <= 500.2994037467205
+ Drone_retrieval_time_Dr7_D0_C4_C5: - t[Dr7,C4] + t[Dr7,C5]
+   - 500 d_Dr7_D0_C4_C5 >= -499.6688338696105
+ Drone_retrieval_time_Dr7_D0_C5_C1: - t[Tr7,D0] + t[Tr7,C1]
+   + 500 d_Dr7_D0_C5_C1 <= 500.3172253972537
+ Drone_retrieval_time_Dr7_D0_C5_C1: t[Dr7,C1] - t[Dr7,C5]
+   - 500 d_Dr7_D0_C5_C1 >= -499.9682838028799
+ Drone_retrieval_time_Dr7_D0_C5_C2: - t[Tr7,D0] + t[Tr7,C2]
+   + 500 d_Dr7_D0_C5_C2 <= 500.3821459184115
+ Drone_retrieval_time_Dr7_D0_C5_C2: t[Dr7,C2] - t[Dr7,C5]
+   - 500 d_Dr7_D0_C5_C2 >= -499.8962707210397
+ Drone_retrieval_time_Dr7_D0_C5_C3: - t[Tr7,D0] + t[Tr7,C3]
+   + 500 d_Dr7_D0_C5_C3 <= 500.3996240837137
+ Drone_retrieval_time_Dr7_D0_C5_C3: t[Dr7,C3] - t[Dr7,C5]
+   - 500 d_Dr7_D0_C5_C3 >= -499.8370029223045
+ Drone_retrieval_time_Dr7_D0_C5_C4: - t[Tr7,D0] + t[Tr7,C4]
+   + 500 d_Dr7_D0_C5_C4 <= 500.1899859851574
+ Drone_retrieval_time_Dr7_D0_C5_C4: t[Dr7,C4] - t[Dr7,C5]
+   - 500 d_Dr7_D0_C5_C4 >= -499.6688338696105
+ Drone_retrieval_time_Dr7_C1_D0_C2: - t[Tr7,C1] + t[Tr7,C2]
+   + 500 d_Dr7_C1_D0_C2 <= 500.073669660885
+ Drone_retrieval_time_Dr7_C1_D0_C2: - t[Dr7,D0] + t[Dr7,C2]
+   - 500 d_Dr7_C1_D0_C2 >= -499.6178540815885
+ Drone_retrieval_time_Dr7_C1_D0_C3: - t[Tr7,C1] + t[Tr7,C3]
+   + 500 d_Dr7_C1_D0_C3 <= 500.1314462114664
+ Drone_retrieval_time_Dr7_C1_D0_C3: - t[Dr7,D0] + t[Dr7,C3]
+   - 500 d_Dr7_C1_D0_C3 >= -499.6003759162863
+ Drone_retrieval_time_Dr7_C1_D0_C4: - t[Tr7,C1] + t[Tr7,C4]
+   + 500 d_Dr7_C1_D0_C4 <= 500.3310839290079
+ Drone_retrieval_time_Dr7_C1_D0_C4: - t[Dr7,D0] + t[Dr7,C4]
+   - 500 d_Dr7_C1_D0_C4 >= -499.8100140148426
+ Drone_retrieval_time_Dr7_C1_D0_C5: - t[Tr7,C1] + t[Tr7,C5]
+   + 500 d_Dr7_C1_D0_C5 <= 500.0317161971201
+ Drone_retrieval_time_Dr7_C1_D0_C5: - t[Dr7,D0] + t[Dr7,C5]
+   - 500 d_Dr7_C1_D0_C5 >= -499.7005962532795
+ Drone_retrieval_time_Dr7_C1_C2_D0: t[Tr7,D0] - t[Tr7,C1]
+   + 500 d_Dr7_C1_C2_D0 <= 500.3172253972537
+ Drone_retrieval_time_Dr7_C1_C2_D0: t[Dr7,D0] - t[Dr7,C2]
+   - 500 d_Dr7_C1_C2_D0 >= -499.6178540815885
+ Drone_retrieval_time_Dr7_C1_C2_C3: - t[Tr7,C1] + t[Tr7,C3]
+   + 500 d_Dr7_C1_C2_C3 <= 500.1314462114664
+ Drone_retrieval_time_Dr7_C1_C2_C3: - t[Dr7,C2] + t[Dr7,C3]
+   - 500 d_Dr7_C1_C2_C3 >= -499.9243646242875
+ Drone_retrieval_time_Dr7_C1_C2_C4: - t[Tr7,C1] + t[Tr7,C4]
+   + 500 d_Dr7_C1_C2_C4 <= 500.3310839290079
+ Drone_retrieval_time_Dr7_C1_C2_C4: - t[Dr7,C2] + t[Dr7,C4]
+   - 500 d_Dr7_C1_C2_C4 >= -499.6318927349537
+ Drone_retrieval_time_Dr7_C1_C2_C5: - t[Tr7,C1] + t[Tr7,C5]
+   + 500 d_Dr7_C1_C2_C5 <= 500.0317161971201
+ Drone_retrieval_time_Dr7_C1_C2_C5: - t[Dr7,C2] + t[Dr7,C5]
+   - 500 d_Dr7_C1_C2_C5 >= -499.8962707210397
+ Drone_retrieval_time_Dr7_C1_C3_D0: t[Tr7,D0] - t[Tr7,C1]
+   + 500 d_Dr7_C1_C3_D0 <= 500.3172253972537
+ Drone_retrieval_time_Dr7_C1_C3_D0: t[Dr7,D0] - t[Dr7,C3]
+   - 500 d_Dr7_C1_C3_D0 >= -499.6003759162863
+ Drone_retrieval_time_Dr7_C1_C3_C2: - t[Tr7,C1] + t[Tr7,C2]
+   + 500 d_Dr7_C1_C3_C2 <= 500.073669660885
+ Drone_retrieval_time_Dr7_C1_C3_C2: t[Dr7,C2] - t[Dr7,C3]
+   - 500 d_Dr7_C1_C3_C2 >= -499.9243646242875
+ Drone_retrieval_time_Dr7_C1_C3_C4: - t[Tr7,C1] + t[Tr7,C4]
+   + 500 d_Dr7_C1_C3_C4 <= 500.3310839290079
+ Drone_retrieval_time_Dr7_C1_C3_C4: - t[Dr7,C3] + t[Dr7,C4]
+   - 500 d_Dr7_C1_C3_C4 >= -499.6522362224578
+ Drone_retrieval_time_Dr7_C1_C3_C5: - t[Tr7,C1] + t[Tr7,C5]
+   + 500 d_Dr7_C1_C3_C5 <= 500.0317161971201
+ Drone_retrieval_time_Dr7_C1_C3_C5: - t[Dr7,C3] + t[Dr7,C5]
+   - 500 d_Dr7_C1_C3_C5 >= -499.8370029223045
+ Drone_retrieval_time_Dr7_C1_C4_D0: t[Tr7,D0] - t[Tr7,C1]
+   + 500 d_Dr7_C1_C4_D0 <= 500.3172253972537
+ Drone_retrieval_time_Dr7_C1_C4_D0: t[Dr7,D0] - t[Dr7,C4]
+   - 500 d_Dr7_C1_C4_D0 >= -499.8100140148426
+ Drone_retrieval_time_Dr7_C1_C4_C2: - t[Tr7,C1] + t[Tr7,C2]
+   + 500 d_Dr7_C1_C4_C2 <= 500.073669660885
+ Drone_retrieval_time_Dr7_C1_C4_C2: t[Dr7,C2] - t[Dr7,C4]
+   - 500 d_Dr7_C1_C4_C2 >= -499.6318927349537
+ Drone_retrieval_time_Dr7_C1_C4_C3: - t[Tr7,C1] + t[Tr7,C3]
+   + 500 d_Dr7_C1_C4_C3 <= 500.1314462114664
+ Drone_retrieval_time_Dr7_C1_C4_C3: t[Dr7,C3] - t[Dr7,C4]
+   - 500 d_Dr7_C1_C4_C3 >= -499.6522362224578
+ Drone_retrieval_time_Dr7_C1_C4_C5: - t[Tr7,C1] + t[Tr7,C5]
+   + 500 d_Dr7_C1_C4_C5 <= 500.0317161971201
+ Drone_retrieval_time_Dr7_C1_C4_C5: - t[Dr7,C4] + t[Dr7,C5]
+   - 500 d_Dr7_C1_C4_C5 >= -499.6688338696105
+ Drone_retrieval_time_Dr7_C1_C5_D0: t[Tr7,D0] - t[Tr7,C1]
+   + 500 d_Dr7_C1_C5_D0 <= 500.3172253972537
+ Drone_retrieval_time_Dr7_C1_C5_D0: t[Dr7,D0] - t[Dr7,C5]
+   - 500 d_Dr7_C1_C5_D0 >= -499.7005962532795
+ Drone_retrieval_time_Dr7_C1_C5_C2: - t[Tr7,C1] + t[Tr7,C2]
+   + 500 d_Dr7_C1_C5_C2 <= 500.073669660885
+ Drone_retrieval_time_Dr7_C1_C5_C2: t[Dr7,C2] - t[Dr7,C5]
+   - 500 d_Dr7_C1_C5_C2 >= -499.8962707210397
+ Drone_retrieval_time_Dr7_C1_C5_C3: - t[Tr7,C1] + t[Tr7,C3]
+   + 500 d_Dr7_C1_C5_C3 <= 500.1314462114664
+ Drone_retrieval_time_Dr7_C1_C5_C3: t[Dr7,C3] - t[Dr7,C5]
+   - 500 d_Dr7_C1_C5_C3 >= -499.8370029223045
+ Drone_retrieval_time_Dr7_C1_C5_C4: - t[Tr7,C1] + t[Tr7,C4]
+   + 500 d_Dr7_C1_C5_C4 <= 500.3310839290079
+ Drone_retrieval_time_Dr7_C1_C5_C4: t[Dr7,C4] - t[Dr7,C5]
+   - 500 d_Dr7_C1_C5_C4 >= -499.6688338696105
+ Drone_retrieval_time_Dr7_C2_D0_C1: t[Tr7,C1] - t[Tr7,C2]
+   + 500 d_Dr7_C2_D0_C1 <= 500.073669660885
+ Drone_retrieval_time_Dr7_C2_D0_C1: - t[Dr7,D0] + t[Dr7,C1]
+   - 500 d_Dr7_C2_D0_C1 >= -499.6827746027463
+ Drone_retrieval_time_Dr7_C2_D0_C3: - t[Tr7,C2] + t[Tr7,C3]
+   + 500 d_Dr7_C2_D0_C3 <= 500.0756353757125
+ Drone_retrieval_time_Dr7_C2_D0_C3: - t[Dr7,D0] + t[Dr7,C3]
+   - 500 d_Dr7_C2_D0_C3 >= -499.6003759162863
+ Drone_retrieval_time_Dr7_C2_D0_C4: - t[Tr7,C2] + t[Tr7,C4]
+   + 500 d_Dr7_C2_D0_C4 <= 500.3681072650463
+ Drone_retrieval_time_Dr7_C2_D0_C4: - t[Dr7,D0] + t[Dr7,C4]
+   - 500 d_Dr7_C2_D0_C4 >= -499.8100140148426
+ Drone_retrieval_time_Dr7_C2_D0_C5: - t[Tr7,C2] + t[Tr7,C5]
+   + 500 d_Dr7_C2_D0_C5 <= 500.1037292789603
+ Drone_retrieval_time_Dr7_C2_D0_C5: - t[Dr7,D0] + t[Dr7,C5]
+   - 500 d_Dr7_C2_D0_C5 >= -499.7005962532795
+ Drone_retrieval_time_Dr7_C2_C1_D0: t[Tr7,D0] - t[Tr7,C2]
+   + 500 d_Dr7_C2_C1_D0 <= 500.3821459184115
+ Drone_retrieval_time_Dr7_C2_C1_D0: t[Dr7,D0] - t[Dr7,C1]
+   - 500 d_Dr7_C2_C1_D0 >= -499.6827746027463
+ Drone_retrieval_time_Dr7_C2_C1_C3: - t[Tr7,C2] + t[Tr7,C3]
+   + 500 d_Dr7_C2_C1_C3 <= 500.0756353757125
+ Drone_retrieval_time_Dr7_C2_C1_C3: - t[Dr7,C1] + t[Dr7,C3]
+   - 500 d_Dr7_C2_C1_C3 >= -499.8685537885336
+ Drone_retrieval_time_Dr7_C2_C1_C4: - t[Tr7,C2] + t[Tr7,C4]
+   + 500 d_Dr7_C2_C1_C4 <= 500.3681072650463
+ Drone_retrieval_time_Dr7_C2_C1_C4: - t[Dr7,C1] + t[Dr7,C4]
+   - 500 d_Dr7_C2_C1_C4 >= -499.6689160709921
+ Drone_retrieval_time_Dr7_C2_C1_C5: - t[Tr7,C2] + t[Tr7,C5]
+   + 500 d_Dr7_C2_C1_C5 <= 500.1037292789603
+ Drone_retrieval_time_Dr7_C2_C1_C5: - t[Dr7,C1] + t[Dr7,C5]
+   - 500 d_Dr7_C2_C1_C5 >= -499.9682838028799
+ Drone_retrieval_time_Dr7_C2_C3_D0: t[Tr7,D0] - t[Tr7,C2]
+   + 500 d_Dr7_C2_C3_D0 <= 500.3821459184115
+ Drone_retrieval_time_Dr7_C2_C3_D0: t[Dr7,D0] - t[Dr7,C3]
+   - 500 d_Dr7_C2_C3_D0 >= -499.6003759162863
+ Drone_retrieval_time_Dr7_C2_C3_C1: t[Tr7,C1] - t[Tr7,C2]
+   + 500 d_Dr7_C2_C3_C1 <= 500.073669660885
+ Drone_retrieval_time_Dr7_C2_C3_C1: t[Dr7,C1] - t[Dr7,C3]
+   - 500 d_Dr7_C2_C3_C1 >= -499.8685537885336
+ Drone_retrieval_time_Dr7_C2_C3_C4: - t[Tr7,C2] + t[Tr7,C4]
+   + 500 d_Dr7_C2_C3_C4 <= 500.3681072650463
+ Drone_retrieval_time_Dr7_C2_C3_C4: - t[Dr7,C3] + t[Dr7,C4]
+   - 500 d_Dr7_C2_C3_C4 >= -499.6522362224578
+ Drone_retrieval_time_Dr7_C2_C3_C5: - t[Tr7,C2] + t[Tr7,C5]
+   + 500 d_Dr7_C2_C3_C5 <= 500.1037292789603
+ Drone_retrieval_time_Dr7_C2_C3_C5: - t[Dr7,C3] + t[Dr7,C5]
+   - 500 d_Dr7_C2_C3_C5 >= -499.8370029223045
+ Drone_retrieval_time_Dr7_C2_C4_D0: t[Tr7,D0] - t[Tr7,C2]
+   + 500 d_Dr7_C2_C4_D0 <= 500.3821459184115
+ Drone_retrieval_time_Dr7_C2_C4_D0: t[Dr7,D0] - t[Dr7,C4]
+   - 500 d_Dr7_C2_C4_D0 >= -499.8100140148426
+ Drone_retrieval_time_Dr7_C2_C4_C1: t[Tr7,C1] - t[Tr7,C2]
+   + 500 d_Dr7_C2_C4_C1 <= 500.073669660885
+ Drone_retrieval_time_Dr7_C2_C4_C1: t[Dr7,C1] - t[Dr7,C4]
+   - 500 d_Dr7_C2_C4_C1 >= -499.6689160709921
+ Drone_retrieval_time_Dr7_C2_C4_C3: - t[Tr7,C2] + t[Tr7,C3]
+   + 500 d_Dr7_C2_C4_C3 <= 500.0756353757125
+ Drone_retrieval_time_Dr7_C2_C4_C3: t[Dr7,C3] - t[Dr7,C4]
+   - 500 d_Dr7_C2_C4_C3 >= -499.6522362224578
+ Drone_retrieval_time_Dr7_C2_C4_C5: - t[Tr7,C2] + t[Tr7,C5]
+   + 500 d_Dr7_C2_C4_C5 <= 500.1037292789603
+ Drone_retrieval_time_Dr7_C2_C4_C5: - t[Dr7,C4] + t[Dr7,C5]
+   - 500 d_Dr7_C2_C4_C5 >= -499.6688338696105
+ Drone_retrieval_time_Dr7_C2_C5_D0: t[Tr7,D0] - t[Tr7,C2]
+   + 500 d_Dr7_C2_C5_D0 <= 500.3821459184115
+ Drone_retrieval_time_Dr7_C2_C5_D0: t[Dr7,D0] - t[Dr7,C5]
+   - 500 d_Dr7_C2_C5_D0 >= -499.7005962532795
+ Drone_retrieval_time_Dr7_C2_C5_C1: t[Tr7,C1] - t[Tr7,C2]
+   + 500 d_Dr7_C2_C5_C1 <= 500.073669660885
+ Drone_retrieval_time_Dr7_C2_C5_C1: t[Dr7,C1] - t[Dr7,C5]
+   - 500 d_Dr7_C2_C5_C1 >= -499.9682838028799
+ Drone_retrieval_time_Dr7_C2_C5_C3: - t[Tr7,C2] + t[Tr7,C3]
+   + 500 d_Dr7_C2_C5_C3 <= 500.0756353757125
+ Drone_retrieval_time_Dr7_C2_C5_C3: t[Dr7,C3] - t[Dr7,C5]
+   - 500 d_Dr7_C2_C5_C3 >= -499.8370029223045
+ Drone_retrieval_time_Dr7_C2_C5_C4: - t[Tr7,C2] + t[Tr7,C4]
+   + 500 d_Dr7_C2_C5_C4 <= 500.3681072650463
+ Drone_retrieval_time_Dr7_C2_C5_C4: t[Dr7,C4] - t[Dr7,C5]
+   - 500 d_Dr7_C2_C5_C4 >= -499.6688338696105
+ Drone_retrieval_time_Dr7_C3_D0_C1: t[Tr7,C1] - t[Tr7,C3]
+   + 500 d_Dr7_C3_D0_C1 <= 500.1314462114664
+ Drone_retrieval_time_Dr7_C3_D0_C1: - t[Dr7,D0] + t[Dr7,C1]
+   - 500 d_Dr7_C3_D0_C1 >= -499.6827746027463
+ Drone_retrieval_time_Dr7_C3_D0_C2: t[Tr7,C2] - t[Tr7,C3]
+   + 500 d_Dr7_C3_D0_C2 <= 500.0756353757125
+ Drone_retrieval_time_Dr7_C3_D0_C2: - t[Dr7,D0] + t[Dr7,C2]
+   - 500 d_Dr7_C3_D0_C2 >= -499.6178540815885
+ Drone_retrieval_time_Dr7_C3_D0_C4: - t[Tr7,C3] + t[Tr7,C4]
+   + 500 d_Dr7_C3_D0_C4 <= 500.3477637775422
+ Drone_retrieval_time_Dr7_C3_D0_C4: - t[Dr7,D0] + t[Dr7,C4]
+   - 500 d_Dr7_C3_D0_C4 >= -499.8100140148426
+ Drone_retrieval_time_Dr7_C3_D0_C5: - t[Tr7,C3] + t[Tr7,C5]
+   + 500 d_Dr7_C3_D0_C5 <= 500.1629970776955
+ Drone_retrieval_time_Dr7_C3_D0_C5: - t[Dr7,D0] + t[Dr7,C5]
+   - 500 d_Dr7_C3_D0_C5 >= -499.7005962532795
+ Drone_retrieval_time_Dr7_C3_C1_D0: t[Tr7,D0] - t[Tr7,C3]
+   + 500 d_Dr7_C3_C1_D0 <= 500.3996240837137
+ Drone_retrieval_time_Dr7_C3_C1_D0: t[Dr7,D0] - t[Dr7,C1]
+   - 500 d_Dr7_C3_C1_D0 >= -499.6827746027463
+ Drone_retrieval_time_Dr7_C3_C1_C2: t[Tr7,C2] - t[Tr7,C3]
+   + 500 d_Dr7_C3_C1_C2 <= 500.0756353757125
+ Drone_retrieval_time_Dr7_C3_C1_C2: - t[Dr7,C1] + t[Dr7,C2]
+   - 500 d_Dr7_C3_C1_C2 >= -499.926330339115
+ Drone_retrieval_time_Dr7_C3_C1_C4: - t[Tr7,C3] + t[Tr7,C4]
+   + 500 d_Dr7_C3_C1_C4 <= 500.3477637775422
+ Drone_retrieval_time_Dr7_C3_C1_C4: - t[Dr7,C1] + t[Dr7,C4]
+   - 500 d_Dr7_C3_C1_C4 >= -499.6689160709921
+ Drone_retrieval_time_Dr7_C3_C1_C5: - t[Tr7,C3] + t[Tr7,C5]
+   + 500 d_Dr7_C3_C1_C5 <= 500.1629970776955
+ Drone_retrieval_time_Dr7_C3_C1_C5: - t[Dr7,C1] + t[Dr7,C5]
+   - 500 d_Dr7_C3_C1_C5 >= -499.9682838028799
+ Drone_retrieval_time_Dr7_C3_C2_D0: t[Tr7,D0] - t[Tr7,C3]
+   + 500 d_Dr7_C3_C2_D0 <= 500.3996240837137
+ Drone_retrieval_time_Dr7_C3_C2_D0: t[Dr7,D0] - t[Dr7,C2]
+   - 500 d_Dr7_C3_C2_D0 >= -499.6178540815885
+ Drone_retrieval_time_Dr7_C3_C2_C1: t[Tr7,C1] - t[Tr7,C3]
+   + 500 d_Dr7_C3_C2_C1 <= 500.1314462114664
+ Drone_retrieval_time_Dr7_C3_C2_C1: t[Dr7,C1] - t[Dr7,C2]
+   - 500 d_Dr7_C3_C2_C1 >= -499.926330339115
+ Drone_retrieval_time_Dr7_C3_C2_C4: - t[Tr7,C3] + t[Tr7,C4]
+   + 500 d_Dr7_C3_C2_C4 <= 500.3477637775422
+ Drone_retrieval_time_Dr7_C3_C2_C4: - t[Dr7,C2] + t[Dr7,C4]
+   - 500 d_Dr7_C3_C2_C4 >= -499.6318927349537
+ Drone_retrieval_time_Dr7_C3_C2_C5: - t[Tr7,C3] + t[Tr7,C5]
+   + 500 d_Dr7_C3_C2_C5 <= 500.1629970776955
+ Drone_retrieval_time_Dr7_C3_C2_C5: - t[Dr7,C2] + t[Dr7,C5]
+   - 500 d_Dr7_C3_C2_C5 >= -499.8962707210397
+ Drone_retrieval_time_Dr7_C3_C4_D0: t[Tr7,D0] - t[Tr7,C3]
+   + 500 d_Dr7_C3_C4_D0 <= 500.3996240837137
+ Drone_retrieval_time_Dr7_C3_C4_D0: t[Dr7,D0] - t[Dr7,C4]
+   - 500 d_Dr7_C3_C4_D0 >= -499.8100140148426
+ Drone_retrieval_time_Dr7_C3_C4_C1: t[Tr7,C1] - t[Tr7,C3]
+   + 500 d_Dr7_C3_C4_C1 <= 500.1314462114664
+ Drone_retrieval_time_Dr7_C3_C4_C1: t[Dr7,C1] - t[Dr7,C4]
+   - 500 d_Dr7_C3_C4_C1 >= -499.6689160709921
+ Drone_retrieval_time_Dr7_C3_C4_C2: t[Tr7,C2] - t[Tr7,C3]
+   + 500 d_Dr7_C3_C4_C2 <= 500.0756353757125
+ Drone_retrieval_time_Dr7_C3_C4_C2: t[Dr7,C2] - t[Dr7,C4]
+   - 500 d_Dr7_C3_C4_C2 >= -499.6318927349537
+ Drone_retrieval_time_Dr7_C3_C4_C5: - t[Tr7,C3] + t[Tr7,C5]
+   + 500 d_Dr7_C3_C4_C5 <= 500.1629970776955
+ Drone_retrieval_time_Dr7_C3_C4_C5: - t[Dr7,C4] + t[Dr7,C5]
+   - 500 d_Dr7_C3_C4_C5 >= -499.6688338696105
+ Drone_retrieval_time_Dr7_C3_C5_D0: t[Tr7,D0] - t[Tr7,C3]
+   + 500 d_Dr7_C3_C5_D0 <= 500.3996240837137
+ Drone_retrieval_time_Dr7_C3_C5_D0: t[Dr7,D0] - t[Dr7,C5]
+   - 500 d_Dr7_C3_C5_D0 >= -499.7005962532795
+ Drone_retrieval_time_Dr7_C3_C5_C1: t[Tr7,C1] - t[Tr7,C3]
+   + 500 d_Dr7_C3_C5_C1 <= 500.1314462114664
+ Drone_retrieval_time_Dr7_C3_C5_C1: t[Dr7,C1] - t[Dr7,C5]
+   - 500 d_Dr7_C3_C5_C1 >= -499.9682838028799
+ Drone_retrieval_time_Dr7_C3_C5_C2: t[Tr7,C2] - t[Tr7,C3]
+   + 500 d_Dr7_C3_C5_C2 <= 500.0756353757125
+ Drone_retrieval_time_Dr7_C3_C5_C2: t[Dr7,C2] - t[Dr7,C5]
+   - 500 d_Dr7_C3_C5_C2 >= -499.8962707210397
+ Drone_retrieval_time_Dr7_C3_C5_C4: - t[Tr7,C3] + t[Tr7,C4]
+   + 500 d_Dr7_C3_C5_C4 <= 500.3477637775422
+ Drone_retrieval_time_Dr7_C3_C5_C4: t[Dr7,C4] - t[Dr7,C5]
+   - 500 d_Dr7_C3_C5_C4 >= -499.6688338696105
+ Drone_retrieval_time_Dr7_C4_D0_C1: t[Tr7,C1] - t[Tr7,C4]
+   + 500 d_Dr7_C4_D0_C1 <= 500.3310839290079
+ Drone_retrieval_time_Dr7_C4_D0_C1: - t[Dr7,D0] + t[Dr7,C1]
+   - 500 d_Dr7_C4_D0_C1 >= -499.6827746027463
+ Drone_retrieval_time_Dr7_C4_D0_C2: t[Tr7,C2] - t[Tr7,C4]
+   + 500 d_Dr7_C4_D0_C2 <= 500.3681072650463
+ Drone_retrieval_time_Dr7_C4_D0_C2: - t[Dr7,D0] + t[Dr7,C2]
+   - 500 d_Dr7_C4_D0_C2 >= -499.6178540815885
+ Drone_retrieval_time_Dr7_C4_D0_C3: t[Tr7,C3] - t[Tr7,C4]
+   + 500 d_Dr7_C4_D0_C3 <= 500.3477637775422
+ Drone_retrieval_time_Dr7_C4_D0_C3: - t[Dr7,D0] + t[Dr7,C3]
+   - 500 d_Dr7_C4_D0_C3 >= -499.6003759162863
+ Drone_retrieval_time_Dr7_C4_D0_C5: - t[Tr7,C4] + t[Tr7,C5]
+   + 500 d_Dr7_C4_D0_C5 <= 500.3311661303895
+ Drone_retrieval_time_Dr7_C4_D0_C5: - t[Dr7,D0] + t[Dr7,C5]
+   - 500 d_Dr7_C4_D0_C5 >= -499.7005962532795
+ Drone_retrieval_time_Dr7_C4_C1_D0: t[Tr7,D0] - t[Tr7,C4]
+   + 500 d_Dr7_C4_C1_D0 <= 500.1899859851574
+ Drone_retrieval_time_Dr7_C4_C1_D0: t[Dr7,D0] - t[Dr7,C1]
+   - 500 d_Dr7_C4_C1_D0 >= -499.6827746027463
+ Drone_retrieval_time_Dr7_C4_C1_C2: t[Tr7,C2] - t[Tr7,C4]
+   + 500 d_Dr7_C4_C1_C2 <= 500.3681072650463
+ Drone_retrieval_time_Dr7_C4_C1_C2: - t[Dr7,C1] + t[Dr7,C2]
+   - 500 d_Dr7_C4_C1_C2 >= -499.926330339115
+ Drone_retrieval_time_Dr7_C4_C1_C3: t[Tr7,C3] - t[Tr7,C4]
+   + 500 d_Dr7_C4_C1_C3 <= 500.3477637775422
+ Drone_retrieval_time_Dr7_C4_C1_C3: - t[Dr7,C1] + t[Dr7,C3]
+   - 500 d_Dr7_C4_C1_C3 >= -499.8685537885336
+ Drone_retrieval_time_Dr7_C4_C1_C5: - t[Tr7,C4] + t[Tr7,C5]
+   + 500 d_Dr7_C4_C1_C5 <= 500.3311661303895
+ Drone_retrieval_time_Dr7_C4_C1_C5: - t[Dr7,C1] + t[Dr7,C5]
+   - 500 d_Dr7_C4_C1_C5 >= -499.9682838028799
+ Drone_retrieval_time_Dr7_C4_C2_D0: t[Tr7,D0] - t[Tr7,C4]
+   + 500 d_Dr7_C4_C2_D0 <= 500.1899859851574
+ Drone_retrieval_time_Dr7_C4_C2_D0: t[Dr7,D0] - t[Dr7,C2]
+   - 500 d_Dr7_C4_C2_D0 >= -499.6178540815885
+ Drone_retrieval_time_Dr7_C4_C2_C1: t[Tr7,C1] - t[Tr7,C4]
+   + 500 d_Dr7_C4_C2_C1 <= 500.3310839290079
+ Drone_retrieval_time_Dr7_C4_C2_C1: t[Dr7,C1] - t[Dr7,C2]
+   - 500 d_Dr7_C4_C2_C1 >= -499.926330339115
+ Drone_retrieval_time_Dr7_C4_C2_C3: t[Tr7,C3] - t[Tr7,C4]
+   + 500 d_Dr7_C4_C2_C3 <= 500.3477637775422
+ Drone_retrieval_time_Dr7_C4_C2_C3: - t[Dr7,C2] + t[Dr7,C3]
+   - 500 d_Dr7_C4_C2_C3 >= -499.9243646242875
+ Drone_retrieval_time_Dr7_C4_C2_C5: - t[Tr7,C4] + t[Tr7,C5]
+   + 500 d_Dr7_C4_C2_C5 <= 500.3311661303895
+ Drone_retrieval_time_Dr7_C4_C2_C5: - t[Dr7,C2] + t[Dr7,C5]
+   - 500 d_Dr7_C4_C2_C5 >= -499.8962707210397
+ Drone_retrieval_time_Dr7_C4_C3_D0: t[Tr7,D0] - t[Tr7,C4]
+   + 500 d_Dr7_C4_C3_D0 <= 500.1899859851574
+ Drone_retrieval_time_Dr7_C4_C3_D0: t[Dr7,D0] - t[Dr7,C3]
+   - 500 d_Dr7_C4_C3_D0 >= -499.6003759162863
+ Drone_retrieval_time_Dr7_C4_C3_C1: t[Tr7,C1] - t[Tr7,C4]
+   + 500 d_Dr7_C4_C3_C1 <= 500.3310839290079
+ Drone_retrieval_time_Dr7_C4_C3_C1: t[Dr7,C1] - t[Dr7,C3]
+   - 500 d_Dr7_C4_C3_C1 >= -499.8685537885336
+ Drone_retrieval_time_Dr7_C4_C3_C2: t[Tr7,C2] - t[Tr7,C4]
+   + 500 d_Dr7_C4_C3_C2 <= 500.3681072650463
+ Drone_retrieval_time_Dr7_C4_C3_C2: t[Dr7,C2] - t[Dr7,C3]
+   - 500 d_Dr7_C4_C3_C2 >= -499.9243646242875
+ Drone_retrieval_time_Dr7_C4_C3_C5: - t[Tr7,C4] + t[Tr7,C5]
+   + 500 d_Dr7_C4_C3_C5 <= 500.3311661303895
+ Drone_retrieval_time_Dr7_C4_C3_C5: - t[Dr7,C3] + t[Dr7,C5]
+   - 500 d_Dr7_C4_C3_C5 >= -499.8370029223045
+ Drone_retrieval_time_Dr7_C4_C5_D0: t[Tr7,D0] - t[Tr7,C4]
+   + 500 d_Dr7_C4_C5_D0 <= 500.1899859851574
+ Drone_retrieval_time_Dr7_C4_C5_D0: t[Dr7,D0] - t[Dr7,C5]
+   - 500 d_Dr7_C4_C5_D0 >= -499.7005962532795
+ Drone_retrieval_time_Dr7_C4_C5_C1: t[Tr7,C1] - t[Tr7,C4]
+   + 500 d_Dr7_C4_C5_C1 <= 500.3310839290079
+ Drone_retrieval_time_Dr7_C4_C5_C1: t[Dr7,C1] - t[Dr7,C5]
+   - 500 d_Dr7_C4_C5_C1 >= -499.9682838028799
+ Drone_retrieval_time_Dr7_C4_C5_C2: t[Tr7,C2] - t[Tr7,C4]
+   + 500 d_Dr7_C4_C5_C2 <= 500.3681072650463
+ Drone_retrieval_time_Dr7_C4_C5_C2: t[Dr7,C2] - t[Dr7,C5]
+   - 500 d_Dr7_C4_C5_C2 >= -499.8962707210397
+ Drone_retrieval_time_Dr7_C4_C5_C3: t[Tr7,C3] - t[Tr7,C4]
+   + 500 d_Dr7_C4_C5_C3 <= 500.3477637775422
+ Drone_retrieval_time_Dr7_C4_C5_C3: t[Dr7,C3] - t[Dr7,C5]
+   - 500 d_Dr7_C4_C5_C3 >= -499.8370029223045
+ Drone_retrieval_time_Dr7_C5_D0_C1: t[Tr7,C1] - t[Tr7,C5]
+   + 500 d_Dr7_C5_D0_C1 <= 500.0317161971201
+ Drone_retrieval_time_Dr7_C5_D0_C1: - t[Dr7,D0] + t[Dr7,C1]
+   - 500 d_Dr7_C5_D0_C1 >= -499.6827746027463
+ Drone_retrieval_time_Dr7_C5_D0_C2: t[Tr7,C2] - t[Tr7,C5]
+   + 500 d_Dr7_C5_D0_C2 <= 500.1037292789603
+ Drone_retrieval_time_Dr7_C5_D0_C2: - t[Dr7,D0] + t[Dr7,C2]
+   - 500 d_Dr7_C5_D0_C2 >= -499.6178540815885
+ Drone_retrieval_time_Dr7_C5_D0_C3: t[Tr7,C3] - t[Tr7,C5]
+   + 500 d_Dr7_C5_D0_C3 <= 500.1629970776955
+ Drone_retrieval_time_Dr7_C5_D0_C3: - t[Dr7,D0] + t[Dr7,C3]
+   - 500 d_Dr7_C5_D0_C3 >= -499.6003759162863
+ Drone_retrieval_time_Dr7_C5_D0_C4: t[Tr7,C4] - t[Tr7,C5]
+   + 500 d_Dr7_C5_D0_C4 <= 500.3311661303895
+ Drone_retrieval_time_Dr7_C5_D0_C4: - t[Dr7,D0] + t[Dr7,C4]
+   - 500 d_Dr7_C5_D0_C4 >= -499.8100140148426
+ Drone_retrieval_time_Dr7_C5_C1_D0: t[Tr7,D0] - t[Tr7,C5]
+   + 500 d_Dr7_C5_C1_D0 <= 500.2994037467205
+ Drone_retrieval_time_Dr7_C5_C1_D0: t[Dr7,D0] - t[Dr7,C1]
+   - 500 d_Dr7_C5_C1_D0 >= -499.6827746027463
+ Drone_retrieval_time_Dr7_C5_C1_C2: t[Tr7,C2] - t[Tr7,C5]
+   + 500 d_Dr7_C5_C1_C2 <= 500.1037292789603
+ Drone_retrieval_time_Dr7_C5_C1_C2: - t[Dr7,C1] + t[Dr7,C2]
+   - 500 d_Dr7_C5_C1_C2 >= -499.926330339115
+ Drone_retrieval_time_Dr7_C5_C1_C3: t[Tr7,C3] - t[Tr7,C5]
+   + 500 d_Dr7_C5_C1_C3 <= 500.1629970776955
+ Drone_retrieval_time_Dr7_C5_C1_C3: - t[Dr7,C1] + t[Dr7,C3]
+   - 500 d_Dr7_C5_C1_C3 >= -499.8685537885336
+ Drone_retrieval_time_Dr7_C5_C1_C4: t[Tr7,C4] - t[Tr7,C5]
+   + 500 d_Dr7_C5_C1_C4 <= 500.3311661303895
+ Drone_retrieval_time_Dr7_C5_C1_C4: - t[Dr7,C1] + t[Dr7,C4]
+   - 500 d_Dr7_C5_C1_C4 >= -499.6689160709921
+ Drone_retrieval_time_Dr7_C5_C2_D0: t[Tr7,D0] - t[Tr7,C5]
+   + 500 d_Dr7_C5_C2_D0 <= 500.2994037467205
+ Drone_retrieval_time_Dr7_C5_C2_D0: t[Dr7,D0] - t[Dr7,C2]
+   - 500 d_Dr7_C5_C2_D0 >= -499.6178540815885
+ Drone_retrieval_time_Dr7_C5_C2_C1: t[Tr7,C1] - t[Tr7,C5]
+   + 500 d_Dr7_C5_C2_C1 <= 500.0317161971201
+ Drone_retrieval_time_Dr7_C5_C2_C1: t[Dr7,C1] - t[Dr7,C2]
+   - 500 d_Dr7_C5_C2_C1 >= -499.926330339115
+ Drone_retrieval_time_Dr7_C5_C2_C3: t[Tr7,C3] - t[Tr7,C5]
+   + 500 d_Dr7_C5_C2_C3 <= 500.1629970776955
+ Drone_retrieval_time_Dr7_C5_C2_C3: - t[Dr7,C2] + t[Dr7,C3]
+   - 500 d_Dr7_C5_C2_C3 >= -499.9243646242875
+ Drone_retrieval_time_Dr7_C5_C2_C4: t[Tr7,C4] - t[Tr7,C5]
+   + 500 d_Dr7_C5_C2_C4 <= 500.3311661303895
+ Drone_retrieval_time_Dr7_C5_C2_C4: - t[Dr7,C2] + t[Dr7,C4]
+   - 500 d_Dr7_C5_C2_C4 >= -499.6318927349537
+ Drone_retrieval_time_Dr7_C5_C3_D0: t[Tr7,D0] - t[Tr7,C5]
+   + 500 d_Dr7_C5_C3_D0 <= 500.2994037467205
+ Drone_retrieval_time_Dr7_C5_C3_D0: t[Dr7,D0] - t[Dr7,C3]
+   - 500 d_Dr7_C5_C3_D0 >= -499.6003759162863
+ Drone_retrieval_time_Dr7_C5_C3_C1: t[Tr7,C1] - t[Tr7,C5]
+   + 500 d_Dr7_C5_C3_C1 <= 500.0317161971201
+ Drone_retrieval_time_Dr7_C5_C3_C1: t[Dr7,C1] - t[Dr7,C3]
+   - 500 d_Dr7_C5_C3_C1 >= -499.8685537885336
+ Drone_retrieval_time_Dr7_C5_C3_C2: t[Tr7,C2] - t[Tr7,C5]
+   + 500 d_Dr7_C5_C3_C2 <= 500.1037292789603
+ Drone_retrieval_time_Dr7_C5_C3_C2: t[Dr7,C2] - t[Dr7,C3]
+   - 500 d_Dr7_C5_C3_C2 >= -499.9243646242875
+ Drone_retrieval_time_Dr7_C5_C3_C4: t[Tr7,C4] - t[Tr7,C5]
+   + 500 d_Dr7_C5_C3_C4 <= 500.3311661303895
+ Drone_retrieval_time_Dr7_C5_C3_C4: - t[Dr7,C3] + t[Dr7,C4]
+   - 500 d_Dr7_C5_C3_C4 >= -499.6522362224578
+ Drone_retrieval_time_Dr7_C5_C4_D0: t[Tr7,D0] - t[Tr7,C5]
+   + 500 d_Dr7_C5_C4_D0 <= 500.2994037467205
+ Drone_retrieval_time_Dr7_C5_C4_D0: t[Dr7,D0] - t[Dr7,C4]
+   - 500 d_Dr7_C5_C4_D0 >= -499.8100140148426
+ Drone_retrieval_time_Dr7_C5_C4_C1: t[Tr7,C1] - t[Tr7,C5]
+   + 500 d_Dr7_C5_C4_C1 <= 500.0317161971201
+ Drone_retrieval_time_Dr7_C5_C4_C1: t[Dr7,C1] - t[Dr7,C4]
+   - 500 d_Dr7_C5_C4_C1 >= -499.6689160709921
+ Drone_retrieval_time_Dr7_C5_C4_C2: t[Tr7,C2] - t[Tr7,C5]
+   + 500 d_Dr7_C5_C4_C2 <= 500.1037292789603
+ Drone_retrieval_time_Dr7_C5_C4_C2: t[Dr7,C2] - t[Dr7,C4]
+   - 500 d_Dr7_C5_C4_C2 >= -499.6318927349537
+ Drone_retrieval_time_Dr7_C5_C4_C3: t[Tr7,C3] - t[Tr7,C5]
+   + 500 d_Dr7_C5_C4_C3 <= 500.1629970776955
+ Drone_retrieval_time_Dr7_C5_C4_C3: t[Dr7,C3] - t[Dr7,C4]
+   - 500 d_Dr7_C5_C4_C3 >= -499.6522362224578
+ Drone_retrieval_time_Dr8_D0_C1_C2: - t[Tr8,D0] + t[Tr8,C2]
+   + 500 d_Dr8_D0_C1_C2 <= 500.3821459184115
+ Drone_retrieval_time_Dr8_D0_C1_C2: - t[Dr8,C1] + t[Dr8,C2]
+   - 500 d_Dr8_D0_C1_C2 >= -499.926330339115
+ Drone_retrieval_time_Dr8_D0_C1_C3: - t[Tr8,D0] + t[Tr8,C3]
+   + 500 d_Dr8_D0_C1_C3 <= 500.3996240837137
+ Drone_retrieval_time_Dr8_D0_C1_C3: - t[Dr8,C1] + t[Dr8,C3]
+   - 500 d_Dr8_D0_C1_C3 >= -499.8685537885336
+ Drone_retrieval_time_Dr8_D0_C1_C4: - t[Tr8,D0] + t[Tr8,C4]
+   + 500 d_Dr8_D0_C1_C4 <= 500.1899859851574
+ Drone_retrieval_time_Dr8_D0_C1_C4: - t[Dr8,C1] + t[Dr8,C4]
+   - 500 d_Dr8_D0_C1_C4 >= -499.6689160709921
+ Drone_retrieval_time_Dr8_D0_C1_C5: - t[Tr8,D0] + t[Tr8,C5]
+   + 500 d_Dr8_D0_C1_C5 <= 500.2994037467205
+ Drone_retrieval_time_Dr8_D0_C1_C5: - t[Dr8,C1] + t[Dr8,C5]
+   - 500 d_Dr8_D0_C1_C5 >= -499.9682838028799
+ Drone_retrieval_time_Dr8_D0_C2_C1: - t[Tr8,D0] + t[Tr8,C1]
+   + 500 d_Dr8_D0_C2_C1 <= 500.3172253972537
+ Drone_retrieval_time_Dr8_D0_C2_C1: t[Dr8,C1] - t[Dr8,C2]
+   - 500 d_Dr8_D0_C2_C1 >= -499.926330339115
+ Drone_retrieval_time_Dr8_D0_C2_C3: - t[Tr8,D0] + t[Tr8,C3]
+   + 500 d_Dr8_D0_C2_C3 <= 500.3996240837137
+ Drone_retrieval_time_Dr8_D0_C2_C3: - t[Dr8,C2] + t[Dr8,C3]
+   - 500 d_Dr8_D0_C2_C3 >= -499.9243646242875
+ Drone_retrieval_time_Dr8_D0_C2_C4: - t[Tr8,D0] + t[Tr8,C4]
+   + 500 d_Dr8_D0_C2_C4 <= 500.1899859851574
+ Drone_retrieval_time_Dr8_D0_C2_C4: - t[Dr8,C2] + t[Dr8,C4]
+   - 500 d_Dr8_D0_C2_C4 >= -499.6318927349537
+ Drone_retrieval_time_Dr8_D0_C2_C5: - t[Tr8,D0] + t[Tr8,C5]
+   + 500 d_Dr8_D0_C2_C5 <= 500.2994037467205
+ Drone_retrieval_time_Dr8_D0_C2_C5: - t[Dr8,C2] + t[Dr8,C5]
+   - 500 d_Dr8_D0_C2_C5 >= -499.8962707210397
+ Drone_retrieval_time_Dr8_D0_C3_C1: - t[Tr8,D0] + t[Tr8,C1]
+   + 500 d_Dr8_D0_C3_C1 <= 500.3172253972537
+ Drone_retrieval_time_Dr8_D0_C3_C1: t[Dr8,C1] - t[Dr8,C3]
+   - 500 d_Dr8_D0_C3_C1 >= -499.8685537885336
+ Drone_retrieval_time_Dr8_D0_C3_C2: - t[Tr8,D0] + t[Tr8,C2]
+   + 500 d_Dr8_D0_C3_C2 <= 500.3821459184115
+ Drone_retrieval_time_Dr8_D0_C3_C2: t[Dr8,C2] - t[Dr8,C3]
+   - 500 d_Dr8_D0_C3_C2 >= -499.9243646242875
+ Drone_retrieval_time_Dr8_D0_C3_C4: - t[Tr8,D0] + t[Tr8,C4]
+   + 500 d_Dr8_D0_C3_C4 <= 500.1899859851574
+ Drone_retrieval_time_Dr8_D0_C3_C4: - t[Dr8,C3] + t[Dr8,C4]
+   - 500 d_Dr8_D0_C3_C4 >= -499.6522362224578
+ Drone_retrieval_time_Dr8_D0_C3_C5: - t[Tr8,D0] + t[Tr8,C5]
+   + 500 d_Dr8_D0_C3_C5 <= 500.2994037467205
+ Drone_retrieval_time_Dr8_D0_C3_C5: - t[Dr8,C3] + t[Dr8,C5]
+   - 500 d_Dr8_D0_C3_C5 >= -499.8370029223045
+ Drone_retrieval_time_Dr8_D0_C4_C1: - t[Tr8,D0] + t[Tr8,C1]
+   + 500 d_Dr8_D0_C4_C1 <= 500.3172253972537
+ Drone_retrieval_time_Dr8_D0_C4_C1: t[Dr8,C1] - t[Dr8,C4]
+   - 500 d_Dr8_D0_C4_C1 >= -499.6689160709921
+ Drone_retrieval_time_Dr8_D0_C4_C2: - t[Tr8,D0] + t[Tr8,C2]
+   + 500 d_Dr8_D0_C4_C2 <= 500.3821459184115
+ Drone_retrieval_time_Dr8_D0_C4_C2: t[Dr8,C2] - t[Dr8,C4]
+   - 500 d_Dr8_D0_C4_C2 >= -499.6318927349537
+ Drone_retrieval_time_Dr8_D0_C4_C3: - t[Tr8,D0] + t[Tr8,C3]
+   + 500 d_Dr8_D0_C4_C3 <= 500.3996240837137
+ Drone_retrieval_time_Dr8_D0_C4_C3: t[Dr8,C3] - t[Dr8,C4]
+   - 500 d_Dr8_D0_C4_C3 >= -499.6522362224578
+ Drone_retrieval_time_Dr8_D0_C4_C5: - t[Tr8,D0] + t[Tr8,C5]
+   + 500 d_Dr8_D0_C4_C5 <= 500.2994037467205
+ Drone_retrieval_time_Dr8_D0_C4_C5: - t[Dr8,C4] + t[Dr8,C5]
+   - 500 d_Dr8_D0_C4_C5 >= -499.6688338696105
+ Drone_retrieval_time_Dr8_D0_C5_C1: - t[Tr8,D0] + t[Tr8,C1]
+   + 500 d_Dr8_D0_C5_C1 <= 500.3172253972537
+ Drone_retrieval_time_Dr8_D0_C5_C1: t[Dr8,C1] - t[Dr8,C5]
+   - 500 d_Dr8_D0_C5_C1 >= -499.9682838028799
+ Drone_retrieval_time_Dr8_D0_C5_C2: - t[Tr8,D0] + t[Tr8,C2]
+   + 500 d_Dr8_D0_C5_C2 <= 500.3821459184115
+ Drone_retrieval_time_Dr8_D0_C5_C2: t[Dr8,C2] - t[Dr8,C5]
+   - 500 d_Dr8_D0_C5_C2 >= -499.8962707210397
+ Drone_retrieval_time_Dr8_D0_C5_C3: - t[Tr8,D0] + t[Tr8,C3]
+   + 500 d_Dr8_D0_C5_C3 <= 500.3996240837137
+ Drone_retrieval_time_Dr8_D0_C5_C3: t[Dr8,C3] - t[Dr8,C5]
+   - 500 d_Dr8_D0_C5_C3 >= -499.8370029223045
+ Drone_retrieval_time_Dr8_D0_C5_C4: - t[Tr8,D0] + t[Tr8,C4]
+   + 500 d_Dr8_D0_C5_C4 <= 500.1899859851574
+ Drone_retrieval_time_Dr8_D0_C5_C4: t[Dr8,C4] - t[Dr8,C5]
+   - 500 d_Dr8_D0_C5_C4 >= -499.6688338696105
+ Drone_retrieval_time_Dr8_C1_D0_C2: - t[Tr8,C1] + t[Tr8,C2]
+   + 500 d_Dr8_C1_D0_C2 <= 500.073669660885
+ Drone_retrieval_time_Dr8_C1_D0_C2: - t[Dr8,D0] + t[Dr8,C2]
+   - 500 d_Dr8_C1_D0_C2 >= -499.6178540815885
+ Drone_retrieval_time_Dr8_C1_D0_C3: - t[Tr8,C1] + t[Tr8,C3]
+   + 500 d_Dr8_C1_D0_C3 <= 500.1314462114664
+ Drone_retrieval_time_Dr8_C1_D0_C3: - t[Dr8,D0] + t[Dr8,C3]
+   - 500 d_Dr8_C1_D0_C3 >= -499.6003759162863
+ Drone_retrieval_time_Dr8_C1_D0_C4: - t[Tr8,C1] + t[Tr8,C4]
+   + 500 d_Dr8_C1_D0_C4 <= 500.3310839290079
+ Drone_retrieval_time_Dr8_C1_D0_C4: - t[Dr8,D0] + t[Dr8,C4]
+   - 500 d_Dr8_C1_D0_C4 >= -499.8100140148426
+ Drone_retrieval_time_Dr8_C1_D0_C5: - t[Tr8,C1] + t[Tr8,C5]
+   + 500 d_Dr8_C1_D0_C5 <= 500.0317161971201
+ Drone_retrieval_time_Dr8_C1_D0_C5: - t[Dr8,D0] + t[Dr8,C5]
+   - 500 d_Dr8_C1_D0_C5 >= -499.7005962532795
+ Drone_retrieval_time_Dr8_C1_C2_D0: t[Tr8,D0] - t[Tr8,C1]
+   + 500 d_Dr8_C1_C2_D0 <= 500.3172253972537
+ Drone_retrieval_time_Dr8_C1_C2_D0: t[Dr8,D0] - t[Dr8,C2]
+   - 500 d_Dr8_C1_C2_D0 >= -499.6178540815885
+ Drone_retrieval_time_Dr8_C1_C2_C3: - t[Tr8,C1] + t[Tr8,C3]
+   + 500 d_Dr8_C1_C2_C3 <= 500.1314462114664
+ Drone_retrieval_time_Dr8_C1_C2_C3: - t[Dr8,C2] + t[Dr8,C3]
+   - 500 d_Dr8_C1_C2_C3 >= -499.9243646242875
+ Drone_retrieval_time_Dr8_C1_C2_C4: - t[Tr8,C1] + t[Tr8,C4]
+   + 500 d_Dr8_C1_C2_C4 <= 500.3310839290079
+ Drone_retrieval_time_Dr8_C1_C2_C4: - t[Dr8,C2] + t[Dr8,C4]
+   - 500 d_Dr8_C1_C2_C4 >= -499.6318927349537
+ Drone_retrieval_time_Dr8_C1_C2_C5: - t[Tr8,C1] + t[Tr8,C5]
+   + 500 d_Dr8_C1_C2_C5 <= 500.0317161971201
+ Drone_retrieval_time_Dr8_C1_C2_C5: - t[Dr8,C2] + t[Dr8,C5]
+   - 500 d_Dr8_C1_C2_C5 >= -499.8962707210397
+ Drone_retrieval_time_Dr8_C1_C3_D0: t[Tr8,D0] - t[Tr8,C1]
+   + 500 d_Dr8_C1_C3_D0 <= 500.3172253972537
+ Drone_retrieval_time_Dr8_C1_C3_D0: t[Dr8,D0] - t[Dr8,C3]
+   - 500 d_Dr8_C1_C3_D0 >= -499.6003759162863
+ Drone_retrieval_time_Dr8_C1_C3_C2: - t[Tr8,C1] + t[Tr8,C2]
+   + 500 d_Dr8_C1_C3_C2 <= 500.073669660885
+ Drone_retrieval_time_Dr8_C1_C3_C2: t[Dr8,C2] - t[Dr8,C3]
+   - 500 d_Dr8_C1_C3_C2 >= -499.9243646242875
+ Drone_retrieval_time_Dr8_C1_C3_C4: - t[Tr8,C1] + t[Tr8,C4]
+   + 500 d_Dr8_C1_C3_C4 <= 500.3310839290079
+ Drone_retrieval_time_Dr8_C1_C3_C4: - t[Dr8,C3] + t[Dr8,C4]
+   - 500 d_Dr8_C1_C3_C4 >= -499.6522362224578
+ Drone_retrieval_time_Dr8_C1_C3_C5: - t[Tr8,C1] + t[Tr8,C5]
+   + 500 d_Dr8_C1_C3_C5 <= 500.0317161971201
+ Drone_retrieval_time_Dr8_C1_C3_C5: - t[Dr8,C3] + t[Dr8,C5]
+   - 500 d_Dr8_C1_C3_C5 >= -499.8370029223045
+ Drone_retrieval_time_Dr8_C1_C4_D0: t[Tr8,D0] - t[Tr8,C1]
+   + 500 d_Dr8_C1_C4_D0 <= 500.3172253972537
+ Drone_retrieval_time_Dr8_C1_C4_D0: t[Dr8,D0] - t[Dr8,C4]
+   - 500 d_Dr8_C1_C4_D0 >= -499.8100140148426
+ Drone_retrieval_time_Dr8_C1_C4_C2: - t[Tr8,C1] + t[Tr8,C2]
+   + 500 d_Dr8_C1_C4_C2 <= 500.073669660885
+ Drone_retrieval_time_Dr8_C1_C4_C2: t[Dr8,C2] - t[Dr8,C4]
+   - 500 d_Dr8_C1_C4_C2 >= -499.6318927349537
+ Drone_retrieval_time_Dr8_C1_C4_C3: - t[Tr8,C1] + t[Tr8,C3]
+   + 500 d_Dr8_C1_C4_C3 <= 500.1314462114664
+ Drone_retrieval_time_Dr8_C1_C4_C3: t[Dr8,C3] - t[Dr8,C4]
+   - 500 d_Dr8_C1_C4_C3 >= -499.6522362224578
+ Drone_retrieval_time_Dr8_C1_C4_C5: - t[Tr8,C1] + t[Tr8,C5]
+   + 500 d_Dr8_C1_C4_C5 <= 500.0317161971201
+ Drone_retrieval_time_Dr8_C1_C4_C5: - t[Dr8,C4] + t[Dr8,C5]
+   - 500 d_Dr8_C1_C4_C5 >= -499.6688338696105
+ Drone_retrieval_time_Dr8_C1_C5_D0: t[Tr8,D0] - t[Tr8,C1]
+   + 500 d_Dr8_C1_C5_D0 <= 500.3172253972537
+ Drone_retrieval_time_Dr8_C1_C5_D0: t[Dr8,D0] - t[Dr8,C5]
+   - 500 d_Dr8_C1_C5_D0 >= -499.7005962532795
+ Drone_retrieval_time_Dr8_C1_C5_C2: - t[Tr8,C1] + t[Tr8,C2]
+   + 500 d_Dr8_C1_C5_C2 <= 500.073669660885
+ Drone_retrieval_time_Dr8_C1_C5_C2: t[Dr8,C2] - t[Dr8,C5]
+   - 500 d_Dr8_C1_C5_C2 >= -499.8962707210397
+ Drone_retrieval_time_Dr8_C1_C5_C3: - t[Tr8,C1] + t[Tr8,C3]
+   + 500 d_Dr8_C1_C5_C3 <= 500.1314462114664
+ Drone_retrieval_time_Dr8_C1_C5_C3: t[Dr8,C3] - t[Dr8,C5]
+   - 500 d_Dr8_C1_C5_C3 >= -499.8370029223045
+ Drone_retrieval_time_Dr8_C1_C5_C4: - t[Tr8,C1] + t[Tr8,C4]
+   + 500 d_Dr8_C1_C5_C4 <= 500.3310839290079
+ Drone_retrieval_time_Dr8_C1_C5_C4: t[Dr8,C4] - t[Dr8,C5]
+   - 500 d_Dr8_C1_C5_C4 >= -499.6688338696105
+ Drone_retrieval_time_Dr8_C2_D0_C1: t[Tr8,C1] - t[Tr8,C2]
+   + 500 d_Dr8_C2_D0_C1 <= 500.073669660885
+ Drone_retrieval_time_Dr8_C2_D0_C1: - t[Dr8,D0] + t[Dr8,C1]
+   - 500 d_Dr8_C2_D0_C1 >= -499.6827746027463
+ Drone_retrieval_time_Dr8_C2_D0_C3: - t[Tr8,C2] + t[Tr8,C3]
+   + 500 d_Dr8_C2_D0_C3 <= 500.0756353757125
+ Drone_retrieval_time_Dr8_C2_D0_C3: - t[Dr8,D0] + t[Dr8,C3]
+   - 500 d_Dr8_C2_D0_C3 >= -499.6003759162863
+ Drone_retrieval_time_Dr8_C2_D0_C4: - t[Tr8,C2] + t[Tr8,C4]
+   + 500 d_Dr8_C2_D0_C4 <= 500.3681072650463
+ Drone_retrieval_time_Dr8_C2_D0_C4: - t[Dr8,D0] + t[Dr8,C4]
+   - 500 d_Dr8_C2_D0_C4 >= -499.8100140148426
+ Drone_retrieval_time_Dr8_C2_D0_C5: - t[Tr8,C2] + t[Tr8,C5]
+   + 500 d_Dr8_C2_D0_C5 <= 500.1037292789603
+ Drone_retrieval_time_Dr8_C2_D0_C5: - t[Dr8,D0] + t[Dr8,C5]
+   - 500 d_Dr8_C2_D0_C5 >= -499.7005962532795
+ Drone_retrieval_time_Dr8_C2_C1_D0: t[Tr8,D0] - t[Tr8,C2]
+   + 500 d_Dr8_C2_C1_D0 <= 500.3821459184115
+ Drone_retrieval_time_Dr8_C2_C1_D0: t[Dr8,D0] - t[Dr8,C1]
+   - 500 d_Dr8_C2_C1_D0 >= -499.6827746027463
+ Drone_retrieval_time_Dr8_C2_C1_C3: - t[Tr8,C2] + t[Tr8,C3]
+   + 500 d_Dr8_C2_C1_C3 <= 500.0756353757125
+ Drone_retrieval_time_Dr8_C2_C1_C3: - t[Dr8,C1] + t[Dr8,C3]
+   - 500 d_Dr8_C2_C1_C3 >= -499.8685537885336
+ Drone_retrieval_time_Dr8_C2_C1_C4: - t[Tr8,C2] + t[Tr8,C4]
+   + 500 d_Dr8_C2_C1_C4 <= 500.3681072650463
+ Drone_retrieval_time_Dr8_C2_C1_C4: - t[Dr8,C1] + t[Dr8,C4]
+   - 500 d_Dr8_C2_C1_C4 >= -499.6689160709921
+ Drone_retrieval_time_Dr8_C2_C1_C5: - t[Tr8,C2] + t[Tr8,C5]
+   + 500 d_Dr8_C2_C1_C5 <= 500.1037292789603
+ Drone_retrieval_time_Dr8_C2_C1_C5: - t[Dr8,C1] + t[Dr8,C5]
+   - 500 d_Dr8_C2_C1_C5 >= -499.9682838028799
+ Drone_retrieval_time_Dr8_C2_C3_D0: t[Tr8,D0] - t[Tr8,C2]
+   + 500 d_Dr8_C2_C3_D0 <= 500.3821459184115
+ Drone_retrieval_time_Dr8_C2_C3_D0: t[Dr8,D0] - t[Dr8,C3]
+   - 500 d_Dr8_C2_C3_D0 >= -499.6003759162863
+ Drone_retrieval_time_Dr8_C2_C3_C1: t[Tr8,C1] - t[Tr8,C2]
+   + 500 d_Dr8_C2_C3_C1 <= 500.073669660885
+ Drone_retrieval_time_Dr8_C2_C3_C1: t[Dr8,C1] - t[Dr8,C3]
+   - 500 d_Dr8_C2_C3_C1 >= -499.8685537885336
+ Drone_retrieval_time_Dr8_C2_C3_C4: - t[Tr8,C2] + t[Tr8,C4]
+   + 500 d_Dr8_C2_C3_C4 <= 500.3681072650463
+ Drone_retrieval_time_Dr8_C2_C3_C4: - t[Dr8,C3] + t[Dr8,C4]
+   - 500 d_Dr8_C2_C3_C4 >= -499.6522362224578
+ Drone_retrieval_time_Dr8_C2_C3_C5: - t[Tr8,C2] + t[Tr8,C5]
+   + 500 d_Dr8_C2_C3_C5 <= 500.1037292789603
+ Drone_retrieval_time_Dr8_C2_C3_C5: - t[Dr8,C3] + t[Dr8,C5]
+   - 500 d_Dr8_C2_C3_C5 >= -499.8370029223045
+ Drone_retrieval_time_Dr8_C2_C4_D0: t[Tr8,D0] - t[Tr8,C2]
+   + 500 d_Dr8_C2_C4_D0 <= 500.3821459184115
+ Drone_retrieval_time_Dr8_C2_C4_D0: t[Dr8,D0] - t[Dr8,C4]
+   - 500 d_Dr8_C2_C4_D0 >= -499.8100140148426
+ Drone_retrieval_time_Dr8_C2_C4_C1: t[Tr8,C1] - t[Tr8,C2]
+   + 500 d_Dr8_C2_C4_C1 <= 500.073669660885
+ Drone_retrieval_time_Dr8_C2_C4_C1: t[Dr8,C1] - t[Dr8,C4]
+   - 500 d_Dr8_C2_C4_C1 >= -499.6689160709921
+ Drone_retrieval_time_Dr8_C2_C4_C3: - t[Tr8,C2] + t[Tr8,C3]
+   + 500 d_Dr8_C2_C4_C3 <= 500.0756353757125
+ Drone_retrieval_time_Dr8_C2_C4_C3: t[Dr8,C3] - t[Dr8,C4]
+   - 500 d_Dr8_C2_C4_C3 >= -499.6522362224578
+ Drone_retrieval_time_Dr8_C2_C4_C5: - t[Tr8,C2] + t[Tr8,C5]
+   + 500 d_Dr8_C2_C4_C5 <= 500.1037292789603
+ Drone_retrieval_time_Dr8_C2_C4_C5: - t[Dr8,C4] + t[Dr8,C5]
+   - 500 d_Dr8_C2_C4_C5 >= -499.6688338696105
+ Drone_retrieval_time_Dr8_C2_C5_D0: t[Tr8,D0] - t[Tr8,C2]
+   + 500 d_Dr8_C2_C5_D0 <= 500.3821459184115
+ Drone_retrieval_time_Dr8_C2_C5_D0: t[Dr8,D0] - t[Dr8,C5]
+   - 500 d_Dr8_C2_C5_D0 >= -499.7005962532795
+ Drone_retrieval_time_Dr8_C2_C5_C1: t[Tr8,C1] - t[Tr8,C2]
+   + 500 d_Dr8_C2_C5_C1 <= 500.073669660885
+ Drone_retrieval_time_Dr8_C2_C5_C1: t[Dr8,C1] - t[Dr8,C5]
+   - 500 d_Dr8_C2_C5_C1 >= -499.9682838028799
+ Drone_retrieval_time_Dr8_C2_C5_C3: - t[Tr8,C2] + t[Tr8,C3]
+   + 500 d_Dr8_C2_C5_C3 <= 500.0756353757125
+ Drone_retrieval_time_Dr8_C2_C5_C3: t[Dr8,C3] - t[Dr8,C5]
+   - 500 d_Dr8_C2_C5_C3 >= -499.8370029223045
+ Drone_retrieval_time_Dr8_C2_C5_C4: - t[Tr8,C2] + t[Tr8,C4]
+   + 500 d_Dr8_C2_C5_C4 <= 500.3681072650463
+ Drone_retrieval_time_Dr8_C2_C5_C4: t[Dr8,C4] - t[Dr8,C5]
+   - 500 d_Dr8_C2_C5_C4 >= -499.6688338696105
+ Drone_retrieval_time_Dr8_C3_D0_C1: t[Tr8,C1] - t[Tr8,C3]
+   + 500 d_Dr8_C3_D0_C1 <= 500.1314462114664
+ Drone_retrieval_time_Dr8_C3_D0_C1: - t[Dr8,D0] + t[Dr8,C1]
+   - 500 d_Dr8_C3_D0_C1 >= -499.6827746027463
+ Drone_retrieval_time_Dr8_C3_D0_C2: t[Tr8,C2] - t[Tr8,C3]
+   + 500 d_Dr8_C3_D0_C2 <= 500.0756353757125
+ Drone_retrieval_time_Dr8_C3_D0_C2: - t[Dr8,D0] + t[Dr8,C2]
+   - 500 d_Dr8_C3_D0_C2 >= -499.6178540815885
+ Drone_retrieval_time_Dr8_C3_D0_C4: - t[Tr8,C3] + t[Tr8,C4]
+   + 500 d_Dr8_C3_D0_C4 <= 500.3477637775422
+ Drone_retrieval_time_Dr8_C3_D0_C4: - t[Dr8,D0] + t[Dr8,C4]
+   - 500 d_Dr8_C3_D0_C4 >= -499.8100140148426
+ Drone_retrieval_time_Dr8_C3_D0_C5: - t[Tr8,C3] + t[Tr8,C5]
+   + 500 d_Dr8_C3_D0_C5 <= 500.1629970776955
+ Drone_retrieval_time_Dr8_C3_D0_C5: - t[Dr8,D0] + t[Dr8,C5]
+   - 500 d_Dr8_C3_D0_C5 >= -499.7005962532795
+ Drone_retrieval_time_Dr8_C3_C1_D0: t[Tr8,D0] - t[Tr8,C3]
+   + 500 d_Dr8_C3_C1_D0 <= 500.3996240837137
+ Drone_retrieval_time_Dr8_C3_C1_D0: t[Dr8,D0] - t[Dr8,C1]
+   - 500 d_Dr8_C3_C1_D0 >= -499.6827746027463
+ Drone_retrieval_time_Dr8_C3_C1_C2: t[Tr8,C2] - t[Tr8,C3]
+   + 500 d_Dr8_C3_C1_C2 <= 500.0756353757125
+ Drone_retrieval_time_Dr8_C3_C1_C2: - t[Dr8,C1] + t[Dr8,C2]
+   - 500 d_Dr8_C3_C1_C2 >= -499.926330339115
+ Drone_retrieval_time_Dr8_C3_C1_C4: - t[Tr8,C3] + t[Tr8,C4]
+   + 500 d_Dr8_C3_C1_C4 <= 500.3477637775422
+ Drone_retrieval_time_Dr8_C3_C1_C4: - t[Dr8,C1] + t[Dr8,C4]
+   - 500 d_Dr8_C3_C1_C4 >= -499.6689160709921
+ Drone_retrieval_time_Dr8_C3_C1_C5: - t[Tr8,C3] + t[Tr8,C5]
+   + 500 d_Dr8_C3_C1_C5 <= 500.1629970776955
+ Drone_retrieval_time_Dr8_C3_C1_C5: - t[Dr8,C1] + t[Dr8,C5]
+   - 500 d_Dr8_C3_C1_C5 >= -499.9682838028799
+ Drone_retrieval_time_Dr8_C3_C2_D0: t[Tr8,D0] - t[Tr8,C3]
+   + 500 d_Dr8_C3_C2_D0 <= 500.3996240837137
+ Drone_retrieval_time_Dr8_C3_C2_D0: t[Dr8,D0] - t[Dr8,C2]
+   - 500 d_Dr8_C3_C2_D0 >= -499.6178540815885
+ Drone_retrieval_time_Dr8_C3_C2_C1: t[Tr8,C1] - t[Tr8,C3]
+   + 500 d_Dr8_C3_C2_C1 <= 500.1314462114664
+ Drone_retrieval_time_Dr8_C3_C2_C1: t[Dr8,C1] - t[Dr8,C2]
+   - 500 d_Dr8_C3_C2_C1 >= -499.926330339115
+ Drone_retrieval_time_Dr8_C3_C2_C4: - t[Tr8,C3] + t[Tr8,C4]
+   + 500 d_Dr8_C3_C2_C4 <= 500.3477637775422
+ Drone_retrieval_time_Dr8_C3_C2_C4: - t[Dr8,C2] + t[Dr8,C4]
+   - 500 d_Dr8_C3_C2_C4 >= -499.6318927349537
+ Drone_retrieval_time_Dr8_C3_C2_C5: - t[Tr8,C3] + t[Tr8,C5]
+   + 500 d_Dr8_C3_C2_C5 <= 500.1629970776955
+ Drone_retrieval_time_Dr8_C3_C2_C5: - t[Dr8,C2] + t[Dr8,C5]
+   - 500 d_Dr8_C3_C2_C5 >= -499.8962707210397
+ Drone_retrieval_time_Dr8_C3_C4_D0: t[Tr8,D0] - t[Tr8,C3]
+   + 500 d_Dr8_C3_C4_D0 <= 500.3996240837137
+ Drone_retrieval_time_Dr8_C3_C4_D0: t[Dr8,D0] - t[Dr8,C4]
+   - 500 d_Dr8_C3_C4_D0 >= -499.8100140148426
+ Drone_retrieval_time_Dr8_C3_C4_C1: t[Tr8,C1] - t[Tr8,C3]
+   + 500 d_Dr8_C3_C4_C1 <= 500.1314462114664
+ Drone_retrieval_time_Dr8_C3_C4_C1: t[Dr8,C1] - t[Dr8,C4]
+   - 500 d_Dr8_C3_C4_C1 >= -499.6689160709921
+ Drone_retrieval_time_Dr8_C3_C4_C2: t[Tr8,C2] - t[Tr8,C3]
+   + 500 d_Dr8_C3_C4_C2 <= 500.0756353757125
+ Drone_retrieval_time_Dr8_C3_C4_C2: t[Dr8,C2] - t[Dr8,C4]
+   - 500 d_Dr8_C3_C4_C2 >= -499.6318927349537
+ Drone_retrieval_time_Dr8_C3_C4_C5: - t[Tr8,C3] + t[Tr8,C5]
+   + 500 d_Dr8_C3_C4_C5 <= 500.1629970776955
+ Drone_retrieval_time_Dr8_C3_C4_C5: - t[Dr8,C4] + t[Dr8,C5]
+   - 500 d_Dr8_C3_C4_C5 >= -499.6688338696105
+ Drone_retrieval_time_Dr8_C3_C5_D0: t[Tr8,D0] - t[Tr8,C3]
+   + 500 d_Dr8_C3_C5_D0 <= 500.3996240837137
+ Drone_retrieval_time_Dr8_C3_C5_D0: t[Dr8,D0] - t[Dr8,C5]
+   - 500 d_Dr8_C3_C5_D0 >= -499.7005962532795
+ Drone_retrieval_time_Dr8_C3_C5_C1: t[Tr8,C1] - t[Tr8,C3]
+   + 500 d_Dr8_C3_C5_C1 <= 500.1314462114664
+ Drone_retrieval_time_Dr8_C3_C5_C1: t[Dr8,C1] - t[Dr8,C5]
+   - 500 d_Dr8_C3_C5_C1 >= -499.9682838028799
+ Drone_retrieval_time_Dr8_C3_C5_C2: t[Tr8,C2] - t[Tr8,C3]
+   + 500 d_Dr8_C3_C5_C2 <= 500.0756353757125
+ Drone_retrieval_time_Dr8_C3_C5_C2: t[Dr8,C2] - t[Dr8,C5]
+   - 500 d_Dr8_C3_C5_C2 >= -499.8962707210397
+ Drone_retrieval_time_Dr8_C3_C5_C4: - t[Tr8,C3] + t[Tr8,C4]
+   + 500 d_Dr8_C3_C5_C4 <= 500.3477637775422
+ Drone_retrieval_time_Dr8_C3_C5_C4: t[Dr8,C4] - t[Dr8,C5]
+   - 500 d_Dr8_C3_C5_C4 >= -499.6688338696105
+ Drone_retrieval_time_Dr8_C4_D0_C1: t[Tr8,C1] - t[Tr8,C4]
+   + 500 d_Dr8_C4_D0_C1 <= 500.3310839290079
+ Drone_retrieval_time_Dr8_C4_D0_C1: - t[Dr8,D0] + t[Dr8,C1]
+   - 500 d_Dr8_C4_D0_C1 >= -499.6827746027463
+ Drone_retrieval_time_Dr8_C4_D0_C2: t[Tr8,C2] - t[Tr8,C4]
+   + 500 d_Dr8_C4_D0_C2 <= 500.3681072650463
+ Drone_retrieval_time_Dr8_C4_D0_C2: - t[Dr8,D0] + t[Dr8,C2]
+   - 500 d_Dr8_C4_D0_C2 >= -499.6178540815885
+ Drone_retrieval_time_Dr8_C4_D0_C3: t[Tr8,C3] - t[Tr8,C4]
+   + 500 d_Dr8_C4_D0_C3 <= 500.3477637775422
+ Drone_retrieval_time_Dr8_C4_D0_C3: - t[Dr8,D0] + t[Dr8,C3]
+   - 500 d_Dr8_C4_D0_C3 >= -499.6003759162863
+ Drone_retrieval_time_Dr8_C4_D0_C5: - t[Tr8,C4] + t[Tr8,C5]
+   + 500 d_Dr8_C4_D0_C5 <= 500.3311661303895
+ Drone_retrieval_time_Dr8_C4_D0_C5: - t[Dr8,D0] + t[Dr8,C5]
+   - 500 d_Dr8_C4_D0_C5 >= -499.7005962532795
+ Drone_retrieval_time_Dr8_C4_C1_D0: t[Tr8,D0] - t[Tr8,C4]
+   + 500 d_Dr8_C4_C1_D0 <= 500.1899859851574
+ Drone_retrieval_time_Dr8_C4_C1_D0: t[Dr8,D0] - t[Dr8,C1]
+   - 500 d_Dr8_C4_C1_D0 >= -499.6827746027463
+ Drone_retrieval_time_Dr8_C4_C1_C2: t[Tr8,C2] - t[Tr8,C4]
+   + 500 d_Dr8_C4_C1_C2 <= 500.3681072650463
+ Drone_retrieval_time_Dr8_C4_C1_C2: - t[Dr8,C1] + t[Dr8,C2]
+   - 500 d_Dr8_C4_C1_C2 >= -499.926330339115
+ Drone_retrieval_time_Dr8_C4_C1_C3: t[Tr8,C3] - t[Tr8,C4]
+   + 500 d_Dr8_C4_C1_C3 <= 500.3477637775422
+ Drone_retrieval_time_Dr8_C4_C1_C3: - t[Dr8,C1] + t[Dr8,C3]
+   - 500 d_Dr8_C4_C1_C3 >= -499.8685537885336
+ Drone_retrieval_time_Dr8_C4_C1_C5: - t[Tr8,C4] + t[Tr8,C5]
+   + 500 d_Dr8_C4_C1_C5 <= 500.3311661303895
+ Drone_retrieval_time_Dr8_C4_C1_C5: - t[Dr8,C1] + t[Dr8,C5]
+   - 500 d_Dr8_C4_C1_C5 >= -499.9682838028799
+ Drone_retrieval_time_Dr8_C4_C2_D0: t[Tr8,D0] - t[Tr8,C4]
+   + 500 d_Dr8_C4_C2_D0 <= 500.1899859851574
+ Drone_retrieval_time_Dr8_C4_C2_D0: t[Dr8,D0] - t[Dr8,C2]
+   - 500 d_Dr8_C4_C2_D0 >= -499.6178540815885
+ Drone_retrieval_time_Dr8_C4_C2_C1: t[Tr8,C1] - t[Tr8,C4]
+   + 500 d_Dr8_C4_C2_C1 <= 500.3310839290079
+ Drone_retrieval_time_Dr8_C4_C2_C1: t[Dr8,C1] - t[Dr8,C2]
+   - 500 d_Dr8_C4_C2_C1 >= -499.926330339115
+ Drone_retrieval_time_Dr8_C4_C2_C3: t[Tr8,C3] - t[Tr8,C4]
+   + 500 d_Dr8_C4_C2_C3 <= 500.3477637775422
+ Drone_retrieval_time_Dr8_C4_C2_C3: - t[Dr8,C2] + t[Dr8,C3]
+   - 500 d_Dr8_C4_C2_C3 >= -499.9243646242875
+ Drone_retrieval_time_Dr8_C4_C2_C5: - t[Tr8,C4] + t[Tr8,C5]
+   + 500 d_Dr8_C4_C2_C5 <= 500.3311661303895
+ Drone_retrieval_time_Dr8_C4_C2_C5: - t[Dr8,C2] + t[Dr8,C5]
+   - 500 d_Dr8_C4_C2_C5 >= -499.8962707210397
+ Drone_retrieval_time_Dr8_C4_C3_D0: t[Tr8,D0] - t[Tr8,C4]
+   + 500 d_Dr8_C4_C3_D0 <= 500.1899859851574
+ Drone_retrieval_time_Dr8_C4_C3_D0: t[Dr8,D0] - t[Dr8,C3]
+   - 500 d_Dr8_C4_C3_D0 >= -499.6003759162863
+ Drone_retrieval_time_Dr8_C4_C3_C1: t[Tr8,C1] - t[Tr8,C4]
+   + 500 d_Dr8_C4_C3_C1 <= 500.3310839290079
+ Drone_retrieval_time_Dr8_C4_C3_C1: t[Dr8,C1] - t[Dr8,C3]
+   - 500 d_Dr8_C4_C3_C1 >= -499.8685537885336
+ Drone_retrieval_time_Dr8_C4_C3_C2: t[Tr8,C2] - t[Tr8,C4]
+   + 500 d_Dr8_C4_C3_C2 <= 500.3681072650463
+ Drone_retrieval_time_Dr8_C4_C3_C2: t[Dr8,C2] - t[Dr8,C3]
+   - 500 d_Dr8_C4_C3_C2 >= -499.9243646242875
+ Drone_retrieval_time_Dr8_C4_C3_C5: - t[Tr8,C4] + t[Tr8,C5]
+   + 500 d_Dr8_C4_C3_C5 <= 500.3311661303895
+ Drone_retrieval_time_Dr8_C4_C3_C5: - t[Dr8,C3] + t[Dr8,C5]
+   - 500 d_Dr8_C4_C3_C5 >= -499.8370029223045
+ Drone_retrieval_time_Dr8_C4_C5_D0: t[Tr8,D0] - t[Tr8,C4]
+   + 500 d_Dr8_C4_C5_D0 <= 500.1899859851574
+ Drone_retrieval_time_Dr8_C4_C5_D0: t[Dr8,D0] - t[Dr8,C5]
+   - 500 d_Dr8_C4_C5_D0 >= -499.7005962532795
+ Drone_retrieval_time_Dr8_C4_C5_C1: t[Tr8,C1] - t[Tr8,C4]
+   + 500 d_Dr8_C4_C5_C1 <= 500.3310839290079
+ Drone_retrieval_time_Dr8_C4_C5_C1: t[Dr8,C1] - t[Dr8,C5]
+   - 500 d_Dr8_C4_C5_C1 >= -499.9682838028799
+ Drone_retrieval_time_Dr8_C4_C5_C2: t[Tr8,C2] - t[Tr8,C4]
+   + 500 d_Dr8_C4_C5_C2 <= 500.3681072650463
+ Drone_retrieval_time_Dr8_C4_C5_C2: t[Dr8,C2] - t[Dr8,C5]
+   - 500 d_Dr8_C4_C5_C2 >= -499.8962707210397
+ Drone_retrieval_time_Dr8_C4_C5_C3: t[Tr8,C3] - t[Tr8,C4]
+   + 500 d_Dr8_C4_C5_C3 <= 500.3477637775422
+ Drone_retrieval_time_Dr8_C4_C5_C3: t[Dr8,C3] - t[Dr8,C5]
+   - 500 d_Dr8_C4_C5_C3 >= -499.8370029223045
+ Drone_retrieval_time_Dr8_C5_D0_C1: t[Tr8,C1] - t[Tr8,C5]
+   + 500 d_Dr8_C5_D0_C1 <= 500.0317161971201
+ Drone_retrieval_time_Dr8_C5_D0_C1: - t[Dr8,D0] + t[Dr8,C1]
+   - 500 d_Dr8_C5_D0_C1 >= -499.6827746027463
+ Drone_retrieval_time_Dr8_C5_D0_C2: t[Tr8,C2] - t[Tr8,C5]
+   + 500 d_Dr8_C5_D0_C2 <= 500.1037292789603
+ Drone_retrieval_time_Dr8_C5_D0_C2: - t[Dr8,D0] + t[Dr8,C2]
+   - 500 d_Dr8_C5_D0_C2 >= -499.6178540815885
+ Drone_retrieval_time_Dr8_C5_D0_C3: t[Tr8,C3] - t[Tr8,C5]
+   + 500 d_Dr8_C5_D0_C3 <= 500.1629970776955
+ Drone_retrieval_time_Dr8_C5_D0_C3: - t[Dr8,D0] + t[Dr8,C3]
+   - 500 d_Dr8_C5_D0_C3 >= -499.6003759162863
+ Drone_retrieval_time_Dr8_C5_D0_C4: t[Tr8,C4] - t[Tr8,C5]
+   + 500 d_Dr8_C5_D0_C4 <= 500.3311661303895
+ Drone_retrieval_time_Dr8_C5_D0_C4: - t[Dr8,D0] + t[Dr8,C4]
+   - 500 d_Dr8_C5_D0_C4 >= -499.8100140148426
+ Drone_retrieval_time_Dr8_C5_C1_D0: t[Tr8,D0] - t[Tr8,C5]
+   + 500 d_Dr8_C5_C1_D0 <= 500.2994037467205
+ Drone_retrieval_time_Dr8_C5_C1_D0: t[Dr8,D0] - t[Dr8,C1]
+   - 500 d_Dr8_C5_C1_D0 >= -499.6827746027463
+ Drone_retrieval_time_Dr8_C5_C1_C2: t[Tr8,C2] - t[Tr8,C5]
+   + 500 d_Dr8_C5_C1_C2 <= 500.1037292789603
+ Drone_retrieval_time_Dr8_C5_C1_C2: - t[Dr8,C1] + t[Dr8,C2]
+   - 500 d_Dr8_C5_C1_C2 >= -499.926330339115
+ Drone_retrieval_time_Dr8_C5_C1_C3: t[Tr8,C3] - t[Tr8,C5]
+   + 500 d_Dr8_C5_C1_C3 <= 500.1629970776955
+ Drone_retrieval_time_Dr8_C5_C1_C3: - t[Dr8,C1] + t[Dr8,C3]
+   - 500 d_Dr8_C5_C1_C3 >= -499.8685537885336
+ Drone_retrieval_time_Dr8_C5_C1_C4: t[Tr8,C4] - t[Tr8,C5]
+   + 500 d_Dr8_C5_C1_C4 <= 500.3311661303895
+ Drone_retrieval_time_Dr8_C5_C1_C4: - t[Dr8,C1] + t[Dr8,C4]
+   - 500 d_Dr8_C5_C1_C4 >= -499.6689160709921
+ Drone_retrieval_time_Dr8_C5_C2_D0: t[Tr8,D0] - t[Tr8,C5]
+   + 500 d_Dr8_C5_C2_D0 <= 500.2994037467205
+ Drone_retrieval_time_Dr8_C5_C2_D0: t[Dr8,D0] - t[Dr8,C2]
+   - 500 d_Dr8_C5_C2_D0 >= -499.6178540815885
+ Drone_retrieval_time_Dr8_C5_C2_C1: t[Tr8,C1] - t[Tr8,C5]
+   + 500 d_Dr8_C5_C2_C1 <= 500.0317161971201
+ Drone_retrieval_time_Dr8_C5_C2_C1: t[Dr8,C1] - t[Dr8,C2]
+   - 500 d_Dr8_C5_C2_C1 >= -499.926330339115
+ Drone_retrieval_time_Dr8_C5_C2_C3: t[Tr8,C3] - t[Tr8,C5]
+   + 500 d_Dr8_C5_C2_C3 <= 500.1629970776955
+ Drone_retrieval_time_Dr8_C5_C2_C3: - t[Dr8,C2] + t[Dr8,C3]
+   - 500 d_Dr8_C5_C2_C3 >= -499.9243646242875
+ Drone_retrieval_time_Dr8_C5_C2_C4: t[Tr8,C4] - t[Tr8,C5]
+   + 500 d_Dr8_C5_C2_C4 <= 500.3311661303895
+ Drone_retrieval_time_Dr8_C5_C2_C4: - t[Dr8,C2] + t[Dr8,C4]
+   - 500 d_Dr8_C5_C2_C4 >= -499.6318927349537
+ Drone_retrieval_time_Dr8_C5_C3_D0: t[Tr8,D0] - t[Tr8,C5]
+   + 500 d_Dr8_C5_C3_D0 <= 500.2994037467205
+ Drone_retrieval_time_Dr8_C5_C3_D0: t[Dr8,D0] - t[Dr8,C3]
+   - 500 d_Dr8_C5_C3_D0 >= -499.6003759162863
+ Drone_retrieval_time_Dr8_C5_C3_C1: t[Tr8,C1] - t[Tr8,C5]
+   + 500 d_Dr8_C5_C3_C1 <= 500.0317161971201
+ Drone_retrieval_time_Dr8_C5_C3_C1: t[Dr8,C1] - t[Dr8,C3]
+   - 500 d_Dr8_C5_C3_C1 >= -499.8685537885336
+ Drone_retrieval_time_Dr8_C5_C3_C2: t[Tr8,C2] - t[Tr8,C5]
+   + 500 d_Dr8_C5_C3_C2 <= 500.1037292789603
+ Drone_retrieval_time_Dr8_C5_C3_C2: t[Dr8,C2] - t[Dr8,C3]
+   - 500 d_Dr8_C5_C3_C2 >= -499.9243646242875
+ Drone_retrieval_time_Dr8_C5_C3_C4: t[Tr8,C4] - t[Tr8,C5]
+   + 500 d_Dr8_C5_C3_C4 <= 500.3311661303895
+ Drone_retrieval_time_Dr8_C5_C3_C4: - t[Dr8,C3] + t[Dr8,C4]
+   - 500 d_Dr8_C5_C3_C4 >= -499.6522362224578
+ Drone_retrieval_time_Dr8_C5_C4_D0: t[Tr8,D0] - t[Tr8,C5]
+   + 500 d_Dr8_C5_C4_D0 <= 500.2994037467205
+ Drone_retrieval_time_Dr8_C5_C4_D0: t[Dr8,D0] - t[Dr8,C4]
+   - 500 d_Dr8_C5_C4_D0 >= -499.8100140148426
+ Drone_retrieval_time_Dr8_C5_C4_C1: t[Tr8,C1] - t[Tr8,C5]
+   + 500 d_Dr8_C5_C4_C1 <= 500.0317161971201
+ Drone_retrieval_time_Dr8_C5_C4_C1: t[Dr8,C1] - t[Dr8,C4]
+   - 500 d_Dr8_C5_C4_C1 >= -499.6689160709921
+ Drone_retrieval_time_Dr8_C5_C4_C2: t[Tr8,C2] - t[Tr8,C5]
+   + 500 d_Dr8_C5_C4_C2 <= 500.1037292789603
+ Drone_retrieval_time_Dr8_C5_C4_C2: t[Dr8,C2] - t[Dr8,C4]
+   - 500 d_Dr8_C5_C4_C2 >= -499.6318927349537
+ Drone_retrieval_time_Dr8_C5_C4_C3: t[Tr8,C3] - t[Tr8,C5]
+   + 500 d_Dr8_C5_C4_C3 <= 500.1629970776955
+ Drone_retrieval_time_Dr8_C5_C4_C3: t[Dr8,C3] - t[Dr8,C4]
+   - 500 d_Dr8_C5_C4_C3 >= -499.6522362224578
+ Drone_retrieval_time_Dr9_D0_C1_C2: - t[Tr9,D0] + t[Tr9,C2]
+   + 500 d_Dr9_D0_C1_C2 <= 500.3821459184115
+ Drone_retrieval_time_Dr9_D0_C1_C2: - t[Dr9,C1] + t[Dr9,C2]
+   - 500 d_Dr9_D0_C1_C2 >= -499.926330339115
+ Drone_retrieval_time_Dr9_D0_C1_C3: - t[Tr9,D0] + t[Tr9,C3]
+   + 500 d_Dr9_D0_C1_C3 <= 500.3996240837137
+ Drone_retrieval_time_Dr9_D0_C1_C3: - t[Dr9,C1] + t[Dr9,C3]
+   - 500 d_Dr9_D0_C1_C3 >= -499.8685537885336
+ Drone_retrieval_time_Dr9_D0_C1_C4: - t[Tr9,D0] + t[Tr9,C4]
+   + 500 d_Dr9_D0_C1_C4 <= 500.1899859851574
+ Drone_retrieval_time_Dr9_D0_C1_C4: - t[Dr9,C1] + t[Dr9,C4]
+   - 500 d_Dr9_D0_C1_C4 >= -499.6689160709921
+ Drone_retrieval_time_Dr9_D0_C1_C5: - t[Tr9,D0] + t[Tr9,C5]
+   + 500 d_Dr9_D0_C1_C5 <= 500.2994037467205
+ Drone_retrieval_time_Dr9_D0_C1_C5: - t[Dr9,C1] + t[Dr9,C5]
+   - 500 d_Dr9_D0_C1_C5 >= -499.9682838028799
+ Drone_retrieval_time_Dr9_D0_C2_C1: - t[Tr9,D0] + t[Tr9,C1]
+   + 500 d_Dr9_D0_C2_C1 <= 500.3172253972537
+ Drone_retrieval_time_Dr9_D0_C2_C1: t[Dr9,C1] - t[Dr9,C2]
+   - 500 d_Dr9_D0_C2_C1 >= -499.926330339115
+ Drone_retrieval_time_Dr9_D0_C2_C3: - t[Tr9,D0] + t[Tr9,C3]
+   + 500 d_Dr9_D0_C2_C3 <= 500.3996240837137
+ Drone_retrieval_time_Dr9_D0_C2_C3: - t[Dr9,C2] + t[Dr9,C3]
+   - 500 d_Dr9_D0_C2_C3 >= -499.9243646242875
+ Drone_retrieval_time_Dr9_D0_C2_C4: - t[Tr9,D0] + t[Tr9,C4]
+   + 500 d_Dr9_D0_C2_C4 <= 500.1899859851574
+ Drone_retrieval_time_Dr9_D0_C2_C4: - t[Dr9,C2] + t[Dr9,C4]
+   - 500 d_Dr9_D0_C2_C4 >= -499.6318927349537
+ Drone_retrieval_time_Dr9_D0_C2_C5: - t[Tr9,D0] + t[Tr9,C5]
+   + 500 d_Dr9_D0_C2_C5 <= 500.2994037467205
+ Drone_retrieval_time_Dr9_D0_C2_C5: - t[Dr9,C2] + t[Dr9,C5]
+   - 500 d_Dr9_D0_C2_C5 >= -499.8962707210397
+ Drone_retrieval_time_Dr9_D0_C3_C1: - t[Tr9,D0] + t[Tr9,C1]
+   + 500 d_Dr9_D0_C3_C1 <= 500.3172253972537
+ Drone_retrieval_time_Dr9_D0_C3_C1: t[Dr9,C1] - t[Dr9,C3]
+   - 500 d_Dr9_D0_C3_C1 >= -499.8685537885336
+ Drone_retrieval_time_Dr9_D0_C3_C2: - t[Tr9,D0] + t[Tr9,C2]
+   + 500 d_Dr9_D0_C3_C2 <= 500.3821459184115
+ Drone_retrieval_time_Dr9_D0_C3_C2: t[Dr9,C2] - t[Dr9,C3]
+   - 500 d_Dr9_D0_C3_C2 >= -499.9243646242875
+ Drone_retrieval_time_Dr9_D0_C3_C4: - t[Tr9,D0] + t[Tr9,C4]
+   + 500 d_Dr9_D0_C3_C4 <= 500.1899859851574
+ Drone_retrieval_time_Dr9_D0_C3_C4: - t[Dr9,C3] + t[Dr9,C4]
+   - 500 d_Dr9_D0_C3_C4 >= -499.6522362224578
+ Drone_retrieval_time_Dr9_D0_C3_C5: - t[Tr9,D0] + t[Tr9,C5]
+   + 500 d_Dr9_D0_C3_C5 <= 500.2994037467205
+ Drone_retrieval_time_Dr9_D0_C3_C5: - t[Dr9,C3] + t[Dr9,C5]
+   - 500 d_Dr9_D0_C3_C5 >= -499.8370029223045
+ Drone_retrieval_time_Dr9_D0_C4_C1: - t[Tr9,D0] + t[Tr9,C1]
+   + 500 d_Dr9_D0_C4_C1 <= 500.3172253972537
+ Drone_retrieval_time_Dr9_D0_C4_C1: t[Dr9,C1] - t[Dr9,C4]
+   - 500 d_Dr9_D0_C4_C1 >= -499.6689160709921
+ Drone_retrieval_time_Dr9_D0_C4_C2: - t[Tr9,D0] + t[Tr9,C2]
+   + 500 d_Dr9_D0_C4_C2 <= 500.3821459184115
+ Drone_retrieval_time_Dr9_D0_C4_C2: t[Dr9,C2] - t[Dr9,C4]
+   - 500 d_Dr9_D0_C4_C2 >= -499.6318927349537
+ Drone_retrieval_time_Dr9_D0_C4_C3: - t[Tr9,D0] + t[Tr9,C3]
+   + 500 d_Dr9_D0_C4_C3 <= 500.3996240837137
+ Drone_retrieval_time_Dr9_D0_C4_C3: t[Dr9,C3] - t[Dr9,C4]
+   - 500 d_Dr9_D0_C4_C3 >= -499.6522362224578
+ Drone_retrieval_time_Dr9_D0_C4_C5: - t[Tr9,D0] + t[Tr9,C5]
+   + 500 d_Dr9_D0_C4_C5 <= 500.2994037467205
+ Drone_retrieval_time_Dr9_D0_C4_C5: - t[Dr9,C4] + t[Dr9,C5]
+   - 500 d_Dr9_D0_C4_C5 >= -499.6688338696105
+ Drone_retrieval_time_Dr9_D0_C5_C1: - t[Tr9,D0] + t[Tr9,C1]
+   + 500 d_Dr9_D0_C5_C1 <= 500.3172253972537
+ Drone_retrieval_time_Dr9_D0_C5_C1: t[Dr9,C1] - t[Dr9,C5]
+   - 500 d_Dr9_D0_C5_C1 >= -499.9682838028799
+ Drone_retrieval_time_Dr9_D0_C5_C2: - t[Tr9,D0] + t[Tr9,C2]
+   + 500 d_Dr9_D0_C5_C2 <= 500.3821459184115
+ Drone_retrieval_time_Dr9_D0_C5_C2: t[Dr9,C2] - t[Dr9,C5]
+   - 500 d_Dr9_D0_C5_C2 >= -499.8962707210397
+ Drone_retrieval_time_Dr9_D0_C5_C3: - t[Tr9,D0] + t[Tr9,C3]
+   + 500 d_Dr9_D0_C5_C3 <= 500.3996240837137
+ Drone_retrieval_time_Dr9_D0_C5_C3: t[Dr9,C3] - t[Dr9,C5]
+   - 500 d_Dr9_D0_C5_C3 >= -499.8370029223045
+ Drone_retrieval_time_Dr9_D0_C5_C4: - t[Tr9,D0] + t[Tr9,C4]
+   + 500 d_Dr9_D0_C5_C4 <= 500.1899859851574
+ Drone_retrieval_time_Dr9_D0_C5_C4: t[Dr9,C4] - t[Dr9,C5]
+   - 500 d_Dr9_D0_C5_C4 >= -499.6688338696105
+ Drone_retrieval_time_Dr9_C1_D0_C2: - t[Tr9,C1] + t[Tr9,C2]
+   + 500 d_Dr9_C1_D0_C2 <= 500.073669660885
+ Drone_retrieval_time_Dr9_C1_D0_C2: - t[Dr9,D0] + t[Dr9,C2]
+   - 500 d_Dr9_C1_D0_C2 >= -499.6178540815885
+ Drone_retrieval_time_Dr9_C1_D0_C3: - t[Tr9,C1] + t[Tr9,C3]
+   + 500 d_Dr9_C1_D0_C3 <= 500.1314462114664
+ Drone_retrieval_time_Dr9_C1_D0_C3: - t[Dr9,D0] + t[Dr9,C3]
+   - 500 d_Dr9_C1_D0_C3 >= -499.6003759162863
+ Drone_retrieval_time_Dr9_C1_D0_C4: - t[Tr9,C1] + t[Tr9,C4]
+   + 500 d_Dr9_C1_D0_C4 <= 500.3310839290079
+ Drone_retrieval_time_Dr9_C1_D0_C4: - t[Dr9,D0] + t[Dr9,C4]
+   - 500 d_Dr9_C1_D0_C4 >= -499.8100140148426
+ Drone_retrieval_time_Dr9_C1_D0_C5: - t[Tr9,C1] + t[Tr9,C5]
+   + 500 d_Dr9_C1_D0_C5 <= 500.0317161971201
+ Drone_retrieval_time_Dr9_C1_D0_C5: - t[Dr9,D0] + t[Dr9,C5]
+   - 500 d_Dr9_C1_D0_C5 >= -499.7005962532795
+ Drone_retrieval_time_Dr9_C1_C2_D0: t[Tr9,D0] - t[Tr9,C1]
+   + 500 d_Dr9_C1_C2_D0 <= 500.3172253972537
+ Drone_retrieval_time_Dr9_C1_C2_D0: t[Dr9,D0] - t[Dr9,C2]
+   - 500 d_Dr9_C1_C2_D0 >= -499.6178540815885
+ Drone_retrieval_time_Dr9_C1_C2_C3: - t[Tr9,C1] + t[Tr9,C3]
+   + 500 d_Dr9_C1_C2_C3 <= 500.1314462114664
+ Drone_retrieval_time_Dr9_C1_C2_C3: - t[Dr9,C2] + t[Dr9,C3]
+   - 500 d_Dr9_C1_C2_C3 >= -499.9243646242875
+ Drone_retrieval_time_Dr9_C1_C2_C4: - t[Tr9,C1] + t[Tr9,C4]
+   + 500 d_Dr9_C1_C2_C4 <= 500.3310839290079
+ Drone_retrieval_time_Dr9_C1_C2_C4: - t[Dr9,C2] + t[Dr9,C4]
+   - 500 d_Dr9_C1_C2_C4 >= -499.6318927349537
+ Drone_retrieval_time_Dr9_C1_C2_C5: - t[Tr9,C1] + t[Tr9,C5]
+   + 500 d_Dr9_C1_C2_C5 <= 500.0317161971201
+ Drone_retrieval_time_Dr9_C1_C2_C5: - t[Dr9,C2] + t[Dr9,C5]
+   - 500 d_Dr9_C1_C2_C5 >= -499.8962707210397
+ Drone_retrieval_time_Dr9_C1_C3_D0: t[Tr9,D0] - t[Tr9,C1]
+   + 500 d_Dr9_C1_C3_D0 <= 500.3172253972537
+ Drone_retrieval_time_Dr9_C1_C3_D0: t[Dr9,D0] - t[Dr9,C3]
+   - 500 d_Dr9_C1_C3_D0 >= -499.6003759162863
+ Drone_retrieval_time_Dr9_C1_C3_C2: - t[Tr9,C1] + t[Tr9,C2]
+   + 500 d_Dr9_C1_C3_C2 <= 500.073669660885
+ Drone_retrieval_time_Dr9_C1_C3_C2: t[Dr9,C2] - t[Dr9,C3]
+   - 500 d_Dr9_C1_C3_C2 >= -499.9243646242875
+ Drone_retrieval_time_Dr9_C1_C3_C4: - t[Tr9,C1] + t[Tr9,C4]
+   + 500 d_Dr9_C1_C3_C4 <= 500.3310839290079
+ Drone_retrieval_time_Dr9_C1_C3_C4: - t[Dr9,C3] + t[Dr9,C4]
+   - 500 d_Dr9_C1_C3_C4 >= -499.6522362224578
+ Drone_retrieval_time_Dr9_C1_C3_C5: - t[Tr9,C1] + t[Tr9,C5]
+   + 500 d_Dr9_C1_C3_C5 <= 500.0317161971201
+ Drone_retrieval_time_Dr9_C1_C3_C5: - t[Dr9,C3] + t[Dr9,C5]
+   - 500 d_Dr9_C1_C3_C5 >= -499.8370029223045
+ Drone_retrieval_time_Dr9_C1_C4_D0: t[Tr9,D0] - t[Tr9,C1]
+   + 500 d_Dr9_C1_C4_D0 <= 500.3172253972537
+ Drone_retrieval_time_Dr9_C1_C4_D0: t[Dr9,D0] - t[Dr9,C4]
+   - 500 d_Dr9_C1_C4_D0 >= -499.8100140148426
+ Drone_retrieval_time_Dr9_C1_C4_C2: - t[Tr9,C1] + t[Tr9,C2]
+   + 500 d_Dr9_C1_C4_C2 <= 500.073669660885
+ Drone_retrieval_time_Dr9_C1_C4_C2: t[Dr9,C2] - t[Dr9,C4]
+   - 500 d_Dr9_C1_C4_C2 >= -499.6318927349537
+ Drone_retrieval_time_Dr9_C1_C4_C3: - t[Tr9,C1] + t[Tr9,C3]
+   + 500 d_Dr9_C1_C4_C3 <= 500.1314462114664
+ Drone_retrieval_time_Dr9_C1_C4_C3: t[Dr9,C3] - t[Dr9,C4]
+   - 500 d_Dr9_C1_C4_C3 >= -499.6522362224578
+ Drone_retrieval_time_Dr9_C1_C4_C5: - t[Tr9,C1] + t[Tr9,C5]
+   + 500 d_Dr9_C1_C4_C5 <= 500.0317161971201
+ Drone_retrieval_time_Dr9_C1_C4_C5: - t[Dr9,C4] + t[Dr9,C5]
+   - 500 d_Dr9_C1_C4_C5 >= -499.6688338696105
+ Drone_retrieval_time_Dr9_C1_C5_D0: t[Tr9,D0] - t[Tr9,C1]
+   + 500 d_Dr9_C1_C5_D0 <= 500.3172253972537
+ Drone_retrieval_time_Dr9_C1_C5_D0: t[Dr9,D0] - t[Dr9,C5]
+   - 500 d_Dr9_C1_C5_D0 >= -499.7005962532795
+ Drone_retrieval_time_Dr9_C1_C5_C2: - t[Tr9,C1] + t[Tr9,C2]
+   + 500 d_Dr9_C1_C5_C2 <= 500.073669660885
+ Drone_retrieval_time_Dr9_C1_C5_C2: t[Dr9,C2] - t[Dr9,C5]
+   - 500 d_Dr9_C1_C5_C2 >= -499.8962707210397
+ Drone_retrieval_time_Dr9_C1_C5_C3: - t[Tr9,C1] + t[Tr9,C3]
+   + 500 d_Dr9_C1_C5_C3 <= 500.1314462114664
+ Drone_retrieval_time_Dr9_C1_C5_C3: t[Dr9,C3] - t[Dr9,C5]
+   - 500 d_Dr9_C1_C5_C3 >= -499.8370029223045
+ Drone_retrieval_time_Dr9_C1_C5_C4: - t[Tr9,C1] + t[Tr9,C4]
+   + 500 d_Dr9_C1_C5_C4 <= 500.3310839290079
+ Drone_retrieval_time_Dr9_C1_C5_C4: t[Dr9,C4] - t[Dr9,C5]
+   - 500 d_Dr9_C1_C5_C4 >= -499.6688338696105
+ Drone_retrieval_time_Dr9_C2_D0_C1: t[Tr9,C1] - t[Tr9,C2]
+   + 500 d_Dr9_C2_D0_C1 <= 500.073669660885
+ Drone_retrieval_time_Dr9_C2_D0_C1: - t[Dr9,D0] + t[Dr9,C1]
+   - 500 d_Dr9_C2_D0_C1 >= -499.6827746027463
+ Drone_retrieval_time_Dr9_C2_D0_C3: - t[Tr9,C2] + t[Tr9,C3]
+   + 500 d_Dr9_C2_D0_C3 <= 500.0756353757125
+ Drone_retrieval_time_Dr9_C2_D0_C3: - t[Dr9,D0] + t[Dr9,C3]
+   - 500 d_Dr9_C2_D0_C3 >= -499.6003759162863
+ Drone_retrieval_time_Dr9_C2_D0_C4: - t[Tr9,C2] + t[Tr9,C4]
+   + 500 d_Dr9_C2_D0_C4 <= 500.3681072650463
+ Drone_retrieval_time_Dr9_C2_D0_C4: - t[Dr9,D0] + t[Dr9,C4]
+   - 500 d_Dr9_C2_D0_C4 >= -499.8100140148426
+ Drone_retrieval_time_Dr9_C2_D0_C5: - t[Tr9,C2] + t[Tr9,C5]
+   + 500 d_Dr9_C2_D0_C5 <= 500.1037292789603
+ Drone_retrieval_time_Dr9_C2_D0_C5: - t[Dr9,D0] + t[Dr9,C5]
+   - 500 d_Dr9_C2_D0_C5 >= -499.7005962532795
+ Drone_retrieval_time_Dr9_C2_C1_D0: t[Tr9,D0] - t[Tr9,C2]
+   + 500 d_Dr9_C2_C1_D0 <= 500.3821459184115
+ Drone_retrieval_time_Dr9_C2_C1_D0: t[Dr9,D0] - t[Dr9,C1]
+   - 500 d_Dr9_C2_C1_D0 >= -499.6827746027463
+ Drone_retrieval_time_Dr9_C2_C1_C3: - t[Tr9,C2] + t[Tr9,C3]
+   + 500 d_Dr9_C2_C1_C3 <= 500.0756353757125
+ Drone_retrieval_time_Dr9_C2_C1_C3: - t[Dr9,C1] + t[Dr9,C3]
+   - 500 d_Dr9_C2_C1_C3 >= -499.8685537885336
+ Drone_retrieval_time_Dr9_C2_C1_C4: - t[Tr9,C2] + t[Tr9,C4]
+   + 500 d_Dr9_C2_C1_C4 <= 500.3681072650463
+ Drone_retrieval_time_Dr9_C2_C1_C4: - t[Dr9,C1] + t[Dr9,C4]
+   - 500 d_Dr9_C2_C1_C4 >= -499.6689160709921
+ Drone_retrieval_time_Dr9_C2_C1_C5: - t[Tr9,C2] + t[Tr9,C5]
+   + 500 d_Dr9_C2_C1_C5 <= 500.1037292789603
+ Drone_retrieval_time_Dr9_C2_C1_C5: - t[Dr9,C1] + t[Dr9,C5]
+   - 500 d_Dr9_C2_C1_C5 >= -499.9682838028799
+ Drone_retrieval_time_Dr9_C2_C3_D0: t[Tr9,D0] - t[Tr9,C2]
+   + 500 d_Dr9_C2_C3_D0 <= 500.3821459184115
+ Drone_retrieval_time_Dr9_C2_C3_D0: t[Dr9,D0] - t[Dr9,C3]
+   - 500 d_Dr9_C2_C3_D0 >= -499.6003759162863
+ Drone_retrieval_time_Dr9_C2_C3_C1: t[Tr9,C1] - t[Tr9,C2]
+   + 500 d_Dr9_C2_C3_C1 <= 500.073669660885
+ Drone_retrieval_time_Dr9_C2_C3_C1: t[Dr9,C1] - t[Dr9,C3]
+   - 500 d_Dr9_C2_C3_C1 >= -499.8685537885336
+ Drone_retrieval_time_Dr9_C2_C3_C4: - t[Tr9,C2] + t[Tr9,C4]
+   + 500 d_Dr9_C2_C3_C4 <= 500.3681072650463
+ Drone_retrieval_time_Dr9_C2_C3_C4: - t[Dr9,C3] + t[Dr9,C4]
+   - 500 d_Dr9_C2_C3_C4 >= -499.6522362224578
+ Drone_retrieval_time_Dr9_C2_C3_C5: - t[Tr9,C2] + t[Tr9,C5]
+   + 500 d_Dr9_C2_C3_C5 <= 500.1037292789603
+ Drone_retrieval_time_Dr9_C2_C3_C5: - t[Dr9,C3] + t[Dr9,C5]
+   - 500 d_Dr9_C2_C3_C5 >= -499.8370029223045
+ Drone_retrieval_time_Dr9_C2_C4_D0: t[Tr9,D0] - t[Tr9,C2]
+   + 500 d_Dr9_C2_C4_D0 <= 500.3821459184115
+ Drone_retrieval_time_Dr9_C2_C4_D0: t[Dr9,D0] - t[Dr9,C4]
+   - 500 d_Dr9_C2_C4_D0 >= -499.8100140148426
+ Drone_retrieval_time_Dr9_C2_C4_C1: t[Tr9,C1] - t[Tr9,C2]
+   + 500 d_Dr9_C2_C4_C1 <= 500.073669660885
+ Drone_retrieval_time_Dr9_C2_C4_C1: t[Dr9,C1] - t[Dr9,C4]
+   - 500 d_Dr9_C2_C4_C1 >= -499.6689160709921
+ Drone_retrieval_time_Dr9_C2_C4_C3: - t[Tr9,C2] + t[Tr9,C3]
+   + 500 d_Dr9_C2_C4_C3 <= 500.0756353757125
+ Drone_retrieval_time_Dr9_C2_C4_C3: t[Dr9,C3] - t[Dr9,C4]
+   - 500 d_Dr9_C2_C4_C3 >= -499.6522362224578
+ Drone_retrieval_time_Dr9_C2_C4_C5: - t[Tr9,C2] + t[Tr9,C5]
+   + 500 d_Dr9_C2_C4_C5 <= 500.1037292789603
+ Drone_retrieval_time_Dr9_C2_C4_C5: - t[Dr9,C4] + t[Dr9,C5]
+   - 500 d_Dr9_C2_C4_C5 >= -499.6688338696105
+ Drone_retrieval_time_Dr9_C2_C5_D0: t[Tr9,D0] - t[Tr9,C2]
+   + 500 d_Dr9_C2_C5_D0 <= 500.3821459184115
+ Drone_retrieval_time_Dr9_C2_C5_D0: t[Dr9,D0] - t[Dr9,C5]
+   - 500 d_Dr9_C2_C5_D0 >= -499.7005962532795
+ Drone_retrieval_time_Dr9_C2_C5_C1: t[Tr9,C1] - t[Tr9,C2]
+   + 500 d_Dr9_C2_C5_C1 <= 500.073669660885
+ Drone_retrieval_time_Dr9_C2_C5_C1: t[Dr9,C1] - t[Dr9,C5]
+   - 500 d_Dr9_C2_C5_C1 >= -499.9682838028799
+ Drone_retrieval_time_Dr9_C2_C5_C3: - t[Tr9,C2] + t[Tr9,C3]
+   + 500 d_Dr9_C2_C5_C3 <= 500.0756353757125
+ Drone_retrieval_time_Dr9_C2_C5_C3: t[Dr9,C3] - t[Dr9,C5]
+   - 500 d_Dr9_C2_C5_C3 >= -499.8370029223045
+ Drone_retrieval_time_Dr9_C2_C5_C4: - t[Tr9,C2] + t[Tr9,C4]
+   + 500 d_Dr9_C2_C5_C4 <= 500.3681072650463
+ Drone_retrieval_time_Dr9_C2_C5_C4: t[Dr9,C4] - t[Dr9,C5]
+   - 500 d_Dr9_C2_C5_C4 >= -499.6688338696105
+ Drone_retrieval_time_Dr9_C3_D0_C1: t[Tr9,C1] - t[Tr9,C3]
+   + 500 d_Dr9_C3_D0_C1 <= 500.1314462114664
+ Drone_retrieval_time_Dr9_C3_D0_C1: - t[Dr9,D0] + t[Dr9,C1]
+   - 500 d_Dr9_C3_D0_C1 >= -499.6827746027463
+ Drone_retrieval_time_Dr9_C3_D0_C2: t[Tr9,C2] - t[Tr9,C3]
+   + 500 d_Dr9_C3_D0_C2 <= 500.0756353757125
+ Drone_retrieval_time_Dr9_C3_D0_C2: - t[Dr9,D0] + t[Dr9,C2]
+   - 500 d_Dr9_C3_D0_C2 >= -499.6178540815885
+ Drone_retrieval_time_Dr9_C3_D0_C4: - t[Tr9,C3] + t[Tr9,C4]
+   + 500 d_Dr9_C3_D0_C4 <= 500.3477637775422
+ Drone_retrieval_time_Dr9_C3_D0_C4: - t[Dr9,D0] + t[Dr9,C4]
+   - 500 d_Dr9_C3_D0_C4 >= -499.8100140148426
+ Drone_retrieval_time_Dr9_C3_D0_C5: - t[Tr9,C3] + t[Tr9,C5]
+   + 500 d_Dr9_C3_D0_C5 <= 500.1629970776955
+ Drone_retrieval_time_Dr9_C3_D0_C5: - t[Dr9,D0] + t[Dr9,C5]
+   - 500 d_Dr9_C3_D0_C5 >= -499.7005962532795
+ Drone_retrieval_time_Dr9_C3_C1_D0: t[Tr9,D0] - t[Tr9,C3]
+   + 500 d_Dr9_C3_C1_D0 <= 500.3996240837137
+ Drone_retrieval_time_Dr9_C3_C1_D0: t[Dr9,D0] - t[Dr9,C1]
+   - 500 d_Dr9_C3_C1_D0 >= -499.6827746027463
+ Drone_retrieval_time_Dr9_C3_C1_C2: t[Tr9,C2] - t[Tr9,C3]
+   + 500 d_Dr9_C3_C1_C2 <= 500.0756353757125
+ Drone_retrieval_time_Dr9_C3_C1_C2: - t[Dr9,C1] + t[Dr9,C2]
+   - 500 d_Dr9_C3_C1_C2 >= -499.926330339115
+ Drone_retrieval_time_Dr9_C3_C1_C4: - t[Tr9,C3] + t[Tr9,C4]
+   + 500 d_Dr9_C3_C1_C4 <= 500.3477637775422
+ Drone_retrieval_time_Dr9_C3_C1_C4: - t[Dr9,C1] + t[Dr9,C4]
+   - 500 d_Dr9_C3_C1_C4 >= -499.6689160709921
+ Drone_retrieval_time_Dr9_C3_C1_C5: - t[Tr9,C3] + t[Tr9,C5]
+   + 500 d_Dr9_C3_C1_C5 <= 500.1629970776955
+ Drone_retrieval_time_Dr9_C3_C1_C5: - t[Dr9,C1] + t[Dr9,C5]
+   - 500 d_Dr9_C3_C1_C5 >= -499.9682838028799
+ Drone_retrieval_time_Dr9_C3_C2_D0: t[Tr9,D0] - t[Tr9,C3]
+   + 500 d_Dr9_C3_C2_D0 <= 500.3996240837137
+ Drone_retrieval_time_Dr9_C3_C2_D0: t[Dr9,D0] - t[Dr9,C2]
+   - 500 d_Dr9_C3_C2_D0 >= -499.6178540815885
+ Drone_retrieval_time_Dr9_C3_C2_C1: t[Tr9,C1] - t[Tr9,C3]
+   + 500 d_Dr9_C3_C2_C1 <= 500.1314462114664
+ Drone_retrieval_time_Dr9_C3_C2_C1: t[Dr9,C1] - t[Dr9,C2]
+   - 500 d_Dr9_C3_C2_C1 >= -499.926330339115
+ Drone_retrieval_time_Dr9_C3_C2_C4: - t[Tr9,C3] + t[Tr9,C4]
+   + 500 d_Dr9_C3_C2_C4 <= 500.3477637775422
+ Drone_retrieval_time_Dr9_C3_C2_C4: - t[Dr9,C2] + t[Dr9,C4]
+   - 500 d_Dr9_C3_C2_C4 >= -499.6318927349537
+ Drone_retrieval_time_Dr9_C3_C2_C5: - t[Tr9,C3] + t[Tr9,C5]
+   + 500 d_Dr9_C3_C2_C5 <= 500.1629970776955
+ Drone_retrieval_time_Dr9_C3_C2_C5: - t[Dr9,C2] + t[Dr9,C5]
+   - 500 d_Dr9_C3_C2_C5 >= -499.8962707210397
+ Drone_retrieval_time_Dr9_C3_C4_D0: t[Tr9,D0] - t[Tr9,C3]
+   + 500 d_Dr9_C3_C4_D0 <= 500.3996240837137
+ Drone_retrieval_time_Dr9_C3_C4_D0: t[Dr9,D0] - t[Dr9,C4]
+   - 500 d_Dr9_C3_C4_D0 >= -499.8100140148426
+ Drone_retrieval_time_Dr9_C3_C4_C1: t[Tr9,C1] - t[Tr9,C3]
+   + 500 d_Dr9_C3_C4_C1 <= 500.1314462114664
+ Drone_retrieval_time_Dr9_C3_C4_C1: t[Dr9,C1] - t[Dr9,C4]
+   - 500 d_Dr9_C3_C4_C1 >= -499.6689160709921
+ Drone_retrieval_time_Dr9_C3_C4_C2: t[Tr9,C2] - t[Tr9,C3]
+   + 500 d_Dr9_C3_C4_C2 <= 500.0756353757125
+ Drone_retrieval_time_Dr9_C3_C4_C2: t[Dr9,C2] - t[Dr9,C4]
+   - 500 d_Dr9_C3_C4_C2 >= -499.6318927349537
+ Drone_retrieval_time_Dr9_C3_C4_C5: - t[Tr9,C3] + t[Tr9,C5]
+   + 500 d_Dr9_C3_C4_C5 <= 500.1629970776955
+ Drone_retrieval_time_Dr9_C3_C4_C5: - t[Dr9,C4] + t[Dr9,C5]
+   - 500 d_Dr9_C3_C4_C5 >= -499.6688338696105
+ Drone_retrieval_time_Dr9_C3_C5_D0: t[Tr9,D0] - t[Tr9,C3]
+   + 500 d_Dr9_C3_C5_D0 <= 500.3996240837137
+ Drone_retrieval_time_Dr9_C3_C5_D0: t[Dr9,D0] - t[Dr9,C5]
+   - 500 d_Dr9_C3_C5_D0 >= -499.7005962532795
+ Drone_retrieval_time_Dr9_C3_C5_C1: t[Tr9,C1] - t[Tr9,C3]
+   + 500 d_Dr9_C3_C5_C1 <= 500.1314462114664
+ Drone_retrieval_time_Dr9_C3_C5_C1: t[Dr9,C1] - t[Dr9,C5]
+   - 500 d_Dr9_C3_C5_C1 >= -499.9682838028799
+ Drone_retrieval_time_Dr9_C3_C5_C2: t[Tr9,C2] - t[Tr9,C3]
+   + 500 d_Dr9_C3_C5_C2 <= 500.0756353757125
+ Drone_retrieval_time_Dr9_C3_C5_C2: t[Dr9,C2] - t[Dr9,C5]
+   - 500 d_Dr9_C3_C5_C2 >= -499.8962707210397
+ Drone_retrieval_time_Dr9_C3_C5_C4: - t[Tr9,C3] + t[Tr9,C4]
+   + 500 d_Dr9_C3_C5_C4 <= 500.3477637775422
+ Drone_retrieval_time_Dr9_C3_C5_C4: t[Dr9,C4] - t[Dr9,C5]
+   - 500 d_Dr9_C3_C5_C4 >= -499.6688338696105
+ Drone_retrieval_time_Dr9_C4_D0_C1: t[Tr9,C1] - t[Tr9,C4]
+   + 500 d_Dr9_C4_D0_C1 <= 500.3310839290079
+ Drone_retrieval_time_Dr9_C4_D0_C1: - t[Dr9,D0] + t[Dr9,C1]
+   - 500 d_Dr9_C4_D0_C1 >= -499.6827746027463
+ Drone_retrieval_time_Dr9_C4_D0_C2: t[Tr9,C2] - t[Tr9,C4]
+   + 500 d_Dr9_C4_D0_C2 <= 500.3681072650463
+ Drone_retrieval_time_Dr9_C4_D0_C2: - t[Dr9,D0] + t[Dr9,C2]
+   - 500 d_Dr9_C4_D0_C2 >= -499.6178540815885
+ Drone_retrieval_time_Dr9_C4_D0_C3: t[Tr9,C3] - t[Tr9,C4]
+   + 500 d_Dr9_C4_D0_C3 <= 500.3477637775422
+ Drone_retrieval_time_Dr9_C4_D0_C3: - t[Dr9,D0] + t[Dr9,C3]
+   - 500 d_Dr9_C4_D0_C3 >= -499.6003759162863
+ Drone_retrieval_time_Dr9_C4_D0_C5: - t[Tr9,C4] + t[Tr9,C5]
+   + 500 d_Dr9_C4_D0_C5 <= 500.3311661303895
+ Drone_retrieval_time_Dr9_C4_D0_C5: - t[Dr9,D0] + t[Dr9,C5]
+   - 500 d_Dr9_C4_D0_C5 >= -499.7005962532795
+ Drone_retrieval_time_Dr9_C4_C1_D0: t[Tr9,D0] - t[Tr9,C4]
+   + 500 d_Dr9_C4_C1_D0 <= 500.1899859851574
+ Drone_retrieval_time_Dr9_C4_C1_D0: t[Dr9,D0] - t[Dr9,C1]
+   - 500 d_Dr9_C4_C1_D0 >= -499.6827746027463
+ Drone_retrieval_time_Dr9_C4_C1_C2: t[Tr9,C2] - t[Tr9,C4]
+   + 500 d_Dr9_C4_C1_C2 <= 500.3681072650463
+ Drone_retrieval_time_Dr9_C4_C1_C2: - t[Dr9,C1] + t[Dr9,C2]
+   - 500 d_Dr9_C4_C1_C2 >= -499.926330339115
+ Drone_retrieval_time_Dr9_C4_C1_C3: t[Tr9,C3] - t[Tr9,C4]
+   + 500 d_Dr9_C4_C1_C3 <= 500.3477637775422
+ Drone_retrieval_time_Dr9_C4_C1_C3: - t[Dr9,C1] + t[Dr9,C3]
+   - 500 d_Dr9_C4_C1_C3 >= -499.8685537885336
+ Drone_retrieval_time_Dr9_C4_C1_C5: - t[Tr9,C4] + t[Tr9,C5]
+   + 500 d_Dr9_C4_C1_C5 <= 500.3311661303895
+ Drone_retrieval_time_Dr9_C4_C1_C5: - t[Dr9,C1] + t[Dr9,C5]
+   - 500 d_Dr9_C4_C1_C5 >= -499.9682838028799
+ Drone_retrieval_time_Dr9_C4_C2_D0: t[Tr9,D0] - t[Tr9,C4]
+   + 500 d_Dr9_C4_C2_D0 <= 500.1899859851574
+ Drone_retrieval_time_Dr9_C4_C2_D0: t[Dr9,D0] - t[Dr9,C2]
+   - 500 d_Dr9_C4_C2_D0 >= -499.6178540815885
+ Drone_retrieval_time_Dr9_C4_C2_C1: t[Tr9,C1] - t[Tr9,C4]
+   + 500 d_Dr9_C4_C2_C1 <= 500.3310839290079
+ Drone_retrieval_time_Dr9_C4_C2_C1: t[Dr9,C1] - t[Dr9,C2]
+   - 500 d_Dr9_C4_C2_C1 >= -499.926330339115
+ Drone_retrieval_time_Dr9_C4_C2_C3: t[Tr9,C3] - t[Tr9,C4]
+   + 500 d_Dr9_C4_C2_C3 <= 500.3477637775422
+ Drone_retrieval_time_Dr9_C4_C2_C3: - t[Dr9,C2] + t[Dr9,C3]
+   - 500 d_Dr9_C4_C2_C3 >= -499.9243646242875
+ Drone_retrieval_time_Dr9_C4_C2_C5: - t[Tr9,C4] + t[Tr9,C5]
+   + 500 d_Dr9_C4_C2_C5 <= 500.3311661303895
+ Drone_retrieval_time_Dr9_C4_C2_C5: - t[Dr9,C2] + t[Dr9,C5]
+   - 500 d_Dr9_C4_C2_C5 >= -499.8962707210397
+ Drone_retrieval_time_Dr9_C4_C3_D0: t[Tr9,D0] - t[Tr9,C4]
+   + 500 d_Dr9_C4_C3_D0 <= 500.1899859851574
+ Drone_retrieval_time_Dr9_C4_C3_D0: t[Dr9,D0] - t[Dr9,C3]
+   - 500 d_Dr9_C4_C3_D0 >= -499.6003759162863
+ Drone_retrieval_time_Dr9_C4_C3_C1: t[Tr9,C1] - t[Tr9,C4]
+   + 500 d_Dr9_C4_C3_C1 <= 500.3310839290079
+ Drone_retrieval_time_Dr9_C4_C3_C1: t[Dr9,C1] - t[Dr9,C3]
+   - 500 d_Dr9_C4_C3_C1 >= -499.8685537885336
+ Drone_retrieval_time_Dr9_C4_C3_C2: t[Tr9,C2] - t[Tr9,C4]
+   + 500 d_Dr9_C4_C3_C2 <= 500.3681072650463
+ Drone_retrieval_time_Dr9_C4_C3_C2: t[Dr9,C2] - t[Dr9,C3]
+   - 500 d_Dr9_C4_C3_C2 >= -499.9243646242875
+ Drone_retrieval_time_Dr9_C4_C3_C5: - t[Tr9,C4] + t[Tr9,C5]
+   + 500 d_Dr9_C4_C3_C5 <= 500.3311661303895
+ Drone_retrieval_time_Dr9_C4_C3_C5: - t[Dr9,C3] + t[Dr9,C5]
+   - 500 d_Dr9_C4_C3_C5 >= -499.8370029223045
+ Drone_retrieval_time_Dr9_C4_C5_D0: t[Tr9,D0] - t[Tr9,C4]
+   + 500 d_Dr9_C4_C5_D0 <= 500.1899859851574
+ Drone_retrieval_time_Dr9_C4_C5_D0: t[Dr9,D0] - t[Dr9,C5]
+   - 500 d_Dr9_C4_C5_D0 >= -499.7005962532795
+ Drone_retrieval_time_Dr9_C4_C5_C1: t[Tr9,C1] - t[Tr9,C4]
+   + 500 d_Dr9_C4_C5_C1 <= 500.3310839290079
+ Drone_retrieval_time_Dr9_C4_C5_C1: t[Dr9,C1] - t[Dr9,C5]
+   - 500 d_Dr9_C4_C5_C1 >= -499.9682838028799
+ Drone_retrieval_time_Dr9_C4_C5_C2: t[Tr9,C2] - t[Tr9,C4]
+   + 500 d_Dr9_C4_C5_C2 <= 500.3681072650463
+ Drone_retrieval_time_Dr9_C4_C5_C2: t[Dr9,C2] - t[Dr9,C5]
+   - 500 d_Dr9_C4_C5_C2 >= -499.8962707210397
+ Drone_retrieval_time_Dr9_C4_C5_C3: t[Tr9,C3] - t[Tr9,C4]
+   + 500 d_Dr9_C4_C5_C3 <= 500.3477637775422
+ Drone_retrieval_time_Dr9_C4_C5_C3: t[Dr9,C3] - t[Dr9,C5]
+   - 500 d_Dr9_C4_C5_C3 >= -499.8370029223045
+ Drone_retrieval_time_Dr9_C5_D0_C1: t[Tr9,C1] - t[Tr9,C5]
+   + 500 d_Dr9_C5_D0_C1 <= 500.0317161971201
+ Drone_retrieval_time_Dr9_C5_D0_C1: - t[Dr9,D0] + t[Dr9,C1]
+   - 500 d_Dr9_C5_D0_C1 >= -499.6827746027463
+ Drone_retrieval_time_Dr9_C5_D0_C2: t[Tr9,C2] - t[Tr9,C5]
+   + 500 d_Dr9_C5_D0_C2 <= 500.1037292789603
+ Drone_retrieval_time_Dr9_C5_D0_C2: - t[Dr9,D0] + t[Dr9,C2]
+   - 500 d_Dr9_C5_D0_C2 >= -499.6178540815885
+ Drone_retrieval_time_Dr9_C5_D0_C3: t[Tr9,C3] - t[Tr9,C5]
+   + 500 d_Dr9_C5_D0_C3 <= 500.1629970776955
+ Drone_retrieval_time_Dr9_C5_D0_C3: - t[Dr9,D0] + t[Dr9,C3]
+   - 500 d_Dr9_C5_D0_C3 >= -499.6003759162863
+ Drone_retrieval_time_Dr9_C5_D0_C4: t[Tr9,C4] - t[Tr9,C5]
+   + 500 d_Dr9_C5_D0_C4 <= 500.3311661303895
+ Drone_retrieval_time_Dr9_C5_D0_C4: - t[Dr9,D0] + t[Dr9,C4]
+   - 500 d_Dr9_C5_D0_C4 >= -499.8100140148426
+ Drone_retrieval_time_Dr9_C5_C1_D0: t[Tr9,D0] - t[Tr9,C5]
+   + 500 d_Dr9_C5_C1_D0 <= 500.2994037467205
+ Drone_retrieval_time_Dr9_C5_C1_D0: t[Dr9,D0] - t[Dr9,C1]
+   - 500 d_Dr9_C5_C1_D0 >= -499.6827746027463
+ Drone_retrieval_time_Dr9_C5_C1_C2: t[Tr9,C2] - t[Tr9,C5]
+   + 500 d_Dr9_C5_C1_C2 <= 500.1037292789603
+ Drone_retrieval_time_Dr9_C5_C1_C2: - t[Dr9,C1] + t[Dr9,C2]
+   - 500 d_Dr9_C5_C1_C2 >= -499.926330339115
+ Drone_retrieval_time_Dr9_C5_C1_C3: t[Tr9,C3] - t[Tr9,C5]
+   + 500 d_Dr9_C5_C1_C3 <= 500.1629970776955
+ Drone_retrieval_time_Dr9_C5_C1_C3: - t[Dr9,C1] + t[Dr9,C3]
+   - 500 d_Dr9_C5_C1_C3 >= -499.8685537885336
+ Drone_retrieval_time_Dr9_C5_C1_C4: t[Tr9,C4] - t[Tr9,C5]
+   + 500 d_Dr9_C5_C1_C4 <= 500.3311661303895
+ Drone_retrieval_time_Dr9_C5_C1_C4: - t[Dr9,C1] + t[Dr9,C4]
+   - 500 d_Dr9_C5_C1_C4 >= -499.6689160709921
+ Drone_retrieval_time_Dr9_C5_C2_D0: t[Tr9,D0] - t[Tr9,C5]
+   + 500 d_Dr9_C5_C2_D0 <= 500.2994037467205
+ Drone_retrieval_time_Dr9_C5_C2_D0: t[Dr9,D0] - t[Dr9,C2]
+   - 500 d_Dr9_C5_C2_D0 >= -499.6178540815885
+ Drone_retrieval_time_Dr9_C5_C2_C1: t[Tr9,C1] - t[Tr9,C5]
+   + 500 d_Dr9_C5_C2_C1 <= 500.0317161971201
+ Drone_retrieval_time_Dr9_C5_C2_C1: t[Dr9,C1] - t[Dr9,C2]
+   - 500 d_Dr9_C5_C2_C1 >= -499.926330339115
+ Drone_retrieval_time_Dr9_C5_C2_C3: t[Tr9,C3] - t[Tr9,C5]
+   + 500 d_Dr9_C5_C2_C3 <= 500.1629970776955
+ Drone_retrieval_time_Dr9_C5_C2_C3: - t[Dr9,C2] + t[Dr9,C3]
+   - 500 d_Dr9_C5_C2_C3 >= -499.9243646242875
+ Drone_retrieval_time_Dr9_C5_C2_C4: t[Tr9,C4] - t[Tr9,C5]
+   + 500 d_Dr9_C5_C2_C4 <= 500.3311661303895
+ Drone_retrieval_time_Dr9_C5_C2_C4: - t[Dr9,C2] + t[Dr9,C4]
+   - 500 d_Dr9_C5_C2_C4 >= -499.6318927349537
+ Drone_retrieval_time_Dr9_C5_C3_D0: t[Tr9,D0] - t[Tr9,C5]
+   + 500 d_Dr9_C5_C3_D0 <= 500.2994037467205
+ Drone_retrieval_time_Dr9_C5_C3_D0: t[Dr9,D0] - t[Dr9,C3]
+   - 500 d_Dr9_C5_C3_D0 >= -499.6003759162863
+ Drone_retrieval_time_Dr9_C5_C3_C1: t[Tr9,C1] - t[Tr9,C5]
+   + 500 d_Dr9_C5_C3_C1 <= 500.0317161971201
+ Drone_retrieval_time_Dr9_C5_C3_C1: t[Dr9,C1] - t[Dr9,C3]
+   - 500 d_Dr9_C5_C3_C1 >= -499.8685537885336
+ Drone_retrieval_time_Dr9_C5_C3_C2: t[Tr9,C2] - t[Tr9,C5]
+   + 500 d_Dr9_C5_C3_C2 <= 500.1037292789603
+ Drone_retrieval_time_Dr9_C5_C3_C2: t[Dr9,C2] - t[Dr9,C3]
+   - 500 d_Dr9_C5_C3_C2 >= -499.9243646242875
+ Drone_retrieval_time_Dr9_C5_C3_C4: t[Tr9,C4] - t[Tr9,C5]
+   + 500 d_Dr9_C5_C3_C4 <= 500.3311661303895
+ Drone_retrieval_time_Dr9_C5_C3_C4: - t[Dr9,C3] + t[Dr9,C4]
+   - 500 d_Dr9_C5_C3_C4 >= -499.6522362224578
+ Drone_retrieval_time_Dr9_C5_C4_D0: t[Tr9,D0] - t[Tr9,C5]
+   + 500 d_Dr9_C5_C4_D0 <= 500.2994037467205
+ Drone_retrieval_time_Dr9_C5_C4_D0: t[Dr9,D0] - t[Dr9,C4]
+   - 500 d_Dr9_C5_C4_D0 >= -499.8100140148426
+ Drone_retrieval_time_Dr9_C5_C4_C1: t[Tr9,C1] - t[Tr9,C5]
+   + 500 d_Dr9_C5_C4_C1 <= 500.0317161971201
+ Drone_retrieval_time_Dr9_C5_C4_C1: t[Dr9,C1] - t[Dr9,C4]
+   - 500 d_Dr9_C5_C4_C1 >= -499.6689160709921
+ Drone_retrieval_time_Dr9_C5_C4_C2: t[Tr9,C2] - t[Tr9,C5]
+   + 500 d_Dr9_C5_C4_C2 <= 500.1037292789603
+ Drone_retrieval_time_Dr9_C5_C4_C2: t[Dr9,C2] - t[Dr9,C4]
+   - 500 d_Dr9_C5_C4_C2 >= -499.6318927349537
+ Drone_retrieval_time_Dr9_C5_C4_C3: t[Tr9,C3] - t[Tr9,C5]
+   + 500 d_Dr9_C5_C4_C3 <= 500.1629970776955
+ Drone_retrieval_time_Dr9_C5_C4_C3: t[Dr9,C3] - t[Dr9,C4]
+   - 500 d_Dr9_C5_C4_C3 >= -499.6522362224578
+ Drone_retrieval_time_Dr10_D0_C1_C2: - t[Tr10,D0] + t[Tr10,C2]
+   + 500 d_Dr10_D0_C1_C2 <= 500.3821459184115
+ Drone_retrieval_time_Dr10_D0_C1_C2: - t[Dr10,C1] + t[Dr10,C2]
+   - 500 d_Dr10_D0_C1_C2 >= -499.926330339115
+ Drone_retrieval_time_Dr10_D0_C1_C3: - t[Tr10,D0] + t[Tr10,C3]
+   + 500 d_Dr10_D0_C1_C3 <= 500.3996240837137
+ Drone_retrieval_time_Dr10_D0_C1_C3: - t[Dr10,C1] + t[Dr10,C3]
+   - 500 d_Dr10_D0_C1_C3 >= -499.8685537885336
+ Drone_retrieval_time_Dr10_D0_C1_C4: - t[Tr10,D0] + t[Tr10,C4]
+   + 500 d_Dr10_D0_C1_C4 <= 500.1899859851574
+ Drone_retrieval_time_Dr10_D0_C1_C4: - t[Dr10,C1] + t[Dr10,C4]
+   - 500 d_Dr10_D0_C1_C4 >= -499.6689160709921
+ Drone_retrieval_time_Dr10_D0_C1_C5: - t[Tr10,D0] + t[Tr10,C5]
+   + 500 d_Dr10_D0_C1_C5 <= 500.2994037467205
+ Drone_retrieval_time_Dr10_D0_C1_C5: - t[Dr10,C1] + t[Dr10,C5]
+   - 500 d_Dr10_D0_C1_C5 >= -499.9682838028799
+ Drone_retrieval_time_Dr10_D0_C2_C1: - t[Tr10,D0] + t[Tr10,C1]
+   + 500 d_Dr10_D0_C2_C1 <= 500.3172253972537
+ Drone_retrieval_time_Dr10_D0_C2_C1: t[Dr10,C1] - t[Dr10,C2]
+   - 500 d_Dr10_D0_C2_C1 >= -499.926330339115
+ Drone_retrieval_time_Dr10_D0_C2_C3: - t[Tr10,D0] + t[Tr10,C3]
+   + 500 d_Dr10_D0_C2_C3 <= 500.3996240837137
+ Drone_retrieval_time_Dr10_D0_C2_C3: - t[Dr10,C2] + t[Dr10,C3]
+   - 500 d_Dr10_D0_C2_C3 >= -499.9243646242875
+ Drone_retrieval_time_Dr10_D0_C2_C4: - t[Tr10,D0] + t[Tr10,C4]
+   + 500 d_Dr10_D0_C2_C4 <= 500.1899859851574
+ Drone_retrieval_time_Dr10_D0_C2_C4: - t[Dr10,C2] + t[Dr10,C4]
+   - 500 d_Dr10_D0_C2_C4 >= -499.6318927349537
+ Drone_retrieval_time_Dr10_D0_C2_C5: - t[Tr10,D0] + t[Tr10,C5]
+   + 500 d_Dr10_D0_C2_C5 <= 500.2994037467205
+ Drone_retrieval_time_Dr10_D0_C2_C5: - t[Dr10,C2] + t[Dr10,C5]
+   - 500 d_Dr10_D0_C2_C5 >= -499.8962707210397
+ Drone_retrieval_time_Dr10_D0_C3_C1: - t[Tr10,D0] + t[Tr10,C1]
+   + 500 d_Dr10_D0_C3_C1 <= 500.3172253972537
+ Drone_retrieval_time_Dr10_D0_C3_C1: t[Dr10,C1] - t[Dr10,C3]
+   - 500 d_Dr10_D0_C3_C1 >= -499.8685537885336
+ Drone_retrieval_time_Dr10_D0_C3_C2: - t[Tr10,D0] + t[Tr10,C2]
+   + 500 d_Dr10_D0_C3_C2 <= 500.3821459184115
+ Drone_retrieval_time_Dr10_D0_C3_C2: t[Dr10,C2] - t[Dr10,C3]
+   - 500 d_Dr10_D0_C3_C2 >= -499.9243646242875
+ Drone_retrieval_time_Dr10_D0_C3_C4: - t[Tr10,D0] + t[Tr10,C4]
+   + 500 d_Dr10_D0_C3_C4 <= 500.1899859851574
+ Drone_retrieval_time_Dr10_D0_C3_C4: - t[Dr10,C3] + t[Dr10,C4]
+   - 500 d_Dr10_D0_C3_C4 >= -499.6522362224578
+ Drone_retrieval_time_Dr10_D0_C3_C5: - t[Tr10,D0] + t[Tr10,C5]
+   + 500 d_Dr10_D0_C3_C5 <= 500.2994037467205
+ Drone_retrieval_time_Dr10_D0_C3_C5: - t[Dr10,C3] + t[Dr10,C5]
+   - 500 d_Dr10_D0_C3_C5 >= -499.8370029223045
+ Drone_retrieval_time_Dr10_D0_C4_C1: - t[Tr10,D0] + t[Tr10,C1]
+   + 500 d_Dr10_D0_C4_C1 <= 500.3172253972537
+ Drone_retrieval_time_Dr10_D0_C4_C1: t[Dr10,C1] - t[Dr10,C4]
+   - 500 d_Dr10_D0_C4_C1 >= -499.6689160709921
+ Drone_retrieval_time_Dr10_D0_C4_C2: - t[Tr10,D0] + t[Tr10,C2]
+   + 500 d_Dr10_D0_C4_C2 <= 500.3821459184115
+ Drone_retrieval_time_Dr10_D0_C4_C2: t[Dr10,C2] - t[Dr10,C4]
+   - 500 d_Dr10_D0_C4_C2 >= -499.6318927349537
+ Drone_retrieval_time_Dr10_D0_C4_C3: - t[Tr10,D0] + t[Tr10,C3]
+   + 500 d_Dr10_D0_C4_C3 <= 500.3996240837137
+ Drone_retrieval_time_Dr10_D0_C4_C3: t[Dr10,C3] - t[Dr10,C4]
+   - 500 d_Dr10_D0_C4_C3 >= -499.6522362224578
+ Drone_retrieval_time_Dr10_D0_C4_C5: - t[Tr10,D0] + t[Tr10,C5]
+   + 500 d_Dr10_D0_C4_C5 <= 500.2994037467205
+ Drone_retrieval_time_Dr10_D0_C4_C5: - t[Dr10,C4] + t[Dr10,C5]
+   - 500 d_Dr10_D0_C4_C5 >= -499.6688338696105
+ Drone_retrieval_time_Dr10_D0_C5_C1: - t[Tr10,D0] + t[Tr10,C1]
+   + 500 d_Dr10_D0_C5_C1 <= 500.3172253972537
+ Drone_retrieval_time_Dr10_D0_C5_C1: t[Dr10,C1] - t[Dr10,C5]
+   - 500 d_Dr10_D0_C5_C1 >= -499.9682838028799
+ Drone_retrieval_time_Dr10_D0_C5_C2: - t[Tr10,D0] + t[Tr10,C2]
+   + 500 d_Dr10_D0_C5_C2 <= 500.3821459184115
+ Drone_retrieval_time_Dr10_D0_C5_C2: t[Dr10,C2] - t[Dr10,C5]
+   - 500 d_Dr10_D0_C5_C2 >= -499.8962707210397
+ Drone_retrieval_time_Dr10_D0_C5_C3: - t[Tr10,D0] + t[Tr10,C3]
+   + 500 d_Dr10_D0_C5_C3 <= 500.3996240837137
+ Drone_retrieval_time_Dr10_D0_C5_C3: t[Dr10,C3] - t[Dr10,C5]
+   - 500 d_Dr10_D0_C5_C3 >= -499.8370029223045
+ Drone_retrieval_time_Dr10_D0_C5_C4: - t[Tr10,D0] + t[Tr10,C4]
+   + 500 d_Dr10_D0_C5_C4 <= 500.1899859851574
+ Drone_retrieval_time_Dr10_D0_C5_C4: t[Dr10,C4] - t[Dr10,C5]
+   - 500 d_Dr10_D0_C5_C4 >= -499.6688338696105
+ Drone_retrieval_time_Dr10_C1_D0_C2: - t[Tr10,C1] + t[Tr10,C2]
+   + 500 d_Dr10_C1_D0_C2 <= 500.073669660885
+ Drone_retrieval_time_Dr10_C1_D0_C2: - t[Dr10,D0] + t[Dr10,C2]
+   - 500 d_Dr10_C1_D0_C2 >= -499.6178540815885
+ Drone_retrieval_time_Dr10_C1_D0_C3: - t[Tr10,C1] + t[Tr10,C3]
+   + 500 d_Dr10_C1_D0_C3 <= 500.1314462114664
+ Drone_retrieval_time_Dr10_C1_D0_C3: - t[Dr10,D0] + t[Dr10,C3]
+   - 500 d_Dr10_C1_D0_C3 >= -499.6003759162863
+ Drone_retrieval_time_Dr10_C1_D0_C4: - t[Tr10,C1] + t[Tr10,C4]
+   + 500 d_Dr10_C1_D0_C4 <= 500.3310839290079
+ Drone_retrieval_time_Dr10_C1_D0_C4: - t[Dr10,D0] + t[Dr10,C4]
+   - 500 d_Dr10_C1_D0_C4 >= -499.8100140148426
+ Drone_retrieval_time_Dr10_C1_D0_C5: - t[Tr10,C1] + t[Tr10,C5]
+   + 500 d_Dr10_C1_D0_C5 <= 500.0317161971201
+ Drone_retrieval_time_Dr10_C1_D0_C5: - t[Dr10,D0] + t[Dr10,C5]
+   - 500 d_Dr10_C1_D0_C5 >= -499.7005962532795
+ Drone_retrieval_time_Dr10_C1_C2_D0: t[Tr10,D0] - t[Tr10,C1]
+   + 500 d_Dr10_C1_C2_D0 <= 500.3172253972537
+ Drone_retrieval_time_Dr10_C1_C2_D0: t[Dr10,D0] - t[Dr10,C2]
+   - 500 d_Dr10_C1_C2_D0 >= -499.6178540815885
+ Drone_retrieval_time_Dr10_C1_C2_C3: - t[Tr10,C1] + t[Tr10,C3]
+   + 500 d_Dr10_C1_C2_C3 <= 500.1314462114664
+ Drone_retrieval_time_Dr10_C1_C2_C3: - t[Dr10,C2] + t[Dr10,C3]
+   - 500 d_Dr10_C1_C2_C3 >= -499.9243646242875
+ Drone_retrieval_time_Dr10_C1_C2_C4: - t[Tr10,C1] + t[Tr10,C4]
+   + 500 d_Dr10_C1_C2_C4 <= 500.3310839290079
+ Drone_retrieval_time_Dr10_C1_C2_C4: - t[Dr10,C2] + t[Dr10,C4]
+   - 500 d_Dr10_C1_C2_C4 >= -499.6318927349537
+ Drone_retrieval_time_Dr10_C1_C2_C5: - t[Tr10,C1] + t[Tr10,C5]
+   + 500 d_Dr10_C1_C2_C5 <= 500.0317161971201
+ Drone_retrieval_time_Dr10_C1_C2_C5: - t[Dr10,C2] + t[Dr10,C5]
+   - 500 d_Dr10_C1_C2_C5 >= -499.8962707210397
+ Drone_retrieval_time_Dr10_C1_C3_D0: t[Tr10,D0] - t[Tr10,C1]
+   + 500 d_Dr10_C1_C3_D0 <= 500.3172253972537
+ Drone_retrieval_time_Dr10_C1_C3_D0: t[Dr10,D0] - t[Dr10,C3]
+   - 500 d_Dr10_C1_C3_D0 >= -499.6003759162863
+ Drone_retrieval_time_Dr10_C1_C3_C2: - t[Tr10,C1] + t[Tr10,C2]
+   + 500 d_Dr10_C1_C3_C2 <= 500.073669660885
+ Drone_retrieval_time_Dr10_C1_C3_C2: t[Dr10,C2] - t[Dr10,C3]
+   - 500 d_Dr10_C1_C3_C2 >= -499.9243646242875
+ Drone_retrieval_time_Dr10_C1_C3_C4: - t[Tr10,C1] + t[Tr10,C4]
+   + 500 d_Dr10_C1_C3_C4 <= 500.3310839290079
+ Drone_retrieval_time_Dr10_C1_C3_C4: - t[Dr10,C3] + t[Dr10,C4]
+   - 500 d_Dr10_C1_C3_C4 >= -499.6522362224578
+ Drone_retrieval_time_Dr10_C1_C3_C5: - t[Tr10,C1] + t[Tr10,C5]
+   + 500 d_Dr10_C1_C3_C5 <= 500.0317161971201
+ Drone_retrieval_time_Dr10_C1_C3_C5: - t[Dr10,C3] + t[Dr10,C5]
+   - 500 d_Dr10_C1_C3_C5 >= -499.8370029223045
+ Drone_retrieval_time_Dr10_C1_C4_D0: t[Tr10,D0] - t[Tr10,C1]
+   + 500 d_Dr10_C1_C4_D0 <= 500.3172253972537
+ Drone_retrieval_time_Dr10_C1_C4_D0: t[Dr10,D0] - t[Dr10,C4]
+   - 500 d_Dr10_C1_C4_D0 >= -499.8100140148426
+ Drone_retrieval_time_Dr10_C1_C4_C2: - t[Tr10,C1] + t[Tr10,C2]
+   + 500 d_Dr10_C1_C4_C2 <= 500.073669660885
+ Drone_retrieval_time_Dr10_C1_C4_C2: t[Dr10,C2] - t[Dr10,C4]
+   - 500 d_Dr10_C1_C4_C2 >= -499.6318927349537
+ Drone_retrieval_time_Dr10_C1_C4_C3: - t[Tr10,C1] + t[Tr10,C3]
+   + 500 d_Dr10_C1_C4_C3 <= 500.1314462114664
+ Drone_retrieval_time_Dr10_C1_C4_C3: t[Dr10,C3] - t[Dr10,C4]
+   - 500 d_Dr10_C1_C4_C3 >= -499.6522362224578
+ Drone_retrieval_time_Dr10_C1_C4_C5: - t[Tr10,C1] + t[Tr10,C5]
+   + 500 d_Dr10_C1_C4_C5 <= 500.0317161971201
+ Drone_retrieval_time_Dr10_C1_C4_C5: - t[Dr10,C4] + t[Dr10,C5]
+   - 500 d_Dr10_C1_C4_C5 >= -499.6688338696105
+ Drone_retrieval_time_Dr10_C1_C5_D0: t[Tr10,D0] - t[Tr10,C1]
+   + 500 d_Dr10_C1_C5_D0 <= 500.3172253972537
+ Drone_retrieval_time_Dr10_C1_C5_D0: t[Dr10,D0] - t[Dr10,C5]
+   - 500 d_Dr10_C1_C5_D0 >= -499.7005962532795
+ Drone_retrieval_time_Dr10_C1_C5_C2: - t[Tr10,C1] + t[Tr10,C2]
+   + 500 d_Dr10_C1_C5_C2 <= 500.073669660885
+ Drone_retrieval_time_Dr10_C1_C5_C2: t[Dr10,C2] - t[Dr10,C5]
+   - 500 d_Dr10_C1_C5_C2 >= -499.8962707210397
+ Drone_retrieval_time_Dr10_C1_C5_C3: - t[Tr10,C1] + t[Tr10,C3]
+   + 500 d_Dr10_C1_C5_C3 <= 500.1314462114664
+ Drone_retrieval_time_Dr10_C1_C5_C3: t[Dr10,C3] - t[Dr10,C5]
+   - 500 d_Dr10_C1_C5_C3 >= -499.8370029223045
+ Drone_retrieval_time_Dr10_C1_C5_C4: - t[Tr10,C1] + t[Tr10,C4]
+   + 500 d_Dr10_C1_C5_C4 <= 500.3310839290079
+ Drone_retrieval_time_Dr10_C1_C5_C4: t[Dr10,C4] - t[Dr10,C5]
+   - 500 d_Dr10_C1_C5_C4 >= -499.6688338696105
+ Drone_retrieval_time_Dr10_C2_D0_C1: t[Tr10,C1] - t[Tr10,C2]
+   + 500 d_Dr10_C2_D0_C1 <= 500.073669660885
+ Drone_retrieval_time_Dr10_C2_D0_C1: - t[Dr10,D0] + t[Dr10,C1]
+   - 500 d_Dr10_C2_D0_C1 >= -499.6827746027463
+ Drone_retrieval_time_Dr10_C2_D0_C3: - t[Tr10,C2] + t[Tr10,C3]
+   + 500 d_Dr10_C2_D0_C3 <= 500.0756353757125
+ Drone_retrieval_time_Dr10_C2_D0_C3: - t[Dr10,D0] + t[Dr10,C3]
+   - 500 d_Dr10_C2_D0_C3 >= -499.6003759162863
+ Drone_retrieval_time_Dr10_C2_D0_C4: - t[Tr10,C2] + t[Tr10,C4]
+   + 500 d_Dr10_C2_D0_C4 <= 500.3681072650463
+ Drone_retrieval_time_Dr10_C2_D0_C4: - t[Dr10,D0] + t[Dr10,C4]
+   - 500 d_Dr10_C2_D0_C4 >= -499.8100140148426
+ Drone_retrieval_time_Dr10_C2_D0_C5: - t[Tr10,C2] + t[Tr10,C5]
+   + 500 d_Dr10_C2_D0_C5 <= 500.1037292789603
+ Drone_retrieval_time_Dr10_C2_D0_C5: - t[Dr10,D0] + t[Dr10,C5]
+   - 500 d_Dr10_C2_D0_C5 >= -499.7005962532795
+ Drone_retrieval_time_Dr10_C2_C1_D0: t[Tr10,D0] - t[Tr10,C2]
+   + 500 d_Dr10_C2_C1_D0 <= 500.3821459184115
+ Drone_retrieval_time_Dr10_C2_C1_D0: t[Dr10,D0] - t[Dr10,C1]
+   - 500 d_Dr10_C2_C1_D0 >= -499.6827746027463
+ Drone_retrieval_time_Dr10_C2_C1_C3: - t[Tr10,C2] + t[Tr10,C3]
+   + 500 d_Dr10_C2_C1_C3 <= 500.0756353757125
+ Drone_retrieval_time_Dr10_C2_C1_C3: - t[Dr10,C1] + t[Dr10,C3]
+   - 500 d_Dr10_C2_C1_C3 >= -499.8685537885336
+ Drone_retrieval_time_Dr10_C2_C1_C4: - t[Tr10,C2] + t[Tr10,C4]
+   + 500 d_Dr10_C2_C1_C4 <= 500.3681072650463
+ Drone_retrieval_time_Dr10_C2_C1_C4: - t[Dr10,C1] + t[Dr10,C4]
+   - 500 d_Dr10_C2_C1_C4 >= -499.6689160709921
+ Drone_retrieval_time_Dr10_C2_C1_C5: - t[Tr10,C2] + t[Tr10,C5]
+   + 500 d_Dr10_C2_C1_C5 <= 500.1037292789603
+ Drone_retrieval_time_Dr10_C2_C1_C5: - t[Dr10,C1] + t[Dr10,C5]
+   - 500 d_Dr10_C2_C1_C5 >= -499.9682838028799
+ Drone_retrieval_time_Dr10_C2_C3_D0: t[Tr10,D0] - t[Tr10,C2]
+   + 500 d_Dr10_C2_C3_D0 <= 500.3821459184115
+ Drone_retrieval_time_Dr10_C2_C3_D0: t[Dr10,D0] - t[Dr10,C3]
+   - 500 d_Dr10_C2_C3_D0 >= -499.6003759162863
+ Drone_retrieval_time_Dr10_C2_C3_C1: t[Tr10,C1] - t[Tr10,C2]
+   + 500 d_Dr10_C2_C3_C1 <= 500.073669660885
+ Drone_retrieval_time_Dr10_C2_C3_C1: t[Dr10,C1] - t[Dr10,C3]
+   - 500 d_Dr10_C2_C3_C1 >= -499.8685537885336
+ Drone_retrieval_time_Dr10_C2_C3_C4: - t[Tr10,C2] + t[Tr10,C4]
+   + 500 d_Dr10_C2_C3_C4 <= 500.3681072650463
+ Drone_retrieval_time_Dr10_C2_C3_C4: - t[Dr10,C3] + t[Dr10,C4]
+   - 500 d_Dr10_C2_C3_C4 >= -499.6522362224578
+ Drone_retrieval_time_Dr10_C2_C3_C5: - t[Tr10,C2] + t[Tr10,C5]
+   + 500 d_Dr10_C2_C3_C5 <= 500.1037292789603
+ Drone_retrieval_time_Dr10_C2_C3_C5: - t[Dr10,C3] + t[Dr10,C5]
+   - 500 d_Dr10_C2_C3_C5 >= -499.8370029223045
+ Drone_retrieval_time_Dr10_C2_C4_D0: t[Tr10,D0] - t[Tr10,C2]
+   + 500 d_Dr10_C2_C4_D0 <= 500.3821459184115
+ Drone_retrieval_time_Dr10_C2_C4_D0: t[Dr10,D0] - t[Dr10,C4]
+   - 500 d_Dr10_C2_C4_D0 >= -499.8100140148426
+ Drone_retrieval_time_Dr10_C2_C4_C1: t[Tr10,C1] - t[Tr10,C2]
+   + 500 d_Dr10_C2_C4_C1 <= 500.073669660885
+ Drone_retrieval_time_Dr10_C2_C4_C1: t[Dr10,C1] - t[Dr10,C4]
+   - 500 d_Dr10_C2_C4_C1 >= -499.6689160709921
+ Drone_retrieval_time_Dr10_C2_C4_C3: - t[Tr10,C2] + t[Tr10,C3]
+   + 500 d_Dr10_C2_C4_C3 <= 500.0756353757125
+ Drone_retrieval_time_Dr10_C2_C4_C3: t[Dr10,C3] - t[Dr10,C4]
+   - 500 d_Dr10_C2_C4_C3 >= -499.6522362224578
+ Drone_retrieval_time_Dr10_C2_C4_C5: - t[Tr10,C2] + t[Tr10,C5]
+   + 500 d_Dr10_C2_C4_C5 <= 500.1037292789603
+ Drone_retrieval_time_Dr10_C2_C4_C5: - t[Dr10,C4] + t[Dr10,C5]
+   - 500 d_Dr10_C2_C4_C5 >= -499.6688338696105
+ Drone_retrieval_time_Dr10_C2_C5_D0: t[Tr10,D0] - t[Tr10,C2]
+   + 500 d_Dr10_C2_C5_D0 <= 500.3821459184115
+ Drone_retrieval_time_Dr10_C2_C5_D0: t[Dr10,D0] - t[Dr10,C5]
+   - 500 d_Dr10_C2_C5_D0 >= -499.7005962532795
+ Drone_retrieval_time_Dr10_C2_C5_C1: t[Tr10,C1] - t[Tr10,C2]
+   + 500 d_Dr10_C2_C5_C1 <= 500.073669660885
+ Drone_retrieval_time_Dr10_C2_C5_C1: t[Dr10,C1] - t[Dr10,C5]
+   - 500 d_Dr10_C2_C5_C1 >= -499.9682838028799
+ Drone_retrieval_time_Dr10_C2_C5_C3: - t[Tr10,C2] + t[Tr10,C3]
+   + 500 d_Dr10_C2_C5_C3 <= 500.0756353757125
+ Drone_retrieval_time_Dr10_C2_C5_C3: t[Dr10,C3] - t[Dr10,C5]
+   - 500 d_Dr10_C2_C5_C3 >= -499.8370029223045
+ Drone_retrieval_time_Dr10_C2_C5_C4: - t[Tr10,C2] + t[Tr10,C4]
+   + 500 d_Dr10_C2_C5_C4 <= 500.3681072650463
+ Drone_retrieval_time_Dr10_C2_C5_C4: t[Dr10,C4] - t[Dr10,C5]
+   - 500 d_Dr10_C2_C5_C4 >= -499.6688338696105
+ Drone_retrieval_time_Dr10_C3_D0_C1: t[Tr10,C1] - t[Tr10,C3]
+   + 500 d_Dr10_C3_D0_C1 <= 500.1314462114664
+ Drone_retrieval_time_Dr10_C3_D0_C1: - t[Dr10,D0] + t[Dr10,C1]
+   - 500 d_Dr10_C3_D0_C1 >= -499.6827746027463
+ Drone_retrieval_time_Dr10_C3_D0_C2: t[Tr10,C2] - t[Tr10,C3]
+   + 500 d_Dr10_C3_D0_C2 <= 500.0756353757125
+ Drone_retrieval_time_Dr10_C3_D0_C2: - t[Dr10,D0] + t[Dr10,C2]
+   - 500 d_Dr10_C3_D0_C2 >= -499.6178540815885
+ Drone_retrieval_time_Dr10_C3_D0_C4: - t[Tr10,C3] + t[Tr10,C4]
+   + 500 d_Dr10_C3_D0_C4 <= 500.3477637775422
+ Drone_retrieval_time_Dr10_C3_D0_C4: - t[Dr10,D0] + t[Dr10,C4]
+   - 500 d_Dr10_C3_D0_C4 >= -499.8100140148426
+ Drone_retrieval_time_Dr10_C3_D0_C5: - t[Tr10,C3] + t[Tr10,C5]
+   + 500 d_Dr10_C3_D0_C5 <= 500.1629970776955
+ Drone_retrieval_time_Dr10_C3_D0_C5: - t[Dr10,D0] + t[Dr10,C5]
+   - 500 d_Dr10_C3_D0_C5 >= -499.7005962532795
+ Drone_retrieval_time_Dr10_C3_C1_D0: t[Tr10,D0] - t[Tr10,C3]
+   + 500 d_Dr10_C3_C1_D0 <= 500.3996240837137
+ Drone_retrieval_time_Dr10_C3_C1_D0: t[Dr10,D0] - t[Dr10,C1]
+   - 500 d_Dr10_C3_C1_D0 >= -499.6827746027463
+ Drone_retrieval_time_Dr10_C3_C1_C2: t[Tr10,C2] - t[Tr10,C3]
+   + 500 d_Dr10_C3_C1_C2 <= 500.0756353757125
+ Drone_retrieval_time_Dr10_C3_C1_C2: - t[Dr10,C1] + t[Dr10,C2]
+   - 500 d_Dr10_C3_C1_C2 >= -499.926330339115
+ Drone_retrieval_time_Dr10_C3_C1_C4: - t[Tr10,C3] + t[Tr10,C4]
+   + 500 d_Dr10_C3_C1_C4 <= 500.3477637775422
+ Drone_retrieval_time_Dr10_C3_C1_C4: - t[Dr10,C1] + t[Dr10,C4]
+   - 500 d_Dr10_C3_C1_C4 >= -499.6689160709921
+ Drone_retrieval_time_Dr10_C3_C1_C5: - t[Tr10,C3] + t[Tr10,C5]
+   + 500 d_Dr10_C3_C1_C5 <= 500.1629970776955
+ Drone_retrieval_time_Dr10_C3_C1_C5: - t[Dr10,C1] + t[Dr10,C5]
+   - 500 d_Dr10_C3_C1_C5 >= -499.9682838028799
+ Drone_retrieval_time_Dr10_C3_C2_D0: t[Tr10,D0] - t[Tr10,C3]
+   + 500 d_Dr10_C3_C2_D0 <= 500.3996240837137
+ Drone_retrieval_time_Dr10_C3_C2_D0: t[Dr10,D0] - t[Dr10,C2]
+   - 500 d_Dr10_C3_C2_D0 >= -499.6178540815885
+ Drone_retrieval_time_Dr10_C3_C2_C1: t[Tr10,C1] - t[Tr10,C3]
+   + 500 d_Dr10_C3_C2_C1 <= 500.1314462114664
+ Drone_retrieval_time_Dr10_C3_C2_C1: t[Dr10,C1] - t[Dr10,C2]
+   - 500 d_Dr10_C3_C2_C1 >= -499.926330339115
+ Drone_retrieval_time_Dr10_C3_C2_C4: - t[Tr10,C3] + t[Tr10,C4]
+   + 500 d_Dr10_C3_C2_C4 <= 500.3477637775422
+ Drone_retrieval_time_Dr10_C3_C2_C4: - t[Dr10,C2] + t[Dr10,C4]
+   - 500 d_Dr10_C3_C2_C4 >= -499.6318927349537
+ Drone_retrieval_time_Dr10_C3_C2_C5: - t[Tr10,C3] + t[Tr10,C5]
+   + 500 d_Dr10_C3_C2_C5 <= 500.1629970776955
+ Drone_retrieval_time_Dr10_C3_C2_C5: - t[Dr10,C2] + t[Dr10,C5]
+   - 500 d_Dr10_C3_C2_C5 >= -499.8962707210397
+ Drone_retrieval_time_Dr10_C3_C4_D0: t[Tr10,D0] - t[Tr10,C3]
+   + 500 d_Dr10_C3_C4_D0 <= 500.3996240837137
+ Drone_retrieval_time_Dr10_C3_C4_D0: t[Dr10,D0] - t[Dr10,C4]
+   - 500 d_Dr10_C3_C4_D0 >= -499.8100140148426
+ Drone_retrieval_time_Dr10_C3_C4_C1: t[Tr10,C1] - t[Tr10,C3]
+   + 500 d_Dr10_C3_C4_C1 <= 500.1314462114664
+ Drone_retrieval_time_Dr10_C3_C4_C1: t[Dr10,C1] - t[Dr10,C4]
+   - 500 d_Dr10_C3_C4_C1 >= -499.6689160709921
+ Drone_retrieval_time_Dr10_C3_C4_C2: t[Tr10,C2] - t[Tr10,C3]
+   + 500 d_Dr10_C3_C4_C2 <= 500.0756353757125
+ Drone_retrieval_time_Dr10_C3_C4_C2: t[Dr10,C2] - t[Dr10,C4]
+   - 500 d_Dr10_C3_C4_C2 >= -499.6318927349537
+ Drone_retrieval_time_Dr10_C3_C4_C5: - t[Tr10,C3] + t[Tr10,C5]
+   + 500 d_Dr10_C3_C4_C5 <= 500.1629970776955
+ Drone_retrieval_time_Dr10_C3_C4_C5: - t[Dr10,C4] + t[Dr10,C5]
+   - 500 d_Dr10_C3_C4_C5 >= -499.6688338696105
+ Drone_retrieval_time_Dr10_C3_C5_D0: t[Tr10,D0] - t[Tr10,C3]
+   + 500 d_Dr10_C3_C5_D0 <= 500.3996240837137
+ Drone_retrieval_time_Dr10_C3_C5_D0: t[Dr10,D0] - t[Dr10,C5]
+   - 500 d_Dr10_C3_C5_D0 >= -499.7005962532795
+ Drone_retrieval_time_Dr10_C3_C5_C1: t[Tr10,C1] - t[Tr10,C3]
+   + 500 d_Dr10_C3_C5_C1 <= 500.1314462114664
+ Drone_retrieval_time_Dr10_C3_C5_C1: t[Dr10,C1] - t[Dr10,C5]
+   - 500 d_Dr10_C3_C5_C1 >= -499.9682838028799
+ Drone_retrieval_time_Dr10_C3_C5_C2: t[Tr10,C2] - t[Tr10,C3]
+   + 500 d_Dr10_C3_C5_C2 <= 500.0756353757125
+ Drone_retrieval_time_Dr10_C3_C5_C2: t[Dr10,C2] - t[Dr10,C5]
+   - 500 d_Dr10_C3_C5_C2 >= -499.8962707210397
+ Drone_retrieval_time_Dr10_C3_C5_C4: - t[Tr10,C3] + t[Tr10,C4]
+   + 500 d_Dr10_C3_C5_C4 <= 500.3477637775422
+ Drone_retrieval_time_Dr10_C3_C5_C4: t[Dr10,C4] - t[Dr10,C5]
+   - 500 d_Dr10_C3_C5_C4 >= -499.6688338696105
+ Drone_retrieval_time_Dr10_C4_D0_C1: t[Tr10,C1] - t[Tr10,C4]
+   + 500 d_Dr10_C4_D0_C1 <= 500.3310839290079
+ Drone_retrieval_time_Dr10_C4_D0_C1: - t[Dr10,D0] + t[Dr10,C1]
+   - 500 d_Dr10_C4_D0_C1 >= -499.6827746027463
+ Drone_retrieval_time_Dr10_C4_D0_C2: t[Tr10,C2] - t[Tr10,C4]
+   + 500 d_Dr10_C4_D0_C2 <= 500.3681072650463
+ Drone_retrieval_time_Dr10_C4_D0_C2: - t[Dr10,D0] + t[Dr10,C2]
+   - 500 d_Dr10_C4_D0_C2 >= -499.6178540815885
+ Drone_retrieval_time_Dr10_C4_D0_C3: t[Tr10,C3] - t[Tr10,C4]
+   + 500 d_Dr10_C4_D0_C3 <= 500.3477637775422
+ Drone_retrieval_time_Dr10_C4_D0_C3: - t[Dr10,D0] + t[Dr10,C3]
+   - 500 d_Dr10_C4_D0_C3 >= -499.6003759162863
+ Drone_retrieval_time_Dr10_C4_D0_C5: - t[Tr10,C4] + t[Tr10,C5]
+   + 500 d_Dr10_C4_D0_C5 <= 500.3311661303895
+ Drone_retrieval_time_Dr10_C4_D0_C5: - t[Dr10,D0] + t[Dr10,C5]
+   - 500 d_Dr10_C4_D0_C5 >= -499.7005962532795
+ Drone_retrieval_time_Dr10_C4_C1_D0: t[Tr10,D0] - t[Tr10,C4]
+   + 500 d_Dr10_C4_C1_D0 <= 500.1899859851574
+ Drone_retrieval_time_Dr10_C4_C1_D0: t[Dr10,D0] - t[Dr10,C1]
+   - 500 d_Dr10_C4_C1_D0 >= -499.6827746027463
+ Drone_retrieval_time_Dr10_C4_C1_C2: t[Tr10,C2] - t[Tr10,C4]
+   + 500 d_Dr10_C4_C1_C2 <= 500.3681072650463
+ Drone_retrieval_time_Dr10_C4_C1_C2: - t[Dr10,C1] + t[Dr10,C2]
+   - 500 d_Dr10_C4_C1_C2 >= -499.926330339115
+ Drone_retrieval_time_Dr10_C4_C1_C3: t[Tr10,C3] - t[Tr10,C4]
+   + 500 d_Dr10_C4_C1_C3 <= 500.3477637775422
+ Drone_retrieval_time_Dr10_C4_C1_C3: - t[Dr10,C1] + t[Dr10,C3]
+   - 500 d_Dr10_C4_C1_C3 >= -499.8685537885336
+ Drone_retrieval_time_Dr10_C4_C1_C5: - t[Tr10,C4] + t[Tr10,C5]
+   + 500 d_Dr10_C4_C1_C5 <= 500.3311661303895
+ Drone_retrieval_time_Dr10_C4_C1_C5: - t[Dr10,C1] + t[Dr10,C5]
+   - 500 d_Dr10_C4_C1_C5 >= -499.9682838028799
+ Drone_retrieval_time_Dr10_C4_C2_D0: t[Tr10,D0] - t[Tr10,C4]
+   + 500 d_Dr10_C4_C2_D0 <= 500.1899859851574
+ Drone_retrieval_time_Dr10_C4_C2_D0: t[Dr10,D0] - t[Dr10,C2]
+   - 500 d_Dr10_C4_C2_D0 >= -499.6178540815885
+ Drone_retrieval_time_Dr10_C4_C2_C1: t[Tr10,C1] - t[Tr10,C4]
+   + 500 d_Dr10_C4_C2_C1 <= 500.3310839290079
+ Drone_retrieval_time_Dr10_C4_C2_C1: t[Dr10,C1] - t[Dr10,C2]
+   - 500 d_Dr10_C4_C2_C1 >= -499.926330339115
+ Drone_retrieval_time_Dr10_C4_C2_C3: t[Tr10,C3] - t[Tr10,C4]
+   + 500 d_Dr10_C4_C2_C3 <= 500.3477637775422
+ Drone_retrieval_time_Dr10_C4_C2_C3: - t[Dr10,C2] + t[Dr10,C3]
+   - 500 d_Dr10_C4_C2_C3 >= -499.9243646242875
+ Drone_retrieval_time_Dr10_C4_C2_C5: - t[Tr10,C4] + t[Tr10,C5]
+   + 500 d_Dr10_C4_C2_C5 <= 500.3311661303895
+ Drone_retrieval_time_Dr10_C4_C2_C5: - t[Dr10,C2] + t[Dr10,C5]
+   - 500 d_Dr10_C4_C2_C5 >= -499.8962707210397
+ Drone_retrieval_time_Dr10_C4_C3_D0: t[Tr10,D0] - t[Tr10,C4]
+   + 500 d_Dr10_C4_C3_D0 <= 500.1899859851574
+ Drone_retrieval_time_Dr10_C4_C3_D0: t[Dr10,D0] - t[Dr10,C3]
+   - 500 d_Dr10_C4_C3_D0 >= -499.6003759162863
+ Drone_retrieval_time_Dr10_C4_C3_C1: t[Tr10,C1] - t[Tr10,C4]
+   + 500 d_Dr10_C4_C3_C1 <= 500.3310839290079
+ Drone_retrieval_time_Dr10_C4_C3_C1: t[Dr10,C1] - t[Dr10,C3]
+   - 500 d_Dr10_C4_C3_C1 >= -499.8685537885336
+ Drone_retrieval_time_Dr10_C4_C3_C2: t[Tr10,C2] - t[Tr10,C4]
+   + 500 d_Dr10_C4_C3_C2 <= 500.3681072650463
+ Drone_retrieval_time_Dr10_C4_C3_C2: t[Dr10,C2] - t[Dr10,C3]
+   - 500 d_Dr10_C4_C3_C2 >= -499.9243646242875
+ Drone_retrieval_time_Dr10_C4_C3_C5: - t[Tr10,C4] + t[Tr10,C5]
+   + 500 d_Dr10_C4_C3_C5 <= 500.3311661303895
+ Drone_retrieval_time_Dr10_C4_C3_C5: - t[Dr10,C3] + t[Dr10,C5]
+   - 500 d_Dr10_C4_C3_C5 >= -499.8370029223045
+ Drone_retrieval_time_Dr10_C4_C5_D0: t[Tr10,D0] - t[Tr10,C4]
+   + 500 d_Dr10_C4_C5_D0 <= 500.1899859851574
+ Drone_retrieval_time_Dr10_C4_C5_D0: t[Dr10,D0] - t[Dr10,C5]
+   - 500 d_Dr10_C4_C5_D0 >= -499.7005962532795
+ Drone_retrieval_time_Dr10_C4_C5_C1: t[Tr10,C1] - t[Tr10,C4]
+   + 500 d_Dr10_C4_C5_C1 <= 500.3310839290079
+ Drone_retrieval_time_Dr10_C4_C5_C1: t[Dr10,C1] - t[Dr10,C5]
+   - 500 d_Dr10_C4_C5_C1 >= -499.9682838028799
+ Drone_retrieval_time_Dr10_C4_C5_C2: t[Tr10,C2] - t[Tr10,C4]
+   + 500 d_Dr10_C4_C5_C2 <= 500.3681072650463
+ Drone_retrieval_time_Dr10_C4_C5_C2: t[Dr10,C2] - t[Dr10,C5]
+   - 500 d_Dr10_C4_C5_C2 >= -499.8962707210397
+ Drone_retrieval_time_Dr10_C4_C5_C3: t[Tr10,C3] - t[Tr10,C4]
+   + 500 d_Dr10_C4_C5_C3 <= 500.3477637775422
+ Drone_retrieval_time_Dr10_C4_C5_C3: t[Dr10,C3] - t[Dr10,C5]
+   - 500 d_Dr10_C4_C5_C3 >= -499.8370029223045
+ Drone_retrieval_time_Dr10_C5_D0_C1: t[Tr10,C1] - t[Tr10,C5]
+   + 500 d_Dr10_C5_D0_C1 <= 500.0317161971201
+ Drone_retrieval_time_Dr10_C5_D0_C1: - t[Dr10,D0] + t[Dr10,C1]
+   - 500 d_Dr10_C5_D0_C1 >= -499.6827746027463
+ Drone_retrieval_time_Dr10_C5_D0_C2: t[Tr10,C2] - t[Tr10,C5]
+   + 500 d_Dr10_C5_D0_C2 <= 500.1037292789603
+ Drone_retrieval_time_Dr10_C5_D0_C2: - t[Dr10,D0] + t[Dr10,C2]
+   - 500 d_Dr10_C5_D0_C2 >= -499.6178540815885
+ Drone_retrieval_time_Dr10_C5_D0_C3: t[Tr10,C3] - t[Tr10,C5]
+   + 500 d_Dr10_C5_D0_C3 <= 500.1629970776955
+ Drone_retrieval_time_Dr10_C5_D0_C3: - t[Dr10,D0] + t[Dr10,C3]
+   - 500 d_Dr10_C5_D0_C3 >= -499.6003759162863
+ Drone_retrieval_time_Dr10_C5_D0_C4: t[Tr10,C4] - t[Tr10,C5]
+   + 500 d_Dr10_C5_D0_C4 <= 500.3311661303895
+ Drone_retrieval_time_Dr10_C5_D0_C4: - t[Dr10,D0] + t[Dr10,C4]
+   - 500 d_Dr10_C5_D0_C4 >= -499.8100140148426
+ Drone_retrieval_time_Dr10_C5_C1_D0: t[Tr10,D0] - t[Tr10,C5]
+   + 500 d_Dr10_C5_C1_D0 <= 500.2994037467205
+ Drone_retrieval_time_Dr10_C5_C1_D0: t[Dr10,D0] - t[Dr10,C1]
+   - 500 d_Dr10_C5_C1_D0 >= -499.6827746027463
+ Drone_retrieval_time_Dr10_C5_C1_C2: t[Tr10,C2] - t[Tr10,C5]
+   + 500 d_Dr10_C5_C1_C2 <= 500.1037292789603
+ Drone_retrieval_time_Dr10_C5_C1_C2: - t[Dr10,C1] + t[Dr10,C2]
+   - 500 d_Dr10_C5_C1_C2 >= -499.926330339115
+ Drone_retrieval_time_Dr10_C5_C1_C3: t[Tr10,C3] - t[Tr10,C5]
+   + 500 d_Dr10_C5_C1_C3 <= 500.1629970776955
+ Drone_retrieval_time_Dr10_C5_C1_C3: - t[Dr10,C1] + t[Dr10,C3]
+   - 500 d_Dr10_C5_C1_C3 >= -499.8685537885336
+ Drone_retrieval_time_Dr10_C5_C1_C4: t[Tr10,C4] - t[Tr10,C5]
+   + 500 d_Dr10_C5_C1_C4 <= 500.3311661303895
+ Drone_retrieval_time_Dr10_C5_C1_C4: - t[Dr10,C1] + t[Dr10,C4]
+   - 500 d_Dr10_C5_C1_C4 >= -499.6689160709921
+ Drone_retrieval_time_Dr10_C5_C2_D0: t[Tr10,D0] - t[Tr10,C5]
+   + 500 d_Dr10_C5_C2_D0 <= 500.2994037467205
+ Drone_retrieval_time_Dr10_C5_C2_D0: t[Dr10,D0] - t[Dr10,C2]
+   - 500 d_Dr10_C5_C2_D0 >= -499.6178540815885
+ Drone_retrieval_time_Dr10_C5_C2_C1: t[Tr10,C1] - t[Tr10,C5]
+   + 500 d_Dr10_C5_C2_C1 <= 500.0317161971201
+ Drone_retrieval_time_Dr10_C5_C2_C1: t[Dr10,C1] - t[Dr10,C2]
+   - 500 d_Dr10_C5_C2_C1 >= -499.926330339115
+ Drone_retrieval_time_Dr10_C5_C2_C3: t[Tr10,C3] - t[Tr10,C5]
+   + 500 d_Dr10_C5_C2_C3 <= 500.1629970776955
+ Drone_retrieval_time_Dr10_C5_C2_C3: - t[Dr10,C2] + t[Dr10,C3]
+   - 500 d_Dr10_C5_C2_C3 >= -499.9243646242875
+ Drone_retrieval_time_Dr10_C5_C2_C4: t[Tr10,C4] - t[Tr10,C5]
+   + 500 d_Dr10_C5_C2_C4 <= 500.3311661303895
+ Drone_retrieval_time_Dr10_C5_C2_C4: - t[Dr10,C2] + t[Dr10,C4]
+   - 500 d_Dr10_C5_C2_C4 >= -499.6318927349537
+ Drone_retrieval_time_Dr10_C5_C3_D0: t[Tr10,D0] - t[Tr10,C5]
+   + 500 d_Dr10_C5_C3_D0 <= 500.2994037467205
+ Drone_retrieval_time_Dr10_C5_C3_D0: t[Dr10,D0] - t[Dr10,C3]
+   - 500 d_Dr10_C5_C3_D0 >= -499.6003759162863
+ Drone_retrieval_time_Dr10_C5_C3_C1: t[Tr10,C1] - t[Tr10,C5]
+   + 500 d_Dr10_C5_C3_C1 <= 500.0317161971201
+ Drone_retrieval_time_Dr10_C5_C3_C1: t[Dr10,C1] - t[Dr10,C3]
+   - 500 d_Dr10_C5_C3_C1 >= -499.8685537885336
+ Drone_retrieval_time_Dr10_C5_C3_C2: t[Tr10,C2] - t[Tr10,C5]
+   + 500 d_Dr10_C5_C3_C2 <= 500.1037292789603
+ Drone_retrieval_time_Dr10_C5_C3_C2: t[Dr10,C2] - t[Dr10,C3]
+   - 500 d_Dr10_C5_C3_C2 >= -499.9243646242875
+ Drone_retrieval_time_Dr10_C5_C3_C4: t[Tr10,C4] - t[Tr10,C5]
+   + 500 d_Dr10_C5_C3_C4 <= 500.3311661303895
+ Drone_retrieval_time_Dr10_C5_C3_C4: - t[Dr10,C3] + t[Dr10,C4]
+   - 500 d_Dr10_C5_C3_C4 >= -499.6522362224578
+ Drone_retrieval_time_Dr10_C5_C4_D0: t[Tr10,D0] - t[Tr10,C5]
+   + 500 d_Dr10_C5_C4_D0 <= 500.2994037467205
+ Drone_retrieval_time_Dr10_C5_C4_D0: t[Dr10,D0] - t[Dr10,C4]
+   - 500 d_Dr10_C5_C4_D0 >= -499.8100140148426
+ Drone_retrieval_time_Dr10_C5_C4_C1: t[Tr10,C1] - t[Tr10,C5]
+   + 500 d_Dr10_C5_C4_C1 <= 500.0317161971201
+ Drone_retrieval_time_Dr10_C5_C4_C1: t[Dr10,C1] - t[Dr10,C4]
+   - 500 d_Dr10_C5_C4_C1 >= -499.6689160709921
+ Drone_retrieval_time_Dr10_C5_C4_C2: t[Tr10,C2] - t[Tr10,C5]
+   + 500 d_Dr10_C5_C4_C2 <= 500.1037292789603
+ Drone_retrieval_time_Dr10_C5_C4_C2: t[Dr10,C2] - t[Dr10,C4]
+   - 500 d_Dr10_C5_C4_C2 >= -499.6318927349537
+ Drone_retrieval_time_Dr10_C5_C4_C3: t[Tr10,C3] - t[Tr10,C5]
+   + 500 d_Dr10_C5_C4_C3 <= 500.1629970776955
+ Drone_retrieval_time_Dr10_C5_C4_C3: t[Dr10,C3] - t[Dr10,C4]
+   - 500 d_Dr10_C5_C4_C3 >= -499.6522362224578
  Update_time_Tr1_C1: - 0.3583333333333333 x[Tr1,D0,C1]
    - 0.1083333333333334 x[Tr1,C2,C1] - 0.1966666666666667 x[Tr1,C3,C1]
    - 0.5016666666666666 x[Tr1,C4,C1] - 0.0483333333333333 x[Tr1,C5,C1]

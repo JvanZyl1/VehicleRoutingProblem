@@ -101,6 +101,7 @@ t = model.addVars(V, N, lb=0, vtype=GRB.CONTINUOUS, name='t')
 
 # Objective function (minimize cost both due to transportation and base cost of using truck if active)
 cost_obj = quicksum(C_T * distance_dict[i,j] * x[v,i,j] for i in N for j in N if i != j for v in V) + quicksum(C_B * y[v] for v in V)
+
 model.setObjective(cost_obj, GRB.MINIMIZE)
 
 model.update()
@@ -138,12 +139,8 @@ for customer in N_customers:
 # 'D0' - depot
 # Loop over each vehicle
 for vehicle in V:
-    # Initialize the sum for the current vehicle
     sum_for_current_vehicle = quicksum(x[vehicle, 'D0', customer] for customer in N_customers)
-    
-    #### THE ACTIVE PART IS WRONG, NEED TO FIX THIS !!!
-    # Add the constraint to the model
-    model.addConstr(sum_for_current_vehicle == 1, name=f'Truck_leaves_depot_{vehicle}')
+    model.addConstr(sum_for_current_vehicle == y[vehicle], name=f'Truck_leaves_depot_{vehicle}')
 
     # Add the constraint to the model
     #model.addGenConstrIndicator(y[vehicle], 1, sum_for_current_vehicle == 1, name=f'Truck_leaves_depot_if_active_{vehicle}')
@@ -154,15 +151,8 @@ for vehicle in V:
 # Each truck must return to the depot
 # Loop over each vehicle
 for vehicle in V:
-    # Initialize the sum for the current vehicle
     sum_for_current_vehicle = quicksum(x[vehicle, customer, 'D0'] for customer in N_customers)
-    
-    #### THE ACTIVE PART IS WRONG, NEED TO FIX THIS !!!
-    # Add the constraint to the model
-    model.addConstr(sum_for_current_vehicle == 1, name=f'Truck_leaves_depot_{vehicle}')
-
-    # Add the constraint to the model
-    #model.addGenConstrIndicator(y[vehicle], 1, sum_for_current_vehicle == 1, name=f'Truck_leaves_depot_if_active_{vehicle}')
+    model.addConstr(sum_for_current_vehicle == y[vehicle], name=f'Truck_returns_to_depot_{vehicle}')
 
 
 # Constraint 4: If a vehicle arrives at a customer node it must also leave
@@ -179,7 +169,7 @@ for vehicle in V:
 #Constraint 5: Time at a node is equal or larger than time at previous nodes plus travel time (or irrelevant). Eliminates need for subtour constraints.
 # Define a large constant M for the big-M method
 '''
-M_subtour = 6000000  # Make sure M is larger than the maximum possible travel time
+M_subtour = 60000000  # Make sure M is larger than the maximum possible travel time
 
 # Add time constraints for all vehicles, nodes, and customers
 for vehicle in V:
@@ -236,7 +226,7 @@ model.update()
 model.write('TruckonlySimple.lp')
 
 # Tune solver parameters
-model.tune()
+#model.tune()
 
 # Optimize the model
 model.optimize()

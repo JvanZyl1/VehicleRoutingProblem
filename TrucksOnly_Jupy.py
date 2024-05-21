@@ -338,7 +338,6 @@ for drone in Dr:
                     
     i += 1
 
-"""
 # Constraint 13: Ensures delivery sequence of trucks is consistent with that of the drones
 # (GPT: "This constraint ensures that if a drone is deployed for a mission from node i to j and retrieved at node k,
 # the truck must visit node i before node k. Essentially, it ties the truck's routing to the drone's operations,
@@ -361,11 +360,11 @@ for drone in Dr:
                         # Add a constraint to the model that the decision variable for the current drone, node, customer, and retrieval node
                         # is less than or equal to the decision variable for the current drone, node, and customer
                         # And t[truck,retireval] cannot equal 0
-                        model.addConstr(t[truck, node] <= t[truck, retireval], name=f'Drone_delivery_sequence_{drone}_{node}_{customer}_{retireval}')
-                        model.addConstr(t[truck, retireval] >= 0, name=f'Drone_delivery_sequence_{drone}_{node}_{customer}_{retireval}_time')
+                        model.addConstr(t[truck, retireval] >= t[truck, node] - M * (1 - d[drone, node, customer, retireval]), name=f'Drone_delivery_sequence_{drone}_{node}_{customer}_{retireval}')
+                        #model.addConstr(t[truck, retireval] >= 0, name=f'Drone_delivery_sequence_{drone}_{node}_{customer}_{retireval}_time')
     i += 1
 
-
+"""
 # Constraint 14: Launch time of drone at node i cannot be earlier than arrival time of the truck at same node
 # unless drone is not launched at node i (big M constant negates this constraint in this case)
 
@@ -535,9 +534,9 @@ else:
 
 # Extract and store the solution
 solution = {var.varName: var.x for var in model.getVars()}
-print(solution)
+#print(solution)
 
-"""
+
 # Print all routes for each vehicle
 for vehicle in V:
     #print active vehicle (y)
@@ -565,7 +564,7 @@ for vehicle in V:
 
 
 # Old post-processing
-
+"""
 #exctract active vehicles
 active_vehicles = [v for v in V if solution[f'y[{v}]'] >= 0.99]
 #extract routes

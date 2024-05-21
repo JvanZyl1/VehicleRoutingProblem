@@ -319,7 +319,34 @@ for drone in Dr:
 # the truck must also pass through both nodes to launch/retrieve the drone.
 
 # Loop over each drone
+i = 0
 for drone in Dr:
+    truck = Tr[i]
+    # Loop over each node
+    for node in N:
+        # Loop over each customer
+        for customer in N_customers:
+            # Skip if the node is the same as the customer
+            if node != customer:
+                #Loop over each retrieval node
+                for retireval in N:
+                    # Skip if the node is the same as the customer or the retrieval node
+                    if retireval != node and retireval != customer:
+                        # If d[drone, node, customer, retireval] is active, then x[truck, node, retireval]must be active
+                        model.addConstr(d[drone, node, customer, retireval] == x[truck, node, retireval], name=f'Drone_launched_retrieved_{drone}_{node}_{customer}_{retireval}')
+                    
+    i += 1
+
+
+# Constraint 13: Ensures delivery sequence of trucks is consistent with that of the drones
+# (GPT: "This constraint ensures that if a drone is deployed for a mission from node i to j and retrieved at node k,
+# the truck must visit node i before node k. Essentially, it ties the truck's routing to the drone's operations,
+# ensuring that the sequence of visits is logically consistent with the drone's deployment and retrieval.").
+
+# Loop over each drone
+i = 0
+for drone in Dr:
+    truck = Tr[i]
     # Loop over each node
     for node in N:
         # Loop over each customer
@@ -332,13 +359,10 @@ for drone in Dr:
                     if retireval != node and retireval != customer:
                         # Add a constraint to the model that the decision variable for the current drone, node, customer, and retrieval node
                         # is less than or equal to the decision variable for the current drone, node, and customer
-                        model.addConstr(d.get((drone, node, customer, retireval), 0) <= d.get((drone, node, customer, retireval), 0), name=f'Drone_launch_retrieve_{drone}_{node}_{customer}_{retireval}')
-
-# Constraint 13: Ensures delivery sequence of trucks is consistent with that of the drones
-# (GPT: "This constraint ensures that if a drone is deployed for a mission from node i to j and retrieved at node k,
-# the truck must visit node i before node k. Essentially, it ties the truck's routing to the drone's operations,
-# ensuring that the sequence of visits is logically consistent with the drone's deployment and retrieval.").
-
+                        # And t[truck,retireval] cannot equal 0
+                        model.addConstr(t[truck, node] <= t[truck, retireval], name=f'Drone_delivery_sequence_{drone}_{node}_{customer}_{retireval}')
+                        model.addConstr(t[truck, retireval] >= 0, name=f'Drone_delivery_sequence_{drone}_{node}_{customer}_{retireval}_time')
+    i += 1
 
 
 # Constraint 14: Launch time of drone at node i cannot be earlier than arrival time of the truck at same node
@@ -389,11 +413,12 @@ else:
 # Extract and store the solution
 solution = {var.varName: var.x for var in model.getVars()}
 
+
 # Print all routes for each vehicle
 for vehicle in V:
     #print active vehicle (y)
     var_name_y = f'y[{vehicle}]'
-    if var_name_y in solution and solution[var_name_y] >= 0.99:
+    if solution.get(var_name_y, 0) >= 0.99:
         print(f'Vehicle {vehicle} is active')
     total_payload = 0
     for node_from in N:
@@ -401,16 +426,16 @@ for vehicle in V:
             if node_from != node_to:
                 #print active links
                 var_name_x = f'x[{vehicle},{node_from},{node_to}]'
-                if var_name_x in solution and solution[var_name_x] >= 0.99:
+                if solution.get(var_name_x, 0) >= 0.99:
                     print(f'{node_from} -> {node_to} by truck')
-                    total_payload += dataset.data[node_from]['Demand']
+                    total_payload += dataset.data.get(node_from, {}).get('Demand', 0)
                 #print active drone links
                 for node_drone in N:
                     if node_drone != node_from and node_drone != node_to:
                         var_name_d = f'd[{vehicle},{node_from},{node_to},{node_drone}]'
-                        if var_name_d in solution and solution[var_name_d] >= 0.99:
+                        if solution.get(var_name_d, 0) >= 0.99:
                             print(f'{node_from} -> {node_to} via {node_drone} by drone')
-                            total_payload += dataset.data[node_from]['Demand']
+                            total_payload += dataset.data.get(node_from, {}).get('Demand', 0)
     print()
     print(f'Total payload delivered by vehicle {vehicle}: {total_payload}\n')
 

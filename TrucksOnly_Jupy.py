@@ -21,7 +21,7 @@ if current_node == my_laptop_node:
     os.environ["GRB_LICENSE_FILE"] = "/Users/ugomunzi/gurobi/licenses/gurobi.lic"
     print("Gurobi license path set for Ugo's MacBook Pro.")
 else:
-    print("Not Ugo's MacBook Pro, using default or no specific license settings.")
+    print("Not Ugo's MacBook Pro, using default or no specific license settings.")
 '''
 
 ## MODEL PARAMETERS ##
@@ -65,7 +65,6 @@ current_dir = os.getcwd()
 # Select which data folder to use
 data_subfolder = '0.3'
 data_subfoldercopy = '0.3_copy'
-data_subfoldercopy = '0.3'
 data_num_nodes = '40'
 data_area = '20'
 
@@ -80,6 +79,8 @@ dataset = Dataset(dataset_path)
 num_trucks = 10 # set to high number, optimiser will decide how many truck to use
 distance_dict = get_manhattan_distance(dataset.data)
 time_dict = get_time_dict(dataset.data, S_T, distance_dict)
+
+print(distance_dict)
 
 #definitions of N_0, N and N_plus follow from paper
 N = list(dataset.data.keys()) #set of nodes with depot at start
@@ -174,14 +175,8 @@ for vehicle in V:
             quicksum(x[vehicle, j, node] for j in N if j != node),
             name=f'Flow_balance_{vehicle}_{node}'
         )
-
-
-# Constraint 5: Time at a node is equal or larger than time at previous nodes plus travel time (or irrelevant). Eliminates need for subtour constraints.
-
 '''
-Constraint 5: Time at a node is equal or larger than time at previous nodes plus travel time (or irrelevant). Eliminates need for subtour constraints.
-'''
-'''
+#Constraint 5: Time at a node is equal or larger than time at previous nodes plus travel time (or irrelevant). Eliminates need for subtour constraints.
 # Define a large constant M for the big-M method
 M_subtour = 3600  # Make sure M is larger than the maximum possible travel time
 
@@ -195,7 +190,6 @@ for vehicle in V:
                     name=f'Time_{vehicle}_{node}_{customer}'
                 )
 '''
-
 
 # Constraint 6: Payloads
 
@@ -211,6 +205,11 @@ for v in V:
 for v in V:
     model.addConstr(y[v] == quicksum(x[v, 'D0', i] for i in N_customers), name=f'Link_y{v}_to_x_{v}')
 
+# Constraint 8: Update time variable
+for v in V:
+    for i in N_customers:
+        model.addConstr(t[v, i] == quicksum((t[v, j] + time_dict[(j, i)]) * x[v, j, i] for j in N if j != i), name=f'Update_time_{v}_{i}')
+
 
 
 
@@ -223,7 +222,7 @@ model.update()
 model.write('TruckonlySimple.lp')
 
 # Tune solver parameters
-#model.tune()
+model.tune()
 
 # Optimize the model
 model.optimize()
@@ -282,10 +281,12 @@ print('active routes', active_routes)
 timestamps = {}
 for v in active_vehicles:
     timestamps[v] = {}
-    for i in N_customers:
-        timestamps[v][i] = solution[f't[{v},{i}]']
+    for node in active_routes[v]:  # Only consider nodes that the vehicle travels to
+        timestamps[v][node] = solution[f't[{v},{node}]']
+
+print('\n')
+print('timestamps', timestamps)
 
 #print all solution variables which have value of 1
-print(active_routes)
 dataset.plot_data(show_demand=False, scale_nodes=True, show_labels=True, active_routes=active_routes)
 

@@ -5,5 +5,10 @@ gurobi.lic
 Pipfile
 Pipfile.lock
 
+#model files
+*.lp
+*.mps
+*.sol
+
 # pychaches
 __pycache__/

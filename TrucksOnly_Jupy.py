@@ -178,7 +178,8 @@ for vehicle in V:
 '''
 #Constraint 5: Time at a node is equal or larger than time at previous nodes plus travel time (or irrelevant). Eliminates need for subtour constraints.
 # Define a large constant M for the big-M method
-M_subtour = 3600  # Make sure M is larger than the maximum possible travel time
+'''
+M_subtour = 6000000  # Make sure M is larger than the maximum possible travel time
 
 # Add time constraints for all vehicles, nodes, and customers
 for vehicle in V:
@@ -189,7 +190,6 @@ for vehicle in V:
                     t[vehicle, customer] >= t[vehicle, node] + time_dict[(node, customer)] - M_subtour * (1 - x[vehicle, node, customer]),
                     name=f'Time_{vehicle}_{node}_{customer}'
                 )
-'''
 
 # Constraint 6: Payloads
 
@@ -206,10 +206,24 @@ for v in V:
     model.addConstr(y[v] == quicksum(x[v, 'D0', i] for i in N_customers), name=f'Link_y{v}_to_x_{v}')
 
 # Constraint 8: Update time variable
-for v in V:
-    for i in N_customers:
-        model.addConstr(t[v, i] == quicksum((t[v, j] + time_dict[(j, i)]) * x[v, j, i] for j in N if j != i), name=f'Update_time_{v}_{i}')
+# Loop over each vehicle
+for vehicle in V:
+    # Loop over each customer
+    for customer in N_customers:
+        # Initialize the sum for the current customer
+        sum_for_current_customer = 0
 
+        # Loop over each node
+        for node in N:
+            # Skip the current customer
+            if node != customer:
+                # Add the time at which the vehicle leaves the node plus the travel time from the node to the customer,
+                # multiplied by the decision variable indicating whether the vehicle travels from the node to the customer,
+                # to the sum for the current customer
+                sum_for_current_customer += (t[vehicle, node] + time_dict[(node, customer)]) * x[vehicle, node, customer]
+
+        # Add a constraint to the model that the time at which the vehicle arrives at the customer is equal to the sum for the current customer
+        model.addConstr(t[vehicle, customer] == sum_for_current_customer, name=f'Update_time_{vehicle}_{customer}')
 
 
 

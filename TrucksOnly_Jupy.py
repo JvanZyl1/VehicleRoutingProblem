@@ -119,6 +119,8 @@ t_max = model.addVar(lb=0, vtype=GRB.CONTINUOUS, name='t_max') #used for the min
 # Make one for the drones as well
 # [v, i, j, k] -> vehicle, node_from, node_to, node_retrieve
 # Initialize an empty dictionary to hold the decision variables
+d = model.addVars(Dr, [(i, j, k) for i in N for j in N for k in N if i != j and i != k and j != k], lb=0, ub=1, vtype=GRB.BINARY, name='d')
+"""
 d = {}
 # Loop over each drone
 for drone in Dr:
@@ -134,7 +136,7 @@ for drone in Dr:
                     if retrival != node and retrival != customer:
                         # Add a binary decision variable to the dictionary
                         d[drone, node, customer, retrival] = model.addVar(lb=0, ub=1, vtype=GRB.BINARY, name=f'd_{drone}_{node}_{customer}_{retrival}')
-
+"""
 
 # Objective 1: Cost both due to transportation and base cost of using truck if active)
 cost_obj = quicksum(C_T * truck_distance_dict[i,j] * x[truck,i,j] for i in N for j in N if i != j for truck in Tr) + \
@@ -156,7 +158,7 @@ model.update()
 
 # Constraint 1: Each customer is visited by exactly one truck or drone
 
-# Each customer is visited by exactly one truck
+# Each customer is visited by exactly one vehicle
 constraints = {}
 # Loop over each customer
 for customer in N_customers:
@@ -172,12 +174,21 @@ for customer in N_customers:
                 # Add the variable to the sum
                 sum_for_current_customer += x[truck, node, customer]
 
+    # Loop over each drone
+    for drone in Dr:
+        # Loop over each node
+        for node in N:
+            # Skip if customer is equal to node
+            if customer != node:
+                # Loop over each retrieval node
+                for retireval in N:
+                    # Skip if retrieval is equal to node or customer
+                    if retireval != node and retireval != customer:
+                        # Add the variable to the sum
+                        sum_for_current_customer += d[drone, node, customer, retireval]
+
     # The sum for the current customer must be equal to 1
-    constraints[node] = sum_for_current_customer == 1
-
-    # Add the constraints to the model
-    model.addConstr(constraints[node], name='Each_customer_visited_once')
-
+    constraints[customer] = model.addConstr(sum_for_current_customer == 1, name=f'Customer_{customer}_visited_once')
 
 # Constraint 2: Each depot must be visited exactly once
 
@@ -526,6 +537,17 @@ for drone in Dr:
 # Constraint 20: Ensures total flight time of drone is less than its maximum endurance.
 # Big M deactivates constraint if drone doesnt make direct trip between the two nodes.
 """
+
+# Constraint21: If a truck is active, the corresponding drone is also active (link y[truck] to corresponding y[drone])
+
+# Loop over each vehicle
+for vehicle in V:
+    # If the vehicle is a truck
+    if 'T' in vehicle:
+        # Get the corresponding drone
+        drone = 'D' + vehicle[1:]
+        # Add the constraint
+        model.addConstr(y[vehicle] <= y[drone], name=f'Active_truck_implies_active_drone_{vehicle}')
 ## SOLVE MODEL ##
 
 # Update the model to integrate constraints
@@ -554,9 +576,7 @@ else:
 
 # Extract and store the solution
 solution = {var.varName: var.x for var in model.getVars()}
-#print(solution)
-
-
+"""
 # Print all routes for each vehicle
 for vehicle in V:
     #print active vehicle (y)
@@ -581,24 +601,40 @@ for vehicle in V:
                             total_payload += dataset.data.get(node_from, {}).get('Demand', 0)
     print()
     print(f'Total payload delivered by vehicle {vehicle}: {total_payload}\n')
-
+"""
 
 # Old post-processing
-"""
+
 #exctract active vehicles
 active_vehicles = [v for v in V if solution[f'y[{v}]'] >= 0.99]
-#extract routes
-active_routes = {}
+
+# Extract routes
+active_routes_truck = {}
+active_routes_drone = {}
 for v in active_vehicles:
-    active_routes[v] = []
+    if 'T' in v:
+        active_routes_truck[v] = []
+    else:
+        active_routes_drone[v] = []
     for node_from in N:
         for node_to in N:
             if node_from != node_to:
-                if solution[f'x[{v},{node_from},{node_to}]'] >= 0.99:
-                    active_routes[v].append(node_from)
-print('active routes', active_routes)
-                
+                # Check if the vehicle is a truck or a drone
+                if 'T' in v:
+                    # If it's a truck, use the 'x' variable
+                    if solution.get(f'x[{v},{node_from},{node_to}]', 0) >= 0.99:
+                        active_routes_truck[v].append((node_from, node_to))
+                else:
+                    # If it's a drone, use the 'd' variable
+                    for retireval in N:
+                        if retireval != node_from and retireval != node_to:
+                            if solution.get(f'd[{v},{node_from},{node_to},{retireval}]', 0) >= 0.99:
+                                active_routes_drone[v].append((node_from, node_to, retireval))
 
+print('active routes for trucks', active_routes_truck)
+print('active routes for drones', active_routes_drone)
+                
+"""
 #retrieve timestamps of customer visits
 timestamps = {}
 for v in active_vehicles:

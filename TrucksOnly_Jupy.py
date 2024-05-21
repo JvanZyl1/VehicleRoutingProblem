@@ -99,6 +99,25 @@ x = model.addVars(V, [(i, j) for i in N for j in N if i != j], lb=0, ub=1, vtype
 y = model.addVars(V, lb=0, ub=1, vtype=GRB.BINARY, name='y')
 t = model.addVars(V, N, lb=0, vtype=GRB.CONTINUOUS, name='t')
 t_max = model.addVar(lb=0, vtype=GRB.CONTINUOUS, name='t_max') #used for the minimising the max delivery time (find max time of all trucks, not each individual truck)
+# Make one for the drones as well
+# [v, i, j, k] -> vehicle, node_from, node_to, node_retrieve
+# Initialize an empty dictionary to hold the decision variables
+d = {}
+# Loop over each vehicle
+for vehicle in V:
+    # Loop over each node
+    for node in N:
+        # Loop over each node again
+        for customer in N:
+            # Skip if the first node is the same as the second node
+            if node != customer:
+                # Loop over each node again
+                for retrival in N:
+                    # Skip if the first node is the same as the third node or the second node is the same as the third node
+                    if retrival != node and retrival != customer:
+                        # Add a binary decision variable to the dictionary
+                        d[vehicle, node, customer, retrival] = model.addVar(lb=0, ub=1, vtype=GRB.BINARY, name=f'd_{vehicle}_{node}_{customer}_{retrival}')
+
 
 # Objective 1: Cost both due to transportation and base cost of using truck if active)
 cost_obj = quicksum(C_T * distance_dict[i,j] * x[v,i,j] for i in N for j in N if i != j for v in V) + quicksum(C_B * y[v] for v in V)
@@ -150,7 +169,7 @@ for vehicle in V:
     model.addConstr(sum_for_current_vehicle == y[vehicle], name=f'Truck_leaves_depot_{vehicle}')
 
     # Add the constraint to the model
-    #model.addGenConstrIndicator(y[vehicle], 1, sum_for_current_vehicle == 1, name=f'Truck_leaves_depot_if_active_{vehicle}')
+    model.addGenConstrIndicator(y[vehicle], 1, sum_for_current_vehicle == 1, name=f'Truck_leaves_depot_if_active_{vehicle}')
 
 
 # Constraint 3: Each vehicle arrives at depot if active
@@ -229,7 +248,47 @@ for vehicle in V:
         # Add a constraint to the model that the maximum delivery time is greater than or equal to the delivery time to the customer for each vehicle
         model.addConstr(t_max >= t[vehicle, customer], name=f'Update_max_delivery_time_{vehicle}_{customer}')
 
+# Constraint 9: Ensures each drone is launched at most once at all customer and depot nodes
+for vehicle in V:
+    for node in N:
+        for customer in N:
+            if node != customer:
+                sum_for_current_customer = 0
+                for retireval in N:
+                    if retireval != node and retireval != customer:
+                        sum_for_current_customer += d.get((vehicle, node, customer, retireval), 0)
+                model.addConstr(sum_for_current_customer <= 1, name=f'Drone_launched_{vehicle}_{node}_{customer}')
+    
+# Constraint 10: Ensures each drone is retrieved at most once at all customer and depot nodes.
 
+# Constraint 11: Esnures drones are not loaded beyond its load capacity during flight.
+
+# Constraint 12: Ensures that if drone is launched at node i and retrieved at node k,
+# the truck must also pass through both nodes to launch/retrieve the drone.
+
+# Constraint 13: Ensures delivery sequence of trucks is consistent with that of the drones
+# (GPT: "This constraint ensures that if a drone is deployed for a mission from node i to j and retrieved at node k,
+# the truck must visit node i before node k. Essentially, it ties the truck's routing to the drone's operations,
+# ensuring that the sequence of visits is logically consistent with the drone's deployment and retrieval.").
+
+# Constraint 14: Launch time of drone at node i cannot be earlier than arrival time of the truck at same node
+# unless drone is not launched at node i (big M constant negates this constraint in this case)
+
+# Constraint 15: Launch time of drone at node i cannot be later than arrival time of the truck at same node
+# unless drone is not launched at node i (big M constant negates this constraint in this case)
+
+# Constraint 16: Ensures drone retrieval time at node k is not earlier than truck's arrival at that node.
+
+# Constraint 17: Ensures drone retrieval time at node k is not later than truck's arrival at that node.
+
+# Constraint 18: Ensures arrival time of drone at node j is after departure (launch) time from node i based on
+# euclidean distance dijE. Big M deactivates constraint if drone doesnt make direct trip between the two nodes.
+
+# Constraint 19: Ensures that the time of retrieval at node k occurs after the time of delivery of the drone at node j
+# based on euclidean distance dijE. Big M deactivates constraint if drone doesnt make direct trip between the two nodes.
+
+# Constraint 20: Ensures total flight time of drone is less than its maximum endurance.
+# Big M deactivates constraint if drone doesnt make direct trip between the two nodes.
 
 ## SOLVE MODEL ##
 
@@ -273,8 +332,15 @@ for vehicle in V:
                 #print active links
                 var_name_x = f'x[{vehicle},{node_from},{node_to}]'
                 if var_name_x in solution and solution[var_name_x] >= 0.99:
-                    print(f'{node_from} -> {node_to}')
+                    print(f'{node_from} -> {node_to} by truck')
                     total_payload += dataset.data[node_from]['Demand']
+                #print active drone links
+                for node_drone in N:
+                    if node_drone != node_from and node_drone != node_to:
+                        var_name_d = f'd[{vehicle},{node_from},{node_to},{node_drone}]'
+                        if var_name_d in solution and solution[var_name_d] >= 0.99:
+                            print(f'{node_from} -> {node_to} via {node_drone} by drone')
+                            total_payload += dataset.data[node_from]['Demand']
     print()
     print(f'Total payload delivered by vehicle {vehicle}: {total_payload}\n')
 

@@ -86,7 +86,13 @@ print(distance_dict)
 N = list(dataset.data.keys()) #set of nodes with depot at start
 N_customers = N.copy()
 N_customers.remove('D0')
-V = [f'V{i}' for i in range(1, num_trucks+1)] #set of trucks
+Tr = [f'Tr{i}' for i in range(1, num_trucks+1)] #set of trucks
+
+num_drones = num_trucks
+# V is the set of vehicles, which includes the trucks and the drones
+V = Tr
+Dr = [f'Dr{i}' for i in range(1, num_drones+1)] #set of drones
+V += Dr
 
 
 ## DEFINE MODEL ##
@@ -95,15 +101,15 @@ V = [f'V{i}' for i in range(1, num_trucks+1)] #set of trucks
 model = Model("Truck_Routing")
 
 # Define decision variables
-x = model.addVars(V, [(i, j) for i in N for j in N if i != j], lb=0, ub=1, vtype=GRB.BINARY, name='x')
+x = model.addVars(Tr, [(i, j) for i in N for j in N if i != j], lb=0, ub=1, vtype=GRB.BINARY, name='x')
 y = model.addVars(V, lb=0, ub=1, vtype=GRB.BINARY, name='y')
 t = model.addVars(V, N, lb=0, vtype=GRB.CONTINUOUS, name='t')
 # Make one for the drones as well
 # [v, i, j, k] -> vehicle, node_from, node_to, node_retrieve
 # Initialize an empty dictionary to hold the decision variables
 d = {}
-# Loop over each vehicle
-for vehicle in V:
+# Loop over each drone
+for drone in Dr:
     # Loop over each node
     for node in N:
         # Loop over each node again
@@ -115,11 +121,11 @@ for vehicle in V:
                     # Skip if the first node is the same as the third node or the second node is the same as the third node
                     if retrival != node and retrival != customer:
                         # Add a binary decision variable to the dictionary
-                        d[vehicle, node, customer, retrival] = model.addVar(lb=0, ub=1, vtype=GRB.BINARY, name=f'd_{vehicle}_{node}_{customer}_{retrival}')
+                        d[drone, node, customer, retrival] = model.addVar(lb=0, ub=1, vtype=GRB.BINARY, name=f'd_{drone}_{node}_{customer}_{retrival}')
 
 
 # Objective function (minimize cost both due to transportation and base cost of using truck if active)
-cost_obj = quicksum(C_T * distance_dict[i,j] * x[v,i,j] for i in N for j in N if i != j for v in V) + quicksum(C_B * y[v] for v in V)
+cost_obj = quicksum(C_T * distance_dict[i,j] * x[truck,i,j] for i in N for j in N if i != j for truck in Tr) + quicksum(C_B * y[v] for v in V)
 
 model.setObjective(cost_obj, GRB.MINIMIZE)
 
@@ -165,13 +171,13 @@ for vehicle in V:
     model.addGenConstrIndicator(y[vehicle], 1, sum_for_current_vehicle == 1, name=f'Truck_leaves_depot_if_active_{vehicle}')
 
 
-# Constraint 3: Each vehicle arrives at depot if active
+# Constraint 3: Each vehicle arrives at depot if active : TRUCKS
 
 # Each truck must return to the depot
-# Loop over each vehicle
-for vehicle in V:
-    sum_for_current_vehicle = quicksum(x[vehicle, customer, 'D0'] for customer in N_customers)
-    model.addConstr(sum_for_current_vehicle == y[vehicle], name=f'Truck_returns_to_depot_{vehicle}')
+# Loop over each truck
+for truck in Tr:
+    sum_for_current_vehicle = quicksum(x[truck, customer, 'D0'] for customer in N_customers)
+    model.addConstr(sum_for_current_vehicle == y[truck], name=f'Truck_returns_to_depot_{truck}')
 
 
 # Constraint 4: If a vehicle arrives at a customer node it must also leave
@@ -186,37 +192,37 @@ for vehicle in V:
         )
 '''
 #Constraint 5: Time at a node is equal or larger than time at previous nodes plus travel time (or irrelevant). Eliminates need for subtour constraints.
-# Define a large constant M for the big-M method
+# Define a large constant M for the big-M method : TRUCKS
 '''
 M_subtour = 60000000  # Make sure M is larger than the maximum possible travel time
 
 # Add time constraints for all vehicles, nodes, and customers
-for vehicle in V:
+for truck in V:
     for node in N:
         for customer in N:
             if node != customer:
                 model.addConstr(
-                    t[vehicle, customer] >= t[vehicle, node] + time_dict[(node, customer)] - M_subtour * (1 - x[vehicle, node, customer]),
-                    name=f'Time_{vehicle}_{node}_{customer}'
+                    t[truck, customer] >= t[truck, node] + time_dict[(node, customer)] - M_subtour * (1 - x[truck, node, customer]),
+                    name=f'Time_{truck}_{node}_{customer}'
                 )
 
-# Constraint 6: Payloads
+# Constraint 6: Payloads :TRUCKS
 
 # The total payload delivered to the customer must be less or equal to the truck load capacity Q_T
 for v in V:
     model.addConstr(quicksum(dataset.data[i]['Demand'] * x[v, i, j] for i in N for j in N if i != j) <= Q_T, 
                     name=f'Payload_{v}')
 
-# Constraint 7: Link y variable to x variable
-#if any link in x (for each vehicle) is active -> y = 1
+# Constraint 7: Link y variable to x variable : TRUCKS
+#if any link in x (for each truck) is active -> y = 1
 # can do this by checking if each truck leaves the depot (all trucks must leave depot if active)
 
 for v in V:
     model.addConstr(y[v] == quicksum(x[v, 'D0', i] for i in N_customers), name=f'Link_y{v}_to_x_{v}')
 
-# Constraint 8: Update time variable
-# Loop over each vehicle
-for vehicle in V:
+# Constraint 8: Update time variable : TRUCKS
+# Loop over each truck
+for truck in Tr:
     # Loop over each customer
     for customer in N_customers:
         # Initialize the sum for the current customer
@@ -226,24 +232,24 @@ for vehicle in V:
         for node in N:
             # Skip the current customer
             if node != customer:
-                # Add the time at which the vehicle leaves the node plus the travel time from the node to the customer,
-                # multiplied by the decision variable indicating whether the vehicle travels from the node to the customer,
+                # Add the time at which the truck leaves the node plus the travel time from the node to the customer,
+                # multiplied by the decision variable indicating whether the truck travels from the node to the customer,
                 # to the sum for the current customer
-                sum_for_current_customer += (t[vehicle, node] + time_dict[(node, customer)]) * x[vehicle, node, customer]
+                sum_for_current_customer += (t[truck, node] + time_dict[(node, customer)]) * x[truck, node, customer]
 
-        # Add a constraint to the model that the time at which the vehicle arrives at the customer is equal to the sum for the current customer
-        model.addConstr(t[vehicle, customer] == sum_for_current_customer, name=f'Update_time_{vehicle}_{customer}')
+        # Add a constraint to the model that the time at which the truck arrives at the customer is equal to the sum for the current customer
+        model.addConstr(t[truck, customer] == sum_for_current_customer, name=f'Update_time_{truck}_{customer}')
 
 # Constraint 9: Ensures each drone is launched at most once at all customer and depot nodes
-for vehicle in V:
+for drone in Dr:
     for node in N:
         for customer in N:
             if node != customer:
                 sum_for_current_customer = 0
                 for retireval in N:
                     if retireval != node and retireval != customer:
-                        sum_for_current_customer += d.get((vehicle, node, customer, retireval), 0)
-                model.addConstr(sum_for_current_customer <= 1, name=f'Drone_launched_{vehicle}_{node}_{customer}')
+                        sum_for_current_customer += d.get((drone, node, customer, retireval), 0)
+                model.addConstr(sum_for_current_customer <= 1, name=f'Drone_launched_{drone}_{node}_{customer}')
     
 # Constraint 10: Ensures each drone is retrieved at most once at all customer and depot nodes.
 

@@ -226,8 +226,8 @@ for v in V:
 #if any link in x (for each truck) is active -> y = 1
 # can do this by checking if each truck leaves the depot (all trucks must leave depot if active)
 
-for v in V:
-    model.addConstr(y[v] == quicksum(x[v, 'D0', i] for i in N_customers), name=f'Link_y{v}_to_x_{v}')
+for truck in Tr:
+    model.addConstr(y[truck] == quicksum(x[truck, 'D0', i] for i in N_customers), name=f'Link_y{truck}_to_x_{truck}')
 
 # Constraint 8: Update time variable : TRUCKS
 # Loop over each truck

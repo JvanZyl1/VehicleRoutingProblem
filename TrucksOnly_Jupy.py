@@ -49,14 +49,24 @@ def get_manhattan_distance(data):
             distance_dict[node1, node2] = distance.cityblock([data[node1]['X'], data[node1]['Y']], [data[node2]['X'], data[node2]['Y']])
     return distance_dict
 
-def get_time_dict(data, S_T, distance_dict):
+def get_euclidean_distance(data):
+    """
+    Returns a dictionary with euclidean distances between all nodes in dataset
+    """
+    distance_dict = {}
+    for node1 in data.keys():
+        for node2 in data.keys():
+            distance_dict[node1, node2] = distance.euclidean([data[node1]['X'], data[node1]['Y']], [data[node2]['X'], data[node2]['Y']])
+    return distance_dict
+
+def get_time_dict(data, avg_speed, distance_dict):
     """
     Returns a dictionary with travel times between all nodes in dataset
     """
     time_dict = {}
     for node1 in data.keys():
         for node2 in data.keys():
-            time_dict[node1, node2] = distance_dict[node1, node2] / S_T
+            time_dict[node1, node2] = distance_dict[node1, node2] / avg_speed
     return time_dict
 
 
@@ -77,10 +87,12 @@ dataset = Dataset(dataset_path)
 ## PRE-PROCESSING ##
 
 num_trucks = 10 # set to high number, optimiser will decide how many truck to use
-distance_dict = get_manhattan_distance(dataset.data)
-time_dict = get_time_dict(dataset.data, S_T, distance_dict)
+truck_distance_dict = get_manhattan_distance(dataset.data)
+drone_distance_dict = get_euclidean_distance(dataset.data)
+truck_time_dict = get_time_dict(dataset.data, S_T, truck_distance_dict)
+drone_time_dict = get_time_dict(dataset.data, S_D, drone_distance_dict)
 
-print(distance_dict)
+print(truck_distance_dict)
 
 #definitions of N_0, N and N_plus follow from paper
 N = list(dataset.data.keys()) #set of nodes with depot at start
@@ -126,14 +138,14 @@ for drone in Dr:
 
 
 # Objective 1: Cost both due to transportation and base cost of using truck if active)
-cost_obj = quicksum(C_T * distance_dict[i,j] * x[v,i,j] for i in N for j in N if i != j for v in V) + quicksum(C_B * y[v] for v in V)
+cost_obj = quicksum(C_T * truck_distance_dict[i,j] * x[v,i,j] for i in N for j in N if i != j for v in V) + quicksum(C_B * y[v] for v in V)
 # Objective 2: environmental_obj is distance[i,j] * Weight* x[v,i,j] for all v,i,j (i.e. energy consumption)
-environmental_obj = quicksum(distance_dict[i,j] * W_T * x[v,i,j] for i in N for j in N if i != j for v in V)
+environmental_obj = quicksum(truck_distance_dict[i,j] * W_T * x[v,i,j] for i in N for j in N if i != j for v in V)
 # Objective 3: minimise max delivery time for each truck
 time_obj = t_max
 
 # Objective function (minimize cost both due to transportation and base cost of using truck if active)
-cost_obj = quicksum(C_T * distance_dict[i,j] * x[truck,i,j] for i in N for j in N if i != j for truck in Tr) + quicksum(C_B * y[v] for v in V)
+cost_obj = quicksum(C_T * truck_distance_dict[i,j] * x[truck,i,j] for i in N for j in N if i != j for truck in Tr) + quicksum(C_B * y[v] for v in V)
 
 obj = cost_obj + environmental_obj + time_obj
 model.setObjective(obj, GRB.MINIMIZE)
@@ -211,7 +223,7 @@ for truck in Tr:
         for customer in N:
             if node != customer:
                 model.addConstr(
-                    t[truck, customer] >= t[truck, node] + time_dict[(node, customer)] - M_subtour * (1 - x[truck, node, customer]),
+                    t[truck, customer] >= t[truck, node] + truck_time_dict[(node, customer)] - M_subtour * (1 - x[truck, node, customer]),
                     name=f'Time_{truck}_{node}_{customer}'
                 )
 
@@ -244,7 +256,7 @@ for truck in Tr:
                 # Add the time at which the truck leaves the node plus the travel time from the node to the customer,
                 # multiplied by the decision variable indicating whether the truck travels from the node to the customer,
                 # to the sum for the current customer
-                sum_for_current_customer += (t[truck, node] + time_dict[(node, customer)]) * x[truck, node, customer]
+                sum_for_current_customer += (t[truck, node] + truck_time_dict[(node, customer)]) * x[truck, node, customer]
 
         # Add a constraint to the model that the time at which the truck arrives at the customer is equal to the sum for the current customer
         model.addConstr(t[truck, customer] == sum_for_current_customer, name=f'Update_time_{truck}_{customer}')

@@ -2,6 +2,7 @@ import pandas as pd
 import networkx as nx
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
+import itertools
 
 class Dataset():
 
@@ -35,7 +36,7 @@ class Dataset():
         for node, attributes in self.data.items():
             self.graph.add_node(node, x=attributes['X'], y=attributes['Y'], pos=[attributes['X'], attributes['Y']], demand=attributes['Demand'], ServiceBy=attributes['ServiceBy'])
 
-    def plot_data(self, show_demand=False, scale_nodes=True, show_labels=False):
+    def plot_data(self, show_demand=False, scale_nodes=True, show_labels=False, active_routes=None):
         plt.figure(figsize=(10, 10))
         pos = nx.get_node_attributes(self.graph, 'pos')
         demand_labels = nx.get_node_attributes(self.graph, 'demand')
@@ -59,6 +60,17 @@ class Dataset():
 
         if show_demand:
             nx.draw_networkx_labels(self.graph, pos, labels=demand_labels)
+
+        # If active_routes is provided, draw the active edges as links
+        if active_routes:
+            color_cycle = itertools.cycle(plt.rcParams['axes.prop_cycle'].by_key()['color'])
+            for vehicle, route in active_routes.items():
+                vehicle_color = next(color_cycle)
+                for i in range(len(route) - 1):
+                    nx.draw_networkx_edges(self.graph, pos, edgelist=[(route[i], route[i+1])], edge_color=vehicle_color, width=2)
+                plt.plot([], [], color=vehicle_color, label=vehicle)  # Add a legend entry for this vehicle
+
+        plt.legend()  # Show the legend
         plt.show()
     
 if __name__ == '__main__':

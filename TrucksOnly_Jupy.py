@@ -154,7 +154,7 @@ model.setObjective(obj, GRB.MINIMIZE)
 model.update()
 
 
-# Constraint 1: Each customer is visited by exactly one truck
+# Constraint 1: Each customer is visited by exactly one truck or drone
 
 # Each customer is visited by exactly one truck
 constraints = {}
@@ -364,7 +364,7 @@ for drone in Dr:
                         #model.addConstr(t[truck, retireval] >= 0, name=f'Drone_delivery_sequence_{drone}_{node}_{customer}_{retireval}_time')
     i += 1
 
-"""
+
 # Constraint 14: Launch time of drone at node i cannot be earlier than arrival time of the truck at same node
 # unless drone is not launched at node i (big M constant negates this constraint in this case)
 
@@ -385,9 +385,13 @@ for drone in Dr:
                         # Add a constraint to the model that the decision variable for the current drone, node, customer, and retrieval node
                         # is less than or equal to the decision variable for the current drone, node, and customer
                         # And t[truck,retireval] cannot equal 0
-                        model.addConstr(t[truck, retireval] >= t[truck, node] - M * (1 - d[drone, node, customer, retireval]), name=f'Drone_launch_time_{drone}_{node}_{customer}_{retireval}')
+                        model.addConstr(
+                            t[drone, node] >= t[truck, node] - M * (1 - d[drone, node, customer, retireval]),
+                            name=f'Drone_launch_time_{drone}_{node}_{customer}_{retireval}'
+                        )
     i += 1
 
+"""
 # Constraint 15: Launch time of drone at node i cannot be later than arrival time of the truck at same node
 # unless drone is not launched at node i (big M constant negates this constraint in this case)
 

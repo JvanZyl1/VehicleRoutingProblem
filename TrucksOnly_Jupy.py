@@ -150,14 +150,14 @@ for customer in N_customers:
     # Initialize the sum for the current customer
     sum_for_current_customer = 0
 
-    # Loop over each vehicle
-    for vehicle in V:
+    # Loop over each truck
+    for truck in Tr:
         # Loop over each node
         for node in N:
             # Skip if customer is equal to node
             if customer != node:
                 # Add the variable to the sum
-                sum_for_current_customer += x[vehicle, node, customer]
+                sum_for_current_customer += x[truck, node, customer]
 
     # The sum for the current customer must be equal to 1
     constraints[node] = sum_for_current_customer == 1
@@ -171,16 +171,16 @@ for customer in N_customers:
 # Each truck must leave the depot
 # y - active
 # 'D0' - depot
-# Loop over each vehicle
-for vehicle in V:
-    sum_for_current_vehicle = quicksum(x[vehicle, 'D0', customer] for customer in N_customers)
-    model.addConstr(sum_for_current_vehicle == y[vehicle], name=f'Truck_leaves_depot_{vehicle}')
+# Loop over each truck
+for truck in Tr:
+    sum_for_current_vehicle = quicksum(x[truck, 'D0', customer] for customer in N_customers)
+    model.addConstr(sum_for_current_vehicle == y[truck], name=f'Truck_leaves_depot_{truck}')
 
     # Add the constraint to the model
-    model.addGenConstrIndicator(y[vehicle], 1, sum_for_current_vehicle == 1, name=f'Truck_leaves_depot_if_active_{vehicle}')
+    model.addGenConstrIndicator(y[truck], 1, sum_for_current_vehicle == 1, name=f'Truck_leaves_depot_if_active_{truck}')
 
 
-# Constraint 3: Each vehicle arrives at depot if active : TRUCKS
+# Constraint 3: Each truck arrives at depot if active : TRUCKS
 
 # Each truck must return to the depot
 # Loop over each truck
@@ -189,15 +189,15 @@ for truck in Tr:
     model.addConstr(sum_for_current_vehicle == y[truck], name=f'Truck_returns_to_depot_{truck}')
 
 
-# Constraint 4: If a vehicle arrives at a customer node it must also leave
+# Constraint 4: If a truck arrives at a customer node it must also leave
 
 # If a truck visits a customer, it must leave the customer
-for vehicle in V:
+for truck in Tr:
     for node in N_customers:
         model.addConstr(
-            quicksum(x[vehicle, node, j] for j in N if j != node) == 
-            quicksum(x[vehicle, j, node] for j in N if j != node),
-            name=f'Flow_balance_{vehicle}_{node}'
+            quicksum(x[truck, node, j] for j in N if j != node) == 
+            quicksum(x[truck, j, node] for j in N if j != node),
+            name=f'Flow_balance_{truck}_{node}'
         )
 '''
 #Constraint 5: Time at a node is equal or larger than time at previous nodes plus travel time (or irrelevant). Eliminates need for subtour constraints.
@@ -251,10 +251,10 @@ for truck in Tr:
 
 
 # Constraint 9: Update max delivery time variable
-for vehicle in V:
+for truck in Tr:
     for customer in N_customers:
         # Add a constraint to the model that the maximum delivery time is greater than or equal to the delivery time to the customer for each vehicle
-        model.addConstr(t_max >= t[vehicle, customer], name=f'Update_max_delivery_time_{vehicle}_{customer}')
+        model.addConstr(t_max >= t[truck, customer], name=f'Update_max_delivery_time_{truck}_{customer}')
 
 # Constraint 9: Ensures each drone is launched at most once at all customer and depot nodes
 for drone in Dr:
@@ -268,6 +268,16 @@ for drone in Dr:
                 model.addConstr(sum_for_current_customer <= 1, name=f'Drone_launched_{drone}_{node}_{customer}')
     
 # Constraint 10: Ensures each drone is retrieved at most once at all customer and depot nodes.
+
+for drone in Dr:
+    for node in N:
+        for customer in N:
+            if node != customer:
+                sum_for_current_customer = 0
+                for retireval in N:
+                    if retireval != node and retireval != customer:
+                        sum_for_current_customer += d.get((drone, retireval, customer, node), 0)
+                model.addConstr(sum_for_current_customer <= 1, name=f'Drone_retrieved_{drone}_{node}_{customer}')
 
 # Constraint 11: Esnures drones are not loaded beyond its load capacity during flight.
 

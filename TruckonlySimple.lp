@@ -2837,6 +2837,606 @@ Subject To
    + d_Dr10_C5_C3_C2 + d_Dr10_C5_C3_C4 <= 1
  Drone_launched_Dr10_C5_C4: d_Dr10_C5_C4_D0 + d_Dr10_C5_C4_C1
    + d_Dr10_C5_C4_C2 + d_Dr10_C5_C4_C3 <= 1
+ Drone_retrieved_Dr1_D0_C1: d_Dr1_C2_C1_D0 + d_Dr1_C3_C1_D0
+   + d_Dr1_C4_C1_D0 + d_Dr1_C5_C1_D0 <= 1
+ Drone_retrieved_Dr1_D0_C2: d_Dr1_C1_C2_D0 + d_Dr1_C3_C2_D0
+   + d_Dr1_C4_C2_D0 + d_Dr1_C5_C2_D0 <= 1
+ Drone_retrieved_Dr1_D0_C3: d_Dr1_C1_C3_D0 + d_Dr1_C2_C3_D0
+   + d_Dr1_C4_C3_D0 + d_Dr1_C5_C3_D0 <= 1
+ Drone_retrieved_Dr1_D0_C4: d_Dr1_C1_C4_D0 + d_Dr1_C2_C4_D0
+   + d_Dr1_C3_C4_D0 + d_Dr1_C5_C4_D0 <= 1
+ Drone_retrieved_Dr1_D0_C5: d_Dr1_C1_C5_D0 + d_Dr1_C2_C5_D0
+   + d_Dr1_C3_C5_D0 + d_Dr1_C4_C5_D0 <= 1
+ Drone_retrieved_Dr1_C1_D0: d_Dr1_C2_D0_C1 + d_Dr1_C3_D0_C1
+   + d_Dr1_C4_D0_C1 + d_Dr1_C5_D0_C1 <= 1
+ Drone_retrieved_Dr1_C1_C2: d_Dr1_D0_C2_C1 + d_Dr1_C3_C2_C1
+   + d_Dr1_C4_C2_C1 + d_Dr1_C5_C2_C1 <= 1
+ Drone_retrieved_Dr1_C1_C3: d_Dr1_D0_C3_C1 + d_Dr1_C2_C3_C1
+   + d_Dr1_C4_C3_C1 + d_Dr1_C5_C3_C1 <= 1
+ Drone_retrieved_Dr1_C1_C4: d_Dr1_D0_C4_C1 + d_Dr1_C2_C4_C1
+   + d_Dr1_C3_C4_C1 + d_Dr1_C5_C4_C1 <= 1
+ Drone_retrieved_Dr1_C1_C5: d_Dr1_D0_C5_C1 + d_Dr1_C2_C5_C1
+   + d_Dr1_C3_C5_C1 + d_Dr1_C4_C5_C1 <= 1
+ Drone_retrieved_Dr1_C2_D0: d_Dr1_C1_D0_C2 + d_Dr1_C3_D0_C2
+   + d_Dr1_C4_D0_C2 + d_Dr1_C5_D0_C2 <= 1
+ Drone_retrieved_Dr1_C2_C1: d_Dr1_D0_C1_C2 + d_Dr1_C3_C1_C2
+   + d_Dr1_C4_C1_C2 + d_Dr1_C5_C1_C2 <= 1
+ Drone_retrieved_Dr1_C2_C3: d_Dr1_D0_C3_C2 + d_Dr1_C1_C3_C2
+   + d_Dr1_C4_C3_C2 + d_Dr1_C5_C3_C2 <= 1
+ Drone_retrieved_Dr1_C2_C4: d_Dr1_D0_C4_C2 + d_Dr1_C1_C4_C2
+   + d_Dr1_C3_C4_C2 + d_Dr1_C5_C4_C2 <= 1
+ Drone_retrieved_Dr1_C2_C5: d_Dr1_D0_C5_C2 + d_Dr1_C1_C5_C2
+   + d_Dr1_C3_C5_C2 + d_Dr1_C4_C5_C2 <= 1
+ Drone_retrieved_Dr1_C3_D0: d_Dr1_C1_D0_C3 + d_Dr1_C2_D0_C3
+   + d_Dr1_C4_D0_C3 + d_Dr1_C5_D0_C3 <= 1
+ Drone_retrieved_Dr1_C3_C1: d_Dr1_D0_C1_C3 + d_Dr1_C2_C1_C3
+   + d_Dr1_C4_C1_C3 + d_Dr1_C5_C1_C3 <= 1
+ Drone_retrieved_Dr1_C3_C2: d_Dr1_D0_C2_C3 + d_Dr1_C1_C2_C3
+   + d_Dr1_C4_C2_C3 + d_Dr1_C5_C2_C3 <= 1
+ Drone_retrieved_Dr1_C3_C4: d_Dr1_D0_C4_C3 + d_Dr1_C1_C4_C3
+   + d_Dr1_C2_C4_C3 + d_Dr1_C5_C4_C3 <= 1
+ Drone_retrieved_Dr1_C3_C5: d_Dr1_D0_C5_C3 + d_Dr1_C1_C5_C3
+   + d_Dr1_C2_C5_C3 + d_Dr1_C4_C5_C3 <= 1
+ Drone_retrieved_Dr1_C4_D0: d_Dr1_C1_D0_C4 + d_Dr1_C2_D0_C4
+   + d_Dr1_C3_D0_C4 + d_Dr1_C5_D0_C4 <= 1
+ Drone_retrieved_Dr1_C4_C1: d_Dr1_D0_C1_C4 + d_Dr1_C2_C1_C4
+   + d_Dr1_C3_C1_C4 + d_Dr1_C5_C1_C4 <= 1
+ Drone_retrieved_Dr1_C4_C2: d_Dr1_D0_C2_C4 + d_Dr1_C1_C2_C4
+   + d_Dr1_C3_C2_C4 + d_Dr1_C5_C2_C4 <= 1
+ Drone_retrieved_Dr1_C4_C3: d_Dr1_D0_C3_C4 + d_Dr1_C1_C3_C4
+   + d_Dr1_C2_C3_C4 + d_Dr1_C5_C3_C4 <= 1
+ Drone_retrieved_Dr1_C4_C5: d_Dr1_D0_C5_C4 + d_Dr1_C1_C5_C4
+   + d_Dr1_C2_C5_C4 + d_Dr1_C3_C5_C4 <= 1
+ Drone_retrieved_Dr1_C5_D0: d_Dr1_C1_D0_C5 + d_Dr1_C2_D0_C5
+   + d_Dr1_C3_D0_C5 + d_Dr1_C4_D0_C5 <= 1
+ Drone_retrieved_Dr1_C5_C1: d_Dr1_D0_C1_C5 + d_Dr1_C2_C1_C5
+   + d_Dr1_C3_C1_C5 + d_Dr1_C4_C1_C5 <= 1
+ Drone_retrieved_Dr1_C5_C2: d_Dr1_D0_C2_C5 + d_Dr1_C1_C2_C5
+   + d_Dr1_C3_C2_C5 + d_Dr1_C4_C2_C5 <= 1
+ Drone_retrieved_Dr1_C5_C3: d_Dr1_D0_C3_C5 + d_Dr1_C1_C3_C5
+   + d_Dr1_C2_C3_C5 + d_Dr1_C4_C3_C5 <= 1
+ Drone_retrieved_Dr1_C5_C4: d_Dr1_D0_C4_C5 + d_Dr1_C1_C4_C5
+   + d_Dr1_C2_C4_C5 + d_Dr1_C3_C4_C5 <= 1
+ Drone_retrieved_Dr2_D0_C1: d_Dr2_C2_C1_D0 + d_Dr2_C3_C1_D0
+   + d_Dr2_C4_C1_D0 + d_Dr2_C5_C1_D0 <= 1
+ Drone_retrieved_Dr2_D0_C2: d_Dr2_C1_C2_D0 + d_Dr2_C3_C2_D0
+   + d_Dr2_C4_C2_D0 + d_Dr2_C5_C2_D0 <= 1
+ Drone_retrieved_Dr2_D0_C3: d_Dr2_C1_C3_D0 + d_Dr2_C2_C3_D0
+   + d_Dr2_C4_C3_D0 + d_Dr2_C5_C3_D0 <= 1
+ Drone_retrieved_Dr2_D0_C4: d_Dr2_C1_C4_D0 + d_Dr2_C2_C4_D0
+   + d_Dr2_C3_C4_D0 + d_Dr2_C5_C4_D0 <= 1
+ Drone_retrieved_Dr2_D0_C5: d_Dr2_C1_C5_D0 + d_Dr2_C2_C5_D0
+   + d_Dr2_C3_C5_D0 + d_Dr2_C4_C5_D0 <= 1
+ Drone_retrieved_Dr2_C1_D0: d_Dr2_C2_D0_C1 + d_Dr2_C3_D0_C1
+   + d_Dr2_C4_D0_C1 + d_Dr2_C5_D0_C1 <= 1
+ Drone_retrieved_Dr2_C1_C2: d_Dr2_D0_C2_C1 + d_Dr2_C3_C2_C1
+   + d_Dr2_C4_C2_C1 + d_Dr2_C5_C2_C1 <= 1
+ Drone_retrieved_Dr2_C1_C3: d_Dr2_D0_C3_C1 + d_Dr2_C2_C3_C1
+   + d_Dr2_C4_C3_C1 + d_Dr2_C5_C3_C1 <= 1
+ Drone_retrieved_Dr2_C1_C4: d_Dr2_D0_C4_C1 + d_Dr2_C2_C4_C1
+   + d_Dr2_C3_C4_C1 + d_Dr2_C5_C4_C1 <= 1
+ Drone_retrieved_Dr2_C1_C5: d_Dr2_D0_C5_C1 + d_Dr2_C2_C5_C1
+   + d_Dr2_C3_C5_C1 + d_Dr2_C4_C5_C1 <= 1
+ Drone_retrieved_Dr2_C2_D0: d_Dr2_C1_D0_C2 + d_Dr2_C3_D0_C2
+   + d_Dr2_C4_D0_C2 + d_Dr2_C5_D0_C2 <= 1
+ Drone_retrieved_Dr2_C2_C1: d_Dr2_D0_C1_C2 + d_Dr2_C3_C1_C2
+   + d_Dr2_C4_C1_C2 + d_Dr2_C5_C1_C2 <= 1
+ Drone_retrieved_Dr2_C2_C3: d_Dr2_D0_C3_C2 + d_Dr2_C1_C3_C2
+   + d_Dr2_C4_C3_C2 + d_Dr2_C5_C3_C2 <= 1
+ Drone_retrieved_Dr2_C2_C4: d_Dr2_D0_C4_C2 + d_Dr2_C1_C4_C2
+   + d_Dr2_C3_C4_C2 + d_Dr2_C5_C4_C2 <= 1
+ Drone_retrieved_Dr2_C2_C5: d_Dr2_D0_C5_C2 + d_Dr2_C1_C5_C2
+   + d_Dr2_C3_C5_C2 + d_Dr2_C4_C5_C2 <= 1
+ Drone_retrieved_Dr2_C3_D0: d_Dr2_C1_D0_C3 + d_Dr2_C2_D0_C3
+   + d_Dr2_C4_D0_C3 + d_Dr2_C5_D0_C3 <= 1
+ Drone_retrieved_Dr2_C3_C1: d_Dr2_D0_C1_C3 + d_Dr2_C2_C1_C3
+   + d_Dr2_C4_C1_C3 + d_Dr2_C5_C1_C3 <= 1
+ Drone_retrieved_Dr2_C3_C2: d_Dr2_D0_C2_C3 + d_Dr2_C1_C2_C3
+   + d_Dr2_C4_C2_C3 + d_Dr2_C5_C2_C3 <= 1
+ Drone_retrieved_Dr2_C3_C4: d_Dr2_D0_C4_C3 + d_Dr2_C1_C4_C3
+   + d_Dr2_C2_C4_C3 + d_Dr2_C5_C4_C3 <= 1
+ Drone_retrieved_Dr2_C3_C5: d_Dr2_D0_C5_C3 + d_Dr2_C1_C5_C3
+   + d_Dr2_C2_C5_C3 + d_Dr2_C4_C5_C3 <= 1
+ Drone_retrieved_Dr2_C4_D0: d_Dr2_C1_D0_C4 + d_Dr2_C2_D0_C4
+   + d_Dr2_C3_D0_C4 + d_Dr2_C5_D0_C4 <= 1
+ Drone_retrieved_Dr2_C4_C1: d_Dr2_D0_C1_C4 + d_Dr2_C2_C1_C4
+   + d_Dr2_C3_C1_C4 + d_Dr2_C5_C1_C4 <= 1
+ Drone_retrieved_Dr2_C4_C2: d_Dr2_D0_C2_C4 + d_Dr2_C1_C2_C4
+   + d_Dr2_C3_C2_C4 + d_Dr2_C5_C2_C4 <= 1
+ Drone_retrieved_Dr2_C4_C3: d_Dr2_D0_C3_C4 + d_Dr2_C1_C3_C4
+   + d_Dr2_C2_C3_C4 + d_Dr2_C5_C3_C4 <= 1
+ Drone_retrieved_Dr2_C4_C5: d_Dr2_D0_C5_C4 + d_Dr2_C1_C5_C4
+   + d_Dr2_C2_C5_C4 + d_Dr2_C3_C5_C4 <= 1
+ Drone_retrieved_Dr2_C5_D0: d_Dr2_C1_D0_C5 + d_Dr2_C2_D0_C5
+   + d_Dr2_C3_D0_C5 + d_Dr2_C4_D0_C5 <= 1
+ Drone_retrieved_Dr2_C5_C1: d_Dr2_D0_C1_C5 + d_Dr2_C2_C1_C5
+   + d_Dr2_C3_C1_C5 + d_Dr2_C4_C1_C5 <= 1
+ Drone_retrieved_Dr2_C5_C2: d_Dr2_D0_C2_C5 + d_Dr2_C1_C2_C5
+   + d_Dr2_C3_C2_C5 + d_Dr2_C4_C2_C5 <= 1
+ Drone_retrieved_Dr2_C5_C3: d_Dr2_D0_C3_C5 + d_Dr2_C1_C3_C5
+   + d_Dr2_C2_C3_C5 + d_Dr2_C4_C3_C5 <= 1
+ Drone_retrieved_Dr2_C5_C4: d_Dr2_D0_C4_C5 + d_Dr2_C1_C4_C5
+   + d_Dr2_C2_C4_C5 + d_Dr2_C3_C4_C5 <= 1
+ Drone_retrieved_Dr3_D0_C1: d_Dr3_C2_C1_D0 + d_Dr3_C3_C1_D0
+   + d_Dr3_C4_C1_D0 + d_Dr3_C5_C1_D0 <= 1
+ Drone_retrieved_Dr3_D0_C2: d_Dr3_C1_C2_D0 + d_Dr3_C3_C2_D0
+   + d_Dr3_C4_C2_D0 + d_Dr3_C5_C2_D0 <= 1
+ Drone_retrieved_Dr3_D0_C3: d_Dr3_C1_C3_D0 + d_Dr3_C2_C3_D0
+   + d_Dr3_C4_C3_D0 + d_Dr3_C5_C3_D0 <= 1
+ Drone_retrieved_Dr3_D0_C4: d_Dr3_C1_C4_D0 + d_Dr3_C2_C4_D0
+   + d_Dr3_C3_C4_D0 + d_Dr3_C5_C4_D0 <= 1
+ Drone_retrieved_Dr3_D0_C5: d_Dr3_C1_C5_D0 + d_Dr3_C2_C5_D0
+   + d_Dr3_C3_C5_D0 + d_Dr3_C4_C5_D0 <= 1
+ Drone_retrieved_Dr3_C1_D0: d_Dr3_C2_D0_C1 + d_Dr3_C3_D0_C1
+   + d_Dr3_C4_D0_C1 + d_Dr3_C5_D0_C1 <= 1
+ Drone_retrieved_Dr3_C1_C2: d_Dr3_D0_C2_C1 + d_Dr3_C3_C2_C1
+   + d_Dr3_C4_C2_C1 + d_Dr3_C5_C2_C1 <= 1
+ Drone_retrieved_Dr3_C1_C3: d_Dr3_D0_C3_C1 + d_Dr3_C2_C3_C1
+   + d_Dr3_C4_C3_C1 + d_Dr3_C5_C3_C1 <= 1
+ Drone_retrieved_Dr3_C1_C4: d_Dr3_D0_C4_C1 + d_Dr3_C2_C4_C1
+   + d_Dr3_C3_C4_C1 + d_Dr3_C5_C4_C1 <= 1
+ Drone_retrieved_Dr3_C1_C5: d_Dr3_D0_C5_C1 + d_Dr3_C2_C5_C1
+   + d_Dr3_C3_C5_C1 + d_Dr3_C4_C5_C1 <= 1
+ Drone_retrieved_Dr3_C2_D0: d_Dr3_C1_D0_C2 + d_Dr3_C3_D0_C2
+   + d_Dr3_C4_D0_C2 + d_Dr3_C5_D0_C2 <= 1
+ Drone_retrieved_Dr3_C2_C1: d_Dr3_D0_C1_C2 + d_Dr3_C3_C1_C2
+   + d_Dr3_C4_C1_C2 + d_Dr3_C5_C1_C2 <= 1
+ Drone_retrieved_Dr3_C2_C3: d_Dr3_D0_C3_C2 + d_Dr3_C1_C3_C2
+   + d_Dr3_C4_C3_C2 + d_Dr3_C5_C3_C2 <= 1
+ Drone_retrieved_Dr3_C2_C4: d_Dr3_D0_C4_C2 + d_Dr3_C1_C4_C2
+   + d_Dr3_C3_C4_C2 + d_Dr3_C5_C4_C2 <= 1
+ Drone_retrieved_Dr3_C2_C5: d_Dr3_D0_C5_C2 + d_Dr3_C1_C5_C2
+   + d_Dr3_C3_C5_C2 + d_Dr3_C4_C5_C2 <= 1
+ Drone_retrieved_Dr3_C3_D0: d_Dr3_C1_D0_C3 + d_Dr3_C2_D0_C3
+   + d_Dr3_C4_D0_C3 + d_Dr3_C5_D0_C3 <= 1
+ Drone_retrieved_Dr3_C3_C1: d_Dr3_D0_C1_C3 + d_Dr3_C2_C1_C3
+   + d_Dr3_C4_C1_C3 + d_Dr3_C5_C1_C3 <= 1
+ Drone_retrieved_Dr3_C3_C2: d_Dr3_D0_C2_C3 + d_Dr3_C1_C2_C3
+   + d_Dr3_C4_C2_C3 + d_Dr3_C5_C2_C3 <= 1
+ Drone_retrieved_Dr3_C3_C4: d_Dr3_D0_C4_C3 + d_Dr3_C1_C4_C3
+   + d_Dr3_C2_C4_C3 + d_Dr3_C5_C4_C3 <= 1
+ Drone_retrieved_Dr3_C3_C5: d_Dr3_D0_C5_C3 + d_Dr3_C1_C5_C3
+   + d_Dr3_C2_C5_C3 + d_Dr3_C4_C5_C3 <= 1
+ Drone_retrieved_Dr3_C4_D0: d_Dr3_C1_D0_C4 + d_Dr3_C2_D0_C4
+   + d_Dr3_C3_D0_C4 + d_Dr3_C5_D0_C4 <= 1
+ Drone_retrieved_Dr3_C4_C1: d_Dr3_D0_C1_C4 + d_Dr3_C2_C1_C4
+   + d_Dr3_C3_C1_C4 + d_Dr3_C5_C1_C4 <= 1
+ Drone_retrieved_Dr3_C4_C2: d_Dr3_D0_C2_C4 + d_Dr3_C1_C2_C4
+   + d_Dr3_C3_C2_C4 + d_Dr3_C5_C2_C4 <= 1
+ Drone_retrieved_Dr3_C4_C3: d_Dr3_D0_C3_C4 + d_Dr3_C1_C3_C4
+   + d_Dr3_C2_C3_C4 + d_Dr3_C5_C3_C4 <= 1
+ Drone_retrieved_Dr3_C4_C5: d_Dr3_D0_C5_C4 + d_Dr3_C1_C5_C4
+   + d_Dr3_C2_C5_C4 + d_Dr3_C3_C5_C4 <= 1
+ Drone_retrieved_Dr3_C5_D0: d_Dr3_C1_D0_C5 + d_Dr3_C2_D0_C5
+   + d_Dr3_C3_D0_C5 + d_Dr3_C4_D0_C5 <= 1
+ Drone_retrieved_Dr3_C5_C1: d_Dr3_D0_C1_C5 + d_Dr3_C2_C1_C5
+   + d_Dr3_C3_C1_C5 + d_Dr3_C4_C1_C5 <= 1
+ Drone_retrieved_Dr3_C5_C2: d_Dr3_D0_C2_C5 + d_Dr3_C1_C2_C5
+   + d_Dr3_C3_C2_C5 + d_Dr3_C4_C2_C5 <= 1
+ Drone_retrieved_Dr3_C5_C3: d_Dr3_D0_C3_C5 + d_Dr3_C1_C3_C5
+   + d_Dr3_C2_C3_C5 + d_Dr3_C4_C3_C5 <= 1
+ Drone_retrieved_Dr3_C5_C4: d_Dr3_D0_C4_C5 + d_Dr3_C1_C4_C5
+   + d_Dr3_C2_C4_C5 + d_Dr3_C3_C4_C5 <= 1
+ Drone_retrieved_Dr4_D0_C1: d_Dr4_C2_C1_D0 + d_Dr4_C3_C1_D0
+   + d_Dr4_C4_C1_D0 + d_Dr4_C5_C1_D0 <= 1
+ Drone_retrieved_Dr4_D0_C2: d_Dr4_C1_C2_D0 + d_Dr4_C3_C2_D0
+   + d_Dr4_C4_C2_D0 + d_Dr4_C5_C2_D0 <= 1
+ Drone_retrieved_Dr4_D0_C3: d_Dr4_C1_C3_D0 + d_Dr4_C2_C3_D0
+   + d_Dr4_C4_C3_D0 + d_Dr4_C5_C3_D0 <= 1
+ Drone_retrieved_Dr4_D0_C4: d_Dr4_C1_C4_D0 + d_Dr4_C2_C4_D0
+   + d_Dr4_C3_C4_D0 + d_Dr4_C5_C4_D0 <= 1
+ Drone_retrieved_Dr4_D0_C5: d_Dr4_C1_C5_D0 + d_Dr4_C2_C5_D0
+   + d_Dr4_C3_C5_D0 + d_Dr4_C4_C5_D0 <= 1
+ Drone_retrieved_Dr4_C1_D0: d_Dr4_C2_D0_C1 + d_Dr4_C3_D0_C1
+   + d_Dr4_C4_D0_C1 + d_Dr4_C5_D0_C1 <= 1
+ Drone_retrieved_Dr4_C1_C2: d_Dr4_D0_C2_C1 + d_Dr4_C3_C2_C1
+   + d_Dr4_C4_C2_C1 + d_Dr4_C5_C2_C1 <= 1
+ Drone_retrieved_Dr4_C1_C3: d_Dr4_D0_C3_C1 + d_Dr4_C2_C3_C1
+   + d_Dr4_C4_C3_C1 + d_Dr4_C5_C3_C1 <= 1
+ Drone_retrieved_Dr4_C1_C4: d_Dr4_D0_C4_C1 + d_Dr4_C2_C4_C1
+   + d_Dr4_C3_C4_C1 + d_Dr4_C5_C4_C1 <= 1
+ Drone_retrieved_Dr4_C1_C5: d_Dr4_D0_C5_C1 + d_Dr4_C2_C5_C1
+   + d_Dr4_C3_C5_C1 + d_Dr4_C4_C5_C1 <= 1
+ Drone_retrieved_Dr4_C2_D0: d_Dr4_C1_D0_C2 + d_Dr4_C3_D0_C2
+   + d_Dr4_C4_D0_C2 + d_Dr4_C5_D0_C2 <= 1
+ Drone_retrieved_Dr4_C2_C1: d_Dr4_D0_C1_C2 + d_Dr4_C3_C1_C2
+   + d_Dr4_C4_C1_C2 + d_Dr4_C5_C1_C2 <= 1
+ Drone_retrieved_Dr4_C2_C3: d_Dr4_D0_C3_C2 + d_Dr4_C1_C3_C2
+   + d_Dr4_C4_C3_C2 + d_Dr4_C5_C3_C2 <= 1
+ Drone_retrieved_Dr4_C2_C4: d_Dr4_D0_C4_C2 + d_Dr4_C1_C4_C2
+   + d_Dr4_C3_C4_C2 + d_Dr4_C5_C4_C2 <= 1
+ Drone_retrieved_Dr4_C2_C5: d_Dr4_D0_C5_C2 + d_Dr4_C1_C5_C2
+   + d_Dr4_C3_C5_C2 + d_Dr4_C4_C5_C2 <= 1
+ Drone_retrieved_Dr4_C3_D0: d_Dr4_C1_D0_C3 + d_Dr4_C2_D0_C3
+   + d_Dr4_C4_D0_C3 + d_Dr4_C5_D0_C3 <= 1
+ Drone_retrieved_Dr4_C3_C1: d_Dr4_D0_C1_C3 + d_Dr4_C2_C1_C3
+   + d_Dr4_C4_C1_C3 + d_Dr4_C5_C1_C3 <= 1
+ Drone_retrieved_Dr4_C3_C2: d_Dr4_D0_C2_C3 + d_Dr4_C1_C2_C3
+   + d_Dr4_C4_C2_C3 + d_Dr4_C5_C2_C3 <= 1
+ Drone_retrieved_Dr4_C3_C4: d_Dr4_D0_C4_C3 + d_Dr4_C1_C4_C3
+   + d_Dr4_C2_C4_C3 + d_Dr4_C5_C4_C3 <= 1
+ Drone_retrieved_Dr4_C3_C5: d_Dr4_D0_C5_C3 + d_Dr4_C1_C5_C3
+   + d_Dr4_C2_C5_C3 + d_Dr4_C4_C5_C3 <= 1
+ Drone_retrieved_Dr4_C4_D0: d_Dr4_C1_D0_C4 + d_Dr4_C2_D0_C4
+   + d_Dr4_C3_D0_C4 + d_Dr4_C5_D0_C4 <= 1
+ Drone_retrieved_Dr4_C4_C1: d_Dr4_D0_C1_C4 + d_Dr4_C2_C1_C4
+   + d_Dr4_C3_C1_C4 + d_Dr4_C5_C1_C4 <= 1
+ Drone_retrieved_Dr4_C4_C2: d_Dr4_D0_C2_C4 + d_Dr4_C1_C2_C4
+   + d_Dr4_C3_C2_C4 + d_Dr4_C5_C2_C4 <= 1
+ Drone_retrieved_Dr4_C4_C3: d_Dr4_D0_C3_C4 + d_Dr4_C1_C3_C4
+   + d_Dr4_C2_C3_C4 + d_Dr4_C5_C3_C4 <= 1
+ Drone_retrieved_Dr4_C4_C5: d_Dr4_D0_C5_C4 + d_Dr4_C1_C5_C4
+   + d_Dr4_C2_C5_C4 + d_Dr4_C3_C5_C4 <= 1
+ Drone_retrieved_Dr4_C5_D0: d_Dr4_C1_D0_C5 + d_Dr4_C2_D0_C5
+   + d_Dr4_C3_D0_C5 + d_Dr4_C4_D0_C5 <= 1
+ Drone_retrieved_Dr4_C5_C1: d_Dr4_D0_C1_C5 + d_Dr4_C2_C1_C5
+   + d_Dr4_C3_C1_C5 + d_Dr4_C4_C1_C5 <= 1
+ Drone_retrieved_Dr4_C5_C2: d_Dr4_D0_C2_C5 + d_Dr4_C1_C2_C5
+   + d_Dr4_C3_C2_C5 + d_Dr4_C4_C2_C5 <= 1
+ Drone_retrieved_Dr4_C5_C3: d_Dr4_D0_C3_C5 + d_Dr4_C1_C3_C5
+   + d_Dr4_C2_C3_C5 + d_Dr4_C4_C3_C5 <= 1
+ Drone_retrieved_Dr4_C5_C4: d_Dr4_D0_C4_C5 + d_Dr4_C1_C4_C5
+   + d_Dr4_C2_C4_C5 + d_Dr4_C3_C4_C5 <= 1
+ Drone_retrieved_Dr5_D0_C1: d_Dr5_C2_C1_D0 + d_Dr5_C3_C1_D0
+   + d_Dr5_C4_C1_D0 + d_Dr5_C5_C1_D0 <= 1
+ Drone_retrieved_Dr5_D0_C2: d_Dr5_C1_C2_D0 + d_Dr5_C3_C2_D0
+   + d_Dr5_C4_C2_D0 + d_Dr5_C5_C2_D0 <= 1
+ Drone_retrieved_Dr5_D0_C3: d_Dr5_C1_C3_D0 + d_Dr5_C2_C3_D0
+   + d_Dr5_C4_C3_D0 + d_Dr5_C5_C3_D0 <= 1
+ Drone_retrieved_Dr5_D0_C4: d_Dr5_C1_C4_D0 + d_Dr5_C2_C4_D0
+   + d_Dr5_C3_C4_D0 + d_Dr5_C5_C4_D0 <= 1
+ Drone_retrieved_Dr5_D0_C5: d_Dr5_C1_C5_D0 + d_Dr5_C2_C5_D0
+   + d_Dr5_C3_C5_D0 + d_Dr5_C4_C5_D0 <= 1
+ Drone_retrieved_Dr5_C1_D0: d_Dr5_C2_D0_C1 + d_Dr5_C3_D0_C1
+   + d_Dr5_C4_D0_C1 + d_Dr5_C5_D0_C1 <= 1
+ Drone_retrieved_Dr5_C1_C2: d_Dr5_D0_C2_C1 + d_Dr5_C3_C2_C1
+   + d_Dr5_C4_C2_C1 + d_Dr5_C5_C2_C1 <= 1
+ Drone_retrieved_Dr5_C1_C3: d_Dr5_D0_C3_C1 + d_Dr5_C2_C3_C1
+   + d_Dr5_C4_C3_C1 + d_Dr5_C5_C3_C1 <= 1
+ Drone_retrieved_Dr5_C1_C4: d_Dr5_D0_C4_C1 + d_Dr5_C2_C4_C1
+   + d_Dr5_C3_C4_C1 + d_Dr5_C5_C4_C1 <= 1
+ Drone_retrieved_Dr5_C1_C5: d_Dr5_D0_C5_C1 + d_Dr5_C2_C5_C1
+   + d_Dr5_C3_C5_C1 + d_Dr5_C4_C5_C1 <= 1
+ Drone_retrieved_Dr5_C2_D0: d_Dr5_C1_D0_C2 + d_Dr5_C3_D0_C2
+   + d_Dr5_C4_D0_C2 + d_Dr5_C5_D0_C2 <= 1
+ Drone_retrieved_Dr5_C2_C1: d_Dr5_D0_C1_C2 + d_Dr5_C3_C1_C2
+   + d_Dr5_C4_C1_C2 + d_Dr5_C5_C1_C2 <= 1
+ Drone_retrieved_Dr5_C2_C3: d_Dr5_D0_C3_C2 + d_Dr5_C1_C3_C2
+   + d_Dr5_C4_C3_C2 + d_Dr5_C5_C3_C2 <= 1
+ Drone_retrieved_Dr5_C2_C4: d_Dr5_D0_C4_C2 + d_Dr5_C1_C4_C2
+   + d_Dr5_C3_C4_C2 + d_Dr5_C5_C4_C2 <= 1
+ Drone_retrieved_Dr5_C2_C5: d_Dr5_D0_C5_C2 + d_Dr5_C1_C5_C2
+   + d_Dr5_C3_C5_C2 + d_Dr5_C4_C5_C2 <= 1
+ Drone_retrieved_Dr5_C3_D0: d_Dr5_C1_D0_C3 + d_Dr5_C2_D0_C3
+   + d_Dr5_C4_D0_C3 + d_Dr5_C5_D0_C3 <= 1
+ Drone_retrieved_Dr5_C3_C1: d_Dr5_D0_C1_C3 + d_Dr5_C2_C1_C3
+   + d_Dr5_C4_C1_C3 + d_Dr5_C5_C1_C3 <= 1
+ Drone_retrieved_Dr5_C3_C2: d_Dr5_D0_C2_C3 + d_Dr5_C1_C2_C3
+   + d_Dr5_C4_C2_C3 + d_Dr5_C5_C2_C3 <= 1
+ Drone_retrieved_Dr5_C3_C4: d_Dr5_D0_C4_C3 + d_Dr5_C1_C4_C3
+   + d_Dr5_C2_C4_C3 + d_Dr5_C5_C4_C3 <= 1
+ Drone_retrieved_Dr5_C3_C5: d_Dr5_D0_C5_C3 + d_Dr5_C1_C5_C3
+   + d_Dr5_C2_C5_C3 + d_Dr5_C4_C5_C3 <= 1
+ Drone_retrieved_Dr5_C4_D0: d_Dr5_C1_D0_C4 + d_Dr5_C2_D0_C4
+   + d_Dr5_C3_D0_C4 + d_Dr5_C5_D0_C4 <= 1
+ Drone_retrieved_Dr5_C4_C1: d_Dr5_D0_C1_C4 + d_Dr5_C2_C1_C4
+   + d_Dr5_C3_C1_C4 + d_Dr5_C5_C1_C4 <= 1
+ Drone_retrieved_Dr5_C4_C2: d_Dr5_D0_C2_C4 + d_Dr5_C1_C2_C4
+   + d_Dr5_C3_C2_C4 + d_Dr5_C5_C2_C4 <= 1
+ Drone_retrieved_Dr5_C4_C3: d_Dr5_D0_C3_C4 + d_Dr5_C1_C3_C4
+   + d_Dr5_C2_C3_C4 + d_Dr5_C5_C3_C4 <= 1
+ Drone_retrieved_Dr5_C4_C5: d_Dr5_D0_C5_C4 + d_Dr5_C1_C5_C4
+   + d_Dr5_C2_C5_C4 + d_Dr5_C3_C5_C4 <= 1
+ Drone_retrieved_Dr5_C5_D0: d_Dr5_C1_D0_C5 + d_Dr5_C2_D0_C5
+   + d_Dr5_C3_D0_C5 + d_Dr5_C4_D0_C5 <= 1
+ Drone_retrieved_Dr5_C5_C1: d_Dr5_D0_C1_C5 + d_Dr5_C2_C1_C5
+   + d_Dr5_C3_C1_C5 + d_Dr5_C4_C1_C5 <= 1
+ Drone_retrieved_Dr5_C5_C2: d_Dr5_D0_C2_C5 + d_Dr5_C1_C2_C5
+   + d_Dr5_C3_C2_C5 + d_Dr5_C4_C2_C5 <= 1
+ Drone_retrieved_Dr5_C5_C3: d_Dr5_D0_C3_C5 + d_Dr5_C1_C3_C5
+   + d_Dr5_C2_C3_C5 + d_Dr5_C4_C3_C5 <= 1
+ Drone_retrieved_Dr5_C5_C4: d_Dr5_D0_C4_C5 + d_Dr5_C1_C4_C5
+   + d_Dr5_C2_C4_C5 + d_Dr5_C3_C4_C5 <= 1
+ Drone_retrieved_Dr6_D0_C1: d_Dr6_C2_C1_D0 + d_Dr6_C3_C1_D0
+   + d_Dr6_C4_C1_D0 + d_Dr6_C5_C1_D0 <= 1
+ Drone_retrieved_Dr6_D0_C2: d_Dr6_C1_C2_D0 + d_Dr6_C3_C2_D0
+   + d_Dr6_C4_C2_D0 + d_Dr6_C5_C2_D0 <= 1
+ Drone_retrieved_Dr6_D0_C3: d_Dr6_C1_C3_D0 + d_Dr6_C2_C3_D0
+   + d_Dr6_C4_C3_D0 + d_Dr6_C5_C3_D0 <= 1
+ Drone_retrieved_Dr6_D0_C4: d_Dr6_C1_C4_D0 + d_Dr6_C2_C4_D0
+   + d_Dr6_C3_C4_D0 + d_Dr6_C5_C4_D0 <= 1
+ Drone_retrieved_Dr6_D0_C5: d_Dr6_C1_C5_D0 + d_Dr6_C2_C5_D0
+   + d_Dr6_C3_C5_D0 + d_Dr6_C4_C5_D0 <= 1
+ Drone_retrieved_Dr6_C1_D0: d_Dr6_C2_D0_C1 + d_Dr6_C3_D0_C1
+   + d_Dr6_C4_D0_C1 + d_Dr6_C5_D0_C1 <= 1
+ Drone_retrieved_Dr6_C1_C2: d_Dr6_D0_C2_C1 + d_Dr6_C3_C2_C1
+   + d_Dr6_C4_C2_C1 + d_Dr6_C5_C2_C1 <= 1
+ Drone_retrieved_Dr6_C1_C3: d_Dr6_D0_C3_C1 + d_Dr6_C2_C3_C1
+   + d_Dr6_C4_C3_C1 + d_Dr6_C5_C3_C1 <= 1
+ Drone_retrieved_Dr6_C1_C4: d_Dr6_D0_C4_C1 + d_Dr6_C2_C4_C1
+   + d_Dr6_C3_C4_C1 + d_Dr6_C5_C4_C1 <= 1
+ Drone_retrieved_Dr6_C1_C5: d_Dr6_D0_C5_C1 + d_Dr6_C2_C5_C1
+   + d_Dr6_C3_C5_C1 + d_Dr6_C4_C5_C1 <= 1
+ Drone_retrieved_Dr6_C2_D0: d_Dr6_C1_D0_C2 + d_Dr6_C3_D0_C2
+   + d_Dr6_C4_D0_C2 + d_Dr6_C5_D0_C2 <= 1
+ Drone_retrieved_Dr6_C2_C1: d_Dr6_D0_C1_C2 + d_Dr6_C3_C1_C2
+   + d_Dr6_C4_C1_C2 + d_Dr6_C5_C1_C2 <= 1
+ Drone_retrieved_Dr6_C2_C3: d_Dr6_D0_C3_C2 + d_Dr6_C1_C3_C2
+   + d_Dr6_C4_C3_C2 + d_Dr6_C5_C3_C2 <= 1
+ Drone_retrieved_Dr6_C2_C4: d_Dr6_D0_C4_C2 + d_Dr6_C1_C4_C2
+   + d_Dr6_C3_C4_C2 + d_Dr6_C5_C4_C2 <= 1
+ Drone_retrieved_Dr6_C2_C5: d_Dr6_D0_C5_C2 + d_Dr6_C1_C5_C2
+   + d_Dr6_C3_C5_C2 + d_Dr6_C4_C5_C2 <= 1
+ Drone_retrieved_Dr6_C3_D0: d_Dr6_C1_D0_C3 + d_Dr6_C2_D0_C3
+   + d_Dr6_C4_D0_C3 + d_Dr6_C5_D0_C3 <= 1
+ Drone_retrieved_Dr6_C3_C1: d_Dr6_D0_C1_C3 + d_Dr6_C2_C1_C3
+   + d_Dr6_C4_C1_C3 + d_Dr6_C5_C1_C3 <= 1
+ Drone_retrieved_Dr6_C3_C2: d_Dr6_D0_C2_C3 + d_Dr6_C1_C2_C3
+   + d_Dr6_C4_C2_C3 + d_Dr6_C5_C2_C3 <= 1
+ Drone_retrieved_Dr6_C3_C4: d_Dr6_D0_C4_C3 + d_Dr6_C1_C4_C3
+   + d_Dr6_C2_C4_C3 + d_Dr6_C5_C4_C3 <= 1
+ Drone_retrieved_Dr6_C3_C5: d_Dr6_D0_C5_C3 + d_Dr6_C1_C5_C3
+   + d_Dr6_C2_C5_C3 + d_Dr6_C4_C5_C3 <= 1
+ Drone_retrieved_Dr6_C4_D0: d_Dr6_C1_D0_C4 + d_Dr6_C2_D0_C4
+   + d_Dr6_C3_D0_C4 + d_Dr6_C5_D0_C4 <= 1
+ Drone_retrieved_Dr6_C4_C1: d_Dr6_D0_C1_C4 + d_Dr6_C2_C1_C4
+   + d_Dr6_C3_C1_C4 + d_Dr6_C5_C1_C4 <= 1
+ Drone_retrieved_Dr6_C4_C2: d_Dr6_D0_C2_C4 + d_Dr6_C1_C2_C4
+   + d_Dr6_C3_C2_C4 + d_Dr6_C5_C2_C4 <= 1
+ Drone_retrieved_Dr6_C4_C3: d_Dr6_D0_C3_C4 + d_Dr6_C1_C3_C4
+   + d_Dr6_C2_C3_C4 + d_Dr6_C5_C3_C4 <= 1
+ Drone_retrieved_Dr6_C4_C5: d_Dr6_D0_C5_C4 + d_Dr6_C1_C5_C4
+   + d_Dr6_C2_C5_C4 + d_Dr6_C3_C5_C4 <= 1
+ Drone_retrieved_Dr6_C5_D0: d_Dr6_C1_D0_C5 + d_Dr6_C2_D0_C5
+   + d_Dr6_C3_D0_C5 + d_Dr6_C4_D0_C5 <= 1
+ Drone_retrieved_Dr6_C5_C1: d_Dr6_D0_C1_C5 + d_Dr6_C2_C1_C5
+   + d_Dr6_C3_C1_C5 + d_Dr6_C4_C1_C5 <= 1
+ Drone_retrieved_Dr6_C5_C2: d_Dr6_D0_C2_C5 + d_Dr6_C1_C2_C5
+   + d_Dr6_C3_C2_C5 + d_Dr6_C4_C2_C5 <= 1
+ Drone_retrieved_Dr6_C5_C3: d_Dr6_D0_C3_C5 + d_Dr6_C1_C3_C5
+   + d_Dr6_C2_C3_C5 + d_Dr6_C4_C3_C5 <= 1
+ Drone_retrieved_Dr6_C5_C4: d_Dr6_D0_C4_C5 + d_Dr6_C1_C4_C5
+   + d_Dr6_C2_C4_C5 + d_Dr6_C3_C4_C5 <= 1
+ Drone_retrieved_Dr7_D0_C1: d_Dr7_C2_C1_D0 + d_Dr7_C3_C1_D0
+   + d_Dr7_C4_C1_D0 + d_Dr7_C5_C1_D0 <= 1
+ Drone_retrieved_Dr7_D0_C2: d_Dr7_C1_C2_D0 + d_Dr7_C3_C2_D0
+   + d_Dr7_C4_C2_D0 + d_Dr7_C5_C2_D0 <= 1
+ Drone_retrieved_Dr7_D0_C3: d_Dr7_C1_C3_D0 + d_Dr7_C2_C3_D0
+   + d_Dr7_C4_C3_D0 + d_Dr7_C5_C3_D0 <= 1
+ Drone_retrieved_Dr7_D0_C4: d_Dr7_C1_C4_D0 + d_Dr7_C2_C4_D0
+   + d_Dr7_C3_C4_D0 + d_Dr7_C5_C4_D0 <= 1
+ Drone_retrieved_Dr7_D0_C5: d_Dr7_C1_C5_D0 + d_Dr7_C2_C5_D0
+   + d_Dr7_C3_C5_D0 + d_Dr7_C4_C5_D0 <= 1
+ Drone_retrieved_Dr7_C1_D0: d_Dr7_C2_D0_C1 + d_Dr7_C3_D0_C1
+   + d_Dr7_C4_D0_C1 + d_Dr7_C5_D0_C1 <= 1
+ Drone_retrieved_Dr7_C1_C2: d_Dr7_D0_C2_C1 + d_Dr7_C3_C2_C1
+   + d_Dr7_C4_C2_C1 + d_Dr7_C5_C2_C1 <= 1
+ Drone_retrieved_Dr7_C1_C3: d_Dr7_D0_C3_C1 + d_Dr7_C2_C3_C1
+   + d_Dr7_C4_C3_C1 + d_Dr7_C5_C3_C1 <= 1
+ Drone_retrieved_Dr7_C1_C4: d_Dr7_D0_C4_C1 + d_Dr7_C2_C4_C1
+   + d_Dr7_C3_C4_C1 + d_Dr7_C5_C4_C1 <= 1
+ Drone_retrieved_Dr7_C1_C5: d_Dr7_D0_C5_C1 + d_Dr7_C2_C5_C1
+   + d_Dr7_C3_C5_C1 + d_Dr7_C4_C5_C1 <= 1
+ Drone_retrieved_Dr7_C2_D0: d_Dr7_C1_D0_C2 + d_Dr7_C3_D0_C2
+   + d_Dr7_C4_D0_C2 + d_Dr7_C5_D0_C2 <= 1
+ Drone_retrieved_Dr7_C2_C1: d_Dr7_D0_C1_C2 + d_Dr7_C3_C1_C2
+   + d_Dr7_C4_C1_C2 + d_Dr7_C5_C1_C2 <= 1
+ Drone_retrieved_Dr7_C2_C3: d_Dr7_D0_C3_C2 + d_Dr7_C1_C3_C2
+   + d_Dr7_C4_C3_C2 + d_Dr7_C5_C3_C2 <= 1
+ Drone_retrieved_Dr7_C2_C4: d_Dr7_D0_C4_C2 + d_Dr7_C1_C4_C2
+   + d_Dr7_C3_C4_C2 + d_Dr7_C5_C4_C2 <= 1
+ Drone_retrieved_Dr7_C2_C5: d_Dr7_D0_C5_C2 + d_Dr7_C1_C5_C2
+   + d_Dr7_C3_C5_C2 + d_Dr7_C4_C5_C2 <= 1
+ Drone_retrieved_Dr7_C3_D0: d_Dr7_C1_D0_C3 + d_Dr7_C2_D0_C3
+   + d_Dr7_C4_D0_C3 + d_Dr7_C5_D0_C3 <= 1
+ Drone_retrieved_Dr7_C3_C1: d_Dr7_D0_C1_C3 + d_Dr7_C2_C1_C3
+   + d_Dr7_C4_C1_C3 + d_Dr7_C5_C1_C3 <= 1
+ Drone_retrieved_Dr7_C3_C2: d_Dr7_D0_C2_C3 + d_Dr7_C1_C2_C3
+   + d_Dr7_C4_C2_C3 + d_Dr7_C5_C2_C3 <= 1
+ Drone_retrieved_Dr7_C3_C4: d_Dr7_D0_C4_C3 + d_Dr7_C1_C4_C3
+   + d_Dr7_C2_C4_C3 + d_Dr7_C5_C4_C3 <= 1
+ Drone_retrieved_Dr7_C3_C5: d_Dr7_D0_C5_C3 + d_Dr7_C1_C5_C3
+   + d_Dr7_C2_C5_C3 + d_Dr7_C4_C5_C3 <= 1
+ Drone_retrieved_Dr7_C4_D0: d_Dr7_C1_D0_C4 + d_Dr7_C2_D0_C4
+   + d_Dr7_C3_D0_C4 + d_Dr7_C5_D0_C4 <= 1
+ Drone_retrieved_Dr7_C4_C1: d_Dr7_D0_C1_C4 + d_Dr7_C2_C1_C4
+   + d_Dr7_C3_C1_C4 + d_Dr7_C5_C1_C4 <= 1
+ Drone_retrieved_Dr7_C4_C2: d_Dr7_D0_C2_C4 + d_Dr7_C1_C2_C4
+   + d_Dr7_C3_C2_C4 + d_Dr7_C5_C2_C4 <= 1
+ Drone_retrieved_Dr7_C4_C3: d_Dr7_D0_C3_C4 + d_Dr7_C1_C3_C4
+   + d_Dr7_C2_C3_C4 + d_Dr7_C5_C3_C4 <= 1
+ Drone_retrieved_Dr7_C4_C5: d_Dr7_D0_C5_C4 + d_Dr7_C1_C5_C4
+   + d_Dr7_C2_C5_C4 + d_Dr7_C3_C5_C4 <= 1
+ Drone_retrieved_Dr7_C5_D0: d_Dr7_C1_D0_C5 + d_Dr7_C2_D0_C5
+   + d_Dr7_C3_D0_C5 + d_Dr7_C4_D0_C5 <= 1
+ Drone_retrieved_Dr7_C5_C1: d_Dr7_D0_C1_C5 + d_Dr7_C2_C1_C5
+   + d_Dr7_C3_C1_C5 + d_Dr7_C4_C1_C5 <= 1
+ Drone_retrieved_Dr7_C5_C2: d_Dr7_D0_C2_C5 + d_Dr7_C1_C2_C5
+   + d_Dr7_C3_C2_C5 + d_Dr7_C4_C2_C5 <= 1
+ Drone_retrieved_Dr7_C5_C3: d_Dr7_D0_C3_C5 + d_Dr7_C1_C3_C5
+   + d_Dr7_C2_C3_C5 + d_Dr7_C4_C3_C5 <= 1
+ Drone_retrieved_Dr7_C5_C4: d_Dr7_D0_C4_C5 + d_Dr7_C1_C4_C5
+   + d_Dr7_C2_C4_C5 + d_Dr7_C3_C4_C5 <= 1
+ Drone_retrieved_Dr8_D0_C1: d_Dr8_C2_C1_D0 + d_Dr8_C3_C1_D0
+   + d_Dr8_C4_C1_D0 + d_Dr8_C5_C1_D0 <= 1
+ Drone_retrieved_Dr8_D0_C2: d_Dr8_C1_C2_D0 + d_Dr8_C3_C2_D0
+   + d_Dr8_C4_C2_D0 + d_Dr8_C5_C2_D0 <= 1
+ Drone_retrieved_Dr8_D0_C3: d_Dr8_C1_C3_D0 + d_Dr8_C2_C3_D0
+   + d_Dr8_C4_C3_D0 + d_Dr8_C5_C3_D0 <= 1
+ Drone_retrieved_Dr8_D0_C4: d_Dr8_C1_C4_D0 + d_Dr8_C2_C4_D0
+   + d_Dr8_C3_C4_D0 + d_Dr8_C5_C4_D0 <= 1
+ Drone_retrieved_Dr8_D0_C5: d_Dr8_C1_C5_D0 + d_Dr8_C2_C5_D0
+   + d_Dr8_C3_C5_D0 + d_Dr8_C4_C5_D0 <= 1
+ Drone_retrieved_Dr8_C1_D0: d_Dr8_C2_D0_C1 + d_Dr8_C3_D0_C1
+   + d_Dr8_C4_D0_C1 + d_Dr8_C5_D0_C1 <= 1
+ Drone_retrieved_Dr8_C1_C2: d_Dr8_D0_C2_C1 + d_Dr8_C3_C2_C1
+   + d_Dr8_C4_C2_C1 + d_Dr8_C5_C2_C1 <= 1
+ Drone_retrieved_Dr8_C1_C3: d_Dr8_D0_C3_C1 + d_Dr8_C2_C3_C1
+   + d_Dr8_C4_C3_C1 + d_Dr8_C5_C3_C1 <= 1
+ Drone_retrieved_Dr8_C1_C4: d_Dr8_D0_C4_C1 + d_Dr8_C2_C4_C1
+   + d_Dr8_C3_C4_C1 + d_Dr8_C5_C4_C1 <= 1
+ Drone_retrieved_Dr8_C1_C5: d_Dr8_D0_C5_C1 + d_Dr8_C2_C5_C1
+   + d_Dr8_C3_C5_C1 + d_Dr8_C4_C5_C1 <= 1
+ Drone_retrieved_Dr8_C2_D0: d_Dr8_C1_D0_C2 + d_Dr8_C3_D0_C2
+   + d_Dr8_C4_D0_C2 + d_Dr8_C5_D0_C2 <= 1
+ Drone_retrieved_Dr8_C2_C1: d_Dr8_D0_C1_C2 + d_Dr8_C3_C1_C2
+   + d_Dr8_C4_C1_C2 + d_Dr8_C5_C1_C2 <= 1
+ Drone_retrieved_Dr8_C2_C3: d_Dr8_D0_C3_C2 + d_Dr8_C1_C3_C2
+   + d_Dr8_C4_C3_C2 + d_Dr8_C5_C3_C2 <= 1
+ Drone_retrieved_Dr8_C2_C4: d_Dr8_D0_C4_C2 + d_Dr8_C1_C4_C2
+   + d_Dr8_C3_C4_C2 + d_Dr8_C5_C4_C2 <= 1
+ Drone_retrieved_Dr8_C2_C5: d_Dr8_D0_C5_C2 + d_Dr8_C1_C5_C2
+   + d_Dr8_C3_C5_C2 + d_Dr8_C4_C5_C2 <= 1
+ Drone_retrieved_Dr8_C3_D0: d_Dr8_C1_D0_C3 + d_Dr8_C2_D0_C3
+   + d_Dr8_C4_D0_C3 + d_Dr8_C5_D0_C3 <= 1
+ Drone_retrieved_Dr8_C3_C1: d_Dr8_D0_C1_C3 + d_Dr8_C2_C1_C3
+   + d_Dr8_C4_C1_C3 + d_Dr8_C5_C1_C3 <= 1
+ Drone_retrieved_Dr8_C3_C2: d_Dr8_D0_C2_C3 + d_Dr8_C1_C2_C3
+   + d_Dr8_C4_C2_C3 + d_Dr8_C5_C2_C3 <= 1
+ Drone_retrieved_Dr8_C3_C4: d_Dr8_D0_C4_C3 + d_Dr8_C1_C4_C3
+   + d_Dr8_C2_C4_C3 + d_Dr8_C5_C4_C3 <= 1
+ Drone_retrieved_Dr8_C3_C5: d_Dr8_D0_C5_C3 + d_Dr8_C1_C5_C3
+   + d_Dr8_C2_C5_C3 + d_Dr8_C4_C5_C3 <= 1
+ Drone_retrieved_Dr8_C4_D0: d_Dr8_C1_D0_C4 + d_Dr8_C2_D0_C4
+   + d_Dr8_C3_D0_C4 + d_Dr8_C5_D0_C4 <= 1
+ Drone_retrieved_Dr8_C4_C1: d_Dr8_D0_C1_C4 + d_Dr8_C2_C1_C4
+   + d_Dr8_C3_C1_C4 + d_Dr8_C5_C1_C4 <= 1
+ Drone_retrieved_Dr8_C4_C2: d_Dr8_D0_C2_C4 + d_Dr8_C1_C2_C4
+   + d_Dr8_C3_C2_C4 + d_Dr8_C5_C2_C4 <= 1
+ Drone_retrieved_Dr8_C4_C3: d_Dr8_D0_C3_C4 + d_Dr8_C1_C3_C4
+   + d_Dr8_C2_C3_C4 + d_Dr8_C5_C3_C4 <= 1
+ Drone_retrieved_Dr8_C4_C5: d_Dr8_D0_C5_C4 + d_Dr8_C1_C5_C4
+   + d_Dr8_C2_C5_C4 + d_Dr8_C3_C5_C4 <= 1
+ Drone_retrieved_Dr8_C5_D0: d_Dr8_C1_D0_C5 + d_Dr8_C2_D0_C5
+   + d_Dr8_C3_D0_C5 + d_Dr8_C4_D0_C5 <= 1
+ Drone_retrieved_Dr8_C5_C1: d_Dr8_D0_C1_C5 + d_Dr8_C2_C1_C5
+   + d_Dr8_C3_C1_C5 + d_Dr8_C4_C1_C5 <= 1
+ Drone_retrieved_Dr8_C5_C2: d_Dr8_D0_C2_C5 + d_Dr8_C1_C2_C5
+   + d_Dr8_C3_C2_C5 + d_Dr8_C4_C2_C5 <= 1
+ Drone_retrieved_Dr8_C5_C3: d_Dr8_D0_C3_C5 + d_Dr8_C1_C3_C5
+   + d_Dr8_C2_C3_C5 + d_Dr8_C4_C3_C5 <= 1
+ Drone_retrieved_Dr8_C5_C4: d_Dr8_D0_C4_C5 + d_Dr8_C1_C4_C5
+   + d_Dr8_C2_C4_C5 + d_Dr8_C3_C4_C5 <= 1
+ Drone_retrieved_Dr9_D0_C1: d_Dr9_C2_C1_D0 + d_Dr9_C3_C1_D0
+   + d_Dr9_C4_C1_D0 + d_Dr9_C5_C1_D0 <= 1
+ Drone_retrieved_Dr9_D0_C2: d_Dr9_C1_C2_D0 + d_Dr9_C3_C2_D0
+   + d_Dr9_C4_C2_D0 + d_Dr9_C5_C2_D0 <= 1
+ Drone_retrieved_Dr9_D0_C3: d_Dr9_C1_C3_D0 + d_Dr9_C2_C3_D0
+   + d_Dr9_C4_C3_D0 + d_Dr9_C5_C3_D0 <= 1
+ Drone_retrieved_Dr9_D0_C4: d_Dr9_C1_C4_D0 + d_Dr9_C2_C4_D0
+   + d_Dr9_C3_C4_D0 + d_Dr9_C5_C4_D0 <= 1
+ Drone_retrieved_Dr9_D0_C5: d_Dr9_C1_C5_D0 + d_Dr9_C2_C5_D0
+   + d_Dr9_C3_C5_D0 + d_Dr9_C4_C5_D0 <= 1
+ Drone_retrieved_Dr9_C1_D0: d_Dr9_C2_D0_C1 + d_Dr9_C3_D0_C1
+   + d_Dr9_C4_D0_C1 + d_Dr9_C5_D0_C1 <= 1
+ Drone_retrieved_Dr9_C1_C2: d_Dr9_D0_C2_C1 + d_Dr9_C3_C2_C1
+   + d_Dr9_C4_C2_C1 + d_Dr9_C5_C2_C1 <= 1
+ Drone_retrieved_Dr9_C1_C3: d_Dr9_D0_C3_C1 + d_Dr9_C2_C3_C1
+   + d_Dr9_C4_C3_C1 + d_Dr9_C5_C3_C1 <= 1
+ Drone_retrieved_Dr9_C1_C4: d_Dr9_D0_C4_C1 + d_Dr9_C2_C4_C1
+   + d_Dr9_C3_C4_C1 + d_Dr9_C5_C4_C1 <= 1
+ Drone_retrieved_Dr9_C1_C5: d_Dr9_D0_C5_C1 + d_Dr9_C2_C5_C1
+   + d_Dr9_C3_C5_C1 + d_Dr9_C4_C5_C1 <= 1
+ Drone_retrieved_Dr9_C2_D0: d_Dr9_C1_D0_C2 + d_Dr9_C3_D0_C2
+   + d_Dr9_C4_D0_C2 + d_Dr9_C5_D0_C2 <= 1
+ Drone_retrieved_Dr9_C2_C1: d_Dr9_D0_C1_C2 + d_Dr9_C3_C1_C2
+   + d_Dr9_C4_C1_C2 + d_Dr9_C5_C1_C2 <= 1
+ Drone_retrieved_Dr9_C2_C3: d_Dr9_D0_C3_C2 + d_Dr9_C1_C3_C2
+   + d_Dr9_C4_C3_C2 + d_Dr9_C5_C3_C2 <= 1
+ Drone_retrieved_Dr9_C2_C4: d_Dr9_D0_C4_C2 + d_Dr9_C1_C4_C2
+   + d_Dr9_C3_C4_C2 + d_Dr9_C5_C4_C2 <= 1
+ Drone_retrieved_Dr9_C2_C5: d_Dr9_D0_C5_C2 + d_Dr9_C1_C5_C2
+   + d_Dr9_C3_C5_C2 + d_Dr9_C4_C5_C2 <= 1
+ Drone_retrieved_Dr9_C3_D0: d_Dr9_C1_D0_C3 + d_Dr9_C2_D0_C3
+   + d_Dr9_C4_D0_C3 + d_Dr9_C5_D0_C3 <= 1
+ Drone_retrieved_Dr9_C3_C1: d_Dr9_D0_C1_C3 + d_Dr9_C2_C1_C3
+   + d_Dr9_C4_C1_C3 + d_Dr9_C5_C1_C3 <= 1
+ Drone_retrieved_Dr9_C3_C2: d_Dr9_D0_C2_C3 + d_Dr9_C1_C2_C3
+   + d_Dr9_C4_C2_C3 + d_Dr9_C5_C2_C3 <= 1
+ Drone_retrieved_Dr9_C3_C4: d_Dr9_D0_C4_C3 + d_Dr9_C1_C4_C3
+   + d_Dr9_C2_C4_C3 + d_Dr9_C5_C4_C3 <= 1
+ Drone_retrieved_Dr9_C3_C5: d_Dr9_D0_C5_C3 + d_Dr9_C1_C5_C3
+   + d_Dr9_C2_C5_C3 + d_Dr9_C4_C5_C3 <= 1
+ Drone_retrieved_Dr9_C4_D0: d_Dr9_C1_D0_C4 + d_Dr9_C2_D0_C4
+   + d_Dr9_C3_D0_C4 + d_Dr9_C5_D0_C4 <= 1
+ Drone_retrieved_Dr9_C4_C1: d_Dr9_D0_C1_C4 + d_Dr9_C2_C1_C4
+   + d_Dr9_C3_C1_C4 + d_Dr9_C5_C1_C4 <= 1
+ Drone_retrieved_Dr9_C4_C2: d_Dr9_D0_C2_C4 + d_Dr9_C1_C2_C4
+   + d_Dr9_C3_C2_C4 + d_Dr9_C5_C2_C4 <= 1
+ Drone_retrieved_Dr9_C4_C3: d_Dr9_D0_C3_C4 + d_Dr9_C1_C3_C4
+   + d_Dr9_C2_C3_C4 + d_Dr9_C5_C3_C4 <= 1
+ Drone_retrieved_Dr9_C4_C5: d_Dr9_D0_C5_C4 + d_Dr9_C1_C5_C4
+   + d_Dr9_C2_C5_C4 + d_Dr9_C3_C5_C4 <= 1
+ Drone_retrieved_Dr9_C5_D0: d_Dr9_C1_D0_C5 + d_Dr9_C2_D0_C5
+   + d_Dr9_C3_D0_C5 + d_Dr9_C4_D0_C5 <= 1
+ Drone_retrieved_Dr9_C5_C1: d_Dr9_D0_C1_C5 + d_Dr9_C2_C1_C5
+   + d_Dr9_C3_C1_C5 + d_Dr9_C4_C1_C5 <= 1
+ Drone_retrieved_Dr9_C5_C2: d_Dr9_D0_C2_C5 + d_Dr9_C1_C2_C5
+   + d_Dr9_C3_C2_C5 + d_Dr9_C4_C2_C5 <= 1
+ Drone_retrieved_Dr9_C5_C3: d_Dr9_D0_C3_C5 + d_Dr9_C1_C3_C5
+   + d_Dr9_C2_C3_C5 + d_Dr9_C4_C3_C5 <= 1
+ Drone_retrieved_Dr9_C5_C4: d_Dr9_D0_C4_C5 + d_Dr9_C1_C4_C5
+   + d_Dr9_C2_C4_C5 + d_Dr9_C3_C4_C5 <= 1
+ Drone_retrieved_Dr10_D0_C1: d_Dr10_C2_C1_D0 + d_Dr10_C3_C1_D0
+   + d_Dr10_C4_C1_D0 + d_Dr10_C5_C1_D0 <= 1
+ Drone_retrieved_Dr10_D0_C2: d_Dr10_C1_C2_D0 + d_Dr10_C3_C2_D0
+   + d_Dr10_C4_C2_D0 + d_Dr10_C5_C2_D0 <= 1
+ Drone_retrieved_Dr10_D0_C3: d_Dr10_C1_C3_D0 + d_Dr10_C2_C3_D0
+   + d_Dr10_C4_C3_D0 + d_Dr10_C5_C3_D0 <= 1
+ Drone_retrieved_Dr10_D0_C4: d_Dr10_C1_C4_D0 + d_Dr10_C2_C4_D0
+   + d_Dr10_C3_C4_D0 + d_Dr10_C5_C4_D0 <= 1
+ Drone_retrieved_Dr10_D0_C5: d_Dr10_C1_C5_D0 + d_Dr10_C2_C5_D0
+   + d_Dr10_C3_C5_D0 + d_Dr10_C4_C5_D0 <= 1
+ Drone_retrieved_Dr10_C1_D0: d_Dr10_C2_D0_C1 + d_Dr10_C3_D0_C1
+   + d_Dr10_C4_D0_C1 + d_Dr10_C5_D0_C1 <= 1
+ Drone_retrieved_Dr10_C1_C2: d_Dr10_D0_C2_C1 + d_Dr10_C3_C2_C1
+   + d_Dr10_C4_C2_C1 + d_Dr10_C5_C2_C1 <= 1
+ Drone_retrieved_Dr10_C1_C3: d_Dr10_D0_C3_C1 + d_Dr10_C2_C3_C1
+   + d_Dr10_C4_C3_C1 + d_Dr10_C5_C3_C1 <= 1
+ Drone_retrieved_Dr10_C1_C4: d_Dr10_D0_C4_C1 + d_Dr10_C2_C4_C1
+   + d_Dr10_C3_C4_C1 + d_Dr10_C5_C4_C1 <= 1
+ Drone_retrieved_Dr10_C1_C5: d_Dr10_D0_C5_C1 + d_Dr10_C2_C5_C1
+   + d_Dr10_C3_C5_C1 + d_Dr10_C4_C5_C1 <= 1
+ Drone_retrieved_Dr10_C2_D0: d_Dr10_C1_D0_C2 + d_Dr10_C3_D0_C2
+   + d_Dr10_C4_D0_C2 + d_Dr10_C5_D0_C2 <= 1
+ Drone_retrieved_Dr10_C2_C1: d_Dr10_D0_C1_C2 + d_Dr10_C3_C1_C2
+   + d_Dr10_C4_C1_C2 + d_Dr10_C5_C1_C2 <= 1
+ Drone_retrieved_Dr10_C2_C3: d_Dr10_D0_C3_C2 + d_Dr10_C1_C3_C2
+   + d_Dr10_C4_C3_C2 + d_Dr10_C5_C3_C2 <= 1
+ Drone_retrieved_Dr10_C2_C4: d_Dr10_D0_C4_C2 + d_Dr10_C1_C4_C2
+   + d_Dr10_C3_C4_C2 + d_Dr10_C5_C4_C2 <= 1
+ Drone_retrieved_Dr10_C2_C5: d_Dr10_D0_C5_C2 + d_Dr10_C1_C5_C2
+   + d_Dr10_C3_C5_C2 + d_Dr10_C4_C5_C2 <= 1
+ Drone_retrieved_Dr10_C3_D0: d_Dr10_C1_D0_C3 + d_Dr10_C2_D0_C3
+   + d_Dr10_C4_D0_C3 + d_Dr10_C5_D0_C3 <= 1
+ Drone_retrieved_Dr10_C3_C1: d_Dr10_D0_C1_C3 + d_Dr10_C2_C1_C3
+   + d_Dr10_C4_C1_C3 + d_Dr10_C5_C1_C3 <= 1
+ Drone_retrieved_Dr10_C3_C2: d_Dr10_D0_C2_C3 + d_Dr10_C1_C2_C3
+   + d_Dr10_C4_C2_C3 + d_Dr10_C5_C2_C3 <= 1
+ Drone_retrieved_Dr10_C3_C4: d_Dr10_D0_C4_C3 + d_Dr10_C1_C4_C3
+   + d_Dr10_C2_C4_C3 + d_Dr10_C5_C4_C3 <= 1
+ Drone_retrieved_Dr10_C3_C5: d_Dr10_D0_C5_C3 + d_Dr10_C1_C5_C3
+   + d_Dr10_C2_C5_C3 + d_Dr10_C4_C5_C3 <= 1
+ Drone_retrieved_Dr10_C4_D0: d_Dr10_C1_D0_C4 + d_Dr10_C2_D0_C4
+   + d_Dr10_C3_D0_C4 + d_Dr10_C5_D0_C4 <= 1
+ Drone_retrieved_Dr10_C4_C1: d_Dr10_D0_C1_C4 + d_Dr10_C2_C1_C4
+   + d_Dr10_C3_C1_C4 + d_Dr10_C5_C1_C4 <= 1
+ Drone_retrieved_Dr10_C4_C2: d_Dr10_D0_C2_C4 + d_Dr10_C1_C2_C4
+   + d_Dr10_C3_C2_C4 + d_Dr10_C5_C2_C4 <= 1
+ Drone_retrieved_Dr10_C4_C3: d_Dr10_D0_C3_C4 + d_Dr10_C1_C3_C4
+   + d_Dr10_C2_C3_C4 + d_Dr10_C5_C3_C4 <= 1
+ Drone_retrieved_Dr10_C4_C5: d_Dr10_D0_C5_C4 + d_Dr10_C1_C5_C4
+   + d_Dr10_C2_C5_C4 + d_Dr10_C3_C5_C4 <= 1
+ Drone_retrieved_Dr10_C5_D0: d_Dr10_C1_D0_C5 + d_Dr10_C2_D0_C5
+   + d_Dr10_C3_D0_C5 + d_Dr10_C4_D0_C5 <= 1
+ Drone_retrieved_Dr10_C5_C1: d_Dr10_D0_C1_C5 + d_Dr10_C2_C1_C5
+   + d_Dr10_C3_C1_C5 + d_Dr10_C4_C1_C5 <= 1
+ Drone_retrieved_Dr10_C5_C2: d_Dr10_D0_C2_C5 + d_Dr10_C1_C2_C5
+   + d_Dr10_C3_C2_C5 + d_Dr10_C4_C2_C5 <= 1
+ Drone_retrieved_Dr10_C5_C3: d_Dr10_D0_C3_C5 + d_Dr10_C1_C3_C5
+   + d_Dr10_C2_C3_C5 + d_Dr10_C4_C3_C5 <= 1
+ Drone_retrieved_Dr10_C5_C4: d_Dr10_D0_C4_C5 + d_Dr10_C1_C4_C5
+   + d_Dr10_C2_C4_C5 + d_Dr10_C3_C4_C5 <= 1
  Update_time_Tr1_C1: - 0.3583333333333333 x[Tr1,D0,C1]
    - 0.1083333333333334 x[Tr1,C2,C1] - 0.1966666666666667 x[Tr1,C3,C1]
    - 0.5016666666666666 x[Tr1,C4,C1] - 0.0483333333333333 x[Tr1,C5,C1]

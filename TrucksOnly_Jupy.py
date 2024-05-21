@@ -464,8 +464,10 @@ for drone in Dr:
                         # And t[truck,retireval] cannot equal 0
                         model.addConstr(t[truck, retireval] <= t[truck, node] + M * (1 - d[drone, node, customer, retireval]), name=f'Drone_retrieval_time_{drone}_{node}_{customer}_{retireval}')
     i += 1
+"""
 
-# Constraint 18: Ensures arrival time of drone at node j is after departure (launch) time from node i based on
+
+# Constraint 18: Ensures arrival time of drone at node j "customer" is after departure (launch) time from node i "base" based on
 # euclidean distance dijE. Big M deactivates constraint if drone doesnt make direct trip between the two nodes.
 
 # Loop over each drone
@@ -485,9 +487,12 @@ for drone in Dr:
                         # Add a constraint to the model that the decision variable for the current drone, node, customer, and retrieval node
                         # is less than or equal to the decision variable for the current drone, node, and customer
                         # And t[truck,retireval] cannot equal 0
-                        model.addConstr(t[truck, retireval] >= t[truck, node] + drone_time_dict[(node, retireval)] - M * (1 - d[drone, node, customer, retireval]), name=f'Drone_arrival_time_{drone}_{node}_{customer}_{retireval}')
+                        model.addConstr(
+                            t[drone, customer] >= t[drone, node] + drone_time_dict[(node, retireval)] - M * (1 - d[drone, node, customer, retireval]),
+                            name=f'Drone_arrival_time_{drone}_{node}_{customer}_{retireval}')
     i += 1
 
+"""
 # Constraint 19: Ensures that the time of retrieval at node k occurs after the time of delivery of the drone at node j
 # based on euclidean distance dijE. Big M deactivates constraint if drone doesnt make direct trip between the two nodes.
 

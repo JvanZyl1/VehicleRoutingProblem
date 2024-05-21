@@ -104,6 +104,7 @@ model = Model("Truck_Routing")
 x = model.addVars(Tr, [(i, j) for i in N for j in N if i != j], lb=0, ub=1, vtype=GRB.BINARY, name='x')
 y = model.addVars(V, lb=0, ub=1, vtype=GRB.BINARY, name='y')
 t = model.addVars(V, N, lb=0, vtype=GRB.CONTINUOUS, name='t')
+t_max = model.addVar(lb=0, vtype=GRB.CONTINUOUS, name='t_max') #used for the minimising the max delivery time (find max time of all trucks, not each individual truck)
 # Make one for the drones as well
 # [v, i, j, k] -> vehicle, node_from, node_to, node_retrieve
 # Initialize an empty dictionary to hold the decision variables
@@ -124,10 +125,18 @@ for drone in Dr:
                         d[drone, node, customer, retrival] = model.addVar(lb=0, ub=1, vtype=GRB.BINARY, name=f'd_{drone}_{node}_{customer}_{retrival}')
 
 
+# Objective 1: Cost both due to transportation and base cost of using truck if active)
+cost_obj = quicksum(C_T * distance_dict[i,j] * x[v,i,j] for i in N for j in N if i != j for v in V) + quicksum(C_B * y[v] for v in V)
+# Objective 2: environmental_obj is distance[i,j] * Weight* x[v,i,j] for all v,i,j (i.e. energy consumption)
+environmental_obj = quicksum(distance_dict[i,j] * W_T * x[v,i,j] for i in N for j in N if i != j for v in V)
+# Objective 3: minimise max delivery time for each truck
+time_obj = t_max
+
 # Objective function (minimize cost both due to transportation and base cost of using truck if active)
 cost_obj = quicksum(C_T * distance_dict[i,j] * x[truck,i,j] for i in N for j in N if i != j for truck in Tr) + quicksum(C_B * y[v] for v in V)
 
-model.setObjective(cost_obj, GRB.MINIMIZE)
+obj = cost_obj + environmental_obj + time_obj
+model.setObjective(obj, GRB.MINIMIZE)
 
 model.update()
 
@@ -239,6 +248,13 @@ for truck in Tr:
 
         # Add a constraint to the model that the time at which the truck arrives at the customer is equal to the sum for the current customer
         model.addConstr(t[truck, customer] == sum_for_current_customer, name=f'Update_time_{truck}_{customer}')
+
+
+# Constraint 9: Update max delivery time variable
+for vehicle in V:
+    for customer in N_customers:
+        # Add a constraint to the model that the maximum delivery time is greater than or equal to the delivery time to the customer for each vehicle
+        model.addConstr(t_max >= t[vehicle, customer], name=f'Update_max_delivery_time_{vehicle}_{customer}')
 
 # Constraint 9: Ensures each drone is launched at most once at all customer and depot nodes
 for drone in Dr:

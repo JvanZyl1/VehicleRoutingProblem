@@ -218,9 +218,9 @@ for truck in V:
 # Constraint 6: Payloads :TRUCKS
 
 # The total payload delivered to the customer must be less or equal to the truck load capacity Q_T
-for v in V:
-    model.addConstr(quicksum(dataset.data[i]['Demand'] * x[v, i, j] for i in N for j in N if i != j) <= Q_T, 
-                    name=f'Payload_{v}')
+for truck in Tr:
+    model.addConstr(quicksum(dataset.data[i]['Demand'] * x[truck, i, j] for i in N for j in N if i != j) <= Q_T, 
+                    name=f'Payload_{truck}')
 
 # Constraint 7: Link y variable to x variable : TRUCKS
 #if any link in x (for each truck) is active -> y = 1

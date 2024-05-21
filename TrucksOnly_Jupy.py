@@ -35,8 +35,7 @@ C_B = 500 #basis cost of using a truck equipped with a drone [monetary unit]
 E = 0.5 #maximum endurance of empty drones [hours]
 S_T = 60 #average travel speed of the trucks [km/h]
 S_D = 65 #average travel speed of the drones [km/h]
-#Define Big M constant
-M = 500 
+M = 500 #BigM constant
 
 ## FUNCTIONS ##
 def get_manhattan_distance(data):
@@ -371,7 +370,7 @@ for drone in Dr:
                         # Add a constraint to the model that the decision variable for the current drone, node, customer, and retrieval node
                         # is less than or equal to the decision variable for the current drone, node, and customer
                         # And t[truck,retireval] cannot equal 0
-                        model.addConstr(t[truck, retireval] >= t[truck, node] - M * (1 - d[drone, node, customer, retireval]), name=f'Drone_delivery_sequence_{drone}_{node}_{customer}_{retireval}')
+                        model.addConstr(t[truck, retireval] >= t[truck, node] - M_subtour * (1 - d[drone, node, customer, retireval]), name=f'Drone_delivery_sequence_{drone}_{node}_{customer}_{retireval}')
                         #model.addConstr(t[truck, retireval] >= 0, name=f'Drone_delivery_sequence_{drone}_{node}_{customer}_{retireval}_time')
     i += 1
 
@@ -397,7 +396,7 @@ for drone in Dr:
                         # is less than or equal to the decision variable for the current drone, node, and customer
                         # And t[truck,retireval] cannot equal 0
                         model.addConstr(
-                            t[drone, node] >= t[truck, node] - M * (1 - d[drone, node, customer, retireval]),
+                            t[drone, node] >= t[truck, node] - M_subtour * (1 - d[drone, node, customer, retireval]),
                             name=f'Drone_launch_time_greater_{drone}_{node}_{customer}_{retireval}'
                         )
     i += 1
@@ -449,7 +448,7 @@ for drone in Dr:
                         # is less than or equal to the decision variable for the current drone, node, and customer
                         # And t[truck,retireval] cannot equal 0
                         model.addConstr(
-                            t[drone, retireval] >= t[truck, retireval] - M * (1 - d[drone, node, customer, retireval]),
+                            t[drone, retireval] >= t[truck, retireval] - M_subtour * (1 - d[drone, node, customer, retireval]),
                             name=f'Drone_retrieval_time_{drone}_{node}_{customer}_{retireval}'
                         )
     i += 1
@@ -499,7 +498,7 @@ for drone in Dr:
                         # is less than or equal to the decision variable for the current drone, node, and customer
                         # And t[truck,retireval] cannot equal 0
                         model.addConstr(
-                            t[drone, customer] >= t[drone, node] + drone_time_dict[(node, customer)] - M * (1 - d[drone, node, customer, retireval]),
+                            t[drone, customer] >= t[drone, node] + drone_time_dict[(node, customer)] - M_subtour * (1 - d[drone, node, customer, retireval]),
                             name=f'Drone_arrival_time_{drone}_{node}_{customer}_{retireval}')
     i += 1
 
@@ -524,19 +523,15 @@ for drone in Dr:
                         # is less than or equal to the decision variable for the current drone, node, and customer
                         # And t[truck,retireval] cannot equal 0
                         model.addConstr(
-                            t[truck, retireval] <= t[truck, node] + drone_time_dict[(node, retireval)] + M * (1 - d[drone, node, customer, retireval]),
-                            name=f'Drone_retrieval_time_{drone}_{node}_{customer}_{retireval}'
-                        )
-                        model.addConstr(
-                            t[drone, retireval] >= t[drone, customer] + drone_time_dict[(customer, retireval)] - M * (1 - d[drone, node, customer, retireval]),
+                            t[drone, retireval] >= t[drone, customer] + drone_time_dict[(customer, retireval)] - M_subtour * (1 - d[drone, node, customer, retireval]),
                             name=f'Drone_retrieval_time_{drone}_{node}_{customer}_{retireval}'
                         )
     i += 1
 
-"""
+
 # Constraint 20: Ensures total flight time of drone is less than its maximum endurance.
 # Big M deactivates constraint if drone doesnt make direct trip between the two nodes.
-"""
+
 
 # Constraint21: If a truck is active, the corresponding drone is also active (link y[truck] to corresponding y[drone])
 

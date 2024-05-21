@@ -5,6 +5,9 @@ gurobi.lic
 Pipfile
 Pipfile.lock
 
+
+TruckonlySimple.lp
+
 #model files
 *.lp
 *.mps

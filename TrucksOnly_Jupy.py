@@ -333,7 +333,7 @@ for drone in Dr:
                     # Skip if the node is the same as the customer or the retrieval node
                     if retireval != node and retireval != customer:
                         # If d[drone, node, customer, retireval] is active, then x[truck, node, retireval]must be active
-                        model.addConstr(d[drone, node, customer, retireval] == x[truck, node, retireval], name=f'Drone_launched_retrieved_{drone}_{node}_{customer}_{retireval}')
+                        model.addConstr(d[drone, node, customer, retireval] <= x[truck, node, retireval], name=f'Drone_launched_retrieved_{drone}_{node}_{customer}_{retireval}')
                     
     i += 1
 
@@ -368,18 +368,140 @@ for drone in Dr:
 # Constraint 14: Launch time of drone at node i cannot be earlier than arrival time of the truck at same node
 # unless drone is not launched at node i (big M constant negates this constraint in this case)
 
+# Loop over each drone
+i = 0
+for drone in Dr:
+    truck = Tr[i]
+    # Loop over each node
+    for node in N:
+        # Loop over each customer
+        for customer in N:
+            # Skip if the node is the same as the customer
+            if node != customer:
+                # Loop over each node again
+                for retireval in N:
+                    # Skip if the node is the same as the customer or the retrieval node
+                    if retireval != node and retireval != customer:
+                        # Add a constraint to the model that the decision variable for the current drone, node, customer, and retrieval node
+                        # is less than or equal to the decision variable for the current drone, node, and customer
+                        # And t[truck,retireval] cannot equal 0
+                        model.addConstr(t[truck, retireval] >= t[truck, node] - M * (1 - d[drone, node, customer, retireval]), name=f'Drone_launch_time_{drone}_{node}_{customer}_{retireval}')
+    i += 1
+
 # Constraint 15: Launch time of drone at node i cannot be later than arrival time of the truck at same node
 # unless drone is not launched at node i (big M constant negates this constraint in this case)
 
+# Loop over each drone
+i = 0
+for drone in Dr:
+    truck = Tr[i]
+    # Loop over each node
+    for node in N:
+        # Loop over each customer
+        for customer in N:
+            # Skip if the node is the same as the customer
+            if node != customer:
+                # Loop over each node again
+                for retireval in N:
+                    # Skip if the node is the same as the customer or the retrieval node
+                    if retireval != node and retireval != customer:
+                        # Add a constraint to the model that the decision variable for the current drone, node, customer, and retrieval node
+                        # is less than or equal to the decision variable for the current drone, node, and customer
+                        # And t[truck,retireval] cannot equal 0
+                        model.addConstr(t[truck, retireval] <= t[truck, node] + M * (1 - d[drone, node, customer, retireval]), name=f'Drone_launch_time_{drone}_{node}_{customer}_{retireval}')
+    i += 1
+
 # Constraint 16: Ensures drone retrieval time at node k is not earlier than truck's arrival at that node.
 
+# Loop over each drone
+i = 0
+for drone in Dr:
+    truck = Tr[i]
+    # Loop over each node
+    for node in N:
+        # Loop over each customer
+        for customer in N:
+            # Skip if the node is the same as the customer
+            if node != customer:
+                # Loop over each node again
+                for retireval in N:
+                    # Skip if the node is the same as the customer or the retrieval node
+                    if retireval != node and retireval != customer:
+                        # Add a constraint to the model that the decision variable for the current drone, node, customer, and retrieval node
+                        # is less than or equal to the decision variable for the current drone, node, and customer
+                        # And t[truck,retireval] cannot equal 0
+                        model.addConstr(t[truck, retireval] >= t[truck, node] - M * (1 - d[drone, node, customer, retireval]), name=f'Drone_retrieval_time_{drone}_{node}_{customer}_{retireval}')
+    i += 1
+
+
 # Constraint 17: Ensures drone retrieval time at node k is not later than truck's arrival at that node.
+
+
+# Loop over each drone
+i = 0
+for drone in Dr:
+    truck = Tr[i]
+    # Loop over each node
+    for node in N:
+        # Loop over each customer
+        for customer in N:
+            # Skip if the node is the same as the customer
+            if node != customer:
+                # Loop over each node again
+                for retireval in N:
+                    # Skip if the node is the same as the customer or the retrieval node
+                    if retireval != node and retireval != customer:
+                        # Add a constraint to the model that the decision variable for the current drone, node, customer, and retrieval node
+                        # is less than or equal to the decision variable for the current drone, node, and customer
+                        # And t[truck,retireval] cannot equal 0
+                        model.addConstr(t[truck, retireval] <= t[truck, node] + M * (1 - d[drone, node, customer, retireval]), name=f'Drone_retrieval_time_{drone}_{node}_{customer}_{retireval}')
+    i += 1
 
 # Constraint 18: Ensures arrival time of drone at node j is after departure (launch) time from node i based on
 # euclidean distance dijE. Big M deactivates constraint if drone doesnt make direct trip between the two nodes.
 
+# Loop over each drone
+i = 0
+for drone in Dr:
+    truck = Tr[i]
+    # Loop over each node
+    for node in N:
+        # Loop over each customer
+        for customer in N:
+            # Skip if the node is the same as the customer
+            if node != customer:
+                # Loop over each node again
+                for retireval in N:
+                    # Skip if the node is the same as the customer or the retrieval node
+                    if retireval != node and retireval != customer:
+                        # Add a constraint to the model that the decision variable for the current drone, node, customer, and retrieval node
+                        # is less than or equal to the decision variable for the current drone, node, and customer
+                        # And t[truck,retireval] cannot equal 0
+                        model.addConstr(t[truck, retireval] >= t[truck, node] + drone_time_dict[(node, retireval)] - M * (1 - d[drone, node, customer, retireval]), name=f'Drone_arrival_time_{drone}_{node}_{customer}_{retireval}')
+    i += 1
+
 # Constraint 19: Ensures that the time of retrieval at node k occurs after the time of delivery of the drone at node j
 # based on euclidean distance dijE. Big M deactivates constraint if drone doesnt make direct trip between the two nodes.
+
+# Loop over each drone
+i = 0
+for drone in Dr:
+    truck = Tr[i]
+    # Loop over each node
+    for node in N:
+        # Loop over each customer
+        for customer in N:
+            # Skip if the node is the same as the customer
+            if node != customer:
+                # Loop over each node again
+                for retireval in N:
+                    # Skip if the node is the same as the customer or the retrieval node
+                    if retireval != node and retireval != customer:
+                        # Add a constraint to the model that the decision variable for the current drone, node, customer, and retrieval node
+                        # is less than or equal to the decision variable for the current drone, node, and customer
+                        # And t[truck,retireval] cannot equal 0
+                        model.addConstr(t[truck, retireval] <= t[truck, node] + drone_time_dict[(node, retireval)] + M * (1 - d[drone, node, customer, retireval]), name=f'Drone_retrieval_time_{drone}_{node}_{customer}_{retireval}')
+    i += 1
 
 # Constraint 20: Ensures total flight time of drone is less than its maximum endurance.
 # Big M deactivates constraint if drone doesnt make direct trip between the two nodes.

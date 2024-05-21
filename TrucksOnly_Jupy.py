@@ -143,10 +143,10 @@ for vehicle in V:
     
     #### THE ACTIVE PART IS WRONG, NEED TO FIX THIS !!!
     # Add the constraint to the model
-    model.addConstr(sum_for_current_vehicle == 1, name=f'Truck_leaves_depot_{vehicle}')
+    #model.addConstr(sum_for_current_vehicle == 1, name=f'Truck_leaves_depot_{vehicle}')
 
     # Add the constraint to the model
-    #model.addGenConstrIndicator(y[vehicle], 1, sum_for_current_vehicle == 1, name=f'Truck_leaves_depot_if_active_{vehicle}')
+    model.addGenConstrIndicator(y[vehicle], 1, sum_for_current_vehicle == 1, name=f'Truck_leaves_depot_if_active_{vehicle}')
 
 
 # Constraint 3: Each vehicle arrives at depot if active
@@ -159,10 +159,10 @@ for vehicle in V:
     
     #### THE ACTIVE PART IS WRONG, NEED TO FIX THIS !!!
     # Add the constraint to the model
-    model.addConstr(sum_for_current_vehicle == 1, name=f'Truck_leaves_depot_{vehicle}')
+    #model.addConstr(sum_for_current_vehicle == 1, name=f'Truck_leaves_depot_{vehicle}')
 
     # Add the constraint to the model
-    #model.addGenConstrIndicator(y[vehicle], 1, sum_for_current_vehicle == 1, name=f'Truck_leaves_depot_if_active_{vehicle}')
+    model.addGenConstrIndicator(y[vehicle], 1, sum_for_current_vehicle == 1, name=f'Truck_leaves_depot_if_active_{vehicle}')
 
 
 # Constraint 4: If a vehicle arrives at a customer node it must also leave
@@ -179,7 +179,7 @@ for vehicle in V:
 #Constraint 5: Time at a node is equal or larger than time at previous nodes plus travel time (or irrelevant). Eliminates need for subtour constraints.
 # Define a large constant M for the big-M method
 '''
-M_subtour = 6000000  # Make sure M is larger than the maximum possible travel time
+M_subtour = 600000  # Make sure M is larger than the maximum possible travel time
 
 # Add time constraints for all vehicles, nodes, and customers
 for vehicle in V:
@@ -225,7 +225,40 @@ for vehicle in V:
         # Add a constraint to the model that the time at which the vehicle arrives at the customer is equal to the sum for the current customer
         model.addConstr(t[vehicle, customer] == sum_for_current_customer, name=f'Update_time_{vehicle}_{customer}')
 
+# Constraint 9: Ensures each drone is launched at most once at all customer and depot nodes
+# (GPT: "prevents multiple drone operations from a single node for each vehicle,
+# making sure that a drone is involved in only one delivery mission at a time before it has to be retrieved.").
 
+# Constraint 10: Ensures each drone is retrieved at most once at all customer and depot nodes.
+
+# Constraint 11: Esnures drones are not loaded beyond its load capacity during flight.
+
+# Constraint 12: Ensures that if drone is launched at node i and retrieved at node k,
+# the truck must also pass through both nodes to launch/retrieve the drone.
+
+# Constraint 13: Ensures delivery sequence of trucks is consistent with that of the drones
+# (GPT: "This constraint ensures that if a drone is deployed for a mission from node i to j and retrieved at node k,
+# the truck must visit node i before node k. Essentially, it ties the truck's routing to the drone's operations,
+# ensuring that the sequence of visits is logically consistent with the drone's deployment and retrieval.").
+
+# Constraint 14: Launch time of drone at node i cannot be earlier than arrival time of the truck at same node
+# unless drone is not launched at node i (big M constant negates this constraint in this case)
+
+# Constraint 15: Launch time of drone at node i cannot be later than arrival time of the truck at same node
+# unless drone is not launched at node i (big M constant negates this constraint in this case)
+
+# Constraint 16: Ensures drone retrieval time at node k is not earlier than truck's arrival at that node.
+
+# Constraint 17: Ensures drone retrieval time at node k is not later than truck's arrival at that node.
+
+# Constraint 18: Ensures arrival time of drone at node j is after departure (launch) time from node i based on
+# euclidean distance dijE. Big M deactivates constraint if drone doesnt make direct trip between the two nodes.
+
+# Constraint 19: Ensures that the time of retrieval at node k occurs after the time of delivery of the drone at node j
+# based on euclidean distance dijE. Big M deactivates constraint if drone doesnt make direct trip between the two nodes.
+
+# Constraint 20: Ensures total flight time of drone is less than its maximum endurance.
+# Big M deactivates constraint if drone doesnt make direct trip between the two nodes.
 
 ## SOLVE MODEL ##
 
@@ -236,7 +269,7 @@ model.update()
 model.write('TruckonlySimple.lp')
 
 # Tune solver parameters
-model.tune()
+#model.tune()
 
 # Optimize the model
 model.optimize()

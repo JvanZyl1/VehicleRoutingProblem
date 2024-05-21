@@ -387,7 +387,7 @@ for drone in Dr:
                         # And t[truck,retireval] cannot equal 0
                         model.addConstr(
                             t[drone, node] >= t[truck, node] - M * (1 - d[drone, node, customer, retireval]),
-                            name=f'Drone_launch_time_{drone}_{node}_{customer}_{retireval}'
+                            name=f'Drone_launch_time_greater_{drone}_{node}_{customer}_{retireval}'
                         )
     i += 1
 
@@ -412,11 +412,14 @@ for drone in Dr:
                         # Add a constraint to the model that the decision variable for the current drone, node, customer, and retrieval node
                         # is less than or equal to the decision variable for the current drone, node, and customer
                         # And t[truck,retireval] cannot equal 0
-                        model.addConstr(t[truck, retireval] <= t[truck, node] + M * (1 - d[drone, node, customer, retireval]), name=f'Drone_launch_time_{drone}_{node}_{customer}_{retireval}')
+                        model.addConstr(
+                            t[drone, node] <= t[truck, node] - M * (1 - d[drone, node, customer, retireval]),
+                            name=f'Drone_launch_time_less_{drone}_{node}_{customer}_{retireval}'
+                        )
     i += 1
+"""
 
 # Constraint 16: Ensures drone retrieval time at node k is not earlier than truck's arrival at that node.
-
 # Loop over each drone
 i = 0
 for drone in Dr:
@@ -434,13 +437,14 @@ for drone in Dr:
                         # Add a constraint to the model that the decision variable for the current drone, node, customer, and retrieval node
                         # is less than or equal to the decision variable for the current drone, node, and customer
                         # And t[truck,retireval] cannot equal 0
-                        model.addConstr(t[truck, retireval] >= t[truck, node] - M * (1 - d[drone, node, customer, retireval]), name=f'Drone_retrieval_time_{drone}_{node}_{customer}_{retireval}')
+                        model.addConstr(
+                            t[drone, retireval] >= t[truck, retireval] - M * (1 - d[drone, node, customer, retireval]),
+                            name=f'Drone_retrieval_time_{drone}_{node}_{customer}_{retireval}'
+                        )
     i += 1
 
-
+"""
 # Constraint 17: Ensures drone retrieval time at node k is not later than truck's arrival at that node.
-
-
 # Loop over each drone
 i = 0
 for drone in Dr:

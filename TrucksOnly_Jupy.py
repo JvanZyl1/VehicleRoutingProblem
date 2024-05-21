@@ -293,13 +293,53 @@ for drone in Dr:
 
 # Constraint 11: Esnures drones are not loaded beyond its load capacity during flight.
 
+# Loop over each drone
+for drone in Dr:
+    # Loop over each node
+    for node in N:
+        # Loop over each customer
+        for customer in N:
+            # Skip if the node is the same as the customer
+            if node != customer:
+                # Initialize the sum for the current customer
+                sum_for_current_customer = 0
+
+                # Loop over each node
+                for i in N:
+                    # Get the decision variable for the current drone, node, i, and customer
+                    decision_variable = d.get((drone, node, i, customer), 0)
+
+                    # Multiply the demand of node i by the decision variable and add it to the sum for the current customer
+                    sum_for_current_customer += dataset.data[i]['Demand'] * decision_variable
+
+                # Add a constraint to the model that the sum for the current customer is less than or equal to the drone's capacity
+                model.addConstr(sum_for_current_customer <= Q_D, name=f'Drone_payload_{drone}_{node}_{customer}')
+
 # Constraint 12: Ensures that if drone is launched at node i and retrieved at node k,
 # the truck must also pass through both nodes to launch/retrieve the drone.
+
+# Loop over each drone
+for drone in Dr:
+    # Loop over each node
+    for node in N:
+        # Loop over each customer
+        for customer in N:
+            # Skip if the node is the same as the customer
+            if node != customer:
+                # Loop over each node again
+                for retireval in N:
+                    # Skip if the node is the same as the customer or the retrieval node
+                    if retireval != node and retireval != customer:
+                        # Add a constraint to the model that the decision variable for the current drone, node, customer, and retrieval node
+                        # is less than or equal to the decision variable for the current drone, node, and customer
+                        model.addConstr(d.get((drone, node, customer, retireval), 0) <= d.get((drone, node, customer, retireval), 0), name=f'Drone_launch_retrieve_{drone}_{node}_{customer}_{retireval}')
 
 # Constraint 13: Ensures delivery sequence of trucks is consistent with that of the drones
 # (GPT: "This constraint ensures that if a drone is deployed for a mission from node i to j and retrieved at node k,
 # the truck must visit node i before node k. Essentially, it ties the truck's routing to the drone's operations,
 # ensuring that the sequence of visits is logically consistent with the drone's deployment and retrieval.").
+
+
 
 # Constraint 14: Launch time of drone at node i cannot be earlier than arrival time of the truck at same node
 # unless drone is not launched at node i (big M constant negates this constraint in this case)

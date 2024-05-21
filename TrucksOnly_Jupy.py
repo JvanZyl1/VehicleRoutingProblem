@@ -138,7 +138,9 @@ for drone in Dr:
 
 
 # Objective 1: Cost both due to transportation and base cost of using truck if active)
-cost_obj = quicksum(C_T * truck_distance_dict[i,j] * x[v,i,j] for i in N for j in N if i != j for v in V) + quicksum(C_B * y[v] for v in V)
+cost_obj = quicksum(C_T * truck_distance_dict[i,j] * x[v,i,j] for i in N for j in N if i != j for v in V) + \
+           quicksum(C_B * y[v] for v in V) + \
+           quicksum(C_D * drone_distance_dict[i,j,k] * d[drone,i,j,k] for i in N for j in N for k in N if i != j if i != k if j != k for drone in Dr)
 # Objective 2: environmental_obj is distance[i,j] * Weight* x[v,i,j] for all v,i,j (i.e. energy consumption)
 environmental_obj = quicksum(truck_distance_dict[i,j] * W_T * x[v,i,j] for i in N for j in N if i != j for v in V)
 # Objective 3: minimise max delivery time for each truck

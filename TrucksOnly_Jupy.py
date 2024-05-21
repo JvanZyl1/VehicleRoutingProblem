@@ -102,10 +102,9 @@ Tr = [f'Tr{i}' for i in range(1, num_trucks+1)] #set of trucks
 
 num_drones = num_trucks
 # V is the set of vehicles, which includes the trucks and the drones
-V = Tr
 Dr = [f'Dr{i}' for i in range(1, num_drones+1)] #set of drones
-V += Dr
-
+V = Tr + Dr
+print(Tr)
 
 ## DEFINE MODEL ##
 
@@ -138,11 +137,11 @@ for drone in Dr:
 
 
 # Objective 1: Cost both due to transportation and base cost of using truck if active)
-cost_obj = quicksum(C_T * truck_distance_dict[i,j] * x[v,i,j] for i in N for j in N if i != j for v in V) + \
-           quicksum(C_B * y[v] for v in V) + \
+cost_obj = quicksum(C_T * truck_distance_dict[i,j] * x[truck,i,j] for i in N for j in N if i != j for truck in Tr) + \
+           quicksum(C_B * y[truck] for truck in Tr) + \
            quicksum(C_D * (drone_distance_dict[i,j] + drone_distance_dict[j,k]) * d[drone,i,j,k] for i in N for j in N for k in N if i != j if i != k if j != k for drone in Dr)
 # Objective 2: environmental_obj is distance[i,j] * Weight* x[v,i,j] for all v,i,j (i.e. energy consumption)
-environmental_obj = quicksum(truck_distance_dict[i,j] * W_T * x[v,i,j] for i in N for j in N if i != j for v in V)
+environmental_obj = quicksum(truck_distance_dict[i,j] * W_T * x[truck,i,j] for i in N for j in N if i != j for truck in Tr)
 # Objective 3: minimise max delivery time for each truck
 time_obj = t_max
 
@@ -339,7 +338,7 @@ for drone in Dr:
                     
     i += 1
 
-
+"""
 # Constraint 13: Ensures delivery sequence of trucks is consistent with that of the drones
 # (GPT: "This constraint ensures that if a drone is deployed for a mission from node i to j and retrieved at node k,
 # the truck must visit node i before node k. Essentially, it ties the truck's routing to the drone's operations,
@@ -507,7 +506,7 @@ for drone in Dr:
 
 # Constraint 20: Ensures total flight time of drone is less than its maximum endurance.
 # Big M deactivates constraint if drone doesnt make direct trip between the two nodes.
-
+"""
 ## SOLVE MODEL ##
 
 # Update the model to integrate constraints
@@ -536,8 +535,9 @@ else:
 
 # Extract and store the solution
 solution = {var.varName: var.x for var in model.getVars()}
+print(solution)
 
-
+"""
 # Print all routes for each vehicle
 for vehicle in V:
     #print active vehicle (y)
@@ -592,4 +592,4 @@ print('timestamps', timestamps)
 
 #print all solution variables which have value of 1
 dataset.plot_data(show_demand=False, scale_nodes=True, show_labels=True, active_routes=active_routes)
-
+"""

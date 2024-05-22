@@ -199,9 +199,6 @@ for truck in Tr:
     sum_for_current_vehicle = quicksum(x[truck, 'D0', customer] for customer in N_customers)
     model.addConstr(sum_for_current_vehicle == y[truck], name=f'Truck_leaves_depot_{truck}')
 
-    # Add the constraint to the model
-    model.addGenConstrIndicator(y[truck], 1, sum_for_current_vehicle == 1, name=f'Truck_leaves_depot_if_active_{truck}')
-
 
 # Constraint 3: Each truck arrives at depot if active : TRUCKS
 

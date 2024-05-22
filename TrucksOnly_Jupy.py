@@ -238,7 +238,7 @@ for truck in Tr:
                     name=f'Time_{truck}_{node}_{customer}'
                 )
 
-# Constraint 6: Payloads :TRUCKS
+# Constraint 6: Payloads : TRUCKS
 
 # The total payload delivered to the customer must be less or equal to the truck load capacity Q_T
 for truck in Tr:
@@ -279,7 +279,7 @@ for truck in Tr:
         # Add a constraint to the model that the maximum delivery time is greater than or equal to the delivery time to the customer for each vehicle
         model.addConstr(t_max >= t[truck, customer], name=f'Update_max_delivery_time_{truck}_{customer}')
 
-# Constraint 9: Ensures each drone is launched at most once at all customer and depot nodes
+# Constraint 10: Ensures each drone is launched at most once at all customer and depot nodes
 for drone in Dr:
     for node in N:
         for customer in N:
@@ -290,7 +290,7 @@ for drone in Dr:
                         sum_for_current_customer += d.get((drone, node, customer, retireval), 0)
                 model.addConstr(sum_for_current_customer <= 1, name=f'Drone_launched_{drone}_{node}_{customer}')
     
-# Constraint 10: Ensures each drone is retrieved at most once at all customer and depot nodes.
+# Constraint 11: Ensures each drone is retrieved at most once at all customer and depot nodes.
 
 for drone in Dr:
     for node in N:
@@ -302,7 +302,7 @@ for drone in Dr:
                         sum_for_current_customer += d.get((drone, retireval, customer, node), 0)
                 model.addConstr(sum_for_current_customer <= 1, name=f'Drone_retrieved_{drone}_{node}_{customer}')
 
-# Constraint 11: Esnures drones are not loaded beyond its load capacity during flight.
+# Constraint 12: Ensures drones are not loaded beyond its load capacity during flight.
 
 # Loop over each drone
 for drone in Dr:
@@ -326,7 +326,7 @@ for drone in Dr:
                 # Add a constraint to the model that the sum for the current customer is less than or equal to the drone's capacity
                 model.addConstr(sum_for_current_customer <= Q_D, name=f'Drone_payload_{drone}_{node}_{customer}')
 
-# Constraint 12: Ensures that if drone is launched at node i and retrieved at node k,
+# Constraint 13: Ensures that if drone is launched at node i and retrieved at node k,
 # the truck must also pass through both nodes to launch/retrieve the drone.
 
 # Loop over each drone
@@ -348,7 +348,7 @@ for drone in Dr:
                     
     i += 1
 
-# Constraint 13: Ensures delivery sequence of trucks is consistent with that of the drones
+# Constraint 14: Ensures delivery sequence of trucks is consistent with that of the drones
 # (GPT: "This constraint ensures that if a drone is deployed for a mission from node i to j and retrieved at node k,
 # the truck must visit node i before node k. Essentially, it ties the truck's routing to the drone's operations,
 # ensuring that the sequence of visits is logically consistent with the drone's deployment and retrieval.").
@@ -375,7 +375,7 @@ for drone in Dr:
     i += 1
 
 
-# Constraint 14: Launch time of drone at node i cannot be earlier than arrival time of the truck at same node
+# Constraint 15: Launch time of drone at node i cannot be earlier than arrival time of the truck at same node
 # unless drone is not launched at node i (big M constant negates this constraint in this case)
 
 # Loop over each drone
@@ -402,7 +402,7 @@ for drone in Dr:
     i += 1
 
 """
-# Constraint 15: Launch time of drone at node i cannot be later than arrival time of the truck at same node
+# Constraint 16: Launch time of drone at node i cannot be later than arrival time of the truck at same node
 # unless drone is not launched at node i (big M constant negates this constraint in this case)
 
 # Loop over each drone
@@ -429,7 +429,7 @@ for drone in Dr:
     i += 1
 """
 
-# Constraint 16: Ensures drone retrieval time at node k is not earlier than truck's arrival at that node.
+# Constraint 17: Ensures drone retrieval time at node k is not earlier than truck's arrival at that node.
 # Loop over each drone
 i = 0
 for drone in Dr:
@@ -454,7 +454,7 @@ for drone in Dr:
     i += 1
 
 """
-# Constraint 17: Ensures drone retrieval time at node k is not later than truck's arrival at that node.
+# Constraint 18: Ensures drone retrieval time at node k is not later than truck's arrival at that node.
 # Loop over each drone
 i = 0
 for drone in Dr:
@@ -477,7 +477,7 @@ for drone in Dr:
 """
 
 
-# Constraint 18: Ensures arrival time of drone at node j "customer" is after departure (launch) time from node i "base" based on
+# Constraint 19: Ensures arrival time of drone at node j "customer" is after departure (launch) time from node i "base" based on
 # euclidean distance dijE. Big M deactivates constraint if drone doesnt make direct trip between the two nodes.
 
 # Loop over each drone
@@ -502,7 +502,7 @@ for drone in Dr:
                             name=f'Drone_arrival_time_{drone}_{node}_{customer}_{retireval}')
     i += 1
 
-# Constraint 19: Ensures that the time of retrieval at node k occurs after the time of delivery of the drone at node j
+# Constraint 20: Ensures that the time of retrieval at node k occurs after the time of delivery of the drone at node j
 # based on euclidean distance dijE. Big M deactivates constraint if drone doesnt make direct trip between the two nodes.
 
 # Loop over each drone
@@ -529,11 +529,11 @@ for drone in Dr:
     i += 1
 
 
-# Constraint 20: Ensures total flight time of drone is less than its maximum endurance.
+# Constraint 21: Ensures total flight time of drone is less than its maximum endurance.
 # Big M deactivates constraint if drone doesnt make direct trip between the two nodes.
 
 
-# Constraint21: If a truck is active, the corresponding drone is also active (link y[truck] to corresponding y[drone])
+# Constraint 22: If a truck is active, the corresponding drone is also active (link y[truck] to corresponding y[drone])
 
 # Loop over each vehicle
 for vehicle in V:

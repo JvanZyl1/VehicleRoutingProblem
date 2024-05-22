@@ -16,3 +16,6 @@ TruckonlySimple.lp
 # pychaches
 __pycache__/
 TruckonlySimple.lp
+
+#Mac stuff
+.DS_Store

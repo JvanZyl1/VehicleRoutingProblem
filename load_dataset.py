@@ -30,6 +30,11 @@ class Dataset():
         data = pd.read_csv(data_path, sep='\t\t', engine='python')
         self.headers = data.columns.to_list() #create a list of headers
         self.data = data.set_index('StringID').to_dict('index') #convert the data to a dictionary
+
+        # add new 'return depot' node 'D1' with the same properties as 'D0' (needed to get return time at depot)
+        depot_properties = self.data['D0']
+        # Add a new depot 'D1' with the same properties
+        self.data['D1'] = depot_properties
     
     def create_graph(self):
         self.graph = nx.Graph()

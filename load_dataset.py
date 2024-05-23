@@ -41,20 +41,18 @@ class Dataset():
         for node, attributes in self.data.items():
             self.graph.add_node(node, x=attributes['X'], y=attributes['Y'], pos=[attributes['X'], attributes['Y']], demand=attributes['Demand'], ServiceBy=attributes['ServiceBy'])
 
-    def plot_data(self, show_demand=False, scale_nodes=True, show_labels=False, active_routes=None):
+    def plot_data(self, show_demand=False, scale_nodes=True, show_labels=False, active_routes=None, show_weights=False):
         plt.figure(figsize=(10, 10))
         pos = nx.get_node_attributes(self.graph, 'pos')
         demand_labels = nx.get_node_attributes(self.graph, 'demand')
         service_by_labels = nx.get_node_attributes(self.graph, 'ServiceBy')
 
         standard_node_size = 400
-        #plot depot node in red, customers only accesible by truck in light blue and customers accesible by both in light green
-        node_colors = ['red' if node == 'D0' else 'lightblue' if service_by_labels.get(node) == 'T' else 'lightgreen' if service_by_labels.get(node) == 'D/T' else '-' for node in self.graph.nodes()]
+        node_colors = ['red' if node == 'D0' else 'lightblue' if service_by_labels.get(node) == 'T' else 'lightgreen' if service_by_labels.get(node) == 'D/T' else 'red' for node in self.graph.nodes()]
         if scale_nodes:
-            #scale_nodes by demand size, ensure depot node is visible as it has demand = 0
             node_sizes = [v * 20 if v > 0 else standard_node_size for v in demand_labels.values()]
         else:
-            node_sizes = standard_node_size  # default size if not scaling
+            node_sizes = standard_node_size
 
         nx.draw(self.graph, pos, with_labels=show_labels, node_size=node_sizes, node_color=node_colors) 
 
@@ -66,16 +64,18 @@ class Dataset():
         if show_demand:
             nx.draw_networkx_labels(self.graph, pos, labels=demand_labels)
 
-        # If active_routes is provided, draw the active edges as links
         if active_routes:
             color_cycle = itertools.cycle(plt.rcParams['axes.prop_cycle'].by_key()['color'])
             for vehicle, route in active_routes.items():
                 vehicle_color = next(color_cycle)
                 for i in range(len(route) - 1):
-                    nx.draw_networkx_edges(self.graph, pos, edgelist=[(route[i], route[i+1])], edge_color=vehicle_color, width=2)
-                plt.plot([], [], color=vehicle_color, label=vehicle)  # Add a legend entry for this vehicle
+                    nx.draw_networkx_edges(self.graph, pos, edgelist=[(route[i][0], route[i][1])], edge_color=vehicle_color, width=2)
+                    if show_weights:
+                        edge_label = {(route[i][0], route[i][1]): route[i][3]}
+                        nx.draw_networkx_edge_labels(self.graph, pos, edge_labels=edge_label, font_color=vehicle_color)
+                plt.plot([], [], color=vehicle_color, label=vehicle)
 
-        plt.legend()  # Show the legend
+        plt.legend()
         plt.show()
     
 if __name__ == '__main__':

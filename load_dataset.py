@@ -68,7 +68,7 @@ class Dataset():
             color_cycle = itertools.cycle(plt.rcParams['axes.prop_cycle'].by_key()['color'])
             for vehicle, route in active_routes.items():
                 vehicle_color = next(color_cycle)
-                for i in range(len(route) - 1):
+                for i in range(len(route)):
                     nx.draw_networkx_edges(self.graph, pos, edgelist=[(route[i][0], route[i][1])], edge_color=vehicle_color, width=2)
                     if show_weights:
                         edge_label = {(route[i][0], route[i][1]): route[i][3]}

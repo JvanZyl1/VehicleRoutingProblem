@@ -9,9 +9,9 @@ Pipfile.lock
 TruckonlySimple.lp
 
 #model files
-*.lp
+#*.lp
 *.mps
-*.sol
+#*.sol
 
 # pychaches
 __pycache__/

@@ -2,8 +2,9 @@ import os
 from load_dataset import Dataset
 import numpy as np
 from scipy.spatial import distance
+import matplotlib.pyplot as plt
 
-##Functions##
+## Functions ##
 def load_solution_variables(solution_file_path):
     solution = {}
     delta = 1e-6  # Small delta for numerical errors
@@ -113,7 +114,7 @@ def get_time_obj(active_routes_truck, time_weight=1):
     return time_weight * time_obj
 ## LOAD DATASET ##
 current_dir = os.getcwd()
-# Select which data folder to use
+#select which data folder to use
 data_subfolder = '0.3'
 data_subfoldercopy = '0.3_copy'
 data_num_nodes = '40'
@@ -121,8 +122,8 @@ data_area = '40'
 
 data_file_name = f'{data_num_nodes}_{data_area}_{data_subfoldercopy}'
 dataset_path = f'dataset/{data_subfolder}/{data_file_name}.txt'
-output_solution_file_path = os.path.join(current_dir, data_file_name + '_solution.sol')#used to save solution file
-output_model_file_path = os.path.join(current_dir, data_file_name + '_model.lp')#used to save model file
+output_solution_file_path = os.path.join(current_dir, 'Solutions', data_file_name + '_solution.sol')
+output_model_file_path = os.path.join(current_dir, 'Solutions', data_file_name + '_model.lp')
 dataset = Dataset(dataset_path)
 N = list(dataset.data.keys()) #set of nodes with depot at start (D0) and at end (D1)
 num_trucks = 5
@@ -141,17 +142,16 @@ S_T = 60 #average travel speed of the trucks [km/h]
 #S_D = 65 #average travel speed of the drones [km/h]
 
 
-# Load solution variables
+## Load Solution from file ##
 solution = load_solution_variables(output_solution_file_path)
 active_routes, active_trucks = extract_active_routes(solution, N, Tr)
-# Sort the routes for each truck according to the timestamps
+#sort the routes for each truck according to the timestamps
 for truck in active_trucks:
     active_routes[truck].sort(key=lambda x: x[2])
 
 print('Active trucks:', active_trucks)
 print('Active routes for trucks:', active_routes)
 
-# Print each seperate objective value after optimisation
 truck_distance_dict = get_manhattan_distance(dataset.data)
 time_dict = get_time_dict(dataset.data, S_T, truck_distance_dict)
 cost_weight = 1
@@ -169,6 +169,8 @@ print('Max delivery time: {} hours, {} minutes, {} seconds'.format(int(t_max_hou
 
 #use plotting method in dataset class to visualise
 dataset.plot_data(show_demand=False, scale_nodes=True, show_labels=True, active_routes=active_routes, show_weights=True)
+plot_name = 'Graph_30_node_solution.png'
+#plt.savefig(plot_name)
 
 
 

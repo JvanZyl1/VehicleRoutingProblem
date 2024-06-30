@@ -97,7 +97,7 @@ The 3 figures below show the mathematical formulation of all the contraints:
 ![Figure 7](./Figures/Contraints2.png)
 ![Figure 8](./Figures/Contraints3.png)
 
-Here, i will give an explanation of each contraint (note some of these are done with help of GPT so dont forget to change wording in report):
+Here, i will give an explanation of each contraint:
 
 * Constraint 8: Ensures each customer is served by either a truck or a drone.
   
@@ -125,7 +125,7 @@ Here, i will give an explanation of each contraint (note some of these are done 
 
 * Constraint 16: Ensures that if drone is launched at node i and retrieved at node k, the truck must also pass through both nodes to launch/retrieve the drone.
 
-* Constraint 17: Ensures delivery sequence of trucks is consistent with that of the drones (GPT: "This constraint ensures that if a drone is deployed for a mission from node i to j and retrieved at node k, the truck must visit node i before node k. Essentially, it ties the truck's routing to the drone's operations, ensuring that the sequence of visits is logically consistent with the drone's deployment and retrieval.").
+* Constraint 17: Ensures delivery sequence of trucks is consistent with that of the drones.
 
 **Contraint 18 and 19 are to do with launch times of drones**
 

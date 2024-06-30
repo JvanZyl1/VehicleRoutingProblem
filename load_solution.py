@@ -169,7 +169,7 @@ print('Max delivery time: {} hours, {} minutes, {} seconds'.format(int(t_max_hou
 
 #use plotting method in dataset class to visualise
 dataset.plot_data(show_demand=False, scale_nodes=True, show_labels=True, active_routes=active_routes, show_weights=True)
-plot_name = 'Graph_30_node_solution.png'
+plot_name = 'Solutions/Graph_30_node_solution.png'
 #plt.savefig(plot_name)
 
 
